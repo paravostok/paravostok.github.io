@@ -4,13 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>paravostok • the website</title>
-  <!-- link to our CSS -->
   <link rel="stylesheet" href="style.css" />
-  <!-- optional: include a simple web font -->
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <!-- === HEADER === -->
   <header class="site-header">
     <div class="wrapper">
       <h1 class="site-title">paravostok</h1>
@@ -18,27 +15,25 @@
     </div>
   </header>
 
-  <!-- === MAIN CONTENT === -->
   <main class="wrapper">
-    <!-- introduction / tagline -->
     <section class="intro">
       <p>
         welcome to my corner of the internet—where i share travel notes, the latest youtube upload, and all my social links. happy scrolling.
       </p>
     </section>
 
-    <!-- latest youtube upload -->
     <section class="block-section">
       <h2 class="block-title">latest youtube upload</h2>
-      <!-- thumbnail with rounded corners; link to your youtube channel or specific video -->
       <a
+        id="youtube-link"
         href="https://www.youtube.com/@paravostok"
         target="_blank"
         rel="noopener noreferrer"
         class="thumbnail-link"
       >
         <img
-          src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg"
+          id="youtube-thumbnail"
+          src=""
           alt="latest youtube thumbnail"
           class="thumbnail-image"
         />
@@ -48,7 +43,6 @@
       </p>
     </section>
 
-    <!-- travel blog latest post -->
     <section class="block-section">
       <h2 class="block-title">travel blog: latest post</h2>
       <div class="post-preview">
@@ -56,83 +50,80 @@
         <p class="post-excerpt">
           spent a wet afternoon riding the metrolink—here’s what i learned about routes, fares, and the best vantage points for photos.
         </p>
-        <a
-          href="posts/manchester-trams.html"
-          class="read-more"
-          >read more →</a
-        >
+        <a href="posts/manchester-trams.html" class="read-more">read more →</a>
       </div>
     </section>
 
-    <!-- social / other links -->
     <section class="block-section">
       <h2 class="block-title">all my links</h2>
       <ul class="social-list">
         <li>
-          <a
-            href="https://www.youtube.com/@paravostok"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-icon"
-            title="youtube"
-          >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/YouTube_social_red_circle_%282024%29.svg/2048px-YouTube_social_red_circle_%282024%29.svg.png"
-              alt="youtube logo"
-            />
+          <a href="https://www.youtube.com/@paravostok" target="_blank" rel="noopener noreferrer" class="social-icon" title="youtube">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/YouTube_social_red_circle_%282024%29.svg/2048px-YouTube_social_red_circle_%282024%29.svg.png" alt="youtube logo" />
           </a>
         </li>
         <li>
-          <a
-            href="https://github.com/paravostok/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-icon"
-            title="github"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
-              alt="github logo"
-            />
+          <a href="https://github.com/paravostok/" target="_blank" rel="noopener noreferrer" class="social-icon" title="github">
+            <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="github logo" />
           </a>
         </li>
         <li>
-          <a
-            href="https://www.twitch.tv/paravostok"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-icon"
-            title="twitch"
-          >
-            <img
-              src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitch-circle-512.png"
-              alt="twitch logo"
-            />
+          <a href="https://www.twitch.tv/paravostok" target="_blank" rel="noopener noreferrer" class="social-icon" title="twitch">
+            <img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitch-circle-512.png" alt="twitch logo" />
           </a>
         </li>
         <li>
-          <a
-            href="https://steamcommunity.com/profiles/76561199097158441"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="social-icon"
-            title="steam"
-          >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg"
-              alt="steam logo"
-            />
+          <a href="https://steamcommunity.com/profiles/76561199097158441" target="_blank" rel="noopener noreferrer" class="social-icon" title="steam">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="steam logo" />
           </a>
         </li>
       </ul>
     </section>
   </main>
 
-  <!-- === FOOTER === -->
   <footer class="site-footer">
     <div class="wrapper">
-      <p>last website update: 2025-06-02</p>
+      <p id="last-update">last website update: </p>
     </div>
   </footer>
+
+  <!-- JS to fetch latest YouTube video and update footer -->
+  <script>
+    // footer date
+    const updateFooterDate = () => {
+      const now = new Date();
+      const yyyy = now.getFullYear();
+      const mm = String(now.getMonth() + 1).padStart(2, '0');
+      const dd = String(now.getDate()).padStart(2, '0');
+      document.getElementById('last-update').textContent = `last website update: ${yyyy}-${mm}-${dd}`;
+    };
+
+    updateFooterDate();
+
+    // youtube latest video using rss2json (no API key needed)
+    async function updateYouTubeThumbnail() {
+      try {
+        const rssUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=UC1JgbSE0oh-euWtCe4q_gfw';
+        const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+
+        if (!data.items || data.items.length === 0) throw new Error("no videos found");
+
+        const latestVideo = data.items[0];
+        const videoId = latestVideo.guid.split(':')[2];
+        const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+        const videoLink = latestVideo.link;
+
+        document.getElementById('youtube-thumbnail').src = thumbnailUrl;
+        document.getElementById('youtube-link').href = videoLink;
+      } catch (err) {
+        console.error("couldn't fetch youtube video via rss2json", err);
+        document.getElementById('youtube-thumbnail').src = "fallback.jpg"; // optional fallback
+      }
+    }
+
+    updateYouTubeThumbnail();
+  </script>
 </body>
 </html>
