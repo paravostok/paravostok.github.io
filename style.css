@@ -1,3 +1,20 @@
+/* === GLOBAL STYLES === */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f2; /* creme background for entire page */
+}
+
+/* constrain youtube thumbnail size */
+.thumbnail-image {
+  width: 100%;
+  max-width: 480px; /* adjust as needed */
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
 /* === TRAVEL BLOG POST PREVIEW === */
 .post-preview {
   background-color: #f9f7f2;
@@ -37,6 +54,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  padding-left: 0;
 }
 
 .social-icon img {
