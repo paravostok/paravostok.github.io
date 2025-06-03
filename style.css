@@ -5,21 +5,78 @@ html, body {
   background-color: #f9f7f2; /* creme background for entire page */
 }
 
-/* constrain youtube thumbnail size */
+/* ensure consistent box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* wrapper to center content */
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* === HEADER === */
+.site-header {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.site-subtitle {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* === YOUTUBE THUMBNAIL CONSTRAINT === */
 .thumbnail-image {
   width: 100%;
-  max-width: 480px; /* adjust as needed */
+  max-width: 480px; /* shrink true-resolution thumbnail */
   height: auto;
   display: block;
   border-radius: 8px;
   margin: 0 auto;
 }
 
+/* === BLOCK SECTION TITLES & CAPTIONS === */
+.block-section {
+  margin: 30px 0;
+}
+
+.block-title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #2c3e50;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 5px;
+}
+
+.block-caption {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
 /* === TRAVEL BLOG POST PREVIEW === */
 .post-preview {
-  background-color: #f9f7f2;
+  background-color: #fff; /* keep it white inside if body is creme */
   border-radius: 8px;
   padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .post-title {
@@ -37,7 +94,7 @@ html, body {
 .read-more {
   display: inline-block;
   font-size: 0.95rem;
-  color: #e74c3c; /* a bolder accent color */
+  color: #e74c3c;
   text-decoration: none;
   font-weight: 500;
 }
@@ -62,7 +119,6 @@ html, body {
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  /* add a subtle shadow */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -75,6 +131,7 @@ html, body {
 /* === VERTICAL SPACING FOR TEXT ELEMENTS === */
 p, ul, ol {
   margin-bottom: 1.25em;
+  line-height: 1.5;
 }
 
 /* === FOOTER === */
