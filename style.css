@@ -1,3 +1,13 @@
+/* === YOUTUBE THUMBNAIL CONSTRAINT === */
+.thumbnail-image {
+  width: 100%;
+  max-width: 480px; /* adjust as needed */
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
 /* === TRAVEL BLOG POST PREVIEW === */
 .post-preview {
   background-color: #f9f7f2;
