@@ -1,14 +1,14 @@
-/* === YOUTUBE THUMBNAIL CONSTRAINT === */
+/* make sure the thumbnail is a reasonable size */
 .thumbnail-image {
   width: 100%;
-  max-width: 480px; /* adjust as needed */
+  max-width: 480px; /* changeable */
   height: auto;
   display: block;
   border-radius: 8px;
   margin: 0 auto;
 }
 
-/* === TRAVEL BLOG POST PREVIEW === */
+/* travel preview */
 .post-preview {
   background-color: #f9f7f2;
   border-radius: 8px;
@@ -30,7 +30,7 @@
 .read-more {
   display: inline-block;
   font-size: 0.95rem;
-  color: #e74c3c; /* a bolder accent color */
+  color: #e74c3c; /* colour should work? */
   text-decoration: none;
   font-weight: 500;
 }
@@ -39,7 +39,7 @@
   text-decoration: underline;
 }
 
-/* === SOCIAL ICONS === */
+/* icons, maybe move to assets locally later */
 .social-list {
   list-style: none;
   display: flex;
@@ -64,12 +64,12 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-/* === VERTICAL SPACING FOR TEXT ELEMENTS === */
+/* make sure paragraphs dont blend together */
 p, ul, ol {
   margin-bottom: 1.25em;
 }
 
-/* === FOOTER === */
+/* bottom */
 .site-footer {
   background-color: transparent;
   text-align: center;
