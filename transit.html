@@ -43,45 +43,37 @@
   </footer>
 
   <script>
-    async function loadRecentPosts() {
-      const postsContainer = document.getElementById('recent-posts');
-      const response = await fetch('/posts/');
-      const text = await response.text();
+  async function loadRecentPosts() {
+    const postsContainer = document.getElementById('recent-posts');
+    try {
+      const posts = await fetch('/posts/posts.json').then(r => r.json());
 
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(text, 'text/html');
+      const topPosts = posts.slice(0, 3);
 
-      const links = [...doc.querySelectorAll('a')].map(a => a.getAttribute('href'));
-      const htmlFiles = links.filter(name => name.endsWith('.html'));
-
-      const sorted = htmlFiles
-        .map(name => ({
-          name,
-          date: new Date(name.replace('.html', '').split('.').reverse().join('-'))
-        }))
-        .sort((a, b) => b.date - a.date)
-        .slice(0, 3);
-
-      for (const post of sorted) {
-        const postHtml = await fetch(`/posts/${post.name}`).then(r => r.text());
-        const postDoc = parser.parseFromString(postHtml, 'text/html');
-
-        const title = postDoc.querySelector('h1')?.textContent || post.name;
-        const excerpt = postDoc.querySelector('p')?.textContent || '';
-
+      for (const post of topPosts) {
         postsContainer.innerHTML += `
           <div class="post-preview">
-            <h3 class="post-title">${title}</h3>
-            <p class="post-excerpt">${excerpt}</p>
-            <a href="/posts/${post.name}" class="read-more">read more →</a>
+            <h3 class="post-title">${post.title}</h3>
+            <p class="post-excerpt">${post.excerpt}</p>
+            <a href="/posts/${post.file}" class="read-more">read more →</a>
           </div>
         `;
       }
 
-      postsContainer.innerHTML += `<p><a href="/posts/${sorted[0].name}" class="read-more">see all posts →</a></p>`;
-    }
+      if (topPosts.length > 0) {
+        postsContainer.innerHTML += `
+          <p><a href="/posts/${topPosts[0].file}" class="read-more">see all posts →</a></p>
+        `;
+      }
 
-    loadRecentPosts();
+    } catch (e) {
+      postsContainer.innerHTML = "<p>couldn’t load posts. try again later.</p>";
+      console.error('error loading posts.json', e);
+    }
+  }
+
+  loadRecentPosts();
   </script>
+  
 </body>
 </html>
