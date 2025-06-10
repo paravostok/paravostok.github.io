@@ -17,89 +17,69 @@
   </header>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
-<script>
-  window.seedrandom = window.seedrandom || Math.random; // fallback
-</script>
+  <script>
+    window.seedrandom = window.seedrandom || Math.random;
+  </script>
   
   <main class="wrapper">
     <section class="intro">
       <p>
-        welcome to my website, here i share travel/transit stuff, youtube, and whatever else I get up to
+        welcome to my website, here i share travel/transit stuff, youtube, and whatever else i get up to
       </p>
     </section>
 
     <section class="block-section">
       <h2 class="block-title">latest youtube upload</h2>
-      <a
-        id="youtube-link"
-        href="https://www.youtube.com/@paravostok"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="thumbnail-link"
-      >
-        <img
-          id="youtube-thumbnail"
-          src=""
-          alt="latest youtube thumbnail"
-          class="thumbnail-image"
-        />
+      <a id="youtube-link" href="https://www.youtube.com/@paravostok" target="_blank" rel="noopener noreferrer" class="thumbnail-link">
+        <img id="youtube-thumbnail" src="" alt="latest youtube thumbnail" class="thumbnail-image" />
       </a>
-      <p class="block-caption">
-        click above to watch my most youtube vid.
-      </p>
+      <p class="block-caption">click above to watch my most recent youtube vid.</p>
     </section>
 
     <section class="block-section">
       <h2 class="block-title">travel blog: latest post</h2>
-      <div class="post-preview 
-        <h3 class="post-title">citylink woes, ember yearning and my tailbone</h3>
-        <b class="post-excerpt">
-         on the 8th of june i fancied a journey, I wanted to get out and have a travel day. so I did.
-        </b>
-        <a href="transit.html" class="read-more">read more →</a>
+      <div id="latest-post" class="post-preview">
+        <!-- injected by JS -->
       </div>
     </section>
 
     <section class="block-section">
       <h2 class="block-title">play my game: councille</h2>
-      <p class="block-caption">
-        guess the scottish council. it’s more fun than it sounds.
-      </p>
+      <p class="block-caption">guess the scottish council. it’s more fun than it sounds.</p>
       <a href="https://paravostok.github.io/Councille/" class="read-more">play councille →</a>
     </section>
 
- <section class="block-section">
+    <section class="block-section">
       <h2 class="block-title">or, play my other game, scotdoku</h2>
-      <p class="block-caption">
-        similar to a crossword, but for scottish towns.
-      </p>
+      <p class="block-caption">similar to a crossword, but for scottish towns.</p>
       <a href="https://paravostok.github.io/Scotdoku/" class="read-more">play scotdoku →</a>
     </section>
 
     <section class="block-section">
       <h2 class="block-title">all my links</h2>
       <ul class="social-list">
-        <li>
-          <a href="https://www.youtube.com/@paravostok" target="_blank" rel="noopener noreferrer" class="social-icon" title="youtube">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/YouTube_social_red_circle_%282024%29.svg/2048px-YouTube_social_red_circle_%282024%29.svg.png" alt="youtube logo" />
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/paravostok/" target="_blank" rel="noopener noreferrer" class="social-icon" title="github">
-            <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="github logo" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.twitch.tv/paravostok" target="_blank" rel="noopener noreferrer" class="social-icon" title="twitch">
-            <img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitch-circle-512.png" alt="twitch logo" />
-          </a>
-        </li>
-        <li>
-          <a href="https://steamcommunity.com/profiles/76561199097158441" target="_blank" rel="noopener noreferrer" class="social-icon" title="steam">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="steam logo" />
-          </a>
-        </li>
-      </ul>
+  <li>
+    <a href="https://www.youtube.com/@paravostok" target="_blank" rel="noopener noreferrer" class="social-icon" title="youtube">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/YouTube_social_red_circle_%282024%29.svg/2048px-YouTube_social_red_circle_%282024%29.svg.png" alt="youtube logo" />
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/paravostok/" target="_blank" rel="noopener noreferrer" class="social-icon" title="github">
+      <img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="github logo" />
+    </a>
+  </li>
+  <li>
+    <a href="https://www.twitch.tv/paravostok" target="_blank" rel="noopener noreferrer" class="social-icon" title="twitch">
+      <img src="https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-twitch-circle-512.png" alt="twitch logo" />
+    </a>
+  </li>
+  <li>
+    <a href="https://steamcommunity.com/profiles/76561199097158441" target="_blank" rel="noopener noreferrer" class="social-icon" title="steam">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="steam logo" />
+    </a>
+  </li>
+</ul>
+
     </section>
   </main>
 
@@ -109,43 +89,62 @@
     </div>
   </footer>
 
-  <!-- JS to fetch latest YouTube video and update footer -->
+  <!-- JS to fetch youtube, footer date, and latest blog post -->
   <script>
-    // footer date
-    const updateFooterDate = () => {
+    // update footer
+    (function(){
       const now = new Date();
-      const yyyy = now.getFullYear();
-      const mm = String(now.getMonth() + 1).padStart(2, '0');
-      const dd = String(now.getDate()).padStart(2, '0');
-      document.getElementById('last-update').textContent = `last website update: ${yyyy}-${mm}-${dd}`;
-    };
+      const pad = n => String(n).padStart(2,'0');
+      document.getElementById('last-update').textContent =
+        `last website update: ${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
+    })();
 
-    updateFooterDate();
-
-    // youtube latest video using rss2json (no API key needed)
-    async function updateYouTubeThumbnail() {
+    // youtube via rss2json
+    async function updateYouTube() {
       try {
-        const rssUrl = 'https://www.youtube.com/feeds/videos.xml?channel_id=UC1JgbSE0oh-euWtCe4q_gfw';
-        const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
-        const response = await fetch(apiUrl);
-        const data = await response.json();
-
-        if (!data.items || data.items.length === 0) throw new Error("no videos found");
-
-        const latestVideo = data.items[0];
-        const videoId = latestVideo.guid.split(':')[2];
-        const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
-        const videoLink = latestVideo.link;
-
-        document.getElementById('youtube-thumbnail').src = thumbnailUrl;
-        document.getElementById('youtube-link').href = videoLink;
-      } catch (err) {
-        console.error("couldn't fetch youtube video via rss2json", err);
-        document.getElementById('youtube-thumbnail').src = "fallback.jpg"; // optional fallback
+        const rss = 'https://www.youtube.com/feeds/videos.xml?channel_id=UC1JgbSE0oh-euWtCe4q_gfw';
+        const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rss)}`);
+        const d = await res.json();
+        if (!d.items || !d.items.length) throw 0;
+        const vid = d.items[0].guid.split(':')[2];
+        document.getElementById('youtube-thumbnail').src = `https://img.youtube.com/vi/${vid}/maxresdefault.jpg`;
+        document.getElementById('youtube-link').href = d.items[0].link;
+      } catch {
+        console.error('youtube fetch failed');
       }
     }
+    updateYouTube();
 
-    updateYouTubeThumbnail();
+    // load latest blog post dynamically
+    async function loadLatestPost() {
+      try {
+        const res = await fetch('posts/post.json');
+        const posts = await res.json();
+        if (!Array.isArray(posts) || !posts.length) throw 0;
+
+        // parse date from 'd.m.yy' in filename
+        const parsed = posts.map(p => {
+          const [d, m, y] = p.file.replace('.html','').split('.').map(Number);
+          // assume 2000-based years, so '25' → 2025
+          const fullYear = 2000 + y;
+          return {...p, date: new Date(fullYear, m-1, d)};
+        });
+
+        // find max date
+        parsed.sort((a,b) => b.date - a.date);
+        const latest = parsed[0];
+
+        document.getElementById('latest-post').innerHTML = `
+          <h3 class="post-title">${latest.title}</h3>
+          <b class="post-excerpt">${latest.excerpt}</b>
+          <a href="posts/${latest.file}" class="read-more">read more →</a>
+        `;
+      } catch (e) {
+        console.error('latest post load failed', e);
+        document.getElementById('latest-post').innerHTML = '<p>couldn’t load latest post.</p>';
+      }
+    }
+    loadLatestPost();
   </script>
 </body>
 </html>
