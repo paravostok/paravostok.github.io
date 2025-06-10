@@ -80,16 +80,16 @@ p, ul, ol {
 
 .site-footer p {
   font-style: italic;
+}
 
-  /* === POST IMAGES === */
+/* === POST IMAGES === */
 .post-image {
   display: block;
   width: 100%;
   max-width: 800px;
-  height: 400px;
+  height: auto;
+  max-height: 400px; /* optional constraint */
   object-fit: cover;
   margin: 1.25em auto;
   border-radius: 8px;
-}
-  
 }
