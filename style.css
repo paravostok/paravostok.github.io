@@ -1,14 +1,12 @@
-/* make sure the thumbnail is a reasonable size */
 .thumbnail-image {
   width: 100%;
-  max-width: 480px; /* changeable */
+  max-width: 480px;
   height: auto;
   display: block;
   border-radius: 8px;
   margin: 0 auto;
 }
 
-/* travel preview */
 .post-preview {
   background-color: #f9f7f2;
   border-radius: 8px;
@@ -30,7 +28,7 @@
 .read-more {
   display: inline-block;
   font-size: 0.95rem;
-  color: #e74c3c; /* colour should work? */
+  color: #e74c3c;
   text-decoration: none;
   font-weight: 500;
 }
@@ -39,7 +37,6 @@
   text-decoration: underline;
 }
 
-/* icons, maybe move to assets locally later */
 .social-list {
   list-style: none;
   display: flex;
@@ -54,7 +51,6 @@
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
-  /* add a subtle shadow */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -64,12 +60,10 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-/* make sure paragraphs dont blend together */
 p, ul, ol {
   margin-bottom: 1.25em;
 }
 
-/* bottom */
 .site-footer {
   background-color: transparent;
   text-align: center;
@@ -82,13 +76,12 @@ p, ul, ol {
   font-style: italic;
 }
 
-/* === POST IMAGES === */
 .post-image {
   display: block;
   width: 100%;
   max-width: 800px;
   height: auto;
-  max-height: 400px; /* optional constraint */
+  max-height: 400px;
   object-fit: cover;
   margin: 1.25em auto;
   border-radius: 8px;
