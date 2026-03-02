@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lain Review Layout</title>
+  <title>Lain Review Layout Final</title>
   
   <style>
     .mockup-container {
@@ -12,70 +12,93 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: #000;
     }
-    
+
     .mockup-header {
-      display: grid;
-      grid-template-columns: 180px 200px 1fr; 
-      gap: 20px;
+      display: flex; 
+      gap: 40px;
       margin-bottom: 50px;
+    }
+
+    .poster-col {
+      flex: 0 0 240px; 
     }
 
     .poster-img {
       width: 100%;
       height: auto;
       object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .info-col {
+      flex: 1; 
+      display: flex;
+      flex-direction: column;
     }
 
     .mockup-title {
-      grid-column: 2 / 4; 
       font-family: Georgia, 'Times New Roman', Times, serif; 
       font-size: 2.5rem;
       font-weight: normal;
-      margin: 0 0 10px 0;
+      margin: 0 0 20px 0;
     }
 
-    .mockup-stats {
+    .info-details {
+      display: flex;
+      gap: 40px;
+    }
+
+    .stats-and-links {
       display: flex;
       flex-direction: column;
       gap: 10px;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      flex: 0 0 160px; 
     }
 
     .stat-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 160px;
     }
 
     .mockup-links {
-      font-size: 0.75rem;
-      margin-top: 15px;
-    }
-
-    .mockup-links a {
-      color: #000;
-      text-decoration: none;
-      margin-right: 10px;
-    }
-
-    .mockup-summary-text {
-      font-size: 1.8rem;
+      display: flex;
+      gap: 15px; 
+      font-size: 0.85rem;
       margin-top: 10px;
     }
 
+    .mockup-links a {
+      color: #e74c3c; 
+      text-decoration: none;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .mockup-links a:hover {
+      text-decoration: underline;
+    }
+
+    .mockup-summary-text {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      flex: 1;
+    }
+    
     .episode-row {
       display: grid;
       grid-template-columns: 240px 100px 1fr;
-      gap: 30px;
+      gap: 40px; 
       margin-bottom: 40px;
       align-items: center; 
     }
 
     .thumb-img {
       width: 100%;
-      height: auto;
-      object-fit: cover;
+      height: 135px; 
+      object-fit: cover; 
+      border-radius: 4px;
     }
 
     .ep-meta {
@@ -94,22 +117,20 @@
     }
 
     .ep-review-text {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
 
     .badge {
       display: inline-block;
-      padding: 2px 12px;
+      padding: 4px 12px;
       border-radius: 20px;
       color: white;
       font-size: 1rem;
+      font-weight: bold;
       text-align: center;
       width: fit-content;
+      background-color: #ccc; 
     }
-    
-    .badge-purple { background-color: #9333ea; }
-    .badge-green { background-color: #a3e635; color: #fff;}
-    .badge-orange { background-color: #eab308; }
   </style>
 </head>
 <body>
@@ -118,27 +139,33 @@
     
     <header class="mockup-header">
       
-      <div>
+      <div class="poster-col">
         <img src="https://seriesgraph.com/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw400%2F93M6d0pAqVQySKrp43LfBYDTvZ.jpg&w=1920&q=75" alt="Lain Poster" class="poster-img">
       </div>
       
-      <h1 class="mockup-title">Serial Experiments Lain</h1>
-      
-      <div class="mockup-stats">
-        <div class="stat-row">
-          <span>Average:</span> <span class="badge badge-purple">9.0</span>
-        </div>
-        <div class="stat-row">
-          <span>Mean:</span> <span class="badge badge-green">7.6</span>
-        </div>
-        <div class="mockup-links">
-          <a href="#">back to media hub</a>
-          <a href="#">back to home</a>
-        </div>
-      </div>
+      <div class="info-col">
+        <h1 class="mockup-title">Serial Experiments Lain</h1>
+        
+        <div class="info-details">
+          
+          <div class="stats-and-links">
+            <div class="stat-row">
+              <span>Average:</span> <span class="badge dynamic-color">9.0</span>
+            </div>
+            <div class="stat-row">
+              <span>Mean:</span> <span class="badge dynamic-color">7.6</span>
+            </div>
+            <div class="mockup-links">
+              <a href="#">← back to media hub</a>
+              <a href="#">← back to home</a>
+            </div>
+          </div>
 
-      <div class="mockup-summary-text">
-        Lain Summary Here
+          <div class="mockup-summary-text">
+            Lain Summary Here
+          </div>
+          
+        </div>
       </div>
       
     </header>
@@ -148,7 +175,7 @@
       
       <div class="ep-meta">
         <div class="ep-num">EP 1</div>
-        <div class="badge badge-purple">9.0</div>
+        <div class="badge dynamic-color">9.0</div> 
         <div class="ep-title">Layer 01:<br>Weird</div>
       </div>
       
@@ -162,7 +189,7 @@
       
       <div class="ep-meta">
         <div class="ep-num">EP 2</div>
-        <div class="badge badge-orange">4.0</div>
+        <div class="badge dynamic-color">4.0</div>
         <div class="ep-title">Layer 02:<br>Girls</div>
       </div>
       
@@ -172,6 +199,20 @@
     </article>
 
   </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const badges = document.querySelectorAll('.dynamic-color');
+      
+      badges.forEach(badge => {
+        const score = parseFloat(badge.innerText);
+        if (!isNaN(score)) {
+          const hue = (score / 10) * 120; 
+          badge.style.backgroundColor = `hsl(${hue}, 80%, 45%)`;
+        }
+      });
+    });
+  </script>
 
 </body>
 </html>
