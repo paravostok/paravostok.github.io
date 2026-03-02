@@ -1,116 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>paravostok • serial experiments lain</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lain Review Layout</title>
   
-  <link rel="icon" href="../assets/favicon.jpg" type="image/jpg" />
-  
-  <link rel="stylesheet" href="../style.css" />
-  
-  <link rel="stylesheet" href="media.css" /> 
-  
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Base styling for the container */
+    .mockup-container {
+      max-width: 950px;
+      margin: 40px auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #000;
+    }
+
+    /* --- THE HEADER SECTION --- */
+    .mockup-header {
+      display: grid;
+      /* 3 Columns: Poster (150px), Stats (180px), Summary (fills the rest) */
+      grid-template-columns: 180px 200px 1fr; 
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+
+    .poster-img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    /* Header Typography */
+    .mockup-title {
+      grid-column: 2 / 4; /* Makes the title span across the stats and summary columns */
+      font-family: Georgia, 'Times New Roman', Times, serif; /* Matches your serif mockup font */
+      font-size: 2.5rem;
+      font-weight: normal;
+      margin: 0 0 10px 0;
+    }
+
+    .mockup-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 1.5rem;
+    }
+
+    .stat-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 160px;
+    }
+
+    .mockup-links {
+      font-size: 0.75rem;
+      margin-top: 15px;
+    }
+
+    .mockup-links a {
+      color: #000;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .mockup-summary-text {
+      font-size: 1.8rem;
+      margin-top: 10px;
+    }
+
+    /* --- THE EPISODE ROWS --- */
+    .episode-row {
+      display: grid;
+      /* 3 Columns: Thumbnail (240px), Meta info (100px), Review text (fills the rest) */
+      grid-template-columns: 240px 100px 1fr;
+      gap: 30px;
+      margin-bottom: 40px;
+      align-items: center; /* Centers everything vertically */
+    }
+
+    .thumb-img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .ep-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .ep-num {
+      font-size: 1rem;
+    }
+
+    .ep-title {
+      font-size: 0.9rem;
+      line-height: 1.3;
+    }
+
+    .ep-review-text {
+      font-size: 1.8rem;
+    }
+
+    /* --- THE BADGES --- */
+    .badge {
+      display: inline-block;
+      padding: 2px 12px;
+      border-radius: 20px;
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+      width: fit-content;
+    }
+    
+    .badge-purple { background-color: #9333ea; }
+    .badge-green { background-color: #a3e635; color: #fff;}
+    .badge-orange { background-color: #eab308; }
+  </style>
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="wrapper">
-      <h1 class="site-title">my thoughts on lain</h1>
-      <p class="site-subtitle">paravostok reviews</p>
-      <p>lain, the second anime i've ever seen</p>
-    </div>
-  </header>
-  
-  <main class="wrapper">
-    <nav style="margin-bottom: 40px; display: flex; gap: 20px;">
-        <a href="../index.html" class="read-more">← back home</a>
-        <a href="musicMain.html" class="read-more">← back to media hub</a>
-    </nav>
+  <div class="mockup-container">
     
-    <section style="margin-bottom: 40px;">
-      <iframe 
-        src="https://seriesgraph.com/custom-charts/bb222dc8-c73f-41b7-a246-a3a6fba15ecf" 
-        width="100%" 
-        height="500px" 
-        style="border:none; border-radius: 8px;">
-      </iframe>
-    </section>
-    
-    <div class="media-container">
+    <header class="mockup-header">
       
-      <header class="media-header">
-        <div class="poster-col">
-          <img src="https://via.placeholder.com/150x220" alt="Serial Experiments Lain" class="poster-image">
+      <div>
+        <img src="https://via.placeholder.com/180x250" alt="Lain Poster" class="poster-img">
+      </div>
+      
+      <h1 class="mockup-title">Serial Experiments Lain</h1>
+      
+      <div class="mockup-stats">
+        <div class="stat-row">
+          <span>Average:</span> <span class="badge badge-purple">9.0</span>
         </div>
-        
-        <div class="summary-col">
-          <h1 class="media-title">Serial Experiments Lain</h1>
-          
-          <div class="score-container">
-            <span class="score-text">Average:</span> 
-            <span class="score-badge badge-purple">9.0</span>
-            <br>
-            <span class="score-text">Mean:</span> 
-            <span class="score-badge badge-green">7.6</span>
-          </div>
-          
-          <div class="media-summary">
-            <h2>Lain Summary Here</h2>
-            <p>Write your overall thoughts on the show here. The graph above shows the data, but this is where you can give your full summary.</p>
-          </div>
+        <div class="stat-row">
+          <span>Mean:</span> <span class="badge badge-green">7.6</span>
         </div>
-      </header>
+        <div class="mockup-links">
+          <a href="#">back to media hub</a>
+          <a href="#">back to home</a>
+        </div>
+      </div>
 
-      <hr class="divider">
+      <div class="mockup-summary-text">
+        Lain Summary Here
+      </div>
+      
+    </header>
 
-      <section class="episode-list">
-        
-        <article class="episode-row">
-          <div class="ep-thumb-col">
-            <img src="https://via.placeholder.com/240x135" alt="Episode 1 Thumbnail" class="thumbnail-image">
-          </div>
-          
-          <div class="ep-meta-col">
-            <div class="ep-number">EP 1</div>
-            <div class="score-badge badge-purple">9.0</div>
-            <div class="ep-title">Layer 01:<br>Weird</div>
-          </div>
-          
-          <div class="ep-review-col">
-            <h2>Review Text Here</h2>
-            <p>Your thoughts on episode 1 go here. Notice how it aligns perfectly with the thumbnail.</p>
-          </div>
-        </article>
+    <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135" alt="Ep 1" class="thumb-img">
+      
+      <div class="ep-meta">
+        <div class="ep-num">EP 1</div>
+        <div class="badge badge-purple">9.0</div>
+        <div class="ep-title">Layer 01:<br>Weird</div>
+      </div>
+      
+      <div class="ep-review-text">
+        Review Text Here
+      </div>
+    </article>
 
-        <article class="episode-row">
-          <div class="ep-thumb-col">
-            <img src="https://via.placeholder.com/240x135" alt="Episode 2 Thumbnail" class="thumbnail-image">
-          </div>
-          
-          <div class="ep-meta-col">
-            <div class="ep-number">EP 2</div>
-            <div class="score-badge badge-orange">4.0</div>
-            <div class="ep-title">Layer 02:<br>Girls</div>
-          </div>
-          
-          <div class="ep-review-col">
-            <h2>Review Text Here</h2>
-            <p>Your thoughts on episode 2 go here.</p>
-          </div>
-        </article>
+    <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135" alt="Ep 2" class="thumb-img">
+      
+      <div class="ep-meta">
+        <div class="ep-num">EP 2</div>
+        <div class="badge badge-orange">4.0</div>
+        <div class="ep-title">Layer 02:<br>Girls</div>
+      </div>
+      
+      <div class="ep-review-text">
+        Review Text Here
+      </div>
+    </article>
 
-      </section>
-    </div>
-    
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrapper">
-      <p>paravostok © 2026</p>
-    </div>
-  </footer>
+  </div>
 
 </body>
 </html>
