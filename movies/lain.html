@@ -16,7 +16,7 @@
     .mockup-header {
       display: flex; 
       gap: 40px;
-      margin-bottom: 50px;
+      margin-bottom: 40px;
     }
 
     .poster-col {
@@ -34,39 +34,38 @@
       flex: 1; 
       display: flex;
       flex-direction: column;
+      gap: 20px; 
     }
 
     .mockup-logo {
       max-width: 350px;
       height: auto;
-      margin-bottom: 20px;
       display: block;
     }
 
-    .info-details {
-      display: flex;
-      gap: 40px;
+    .mockup-summary-text {
+      font-size: 1.5rem;
+      line-height: 1.4;
     }
 
-    .stats-and-links {
+    .mockup-stats {
       display: flex;
       flex-direction: column;
       gap: 10px;
       font-size: 1.2rem;
-      flex: 0 0 160px; 
     }
 
     .stat-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      width: 160px; 
     }
 
     .mockup-links {
       display: flex;
       gap: 15px; 
       font-size: 0.85rem;
-      margin-top: 10px;
     }
 
     .mockup-links a, .ep-links a {
@@ -80,18 +79,32 @@
       text-decoration: underline;
     }
 
-    .mockup-summary-text {
-      font-size: 1.5rem;
-      line-height: 1.4;
-      flex: 1;
+    .overall-summary {
+      margin-bottom: 50px;
+      padding-bottom: 40px;
+      border-bottom: 2px solid #eee;
     }
-    
+
+    .overall-summary h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+      font-size: 2.2rem;
+      font-weight: normal;
+      margin: 0 0 20px 0;
+    }
+
+    .overall-summary p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+      margin: 0 0 15px 0;
+    }
+
     .episode-row {
       display: grid;
       grid-template-columns: 240px 100px 1fr;
       gap: 40px; 
       margin-bottom: 40px;
       align-items: flex-start; 
+    }
 
     .thumb-img {
       width: 100%;
@@ -114,7 +127,7 @@
       font-size: 0.9rem;
       line-height: 1.3;
     }
-    
+
     .ep-review-col {
       display: flex;
       flex-direction: column;
@@ -134,32 +147,13 @@
     .badge {
       display: inline-block;
       padding: 4px 12px;
-      border-radius: 20px;
+      border-radius: 20px !important;
       color: white;
       font-size: 1rem;
       font-weight: bold;
       text-align: center;
-      width: fit-content;
+      min-width: 40px; 
       background-color: #ccc; 
-    }
-
-    .overall-summary {
-      margin-top: 60px;
-      padding-top: 40px;
-      border-top: 2px solid #eee;
-    }
-
-    .overall-summary h2 {
-      font-family: Georgia, 'Times New Roman', Times, serif; 
-      font-size: 2.2rem;
-      font-weight: normal;
-      margin: 0 0 20px 0;
-    }
-
-    .overall-summary p {
-      font-size: 1.5rem;
-      line-height: 1.5;
-      margin: 0 0 15px 0;
     }
   </style>
 </head>
@@ -176,35 +170,38 @@
       <div class="info-col">
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Serial_Experiments_Lain_unofficial_logo.svg" alt="Serial Experiments Lain Logo" class="mockup-logo">
         
-        <div class="info-details">
+        <div class="mockup-summary-text">
+          Lain Summary Here. This text is now stacked perfectly between the logo and the average/mean scores.
+        </div>
           
-          <div class="stats-and-links">
-            <div class="stat-row">
-              <span>Average:</span> <span class="badge dynamic-color">9.0</span>
-            </div>
-            <div class="stat-row">
-              <span>Mean:</span> <span class="badge dynamic-color">7.6</span>
-            </div>
-            <div class="mockup-links">
-              <a href="#">← back to media hub</a>
-              <a href="#">← back to home</a>
-            </div>
+        <div class="mockup-stats">
+          <div class="stat-row">
+            <span>Average:</span> 
+            <span class="badge dynamic-color">9.0</span>
           </div>
+          <div class="stat-row">
+            <span>Mean:</span> <span class="badge dynamic-color">7.6</span>
+          </div>
+        </div>
 
-          <div class="mockup-summary-text">
-            Lain Summary Here
-          </div>
-          
+        <div class="mockup-links">
+          <a href="#">← back to media hub</a>
+          <a href="#">← back to home</a>
         </div>
       </div>
       
     </header>
 
+    <section class="overall-summary">
+      <h2>Overall Thoughts</h2>
+      <p>This is your overall summary block. It now sits perfectly between the main poster header and the start of the individual episode reviews.</p>
+    </section>
+
     <article class="episode-row">
       <img src="https://static.wikia.nocookie.net/sel/images/3/33/Chisa_Yomoda_%283%29.png/revision/latest/scale-to-width-down/1016?cb=20200811022015" alt="Ep 1" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 1</div>
-        <div class="badge dynamic-color">9.0</div> 
+        <div class="badge dynamic-color">5.0</div> 
         <div class="ep-title">Layer 01:<br>Weird</div>
       </div>
       <div class="ep-review-col">
@@ -220,7 +217,7 @@
       <img src="https://beneaththetangles.com/wp-content/uploads/2018/07/img_2133-e1532489262884.jpg" alt="Ep 2" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 2</div>
-        <div class="badge dynamic-color">4.0</div>
+        <div class="badge dynamic-color">6.0</div>
         <div class="ep-title">Layer 02:<br>Girls</div>
       </div>
       <div class="ep-review-col">
@@ -236,7 +233,7 @@
       <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 3</div>
-        <div class="badge dynamic-color">7.5</div>
+        <div class="badge dynamic-color">7.0</div>
         <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
@@ -248,15 +245,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+4+Thumb" alt="Ep 4" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 4</div>
-        <div class="badge dynamic-color">8.2</div>
-        <div class="ep-title">Layer 04:<br>Religion</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. The themes are expanding.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -264,15 +261,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+5+Thumb" alt="Ep 5" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 5</div>
-        <div class="badge dynamic-color">6.0</div>
-        <div class="ep-title">Layer 05:<br>Distortion</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. A bit confusing this time around.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -280,15 +277,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+6+Thumb" alt="Ep 6" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 6</div>
-        <div class="badge dynamic-color">9.5</div>
-        <div class="ep-title">Layer 06:<br>Kids</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. One of the best episodes so far.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -296,15 +293,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+7+Thumb" alt="Ep 7" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 7</div>
-        <div class="badge dynamic-color">2.5</div>
-        <div class="ep-title">Layer 07:<br>Society</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. Really missed the mark for me.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -312,15 +309,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+8+Thumb" alt="Ep 8" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 8</div>
-        <div class="badge dynamic-color">8.0</div>
-        <div class="ep-title">Layer 08:<br>Rumors</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. Back on track with the pacing.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -328,15 +325,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+9+Thumb" alt="Ep 9" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 9</div>
-        <div class="badge dynamic-color">7.8</div>
-        <div class="ep-title">Layer 09:<br>Protocol</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. Getting deep into the Wired now.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -344,15 +341,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+10+Thumb" alt="Ep 10" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 10</div>
-        <div class="badge dynamic-color">9.1</div>
-        <div class="ep-title">Layer 10:<br>Love</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. Surprisingly emotional.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -360,15 +357,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+11+Thumb" alt="Ep 11" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 11</div>
-        <div class="badge dynamic-color">8.5</div>
-        <div class="ep-title">Layer 11:<br>Infornography</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. A lot to process in this one.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -376,15 +373,15 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+12+Thumb" alt="Ep 12" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 12</div>
-        <div class="badge dynamic-color">9.8</div>
-        <div class="ep-title">Layer 12:<br>Landscape</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. An incredible setup for the finale.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
@@ -392,29 +389,23 @@
       </div>
     </article>
 
-    <article class="episode-row">
-      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+13+Thumb" alt="Ep 13" class="thumb-img">
+      <article class="episode-row">
+      <img src="https://via.placeholder.com/240x135/222/fff?text=Ep+3+Thumb" alt="Ep 3" class="thumb-img">
       <div class="ep-meta">
         <div class="ep-num">EP 13</div>
-        <div class="badge dynamic-color">10.0</div>
-        <div class="ep-title">Layer 13:<br>Ego</div>
+        <div class="badge dynamic-color">7.0</div>
+        <div class="ep-title">Layer 03:<br>Psyche</div>
       </div>
       <div class="ep-review-col">
-        <div class="ep-review-text">Review Text Here. A perfect conclusion.</div>
+        <div class="ep-review-text">Review Text Here. Things are getting strange.</div>
         <div class="ep-links">
           <a href="#">Watch on YouTube (Dub)</a>
           <a href="#">View on IMDb</a>
         </div>
       </div>
     </article>
-
-    <section class="overall-summary">
-      <h2>Overall Thoughts</h2>
-      <p>This is where your final, overarching review of Serial Experiments Lain will go. Because it sits outside of the Grid layout we used for the episodes and the header, it automatically takes up the full width of the container.</p>
-      <p>You can write as many paragraphs as you need here without worrying about photos or sidebars getting in the way.</p>
-    </section>
-
-  </div>
+    
+    </div>
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
