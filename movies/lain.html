@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lain Review Layout Final</title>
+  <title>Lain Review Layout - Vertical Stack</title>
   
   <style>
     .mockup-container {
@@ -34,70 +34,66 @@
       flex: 1; 
       display: flex;
       flex-direction: column;
+      gap: 15px; 
     }
 
     .mockup-title {
       font-family: Georgia, 'Times New Roman', Times, serif; 
       font-size: 2.5rem;
       font-weight: normal;
-      margin: 0 0 20px 0;
+      margin: 0;
     }
 
-    .info-details {
-      display: flex;
-      gap: 40px;
+    .mockup-summary-text {
+      font-size: 1.5rem;
+      line-height: 1.4;
+      margin-bottom: 10px;
     }
 
-    .stats-and-links {
+    .mockup-stats {
       display: flex;
       flex-direction: column;
       gap: 10px;
       font-size: 1.2rem;
-      flex: 0 0 160px; 
     }
 
     .stat-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      width: 160px;
     }
 
     .mockup-links {
       display: flex;
       gap: 15px; 
       font-size: 0.85rem;
-      margin-top: 10px;
+      margin-top: 5px;
     }
 
-    .mockup-links a {
+    .mockup-links a, .ep-links a {
       color: #e74c3c; 
       text-decoration: none;
       font-weight: 500;
       white-space: nowrap;
     }
 
-    .mockup-links a:hover {
+    .mockup-links a:hover, .ep-links a:hover {
       text-decoration: underline;
     }
 
-    .mockup-summary-text {
-      font-size: 1.5rem;
-      line-height: 1.4;
-      flex: 1;
-    }
-    
     .episode-row {
       display: grid;
       grid-template-columns: 240px 100px 1fr;
       gap: 40px; 
       margin-bottom: 40px;
-      align-items: center; 
+      align-items: flex-start; 
     }
 
     .thumb-img {
       width: 100%;
-      height: 135px; 
-      object-fit: cover; 
+      height: 135px;
+      object-fit: cover;
       border-radius: 4px;
     }
 
@@ -109,17 +105,30 @@
 
     .ep-num {
       font-size: 1rem;
+      font-weight: bold;
     }
 
     .ep-title {
       font-size: 0.9rem;
       line-height: 1.3;
     }
+    
+    .ep-review-col {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
 
     .ep-review-text {
       font-size: 1.5rem;
     }
 
+    .ep-links {
+      display: flex;
+      gap: 15px;
+      font-size: 0.85rem;
+    }
+    
     .badge {
       display: inline-block;
       padding: 4px 12px;
@@ -146,25 +155,22 @@
       <div class="info-col">
         <h1 class="mockup-title">Serial Experiments Lain</h1>
         
-        <div class="info-details">
-          
-          <div class="stats-and-links">
-            <div class="stat-row">
-              <span>Average:</span> <span class="badge dynamic-color">9.0</span>
-            </div>
-            <div class="stat-row">
-              <span>Mean:</span> <span class="badge dynamic-color">7.6</span>
-            </div>
-            <div class="mockup-links">
-              <a href="#">← back to media hub</a>
-              <a href="#">← back to home</a>
-            </div>
-          </div>
+        <div class="mockup-summary-text">
+          Lain Summary Here. 
+        </div>
 
-          <div class="mockup-summary-text">
-            Lain Summary Here
+        <div class="mockup-stats">
+          <div class="stat-row">
+            <span>Average:</span> <span class="badge dynamic-color">9.0</span>
           </div>
-          
+          <div class="stat-row">
+            <span>Mean:</span> <span class="badge dynamic-color">7.6</span>
+          </div>
+        </div>
+
+        <div class="mockup-links">
+          <a href="#">← back to media hub</a>
+          <a href="#">← back to home</a>
         </div>
       </div>
       
@@ -179,8 +185,14 @@
         <div class="ep-title">Layer 01:<br>Weird</div>
       </div>
       
-      <div class="ep-review-text">
-        Review Text Here
+      <div class="ep-review-col">
+        <div class="ep-review-text">
+          Review Text Here.
+        </div>
+        <div class="ep-links">
+          <a href="#">Watch on YouTube (Dub)</a>
+          <a href="#">View on IMDb</a>
+        </div>
       </div>
     </article>
 
@@ -193,8 +205,14 @@
         <div class="ep-title">Layer 02:<br>Girls</div>
       </div>
       
-      <div class="ep-review-text">
-        Review Text Here
+      <div class="ep-review-col">
+        <div class="ep-review-text">
+          Review Text Here.
+        </div>
+        <div class="ep-links">
+          <a href="#">Watch on YouTube (Dub)</a>
+          <a href="#">View on IMDb</a>
+        </div>
       </div>
     </article>
 
