@@ -1,0 +1,148 @@
+.media-container {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #111;
+}
+
+.media-header {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.poster-image {
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.media-title {
+  margin: 0 0 15px 0;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+.score-container {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.score-text {
+  display: inline-block;
+  width: 90px;
+}
+
+.score-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.badge-purple { background-color: #8b5cf6; }
+.badge-green  { background-color: #a3e635; color: #333; }
+.badge-orange { background-color: #f59e0b; }
+
+.media-nav {
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+}
+
+.media-nav a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.media-nav a:hover {
+  text-decoration: underline;
+}
+
+.media-summary h2 {
+  font-weight: normal;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #eee;
+  margin: 30px 0;
+}
+
+.episode-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: center; 
+}
+
+.ep-thumb-col {
+  flex: 0 0 240px; 
+}
+
+.ep-meta-col {
+  flex: 0 0 100px; 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ep-number {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.ep-title {
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+.ep-review-col {
+  flex: 1; 
+}
+
+.ep-review-col h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  
+  .media-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .score-text {
+    text-align: left;
+  }
+
+  .episode-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .ep-thumb-col {
+    flex: 1;
+    width: 100%;
+  }
+
+  .thumbnail-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ep-meta-col {
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+  }
+}
