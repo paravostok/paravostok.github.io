@@ -53,6 +53,24 @@
   font-size: 0.85rem;
 }
 
+.navigation-links {
+  margin-top: 50px;
+  padding-bottom: 40px;
+}
+
+.navigation-links .read-more {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: lowercase;
+  color: #e74c3c;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navigation-links .read-more:hover {
+  text-decoration: underline;
+}
+
 .media-nav a {
   color: #333;
   text-decoration: none;
