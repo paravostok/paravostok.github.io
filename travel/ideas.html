@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>trip ideas • paravostok</title>
+  <link rel="icon" href="../assets/favicon.jpg" type="image/jpg" />
+  <link rel="stylesheet" href="../style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+
+    .filter-container { margin: 20px 0; display: flex; flex-wrap: wrap; gap: 10px; }
+    .filter-btn { 
+      padding: 8px 15px; border: 1px solid #e74c3c; background: none; 
+      color: #e74c3c; cursor: pointer; border-radius: 4px; font-weight: bold;
+    }
+    .filter-btn.active { background: #e74c3c; color: white; }
+
+    .route-card { display: none; margin-bottom: 20px; border: 1px solid #eee; border-radius: 8px; overflow: hidden; }
+    .route-card.show { display: block; }
+    
+    details { padding: 20px; background: #fff; }
+    summary { 
+      list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; 
+    }
+    summary h2 { margin: 0; font-family: Georgia, serif; font-size: 1.6rem; }
+    summary:after { content: "展开 +"; font-weight: bold; color: #e74c3c; } 
+    details[open] summary:after { content: "收起 -"; }
+
+    .tag-container { margin-top: 10px; display: flex; gap: 5px; }
+    .tag { font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; background: #eee; color: #666; text-transform: uppercase; }
+
+    .itinerary-step { margin-top: 20px; padding-left: 15px; border-left: 2px solid #e74c3c; }
+    .day-title { font-weight: bold; color: #e74c3c; text-transform: uppercase; margin-bottom: 5px; display: block; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrapper">
+      <h1 class="site-title">paravostok</h1>
+      <p class="site-subtitle">recommended routes</p>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="intro">
+      <p>filter by tags to find the perfect trip. all routes are designed for under-18/under-22 travel without a car.</p>
+    </section>
+
+    <div class="filter-container">
+      <button class="filter-btn active" onclick="filterSelection('all')">all</button>
+      <button class="filter-btn" onclick="filterSelection('highlands')">highlands</button>
+      <button class="filter-btn" onclick="filterSelection('islands')">islands</button>
+      <button class="filter-btn" onclick="filterSelection('day trip')">day trip</button>
+      <button class="filter-btn" onclick="filterSelection('overnight trip')">overnight trip</button>
+      <button class="filter-btn" onclick="filterSelection('intranational')">intranational</button>
+      <button class="filter-btn" onclick="filterSelection('international')">international</button>
+    </div>
+
+    <div class="route-card highlands islands overnight trip intranational show">
+      <details>
+        <summary>
+          <div>
+            <h2>The Skye Loop</h2>
+            <div class="tag-container">
+              <span class="tag">highlands</span><span class="tag">islands</span><span class="tag">overnight trip</span><span class="tag">intranational</span>
+            </div>
+          </div>
+        </summary>
+        
+        <div class="route-content">
+          <p>a 3 day 2 night trip to portree and inverness.</p>
+          
+          <div class="itinerary-step">
+            <span class="day-title">day 1: the trip north</span>
+            <p>leave from edinburgh. Take the citylink M90 or the ember E9 directly to inverness. for a more scenic route, go via aberdeen. once in inverness, explore the castle, the ness islands walk, or the victorian markets. inverness is fine but honestly, it's mostly the journey itself and it's location as a launching point onwards that make it ideal.</p>
+          </div>
+
+          <div class="itinerary-step">
+            <span class="day-title">day 2: from inverness through kyle to skye</span>
+            <p>take the first citylink service 917 from inverness "bus station" to portree. I would reccomend booking your ticket for £1 even with an NEC to secure a seat as it can get busy during summer periods and you don't want to end up stranded. grab a treat at mackenzie's bakery in somerled square.</p>
+            <p>catch the local 57A bus to the old man of storr. walk the 6.8 miles back to portree via bearreaig bay and bride's veil falls. dinner: <em>pizza in the skye</em> (pre-order your pizza or they may not have enough ingredients! i'd also reccomend the garlic bread as it is basically a full extra pizza for £3!)</p>
+          </div>
+
+          <div class="itinerary-step">
+            <span class="day-title">day 3: the journey south</span>
+            <p>morning walk around the Scorrybreac circuit. catch the return 917 to glasgow (book seats ahead!). the bus stops for 40 minutes or so in fort william for a leg-stretch/morrisons run before heading south and towards buchanan bus station, from which queen street and central stations are not far away, and obviously the bus station itself has options to take you home.</p>
+          </div>
+        </div>
+      </details>
+    </div>
+
+    <div class="route-card day trip intranational show">
+      </div>
+
+  </main>
+
+  <script>
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("route-card");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        x[i].classList.remove("show");
+        if (x[i].className.indexOf(c) > -1) x[i].classList.add("show");
+      }
+      
+      var btns = document.getElementsByClassName("filter-btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    }
+  </script>
+</body>
+</html>
