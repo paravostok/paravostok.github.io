@@ -95,3 +95,35 @@ p, ul, ol {
   margin: 1.25em auto;
   border-radius: 8px;
 }
+
+.pv-breadcrumb-nav {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: left; 
+}
+
+.pv-breadcrumb-nav .pv-nav-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #e74c3c !important; 
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.pv-breadcrumb-nav .pv-nav-link:hover {
+  text-decoration: underline;
+}
+
+.pv-nav-split {
+  margin: 0 12px;
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+.pv-nav-line {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 15px 0 20px 0;
+  width: 100%;
+}
