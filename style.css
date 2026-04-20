@@ -72,6 +72,15 @@ p, ul, ol {
   font-size: 0.9rem;
 }
 
+.map-description {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  background-color: #fff;
+}
+
 .site-footer p {
   font-style: italic;
 }
