@@ -1,47 +1,62 @@
 import os
 import json
-import google.generativeai as genai
+from google import genai # New 2026 SDK
 from datetime import datetime
 
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-model = genai.GenerativeModel('gemini-1.5-flash')
-
 def update_market():
+    # Setup Client
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    
+    # 1. Load existing data
     try:
         with open('gambling/data.json', 'r') as f:
             data = json.load(f)
     except:
         data = {"current_events": [], "history": []}
 
+    # 2. Prepare the prompt
     prompt = f"""
-    You are a news-based bookie for a prediction game. Today's date is {datetime.now().strftime('%Y-%m-%d')}.
+    Today's date is {datetime.now().strftime('%Y-%m-%d')}.
+    Act as a news-based bookie. 
     
-    TASK 1: Look at these past events: {json.dumps(data['current_events'])}. 
-    Check current news and return "WON", "LOST", or "PENDING" for each.
+    1. Check these past events: {json.dumps(data.get('current_events', []))}. 
+       Mark as "WON", "LOST", or "PENDING" based on today's news.
 
-    TASK 2: Generate 5 new upcoming events for today. 
-    Focus on: Scottish and UK Politics, International relations and conflicts, and general Scottish events.
-    Provide a title, a probability (0.1 to 0.9), and a 1-sentence 'why'.
+    2. Generate 5 NEW upcoming events. 
+       Focus: UK/Scotland politics, transit, or 2026 tech trends.
+       Provide title, probability (0.1-0.9), and a short description.
 
-    Return ONLY a JSON object like this:
+    Return ONLY a JSON object:
     {{
         "settled": [{{ "id": "id", "result": "WON/LOST" }}],
         "new_events": [{{ "id": "unique_str", "title": "...", "payout": 2.0, "desc": "..." }}]
     }}
     """
 
-    response = model.generate_content(prompt)
-    raw_json = response.text.replace('```json', '').replace('```', '')
-    updates = json.loads(raw_json)
+    # 3. Call Gemini 3 Flash
+    response = client.models.generate_content(
+        model="gemini-3-flash", 
+        contents=prompt
+    )
+    
+    # Clean up the response text (remove markdown backticks if present)
+    raw_text = response.text.strip()
+    if raw_text.startswith("```json"):
+        raw_text = raw_text[7:-3]
+    
+    updates = json.loads(raw_text)
 
-    for s in updates['settled']:
+    # 4. Update and Save
+    # Move settled events to history
+    for s in updates.get('settled', []):
         for e in data['current_events']:
             if e['id'] == s['id']:
                 e['result'] = s['result']
                 data['history'].append(e)
 
+    # Replace old events with new ones
     data['current_events'] = updates['new_events']
-    data['last_update'] = datetime.now().strftime('%Y-%m-%d')
+    data['last_update'] = datetime.now().strftime('%Y-%m-%d %H:%M')
 
     with open('gambling/data.json', 'w') as f:
         json.dump(data, f, indent=4)
