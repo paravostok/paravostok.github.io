@@ -2,7 +2,7 @@ name: Daily Bookie Update
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,9 +12,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.12' # Updated to 3.12
       - name: Install dependencies
-        run: pip install google-generativeai
+        run: pip install google-genai # Updated library name
       - name: Run Update
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
