@@ -1,0 +1,28 @@
+name: Daily Bookie Update
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install google-generativeai
+      - name: Run Update
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/update_market.py
+      - name: Commit changes
+        run: |
+          git config --global user.name 'Daily Bookie'
+          git config --global user.email 'bot@paravostok.com'
+          git add gambling/data.json
+          git commit -m "Daily market update" || echo "No changes"
+          git push
