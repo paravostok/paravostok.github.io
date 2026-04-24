@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>paravostok • prediction market</title>
+  <link rel="stylesheet" href="../style.css"> <style>
+    /* Specific styles for the game */
+    .market-grid { display: grid; gap: 20px; margin-top: 20px; }
+    .event-card { 
+      background: #f9f7f2; padding: 20px; border-radius: 8px; 
+      border-left: 5px solid #e74c3c;
+    }
+    .balance-banner { 
+      background: #2c3e50; color: white; padding: 10px; 
+      border-radius: 8px; text-align: center; margin-bottom: 20px;
+    }
+    .payout { font-weight: bold; color: #e74c3c; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <h1 class="site-title">the market</h1>
+      <p class="site-subtitle">bet your credits on the future</p>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <div class="balance-banner">
+      Available Credits: <span id="balance">100</span>
+    </div>
+
+    <div id="market-container" class="market-grid">
+      <p>Consulting the AI Bookie...</p>
+    </div>
+
+    <section class="block-section" style="margin-top: 40px;">
+      <h2 class="block-title">your active bets</h2>
+      <ul id="active-bets-list"></ul>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
