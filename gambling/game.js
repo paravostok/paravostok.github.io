@@ -1,7 +1,8 @@
 // --- 1. SUPABASE SETUP ---
-const supabaseUrl = 'https://supabase.com/dashboard/project/dwillyqcwielbkrfjopp';
+// FIXED: Changed dashboard URL to the actual API endpoint
+const supabaseUrl = 'https://dwillyqcwielbkrfjopp.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR3aWxseXFjd2llbGJrcmZqb3BwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcxMTYyNjIsImV4cCI6MjA5MjY5MjI2Mn0.Xwu1fWzotLDSWPy2i27BvRl9AsSP9S_Fv0ot6cAAcxU';
-const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+const supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
 
 // --- 2. STATE VARIABLES ---
 let currentUser = localStorage.getItem('paravostok_user');
@@ -29,8 +30,8 @@ async function loginUser() {
         localStorage.setItem('paravostok_user', name);
         currentUser = name;
         
-        // Try to create the user in the database (fails silently if they already exist, which is perfect)
-        await supabase.from('players').insert([{ username: name }]);
+        // Try to create the user in the database (fails silently if they already exist)
+        await supabaseClient.from('players').insert([{ username: name }]);
         
         location.reload(); // Refresh to load their data
     }
@@ -43,7 +44,7 @@ function logoutUser() {
 
 // --- 4. CLOUD DATA LOADING ---
 async function loadPlayerData() {
-    const { data, error } = await supabase
+    const { data, error } = await supabaseClient
         .from('players')
         .select('balance, active_bets')
         .eq('username', currentUser)
@@ -57,7 +58,7 @@ async function loadPlayerData() {
 }
 
 async function loadLeaderboard() {
-    const { data, error } = await supabase
+    const { data, error } = await supabaseClient
         .from('players')
         .select('username, balance')
         .order('balance', { ascending: false }); // Highest balance first!
@@ -113,7 +114,7 @@ async function placeBet(eventId, eventTitle, payout) {
     }
 
     // 1. Fetch the user's latest data straight from the cloud to prevent cheating
-    const { data: player } = await supabase.from('players').select('balance, active_bets').eq('username', currentUser).single();
+    const { data: player } = await supabaseClient.from('players').select('balance, active_bets').eq('username', currentUser).single();
     
     // 2. Calculate new balance and new bets list
     const newBalance = player.balance - amount;
@@ -121,7 +122,7 @@ async function placeBet(eventId, eventTitle, payout) {
     const updatedBets = [...(player.active_bets || []), newBet];
 
     // 3. Save to Supabase Cloud!
-    const { error } = await supabase
+    const { error } = await supabaseClient
         .from('players')
         .update({ balance: newBalance, active_bets: updatedBets })
         .eq('username', currentUser);
