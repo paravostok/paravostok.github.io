@@ -34,7 +34,7 @@ Based on real-world news as of today, determine if they happened.
 Return "WON" (happened), "LOST" (didn't happen/expired), or "PENDING" (not yet known).
 
 TASK 2: Generation
-Create 5 NEW betting events for today. 
+Create 5 NEW betting events that could realistically happen and be resolved TODAY. 
 Focus Areas:
 - UK Politics
 - Scottish Politics
@@ -42,9 +42,14 @@ Focus Areas:
 - World Affairs
 - Conflicts (In good taste)
 
-An example bet would be for May the 6th: "Will the SNP gain an outright majority (65+ seats) in the Scottish Parliament election?"
-A second example would be (if relevant and a decision was a day out): "Will Edinburgh Trams progress their plan to put Trams on the Roseburn Path?"
-A third example would be:"Will the war in Iran end tomorrow?"
+RULES FOR THE BETS:
+1. They MUST be phrased as clear YES/NO questions. (Start with "Will...")
+2. The resolution timeframe must be strictly for TODAY. If it doesn't happen today, it will be marked as LOST tomorrow. 
+3. Focus on immediate, breaking-news speculation. Think about the keywords political journalists use for daily predictions: "Will the government announce...", "Is a decision expected today on...", "Why they could..."
+4. Make sure the description explains *why* this might happen today (e.g., an impending vote, a scheduled press conference, or escalating rumors).
+
+An example bet: "Will the UK Government announce a new 'Levelling Up' fund for the North East in today's press briefing?"
+Another example: "Will the Scottish Government officially confirm the delay of the National Care Service by the end of the day?"
 
 Probability must be between 0.1 and 0.9. Payout = (1 / Probability) * 0.95 (includes a 5% Bookie's Vig).
     OUTPUT REQUIREMENT:
