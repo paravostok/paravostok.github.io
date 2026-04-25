@@ -152,27 +152,26 @@ async function processPayouts() {
 // --- 7. MARKET & BETTING LOGIC ---
 async function loadMarket() {
     try {
-        // Fetch the AI-generated markets from your data.json
         const response = await fetch('data.json');
         marketData = await response.json();
         
         const container = document.getElementById('market-container');
-        container.innerHTML = ''; // Clear loading text
+        container.innerHTML = ''; 
         
         marketData.current_events.forEach(event => {
-            // FIXED: Added class="bet-input" and class="bet-button" for the new styling
+            // FIXED: We now ONLY pass the event.id to the placeBet function!
+            // This prevents any weird punctuation in the title from breaking the button.
             container.innerHTML += `
                 <div class="event-card">
                     <h3>${event.title}</h3>
                     <p>${event.desc}</p>
                     <p>Payout: <span class="payout">${event.payout}x</span></p>
                     <input type="number" class="bet-input" id="bet-amount-${event.id}" placeholder="Amount">
-                    <button class="bet-button" onclick="placeBet('${event.id}', '${event.title}', ${event.payout})">Place Bet</button>
+                    <button class="bet-button" onclick="placeBet('${event.id}')">Place Bet</button>
                 </div>
             `;
         });
 
-        // FIXED: Run the payout check after the market data loads!
         await processPayouts();
 
     } catch (e) {
@@ -180,11 +179,10 @@ async function loadMarket() {
     }
 }
 
-async function placeBet(eventId, eventTitle, payout) {
+async function placeBet(eventId) {
     const amountInput = document.getElementById(`bet-amount-${eventId}`);
     const amount = parseFloat(amountInput.value);
 
-    // FIXED: Replaced ugly alerts with sleek toasts
     if (!amount || amount <= 0) {
         showToast("Enter a valid bet amount!", true);
         return;
@@ -194,45 +192,41 @@ async function placeBet(eventId, eventTitle, payout) {
         return;
     }
 
-    // 1. Fetch the user's latest data straight from the cloud to prevent cheating
+    // FIXED: Safely look up the title and payout from our data using the ID
+    const eventToBetOn = marketData.current_events.find(e => e.id === eventId);
+    if (!eventToBetOn) {
+        showToast("Error finding event data.", true);
+        return;
+    }
+
     const { data: player } = await supabaseClient.from('players').select('balance, active_bets').eq('username', currentUser).single();
     
-    // 2. Calculate new balance and new bets list
     const newBalance = player.balance - amount;
-    const newBet = { id: eventId, title: eventTitle, amount: amount, payout: payout, date: new Date().toISOString() };
+    
+    // Use the safely retrieved title and payout
+    const newBet = { 
+        id: eventId, 
+        title: eventToBetOn.title, 
+        amount: amount, 
+        payout: eventToBetOn.payout, 
+        date: new Date().toISOString() 
+    };
+    
     const updatedBets = [...(player.active_bets || []), newBet];
 
-    // 3. Save to Supabase Cloud!
     const { error } = await supabaseClient
         .from('players')
         .update({ balance: newBalance, active_bets: updatedBets })
         .eq('username', currentUser);
 
     if (!error) {
-        amountInput.value = ''; // Clear input
-        await loadPlayerData(); // Refresh UI
-        await loadLeaderboard(); // Update leaderboard
+        amountInput.value = ''; 
+        await loadPlayerData(); 
+        await loadLeaderboard(); 
         showToast("Bet placed successfully!");
     } else {
         showToast("Error placing bet. Try again.", true);
     }
-}
-
-function renderActiveBets(bets) {
-    const list = document.getElementById('active-bets-list');
-    list.innerHTML = '';
-    
-    if (bets.length === 0) {
-        list.innerHTML = '<li>No active bets.</li>';
-        return;
-    }
-
-    bets.forEach(bet => {
-        list.innerHTML += `<li style="margin-bottom: 10px;">
-            <strong>${bet.title}</strong><br>
-            Bet: ${bet.amount} Credits | Potential Payout: ${(bet.amount * bet.payout).toFixed(2)}
-        </li>`;
-    });
 }
 
 // --- 8. START THE APP ---
