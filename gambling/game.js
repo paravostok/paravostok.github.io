@@ -1,3 +1,53 @@
+// 1. Initialize Supabase
+const supabaseUrl = 'YOUR_SUPABASE_URL_HERE';
+const supabaseKey = 'YOUR_SUPABASE_ANON_KEY_HERE';
+const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+// 2. The Identity System
+let currentUser = localStorage.getItem('paravostok_user');
+
+async function checkAuth() {
+    if (!currentUser) {
+        document.getElementById('login-modal').classList.remove('hidden');
+        document.body.style.overflow = 'hidden'; 
+    } else {
+        document.getElementById('login-modal').classList.add('hidden');
+        document.body.style.overflow = 'auto';
+        document.getElementById('user-display').innerText = 'Player: ' + currentUser;
+        
+        // Fetch their balance from the cloud!
+        await loadPlayerData();
+    }
+}
+
+// 3. Create or Load the Player in the Cloud
+async function loginUser() {
+    const name = document.getElementById('username-input').value.trim();
+    if (name) {
+        localStorage.setItem('paravostok_user', name);
+        currentUser = name;
+        
+        // Try to insert the user (if they already exist, it will just fail silently which is fine)
+        await supabase.from('players').insert([{ username: name }]);
+        
+        checkAuth();
+        location.reload(); 
+    }
+}
+
+async function loadPlayerData() {
+    const { data, error } = await supabase
+        .from('players')
+        .select('balance, active_bets')
+        .eq('username', currentUser)
+        .single();
+        
+    if (data) {
+        document.getElementById('balance').innerText = data.balance;
+        // You can now load your bets using data.active_bets
+    }
+}
+
 const balanceEl = document.getElementById('balance');
 const container = document.getElementById('market-container');
 
