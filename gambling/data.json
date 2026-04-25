@@ -1,36 +1,77 @@
 {
     "current_events": [
         {
+            "id": "1682582400006",
+            "title": "UK Government to Announce New 'Levelling Up' Fund for North East England",
+            "payout": 2.38,
+            "desc": "The Department for Levelling Up, Housing and Communities (DLUHC) to release a statement or hold a press conference today, April 25th, confirming a new multi-million-pound 'Levelling Up' fund specifically allocated to projects within North East England."
+        },
+        {
+            "id": "1682582400007",
+            "title": "Scottish Government to Confirm Delay in National Care Service Implementation Timeline",
+            "payout": 2.71,
+            "desc": "A spokesperson for the Scottish Government or a relevant minister to publicly state today, April 25th, that the planned implementation timeline for the National Care Service will be delayed beyond its current projections, citing consultation or operational complexities."
+        },
+        {
+            "id": "1682582400008",
+            "title": "Department for Transport to Announce Further Funding for East West Rail Link",
+            "payout": 3.8,
+            "desc": "The Department for Transport (DfT) to make a public statement today, April 25th, confirming a new tranche of funding or investment specifically allocated to accelerate or expand the East West Rail Link project between Oxford and Cambridge."
+        },
+        {
+            "id": "1682582400009",
+            "title": "European Commission President to Propose New Digital Services Tax Framework",
+            "payout": 2.11,
+            "desc": "Ursula von der Leyen, President of the European Commission, to make a public announcement or statement today, April 25th, formally proposing a new framework for a pan-European digital services tax or significant reform to existing digital taxation policies."
+        },
+        {
+            "id": "1682582400010",
+            "title": "UN Special Envoy to Announce New Ceasefire Talks for Sudan",
+            "payout": 3.17,
+            "desc": "The UN Special Envoy for Sudan (or a similar high-level UN official) to hold a press conference or issue a statement today, April 25th, announcing concrete plans for new, imminent ceasefire negotiations between the warring factions in Sudan, specifying a location or initial date."
+        }
+    ],
+    "history": [
+        {
             "id": "1682496000001",
             "title": "Keir Starmer to unveil detailed Labour plan for NHS waiting lists",
             "payout": 2.0,
-            "desc": "Labour Party leader Keir Starmer to make a public statement today, April 25th, specifically outlining a detailed, costed plan for reducing NHS waiting lists."
+            "desc": "Labour Party leader Keir Starmer to make a public statement today, April 25th, specifically outlining a detailed, costed plan for reducing NHS waiting lists.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
         },
         {
             "id": "1682496000002",
             "title": "Reform UK leader to discuss taxation on major news programme",
             "payout": 1.43,
-            "desc": "The leader of Reform UK (e.g., Richard Tice or successor) to be interviewed on a major national UK news programme (BBC, ITV, Sky) today, April 25th, with taxation being a primary topic of discussion."
+            "desc": "The leader of Reform UK (e.g., Richard Tice or successor) to be interviewed on a major national UK news programme (BBC, ITV, Sky) today, April 25th, with taxation being a primary topic of discussion.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
         },
         {
             "id": "1682496000003",
             "title": "Sustainable Energy Transition Bill to face delay",
             "payout": 3.33,
-            "desc": "A government spokesperson to confirm today, April 25th, that the 'Sustainable Energy Transition Bill' (or similar significant energy legislation) will be delayed from its expected committee stage next week due to ongoing consultations or amendments."
+            "desc": "A government spokesperson to confirm today, April 25th, that the 'Sustainable Energy Transition Bill' (or similar significant energy legislation) will be delayed from its expected committee stage next week due to ongoing consultations or amendments.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
         },
         {
             "id": "1682496000004",
             "title": "Another CalMac ferry breakdown causing major route disruption",
             "payout": 2.5,
-            "desc": "A new mechanical fault or significant operational issue to be reported today, April 25th, affecting a Caledonian MacBrayne (CalMac) ferry, leading to a disruption of at least 12 hours on any single major island route (e.g., Oban-Coll/Tiree, Uig-Tarbert/Lochmaddy)."
+            "desc": "A new mechanical fault or significant operational issue to be reported today, April 25th, affecting a Caledonian MacBrayne (CalMac) ferry, leading to a disruption of at least 12 hours on any single major island route (e.g., Oban-Coll/Tiree, Uig-Tarbert/Lochmaddy).",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
         },
         {
             "id": "1682496000005",
             "title": "Major AI lab to showcase breakthrough in energy-efficient AI",
             "payout": 5.0,
-            "desc": "A leading AI research laboratory (e.g., Google DeepMind, OpenAI, Anthropic) to publicly release a new peer-reviewed paper or conduct a demonstration today, April 25th, detailing a significant advancement in energy-efficient AI model training or inference."
+            "desc": "A leading AI research laboratory (e.g., Google DeepMind, OpenAI, Anthropic) to publicly release a new peer-reviewed paper or conduct a demonstration today, April 25th, detailing a significant advancement in energy-efficient AI model training or inference.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
         }
     ],
-    "history": [],
-    "last_update": "2026-04-25 13:48"
+    "last_update": "2026-04-25 14:14"
 }
