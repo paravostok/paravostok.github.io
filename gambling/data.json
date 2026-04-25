@@ -1,1 +1,36 @@
-
+{
+    "current_events": [
+        {
+            "id": "1682496000001",
+            "title": "Keir Starmer to unveil detailed Labour plan for NHS waiting lists",
+            "payout": 2.0,
+            "desc": "Labour Party leader Keir Starmer to make a public statement today, April 25th, specifically outlining a detailed, costed plan for reducing NHS waiting lists."
+        },
+        {
+            "id": "1682496000002",
+            "title": "Reform UK leader to discuss taxation on major news programme",
+            "payout": 1.43,
+            "desc": "The leader of Reform UK (e.g., Richard Tice or successor) to be interviewed on a major national UK news programme (BBC, ITV, Sky) today, April 25th, with taxation being a primary topic of discussion."
+        },
+        {
+            "id": "1682496000003",
+            "title": "Sustainable Energy Transition Bill to face delay",
+            "payout": 3.33,
+            "desc": "A government spokesperson to confirm today, April 25th, that the 'Sustainable Energy Transition Bill' (or similar significant energy legislation) will be delayed from its expected committee stage next week due to ongoing consultations or amendments."
+        },
+        {
+            "id": "1682496000004",
+            "title": "Another CalMac ferry breakdown causing major route disruption",
+            "payout": 2.5,
+            "desc": "A new mechanical fault or significant operational issue to be reported today, April 25th, affecting a Caledonian MacBrayne (CalMac) ferry, leading to a disruption of at least 12 hours on any single major island route (e.g., Oban-Coll/Tiree, Uig-Tarbert/Lochmaddy)."
+        },
+        {
+            "id": "1682496000005",
+            "title": "Major AI lab to showcase breakthrough in energy-efficient AI",
+            "payout": 5.0,
+            "desc": "A leading AI research laboratory (e.g., Google DeepMind, OpenAI, Anthropic) to publicly release a new peer-reviewed paper or conduct a demonstration today, April 25th, detailing a significant advancement in energy-efficient AI model training or inference."
+        }
+    ],
+    "history": [],
+    "last_update": "2026-04-25 13:48"
+}
