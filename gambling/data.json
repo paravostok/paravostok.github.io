@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "1682582400006",
-            "title": "UK Government to Announce New 'Levelling Up' Fund for North East England",
+            "id": "1777084800001",
+            "title": "Will a new major poll released today show the governing Conservative Party's national support below 25%?",
+            "payout": 2.57,
+            "desc": "With an impending general election and recent controversial policy decisions, several polling organizations are due to release updated national surveys today. Political analysts speculate a further drop in Conservative support could be revealed, indicating significant public dissatisfaction."
+        },
+        {
+            "id": "1777084800002",
+            "title": "Will the Scottish Government officially acknowledge today that the 10% elective surgery waiting list reduction target will be missed?",
             "payout": 2.38,
-            "desc": "The Department for Levelling Up, Housing and Communities (DLUHC) to release a statement or hold a press conference today, April 25th, confirming a new multi-million-pound 'Levelling Up' fund specifically allocated to projects within North East England."
+            "desc": "Following growing pressure from opposition parties and healthcare unions, and with new NHS Scotland data expected later this week, a government spokesperson or minister may be pressed to address the feasibility of current waiting list targets in today's statements or media appearances."
         },
         {
-            "id": "1682582400007",
-            "title": "Scottish Government to Confirm Delay in National Care Service Implementation Timeline",
-            "payout": 2.71,
-            "desc": "A spokesperson for the Scottish Government or a relevant minister to publicly state today, April 25th, that the planned implementation timeline for the National Care Service will be delayed beyond its current projections, citing consultation or operational complexities."
+            "id": "1777084800003",
+            "title": "Will a prominent environmental activist group announce new direct action protests targeting HS2 construction sites today?",
+            "payout": 1.9,
+            "desc": "Environmental groups have consistently targeted the HS2 project. In response to recent government updates on project phases and potential ecological impacts, a group may publicly declare plans for new, immediate protest actions to be initiated or announced today."
         },
         {
-            "id": "1682582400008",
-            "title": "Department for Transport to Announce Further Funding for East West Rail Link",
-            "payout": 3.8,
-            "desc": "The Department for Transport (DfT) to make a public statement today, April 25th, confirming a new tranche of funding or investment specifically allocated to accelerate or expand the East West Rail Link project between Oxford and Cambridge."
-        },
-        {
-            "id": "1682582400009",
-            "title": "European Commission President to Propose New Digital Services Tax Framework",
+            "id": "1777084800004",
+            "title": "Will G7 foreign ministers issue a joint statement today specifically naming and condemning recent actions of a non-G7 state?",
             "payout": 2.11,
-            "desc": "Ursula von der Leyen, President of the European Commission, to make a public announcement or statement today, April 25th, formally proposing a new framework for a pan-European digital services tax or significant reform to existing digital taxation policies."
+            "desc": "With ongoing geopolitical tensions and a scheduled G7 foreign ministers' virtual meeting today, there is a possibility they will coordinate a strong, public condemnation of specific actions taken by a non-member nation, such as those related to cyberattacks or territorial disputes."
         },
         {
-            "id": "1682582400010",
-            "title": "UN Special Envoy to Announce New Ceasefire Talks for Sudan",
-            "payout": 3.17,
-            "desc": "The UN Special Envoy for Sudan (or a similar high-level UN official) to hold a press conference or issue a statement today, April 25th, announcing concrete plans for new, imminent ceasefire negotiations between the warring factions in Sudan, specifying a location or initial date."
+            "id": "1777084800005",
+            "title": "Will a major international aid organization release a report today detailing a significant new wave of displacement in a conflict zone?",
+            "payout": 1.58,
+            "desc": "Humanitarian organizations frequently update their assessments. With ongoing conflicts in various regions, a major aid agency might publish an urgent report today, highlighting a specific, recent surge in internal or cross-border displacement, further exacerbating the humanitarian crisis."
         }
     ],
     "history": [
@@ -71,7 +71,47 @@
             "desc": "A leading AI research laboratory (e.g., Google DeepMind, OpenAI, Anthropic) to publicly release a new peer-reviewed paper or conduct a demonstration today, April 25th, detailing a significant advancement in energy-efficient AI model training or inference.",
             "result": "LOST",
             "settled_at": "2026-04-25"
+        },
+        {
+            "id": "1682582400006",
+            "title": "UK Government to Announce New 'Levelling Up' Fund for North East England",
+            "payout": 2.38,
+            "desc": "The Department for Levelling Up, Housing and Communities (DLUHC) to release a statement or hold a press conference today, April 25th, confirming a new multi-million-pound 'Levelling Up' fund specifically allocated to projects within North East England.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
+        },
+        {
+            "id": "1682582400007",
+            "title": "Scottish Government to Confirm Delay in National Care Service Implementation Timeline",
+            "payout": 2.71,
+            "desc": "A spokesperson for the Scottish Government or a relevant minister to publicly state today, April 25th, that the planned implementation timeline for the National Care Service will be delayed beyond its current projections, citing consultation or operational complexities.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
+        },
+        {
+            "id": "1682582400008",
+            "title": "Department for Transport to Announce Further Funding for East West Rail Link",
+            "payout": 3.8,
+            "desc": "The Department for Transport (DfT) to make a public statement today, April 25th, confirming a new tranche of funding or investment specifically allocated to accelerate or expand the East West Rail Link project between Oxford and Cambridge.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
+        },
+        {
+            "id": "1682582400009",
+            "title": "European Commission President to Propose New Digital Services Tax Framework",
+            "payout": 2.11,
+            "desc": "Ursula von der Leyen, President of the European Commission, to make a public announcement or statement today, April 25th, formally proposing a new framework for a pan-European digital services tax or significant reform to existing digital taxation policies.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
+        },
+        {
+            "id": "1682582400010",
+            "title": "UN Special Envoy to Announce New Ceasefire Talks for Sudan",
+            "payout": 3.17,
+            "desc": "The UN Special Envoy for Sudan (or a similar high-level UN official) to hold a press conference or issue a statement today, April 25th, announcing concrete plans for new, imminent ceasefire negotiations between the warring factions in Sudan, specifying a location or initial date.",
+            "result": "LOST",
+            "settled_at": "2026-04-25"
         }
     ],
-    "last_update": "2026-04-25 14:14"
+    "last_update": "2026-04-25 14:43"
 }
