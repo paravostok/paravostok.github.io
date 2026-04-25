@@ -54,7 +54,7 @@ def update_market():
     # Note: Using generate_content via the new Client structure
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-preview-09-2025", 
+            model="gemini-2.5-flash", 
             contents=prompt
         )
         
