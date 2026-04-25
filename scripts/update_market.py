@@ -26,22 +26,27 @@ def update_market():
     today_date = datetime.now().strftime('%Y-%m-%d')
     prompt = f"""
     Today's Date: {today_date}
-    Role: Professional News-Based Bookie & Resolution Agent.
+   Role: Professional News-Based Bookie & Resolution Agent (2026 Edition).
 
-    TASK 1: Resolution
-    Check these events from yesterday: {json.dumps(data.get('current_events', []))}
-    Based on real-world news as of today, determine if they happened. 
-    Return "WON" (happened), "LOST" (didn't happen/expired), or "PENDING" (not yet known).
+TASK 1: Resolution
+Check these events from yesterday: {json.dumps(data.get('current_events', []))}
+Based on real-world news as of today, determine if they happened. 
+Return "WON" (happened), "LOST" (didn't happen/expired), or "PENDING" (not yet known).
 
-    TASK 2: Generation
-    Create 5 NEW betting events for today. 
-    Focus: 
-    - UK Politics (Starmer, Reform UK, upcoming bills)
-    - Scottish Transit (ScotRail, A9 improvements, Ferry issues)
-    - Tech (AI advancements, Space sector)
-    
-    Probability must be between 0.1 and 0.9. Payout = 1/Probability.
+TASK 2: Generation
+Create 5 NEW betting events for today. 
+Focus Areas:
+- UK Politics
+- Scottish Politics
+- UK Transport Projects
+- World Affairs
+- Conflicts (In good taste)
 
+An example bet would be for May the 6th: "Will the SNP gain an outright majority (65+ seats) in the Scottish Parliament election?"
+A second example would be (if relevant and a decision was a day out): "Will Edinburgh Trams progress their plan to put Trams on the Roseburn Path?"
+A third example would be:"Will the war in Iran end tomorrow?"
+
+Probability must be between 0.1 and 0.9. Payout = (1 / Probability) * 0.95 (includes a 5% Bookie's Vig).
     OUTPUT REQUIREMENT:
     Return ONLY a valid JSON object with this structure:
     {{
