@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260428001",
-            "title": "Will the Bank of England issue an emergency statement on monetary policy following today's inflation figures?",
-            "payout": 3.17,
-            "desc": "With crucial inflation figures scheduled for release today, a surprisingly high or low figure could prompt the Bank of England to issue an unscheduled statement regarding its monetary policy outlook to reassure markets or signal potential action. (Probability: 0.3)"
-        },
-        {
-            "id": "20260428002",
-            "title": "Will a prominent Scottish Government minister resign from their post today amidst ongoing policy disagreements?",
-            "payout": 3.8,
-            "desc": "Following sustained reports of internal dissent and policy disputes within the Scottish Government coalition, a high-profile minister may choose today to step down, potentially citing irreconcilable differences or a loss of confidence. (Probability: 0.25)"
-        },
-        {
-            "id": "20260428003",
-            "title": "Will the UK Department for Transport confirm a further delay to a major national infrastructure project today?",
-            "payout": 2.38,
-            "desc": "With persistent rumors circulating about funding challenges and supply chain issues affecting significant national infrastructure projects, the Department for Transport might issue a statement today confirming a new timeline for completion or a revised budget for one such scheme. (Probability: 0.4)"
-        },
-        {
-            "id": "20260428004",
-            "title": "Will the EU announce new tariffs or sanctions against a major trading partner today over alleged unfair trade practices?",
+            "id": "20260429001",
+            "title": "Will the Prime Minister publicly retract a controversial statement made earlier this week during today's PMQs or a scheduled press appearance?",
             "payout": 2.71,
-            "desc": "Amidst ongoing global trade tensions and recent accusations of unfair competition, the European Union could choose today to announce new punitive measures, such as tariffs or sanctions, against a major non-EU trading nation. (Probability: 0.35)"
+            "desc": "Following intense media scrutiny and significant opposition pressure regarding a statement issued earlier in the week, the Prime Minister may choose today's Prime Minister's Questions or a planned press briefing to publicly clarify or retract the contentious remarks to quell further controversy. (Probability: 0.35)"
         },
         {
-            "id": "20260428005",
-            "title": "Will a major regional power issue an ultimatum or warning of military intervention concerning the escalating violence in North Africa today?",
-            "payout": 4.75,
-            "desc": "Following yesterday's emergency UN Security Council meeting and reports of rapidly deteriorating security in a North African region, a neighboring or influential regional power may today issue a strong diplomatic ultimatum, possibly including a threat of unilateral military action if the violence does not cease. (Probability: 0.2)"
+            "id": "20260429002",
+            "title": "Will the Scottish Government announce a formal inquiry into the recent budget overspend for a major public sector project by the end of today?",
+            "payout": 2.38,
+            "desc": "Amidst growing calls for accountability from opposition parties and the media following recent revelations of a significant budget overspend on a flagship public sector project, the Scottish Government might today announce the commencement of a formal inquiry. (Probability: 0.4)"
+        },
+        {
+            "id": "20260429003",
+            "title": "Will HS2 Ltd confirm today that the next phase of compulsory land purchases for the northern leg will commence within the next six months?",
+            "payout": 2.11,
+            "desc": "With ongoing speculation regarding the future pace and scope of the HS2 project, an official update or statement from HS2 Ltd today could confirm the timeline for the commencement of further compulsory land acquisitions for the northern sections of the high-speed rail line. (Probability: 0.45)"
+        },
+        {
+            "id": "20260429004",
+            "title": "Will the G7 foreign ministers, meeting today, issue a joint statement explicitly condemning recent cyberattacks attributed to a state-sponsored actor?",
+            "payout": 1.9,
+            "desc": "As G7 foreign ministers convene today, a key agenda item is expected to be global security and cyber warfare. A joint declaration could be issued by day's end, specifically naming and condemning a state-sponsored entity for recent cyber aggression. (Probability: 0.5)"
+        },
+        {
+            "id": "20260429005",
+            "title": "Will the United Nations announce a new humanitarian corridor agreement for a conflict zone in Eastern Europe today?",
+            "payout": 3.8,
+            "desc": "Following urgent reports of rapidly deteriorating humanitarian conditions and intense diplomatic negotiations, the United Nations might today announce a breakthrough, confirming a new agreement for the safe passage of aid and civilians within a key Eastern European conflict zone. (Probability: 0.25)"
         }
     ],
     "history": [
@@ -231,7 +231,47 @@
             "desc": "Following an emergency UN Security Council meeting yesterday concerning escalating violence in a specific North African region, there is a remote but distinct possibility that the UN will announce today the immediate deployment of a peacekeeping force, signaling a rapid international response.",
             "result": "LOST",
             "settled_at": "2026-04-28"
+        },
+        {
+            "id": "20260428001",
+            "title": "Will the Bank of England issue an emergency statement on monetary policy following today's inflation figures?",
+            "payout": 3.17,
+            "desc": "With crucial inflation figures scheduled for release today, a surprisingly high or low figure could prompt the Bank of England to issue an unscheduled statement regarding its monetary policy outlook to reassure markets or signal potential action. (Probability: 0.3)",
+            "result": "LOST",
+            "settled_at": "2026-04-29"
+        },
+        {
+            "id": "20260428002",
+            "title": "Will a prominent Scottish Government minister resign from their post today amidst ongoing policy disagreements?",
+            "payout": 3.8,
+            "desc": "Following sustained reports of internal dissent and policy disputes within the Scottish Government coalition, a high-profile minister may choose today to step down, potentially citing irreconcilable differences or a loss of confidence. (Probability: 0.25)",
+            "result": "LOST",
+            "settled_at": "2026-04-29"
+        },
+        {
+            "id": "20260428003",
+            "title": "Will the UK Department for Transport confirm a further delay to a major national infrastructure project today?",
+            "payout": 2.38,
+            "desc": "With persistent rumors circulating about funding challenges and supply chain issues affecting significant national infrastructure projects, the Department for Transport might issue a statement today confirming a new timeline for completion or a revised budget for one such scheme. (Probability: 0.4)",
+            "result": "WON",
+            "settled_at": "2026-04-29"
+        },
+        {
+            "id": "20260428004",
+            "title": "Will the EU announce new tariffs or sanctions against a major trading partner today over alleged unfair trade practices?",
+            "payout": 2.71,
+            "desc": "Amidst ongoing global trade tensions and recent accusations of unfair competition, the European Union could choose today to announce new punitive measures, such as tariffs or sanctions, against a major non-EU trading nation. (Probability: 0.35)",
+            "result": "LOST",
+            "settled_at": "2026-04-29"
+        },
+        {
+            "id": "20260428005",
+            "title": "Will a major regional power issue an ultimatum or warning of military intervention concerning the escalating violence in North Africa today?",
+            "payout": 4.75,
+            "desc": "Following yesterday's emergency UN Security Council meeting and reports of rapidly deteriorating security in a North African region, a neighboring or influential regional power may today issue a strong diplomatic ultimatum, possibly including a threat of unilateral military action if the violence does not cease. (Probability: 0.2)",
+            "result": "LOST",
+            "settled_at": "2026-04-29"
         }
     ],
-    "last_update": "2026-04-28 02:08"
+    "last_update": "2026-04-29 02:09"
 }
