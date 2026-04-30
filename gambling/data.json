@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260429001",
-            "title": "Will the Prime Minister publicly retract a controversial statement made earlier this week during today's PMQs or a scheduled press appearance?",
-            "payout": 2.71,
-            "desc": "Following intense media scrutiny and significant opposition pressure regarding a statement issued earlier in the week, the Prime Minister may choose today's Prime Minister's Questions or a planned press briefing to publicly clarify or retract the contentious remarks to quell further controversy. (Probability: 0.35)"
+            "id": "20260430001",
+            "title": "Will Number 10 officially deny rumors of an imminent cabinet reshuffle by the end of today?",
+            "payout": 1.58,
+            "desc": "Amidst growing speculation in Westminster tabloids and political blogs regarding potential changes to the Prime Minister's cabinet, Downing Street might issue a definitive statement today to either confirm or quash these rumors ahead of next week's parliamentary session."
         },
         {
-            "id": "20260429002",
-            "title": "Will the Scottish Government announce a formal inquiry into the recent budget overspend for a major public sector project by the end of today?",
+            "id": "20260430002",
+            "title": "Will the Scottish Government today announce a specific date for the publication of its new independence white paper?",
             "payout": 2.38,
-            "desc": "Amidst growing calls for accountability from opposition parties and the media following recent revelations of a significant budget overspend on a flagship public sector project, the Scottish Government might today announce the commencement of a formal inquiry. (Probability: 0.4)"
+            "desc": "Following recent calls from pro-independence factions for accelerated progress on a future referendum, the First Minister or a senior cabinet member could use a scheduled press briefing or a statement to Parliament today to confirm a definitive timeline for the release of the much-anticipated independence white paper."
         },
         {
-            "id": "20260429003",
-            "title": "Will HS2 Ltd confirm today that the next phase of compulsory land purchases for the northern leg will commence within the next six months?",
-            "payout": 2.11,
-            "desc": "With ongoing speculation regarding the future pace and scope of the HS2 project, an official update or statement from HS2 Ltd today could confirm the timeline for the commencement of further compulsory land acquisitions for the northern sections of the high-speed rail line. (Probability: 0.45)"
-        },
-        {
-            "id": "20260429004",
-            "title": "Will the G7 foreign ministers, meeting today, issue a joint statement explicitly condemning recent cyberattacks attributed to a state-sponsored actor?",
+            "id": "20260430003",
+            "title": "Will Transport for London (TfL) confirm today that the Night Tube service will be fully reinstated on all lines by the end of May?",
             "payout": 1.9,
-            "desc": "As G7 foreign ministers convene today, a key agenda item is expected to be global security and cyber warfare. A joint declaration could be issued by day's end, specifically naming and condemning a state-sponsored entity for recent cyber aggression. (Probability: 0.5)"
+            "desc": "With increasing pressure from hospitality businesses and commuters, and after several partial reinstatements, TfL might today issue an official announcement regarding the complete return of Night Tube services across all remaining lines, possibly setting a firm date for late May."
         },
         {
-            "id": "20260429005",
-            "title": "Will the United Nations announce a new humanitarian corridor agreement for a conflict zone in Eastern Europe today?",
-            "payout": 3.8,
-            "desc": "Following urgent reports of rapidly deteriorating humanitarian conditions and intense diplomatic negotiations, the United Nations might today announce a breakthrough, confirming a new agreement for the safe passage of aid and civilians within a key Eastern European conflict zone. (Probability: 0.25)"
+            "id": "20260430004",
+            "title": "Will the EU Commission president and the US Secretary of State, meeting in Brussels today, hold a joint press conference before 17:00 GMT?",
+            "payout": 1.36,
+            "desc": "High-level diplomatic talks are underway in Brussels focusing on transatlantic trade and security. A joint press conference is a common outcome for such meetings, and a decision on whether to hold one, and its timing, is often made early in the day."
+        },
+        {
+            "id": "20260430005",
+            "title": "Will the International Red Cross announce today the successful delivery of critical medical supplies to a besieged city in North Africa?",
+            "payout": 3.17,
+            "desc": "After days of intense negotiations and multiple failed attempts, the International Red Cross has been working to secure safe passage for vital medical aid. A statement regarding the success or failure of today's planned convoy is expected before day's end."
         }
     ],
     "history": [
@@ -271,7 +271,47 @@
             "desc": "Following yesterday's emergency UN Security Council meeting and reports of rapidly deteriorating security in a North African region, a neighboring or influential regional power may today issue a strong diplomatic ultimatum, possibly including a threat of unilateral military action if the violence does not cease. (Probability: 0.2)",
             "result": "LOST",
             "settled_at": "2026-04-29"
+        },
+        {
+            "id": "20260429001",
+            "title": "Will the Prime Minister publicly retract a controversial statement made earlier this week during today's PMQs or a scheduled press appearance?",
+            "payout": 2.71,
+            "desc": "Following intense media scrutiny and significant opposition pressure regarding a statement issued earlier in the week, the Prime Minister may choose today's Prime Minister's Questions or a planned press briefing to publicly clarify or retract the contentious remarks to quell further controversy. (Probability: 0.35)",
+            "result": "LOST",
+            "settled_at": "2026-04-30"
+        },
+        {
+            "id": "20260429002",
+            "title": "Will the Scottish Government announce a formal inquiry into the recent budget overspend for a major public sector project by the end of today?",
+            "payout": 2.38,
+            "desc": "Amidst growing calls for accountability from opposition parties and the media following recent revelations of a significant budget overspend on a flagship public sector project, the Scottish Government might today announce the commencement of a formal inquiry. (Probability: 0.4)",
+            "result": "WON",
+            "settled_at": "2026-04-30"
+        },
+        {
+            "id": "20260429003",
+            "title": "Will HS2 Ltd confirm today that the next phase of compulsory land purchases for the northern leg will commence within the next six months?",
+            "payout": 2.11,
+            "desc": "With ongoing speculation regarding the future pace and scope of the HS2 project, an official update or statement from HS2 Ltd today could confirm the timeline for the commencement of further compulsory land acquisitions for the northern sections of the high-speed rail line. (Probability: 0.45)",
+            "result": "LOST",
+            "settled_at": "2026-04-30"
+        },
+        {
+            "id": "20260429004",
+            "title": "Will the G7 foreign ministers, meeting today, issue a joint statement explicitly condemning recent cyberattacks attributed to a state-sponsored actor?",
+            "payout": 1.9,
+            "desc": "As G7 foreign ministers convene today, a key agenda item is expected to be global security and cyber warfare. A joint declaration could be issued by day's end, specifically naming and condemning a state-sponsored entity for recent cyber aggression. (Probability: 0.5)",
+            "result": "WON",
+            "settled_at": "2026-04-30"
+        },
+        {
+            "id": "20260429005",
+            "title": "Will the United Nations announce a new humanitarian corridor agreement for a conflict zone in Eastern Europe today?",
+            "payout": 3.8,
+            "desc": "Following urgent reports of rapidly deteriorating humanitarian conditions and intense diplomatic negotiations, the United Nations might today announce a breakthrough, confirming a new agreement for the safe passage of aid and civilians within a key Eastern European conflict zone. (Probability: 0.25)",
+            "result": "LOST",
+            "settled_at": "2026-04-30"
         }
     ],
-    "last_update": "2026-04-29 02:09"
+    "last_update": "2026-04-30 02:09"
 }
