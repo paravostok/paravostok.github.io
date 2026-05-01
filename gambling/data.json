@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260430001",
-            "title": "Will Number 10 officially deny rumors of an imminent cabinet reshuffle by the end of today?",
+            "id": "20260501001",
+            "title": "Will a prominent Conservative MP today publicly call for a vote of no confidence in the Prime Minister?",
+            "payout": 3.8,
+            "desc": "Amidst ongoing scrutiny of the government's performance and recent poor poll numbers, a backbench or former frontbench Conservative MP might feel compelled to publicly challenge the Prime Minister's leadership today, potentially ahead of next week's parliamentary schedule."
+        },
+        {
+            "id": "20260501002",
+            "title": "Will the Scottish First Minister, in a public statement or interview today, rule out an early Holyrood election before 2027?",
             "payout": 1.58,
-            "desc": "Amidst growing speculation in Westminster tabloids and political blogs regarding potential changes to the Prime Minister's cabinet, Downing Street might issue a definitive statement today to either confirm or quash these rumors ahead of next week's parliamentary session."
+            "desc": "Following recent media speculation regarding the stability of the Scottish Government and calls from opposition parties for a fresh mandate, the First Minister could use a scheduled media appearance or parliamentary update today to definitively dismiss the possibility of an early election before the next fixed term in 2027."
         },
         {
-            "id": "20260430002",
-            "title": "Will the Scottish Government today announce a specific date for the publication of its new independence white paper?",
-            "payout": 2.38,
-            "desc": "Following recent calls from pro-independence factions for accelerated progress on a future referendum, the First Minister or a senior cabinet member could use a scheduled press briefing or a statement to Parliament today to confirm a definitive timeline for the release of the much-anticipated independence white paper."
+            "id": "20260501003",
+            "title": "Will Network Rail confirm today that a specific section of the HS2 project (e.g., between Birmingham and Crewe) has officially had its completion date pushed back by more than six months?",
+            "payout": 1.27,
+            "desc": "Persistent rumors of escalating costs and engineering challenges for the HS2 high-speed rail link could force Network Rail to issue an update today. An internal review, or a leak, might prompt an official confirmation of a significant delay to a key operational segment."
         },
         {
-            "id": "20260430003",
-            "title": "Will Transport for London (TfL) confirm today that the Night Tube service will be fully reinstated on all lines by the end of May?",
+            "id": "20260501004",
+            "title": "Will the UN Secretary-General today issue a formal statement condemning recent cross-border military incursions in the Sahel region?",
             "payout": 1.9,
-            "desc": "With increasing pressure from hospitality businesses and commuters, and after several partial reinstatements, TfL might today issue an official announcement regarding the complete return of Night Tube services across all remaining lines, possibly setting a firm date for late May."
+            "desc": "After an emergency UN Security Council briefing yesterday on escalating tensions and humanitarian concerns in the Sahel, the Secretary-General is under pressure to respond. A formal, strongly-worded statement condemning recent military actions could be released today to emphasize international concern."
         },
         {
-            "id": "20260430004",
-            "title": "Will the EU Commission president and the US Secretary of State, meeting in Brussels today, hold a joint press conference before 17:00 GMT?",
-            "payout": 1.36,
-            "desc": "High-level diplomatic talks are underway in Brussels focusing on transatlantic trade and security. A joint press conference is a common outcome for such meetings, and a decision on whether to hold one, and its timing, is often made early in the day."
-        },
-        {
-            "id": "20260430005",
-            "title": "Will the International Red Cross announce today the successful delivery of critical medical supplies to a besieged city in North Africa?",
+            "id": "20260501005",
+            "title": "Will official sources from either side in the Eastern European conflict today confirm a 24-hour humanitarian ceasefire in the disputed southern province?",
             "payout": 3.17,
-            "desc": "After days of intense negotiations and multiple failed attempts, the International Red Cross has been working to secure safe passage for vital medical aid. A statement regarding the success or failure of today's planned convoy is expected before day's end."
+            "desc": "Intense diplomatic efforts and calls from aid agencies for a pause in fighting could lead to a limited, verifiable ceasefire. Confirmation from official military or government sources from either combatant is awaited, potentially for an immediate, short-term humanitarian corridor."
         }
     ],
     "history": [
@@ -311,7 +311,47 @@
             "desc": "Following urgent reports of rapidly deteriorating humanitarian conditions and intense diplomatic negotiations, the United Nations might today announce a breakthrough, confirming a new agreement for the safe passage of aid and civilians within a key Eastern European conflict zone. (Probability: 0.25)",
             "result": "LOST",
             "settled_at": "2026-04-30"
+        },
+        {
+            "id": "20260430001",
+            "title": "Will Number 10 officially deny rumors of an imminent cabinet reshuffle by the end of today?",
+            "payout": 1.58,
+            "desc": "Amidst growing speculation in Westminster tabloids and political blogs regarding potential changes to the Prime Minister's cabinet, Downing Street might issue a definitive statement today to either confirm or quash these rumors ahead of next week's parliamentary session.",
+            "result": "LOST",
+            "settled_at": "2026-05-01"
+        },
+        {
+            "id": "20260430002",
+            "title": "Will the Scottish Government today announce a specific date for the publication of its new independence white paper?",
+            "payout": 2.38,
+            "desc": "Following recent calls from pro-independence factions for accelerated progress on a future referendum, the First Minister or a senior cabinet member could use a scheduled press briefing or a statement to Parliament today to confirm a definitive timeline for the release of the much-anticipated independence white paper.",
+            "result": "LOST",
+            "settled_at": "2026-05-01"
+        },
+        {
+            "id": "20260430003",
+            "title": "Will Transport for London (TfL) confirm today that the Night Tube service will be fully reinstated on all lines by the end of May?",
+            "payout": 1.9,
+            "desc": "With increasing pressure from hospitality businesses and commuters, and after several partial reinstatements, TfL might today issue an official announcement regarding the complete return of Night Tube services across all remaining lines, possibly setting a firm date for late May.",
+            "result": "LOST",
+            "settled_at": "2026-05-01"
+        },
+        {
+            "id": "20260430004",
+            "title": "Will the EU Commission president and the US Secretary of State, meeting in Brussels today, hold a joint press conference before 17:00 GMT?",
+            "payout": 1.36,
+            "desc": "High-level diplomatic talks are underway in Brussels focusing on transatlantic trade and security. A joint press conference is a common outcome for such meetings, and a decision on whether to hold one, and its timing, is often made early in the day.",
+            "result": "WON",
+            "settled_at": "2026-05-01"
+        },
+        {
+            "id": "20260430005",
+            "title": "Will the International Red Cross announce today the successful delivery of critical medical supplies to a besieged city in North Africa?",
+            "payout": 3.17,
+            "desc": "After days of intense negotiations and multiple failed attempts, the International Red Cross has been working to secure safe passage for vital medical aid. A statement regarding the success or failure of today's planned convoy is expected before day's end.",
+            "result": "LOST",
+            "settled_at": "2026-05-01"
         }
     ],
-    "last_update": "2026-04-30 02:09"
+    "last_update": "2026-05-01 02:13"
 }
