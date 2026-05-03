@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260502001",
-            "title": "Will a Cabinet Minister today publicly announce their resignation from the UK Government?",
-            "payout": 3.8,
-            "desc": "Amidst persistent speculation regarding the performance of certain government departments and ongoing political pressures, a prominent Cabinet member may feel compelled to announce their resignation today, potentially ahead of a scheduled parliamentary session or following a challenging media appearance."
-        },
-        {
-            "id": "20260502002",
-            "title": "Will the Scottish Parliament today successfully pass the final stage of the 'Housing (Tenant Protection) Bill' as currently drafted?",
-            "payout": 1.36,
-            "desc": "The Scottish Parliament has a critical vote scheduled for today on the controversial 'Housing (Tenant Protection) Bill'. Despite close margins and intense lobbying from various groups, a final push by the ruling coalition or a last-minute compromise could see the legislation pass its third and final stage."
-        },
-        {
-            "id": "20260502003",
-            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Powerhouse Rail' eastern leg?",
-            "payout": 2.38,
-            "desc": "Following weeks of internal review and recent leaks suggesting severe cost pressures and changing infrastructure priorities, the Department for Transport might issue an official statement today confirming the long-speculated cancellation of the eastern leg of the Northern Powerhouse Rail project."
-        },
-        {
-            "id": "20260502004",
-            "title": "Will the European Union today formally announce new sanctions targeting specific entities involved in illicit mineral trade in the Democratic Republic of Congo?",
-            "payout": 1.9,
-            "desc": "After an EU Council meeting yesterday that reportedly focused on human rights abuses and illegal resource extraction in the DRC, a press conference or official communiqu\u00e9 today could see the European Union announce new targeted sanctions against individuals or organizations implicated in the illicit mineral trade."
-        },
-        {
-            "id": "20260502005",
-            "title": "Will a spokesperson for NATO today confirm reports of an unscheduled increase in allied military presence in the Baltic states?",
+            "id": "20260503001",
+            "title": "Will the Labour Party today publicly call for a snap general election before the end of the year?",
             "payout": 2.71,
-            "desc": "In light of heightened regional tensions and unconfirmed media reports of increased military movements, a NATO spokesperson could use a scheduled briefing or issue an urgent statement today to either confirm or deny an unscheduled augmentation of allied forces in the Baltic states."
+            "desc": "Following recent strong polling figures and ongoing government instability, the opposition Labour Party might today formally issue a demand for a snap general election, perhaps during PMQs or a major press conference, aiming to capitalize on current political momentum."
+        },
+        {
+            "id": "20260503002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for their upcoming leadership contest, following recent internal pressures?",
+            "payout": 2.11,
+            "desc": "Amidst growing calls for clarity on the party's future direction and recent high-profile departures, the SNP's National Executive Committee or a party spokesperson could today announce the official timetable for the next leadership election, potentially to quell internal dissent."
+        },
+        {
+            "id": "20260503003",
+            "title": "Will Transport for London (TfL) today confirm a delay to the proposed Piccadilly line signalling upgrade completion date?",
+            "payout": 1.58,
+            "desc": "Following reports of technical challenges and supply chain issues impacting critical infrastructure projects, TfL could issue a statement today, perhaps in response to media inquiries or during a board meeting, officially confirming a postponement of the Piccadilly line upgrade's expected completion."
+        },
+        {
+            "id": "20260503004",
+            "title": "Will the G7 group of nations today issue a joint statement condemning recent cyberattacks attributed to a state-sponsored actor?",
+            "payout": 1.36,
+            "desc": "After a series of high-profile cyber breaches reported across several G7 nations over the past week, a coordinated diplomatic response is expected. A joint statement condemning the attacks and warning of potential countermeasures could be released today following urgent discussions."
+        },
+        {
+            "id": "20260503005",
+            "title": "Will the UN Special Envoy for a major protracted conflict zone today announce a breakthrough in ceasefire negotiations?",
+            "payout": 3.8,
+            "desc": "Sources close to ongoing peace talks suggest progress has been made between warring factions in a key protracted conflict zone. The UN Special Envoy, who has been mediating, may hold a press conference or issue a statement today confirming a significant step forward towards a ceasefire agreement, aiming to capitalize on a fragile window of opportunity."
         }
     ],
     "history": [
@@ -391,7 +391,47 @@
             "desc": "Intense diplomatic efforts and calls from aid agencies for a pause in fighting could lead to a limited, verifiable ceasefire. Confirmation from official military or government sources from either combatant is awaited, potentially for an immediate, short-term humanitarian corridor.",
             "result": "LOST",
             "settled_at": "2026-05-02"
+        },
+        {
+            "id": "20260502001",
+            "title": "Will a Cabinet Minister today publicly announce their resignation from the UK Government?",
+            "payout": 3.8,
+            "desc": "Amidst persistent speculation regarding the performance of certain government departments and ongoing political pressures, a prominent Cabinet member may feel compelled to announce their resignation today, potentially ahead of a scheduled parliamentary session or following a challenging media appearance.",
+            "result": "LOST",
+            "settled_at": "2026-05-03"
+        },
+        {
+            "id": "20260502002",
+            "title": "Will the Scottish Parliament today successfully pass the final stage of the 'Housing (Tenant Protection) Bill' as currently drafted?",
+            "payout": 1.36,
+            "desc": "The Scottish Parliament has a critical vote scheduled for today on the controversial 'Housing (Tenant Protection) Bill'. Despite close margins and intense lobbying from various groups, a final push by the ruling coalition or a last-minute compromise could see the legislation pass its third and final stage.",
+            "result": "WON",
+            "settled_at": "2026-05-03"
+        },
+        {
+            "id": "20260502003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Powerhouse Rail' eastern leg?",
+            "payout": 2.38,
+            "desc": "Following weeks of internal review and recent leaks suggesting severe cost pressures and changing infrastructure priorities, the Department for Transport might issue an official statement today confirming the long-speculated cancellation of the eastern leg of the Northern Powerhouse Rail project.",
+            "result": "LOST",
+            "settled_at": "2026-05-03"
+        },
+        {
+            "id": "20260502004",
+            "title": "Will the European Union today formally announce new sanctions targeting specific entities involved in illicit mineral trade in the Democratic Republic of Congo?",
+            "payout": 1.9,
+            "desc": "After an EU Council meeting yesterday that reportedly focused on human rights abuses and illegal resource extraction in the DRC, a press conference or official communiqu\u00e9 today could see the European Union announce new targeted sanctions against individuals or organizations implicated in the illicit mineral trade.",
+            "result": "WON",
+            "settled_at": "2026-05-03"
+        },
+        {
+            "id": "20260502005",
+            "title": "Will a spokesperson for NATO today confirm reports of an unscheduled increase in allied military presence in the Baltic states?",
+            "payout": 2.71,
+            "desc": "In light of heightened regional tensions and unconfirmed media reports of increased military movements, a NATO spokesperson could use a scheduled briefing or issue an urgent statement today to either confirm or deny an unscheduled augmentation of allied forces in the Baltic states.",
+            "result": "WON",
+            "settled_at": "2026-05-03"
         }
     ],
-    "last_update": "2026-05-02 02:00"
+    "last_update": "2026-05-03 02:05"
 }
