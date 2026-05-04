@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260503001",
-            "title": "Will the Labour Party today publicly call for a snap general election before the end of the year?",
-            "payout": 2.71,
-            "desc": "Following recent strong polling figures and ongoing government instability, the opposition Labour Party might today formally issue a demand for a snap general election, perhaps during PMQs or a major press conference, aiming to capitalize on current political momentum."
+            "id": "20260504001",
+            "title": "Will the UK Government today officially announce a new package of support measures for households struggling with energy costs?",
+            "payout": 2.38,
+            "desc": "Following widespread media criticism over the weekend regarding the ongoing cost-of-living crisis and rising energy bills, there is growing expectation that the government may swiftly respond with new support measures to ease public pressure. An announcement could come during a morning briefing or a statement to Parliament, aiming to address public concern directly on a Monday."
         },
         {
-            "id": "20260503002",
-            "title": "Will the Scottish National Party (SNP) today confirm the date for their upcoming leadership contest, following recent internal pressures?",
+            "id": "20260504002",
+            "title": "Will the Scottish Government today officially confirm a delay to the proposed commencement date for phase one of the National Care Service?",
+            "payout": 1.9,
+            "desc": "Despite initial timelines, the ambitious National Care Service project in Scotland has faced significant scrutiny over its proposed budget, staffing, and overall feasibility. Following reports over the weekend of internal discussions about implementation challenges, the Scottish Government may today issue an update, potentially confirming a revised timeline for its phased rollout to quell uncertainty."
+        },
+        {
+            "id": "20260504003",
+            "title": "Will the Department for Transport (DfT) today publish new revised cost estimates for a section of the HS2 project?",
             "payout": 2.11,
-            "desc": "Amidst growing calls for clarity on the party's future direction and recent high-profile departures, the SNP's National Executive Committee or a party spokesperson could today announce the official timetable for the next leadership election, potentially to quell internal dissent."
+            "desc": "Following recent intense scrutiny by parliamentary committees regarding the spiralling costs and timelines of the High-Speed 2 (HS2) rail project, the Department for Transport may today release updated financial projections for a specific phase. This could be in response to ongoing public and political pressure for greater transparency, with Monday being a common day for such official publications."
         },
         {
-            "id": "20260503003",
-            "title": "Will Transport for London (TfL) today confirm a delay to the proposed Piccadilly line signalling upgrade completion date?",
-            "payout": 1.58,
-            "desc": "Following reports of technical challenges and supply chain issues impacting critical infrastructure projects, TfL could issue a statement today, perhaps in response to media inquiries or during a board meeting, officially confirming a postponement of the Piccadilly line upgrade's expected completion."
+            "id": "20260504004",
+            "title": "Will a major EU member state today publicly call for an emergency summit of EU leaders to discuss worsening economic ties with China?",
+            "payout": 2.71,
+            "desc": "Amidst growing tensions and trade disputes between the EU and China, reports over the weekend suggest several key EU member states are increasingly concerned about the direction of bilateral relations. A senior figure from a major EU nation could today issue a public statement advocating for an urgent, high-level meeting to reassess strategy, capitalizing on renewed political focus at the start of the week."
         },
         {
-            "id": "20260503004",
-            "title": "Will the G7 group of nations today issue a joint statement condemning recent cyberattacks attributed to a state-sponsored actor?",
-            "payout": 1.36,
-            "desc": "After a series of high-profile cyber breaches reported across several G7 nations over the past week, a coordinated diplomatic response is expected. A joint statement condemning the attacks and warning of potential countermeasures could be released today following urgent discussions."
-        },
-        {
-            "id": "20260503005",
-            "title": "Will the UN Special Envoy for a major protracted conflict zone today announce a breakthrough in ceasefire negotiations?",
-            "payout": 3.8,
-            "desc": "Sources close to ongoing peace talks suggest progress has been made between warring factions in a key protracted conflict zone. The UN Special Envoy, who has been mediating, may hold a press conference or issue a statement today confirming a significant step forward towards a ceasefire agreement, aiming to capitalize on a fragile window of opportunity."
+            "id": "20260504005",
+            "title": "Will the UN Special Coordinator for Middle East Peace today issue a statement confirming an agreement for a temporary humanitarian pause in conflict-affected areas?",
+            "payout": 1.73,
+            "desc": "Following intense diplomatic efforts over the weekend to alleviate the dire humanitarian situation in a protracted conflict zone, there are indications of potential progress. The UN Special Coordinator may today announce a short-term agreement between warring parties to allow for the urgent delivery of aid, aiming to capitalize on a fragile window of opportunity identified during weekend negotiations."
         }
     ],
     "history": [
@@ -431,7 +431,47 @@
             "desc": "In light of heightened regional tensions and unconfirmed media reports of increased military movements, a NATO spokesperson could use a scheduled briefing or issue an urgent statement today to either confirm or deny an unscheduled augmentation of allied forces in the Baltic states.",
             "result": "WON",
             "settled_at": "2026-05-03"
+        },
+        {
+            "id": "20260503001",
+            "title": "Will the Labour Party today publicly call for a snap general election before the end of the year?",
+            "payout": 2.71,
+            "desc": "Following recent strong polling figures and ongoing government instability, the opposition Labour Party might today formally issue a demand for a snap general election, perhaps during PMQs or a major press conference, aiming to capitalize on current political momentum.",
+            "result": "LOST",
+            "settled_at": "2026-05-04"
+        },
+        {
+            "id": "20260503002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for their upcoming leadership contest, following recent internal pressures?",
+            "payout": 2.11,
+            "desc": "Amidst growing calls for clarity on the party's future direction and recent high-profile departures, the SNP's National Executive Committee or a party spokesperson could today announce the official timetable for the next leadership election, potentially to quell internal dissent.",
+            "result": "LOST",
+            "settled_at": "2026-05-04"
+        },
+        {
+            "id": "20260503003",
+            "title": "Will Transport for London (TfL) today confirm a delay to the proposed Piccadilly line signalling upgrade completion date?",
+            "payout": 1.58,
+            "desc": "Following reports of technical challenges and supply chain issues impacting critical infrastructure projects, TfL could issue a statement today, perhaps in response to media inquiries or during a board meeting, officially confirming a postponement of the Piccadilly line upgrade's expected completion.",
+            "result": "LOST",
+            "settled_at": "2026-05-04"
+        },
+        {
+            "id": "20260503004",
+            "title": "Will the G7 group of nations today issue a joint statement condemning recent cyberattacks attributed to a state-sponsored actor?",
+            "payout": 1.36,
+            "desc": "After a series of high-profile cyber breaches reported across several G7 nations over the past week, a coordinated diplomatic response is expected. A joint statement condemning the attacks and warning of potential countermeasures could be released today following urgent discussions.",
+            "result": "LOST",
+            "settled_at": "2026-05-04"
+        },
+        {
+            "id": "20260503005",
+            "title": "Will the UN Special Envoy for a major protracted conflict zone today announce a breakthrough in ceasefire negotiations?",
+            "payout": 3.8,
+            "desc": "Sources close to ongoing peace talks suggest progress has been made between warring factions in a key protracted conflict zone. The UN Special Envoy, who has been mediating, may hold a press conference or issue a statement today confirming a significant step forward towards a ceasefire agreement, aiming to capitalize on a fragile window of opportunity.",
+            "result": "LOST",
+            "settled_at": "2026-05-04"
         }
     ],
-    "last_update": "2026-05-03 02:05"
+    "last_update": "2026-05-04 02:05"
 }
