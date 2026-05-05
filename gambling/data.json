@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260504001",
-            "title": "Will the UK Government today officially announce a new package of support measures for households struggling with energy costs?",
-            "payout": 2.38,
-            "desc": "Following widespread media criticism over the weekend regarding the ongoing cost-of-living crisis and rising energy bills, there is growing expectation that the government may swiftly respond with new support measures to ease public pressure. An announcement could come during a morning briefing or a statement to Parliament, aiming to address public concern directly on a Monday."
-        },
-        {
-            "id": "20260504002",
-            "title": "Will the Scottish Government today officially confirm a delay to the proposed commencement date for phase one of the National Care Service?",
-            "payout": 1.9,
-            "desc": "Despite initial timelines, the ambitious National Care Service project in Scotland has faced significant scrutiny over its proposed budget, staffing, and overall feasibility. Following reports over the weekend of internal discussions about implementation challenges, the Scottish Government may today issue an update, potentially confirming a revised timeline for its phased rollout to quell uncertainty."
-        },
-        {
-            "id": "20260504003",
-            "title": "Will the Department for Transport (DfT) today publish new revised cost estimates for a section of the HS2 project?",
-            "payout": 2.11,
-            "desc": "Following recent intense scrutiny by parliamentary committees regarding the spiralling costs and timelines of the High-Speed 2 (HS2) rail project, the Department for Transport may today release updated financial projections for a specific phase. This could be in response to ongoing public and political pressure for greater transparency, with Monday being a common day for such official publications."
-        },
-        {
-            "id": "20260504004",
-            "title": "Will a major EU member state today publicly call for an emergency summit of EU leaders to discuss worsening economic ties with China?",
-            "payout": 2.71,
-            "desc": "Amidst growing tensions and trade disputes between the EU and China, reports over the weekend suggest several key EU member states are increasingly concerned about the direction of bilateral relations. A senior figure from a major EU nation could today issue a public statement advocating for an urgent, high-level meeting to reassess strategy, capitalizing on renewed political focus at the start of the week."
-        },
-        {
-            "id": "20260504005",
-            "title": "Will the UN Special Coordinator for Middle East Peace today issue a statement confirming an agreement for a temporary humanitarian pause in conflict-affected areas?",
+            "id": "20260505001",
+            "title": "Will the UK Government today announce details of a new 'Energy Saving Grant' scheme for vulnerable households?",
             "payout": 1.73,
-            "desc": "Following intense diplomatic efforts over the weekend to alleviate the dire humanitarian situation in a protracted conflict zone, there are indications of potential progress. The UN Special Coordinator may today announce a short-term agreement between warring parties to allow for the urgent delivery of aid, aiming to capitalize on a fragile window of opportunity identified during weekend negotiations."
+            "desc": "Following yesterday's broad announcement of energy support measures, specific details or a new targeted scheme are often unveiled shortly after to elaborate. A minister could make an announcement during a press conference or a written statement to Parliament today, responding to calls for more granular information."
+        },
+        {
+            "id": "20260505002",
+            "title": "Will the Scottish Government today publish a revised timeline for the initial phase of the National Care Service, following yesterday's confirmed delay?",
+            "payout": 2.11,
+            "desc": "After confirming a delay to the National Care Service yesterday, significant pressure will be on the Scottish Government to provide clarity on new timelines. A quick response with a revised schedule could be issued today to manage expectations and demonstrate ongoing commitment, possibly through a press briefing or an official statement."
+        },
+        {
+            "id": "20260505003",
+            "title": "Will a major transport union today announce plans for industrial action in response to new cost-cutting measures impacting a key rail project, following the DfT's HS2 cost estimates yesterday?",
+            "payout": 1.58,
+            "desc": "The publication of revised HS2 cost estimates yesterday often leads to immediate reactions from unions, especially if such estimates imply potential future cost-cutting that could impact jobs or services. A union leadership meeting today could conclude with an announcement of industrial action to exert pressure."
+        },
+        {
+            "id": "20260505004",
+            "title": "Will the European Commission today announce preliminary anti-dumping duties on specific Chinese-manufactured goods, amidst escalating trade tensions?",
+            "payout": 1.9,
+            "desc": "Following heightened calls from EU member states (simulated yesterday) to address worsening economic ties with China, the European Commission might today escalate its response by announcing initial trade protection measures. This could be a tactical move to demonstrate resolve ahead of any potential emergency summit."
+        },
+        {
+            "id": "20260505005",
+            "title": "Will the UN Secretary-General today issue a direct appeal for an extension of the temporary humanitarian pause, citing urgent unmet needs?",
+            "payout": 1.36,
+            "desc": "If a temporary humanitarian pause was indeed agreed (simulated yesterday), the UN would almost immediately advocate for its extension, especially if initial aid deliveries reveal the depth of unmet needs. The Secretary-General often issues such appeals publicly to maintain diplomatic pressure and leverage initial success."
         }
     ],
     "history": [
@@ -471,7 +471,47 @@
             "desc": "Sources close to ongoing peace talks suggest progress has been made between warring factions in a key protracted conflict zone. The UN Special Envoy, who has been mediating, may hold a press conference or issue a statement today confirming a significant step forward towards a ceasefire agreement, aiming to capitalize on a fragile window of opportunity.",
             "result": "LOST",
             "settled_at": "2026-05-04"
+        },
+        {
+            "id": "20260504001",
+            "title": "Will the UK Government today officially announce a new package of support measures for households struggling with energy costs?",
+            "payout": 2.38,
+            "desc": "Following widespread media criticism over the weekend regarding the ongoing cost-of-living crisis and rising energy bills, there is growing expectation that the government may swiftly respond with new support measures to ease public pressure. An announcement could come during a morning briefing or a statement to Parliament, aiming to address public concern directly on a Monday.",
+            "result": "WON",
+            "settled_at": "2026-05-05"
+        },
+        {
+            "id": "20260504002",
+            "title": "Will the Scottish Government today officially confirm a delay to the proposed commencement date for phase one of the National Care Service?",
+            "payout": 1.9,
+            "desc": "Despite initial timelines, the ambitious National Care Service project in Scotland has faced significant scrutiny over its proposed budget, staffing, and overall feasibility. Following reports over the weekend of internal discussions about implementation challenges, the Scottish Government may today issue an update, potentially confirming a revised timeline for its phased rollout to quell uncertainty.",
+            "result": "WON",
+            "settled_at": "2026-05-05"
+        },
+        {
+            "id": "20260504003",
+            "title": "Will the Department for Transport (DfT) today publish new revised cost estimates for a section of the HS2 project?",
+            "payout": 2.11,
+            "desc": "Following recent intense scrutiny by parliamentary committees regarding the spiralling costs and timelines of the High-Speed 2 (HS2) rail project, the Department for Transport may today release updated financial projections for a specific phase. This could be in response to ongoing public and political pressure for greater transparency, with Monday being a common day for such official publications.",
+            "result": "WON",
+            "settled_at": "2026-05-05"
+        },
+        {
+            "id": "20260504004",
+            "title": "Will a major EU member state today publicly call for an emergency summit of EU leaders to discuss worsening economic ties with China?",
+            "payout": 2.71,
+            "desc": "Amidst growing tensions and trade disputes between the EU and China, reports over the weekend suggest several key EU member states are increasingly concerned about the direction of bilateral relations. A senior figure from a major EU nation could today issue a public statement advocating for an urgent, high-level meeting to reassess strategy, capitalizing on renewed political focus at the start of the week.",
+            "result": "WON",
+            "settled_at": "2026-05-05"
+        },
+        {
+            "id": "20260504005",
+            "title": "Will the UN Special Coordinator for Middle East Peace today issue a statement confirming an agreement for a temporary humanitarian pause in conflict-affected areas?",
+            "payout": 1.73,
+            "desc": "Following intense diplomatic efforts over the weekend to alleviate the dire humanitarian situation in a protracted conflict zone, there are indications of potential progress. The UN Special Coordinator may today announce a short-term agreement between warring parties to allow for the urgent delivery of aid, aiming to capitalize on a fragile window of opportunity identified during weekend negotiations.",
+            "result": "WON",
+            "settled_at": "2026-05-05"
         }
     ],
-    "last_update": "2026-05-04 02:05"
+    "last_update": "2026-05-05 02:04"
 }
