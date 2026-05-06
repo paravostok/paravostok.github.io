@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260505001",
-            "title": "Will the UK Government today announce details of a new 'Energy Saving Grant' scheme for vulnerable households?",
-            "payout": 1.73,
-            "desc": "Following yesterday's broad announcement of energy support measures, specific details or a new targeted scheme are often unveiled shortly after to elaborate. A minister could make an announcement during a press conference or a written statement to Parliament today, responding to calls for more granular information."
+            "id": "20260506001",
+            "title": "Will the UK Energy Secretary today confirm the specific budget allocation for the new 'Energy Saving Grant' scheme?",
+            "payout": 1.27,
+            "desc": "Following yesterday's broad announcement of a new energy support scheme for vulnerable households, pressure will be on the Energy Secretary to provide granular details, especially the critical budget figure, in a statement or press conference today to reassure the public and opposition."
         },
         {
-            "id": "20260505002",
-            "title": "Will the Scottish Government today publish a revised timeline for the initial phase of the National Care Service, following yesterday's confirmed delay?",
-            "payout": 2.11,
-            "desc": "After confirming a delay to the National Care Service yesterday, significant pressure will be on the Scottish Government to provide clarity on new timelines. A quick response with a revised schedule could be issued today to manage expectations and demonstrate ongoing commitment, possibly through a press briefing or an official statement."
+            "id": "20260506002",
+            "title": "Will the First Minister of Scotland today face a formal vote of no confidence tabled by an opposition party in the Scottish Parliament?",
+            "payout": 2.71,
+            "desc": "Amidst confirmed delays to the National Care Service (as per yesterday's context) and ongoing internal party disagreements, opposition parties could seize the opportunity to table a formal motion of no confidence today to put pressure on the First Minister and potentially force a debate."
         },
         {
-            "id": "20260505003",
-            "title": "Will a major transport union today announce plans for industrial action in response to new cost-cutting measures impacting a key rail project, following the DfT's HS2 cost estimates yesterday?",
+            "id": "20260506003",
+            "title": "Will the Department for Transport (DfT) today announce a 'pause' in funding for an additional phase of the HS2 project?",
             "payout": 1.58,
-            "desc": "The publication of revised HS2 cost estimates yesterday often leads to immediate reactions from unions, especially if such estimates imply potential future cost-cutting that could impact jobs or services. A union leadership meeting today could conclude with an announcement of industrial action to exert pressure."
+            "desc": "After yesterday's publication of significantly revised HS2 cost estimates, the DfT is under immense pressure to demonstrate fiscal responsibility. An immediate announcement of a funding 'pause' or review for a future phase could be made today to manage public and political backlash."
         },
         {
-            "id": "20260505004",
-            "title": "Will the European Commission today announce preliminary anti-dumping duties on specific Chinese-manufactured goods, amidst escalating trade tensions?",
-            "payout": 1.9,
-            "desc": "Following heightened calls from EU member states (simulated yesterday) to address worsening economic ties with China, the European Commission might today escalate its response by announcing initial trade protection measures. This could be a tactical move to demonstrate resolve ahead of any potential emergency summit."
-        },
-        {
-            "id": "20260505005",
-            "title": "Will the UN Secretary-General today issue a direct appeal for an extension of the temporary humanitarian pause, citing urgent unmet needs?",
+            "id": "20260506004",
+            "title": "Will the G7 foreign ministers, meeting today, issue a joint statement condemning recent acts of state-sponsored industrial espionage?",
             "payout": 1.36,
-            "desc": "If a temporary humanitarian pause was indeed agreed (simulated yesterday), the UN would almost immediately advocate for its extension, especially if initial aid deliveries reveal the depth of unmet needs. The Secretary-General often issues such appeals publicly to maintain diplomatic pressure and leverage initial success."
+            "desc": "As G7 foreign ministers convene today, discussions often focus on shared global threats. Amidst escalating trade tensions and heightened concerns over economic security (as seen with yesterday's EU/China context), a joint statement condemning specific acts of industrial espionage is a strong possibility to show unified resolve."
+        },
+        {
+            "id": "20260506005",
+            "title": "Will the UN Security Council today fail to pass a resolution endorsing the extension of the humanitarian pause?",
+            "payout": 2.11,
+            "desc": "While the UN Secretary-General may issue appeals (simulated yesterday), resolutions in the Security Council are often subject to complex geopolitical dynamics and potential vetoes from permanent members with conflicting interests. A failure to pass a resolution on the extension could occur today despite humanitarian pleas."
         }
     ],
     "history": [
@@ -511,7 +511,47 @@
             "desc": "Following intense diplomatic efforts over the weekend to alleviate the dire humanitarian situation in a protracted conflict zone, there are indications of potential progress. The UN Special Coordinator may today announce a short-term agreement between warring parties to allow for the urgent delivery of aid, aiming to capitalize on a fragile window of opportunity identified during weekend negotiations.",
             "result": "WON",
             "settled_at": "2026-05-05"
+        },
+        {
+            "id": "20260505001",
+            "title": "Will the UK Government today announce details of a new 'Energy Saving Grant' scheme for vulnerable households?",
+            "payout": 1.73,
+            "desc": "Following yesterday's broad announcement of energy support measures, specific details or a new targeted scheme are often unveiled shortly after to elaborate. A minister could make an announcement during a press conference or a written statement to Parliament today, responding to calls for more granular information.",
+            "result": "WON",
+            "settled_at": "2026-05-06"
+        },
+        {
+            "id": "20260505002",
+            "title": "Will the Scottish Government today publish a revised timeline for the initial phase of the National Care Service, following yesterday's confirmed delay?",
+            "payout": 2.11,
+            "desc": "After confirming a delay to the National Care Service yesterday, significant pressure will be on the Scottish Government to provide clarity on new timelines. A quick response with a revised schedule could be issued today to manage expectations and demonstrate ongoing commitment, possibly through a press briefing or an official statement.",
+            "result": "LOST",
+            "settled_at": "2026-05-06"
+        },
+        {
+            "id": "20260505003",
+            "title": "Will a major transport union today announce plans for industrial action in response to new cost-cutting measures impacting a key rail project, following the DfT's HS2 cost estimates yesterday?",
+            "payout": 1.58,
+            "desc": "The publication of revised HS2 cost estimates yesterday often leads to immediate reactions from unions, especially if such estimates imply potential future cost-cutting that could impact jobs or services. A union leadership meeting today could conclude with an announcement of industrial action to exert pressure.",
+            "result": "WON",
+            "settled_at": "2026-05-06"
+        },
+        {
+            "id": "20260505004",
+            "title": "Will the European Commission today announce preliminary anti-dumping duties on specific Chinese-manufactured goods, amidst escalating trade tensions?",
+            "payout": 1.9,
+            "desc": "Following heightened calls from EU member states (simulated yesterday) to address worsening economic ties with China, the European Commission might today escalate its response by announcing initial trade protection measures. This could be a tactical move to demonstrate resolve ahead of any potential emergency summit.",
+            "result": "WON",
+            "settled_at": "2026-05-06"
+        },
+        {
+            "id": "20260505005",
+            "title": "Will the UN Secretary-General today issue a direct appeal for an extension of the temporary humanitarian pause, citing urgent unmet needs?",
+            "payout": 1.36,
+            "desc": "If a temporary humanitarian pause was indeed agreed (simulated yesterday), the UN would almost immediately advocate for its extension, especially if initial aid deliveries reveal the depth of unmet needs. The Secretary-General often issues such appeals publicly to maintain diplomatic pressure and leverage initial success.",
+            "result": "WON",
+            "settled_at": "2026-05-06"
         }
     ],
-    "last_update": "2026-05-05 02:04"
+    "last_update": "2026-05-06 02:04"
 }
