@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260506001",
-            "title": "Will the UK Energy Secretary today confirm the specific budget allocation for the new 'Energy Saving Grant' scheme?",
-            "payout": 1.27,
-            "desc": "Following yesterday's broad announcement of a new energy support scheme for vulnerable households, pressure will be on the Energy Secretary to provide granular details, especially the critical budget figure, in a statement or press conference today to reassure the public and opposition."
+            "id": "20260507001",
+            "title": "Will a cabinet minister resign from the UK Government before 23:59 BST today?",
+            "payout": 3.8,
+            "desc": "Amidst persistent speculation regarding internal party divisions and pressure over recent policy decisions, a cabinet minister could choose or be forced to resign today to manage political fallout or preempt a reshuffle."
         },
         {
-            "id": "20260506002",
-            "title": "Will the First Minister of Scotland today face a formal vote of no confidence tabled by an opposition party in the Scottish Parliament?",
+            "id": "20260507002",
+            "title": "Will the Scottish National Party (SNP) officially announce the date for a new leadership contest by the end of today?",
+            "payout": 2.38,
+            "desc": "Following ongoing public and internal party debate surrounding recent policy setbacks and leadership direction, significant pressure could lead to an announcement today clarifying the timeline for a potential leadership contest."
+        },
+        {
+            "id": "20260507003",
+            "title": "Will Network Rail confirm today that planned engineering works on a major intercity line for the upcoming weekend have been postponed?",
             "payout": 2.71,
-            "desc": "Amidst confirmed delays to the National Care Service (as per yesterday's context) and ongoing internal party disagreements, opposition parties could seize the opportunity to table a formal motion of no confidence today to put pressure on the First Minister and potentially force a debate."
+            "desc": "With growing concerns over recent travel disruptions and potential upcoming industrial action or adverse weather forecasts, Network Rail might make a last-minute decision today to postpone scheduled works to alleviate further pressure on the network."
         },
         {
-            "id": "20260506003",
-            "title": "Will the Department for Transport (DfT) today announce a 'pause' in funding for an additional phase of the HS2 project?",
-            "payout": 1.58,
-            "desc": "After yesterday's publication of significantly revised HS2 cost estimates, the DfT is under immense pressure to demonstrate fiscal responsibility. An immediate announcement of a funding 'pause' or review for a future phase could be made today to manage public and political backlash."
+            "id": "20260507004",
+            "title": "Will the European Union announce new targeted sanctions against individuals linked to cyber-attacks from a non-EU state today?",
+            "payout": 3.17,
+            "desc": "Building on recent G7 discussions regarding economic security and industrial espionage, and potentially in response to newly uncovered intelligence or a high-profile cyber incident, the EU could issue fresh sanctions today to demonstrate a strong unified stance."
         },
         {
-            "id": "20260506004",
-            "title": "Will the G7 foreign ministers, meeting today, issue a joint statement condemning recent acts of state-sponsored industrial espionage?",
-            "payout": 1.36,
-            "desc": "As G7 foreign ministers convene today, discussions often focus on shared global threats. Amidst escalating trade tensions and heightened concerns over economic security (as seen with yesterday's EU/China context), a joint statement condemning specific acts of industrial espionage is a strong possibility to show unified resolve."
-        },
-        {
-            "id": "20260506005",
-            "title": "Will the UN Security Council today fail to pass a resolution endorsing the extension of the humanitarian pause?",
-            "payout": 2.11,
-            "desc": "While the UN Secretary-General may issue appeals (simulated yesterday), resolutions in the Security Council are often subject to complex geopolitical dynamics and potential vetoes from permanent members with conflicting interests. A failure to pass a resolution on the extension could occur today despite humanitarian pleas."
+            "id": "20260507005",
+            "title": "Will a major international news agency (e.g., Reuters, AP, BBC) report today that a significant cross-border ceasefire has been agreed upon in the East African conflict zone?",
+            "payout": 4.75,
+            "desc": "Following intensified diplomatic efforts and increasing humanitarian concerns, unexpected progress in peace talks could lead to a sudden announcement today from a credible international news outlet confirming a breakthrough ceasefire agreement."
         }
     ],
     "history": [
@@ -551,7 +551,47 @@
             "desc": "If a temporary humanitarian pause was indeed agreed (simulated yesterday), the UN would almost immediately advocate for its extension, especially if initial aid deliveries reveal the depth of unmet needs. The Secretary-General often issues such appeals publicly to maintain diplomatic pressure and leverage initial success.",
             "result": "WON",
             "settled_at": "2026-05-06"
+        },
+        {
+            "id": "20260506001",
+            "title": "Will the UK Energy Secretary today confirm the specific budget allocation for the new 'Energy Saving Grant' scheme?",
+            "payout": 1.27,
+            "desc": "Following yesterday's broad announcement of a new energy support scheme for vulnerable households, pressure will be on the Energy Secretary to provide granular details, especially the critical budget figure, in a statement or press conference today to reassure the public and opposition.",
+            "result": "LOST",
+            "settled_at": "2026-05-07"
+        },
+        {
+            "id": "20260506002",
+            "title": "Will the First Minister of Scotland today face a formal vote of no confidence tabled by an opposition party in the Scottish Parliament?",
+            "payout": 2.71,
+            "desc": "Amidst confirmed delays to the National Care Service (as per yesterday's context) and ongoing internal party disagreements, opposition parties could seize the opportunity to table a formal motion of no confidence today to put pressure on the First Minister and potentially force a debate.",
+            "result": "LOST",
+            "settled_at": "2026-05-07"
+        },
+        {
+            "id": "20260506003",
+            "title": "Will the Department for Transport (DfT) today announce a 'pause' in funding for an additional phase of the HS2 project?",
+            "payout": 1.58,
+            "desc": "After yesterday's publication of significantly revised HS2 cost estimates, the DfT is under immense pressure to demonstrate fiscal responsibility. An immediate announcement of a funding 'pause' or review for a future phase could be made today to manage public and political backlash.",
+            "result": "WON",
+            "settled_at": "2026-05-07"
+        },
+        {
+            "id": "20260506004",
+            "title": "Will the G7 foreign ministers, meeting today, issue a joint statement condemning recent acts of state-sponsored industrial espionage?",
+            "payout": 1.36,
+            "desc": "As G7 foreign ministers convene today, discussions often focus on shared global threats. Amidst escalating trade tensions and heightened concerns over economic security (as seen with yesterday's EU/China context), a joint statement condemning specific acts of industrial espionage is a strong possibility to show unified resolve.",
+            "result": "WON",
+            "settled_at": "2026-05-07"
+        },
+        {
+            "id": "20260506005",
+            "title": "Will the UN Security Council today fail to pass a resolution endorsing the extension of the humanitarian pause?",
+            "payout": 2.11,
+            "desc": "While the UN Secretary-General may issue appeals (simulated yesterday), resolutions in the Security Council are often subject to complex geopolitical dynamics and potential vetoes from permanent members with conflicting interests. A failure to pass a resolution on the extension could occur today despite humanitarian pleas.",
+            "result": "WON",
+            "settled_at": "2026-05-07"
         }
     ],
-    "last_update": "2026-05-06 02:04"
+    "last_update": "2026-05-07 02:07"
 }
