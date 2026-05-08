@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260507001",
-            "title": "Will a cabinet minister resign from the UK Government before 23:59 BST today?",
-            "payout": 3.8,
-            "desc": "Amidst persistent speculation regarding internal party divisions and pressure over recent policy decisions, a cabinet minister could choose or be forced to resign today to manage political fallout or preempt a reshuffle."
-        },
-        {
-            "id": "20260507002",
-            "title": "Will the Scottish National Party (SNP) officially announce the date for a new leadership contest by the end of today?",
-            "payout": 2.38,
-            "desc": "Following ongoing public and internal party debate surrounding recent policy setbacks and leadership direction, significant pressure could lead to an announcement today clarifying the timeline for a potential leadership contest."
-        },
-        {
-            "id": "20260507003",
-            "title": "Will Network Rail confirm today that planned engineering works on a major intercity line for the upcoming weekend have been postponed?",
+            "id": "20260508001",
+            "title": "Will the UK Government officially announce a new package of energy bill support measures today, ahead of the next quarterly price cap review?",
             "payout": 2.71,
-            "desc": "With growing concerns over recent travel disruptions and potential upcoming industrial action or adverse weather forecasts, Network Rail might make a last-minute decision today to postpone scheduled works to alleviate further pressure on the network."
+            "desc": "Amidst persistent calls for additional financial aid due to rising living costs, and with the next energy price cap review looming, the government might issue a statement or hold a press conference today to unveil new support measures."
         },
         {
-            "id": "20260507004",
-            "title": "Will the European Union announce new targeted sanctions against individuals linked to cyber-attacks from a non-EU state today?",
+            "id": "20260508002",
+            "title": "Will the Scottish Labour Party officially release a new shadow cabinet portfolio list today, following recent internal reorganisation talks?",
+            "payout": 2.11,
+            "desc": "Following a period of internal strategy discussions and a perceived need to present a refreshed, united front to the electorate, the Scottish Labour leadership could announce changes to their shadow cabinet today."
+        },
+        {
+            "id": "20260508003",
+            "title": "Will the Department for Transport formally announce the preferred bidder for the new high-speed rail link connecting Manchester and Leeds today?",
             "payout": 3.17,
-            "desc": "Building on recent G7 discussions regarding economic security and industrial espionage, and potentially in response to newly uncovered intelligence or a high-profile cyber incident, the EU could issue fresh sanctions today to demonstrate a strong unified stance."
+            "desc": "After a prolonged bidding process and continued pressure to demonstrate progress on 'Northern Powerhouse Rail' initiatives, the DfT may make a definitive announcement today regarding the chosen consortium for this key infrastructure project."
         },
         {
-            "id": "20260507005",
-            "title": "Will a major international news agency (e.g., Reuters, AP, BBC) report today that a significant cross-border ceasefire has been agreed upon in the East African conflict zone?",
-            "payout": 4.75,
-            "desc": "Following intensified diplomatic efforts and increasing humanitarian concerns, unexpected progress in peace talks could lead to a sudden announcement today from a credible international news outlet confirming a breakthrough ceasefire agreement."
+            "id": "20260508004",
+            "title": "Will a major news agency (e.g., Reuters, AP, AFP) report today that the G7 nations have agreed on a joint declaration to accelerate climate finance for developing countries?",
+            "payout": 2.375,
+            "desc": "Following recent high-level ministerial discussions and intensified diplomatic efforts surrounding global climate action, a breakthrough agreement on funding for developing nations could be formally announced or leaked to major news outlets today."
+        },
+        {
+            "id": "20260508005",
+            "title": "Will a spokesperson for the United Nations Relief and Works Agency (UNRWA) confirm today that a previously blocked aid convoy has successfully entered the besieged [specific region/city name, e.g., 'Gaza Strip']?",
+            "payout": 2.375,
+            "desc": "Amidst ongoing humanitarian crises and international pressure, intense negotiations may have yielded a temporary opening for aid delivery. UNRWA often provides immediate updates on such critical humanitarian operations."
         }
     ],
     "history": [
@@ -591,7 +591,47 @@
             "desc": "While the UN Secretary-General may issue appeals (simulated yesterday), resolutions in the Security Council are often subject to complex geopolitical dynamics and potential vetoes from permanent members with conflicting interests. A failure to pass a resolution on the extension could occur today despite humanitarian pleas.",
             "result": "WON",
             "settled_at": "2026-05-07"
+        },
+        {
+            "id": "20260507001",
+            "title": "Will a cabinet minister resign from the UK Government before 23:59 BST today?",
+            "payout": 3.8,
+            "desc": "Amidst persistent speculation regarding internal party divisions and pressure over recent policy decisions, a cabinet minister could choose or be forced to resign today to manage political fallout or preempt a reshuffle.",
+            "result": "LOST",
+            "settled_at": "2026-05-08"
+        },
+        {
+            "id": "20260507002",
+            "title": "Will the Scottish National Party (SNP) officially announce the date for a new leadership contest by the end of today?",
+            "payout": 2.38,
+            "desc": "Following ongoing public and internal party debate surrounding recent policy setbacks and leadership direction, significant pressure could lead to an announcement today clarifying the timeline for a potential leadership contest.",
+            "result": "LOST",
+            "settled_at": "2026-05-08"
+        },
+        {
+            "id": "20260507003",
+            "title": "Will Network Rail confirm today that planned engineering works on a major intercity line for the upcoming weekend have been postponed?",
+            "payout": 2.71,
+            "desc": "With growing concerns over recent travel disruptions and potential upcoming industrial action or adverse weather forecasts, Network Rail might make a last-minute decision today to postpone scheduled works to alleviate further pressure on the network.",
+            "result": "LOST",
+            "settled_at": "2026-05-08"
+        },
+        {
+            "id": "20260507004",
+            "title": "Will the European Union announce new targeted sanctions against individuals linked to cyber-attacks from a non-EU state today?",
+            "payout": 3.17,
+            "desc": "Building on recent G7 discussions regarding economic security and industrial espionage, and potentially in response to newly uncovered intelligence or a high-profile cyber incident, the EU could issue fresh sanctions today to demonstrate a strong unified stance.",
+            "result": "LOST",
+            "settled_at": "2026-05-08"
+        },
+        {
+            "id": "20260507005",
+            "title": "Will a major international news agency (e.g., Reuters, AP, BBC) report today that a significant cross-border ceasefire has been agreed upon in the East African conflict zone?",
+            "payout": 4.75,
+            "desc": "Following intensified diplomatic efforts and increasing humanitarian concerns, unexpected progress in peace talks could lead to a sudden announcement today from a credible international news outlet confirming a breakthrough ceasefire agreement.",
+            "result": "LOST",
+            "settled_at": "2026-05-08"
         }
     ],
-    "last_update": "2026-05-07 02:07"
+    "last_update": "2026-05-08 02:13"
 }
