@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260509001",
-            "title": "Will the Secretary of State for Energy Security and Net Zero officially resign from their position today?",
-            "payout": 4.75,
-            "desc": "Following intensified scrutiny and public criticism regarding the government's perceived slow progress on renewable energy targets, speculation is rife that the Secretary of State may step down today to alleviate pressure on the government."
+            "id": "20260510001",
+            "title": "Will a prominent Conservative MP publicly call for a leadership confidence vote in the Prime Minister today?",
+            "payout": 3.8,
+            "desc": "Following yesterday's disappointing local election results and growing discontent within the party's backbenches, whispers of a challenge are circulating. A key MP, potentially a former cabinet member, could decide today is the opportune moment to formally trigger a vote to pressure the Prime Minister."
         },
         {
-            "id": "20260509002",
-            "title": "Will the Scottish Government officially publish a new white paper on its 'Future of Higher Education' strategy today?",
-            "payout": 1.58,
-            "desc": "After ongoing discussions and a commitment to address funding and access challenges in Scottish universities, the Scottish Government has been expected to outline its detailed strategy for higher education. Today could see the formal publication of this key policy document."
-        },
-        {
-            "id": "20260509003",
-            "title": "Will the Department for Transport formally announce a delay to the revised completion timeline for the new 'Northern Powerhouse Rail' segment connecting Bradford and Sheffield today?",
+            "id": "20260510002",
+            "title": "Will the Scottish National Party (SNP) formally announce the date for its next leadership contest today?",
             "payout": 2.375,
-            "desc": "Persistent reports of escalating costs and engineering challenges have fueled speculation about further delays to key Northern Powerhouse Rail projects. The DfT might issue a statement today to update on this specific segment's revised completion schedule, potentially confirming a setback."
+            "desc": "With recent polling suggesting a decline in support and internal discussions on party direction intensifying, sources within the SNP indicate the leadership may seek to provide clarity by setting a contest date today to quell internal dissent and unite the party ahead of upcoming policy debates."
         },
         {
-            "id": "20260509004",
-            "title": "Will the EU officially announce new targeted sanctions against individuals linked to alleged election interference operations originating from a non-EU country today?",
+            "id": "20260510003",
+            "title": "Will Network Rail officially confirm the immediate start of construction on the proposed East West Rail extension to Cambridge South today?",
+            "payout": 1.58,
+            "desc": "After securing final planning consent last month and completion of land acquisition, local reports suggest that initial groundwork and site preparations for this key rail extension could commence imminently. An official confirmation statement from Network Rail may be issued today to mark the occasion."
+        },
+        {
+            "id": "20260510004",
+            "title": "Will the G7 foreign ministers issue a joint statement today condemning recent cyberattacks attributed to the state of Volkovia?",
+            "payout": 1.36,
+            "desc": "Following an emergency virtual meeting called yesterday to discuss escalating global cyber threats targeting critical infrastructure, it's highly anticipated that the G7 nations will today release a unified condemnation, specifically naming perpetrators, to signal a strong collective response."
+        },
+        {
+            "id": "20260510005",
+            "title": "Will the United Nations Security Council (UNSC) formally vote on a new resolution proposing a 72-hour ceasefire in the Kryllian Borderlands today?",
             "payout": 1.9,
-            "desc": "Following a recent spate of high-profile cyber and disinformation incidents affecting upcoming European elections, diplomatic sources suggest the EU may move today to impose fresh sanctions on specific individuals or entities deemed responsible for interference."
-        },
-        {
-            "id": "20260509005",
-            "title": "Will the International Committee of the Red Cross (ICRC) confirm today that a medical aid shipment has successfully reached the besieged hospital in [Fictional Conflict City, e.g., 'Al-Nujood']?",
-            "payout": 3.17,
-            "desc": "Amidst severe humanitarian shortages in the conflict-ridden city of Al-Nujood, the ICRC has been negotiating access for crucial medical supplies. A successful entry today would be a significant development, and the ICRC is known for timely updates on such critical operations."
+            "desc": "With intense diplomatic efforts over the past 48 hours to de-escalate the escalating conflict in the Kryllian Borderlands, several member states have indicated that a draft resolution proposing a temporary ceasefire is ready for a vote. A session today to put it to the floor is highly probable."
         }
     ],
     "history": [
@@ -671,7 +671,47 @@
             "desc": "Amidst ongoing humanitarian crises and international pressure, intense negotiations may have yielded a temporary opening for aid delivery. UNRWA often provides immediate updates on such critical humanitarian operations.",
             "result": "LOST",
             "settled_at": "2026-05-09"
+        },
+        {
+            "id": "20260509001",
+            "title": "Will the Secretary of State for Energy Security and Net Zero officially resign from their position today?",
+            "payout": 4.75,
+            "desc": "Following intensified scrutiny and public criticism regarding the government's perceived slow progress on renewable energy targets, speculation is rife that the Secretary of State may step down today to alleviate pressure on the government.",
+            "result": "LOST",
+            "settled_at": "2026-05-10"
+        },
+        {
+            "id": "20260509002",
+            "title": "Will the Scottish Government officially publish a new white paper on its 'Future of Higher Education' strategy today?",
+            "payout": 1.58,
+            "desc": "After ongoing discussions and a commitment to address funding and access challenges in Scottish universities, the Scottish Government has been expected to outline its detailed strategy for higher education. Today could see the formal publication of this key policy document.",
+            "result": "WON",
+            "settled_at": "2026-05-10"
+        },
+        {
+            "id": "20260509003",
+            "title": "Will the Department for Transport formally announce a delay to the revised completion timeline for the new 'Northern Powerhouse Rail' segment connecting Bradford and Sheffield today?",
+            "payout": 2.375,
+            "desc": "Persistent reports of escalating costs and engineering challenges have fueled speculation about further delays to key Northern Powerhouse Rail projects. The DfT might issue a statement today to update on this specific segment's revised completion schedule, potentially confirming a setback.",
+            "result": "WON",
+            "settled_at": "2026-05-10"
+        },
+        {
+            "id": "20260509004",
+            "title": "Will the EU officially announce new targeted sanctions against individuals linked to alleged election interference operations originating from a non-EU country today?",
+            "payout": 1.9,
+            "desc": "Following a recent spate of high-profile cyber and disinformation incidents affecting upcoming European elections, diplomatic sources suggest the EU may move today to impose fresh sanctions on specific individuals or entities deemed responsible for interference.",
+            "result": "WON",
+            "settled_at": "2026-05-10"
+        },
+        {
+            "id": "20260509005",
+            "title": "Will the International Committee of the Red Cross (ICRC) confirm today that a medical aid shipment has successfully reached the besieged hospital in [Fictional Conflict City, e.g., 'Al-Nujood']?",
+            "payout": 3.17,
+            "desc": "Amidst severe humanitarian shortages in the conflict-ridden city of Al-Nujood, the ICRC has been negotiating access for crucial medical supplies. A successful entry today would be a significant development, and the ICRC is known for timely updates on such critical operations.",
+            "result": "WON",
+            "settled_at": "2026-05-10"
         }
     ],
-    "last_update": "2026-05-09 02:07"
+    "last_update": "2026-05-10 02:08"
 }
