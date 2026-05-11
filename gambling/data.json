@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260510001",
-            "title": "Will a prominent Conservative MP publicly call for a leadership confidence vote in the Prime Minister today?",
-            "payout": 3.8,
-            "desc": "Following yesterday's disappointing local election results and growing discontent within the party's backbenches, whispers of a challenge are circulating. A key MP, potentially a former cabinet member, could decide today is the opportune moment to formally trigger a vote to pressure the Prime Minister."
+            "id": "20260511120001",
+            "title": "Will the Prime Minister announce a cabinet reshuffle today?",
+            "payout": 2.01,
+            "desc": "Following significant losses in yesterday's local elections, pressure is mounting on the Prime Minister. Speculation is rife in Westminster that a limited cabinet reshuffle could be announced today to demonstrate a new direction and appease disgruntled backbenchers."
         },
         {
-            "id": "20260510002",
-            "title": "Will the Scottish National Party (SNP) formally announce the date for its next leadership contest today?",
-            "payout": 2.375,
-            "desc": "With recent polling suggesting a decline in support and internal discussions on party direction intensifying, sources within the SNP indicate the leadership may seek to provide clarity by setting a contest date today to quell internal dissent and unite the party ahead of upcoming policy debates."
+            "id": "20260511120002",
+            "title": "Will the Scottish Government officially unveil a new major policy initiative on social care today?",
+            "payout": 1.73,
+            "desc": "With recent internal party debates and declining poll numbers, the Scottish Government may seek to regain public confidence. A key ministerial statement or press conference is scheduled for this afternoon, where a new policy initiative focused on reforming and funding social care could be unveiled."
         },
         {
-            "id": "20260510003",
-            "title": "Will Network Rail officially confirm the immediate start of construction on the proposed East West Rail extension to Cambridge South today?",
+            "id": "20260511120003",
+            "title": "Will HS2 Ltd publicly confirm the award of the remaining major civil engineering contracts for the Birmingham to Crewe section today?",
             "payout": 1.58,
-            "desc": "After securing final planning consent last month and completion of land acquisition, local reports suggest that initial groundwork and site preparations for this key rail extension could commence imminently. An official confirmation statement from Network Rail may be issued today to mark the occasion."
+            "desc": "Following recent government reviews and a period of financial re-evaluation, HS2 Ltd has been under pressure to demonstrate progress. Industry sources suggest that the final major civil engineering contracts for the Birmingham to Crewe (Phase 2a) section are now ready to be awarded, with an official announcement potentially scheduled for today to reassure stakeholders."
         },
         {
-            "id": "20260510004",
-            "title": "Will the G7 foreign ministers issue a joint statement today condemning recent cyberattacks attributed to the state of Volkovia?",
+            "id": "20260511120004",
+            "title": "Will the European Union impose new targeted sanctions on Volkovia today in response to recent cyberattacks?",
             "payout": 1.36,
-            "desc": "Following an emergency virtual meeting called yesterday to discuss escalating global cyber threats targeting critical infrastructure, it's highly anticipated that the G7 nations will today release a unified condemnation, specifically naming perpetrators, to signal a strong collective response."
+            "desc": "Following the G7's condemnation of Volkovia's cyberattacks yesterday, diplomatic pressure on the EU to take concrete action is mounting. A special meeting of EU foreign ministers is convened today, where discussions are expected to conclude with a decision on implementing new targeted sanctions against entities linked to the Volkovian state."
         },
         {
-            "id": "20260510005",
-            "title": "Will the United Nations Security Council (UNSC) formally vote on a new resolution proposing a 72-hour ceasefire in the Kryllian Borderlands today?",
-            "payout": 1.9,
-            "desc": "With intense diplomatic efforts over the past 48 hours to de-escalate the escalating conflict in the Kryllian Borderlands, several member states have indicated that a draft resolution proposing a temporary ceasefire is ready for a vote. A session today to put it to the floor is highly probable."
+            "id": "20260511120005",
+            "title": "Will a major international aid organization announce a new humanitarian corridor agreement in the Kryllian Borderlands today?",
+            "payout": 2.71,
+            "desc": "Despite the ongoing conflict and yesterday's UNSC ceasefire vote, diplomatic efforts continue to establish safe passage for civilians and aid. Sources close to the UN suggest that intensive negotiations between warring factions and international mediators may yield a breakthrough today, leading to an announcement by a prominent aid group regarding a new, temporary humanitarian corridor."
         }
     ],
     "history": [
@@ -711,7 +711,47 @@
             "desc": "Amidst severe humanitarian shortages in the conflict-ridden city of Al-Nujood, the ICRC has been negotiating access for crucial medical supplies. A successful entry today would be a significant development, and the ICRC is known for timely updates on such critical operations.",
             "result": "WON",
             "settled_at": "2026-05-10"
+        },
+        {
+            "id": "20260510001",
+            "title": "Will a prominent Conservative MP publicly call for a leadership confidence vote in the Prime Minister today?",
+            "payout": 3.8,
+            "desc": "Following yesterday's disappointing local election results and growing discontent within the party's backbenches, whispers of a challenge are circulating. A key MP, potentially a former cabinet member, could decide today is the opportune moment to formally trigger a vote to pressure the Prime Minister.",
+            "result": "LOST",
+            "settled_at": "2026-05-11"
+        },
+        {
+            "id": "20260510002",
+            "title": "Will the Scottish National Party (SNP) formally announce the date for its next leadership contest today?",
+            "payout": 2.375,
+            "desc": "With recent polling suggesting a decline in support and internal discussions on party direction intensifying, sources within the SNP indicate the leadership may seek to provide clarity by setting a contest date today to quell internal dissent and unite the party ahead of upcoming policy debates.",
+            "result": "LOST",
+            "settled_at": "2026-05-11"
+        },
+        {
+            "id": "20260510003",
+            "title": "Will Network Rail officially confirm the immediate start of construction on the proposed East West Rail extension to Cambridge South today?",
+            "payout": 1.58,
+            "desc": "After securing final planning consent last month and completion of land acquisition, local reports suggest that initial groundwork and site preparations for this key rail extension could commence imminently. An official confirmation statement from Network Rail may be issued today to mark the occasion.",
+            "result": "WON",
+            "settled_at": "2026-05-11"
+        },
+        {
+            "id": "20260510004",
+            "title": "Will the G7 foreign ministers issue a joint statement today condemning recent cyberattacks attributed to the state of Volkovia?",
+            "payout": 1.36,
+            "desc": "Following an emergency virtual meeting called yesterday to discuss escalating global cyber threats targeting critical infrastructure, it's highly anticipated that the G7 nations will today release a unified condemnation, specifically naming perpetrators, to signal a strong collective response.",
+            "result": "WON",
+            "settled_at": "2026-05-11"
+        },
+        {
+            "id": "20260510005",
+            "title": "Will the United Nations Security Council (UNSC) formally vote on a new resolution proposing a 72-hour ceasefire in the Kryllian Borderlands today?",
+            "payout": 1.9,
+            "desc": "With intense diplomatic efforts over the past 48 hours to de-escalate the escalating conflict in the Kryllian Borderlands, several member states have indicated that a draft resolution proposing a temporary ceasefire is ready for a vote. A session today to put it to the floor is highly probable.",
+            "result": "WON",
+            "settled_at": "2026-05-11"
         }
     ],
-    "last_update": "2026-05-10 02:08"
+    "last_update": "2026-05-11 02:27"
 }
