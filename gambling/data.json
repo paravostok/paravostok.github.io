@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260511120001",
-            "title": "Will the Prime Minister announce a cabinet reshuffle today?",
-            "payout": 2.01,
-            "desc": "Following significant losses in yesterday's local elections, pressure is mounting on the Prime Minister. Speculation is rife in Westminster that a limited cabinet reshuffle could be announced today to demonstrate a new direction and appease disgruntled backbenchers."
+            "id": "20260512100001",
+            "title": "Will a senior Conservative MP publicly call for a leadership vote against the Prime Minister today?",
+            "payout": 2.57,
+            "desc": "Following yesterday's significant local election defeats and ongoing backbench dissent, speculation is mounting within the Conservative Party. A prominent figure might seize the opportunity today to openly challenge the Prime Minister's leadership."
         },
         {
-            "id": "20260511120002",
-            "title": "Will the Scottish Government officially unveil a new major policy initiative on social care today?",
+            "id": "20260512100002",
+            "title": "Will the Scottish First Minister explicitly state today that a second independence referendum will be held before the end of 2027?",
+            "payout": 2.11,
+            "desc": "With recent internal party debates and increased calls from the SNP's grassroots, the First Minister is scheduled to address a party conference today. There's significant pressure to clarify the timeline for another independence vote."
+        },
+        {
+            "id": "20260512100003",
+            "title": "Will the UK Government announce a revised completion date for the northern section of HS2 (Crewe to Manchester) today?",
             "payout": 1.73,
-            "desc": "With recent internal party debates and declining poll numbers, the Scottish Government may seek to regain public confidence. A key ministerial statement or press conference is scheduled for this afternoon, where a new policy initiative focused on reforming and funding social care could be unveiled."
+            "desc": "Following yesterday's lack of contract announcements and persistent reports of cost overruns and delays, the Transport Secretary is due to face questions in Parliament this morning. There's growing pressure to provide a transparent update on project timelines."
         },
         {
-            "id": "20260511120003",
-            "title": "Will HS2 Ltd publicly confirm the award of the remaining major civil engineering contracts for the Birmingham to Crewe section today?",
-            "payout": 1.58,
-            "desc": "Following recent government reviews and a period of financial re-evaluation, HS2 Ltd has been under pressure to demonstrate progress. Industry sources suggest that the final major civil engineering contracts for the Birmingham to Crewe (Phase 2a) section are now ready to be awarded, with an official announcement potentially scheduled for today to reassure stakeholders."
+            "id": "20260512100004",
+            "title": "Will the UN Security Council pass a resolution today condemning Volkovia's recent cyberattacks and imposing non-military countermeasures?",
+            "payout": 1.46,
+            "desc": "Following the EU's targeted sanctions yesterday and the G7's condemnation, diplomatic efforts are intensifying at the UN. A draft resolution is reportedly being circulated among UNSC members, with a vote potentially scheduled for later today."
         },
         {
-            "id": "20260511120004",
-            "title": "Will the European Union impose new targeted sanctions on Volkovia today in response to recent cyberattacks?",
-            "payout": 1.36,
-            "desc": "Following the G7's condemnation of Volkovia's cyberattacks yesterday, diplomatic pressure on the EU to take concrete action is mounting. A special meeting of EU foreign ministers is convened today, where discussions are expected to conclude with a decision on implementing new targeted sanctions against entities linked to the Volkovian state."
-        },
-        {
-            "id": "20260511120005",
-            "title": "Will a major international aid organization announce a new humanitarian corridor agreement in the Kryllian Borderlands today?",
-            "payout": 2.71,
-            "desc": "Despite the ongoing conflict and yesterday's UNSC ceasefire vote, diplomatic efforts continue to establish safe passage for civilians and aid. Sources close to the UN suggest that intensive negotiations between warring factions and international mediators may yield a breakthrough today, leading to an announcement by a prominent aid group regarding a new, temporary humanitarian corridor."
+            "id": "20260512100005",
+            "title": "Will the UN Special Envoy for the Kryllian Borderlands announce a new, immediate 72-hour ceasefire agreement between warring factions today?",
+            "payout": 2.38,
+            "desc": "Despite yesterday's failed humanitarian corridor announcement, high-level diplomatic talks are continuing overnight. The UN Special Envoy is scheduled to give an emergency press briefing this afternoon, leading to speculation of a renewed attempt at a temporary cessation of hostilities."
         }
     ],
     "history": [
@@ -751,7 +751,47 @@
             "desc": "With intense diplomatic efforts over the past 48 hours to de-escalate the escalating conflict in the Kryllian Borderlands, several member states have indicated that a draft resolution proposing a temporary ceasefire is ready for a vote. A session today to put it to the floor is highly probable.",
             "result": "WON",
             "settled_at": "2026-05-11"
+        },
+        {
+            "id": "20260511120001",
+            "title": "Will the Prime Minister announce a cabinet reshuffle today?",
+            "payout": 2.01,
+            "desc": "Following significant losses in yesterday's local elections, pressure is mounting on the Prime Minister. Speculation is rife in Westminster that a limited cabinet reshuffle could be announced today to demonstrate a new direction and appease disgruntled backbenchers.",
+            "result": "LOST",
+            "settled_at": "2026-05-12"
+        },
+        {
+            "id": "20260511120002",
+            "title": "Will the Scottish Government officially unveil a new major policy initiative on social care today?",
+            "payout": 1.73,
+            "desc": "With recent internal party debates and declining poll numbers, the Scottish Government may seek to regain public confidence. A key ministerial statement or press conference is scheduled for this afternoon, where a new policy initiative focused on reforming and funding social care could be unveiled.",
+            "result": "WON",
+            "settled_at": "2026-05-12"
+        },
+        {
+            "id": "20260511120003",
+            "title": "Will HS2 Ltd publicly confirm the award of the remaining major civil engineering contracts for the Birmingham to Crewe section today?",
+            "payout": 1.58,
+            "desc": "Following recent government reviews and a period of financial re-evaluation, HS2 Ltd has been under pressure to demonstrate progress. Industry sources suggest that the final major civil engineering contracts for the Birmingham to Crewe (Phase 2a) section are now ready to be awarded, with an official announcement potentially scheduled for today to reassure stakeholders.",
+            "result": "LOST",
+            "settled_at": "2026-05-12"
+        },
+        {
+            "id": "20260511120004",
+            "title": "Will the European Union impose new targeted sanctions on Volkovia today in response to recent cyberattacks?",
+            "payout": 1.36,
+            "desc": "Following the G7's condemnation of Volkovia's cyberattacks yesterday, diplomatic pressure on the EU to take concrete action is mounting. A special meeting of EU foreign ministers is convened today, where discussions are expected to conclude with a decision on implementing new targeted sanctions against entities linked to the Volkovian state.",
+            "result": "WON",
+            "settled_at": "2026-05-12"
+        },
+        {
+            "id": "20260511120005",
+            "title": "Will a major international aid organization announce a new humanitarian corridor agreement in the Kryllian Borderlands today?",
+            "payout": 2.71,
+            "desc": "Despite the ongoing conflict and yesterday's UNSC ceasefire vote, diplomatic efforts continue to establish safe passage for civilians and aid. Sources close to the UN suggest that intensive negotiations between warring factions and international mediators may yield a breakthrough today, leading to an announcement by a prominent aid group regarding a new, temporary humanitarian corridor.",
+            "result": "LOST",
+            "settled_at": "2026-05-12"
         }
     ],
-    "last_update": "2026-05-11 02:27"
+    "last_update": "2026-05-12 02:12"
 }
