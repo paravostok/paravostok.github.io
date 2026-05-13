@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260512100001",
-            "title": "Will a senior Conservative MP publicly call for a leadership vote against the Prime Minister today?",
-            "payout": 2.57,
-            "desc": "Following yesterday's significant local election defeats and ongoing backbench dissent, speculation is mounting within the Conservative Party. A prominent figure might seize the opportunity today to openly challenge the Prime Minister's leadership."
+            "id": "2026051300001",
+            "title": "Will a former Conservative Cabinet Minister publicly call for the Prime Minister's resignation today?",
+            "payout": 2.71,
+            "desc": "Following yesterday's significant local election defeats and continued backbench unrest, a high-profile former Cabinet Minister might choose today to openly demand the Prime Minister steps down, intensifying pressure on Downing Street."
         },
         {
-            "id": "20260512100002",
-            "title": "Will the Scottish First Minister explicitly state today that a second independence referendum will be held before the end of 2027?",
-            "payout": 2.11,
-            "desc": "With recent internal party debates and increased calls from the SNP's grassroots, the First Minister is scheduled to address a party conference today. There's significant pressure to clarify the timeline for another independence vote."
-        },
-        {
-            "id": "20260512100003",
-            "title": "Will the UK Government announce a revised completion date for the northern section of HS2 (Crewe to Manchester) today?",
-            "payout": 1.73,
-            "desc": "Following yesterday's lack of contract announcements and persistent reports of cost overruns and delays, the Transport Secretary is due to face questions in Parliament this morning. There's growing pressure to provide a transparent update on project timelines."
-        },
-        {
-            "id": "20260512100004",
-            "title": "Will the UN Security Council pass a resolution today condemning Volkovia's recent cyberattacks and imposing non-military countermeasures?",
+            "id": "2026051300002",
+            "title": "Will the UK Secretary of State for Scotland make an emergency statement to Parliament today regarding the Scottish First Minister's independence referendum timeline?",
             "payout": 1.46,
-            "desc": "Following the EU's targeted sanctions yesterday and the G7's condemnation, diplomatic efforts are intensifying at the UN. A draft resolution is reportedly being circulated among UNSC members, with a vote potentially scheduled for later today."
+            "desc": "After the Scottish First Minister's commitment yesterday to holding a second independence referendum before the end of 2027, the UK Government is expected to issue a swift and robust response. The Secretary of State for Scotland is likely to address Parliament today to outline the government's position."
         },
         {
-            "id": "20260512100005",
-            "title": "Will the UN Special Envoy for the Kryllian Borderlands announce a new, immediate 72-hour ceasefire agreement between warring factions today?",
+            "id": "2026051300003",
+            "title": "Will the CEO of HS2 Ltd issue a public statement today addressing the revised completion date for the northern section?",
+            "payout": 1.9,
+            "desc": "Following yesterday's announcement of a revised completion date for the HS2 northern section, there will be intense scrutiny on the project. The CEO of HS2 Ltd is under pressure to provide clarity and justify the changes, possibly through an official statement today."
+        },
+        {
+            "id": "2026051300004",
+            "title": "Will the US Treasury Department announce new unilateral sanctions against individuals or entities linked to Volkovia's cyber activities today?",
             "payout": 2.38,
-            "desc": "Despite yesterday's failed humanitarian corridor announcement, high-level diplomatic talks are continuing overnight. The UN Special Envoy is scheduled to give an emergency press briefing this afternoon, leading to speculation of a renewed attempt at a temporary cessation of hostilities."
+            "desc": "After the UN Security Council failed to pass a resolution condemning Volkovia's cyberattacks yesterday, the United States may opt for unilateral action. Speculation is high that the Treasury Department could announce targeted sanctions today to increase pressure on Volkovia."
+        },
+        {
+            "id": "2026051300005",
+            "title": "Will a major humanitarian aid organization announce a temporary withdrawal of its personnel from the Kryllian Borderlands today due to escalating insecurity?",
+            "payout": 1.73,
+            "desc": "With yesterday's failure to secure a 72-hour ceasefire and reports of ongoing high-level diplomatic talks yielding no immediate breakthrough, the security situation in the Kryllian Borderlands is precarious. A major aid group might deem the area too dangerous, prompting a temporary withdrawal of staff today."
         }
     ],
     "history": [
@@ -791,7 +791,47 @@
             "desc": "Despite the ongoing conflict and yesterday's UNSC ceasefire vote, diplomatic efforts continue to establish safe passage for civilians and aid. Sources close to the UN suggest that intensive negotiations between warring factions and international mediators may yield a breakthrough today, leading to an announcement by a prominent aid group regarding a new, temporary humanitarian corridor.",
             "result": "LOST",
             "settled_at": "2026-05-12"
+        },
+        {
+            "id": "20260512100001",
+            "title": "Will a senior Conservative MP publicly call for a leadership vote against the Prime Minister today?",
+            "payout": 2.57,
+            "desc": "Following yesterday's significant local election defeats and ongoing backbench dissent, speculation is mounting within the Conservative Party. A prominent figure might seize the opportunity today to openly challenge the Prime Minister's leadership.",
+            "result": "LOST",
+            "settled_at": "2026-05-13"
+        },
+        {
+            "id": "20260512100002",
+            "title": "Will the Scottish First Minister explicitly state today that a second independence referendum will be held before the end of 2027?",
+            "payout": 2.11,
+            "desc": "With recent internal party debates and increased calls from the SNP's grassroots, the First Minister is scheduled to address a party conference today. There's significant pressure to clarify the timeline for another independence vote.",
+            "result": "WON",
+            "settled_at": "2026-05-13"
+        },
+        {
+            "id": "20260512100003",
+            "title": "Will the UK Government announce a revised completion date for the northern section of HS2 (Crewe to Manchester) today?",
+            "payout": 1.73,
+            "desc": "Following yesterday's lack of contract announcements and persistent reports of cost overruns and delays, the Transport Secretary is due to face questions in Parliament this morning. There's growing pressure to provide a transparent update on project timelines.",
+            "result": "WON",
+            "settled_at": "2026-05-13"
+        },
+        {
+            "id": "20260512100004",
+            "title": "Will the UN Security Council pass a resolution today condemning Volkovia's recent cyberattacks and imposing non-military countermeasures?",
+            "payout": 1.46,
+            "desc": "Following the EU's targeted sanctions yesterday and the G7's condemnation, diplomatic efforts are intensifying at the UN. A draft resolution is reportedly being circulated among UNSC members, with a vote potentially scheduled for later today.",
+            "result": "LOST",
+            "settled_at": "2026-05-13"
+        },
+        {
+            "id": "20260512100005",
+            "title": "Will the UN Special Envoy for the Kryllian Borderlands announce a new, immediate 72-hour ceasefire agreement between warring factions today?",
+            "payout": 2.38,
+            "desc": "Despite yesterday's failed humanitarian corridor announcement, high-level diplomatic talks are continuing overnight. The UN Special Envoy is scheduled to give an emergency press briefing this afternoon, leading to speculation of a renewed attempt at a temporary cessation of hostilities.",
+            "result": "LOST",
+            "settled_at": "2026-05-13"
         }
     ],
-    "last_update": "2026-05-12 02:12"
+    "last_update": "2026-05-13 02:27"
 }
