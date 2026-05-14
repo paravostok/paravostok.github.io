@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "2026051300001",
-            "title": "Will a former Conservative Cabinet Minister publicly call for the Prime Minister's resignation today?",
-            "payout": 2.71,
-            "desc": "Following yesterday's significant local election defeats and continued backbench unrest, a high-profile former Cabinet Minister might choose today to openly demand the Prime Minister steps down, intensifying pressure on Downing Street."
+            "id": "2026051400001",
+            "title": "Will a prominent backbench Conservative MP publicly call for a leadership contest against the Prime Minister today?",
+            "payout": 3.17,
+            "desc": "Following yesterday's significant local election losses and ongoing speculation about the Prime Minister's leadership, a growing number of backbenchers are reportedly discussing the party's future. A public call for a leadership contest from a well-known MP could emerge today, further destabilizing Downing Street."
         },
         {
-            "id": "2026051300002",
-            "title": "Will the UK Secretary of State for Scotland make an emergency statement to Parliament today regarding the Scottish First Minister's independence referendum timeline?",
-            "payout": 1.46,
-            "desc": "After the Scottish First Minister's commitment yesterday to holding a second independence referendum before the end of 2027, the UK Government is expected to issue a swift and robust response. The Secretary of State for Scotland is likely to address Parliament today to outline the government's position."
-        },
-        {
-            "id": "2026051300003",
-            "title": "Will the CEO of HS2 Ltd issue a public statement today addressing the revised completion date for the northern section?",
-            "payout": 1.9,
-            "desc": "Following yesterday's announcement of a revised completion date for the HS2 northern section, there will be intense scrutiny on the project. The CEO of HS2 Ltd is under pressure to provide clarity and justify the changes, possibly through an official statement today."
-        },
-        {
-            "id": "2026051300004",
-            "title": "Will the US Treasury Department announce new unilateral sanctions against individuals or entities linked to Volkovia's cyber activities today?",
+            "id": "2026051400002",
+            "title": "Will the Scottish Government formally announce the start of preparatory work for an Independence Referendum Bill by the end of today?",
             "payout": 2.38,
-            "desc": "After the UN Security Council failed to pass a resolution condemning Volkovia's cyberattacks yesterday, the United States may opt for unilateral action. Speculation is high that the Treasury Department could announce targeted sanctions today to increase pressure on Volkovia."
+            "desc": "Following the Scottish First Minister's recent commitment to a second independence referendum before 2027 and the UK Government's robust response, the Scottish Government may look to maintain momentum by publicly outlining initial steps or the commencement of legislative drafting today."
         },
         {
-            "id": "2026051300005",
-            "title": "Will a major humanitarian aid organization announce a temporary withdrawal of its personnel from the Kryllian Borderlands today due to escalating insecurity?",
-            "payout": 1.73,
-            "desc": "With yesterday's failure to secure a 72-hour ceasefire and reports of ongoing high-level diplomatic talks yielding no immediate breakthrough, the security situation in the Kryllian Borderlands is precarious. A major aid group might deem the area too dangerous, prompting a temporary withdrawal of staff today."
+            "id": "2026051400003",
+            "title": "Will the UK Secretary of State for Transport be compelled to answer an Urgent Question in the House of Commons today regarding the revised HS2 northern section timeline?",
+            "payout": 1.36,
+            "desc": "After yesterday's announcement of a revised completion date for the HS2 northern section and the subsequent statement from the HS2 Ltd CEO, opposition parties are expected to demand immediate accountability. There is strong speculation that an Urgent Question will be granted and answered by the Transport Secretary today."
+        },
+        {
+            "id": "2026051400004",
+            "title": "Will Volkovia's Ministry of Foreign Affairs officially issue a statement today condemning the new unilateral US sanctions?",
+            "payout": 1.19,
+            "desc": "Following yesterday's announcement of new US unilateral sanctions targeting entities linked to Volkovia's cyber activities, a swift and strong diplomatic reaction from Volkovia is anticipated. Their Ministry of Foreign Affairs is highly likely to issue a formal condemnation or protest today."
+        },
+        {
+            "id": "2026051400005",
+            "title": "Will the UN Special Envoy for the Kryllian Borderlands conflict publicly announce a new date for high-level ceasefire talks today?",
+            "payout": 1.9,
+            "desc": "With yesterday's failure to secure a temporary ceasefire and a major humanitarian aid organization withdrawing personnel due to escalating insecurity, international pressure for a diplomatic solution in the Kryllian Borderlands remains intense. The UN Special Envoy might make a fresh push by announcing a new round of talks today."
         }
     ],
     "history": [
@@ -831,7 +831,47 @@
             "desc": "Despite yesterday's failed humanitarian corridor announcement, high-level diplomatic talks are continuing overnight. The UN Special Envoy is scheduled to give an emergency press briefing this afternoon, leading to speculation of a renewed attempt at a temporary cessation of hostilities.",
             "result": "LOST",
             "settled_at": "2026-05-13"
+        },
+        {
+            "id": "2026051300001",
+            "title": "Will a former Conservative Cabinet Minister publicly call for the Prime Minister's resignation today?",
+            "payout": 2.71,
+            "desc": "Following yesterday's significant local election defeats and continued backbench unrest, a high-profile former Cabinet Minister might choose today to openly demand the Prime Minister steps down, intensifying pressure on Downing Street.",
+            "result": "LOST",
+            "settled_at": "2026-05-14"
+        },
+        {
+            "id": "2026051300002",
+            "title": "Will the UK Secretary of State for Scotland make an emergency statement to Parliament today regarding the Scottish First Minister's independence referendum timeline?",
+            "payout": 1.46,
+            "desc": "After the Scottish First Minister's commitment yesterday to holding a second independence referendum before the end of 2027, the UK Government is expected to issue a swift and robust response. The Secretary of State for Scotland is likely to address Parliament today to outline the government's position.",
+            "result": "WON",
+            "settled_at": "2026-05-14"
+        },
+        {
+            "id": "2026051300003",
+            "title": "Will the CEO of HS2 Ltd issue a public statement today addressing the revised completion date for the northern section?",
+            "payout": 1.9,
+            "desc": "Following yesterday's announcement of a revised completion date for the HS2 northern section, there will be intense scrutiny on the project. The CEO of HS2 Ltd is under pressure to provide clarity and justify the changes, possibly through an official statement today.",
+            "result": "WON",
+            "settled_at": "2026-05-14"
+        },
+        {
+            "id": "2026051300004",
+            "title": "Will the US Treasury Department announce new unilateral sanctions against individuals or entities linked to Volkovia's cyber activities today?",
+            "payout": 2.38,
+            "desc": "After the UN Security Council failed to pass a resolution condemning Volkovia's cyberattacks yesterday, the United States may opt for unilateral action. Speculation is high that the Treasury Department could announce targeted sanctions today to increase pressure on Volkovia.",
+            "result": "WON",
+            "settled_at": "2026-05-14"
+        },
+        {
+            "id": "2026051300005",
+            "title": "Will a major humanitarian aid organization announce a temporary withdrawal of its personnel from the Kryllian Borderlands today due to escalating insecurity?",
+            "payout": 1.73,
+            "desc": "With yesterday's failure to secure a 72-hour ceasefire and reports of ongoing high-level diplomatic talks yielding no immediate breakthrough, the security situation in the Kryllian Borderlands is precarious. A major aid group might deem the area too dangerous, prompting a temporary withdrawal of staff today.",
+            "result": "WON",
+            "settled_at": "2026-05-14"
         }
     ],
-    "last_update": "2026-05-13 02:27"
+    "last_update": "2026-05-14 02:29"
 }
