@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "2026051500001",
-            "title": "Will a former Conservative Cabinet Minister publicly call for the Prime Minister to resign by the end of today?",
-            "payout": 3.8,
-            "desc": "Following yesterday's significant local election losses and ongoing speculation about the Prime Minister's leadership, pressure is mounting. A strong public statement from a senior, respected figure within the party could emerge today, further destabilizing Downing Street."
+            "id": "2026051600001",
+            "title": "Will the Prime Minister make a public statement today specifically addressing leadership speculation following yesterday's local election results?",
+            "payout": 1.46,
+            "desc": "Following significant local election losses and ongoing internal party discussions, the Prime Minister may feel compelled to publicly address the growing speculation around their leadership to reassure the party and the public."
         },
         {
-            "id": "2026051500002",
-            "title": "Will the UK Government's Secretary of State for Scotland publicly issue a statement today ruling out a Section 30 order before 2027?",
+            "id": "2026051600002",
+            "title": "Will a senior Scottish National Party (SNP) figure today publicly confirm details of the proposed vote on independence strategy at next month's party convention?",
             "payout": 1.73,
-            "desc": "Following the Scottish First Minister's recent renewed commitment to an independence referendum and the ongoing debate, the UK Government may reiterate its firm stance, possibly through a statement from the Secretary of State for Scotland, to manage expectations and maintain its position."
+            "desc": "Following the First Minister's renewed commitment to independence, pressure is mounting within the SNP for clarity on the next steps. A senior figure might provide details today regarding the strategic vote at the upcoming party convention, signaling the party's direction."
         },
         {
-            "id": "2026051500003",
-            "title": "Will the Department for Transport publish any new documentation today outlining revised cost estimates for the HS2 northern section?",
-            "payout": 3.17,
-            "desc": "After yesterday's Urgent Question in Parliament regarding the revised HS2 northern section timeline, there is increased public and parliamentary demand for transparency. The Department for Transport might release initial updated figures or a brief explaining cost implications today."
+            "id": "2026051600003",
+            "title": "Will the Department for Transport issue a press release today providing a clear timeline for when revised HS2 northern section cost estimates will be publicly available?",
+            "payout": 1.36,
+            "desc": "Following yesterday's Urgent Question in Parliament regarding the HS2 northern section, the Department for Transport is under pressure to provide clarity. A statement today outlining the schedule for releasing updated cost figures could be issued to manage parliamentary and public expectations."
         },
         {
-            "id": "2026051500004",
-            "title": "Will a G7 member state *other than the US* officially express support today for the new US sanctions against Volkovia?",
+            "id": "2026051600004",
+            "title": "Will the European Commission today issue a statement confirming it has initiated formal consultations with member states regarding potential new sanctions against Volkovia?",
+            "payout": 1.58,
+            "desc": "Following the US's unilateral sanctions against Volkovia yesterday, the European Union may feel pressure to demonstrate a coordinated response. An announcement of formal consultations would signal the EU's serious consideration of its own measures."
+        },
+        {
+            "id": "2026051600005",
+            "title": "Will the UN Special Envoy for the Kryllian Borderlands publicly call for an emergency session of the UN Security Council today due to escalating violence?",
             "payout": 2.11,
-            "desc": "Following the US's unilateral sanctions against Volkovia yesterday and Volkovia's subsequent condemnation, international allies will be weighing their response. At least one G7 partner may issue a statement of support to demonstrate solidarity with the US position."
-        },
-        {
-            "id": "2026051500005",
-            "title": "Will a major international humanitarian aid organization publicly announce today that it is withdrawing all remaining personnel from the Kryllian Borderlands due to increased insecurity?",
-            "payout": 3.17,
-            "desc": "With yesterday's failure to secure a temporary ceasefire in the Kryllian Borderlands and a major humanitarian aid organization already withdrawing *some* personnel, escalating insecurity could force another, or the same, organization to announce a complete withdrawal today, signaling a critical worsening of the situation."
+            "desc": "With yesterday's failure to secure a temporary ceasefire and reports of increased insecurity, the UN Special Envoy may feel compelled to elevate the crisis to the Security Council to garner international attention and action."
         }
     ],
     "history": [
@@ -911,7 +911,47 @@
             "desc": "With yesterday's failure to secure a temporary ceasefire and a major humanitarian aid organization withdrawing personnel due to escalating insecurity, international pressure for a diplomatic solution in the Kryllian Borderlands remains intense. The UN Special Envoy might make a fresh push by announcing a new round of talks today.",
             "result": "LOST",
             "settled_at": "2026-05-15"
+        },
+        {
+            "id": "2026051500001",
+            "title": "Will a former Conservative Cabinet Minister publicly call for the Prime Minister to resign by the end of today?",
+            "payout": 3.8,
+            "desc": "Following yesterday's significant local election losses and ongoing speculation about the Prime Minister's leadership, pressure is mounting. A strong public statement from a senior, respected figure within the party could emerge today, further destabilizing Downing Street.",
+            "result": "LOST",
+            "settled_at": "2026-05-16"
+        },
+        {
+            "id": "2026051500002",
+            "title": "Will the UK Government's Secretary of State for Scotland publicly issue a statement today ruling out a Section 30 order before 2027?",
+            "payout": 1.73,
+            "desc": "Following the Scottish First Minister's recent renewed commitment to an independence referendum and the ongoing debate, the UK Government may reiterate its firm stance, possibly through a statement from the Secretary of State for Scotland, to manage expectations and maintain its position.",
+            "result": "LOST",
+            "settled_at": "2026-05-16"
+        },
+        {
+            "id": "2026051500003",
+            "title": "Will the Department for Transport publish any new documentation today outlining revised cost estimates for the HS2 northern section?",
+            "payout": 3.17,
+            "desc": "After yesterday's Urgent Question in Parliament regarding the revised HS2 northern section timeline, there is increased public and parliamentary demand for transparency. The Department for Transport might release initial updated figures or a brief explaining cost implications today.",
+            "result": "LOST",
+            "settled_at": "2026-05-16"
+        },
+        {
+            "id": "2026051500004",
+            "title": "Will a G7 member state *other than the US* officially express support today for the new US sanctions against Volkovia?",
+            "payout": 2.11,
+            "desc": "Following the US's unilateral sanctions against Volkovia yesterday and Volkovia's subsequent condemnation, international allies will be weighing their response. At least one G7 partner may issue a statement of support to demonstrate solidarity with the US position.",
+            "result": "LOST",
+            "settled_at": "2026-05-16"
+        },
+        {
+            "id": "2026051500005",
+            "title": "Will a major international humanitarian aid organization publicly announce today that it is withdrawing all remaining personnel from the Kryllian Borderlands due to increased insecurity?",
+            "payout": 3.17,
+            "desc": "With yesterday's failure to secure a temporary ceasefire in the Kryllian Borderlands and a major humanitarian aid organization already withdrawing *some* personnel, escalating insecurity could force another, or the same, organization to announce a complete withdrawal today, signaling a critical worsening of the situation.",
+            "result": "WON",
+            "settled_at": "2026-05-16"
         }
     ],
-    "last_update": "2026-05-15 02:28"
+    "last_update": "2026-05-16 02:10"
 }
