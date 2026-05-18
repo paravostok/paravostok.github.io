@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260517100001",
-            "title": "Will the Leader of the Opposition today formally demand a general election in a public statement or parliamentary address?",
-            "payout": 1.36,
-            "desc": "Following significant local election losses for the governing party yesterday, the opposition would seize the opportunity to amplify calls for a general election, potentially in a scheduled media appearance or a response to government statements."
+            "id": "20260518000001",
+            "title": "Will the Prime Minister's official spokesperson today explicitly rule out an early general election before the end of the year?",
+            "payout": 1.46,
+            "desc": "Following yesterday's call from the Leader of the Opposition for a general election (after significant local election losses for the governing party), the Prime Minister's Office may seek to calm political speculation by issuing a clear statement regarding the timing of the next election, potentially in a morning briefing or official press release."
         },
         {
-            "id": "20260517100002",
-            "title": "Will a specific date for the publication of a new Scottish independence white paper be announced by the Scottish Government today?",
-            "payout": 2.11,
-            "desc": "Following the First Minister's recent renewed commitment to independence and the ongoing pressure for strategic clarity, the Scottish Government might aim to set expectations by announcing a specific publication date for a key policy document, potentially to manage internal party debates ahead of the convention."
+            "id": "20260518000002",
+            "title": "Will the Scottish Government today publish its official response to the UK Government's proposed 'Internal Market Act' amendments?",
+            "payout": 1.73,
+            "desc": "With ongoing legislative tensions between Holyrood and Westminster, especially regarding devolved powers, the Scottish Government may choose to issue a swift and robust formal response to recently proposed UK Internal Market Act amendments to assert its position and manage public perception."
         },
         {
-            "id": "20260517100003",
-            "title": "Will a major UK newspaper today publish leaked details of the revised HS2 northern section cost estimates, prior to any official release?",
+            "id": "20260518000003",
+            "title": "Will Network Rail today confirm the indefinite postponement of a major planned weekend engineering works project due to funding reallocation?",
+            "payout": 2.38,
+            "desc": "Amidst existing pressures on transport budgets and potential re-prioritisation of major infrastructure spending (such as HS2's revised costs), Network Rail might today announce a significant change to its maintenance schedule, citing unforeseen funding adjustments or reallocations."
+        },
+        {
+            "id": "20260518000004",
+            "title": "Will the US State Department today issue a formal travel advisory upgrade for a major European country, citing increased security concerns?",
             "payout": 2.71,
-            "desc": "With the Department for Transport having committed yesterday to providing a timeline for revised HS2 cost estimates, pressure and internal discussions are high. It's plausible a disgruntled source or an investigative journalist could leak details to a major newspaper, seeking to pre-empt official figures or highlight perceived discrepancies."
+            "desc": "Following heightened geopolitical tensions (such as Volkovia's threat of retaliation against EU sanctions) or specific intelligence regarding security threats, the US State Department could swiftly update its travel guidance for a key ally, as a precautionary measure or in response to a developing situation."
         },
         {
-            "id": "20260517100004",
-            "title": "Will Volkovia's Ministry of Foreign Affairs today issue a statement explicitly threatening retaliatory economic measures against EU member states if sanctions are imposed?",
-            "payout": 1.58,
-            "desc": "Following the European Commission's initiation of formal consultations on potential new sanctions yesterday, Volkovia may feel compelled to issue a swift and strong deterrent message, making clear the potential economic consequences of such actions, likely via its Ministry of Foreign Affairs."
-        },
-        {
-            "id": "20260517100005",
-            "title": "Will the UN Security Council today officially schedule an emergency session on the Kryllian Borderlands crisis, as requested by the Special Envoy?",
-            "payout": 1.27,
-            "desc": "Following the UN Special Envoy's public call yesterday for an emergency Security Council session due to escalating violence and failed ceasefires, the Security Council's members would be under immediate pressure to respond and formally schedule the requested meeting to address the crisis."
+            "id": "20260518000005",
+            "title": "Will the international monitoring mission in the Kryllian Borderlands today report a confirmed breach of the previous day's (failed) ceasefire by government forces?",
+            "payout": 1.36,
+            "desc": "Given the UN Special Envoy's urgent request yesterday for an emergency Security Council session due to 'escalating violence and failed ceasefires,' it is highly probable that observers on the ground would quickly confirm further violations, particularly following a declared but unsuccessful truce."
         }
     ],
     "history": [
@@ -991,7 +991,47 @@
             "desc": "With yesterday's failure to secure a temporary ceasefire and reports of increased insecurity, the UN Special Envoy may feel compelled to elevate the crisis to the Security Council to garner international attention and action.",
             "result": "WON",
             "settled_at": "2026-05-17"
+        },
+        {
+            "id": "20260517100001",
+            "title": "Will the Leader of the Opposition today formally demand a general election in a public statement or parliamentary address?",
+            "payout": 1.36,
+            "desc": "Following significant local election losses for the governing party yesterday, the opposition would seize the opportunity to amplify calls for a general election, potentially in a scheduled media appearance or a response to government statements.",
+            "result": "WON",
+            "settled_at": "2026-05-18"
+        },
+        {
+            "id": "20260517100002",
+            "title": "Will a specific date for the publication of a new Scottish independence white paper be announced by the Scottish Government today?",
+            "payout": 2.11,
+            "desc": "Following the First Minister's recent renewed commitment to independence and the ongoing pressure for strategic clarity, the Scottish Government might aim to set expectations by announcing a specific publication date for a key policy document, potentially to manage internal party debates ahead of the convention.",
+            "result": "LOST",
+            "settled_at": "2026-05-18"
+        },
+        {
+            "id": "20260517100003",
+            "title": "Will a major UK newspaper today publish leaked details of the revised HS2 northern section cost estimates, prior to any official release?",
+            "payout": 2.71,
+            "desc": "With the Department for Transport having committed yesterday to providing a timeline for revised HS2 cost estimates, pressure and internal discussions are high. It's plausible a disgruntled source or an investigative journalist could leak details to a major newspaper, seeking to pre-empt official figures or highlight perceived discrepancies.",
+            "result": "WON",
+            "settled_at": "2026-05-18"
+        },
+        {
+            "id": "20260517100004",
+            "title": "Will Volkovia's Ministry of Foreign Affairs today issue a statement explicitly threatening retaliatory economic measures against EU member states if sanctions are imposed?",
+            "payout": 1.58,
+            "desc": "Following the European Commission's initiation of formal consultations on potential new sanctions yesterday, Volkovia may feel compelled to issue a swift and strong deterrent message, making clear the potential economic consequences of such actions, likely via its Ministry of Foreign Affairs.",
+            "result": "WON",
+            "settled_at": "2026-05-18"
+        },
+        {
+            "id": "20260517100005",
+            "title": "Will the UN Security Council today officially schedule an emergency session on the Kryllian Borderlands crisis, as requested by the Special Envoy?",
+            "payout": 1.27,
+            "desc": "Following the UN Special Envoy's public call yesterday for an emergency Security Council session due to escalating violence and failed ceasefires, the Security Council's members would be under immediate pressure to respond and formally schedule the requested meeting to address the crisis.",
+            "result": "WON",
+            "settled_at": "2026-05-18"
         }
     ],
-    "last_update": "2026-05-17 02:15"
+    "last_update": "2026-05-18 02:35"
 }
