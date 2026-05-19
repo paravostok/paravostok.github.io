@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260518000001",
-            "title": "Will the Prime Minister's official spokesperson today explicitly rule out an early general election before the end of the year?",
-            "payout": 1.46,
-            "desc": "Following yesterday's call from the Leader of the Opposition for a general election (after significant local election losses for the governing party), the Prime Minister's Office may seek to calm political speculation by issuing a clear statement regarding the timing of the next election, potentially in a morning briefing or official press release."
+            "id": "20260519000001",
+            "title": "Will a minister from the Department for Education today resign from the UK government, citing policy disagreements?",
+            "payout": 3.8,
+            "desc": "With recent political turmoil following local election losses, ministers might feel emboldened or pressured to make a stand, particularly if there are perceived policy missteps or disagreements surfacing within specific departments. Resignations often follow periods of instability."
         },
         {
-            "id": "20260518000002",
-            "title": "Will the Scottish Government today publish its official response to the UK Government's proposed 'Internal Market Act' amendments?",
-            "payout": 1.73,
-            "desc": "With ongoing legislative tensions between Holyrood and Westminster, especially regarding devolved powers, the Scottish Government may choose to issue a swift and robust formal response to recently proposed UK Internal Market Act amendments to assert its position and manage public perception."
-        },
-        {
-            "id": "20260518000003",
-            "title": "Will Network Rail today confirm the indefinite postponement of a major planned weekend engineering works project due to funding reallocation?",
-            "payout": 2.38,
-            "desc": "Amidst existing pressures on transport budgets and potential re-prioritisation of major infrastructure spending (such as HS2's revised costs), Network Rail might today announce a significant change to its maintenance schedule, citing unforeseen funding adjustments or reallocations."
-        },
-        {
-            "id": "20260518000004",
-            "title": "Will the US State Department today issue a formal travel advisory upgrade for a major European country, citing increased security concerns?",
+            "id": "20260519000002",
+            "title": "Will the Scottish National Party (SNP) today formally announce a new timeline for its proposed independence referendum bill, following recent polling data?",
             "payout": 2.71,
-            "desc": "Following heightened geopolitical tensions (such as Volkovia's threat of retaliation against EU sanctions) or specific intelligence regarding security threats, the US State Department could swiftly update its travel guidance for a key ally, as a precautionary measure or in response to a developing situation."
+            "desc": "If recent polling data on Scottish independence has been particularly favourable or unfavourable, the SNP leadership might feel pressure to either accelerate or recalibrate their independence strategy, potentially leading to a statement on the bill's progress or a new proposed timeline to address internal or external critics/supporters."
         },
         {
-            "id": "20260518000005",
-            "title": "Will the international monitoring mission in the Kryllian Borderlands today report a confirmed breach of the previous day's (failed) ceasefire by government forces?",
+            "id": "20260519000003",
+            "title": "Will HS2 Ltd today confirm that the proposed high-speed rail link to Leeds has been formally abandoned?",
+            "payout": 2.11,
+            "desc": "Building on recent speculation about HS2's revised scope and persistent budget pressures, particularly after yesterday's hint of funding reallocations, a definitive statement about the future of a specific phase like the Leeds leg might be issued to clarify future plans or to signal fiscal prudence."
+        },
+        {
+            "id": "20260519000004",
+            "title": "Will the United Nations Security Council today pass a new resolution imposing sanctions on Volkovia, following yesterday's threats?",
+            "payout": 1.58,
+            "desc": "Following Volkovia's explicit threats of retaliation against EU sanctions yesterday (as mentioned in previous event context) and heightened geopolitical tensions, there would be immense pressure on the UN Security Council to respond with a new, stronger resolution or sanctions to de-escalate or punish."
+        },
+        {
+            "id": "20260519000005",
+            "title": "Will the Kryllian government today formally request emergency military aid from an allied nation, following reports of ceasefire breaches?",
             "payout": 1.36,
-            "desc": "Given the UN Special Envoy's urgent request yesterday for an emergency Security Council session due to 'escalating violence and failed ceasefires,' it is highly probable that observers on the ground would quickly confirm further violations, particularly following a declared but unsuccessful truce."
+            "desc": "Given the confirmed breach of a failed ceasefire by government forces and escalating violence in the Kryllian Borderlands (as per yesterday's events), the Kryllian government might feel compelled to urgently seek external military assistance to bolster its position or defense, making such a request highly probable and immediate."
         }
     ],
     "history": [
@@ -1031,7 +1031,47 @@
             "desc": "Following the UN Special Envoy's public call yesterday for an emergency Security Council session due to escalating violence and failed ceasefires, the Security Council's members would be under immediate pressure to respond and formally schedule the requested meeting to address the crisis.",
             "result": "WON",
             "settled_at": "2026-05-18"
+        },
+        {
+            "id": "20260518000001",
+            "title": "Will the Prime Minister's official spokesperson today explicitly rule out an early general election before the end of the year?",
+            "payout": 1.46,
+            "desc": "Following yesterday's call from the Leader of the Opposition for a general election (after significant local election losses for the governing party), the Prime Minister's Office may seek to calm political speculation by issuing a clear statement regarding the timing of the next election, potentially in a morning briefing or official press release.",
+            "result": "LOST",
+            "settled_at": "2026-05-19"
+        },
+        {
+            "id": "20260518000002",
+            "title": "Will the Scottish Government today publish its official response to the UK Government's proposed 'Internal Market Act' amendments?",
+            "payout": 1.73,
+            "desc": "With ongoing legislative tensions between Holyrood and Westminster, especially regarding devolved powers, the Scottish Government may choose to issue a swift and robust formal response to recently proposed UK Internal Market Act amendments to assert its position and manage public perception.",
+            "result": "WON",
+            "settled_at": "2026-05-19"
+        },
+        {
+            "id": "20260518000003",
+            "title": "Will Network Rail today confirm the indefinite postponement of a major planned weekend engineering works project due to funding reallocation?",
+            "payout": 2.38,
+            "desc": "Amidst existing pressures on transport budgets and potential re-prioritisation of major infrastructure spending (such as HS2's revised costs), Network Rail might today announce a significant change to its maintenance schedule, citing unforeseen funding adjustments or reallocations.",
+            "result": "LOST",
+            "settled_at": "2026-05-19"
+        },
+        {
+            "id": "20260518000004",
+            "title": "Will the US State Department today issue a formal travel advisory upgrade for a major European country, citing increased security concerns?",
+            "payout": 2.71,
+            "desc": "Following heightened geopolitical tensions (such as Volkovia's threat of retaliation against EU sanctions) or specific intelligence regarding security threats, the US State Department could swiftly update its travel guidance for a key ally, as a precautionary measure or in response to a developing situation.",
+            "result": "WON",
+            "settled_at": "2026-05-19"
+        },
+        {
+            "id": "20260518000005",
+            "title": "Will the international monitoring mission in the Kryllian Borderlands today report a confirmed breach of the previous day's (failed) ceasefire by government forces?",
+            "payout": 1.36,
+            "desc": "Given the UN Special Envoy's urgent request yesterday for an emergency Security Council session due to 'escalating violence and failed ceasefires,' it is highly probable that observers on the ground would quickly confirm further violations, particularly following a declared but unsuccessful truce.",
+            "result": "WON",
+            "settled_at": "2026-05-19"
         }
     ],
-    "last_update": "2026-05-18 02:35"
+    "last_update": "2026-05-19 02:33"
 }
