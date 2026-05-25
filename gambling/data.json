@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260524000001",
-            "title": "Will a prominent Conservative cabinet minister today publicly express 'full confidence' in the Prime Minister, explicitly refuting recent leadership speculation?",
-            "payout": 1.5,
-            "desc": "Following persistent rumors of backbench discontent and potential challenges to the Prime Minister's leadership (as per yesterday's news of rising pressure), a key cabinet figure might choose today to make a strong public statement of support to quash speculation and demonstrate party unity."
+            "id": "20260525000001",
+            "title": "Will a senior Conservative backbencher today publicly call for a vote of no confidence in the Prime Minister?",
+            "payout": 3.17,
+            "desc": "Following yesterday's reports of persistent backbench discontent and ongoing leadership speculation, a prominent Conservative MP might choose today to publicly break ranks and initiate formal proceedings to challenge the Prime Minister's position."
         },
         {
-            "id": "20260524000002",
-            "title": "Will the Scottish Government today announce a formal review into the procurement process for the delayed National Care Service bill?",
-            "payout": 1.83,
-            "desc": "Given recent legislative delays and internal dissent within the SNP regarding the National Care Service bill, a formal review is a common political move to address mounting concerns and demonstrate accountability, especially if pressure for specific answers regarding financial or procedural issues has intensified."
+            "id": "20260525000002",
+            "title": "Will the Scottish Government today announce a public consultation on proposals to increase local income tax powers for councils?",
+            "payout": 1.73,
+            "desc": "With ongoing pressures on local authority budgets and the Scottish Government's commitment to enhancing local democracy, an announcement today for a public consultation on expanding councils' financial autonomy through local income tax powers is a plausible next step to explore funding solutions."
         },
         {
-            "id": "20260524000003",
-            "title": "Will the Secretary of State for Transport today officially confirm the cancellation of at least one other previously planned major infrastructure project in the North of England, besides the suspended rail upgrade?",
-            "payout": 2.11,
-            "desc": "While a new transport fund for the North may have been announced or is expected today, yesterday's indefinite suspension of a major rail upgrade could signal wider budgetary constraints. The government, under pressure to find savings or reallocate funds, might use today's public scrutiny on transport to confirm other cancellations or 'pauses' to further justify the new fund or broader spending decisions."
+            "id": "20260525000003",
+            "title": "Will Network Rail today confirm a revised completion date for the northern section of the HS2 project that pushes it beyond 2035?",
+            "payout": 2.38,
+            "desc": "In the wake of yesterday's news concerning wider budgetary constraints and the suspension of another major rail upgrade, pressure could mount for Network Rail to provide more realistic timelines for HS2. A confirmation of further delays for the northern sections beyond current expectations would align with recent trends of cost management and project re-evaluation."
         },
         {
-            "id": "20260524000004",
-            "title": "Will the G7 group of nations today release a joint statement calling for a ceasefire and immediate humanitarian access in the Volkovia crisis?",
-            "payout": 1.67,
-            "desc": "Following the EU's escalated sanctions against Volkovia yesterday and intense diplomatic activity (as implied by ongoing international discussions), a coordinated G7 response in the form of a joint statement is highly plausible today to show united international pressure and a humanitarian focus."
+            "id": "20260525000004",
+            "title": "Will the foreign minister of a non-G7 nation today publicly condemn the G7's stance on the Volkovia crisis as 'interference'?",
+            "payout": 1.46,
+            "desc": "If the G7 indeed released a joint statement on the Volkovia crisis yesterday, it is highly probable that a nation with differing geopolitical interests or ties to Volkovia would issue a counter-statement, perceiving the G7's coordinated action as unwarranted intervention in sovereign affairs."
         },
         {
-            "id": "20260524000005",
-            "title": "Will a high-ranking Kryllian military official today publicly state that foreign military advisors are actively engaged in combat operations within the borderlands?",
-            "payout": 2.71,
-            "desc": "Given yesterday's official confirmation of foreign military advisor deployment into an area of 'escalating violence,' there's immediate interest in their exact role. A public statement from a senior military figure today could confirm active engagement rather than just advisory roles, signaling a significant escalation in the conflict."
+            "id": "20260525000005",
+            "title": "Will the leader of a major international humanitarian organization today issue an urgent appeal specifically for a 72-hour ceasefire in the Kryllian borderlands?",
+            "payout": 1.27,
+            "desc": "Given yesterday's confirmed deployment of foreign military advisors into an area of 'escalating violence' in the Kryllian borderlands, humanitarian concerns would be critically high. An urgent appeal for a specific, short-term ceasefire is a common and immediate response from humanitarian bodies to facilitate aid and alleviate suffering in rapidly deteriorating conflict zones."
         }
     ],
     "history": [
@@ -1191,7 +1191,47 @@
             "desc": "With escalating violence and the withdrawal of international aid (from yesterday's events), the Kryllian government is facing significant pressure. Having previously requested military aid, an official confirmation today of foreign military advisors being deployed could signal a new phase in the conflict.",
             "result": "WON",
             "settled_at": "2026-05-24"
+        },
+        {
+            "id": "20260524000001",
+            "title": "Will a prominent Conservative cabinet minister today publicly express 'full confidence' in the Prime Minister, explicitly refuting recent leadership speculation?",
+            "payout": 1.5,
+            "desc": "Following persistent rumors of backbench discontent and potential challenges to the Prime Minister's leadership (as per yesterday's news of rising pressure), a key cabinet figure might choose today to make a strong public statement of support to quash speculation and demonstrate party unity.",
+            "result": "WON",
+            "settled_at": "2026-05-25"
+        },
+        {
+            "id": "20260524000002",
+            "title": "Will the Scottish Government today announce a formal review into the procurement process for the delayed National Care Service bill?",
+            "payout": 1.83,
+            "desc": "Given recent legislative delays and internal dissent within the SNP regarding the National Care Service bill, a formal review is a common political move to address mounting concerns and demonstrate accountability, especially if pressure for specific answers regarding financial or procedural issues has intensified.",
+            "result": "WON",
+            "settled_at": "2026-05-25"
+        },
+        {
+            "id": "20260524000003",
+            "title": "Will the Secretary of State for Transport today officially confirm the cancellation of at least one other previously planned major infrastructure project in the North of England, besides the suspended rail upgrade?",
+            "payout": 2.11,
+            "desc": "While a new transport fund for the North may have been announced or is expected today, yesterday's indefinite suspension of a major rail upgrade could signal wider budgetary constraints. The government, under pressure to find savings or reallocate funds, might use today's public scrutiny on transport to confirm other cancellations or 'pauses' to further justify the new fund or broader spending decisions.",
+            "result": "WON",
+            "settled_at": "2026-05-25"
+        },
+        {
+            "id": "20260524000004",
+            "title": "Will the G7 group of nations today release a joint statement calling for a ceasefire and immediate humanitarian access in the Volkovia crisis?",
+            "payout": 1.67,
+            "desc": "Following the EU's escalated sanctions against Volkovia yesterday and intense diplomatic activity (as implied by ongoing international discussions), a coordinated G7 response in the form of a joint statement is highly plausible today to show united international pressure and a humanitarian focus.",
+            "result": "WON",
+            "settled_at": "2026-05-25"
+        },
+        {
+            "id": "20260524000005",
+            "title": "Will a high-ranking Kryllian military official today publicly state that foreign military advisors are actively engaged in combat operations within the borderlands?",
+            "payout": 2.71,
+            "desc": "Given yesterday's official confirmation of foreign military advisor deployment into an area of 'escalating violence,' there's immediate interest in their exact role. A public statement from a senior military figure today could confirm active engagement rather than just advisory roles, signaling a significant escalation in the conflict.",
+            "result": "LOST",
+            "settled_at": "2026-05-25"
         }
     ],
-    "last_update": "2026-05-24 02:32"
+    "last_update": "2026-05-25 02:40"
 }
