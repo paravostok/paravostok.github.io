@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260526000001",
-            "title": "Will a junior minister in the UK Government resign from their post today?",
-            "payout": 3.17,
-            "desc": "Amidst ongoing speculation regarding government unity and potential backbench rebellions on the upcoming Public Services Bill, a junior minister might choose today to step down, citing irreconcilable differences or to preempt a vote of no confidence."
+            "id": "20260527000001",
+            "title": "Will the Prime Minister's official spokesperson today confirm that a mini-reshuffle is being actively considered by Number 10?",
+            "payout": 2.38,
+            "desc": "Following recent poor local election results and growing discontent within the Conservative party regarding cabinet performance, speculation about a ministerial reshuffle is rife. A spokesperson might today address or dismiss these rumours in a daily briefing, potentially indicating ongoing internal discussions."
         },
         {
-            "id": "20260526000002",
-            "title": "Will the Scottish National Party (SNP) today confirm the date for their next leadership hustings event?",
-            "payout": 2.11,
-            "desc": "With recent media reports highlighting internal debates within the SNP regarding future leadership and strategy, the party leadership could today announce the official dates for hustings events, signaling a move towards formalizing processes for potential future leadership challenges or to unify the party ahead of upcoming elections."
-        },
-        {
-            "id": "20260526000003",
-            "title": "Will the Department for Transport today announce a review into the feasibility of the proposed Trans-Pennine Tunnel project?",
-            "payout": 1.58,
-            "desc": "Following yesterday's revelations of further delays and escalating costs in major UK infrastructure projects, and with an opposition party calling for greater oversight, the Department for Transport might today announce a formal review into the feasibility and economic viability of the long-proposed Trans-Pennine Tunnel project to address public and parliamentary concerns."
-        },
-        {
-            "id": "20260526000004",
-            "title": "Will the UN Secretary-General today publicly call for an emergency session of the Security Council regarding the ongoing crisis in Volkovia?",
+            "id": "20260527000002",
+            "title": "Will the Scottish Government today publish its long-awaited 'Green Paper' on new devolved taxation powers?",
             "payout": 1.9,
-            "desc": "Following yesterday's G7 statement on the Volkovia crisis and subsequent condemnation from a key non-G7 nation, international tensions are visibly rising. The UN Secretary-General, concerned by the lack of de-escalation, could today make a public appeal for an emergency Security Council meeting to seek a concerted international response."
+            "desc": "After repeated delays and pressure from opposition parties to clarify its fiscal strategy, the Scottish Government has hinted at publishing a key policy document this week. Today could be the day to release the detailed proposals for new tax-raising powers, aiming to control the narrative ahead of further parliamentary debate."
         },
         {
-            "id": "20260526000005",
-            "title": "Will a spokesperson for either side of the Kryllian borderlands conflict today publicly agree to a 72-hour ceasefire as requested by humanitarian organizations?",
-            "payout": 3.8,
-            "desc": "After a major international humanitarian organization yesterday issued an urgent appeal for a 72-hour ceasefire in the Kryllian borderlands to facilitate aid, there is significant international pressure. A public statement of agreement from either a government or rebel spokesperson involved in the conflict could come today to show willingness for de-escalation and humanitarian access."
+            "id": "20260527000003",
+            "title": "Will HS2 Ltd today issue a statement confirming further delays to the completion of Phase 2a of the high-speed rail line?",
+            "payout": 1.58,
+            "desc": "Sources close to the HS2 project have reportedly indicated ongoing logistical challenges and rising material costs. With public and parliamentary scrutiny heightened, HS2 Ltd might today preemptively announce updated timelines for the next phase of the project to manage expectations."
+        },
+        {
+            "id": "20260527000004",
+            "title": "Will the European Union today announce new sanctions against Belarus following recent human rights reports?",
+            "payout": 1.73,
+            "desc": "Following yesterday's release of a damning human rights report concerning Belarus and calls from several MEPs for a stronger EU response, a formal announcement of new targeted sanctions could be made by the EU today, demonstrating a unified stance against human rights violations."
+        },
+        {
+            "id": "20260527000005",
+            "title": "Will a major international aid organization today confirm the successful delivery of humanitarian supplies via a new maritime corridor to the besieged region of Xylos?",
+            "payout": 1.36,
+            "desc": "After weeks of negotiations and preparation, a new maritime route for aid delivery to Xylos was reportedly activated early this morning. A confirming statement from one of the lead aid agencies involved could be expected by the end of the day, providing crucial updates on the humanitarian situation."
         }
     ],
     "history": [
@@ -1271,7 +1271,47 @@
             "desc": "Given yesterday's confirmed deployment of foreign military advisors into an area of 'escalating violence' in the Kryllian borderlands, humanitarian concerns would be critically high. An urgent appeal for a specific, short-term ceasefire is a common and immediate response from humanitarian bodies to facilitate aid and alleviate suffering in rapidly deteriorating conflict zones.",
             "result": "WON",
             "settled_at": "2026-05-26"
+        },
+        {
+            "id": "20260526000001",
+            "title": "Will a junior minister in the UK Government resign from their post today?",
+            "payout": 3.17,
+            "desc": "Amidst ongoing speculation regarding government unity and potential backbench rebellions on the upcoming Public Services Bill, a junior minister might choose today to step down, citing irreconcilable differences or to preempt a vote of no confidence.",
+            "result": "LOST",
+            "settled_at": "2026-05-27"
+        },
+        {
+            "id": "20260526000002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for their next leadership hustings event?",
+            "payout": 2.11,
+            "desc": "With recent media reports highlighting internal debates within the SNP regarding future leadership and strategy, the party leadership could today announce the official dates for hustings events, signaling a move towards formalizing processes for potential future leadership challenges or to unify the party ahead of upcoming elections.",
+            "result": "LOST",
+            "settled_at": "2026-05-27"
+        },
+        {
+            "id": "20260526000003",
+            "title": "Will the Department for Transport today announce a review into the feasibility of the proposed Trans-Pennine Tunnel project?",
+            "payout": 1.58,
+            "desc": "Following yesterday's revelations of further delays and escalating costs in major UK infrastructure projects, and with an opposition party calling for greater oversight, the Department for Transport might today announce a formal review into the feasibility and economic viability of the long-proposed Trans-Pennine Tunnel project to address public and parliamentary concerns.",
+            "result": "WON",
+            "settled_at": "2026-05-27"
+        },
+        {
+            "id": "20260526000004",
+            "title": "Will the UN Secretary-General today publicly call for an emergency session of the Security Council regarding the ongoing crisis in Volkovia?",
+            "payout": 1.9,
+            "desc": "Following yesterday's G7 statement on the Volkovia crisis and subsequent condemnation from a key non-G7 nation, international tensions are visibly rising. The UN Secretary-General, concerned by the lack of de-escalation, could today make a public appeal for an emergency Security Council meeting to seek a concerted international response.",
+            "result": "WON",
+            "settled_at": "2026-05-27"
+        },
+        {
+            "id": "20260526000005",
+            "title": "Will a spokesperson for either side of the Kryllian borderlands conflict today publicly agree to a 72-hour ceasefire as requested by humanitarian organizations?",
+            "payout": 3.8,
+            "desc": "After a major international humanitarian organization yesterday issued an urgent appeal for a 72-hour ceasefire in the Kryllian borderlands to facilitate aid, there is significant international pressure. A public statement of agreement from either a government or rebel spokesperson involved in the conflict could come today to show willingness for de-escalation and humanitarian access.",
+            "result": "LOST",
+            "settled_at": "2026-05-27"
         }
     ],
-    "last_update": "2026-05-26 02:30"
+    "last_update": "2026-05-27 02:40"
 }
