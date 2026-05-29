@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260528000001",
-            "title": "Will the Prime Minister, during today's Prime Minister's Questions, explicitly rule out a snap general election before the end of the year?",
-            "payout": 2.0,
-            "desc": "With local election results still fresh and ongoing speculation about the government's mandate, the Prime Minister may face direct questioning on the timing of the next general election. A clear statement ruling out an early election before year-end could be made to quell uncertainty or, conversely, to keep options open."
+            "id": "20260529000001",
+            "title": "Will the UK Government today publish its long-awaited white paper on reforming the House of Lords?",
+            "payout": 2.5,
+            "desc": "Following ongoing debates and a recent speech by the Leader of the House, speculation is high that the government could choose today to release its detailed proposals for House of Lords reform, potentially to coincide with a quiet news day or to preempt further opposition scrutiny. This is a significant constitutional reform, and its timing is often carefully managed."
         },
         {
-            "id": "20260528000002",
-            "title": "Will the Scottish Government today announce a specific date for the publication of its new energy strategy white paper?",
+            "id": "20260529000002",
+            "title": "Will the Scottish Government today confirm a delay to the proposed implementation timeline for the National Care Service?",
             "payout": 1.73,
-            "desc": "After ongoing consultation and recent critiques regarding Scotland's long-term energy planning, the Scottish Government has been under pressure to outline its future strategy. An announcement today of a firm publication date for the anticipated white paper could be made to demonstrate progress and commitment."
+            "desc": "Amidst persistent concerns from local authorities and care providers regarding funding, workforce, and operational readiness, and with a key parliamentary committee session scheduled for this afternoon to review progress, the Scottish Government may announce a revised, later timeline for the National Care Service's rollout to address these challenges."
         },
         {
-            "id": "20260528000003",
-            "title": "Will HS2 Ltd today announce the preferred bidder for the main construction contract of the Birmingham Curzon Street station?",
+            "id": "20260529000003",
+            "title": "Will Gatwick Airport today announce a new specific date for the reopening of its second runway for commercial operations?",
+            "payout": 2.26,
+            "desc": "With international travel demand soaring and recent infrastructure upgrades reportedly completed, there has been increasing pressure on Gatwick to bring its second runway back into full commercial service to boost capacity. An official announcement with a firm reopening date could be made today to manage airline schedules and passenger expectations ahead of the summer season."
+        },
+        {
+            "id": "20260529000004",
+            "title": "Will the International Atomic Energy Agency (IAEA) today issue a formal statement regarding findings from its recent inspection of the disputed nuclear facility in Nation X?",
             "payout": 1.58,
-            "desc": "As work progresses on key elements of HS2 Phase 1, major infrastructure contracts are critical milestones. The selection of a preferred bidder for the significant Birmingham Curzon Street station is a major decision that could be announced today, signaling the next phase of development for the central hub."
+            "desc": "Following a contentious inspection visit earlier this week to a key nuclear facility in Nation X, the IAEA is under pressure from member states to provide its initial assessment of compliance with safeguards. A preliminary statement detailing any significant findings or concerns could be released today to clarify the situation."
         },
         {
-            "id": "20260528000004",
-            "title": "Will a major G7 nation today officially announce a new bilateral financial aid package for Ukraine, separate from existing multilateral commitments?",
-            "payout": 1.9,
-            "desc": "Amid ongoing support for Ukraine's reconstruction and defence, individual G7 nations often make specific bilateral commitments. Following recent diplomatic meetings, a prominent G7 member could today unveil a new, distinct financial aid package to bolster Ukraine's economy or military capabilities."
-        },
-        {
-            "id": "20260528000005",
-            "title": "Will the Red Cross today confirm the safe passage of a humanitarian convoy through a newly established buffer zone in the conflict-affected region of Zahira?",
+            "id": "20260529000005",
+            "title": "Will the UN's World Food Programme (WFP) today confirm the successful delivery of emergency aid into the besieged city of Kordofan, following yesterday's reported ceasefire?",
             "payout": 1.36,
-            "desc": "Following intense diplomatic efforts, a new buffer zone was reportedly established yesterday to facilitate humanitarian access to the besieged region of Zahira. A confirming statement from the Red Cross, detailing the successful passage of vital supplies, is highly anticipated by the end of today."
+            "desc": "Reports emerged yesterday of a fragile 24-hour ceasefire agreement in the conflict-affected region surrounding Kordofan, specifically aimed at allowing humanitarian access. The WFP is expected to have attempted aid deliveries this morning, and a confirmation of success or failure would be a critical development by the end of today."
         }
     ],
     "history": [
@@ -1351,7 +1351,47 @@
             "desc": "After weeks of negotiations and preparation, a new maritime route for aid delivery to Xylos was reportedly activated early this morning. A confirming statement from one of the lead aid agencies involved could be expected by the end of the day, providing crucial updates on the humanitarian situation.",
             "result": "WON",
             "settled_at": "2026-05-28"
+        },
+        {
+            "id": "20260528000001",
+            "title": "Will the Prime Minister, during today's Prime Minister's Questions, explicitly rule out a snap general election before the end of the year?",
+            "payout": 2.0,
+            "desc": "With local election results still fresh and ongoing speculation about the government's mandate, the Prime Minister may face direct questioning on the timing of the next general election. A clear statement ruling out an early election before year-end could be made to quell uncertainty or, conversely, to keep options open.",
+            "result": "LOST",
+            "settled_at": "2026-05-29"
+        },
+        {
+            "id": "20260528000002",
+            "title": "Will the Scottish Government today announce a specific date for the publication of its new energy strategy white paper?",
+            "payout": 1.73,
+            "desc": "After ongoing consultation and recent critiques regarding Scotland's long-term energy planning, the Scottish Government has been under pressure to outline its future strategy. An announcement today of a firm publication date for the anticipated white paper could be made to demonstrate progress and commitment.",
+            "result": "LOST",
+            "settled_at": "2026-05-29"
+        },
+        {
+            "id": "20260528000003",
+            "title": "Will HS2 Ltd today announce the preferred bidder for the main construction contract of the Birmingham Curzon Street station?",
+            "payout": 1.58,
+            "desc": "As work progresses on key elements of HS2 Phase 1, major infrastructure contracts are critical milestones. The selection of a preferred bidder for the significant Birmingham Curzon Street station is a major decision that could be announced today, signaling the next phase of development for the central hub.",
+            "result": "LOST",
+            "settled_at": "2026-05-29"
+        },
+        {
+            "id": "20260528000004",
+            "title": "Will a major G7 nation today officially announce a new bilateral financial aid package for Ukraine, separate from existing multilateral commitments?",
+            "payout": 1.9,
+            "desc": "Amid ongoing support for Ukraine's reconstruction and defence, individual G7 nations often make specific bilateral commitments. Following recent diplomatic meetings, a prominent G7 member could today unveil a new, distinct financial aid package to bolster Ukraine's economy or military capabilities.",
+            "result": "LOST",
+            "settled_at": "2026-05-29"
+        },
+        {
+            "id": "20260528000005",
+            "title": "Will the Red Cross today confirm the safe passage of a humanitarian convoy through a newly established buffer zone in the conflict-affected region of Zahira?",
+            "payout": 1.36,
+            "desc": "Following intense diplomatic efforts, a new buffer zone was reportedly established yesterday to facilitate humanitarian access to the besieged region of Zahira. A confirming statement from the Red Cross, detailing the successful passage of vital supplies, is highly anticipated by the end of today.",
+            "result": "LOST",
+            "settled_at": "2026-05-29"
         }
     ],
-    "last_update": "2026-05-28 02:27"
+    "last_update": "2026-05-29 02:31"
 }
