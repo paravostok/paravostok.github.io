@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260529000001",
-            "title": "Will the UK Government today publish its long-awaited white paper on reforming the House of Lords?",
-            "payout": 2.5,
-            "desc": "Following ongoing debates and a recent speech by the Leader of the House, speculation is high that the government could choose today to release its detailed proposals for House of Lords reform, potentially to coincide with a quiet news day or to preempt further opposition scrutiny. This is a significant constitutional reform, and its timing is often carefully managed."
+            "id": "20260530000001",
+            "title": "Will the UK Prime Minister's official spokesperson today confirm that a cabinet reshuffle is NOT imminent?",
+            "payout": 1.46,
+            "desc": "Amidst persistent media speculation about changes to the ministerial lineup, the Prime Minister's official spokesperson may address the rumours directly during today's lunchtime briefing, either to firmly quash them or to strategically avoid comment. A direct denial would be a significant development."
         },
         {
-            "id": "20260529000002",
-            "title": "Will the Scottish Government today confirm a delay to the proposed implementation timeline for the National Care Service?",
+            "id": "20260530000002",
+            "title": "Will the Scottish Greens today announce they will not support the Scottish Government's proposed budget amendment on local council funding?",
             "payout": 1.73,
-            "desc": "Amidst persistent concerns from local authorities and care providers regarding funding, workforce, and operational readiness, and with a key parliamentary committee session scheduled for this afternoon to review progress, the Scottish Government may announce a revised, later timeline for the National Care Service's rollout to address these challenges."
+            "desc": "With crucial Holyrood votes approaching and ongoing tensions regarding local authority budgets, the Scottish Greens, as a junior government partner, may today issue a statement or hold a press conference to signal their position on a key budget amendment, potentially indicating dissent to leverage negotiations."
         },
         {
-            "id": "20260529000003",
-            "title": "Will Gatwick Airport today announce a new specific date for the reopening of its second runway for commercial operations?",
-            "payout": 2.26,
-            "desc": "With international travel demand soaring and recent infrastructure upgrades reportedly completed, there has been increasing pressure on Gatwick to bring its second runway back into full commercial service to boost capacity. An official announcement with a firm reopening date could be made today to manage airline schedules and passenger expectations ahead of the summer season."
+            "id": "20260530000003",
+            "title": "Will Network Rail today confirm that the planned weekend engineering works on the West Coast Main Line for mid-June will be postponed?",
+            "payout": 2.38,
+            "desc": "Operational challenges, unforeseen resource issues, or revised project timelines can often lead to last-minute changes for major transport infrastructure works. Network Rail may today issue an urgent update regarding upcoming planned engineering works on a key arterial route to inform passengers and operators."
         },
         {
-            "id": "20260529000004",
-            "title": "Will the International Atomic Energy Agency (IAEA) today issue a formal statement regarding findings from its recent inspection of the disputed nuclear facility in Nation X?",
+            "id": "20260530000004",
+            "title": "Will the German Chancellor today publicly call for a special EU summit on energy security by the end of June?",
             "payout": 1.58,
-            "desc": "Following a contentious inspection visit earlier this week to a key nuclear facility in Nation X, the IAEA is under pressure from member states to provide its initial assessment of compliance with safeguards. A preliminary statement detailing any significant findings or concerns could be released today to clarify the situation."
+            "desc": "Following recent fluctuations in global energy markets and heightened geopolitical tensions impacting supply, the German Chancellor might use a scheduled address or press conference today to push for urgent, high-level EU discussions on energy resilience and strategy, potentially proposing a specific summit."
         },
         {
-            "id": "20260529000005",
-            "title": "Will the UN's World Food Programme (WFP) today confirm the successful delivery of emergency aid into the besieged city of Kordofan, following yesterday's reported ceasefire?",
-            "payout": 1.36,
-            "desc": "Reports emerged yesterday of a fragile 24-hour ceasefire agreement in the conflict-affected region surrounding Kordofan, specifically aimed at allowing humanitarian access. The WFP is expected to have attempted aid deliveries this morning, and a confirmation of success or failure would be a critical development by the end of today."
+            "id": "20260530000005",
+            "title": "Will the UN Special Envoy for the conflict in Daraya today announce a breakthrough in negotiations for a humanitarian corridor?",
+            "payout": 2.71,
+            "desc": "After several days of intense, closed-door talks mediated by the UN, there is mounting pressure for progress in allowing aid into the besieged region of Daraya. The Special Envoy may choose today to issue a statement detailing any significant, even preliminary, agreement on establishing a secure humanitarian corridor."
         }
     ],
     "history": [
@@ -1391,7 +1391,47 @@
             "desc": "Following intense diplomatic efforts, a new buffer zone was reportedly established yesterday to facilitate humanitarian access to the besieged region of Zahira. A confirming statement from the Red Cross, detailing the successful passage of vital supplies, is highly anticipated by the end of today.",
             "result": "LOST",
             "settled_at": "2026-05-29"
+        },
+        {
+            "id": "20260529000001",
+            "title": "Will the UK Government today publish its long-awaited white paper on reforming the House of Lords?",
+            "payout": 2.5,
+            "desc": "Following ongoing debates and a recent speech by the Leader of the House, speculation is high that the government could choose today to release its detailed proposals for House of Lords reform, potentially to coincide with a quiet news day or to preempt further opposition scrutiny. This is a significant constitutional reform, and its timing is often carefully managed.",
+            "result": "LOST",
+            "settled_at": "2026-05-30"
+        },
+        {
+            "id": "20260529000002",
+            "title": "Will the Scottish Government today confirm a delay to the proposed implementation timeline for the National Care Service?",
+            "payout": 1.73,
+            "desc": "Amidst persistent concerns from local authorities and care providers regarding funding, workforce, and operational readiness, and with a key parliamentary committee session scheduled for this afternoon to review progress, the Scottish Government may announce a revised, later timeline for the National Care Service's rollout to address these challenges.",
+            "result": "WON",
+            "settled_at": "2026-05-30"
+        },
+        {
+            "id": "20260529000003",
+            "title": "Will Gatwick Airport today announce a new specific date for the reopening of its second runway for commercial operations?",
+            "payout": 2.26,
+            "desc": "With international travel demand soaring and recent infrastructure upgrades reportedly completed, there has been increasing pressure on Gatwick to bring its second runway back into full commercial service to boost capacity. An official announcement with a firm reopening date could be made today to manage airline schedules and passenger expectations ahead of the summer season.",
+            "result": "LOST",
+            "settled_at": "2026-05-30"
+        },
+        {
+            "id": "20260529000004",
+            "title": "Will the International Atomic Energy Agency (IAEA) today issue a formal statement regarding findings from its recent inspection of the disputed nuclear facility in Nation X?",
+            "payout": 1.58,
+            "desc": "Following a contentious inspection visit earlier this week to a key nuclear facility in Nation X, the IAEA is under pressure from member states to provide its initial assessment of compliance with safeguards. A preliminary statement detailing any significant findings or concerns could be released today to clarify the situation.",
+            "result": "WON",
+            "settled_at": "2026-05-30"
+        },
+        {
+            "id": "20260529000005",
+            "title": "Will the UN's World Food Programme (WFP) today confirm the successful delivery of emergency aid into the besieged city of Kordofan, following yesterday's reported ceasefire?",
+            "payout": 1.36,
+            "desc": "Reports emerged yesterday of a fragile 24-hour ceasefire agreement in the conflict-affected region surrounding Kordofan, specifically aimed at allowing humanitarian access. The WFP is expected to have attempted aid deliveries this morning, and a confirmation of success or failure would be a critical development by the end of today.",
+            "result": "LOST",
+            "settled_at": "2026-05-30"
         }
     ],
-    "last_update": "2026-05-29 02:31"
+    "last_update": "2026-05-30 02:25"
 }
