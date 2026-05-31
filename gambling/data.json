@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260530000001",
-            "title": "Will the UK Prime Minister's official spokesperson today confirm that a cabinet reshuffle is NOT imminent?",
-            "payout": 1.46,
-            "desc": "Amidst persistent media speculation about changes to the ministerial lineup, the Prime Minister's official spokesperson may address the rumours directly during today's lunchtime briefing, either to firmly quash them or to strategically avoid comment. A direct denial would be a significant development."
+            "id": "20260531000001",
+            "title": "Will the UK Prime Minister today face a formal vote of no confidence tabled by opposition parties in the House of Commons?",
+            "payout": 3.8,
+            "desc": "Following recent poor local election results and growing discontent within the Prime Minister's own party, opposition leaders may choose today to capitalise on the political instability by formally tabling a vote of no confidence, aiming to force a leadership contest."
         },
         {
-            "id": "20260530000002",
-            "title": "Will the Scottish Greens today announce they will not support the Scottish Government's proposed budget amendment on local council funding?",
-            "payout": 1.73,
-            "desc": "With crucial Holyrood votes approaching and ongoing tensions regarding local authority budgets, the Scottish Greens, as a junior government partner, may today issue a statement or hold a press conference to signal their position on a key budget amendment, potentially indicating dissent to leverage negotiations."
-        },
-        {
-            "id": "20260530000003",
-            "title": "Will Network Rail today confirm that the planned weekend engineering works on the West Coast Main Line for mid-June will be postponed?",
+            "id": "20260531000002",
+            "title": "Will the Scottish Government today announce a revised timeline for the delivery of the A9 dualling project, delaying its completion beyond 2030?",
             "payout": 2.38,
-            "desc": "Operational challenges, unforeseen resource issues, or revised project timelines can often lead to last-minute changes for major transport infrastructure works. Network Rail may today issue an urgent update regarding upcoming planned engineering works on a key arterial route to inform passengers and operators."
+            "desc": "Persistent reports of rising costs and resource shortages have plagued the A9 dualling project. With growing pressure from opposition and infrastructure bodies, the Scottish Government might today provide an updated, more realistic timeline, likely pushing back the project's long-anticipated completion."
         },
         {
-            "id": "20260530000004",
-            "title": "Will the German Chancellor today publicly call for a special EU summit on energy security by the end of June?",
+            "id": "20260531000003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Rail Link' connecting Manchester and Leeds?",
             "payout": 1.58,
-            "desc": "Following recent fluctuations in global energy markets and heightened geopolitical tensions impacting supply, the German Chancellor might use a scheduled address or press conference today to push for urgent, high-level EU discussions on energy resilience and strategy, potentially proposing a specific summit."
+            "desc": "Amidst ongoing concerns about infrastructure spending and fiscal constraints, the much-debated 'Northern Rail Link' project has faced increasing scrutiny. Sources within the Department for Transport suggest a decision on its future, potentially leading to its cancellation, could be announced today."
         },
         {
-            "id": "20260530000005",
-            "title": "Will the UN Special Envoy for the conflict in Daraya today announce a breakthrough in negotiations for a humanitarian corridor?",
+            "id": "20260531000004",
+            "title": "Will the G7 foreign ministers, meeting today in Tokyo, issue a joint statement explicitly condemning recent cyber attacks attributed to State X?",
+            "payout": 1.36,
+            "desc": "Following a series of recent high-profile cyber attacks impacting G7 nations, foreign ministers are convening today in Tokyo. Observers widely expect a strong, unified response, potentially culminating in a joint statement directly naming and condemning the responsible state actor."
+        },
+        {
+            "id": "20260531000005",
+            "title": "Will the humanitarian aid convoy, long stalled at the border of the disputed region of Volkovia, today receive confirmed clearance to proceed?",
             "payout": 2.71,
-            "desc": "After several days of intense, closed-door talks mediated by the UN, there is mounting pressure for progress in allowing aid into the besieged region of Daraya. The Special Envoy may choose today to issue a statement detailing any significant, even preliminary, agreement on establishing a secure humanitarian corridor."
+            "desc": "After days of diplomatic efforts and appeals from international bodies, a critical humanitarian aid convoy for the embattled region of Volkovia remains gridlocked. Intensive negotiations are reported to be nearing a conclusion, making today a potential day for final clearance and movement."
         }
     ],
     "history": [
@@ -1431,7 +1431,47 @@
             "desc": "Reports emerged yesterday of a fragile 24-hour ceasefire agreement in the conflict-affected region surrounding Kordofan, specifically aimed at allowing humanitarian access. The WFP is expected to have attempted aid deliveries this morning, and a confirmation of success or failure would be a critical development by the end of today.",
             "result": "LOST",
             "settled_at": "2026-05-30"
+        },
+        {
+            "id": "20260530000001",
+            "title": "Will the UK Prime Minister's official spokesperson today confirm that a cabinet reshuffle is NOT imminent?",
+            "payout": 1.46,
+            "desc": "Amidst persistent media speculation about changes to the ministerial lineup, the Prime Minister's official spokesperson may address the rumours directly during today's lunchtime briefing, either to firmly quash them or to strategically avoid comment. A direct denial would be a significant development.",
+            "result": "LOST",
+            "settled_at": "2026-05-31"
+        },
+        {
+            "id": "20260530000002",
+            "title": "Will the Scottish Greens today announce they will not support the Scottish Government's proposed budget amendment on local council funding?",
+            "payout": 1.73,
+            "desc": "With crucial Holyrood votes approaching and ongoing tensions regarding local authority budgets, the Scottish Greens, as a junior government partner, may today issue a statement or hold a press conference to signal their position on a key budget amendment, potentially indicating dissent to leverage negotiations.",
+            "result": "WON",
+            "settled_at": "2026-05-31"
+        },
+        {
+            "id": "20260530000003",
+            "title": "Will Network Rail today confirm that the planned weekend engineering works on the West Coast Main Line for mid-June will be postponed?",
+            "payout": 2.38,
+            "desc": "Operational challenges, unforeseen resource issues, or revised project timelines can often lead to last-minute changes for major transport infrastructure works. Network Rail may today issue an urgent update regarding upcoming planned engineering works on a key arterial route to inform passengers and operators.",
+            "result": "WON",
+            "settled_at": "2026-05-31"
+        },
+        {
+            "id": "20260530000004",
+            "title": "Will the German Chancellor today publicly call for a special EU summit on energy security by the end of June?",
+            "payout": 1.58,
+            "desc": "Following recent fluctuations in global energy markets and heightened geopolitical tensions impacting supply, the German Chancellor might use a scheduled address or press conference today to push for urgent, high-level EU discussions on energy resilience and strategy, potentially proposing a specific summit.",
+            "result": "LOST",
+            "settled_at": "2026-05-31"
+        },
+        {
+            "id": "20260530000005",
+            "title": "Will the UN Special Envoy for the conflict in Daraya today announce a breakthrough in negotiations for a humanitarian corridor?",
+            "payout": 2.71,
+            "desc": "After several days of intense, closed-door talks mediated by the UN, there is mounting pressure for progress in allowing aid into the besieged region of Daraya. The Special Envoy may choose today to issue a statement detailing any significant, even preliminary, agreement on establishing a secure humanitarian corridor.",
+            "result": "LOST",
+            "settled_at": "2026-05-31"
         }
     ],
-    "last_update": "2026-05-30 02:25"
+    "last_update": "2026-05-31 02:41"
 }
