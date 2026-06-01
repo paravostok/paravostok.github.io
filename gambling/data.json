@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260531000001",
-            "title": "Will the UK Prime Minister today face a formal vote of no confidence tabled by opposition parties in the House of Commons?",
-            "payout": 3.8,
-            "desc": "Following recent poor local election results and growing discontent within the Prime Minister's own party, opposition leaders may choose today to capitalise on the political instability by formally tabling a vote of no confidence, aiming to force a leadership contest."
+            "id": "20260601000001",
+            "title": "Will a prominent cabinet minister today publicly contradict the Prime Minister's stance on the upcoming budget?",
+            "payout": 3.17,
+            "desc": "Following recent policy disagreements and reported leaks, political commentators are speculating that a minister, feeling increasingly isolated, might use a public appearance today to distance themselves from a key government financial proposal."
         },
         {
-            "id": "20260531000002",
-            "title": "Will the Scottish Government today announce a revised timeline for the delivery of the A9 dualling project, delaying its completion beyond 2030?",
-            "payout": 2.38,
-            "desc": "Persistent reports of rising costs and resource shortages have plagued the A9 dualling project. With growing pressure from opposition and infrastructure bodies, the Scottish Government might today provide an updated, more realistic timeline, likely pushing back the project's long-anticipated completion."
-        },
-        {
-            "id": "20260531000003",
-            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Rail Link' connecting Manchester and Leeds?",
+            "id": "20260601000002",
+            "title": "Will the Scottish Government today confirm a delay to the proposed National Care Service implementation beyond 2027?",
             "payout": 1.58,
-            "desc": "Amidst ongoing concerns about infrastructure spending and fiscal constraints, the much-debated 'Northern Rail Link' project has faced increasing scrutiny. Sources within the Department for Transport suggest a decision on its future, potentially leading to its cancellation, could be announced today."
+            "desc": "Amid mounting pressure from local authorities and care providers regarding funding and logistical challenges, a Holyrood committee report on the National Care Service is due today. Experts suggest the report's findings may force the Scottish Government to issue a revised, more cautious timeline for implementation."
         },
         {
-            "id": "20260531000004",
-            "title": "Will the G7 foreign ministers, meeting today in Tokyo, issue a joint statement explicitly condemning recent cyber attacks attributed to State X?",
+            "id": "20260601000003",
+            "title": "Will London's Mayor today announce an expansion of the Ultra Low Emission Zone (ULEZ) to cover all of Greater London by early 2027?",
+            "payout": 2.11,
+            "desc": "The Mayor's office has scheduled a major press conference this afternoon to outline new environmental initiatives. With recent air quality reports prompting calls for more drastic action, an expansion of ULEZ is seen by many as a potential, bold move to be unveiled today."
+        },
+        {
+            "id": "20260601000004",
+            "title": "Will the EU today impose new targeted sanctions on individuals associated with the recent alleged electoral interference in Member State Y?",
             "payout": 1.36,
-            "desc": "Following a series of recent high-profile cyber attacks impacting G7 nations, foreign ministers are convening today in Tokyo. Observers widely expect a strong, unified response, potentially culminating in a joint statement directly naming and condemning the responsible state actor."
+            "desc": "An emergency meeting of EU foreign ministers concluded late last night following allegations of foreign interference in Member State Y's recent elections. A joint statement is anticipated today, with strong indications that targeted sanctions against specific individuals are on the agenda."
         },
         {
-            "id": "20260531000005",
-            "title": "Will the humanitarian aid convoy, long stalled at the border of the disputed region of Volkovia, today receive confirmed clearance to proceed?",
-            "payout": 2.71,
-            "desc": "After days of diplomatic efforts and appeals from international bodies, a critical humanitarian aid convoy for the embattled region of Volkovia remains gridlocked. Intensive negotiations are reported to be nearing a conclusion, making today a potential day for final clearance and movement."
+            "id": "20260601000005",
+            "title": "Will the UN Special Envoy for the conflict in Zylos today announce a confirmed 48-hour humanitarian ceasefire agreement?",
+            "payout": 1.73,
+            "desc": "After several days of intensive, closed-door negotiations between the warring factions in Zylos, sources within the UN mission are indicating that a breakthrough on a temporary ceasefire for aid delivery could be announced by the Special Envoy this morning."
         }
     ],
     "history": [
@@ -1471,7 +1471,47 @@
             "desc": "After several days of intense, closed-door talks mediated by the UN, there is mounting pressure for progress in allowing aid into the besieged region of Daraya. The Special Envoy may choose today to issue a statement detailing any significant, even preliminary, agreement on establishing a secure humanitarian corridor.",
             "result": "LOST",
             "settled_at": "2026-05-31"
+        },
+        {
+            "id": "20260531000001",
+            "title": "Will the UK Prime Minister today face a formal vote of no confidence tabled by opposition parties in the House of Commons?",
+            "payout": 3.8,
+            "desc": "Following recent poor local election results and growing discontent within the Prime Minister's own party, opposition leaders may choose today to capitalise on the political instability by formally tabling a vote of no confidence, aiming to force a leadership contest.",
+            "result": "LOST",
+            "settled_at": "2026-06-01"
+        },
+        {
+            "id": "20260531000002",
+            "title": "Will the Scottish Government today announce a revised timeline for the delivery of the A9 dualling project, delaying its completion beyond 2030?",
+            "payout": 2.38,
+            "desc": "Persistent reports of rising costs and resource shortages have plagued the A9 dualling project. With growing pressure from opposition and infrastructure bodies, the Scottish Government might today provide an updated, more realistic timeline, likely pushing back the project's long-anticipated completion.",
+            "result": "LOST",
+            "settled_at": "2026-06-01"
+        },
+        {
+            "id": "20260531000003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Rail Link' connecting Manchester and Leeds?",
+            "payout": 1.58,
+            "desc": "Amidst ongoing concerns about infrastructure spending and fiscal constraints, the much-debated 'Northern Rail Link' project has faced increasing scrutiny. Sources within the Department for Transport suggest a decision on its future, potentially leading to its cancellation, could be announced today.",
+            "result": "LOST",
+            "settled_at": "2026-06-01"
+        },
+        {
+            "id": "20260531000004",
+            "title": "Will the G7 foreign ministers, meeting today in Tokyo, issue a joint statement explicitly condemning recent cyber attacks attributed to State X?",
+            "payout": 1.36,
+            "desc": "Following a series of recent high-profile cyber attacks impacting G7 nations, foreign ministers are convening today in Tokyo. Observers widely expect a strong, unified response, potentially culminating in a joint statement directly naming and condemning the responsible state actor.",
+            "result": "LOST",
+            "settled_at": "2026-06-01"
+        },
+        {
+            "id": "20260531000005",
+            "title": "Will the humanitarian aid convoy, long stalled at the border of the disputed region of Volkovia, today receive confirmed clearance to proceed?",
+            "payout": 2.71,
+            "desc": "After days of diplomatic efforts and appeals from international bodies, a critical humanitarian aid convoy for the embattled region of Volkovia remains gridlocked. Intensive negotiations are reported to be nearing a conclusion, making today a potential day for final clearance and movement.",
+            "result": "LOST",
+            "settled_at": "2026-06-01"
         }
     ],
-    "last_update": "2026-05-31 02:41"
+    "last_update": "2026-06-01 02:50"
 }
