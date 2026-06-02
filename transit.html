@@ -16,8 +16,7 @@
 
   <main class="wrapper">
 
-  <!-- mileage section -->
-    <section class="block-section">
+  <section class="block-section">
       <h2 class="block-title">February Distance 2026</h2>
       <ul>
         <li><strong>total distance:</strong> 1,430 Miles</li>
@@ -28,7 +27,6 @@
       <p><a href="stats2026.html" class="read-more">see detailed stats →</a></p>
     </section>
     
-    <!-- mileage section -->
     <section class="block-section">
       <h2 class="block-title">2025 Yearly Total</h2>
       <ul>
@@ -37,10 +35,9 @@
       <p><a href="stats2025.html" class="read-more">see detailed stats →</a></p>
     </section>
 
-    <!-- latest blog posts -->
     <section class="block-section">
       <h2 class="block-title">latest blog posts</h2>
-      <div id="recent-posts">loading…</div>
+      <p><a href="posts/posts.html" class="read-more">see all posts →</a></p>
     </section>
 
   </main>
@@ -50,39 +47,5 @@
       <p>last updated: 2026-06-02</p>
     </div>
   </footer>
-
-  <script>
-  async function loadRecentPosts() {
-    const postsContainer = document.getElementById('recent-posts');
-    try {
-      const posts = await fetch('/posts/posts.json').then(r => r.json());
-
-      const topPosts = posts.slice(0, 3);
-
-      for (const post of topPosts) {
-        postsContainer.innerHTML += `
-          <div class="post-preview">
-            <h3 class="post-title">${post.title}</h3>
-            <p class="post-excerpt">${post.excerpt}</p>
-            <a href="/posts/${post.file}" class="read-more">read more →</a>
-          </div>
-        `;
-      }
-
-      if (topPosts.length > 0) {
-        postsContainer.innerHTML += `
-          <p><a href="/posts/${topPosts[0].file}" class="read-more">see all posts →</a></p>
-        `;
-      }
-
-    } catch (e) {
-      postsContainer.innerHTML = "<p>couldn’t load posts. try again later.</p>";
-      console.error('error loading posts.json', e);
-    }
-  }
-
-  loadRecentPosts();
-  </script>
-  
 </body>
 </html>
