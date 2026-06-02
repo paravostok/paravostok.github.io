@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260601000001",
-            "title": "Will a prominent cabinet minister today publicly contradict the Prime Minister's stance on the upcoming budget?",
+            "id": "20260602000001",
+            "title": "Will the Secretary of State for Education today announce their resignation from the cabinet?",
+            "payout": 2.38,
+            "desc": "Following intense media scrutiny over recent policy missteps and a reported decline in public confidence, sources within Westminster are indicating that the Education Secretary may be compelled to step down. An announcement could come as early as this afternoon."
+        },
+        {
+            "id": "20260602000002",
+            "title": "Will the Scottish Government today publish an updated timeline or detailed action plan for the revised National Care Service implementation?",
+            "payout": 1.46,
+            "desc": "After yesterday's confirmed delay to the National Care Service, the First Minister's office has hinted at providing further clarity on the path forward. Political analysts expect a statement or document outlining a revised strategy to be released today to address public and sectoral concerns."
+        },
+        {
+            "id": "20260602000003",
+            "title": "Will the UK Government today confirm the full funding approval and immediate start of construction for the 'Midlands Connect' high-speed rail link Phase 1?",
             "payout": 3.17,
-            "desc": "Following recent policy disagreements and reported leaks, political commentators are speculating that a minister, feeling increasingly isolated, might use a public appearance today to distance themselves from a key government financial proposal."
+            "desc": "After months of governmental review and lobbying from regional leaders, an announcement regarding the future of the critical 'Midlands Connect' high-speed rail link is highly anticipated. The Department for Transport has scheduled a briefing for late morning, leading to speculation that a final funding decision will be made public today."
         },
         {
-            "id": "20260601000002",
-            "title": "Will the Scottish Government today confirm a delay to the proposed National Care Service implementation beyond 2027?",
-            "payout": 1.58,
-            "desc": "Amid mounting pressure from local authorities and care providers regarding funding and logistical challenges, a Holyrood committee report on the National Care Service is due today. Experts suggest the report's findings may force the Scottish Government to issue a revised, more cautious timeline for implementation."
-        },
-        {
-            "id": "20260601000003",
-            "title": "Will London's Mayor today announce an expansion of the Ultra Low Emission Zone (ULEZ) to cover all of Greater London by early 2027?",
-            "payout": 2.11,
-            "desc": "The Mayor's office has scheduled a major press conference this afternoon to outline new environmental initiatives. With recent air quality reports prompting calls for more drastic action, an expansion of ULEZ is seen by many as a potential, bold move to be unveiled today."
-        },
-        {
-            "id": "20260601000004",
-            "title": "Will the EU today impose new targeted sanctions on individuals associated with the recent alleged electoral interference in Member State Y?",
-            "payout": 1.36,
-            "desc": "An emergency meeting of EU foreign ministers concluded late last night following allegations of foreign interference in Member State Y's recent elections. A joint statement is anticipated today, with strong indications that targeted sanctions against specific individuals are on the agenda."
-        },
-        {
-            "id": "20260601000005",
-            "title": "Will the UN Special Envoy for the conflict in Zylos today announce a confirmed 48-hour humanitarian ceasefire agreement?",
+            "id": "20260602000004",
+            "title": "Will the G7 Finance Ministers today release a joint statement outlining a new coordinated international debt relief initiative for developing nations?",
             "payout": 1.73,
-            "desc": "After several days of intensive, closed-door negotiations between the warring factions in Zylos, sources within the UN mission are indicating that a breakthrough on a temporary ceasefire for aid delivery could be announced by the Special Envoy this morning."
+            "desc": "The G7 Finance Ministers are concluding their two-day summit in Tokyo today. With growing concerns over global economic disparities and debt burdens in the developing world, sources close to the negotiations suggest a significant, coordinated debt relief package is high on the agenda for today's final communiqu\u00e9."
+        },
+        {
+            "id": "20260602000005",
+            "title": "Will the UN Security Council today pass a resolution establishing a no-fly zone over the northern region of fictional country \"Veridia\" amidst escalating civil conflict?",
+            "payout": 4.75,
+            "desc": "With reports of widespread civilian casualties intensifying in Veridia's northern region, an emergency session of the UN Security Council is set to convene this morning. Diplomatic sources indicate a draft resolution, spearheaded by several permanent members, is on the table proposing a limited no-fly zone for humanitarian protection, with a vote expected by late afternoon."
         }
     ],
     "history": [
@@ -1511,7 +1511,47 @@
             "desc": "After days of diplomatic efforts and appeals from international bodies, a critical humanitarian aid convoy for the embattled region of Volkovia remains gridlocked. Intensive negotiations are reported to be nearing a conclusion, making today a potential day for final clearance and movement.",
             "result": "LOST",
             "settled_at": "2026-06-01"
+        },
+        {
+            "id": "20260601000001",
+            "title": "Will a prominent cabinet minister today publicly contradict the Prime Minister's stance on the upcoming budget?",
+            "payout": 3.17,
+            "desc": "Following recent policy disagreements and reported leaks, political commentators are speculating that a minister, feeling increasingly isolated, might use a public appearance today to distance themselves from a key government financial proposal.",
+            "result": "LOST",
+            "settled_at": "2026-06-02"
+        },
+        {
+            "id": "20260601000002",
+            "title": "Will the Scottish Government today confirm a delay to the proposed National Care Service implementation beyond 2027?",
+            "payout": 1.58,
+            "desc": "Amid mounting pressure from local authorities and care providers regarding funding and logistical challenges, a Holyrood committee report on the National Care Service is due today. Experts suggest the report's findings may force the Scottish Government to issue a revised, more cautious timeline for implementation.",
+            "result": "WON",
+            "settled_at": "2026-06-02"
+        },
+        {
+            "id": "20260601000003",
+            "title": "Will London's Mayor today announce an expansion of the Ultra Low Emission Zone (ULEZ) to cover all of Greater London by early 2027?",
+            "payout": 2.11,
+            "desc": "The Mayor's office has scheduled a major press conference this afternoon to outline new environmental initiatives. With recent air quality reports prompting calls for more drastic action, an expansion of ULEZ is seen by many as a potential, bold move to be unveiled today.",
+            "result": "WON",
+            "settled_at": "2026-06-02"
+        },
+        {
+            "id": "20260601000004",
+            "title": "Will the EU today impose new targeted sanctions on individuals associated with the recent alleged electoral interference in Member State Y?",
+            "payout": 1.36,
+            "desc": "An emergency meeting of EU foreign ministers concluded late last night following allegations of foreign interference in Member State Y's recent elections. A joint statement is anticipated today, with strong indications that targeted sanctions against specific individuals are on the agenda.",
+            "result": "WON",
+            "settled_at": "2026-06-02"
+        },
+        {
+            "id": "20260601000005",
+            "title": "Will the UN Special Envoy for the conflict in Zylos today announce a confirmed 48-hour humanitarian ceasefire agreement?",
+            "payout": 1.73,
+            "desc": "After several days of intensive, closed-door negotiations between the warring factions in Zylos, sources within the UN mission are indicating that a breakthrough on a temporary ceasefire for aid delivery could be announced by the Special Envoy this morning.",
+            "result": "WON",
+            "settled_at": "2026-06-02"
         }
     ],
-    "last_update": "2026-06-01 02:50"
+    "last_update": "2026-06-02 02:47"
 }
