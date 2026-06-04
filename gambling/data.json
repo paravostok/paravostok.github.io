@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260603000001",
-            "title": "Will the Conservative Party today announce a new 'Rapid Response Unit' to counter opposition media narratives, following recent negative headlines?",
-            "payout": 1.73,
-            "desc": "With the government facing ongoing scrutiny over recent policy decisions and public confidence reports, sources within Conservative HQ suggest an internal restructuring to enhance their communication strategy may be announced as early as today to combat negative media cycles."
+            "id": "20260604000001",
+            "title": "Will a new opinion poll released today show the Labour Party's lead over the Conservative Party increasing by at least 2 percentage points compared to the last major poll?",
+            "payout": 2.0,
+            "desc": "Following recent government controversies and an upcoming local election, pollsters are widely expected to release updated national figures today. An increased lead for Labour would indicate a significant shift in public sentiment, making today's release highly anticipated."
         },
         {
-            "id": "20260603000002",
-            "title": "Will the Scottish Health Secretary today offer their resignation following mounting criticism over the National Care Service implementation delays?",
-            "payout": 3.39,
-            "desc": "Following yesterday's confirmed delay to the National Care Service and significant public and sectoral backlash, political commentators believe pressure on the Health Secretary, who oversees the project, may reach a critical point, potentially leading to a resignation announcement today to manage political fallout."
-        },
-        {
-            "id": "20260603000003",
-            "title": "Will the Department for Transport today confirm the cancellation of at least two minor, previously approved, regional road improvement schemes to reallocate funds to other projects?",
-            "payout": 2.71,
-            "desc": "Amidst ongoing reviews of infrastructure spending and with major projects like 'Midlands Connect' facing funding uncertainty, speculation is rising that the Department for Transport might announce cuts to smaller, less prominent schemes today to free up capital or streamline budgets. A press release is anticipated later this afternoon."
-        },
-        {
-            "id": "20260603000004",
-            "title": "Will the World Bank today issue a new, lower global economic growth forecast for 2026, citing ongoing geopolitical instability and supply chain issues?",
+            "id": "20260604000002",
+            "title": "Will the Scottish Government today announce a formal inquiry into the handling of the National Care Service implementation, following yesterday's confirmed delays?",
             "payout": 1.58,
-            "desc": "As global financial markets continue to react to the G7 summit's outcomes and persistent inflation concerns, the World Bank is scheduled to hold a press briefing. Economists anticipate a potential downward revision of its 2026 growth projections, aligning with a more cautious global outlook."
+            "desc": "With public and opposition pressure mounting after yesterday's further delays to the National Care Service, sources suggest the First Minister's office is considering a formal inquiry announcement today to address accountability and regain public trust ahead of a crucial parliamentary session."
         },
         {
-            "id": "20260603000005",
-            "title": "Will a prominent international humanitarian aid organization today publicly denounce the UN Security Council's failure to establish a no-fly zone over Veridia, calling for immediate alternative action?",
-            "payout": 1.36,
-            "desc": "Following yesterday's apparent inability of the UN Security Council to pass a resolution for a no-fly zone in Veridia's northern region despite escalating civilian casualties, major humanitarian groups are expected to issue strong statements today, condemning the lack of international protection and urging alternative interventions."
+            "id": "20260604000003",
+            "title": "Will the Mayor of London today formally confirm the ULEZ expansion will proceed as planned on August 1st, despite ongoing protest threats?",
+            "payout": 1.29,
+            "desc": "With the August 1st expansion date for London's Ultra Low Emission Zone (ULEZ) approaching, the Mayor is scheduled to give a public address today. Amidst recent protests and calls for reconsideration, a definitive statement is expected to either confirm commitment or signal a potential last-minute delay."
+        },
+        {
+            "id": "20260604000004",
+            "title": "Will the EU today impose new targeted sanctions on at least three specific high-ranking officials from Belarus, citing continued human rights abuses?",
+            "payout": 1.64,
+            "desc": "Following recent reports from human rights organizations regarding the crackdown on dissent in Belarus, the EU foreign affairs council is meeting today. Diplomats indicate strong consideration for escalating sanctions against key figures in the Belarusian regime, with an announcement possible this afternoon."
+        },
+        {
+            "id": "20260604000005",
+            "title": "Will Veridia's acting President today formally accept the internationally brokered ceasefire proposal for the northern region, effective within 24 hours?",
+            "payout": 3.01,
+            "desc": "Following intense diplomatic pressure and the UN Security Council's recent impasse on Veridia, an internationally brokered ceasefire proposal has been presented to all parties in the conflict. Sources close to the negotiating team suggest Veridia's acting President may make an announcement today regarding its acceptance, aiming to de-escalate hostilities."
         }
     ],
     "history": [
@@ -1591,7 +1591,47 @@
             "desc": "With reports of widespread civilian casualties intensifying in Veridia's northern region, an emergency session of the UN Security Council is set to convene this morning. Diplomatic sources indicate a draft resolution, spearheaded by several permanent members, is on the table proposing a limited no-fly zone for humanitarian protection, with a vote expected by late afternoon.",
             "result": "LOST",
             "settled_at": "2026-06-03"
+        },
+        {
+            "id": "20260603000001",
+            "title": "Will the Conservative Party today announce a new 'Rapid Response Unit' to counter opposition media narratives, following recent negative headlines?",
+            "payout": 1.73,
+            "desc": "With the government facing ongoing scrutiny over recent policy decisions and public confidence reports, sources within Conservative HQ suggest an internal restructuring to enhance their communication strategy may be announced as early as today to combat negative media cycles.",
+            "result": "LOST",
+            "settled_at": "2026-06-04"
+        },
+        {
+            "id": "20260603000002",
+            "title": "Will the Scottish Health Secretary today offer their resignation following mounting criticism over the National Care Service implementation delays?",
+            "payout": 3.39,
+            "desc": "Following yesterday's confirmed delay to the National Care Service and significant public and sectoral backlash, political commentators believe pressure on the Health Secretary, who oversees the project, may reach a critical point, potentially leading to a resignation announcement today to manage political fallout.",
+            "result": "LOST",
+            "settled_at": "2026-06-04"
+        },
+        {
+            "id": "20260603000003",
+            "title": "Will the Department for Transport today confirm the cancellation of at least two minor, previously approved, regional road improvement schemes to reallocate funds to other projects?",
+            "payout": 2.71,
+            "desc": "Amidst ongoing reviews of infrastructure spending and with major projects like 'Midlands Connect' facing funding uncertainty, speculation is rising that the Department for Transport might announce cuts to smaller, less prominent schemes today to free up capital or streamline budgets. A press release is anticipated later this afternoon.",
+            "result": "LOST",
+            "settled_at": "2026-06-04"
+        },
+        {
+            "id": "20260603000004",
+            "title": "Will the World Bank today issue a new, lower global economic growth forecast for 2026, citing ongoing geopolitical instability and supply chain issues?",
+            "payout": 1.58,
+            "desc": "As global financial markets continue to react to the G7 summit's outcomes and persistent inflation concerns, the World Bank is scheduled to hold a press briefing. Economists anticipate a potential downward revision of its 2026 growth projections, aligning with a more cautious global outlook.",
+            "result": "WON",
+            "settled_at": "2026-06-04"
+        },
+        {
+            "id": "20260603000005",
+            "title": "Will a prominent international humanitarian aid organization today publicly denounce the UN Security Council's failure to establish a no-fly zone over Veridia, calling for immediate alternative action?",
+            "payout": 1.36,
+            "desc": "Following yesterday's apparent inability of the UN Security Council to pass a resolution for a no-fly zone in Veridia's northern region despite escalating civilian casualties, major humanitarian groups are expected to issue strong statements today, condemning the lack of international protection and urging alternative interventions.",
+            "result": "WON",
+            "settled_at": "2026-06-04"
         }
     ],
-    "last_update": "2026-06-03 02:57"
+    "last_update": "2026-06-04 02:52"
 }
