@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260605000001",
-            "title": "Will the UK Home Secretary today announce new legislative plans to tackle small boat crossings in the English Channel, following recent record figures?",
-            "payout": 2.38,
-            "desc": "With the latest reports indicating a significant surge in small boat crossings over the past 24 hours, political pressure on the Home Secretary is mounting. A ministerial statement or press conference is anticipated today, where new legislative or operational plans could be unveiled to address the ongoing issue."
-        },
-        {
-            "id": "20260605000002",
-            "title": "Will the Scottish Labour leader today formally call for a vote of no confidence in a specific Scottish Government minister over the National Care Service delays?",
+            "id": "20260606000001",
+            "title": "Will a senior Conservative backbencher today publicly call for the UK Home Secretary to resign or face a vote of no confidence?",
             "payout": 2.71,
-            "desc": "Following yesterday's confirmed delays to the National Care Service and the Scottish Government's response (or lack thereof), opposition parties are expected to escalate their criticism. Sources close to Scottish Labour indicate a formal challenge, possibly a vote of no confidence against a key minister, could be announced today to maximize political impact."
+            "desc": "Following yesterday's reports of persistent high small boat crossings and increasing political pressure, dissent within Conservative ranks could grow. A prominent backbench MP, potentially from a faction critical of the current approach, might seize the opportunity today to demand accountability or a change in leadership at the Home Office."
         },
         {
-            "id": "20260605000003",
-            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed Northern Powerhouse Rail link between Manchester and Liverpool?",
-            "payout": 3.8,
-            "desc": "Amid ongoing reviews of major infrastructure spending and recent leaks suggesting budget constraints, speculation is rife regarding the future of the Northern Powerhouse Rail project. An official statement from the Department for Transport, potentially confirming the cancellation of this specific, controversial section, is rumored to be released today."
-        },
-        {
-            "id": "20260605000004",
-            "title": "Will the European Central Bank (ECB) today raise its key interest rate by at least 25 basis points following new inflation data?",
-            "payout": 1.58,
-            "desc": "Following the release of hotter-than-expected eurozone inflation figures this morning, pressure is mounting on the European Central Bank to take decisive action. While no unscheduled meeting has been announced, an emergency policy statement or a pre-scheduled address from a key ECB official today could lead to an immediate rate hike."
-        },
-        {
-            "id": "20260605000005",
-            "title": "Will the UN Security Council today vote to pass a new resolution imposing an arms embargo on the warring factions in the Sudanese conflict?",
+            "id": "20260606000002",
+            "title": "Will the Scottish Government today announce a new independent inquiry into the delays surrounding the National Care Service?",
             "payout": 2.11,
-            "desc": "After recent reports of escalating violence and humanitarian crises in Sudan, diplomatic efforts at the UN have intensified. A draft resolution, specifically targeting an arms embargo on all warring parties, is reportedly ready for a vote today, following extensive negotiations earlier in the week among Security Council members."
+            "desc": "Amid ongoing criticism and sustained pressure from opposition parties regarding the National Care Service delays (which intensified yesterday), the Scottish Government may seek to defuse the situation. An announcement of a new, independent inquiry today could be a strategic move to show transparency and regain public confidence."
+        },
+        {
+            "id": "20260606000003",
+            "title": "Will the Secretary of State for Transport today make an official statement confirming an acceleration of funding for the Leeds leg of Northern Powerhouse Rail?",
+            "payout": 3.17,
+            "desc": "Following yesterday's speculation or potential non-confirmation regarding the Manchester-Liverpool link of Northern Powerhouse Rail, the Department for Transport might seek to reaffirm its commitment to other parts of the project. An official statement today, specifically boosting the Leeds section, could be made to reassure northern leaders and offset negative press."
+        },
+        {
+            "id": "20260606000004",
+            "title": "Will the President of the European Central Bank (ECB) today deliver a speech or statement reiterating a commitment to further monetary tightening this quarter?",
+            "payout": 1.58,
+            "desc": "After yesterday's hotter-than-expected eurozone inflation figures and the absence of an immediate rate hike, markets will be keenly anticipating forward guidance. A pre-scheduled address or an impromptu statement from the ECB President today could be used to signal ongoing vigilance against inflation and a commitment to future tightening measures."
+        },
+        {
+            "id": "20260606000005",
+            "title": "Will the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) today issue a new emergency appeal for at least $500 million in aid for Sudan?",
+            "payout": 1.73,
+            "desc": "Despite yesterday's UN Security Council discussions on Sudan (which may or may not have resulted in an arms embargo), the humanitarian crisis continues to escalate. With reports of deteriorating conditions, OCHA is under pressure to secure more funding, making a new, urgent appeal for substantial aid highly probable today."
         }
     ],
     "history": [
@@ -1671,7 +1671,47 @@
             "desc": "Following intense diplomatic pressure and the UN Security Council's recent impasse on Veridia, an internationally brokered ceasefire proposal has been presented to all parties in the conflict. Sources close to the negotiating team suggest Veridia's acting President may make an announcement today regarding its acceptance, aiming to de-escalate hostilities.",
             "result": "LOST",
             "settled_at": "2026-06-05"
+        },
+        {
+            "id": "20260605000001",
+            "title": "Will the UK Home Secretary today announce new legislative plans to tackle small boat crossings in the English Channel, following recent record figures?",
+            "payout": 2.38,
+            "desc": "With the latest reports indicating a significant surge in small boat crossings over the past 24 hours, political pressure on the Home Secretary is mounting. A ministerial statement or press conference is anticipated today, where new legislative or operational plans could be unveiled to address the ongoing issue.",
+            "result": "LOST",
+            "settled_at": "2026-06-06"
+        },
+        {
+            "id": "20260605000002",
+            "title": "Will the Scottish Labour leader today formally call for a vote of no confidence in a specific Scottish Government minister over the National Care Service delays?",
+            "payout": 2.71,
+            "desc": "Following yesterday's confirmed delays to the National Care Service and the Scottish Government's response (or lack thereof), opposition parties are expected to escalate their criticism. Sources close to Scottish Labour indicate a formal challenge, possibly a vote of no confidence against a key minister, could be announced today to maximize political impact.",
+            "result": "LOST",
+            "settled_at": "2026-06-06"
+        },
+        {
+            "id": "20260605000003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed Northern Powerhouse Rail link between Manchester and Liverpool?",
+            "payout": 3.8,
+            "desc": "Amid ongoing reviews of major infrastructure spending and recent leaks suggesting budget constraints, speculation is rife regarding the future of the Northern Powerhouse Rail project. An official statement from the Department for Transport, potentially confirming the cancellation of this specific, controversial section, is rumored to be released today.",
+            "result": "LOST",
+            "settled_at": "2026-06-06"
+        },
+        {
+            "id": "20260605000004",
+            "title": "Will the European Central Bank (ECB) today raise its key interest rate by at least 25 basis points following new inflation data?",
+            "payout": 1.58,
+            "desc": "Following the release of hotter-than-expected eurozone inflation figures this morning, pressure is mounting on the European Central Bank to take decisive action. While no unscheduled meeting has been announced, an emergency policy statement or a pre-scheduled address from a key ECB official today could lead to an immediate rate hike.",
+            "result": "LOST",
+            "settled_at": "2026-06-06"
+        },
+        {
+            "id": "20260605000005",
+            "title": "Will the UN Security Council today vote to pass a new resolution imposing an arms embargo on the warring factions in the Sudanese conflict?",
+            "payout": 2.11,
+            "desc": "After recent reports of escalating violence and humanitarian crises in Sudan, diplomatic efforts at the UN have intensified. A draft resolution, specifically targeting an arms embargo on all warring parties, is reportedly ready for a vote today, following extensive negotiations earlier in the week among Security Council members.",
+            "result": "LOST",
+            "settled_at": "2026-06-06"
         }
     ],
-    "last_update": "2026-06-05 02:39"
+    "last_update": "2026-06-06 02:27"
 }
