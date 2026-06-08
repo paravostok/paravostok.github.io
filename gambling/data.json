@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260606000001",
-            "title": "Will a senior Conservative backbencher today publicly call for the UK Home Secretary to resign or face a vote of no confidence?",
-            "payout": 2.71,
-            "desc": "Following yesterday's reports of persistent high small boat crossings and increasing political pressure, dissent within Conservative ranks could grow. A prominent backbench MP, potentially from a faction critical of the current approach, might seize the opportunity today to demand accountability or a change in leadership at the Home Office."
+            "id": "20260608000001",
+            "title": "Will the UK government today announce a new set of measures aimed at tackling the rising cost of petrol/diesel?",
+            "payout": 1.9,
+            "desc": "Following weekend reports of continued petrol and diesel price hikes, and increasing public and media pressure, the government may feel compelled to act swiftly. An announcement today could be a proactive move to address consumer concerns and mitigate negative media attention ahead of parliamentary scrutiny."
         },
         {
-            "id": "20260606000002",
-            "title": "Will the Scottish Government today announce a new independent inquiry into the delays surrounding the National Care Service?",
+            "id": "20260608000002",
+            "title": "Will the Scottish National Party (SNP) today issue a formal complaint to Ofcom regarding perceived bias in recent BBC Scotland coverage?",
+            "payout": 2.38,
+            "desc": "Amid ongoing tensions between the Scottish Government and various media outlets, particularly concerning recent political broadcasts or specific news reports, the SNP might today escalate its concerns by filing a formal complaint to the broadcasting regulator, Ofcom, seeking an immediate investigation."
+        },
+        {
+            "id": "20260608000003",
+            "title": "Will the High Speed Two (HS2) project today announce a new preferred contractor for a critical section of the Birmingham-Crewe leg?",
             "payout": 2.11,
-            "desc": "Amid ongoing criticism and sustained pressure from opposition parties regarding the National Care Service delays (which intensified yesterday), the Scottish Government may seek to defuse the situation. An announcement of a new, independent inquiry today could be a strategic move to show transparency and regain public confidence."
+            "desc": "After recent speculation regarding progress on the HS2 route and potential contractor disputes or changes following a review, an announcement is plausible today. Confirming a preferred contractor for a key segment could signal renewed momentum and address concerns about further delays and cost overruns for the project."
         },
         {
-            "id": "20260606000003",
-            "title": "Will the Secretary of State for Transport today make an official statement confirming an acceleration of funding for the Leeds leg of Northern Powerhouse Rail?",
-            "payout": 3.17,
-            "desc": "Following yesterday's speculation or potential non-confirmation regarding the Manchester-Liverpool link of Northern Powerhouse Rail, the Department for Transport might seek to reaffirm its commitment to other parts of the project. An official statement today, specifically boosting the Leeds section, could be made to reassure northern leaders and offset negative press."
+            "id": "20260608000004",
+            "title": "Will the World Health Organization (WHO) today issue an updated 'Disease Outbreak News' report declaring a new variant of concern (VOC) for an existing virus?",
+            "payout": 2.71,
+            "desc": "With ongoing global surveillance and the continuous evolution of various pathogens, the WHO regularly updates the public on new threats. Today, following a period of intensive data analysis from multiple regions, they might release a report elevating a recently identified variant to 'variant of concern' status, triggering new public health advisories."
         },
         {
-            "id": "20260606000004",
-            "title": "Will the President of the European Central Bank (ECB) today deliver a speech or statement reiterating a commitment to further monetary tightening this quarter?",
+            "id": "20260608000005",
+            "title": "Will the United Nations Refugee Agency (UNHCR) today report that the number of displaced persons from the ongoing East African conflict has surpassed a new million-person milestone?",
             "payout": 1.58,
-            "desc": "After yesterday's hotter-than-expected eurozone inflation figures and the absence of an immediate rate hike, markets will be keenly anticipating forward guidance. A pre-scheduled address or an impromptu statement from the ECB President today could be used to signal ongoing vigilance against inflation and a commitment to future tightening measures."
-        },
-        {
-            "id": "20260606000005",
-            "title": "Will the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) today issue a new emergency appeal for at least $500 million in aid for Sudan?",
-            "payout": 1.73,
-            "desc": "Despite yesterday's UN Security Council discussions on Sudan (which may or may not have resulted in an arms embargo), the humanitarian crisis continues to escalate. With reports of deteriorating conditions, OCHA is under pressure to secure more funding, making a new, urgent appeal for substantial aid highly probable today."
+            "desc": "The humanitarian crisis in parts of East Africa continues to worsen dramatically, with daily reports of increased displacement. UNHCR often issues regular updates on displacement figures, and with persistent conflict, it's highly plausible that a grim milestone of displaced persons could be announced today, drawing further urgent international attention to the crisis."
         }
     ],
     "history": [
@@ -1711,7 +1711,47 @@
             "desc": "After recent reports of escalating violence and humanitarian crises in Sudan, diplomatic efforts at the UN have intensified. A draft resolution, specifically targeting an arms embargo on all warring parties, is reportedly ready for a vote today, following extensive negotiations earlier in the week among Security Council members.",
             "result": "LOST",
             "settled_at": "2026-06-06"
+        },
+        {
+            "id": "20260606000001",
+            "title": "Will a senior Conservative backbencher today publicly call for the UK Home Secretary to resign or face a vote of no confidence?",
+            "payout": 2.71,
+            "desc": "Following yesterday's reports of persistent high small boat crossings and increasing political pressure, dissent within Conservative ranks could grow. A prominent backbench MP, potentially from a faction critical of the current approach, might seize the opportunity today to demand accountability or a change in leadership at the Home Office.",
+            "result": "LOST",
+            "settled_at": "2026-06-08"
+        },
+        {
+            "id": "20260606000002",
+            "title": "Will the Scottish Government today announce a new independent inquiry into the delays surrounding the National Care Service?",
+            "payout": 2.11,
+            "desc": "Amid ongoing criticism and sustained pressure from opposition parties regarding the National Care Service delays (which intensified yesterday), the Scottish Government may seek to defuse the situation. An announcement of a new, independent inquiry today could be a strategic move to show transparency and regain public confidence.",
+            "result": "LOST",
+            "settled_at": "2026-06-08"
+        },
+        {
+            "id": "20260606000003",
+            "title": "Will the Secretary of State for Transport today make an official statement confirming an acceleration of funding for the Leeds leg of Northern Powerhouse Rail?",
+            "payout": 3.17,
+            "desc": "Following yesterday's speculation or potential non-confirmation regarding the Manchester-Liverpool link of Northern Powerhouse Rail, the Department for Transport might seek to reaffirm its commitment to other parts of the project. An official statement today, specifically boosting the Leeds section, could be made to reassure northern leaders and offset negative press.",
+            "result": "LOST",
+            "settled_at": "2026-06-08"
+        },
+        {
+            "id": "20260606000004",
+            "title": "Will the President of the European Central Bank (ECB) today deliver a speech or statement reiterating a commitment to further monetary tightening this quarter?",
+            "payout": 1.58,
+            "desc": "After yesterday's hotter-than-expected eurozone inflation figures and the absence of an immediate rate hike, markets will be keenly anticipating forward guidance. A pre-scheduled address or an impromptu statement from the ECB President today could be used to signal ongoing vigilance against inflation and a commitment to future tightening measures.",
+            "result": "LOST",
+            "settled_at": "2026-06-08"
+        },
+        {
+            "id": "20260606000005",
+            "title": "Will the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) today issue a new emergency appeal for at least $500 million in aid for Sudan?",
+            "payout": 1.73,
+            "desc": "Despite yesterday's UN Security Council discussions on Sudan (which may or may not have resulted in an arms embargo), the humanitarian crisis continues to escalate. With reports of deteriorating conditions, OCHA is under pressure to secure more funding, making a new, urgent appeal for substantial aid highly probable today.",
+            "result": "LOST",
+            "settled_at": "2026-06-08"
         }
     ],
-    "last_update": "2026-06-06 02:27"
+    "last_update": "2026-06-08 02:49"
 }
