@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260610000001",
-            "title": "Will the UK Prime Minister's official spokesperson today confirm that the government will proceed with the controversial 'Digital Identity Bill' without further amendments?",
-            "payout": 1.73,
-            "desc": "After weeks of parliamentary debate and committee hearings, pressure is mounting for the government to clarify its stance on the contentious Digital Identity Bill. A statement from Downing Street today could confirm their intention to push the legislation through in its current form."
-        },
-        {
-            "id": "20260610000002",
-            "title": "Will the Scottish Labour Party today call for a no-confidence vote in a specific Scottish Government minister following recent public sector performance figures?",
+            "id": "20260611100001",
+            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms following widespread teacher protests?",
             "payout": 2.38,
-            "desc": "Recent widely criticized public sector performance statistics have intensified scrutiny on the Scottish Government. The opposition Scottish Labour Party, keen to capitalize on political vulnerability, might formally announce a call for a no-confidence vote in a named minister today."
+            "desc": "Teacher unions have intensified their protests against the government's planned curriculum reforms. With a key parliamentary committee hearing scheduled for this afternoon, the Secretary of State might face pressure to announce a delay or review today."
         },
         {
-            "id": "20260610000003",
-            "title": "Will the Department for Transport today publish the final decision regarding the proposed high-speed rail link extension to Leeds?",
-            "payout": 3.17,
-            "desc": "The future of the HS2 extension to Leeds has been under review for several months, causing uncertainty for regional planning. Following recent reports of internal departmental meetings, a definitive announcement confirming or cancelling the project could be made by the DfT today."
-        },
-        {
-            "id": "20260610000004",
-            "title": "Will the European Central Bank (ECB) today announce an unscheduled emergency meeting to discuss Eurozone inflation figures?",
-            "payout": 4.75,
-            "desc": "Unconfirmed reports and market speculation suggest that new, higher-than-expected inflation data for the Eurozone might be surfacing. If deemed critical, the ECB could call an emergency meeting today to discuss potential policy responses and reassure markets."
-        },
-        {
-            "id": "20260610000005",
-            "title": "Will the International Committee of the Red Cross (ICRC) today issue a statement confirming the successful opening of a humanitarian corridor to a conflict-affected region in the Sahel?",
+            "id": "20260611100002",
+            "title": "Will the Scottish Government today publish the long-awaited independent review into social care funding?",
             "payout": 1.58,
-            "desc": "Following intense diplomatic efforts by UN envoys and regional powers, there are strong indications that an agreement on a temporary humanitarian corridor has been reached for a critical region in the Sahel. The ICRC would be poised to confirm its operational success and access to those in need today."
+            "desc": "After several delays, sources within Holyrood suggest the independent review into the future of social care funding, commissioned months ago, is now complete and awaiting publication today, potentially coinciding with First Minister's Questions."
+        },
+        {
+            "id": "20260611100003",
+            "title": "Will Transport for London (TfL) today confirm the permanent closure of at least one major Tube line station due to ongoing structural issues?",
+            "payout": 3.17,
+            "desc": "Following reports of engineering inspections revealing critical structural flaws at several key Tube stations, industry insiders are anticipating a decisive announcement from TfL today regarding station closures to ensure public safety, potentially affecting a high-traffic line."
+        },
+        {
+            "id": "20260611100004",
+            "title": "Will the G7 finance ministers today release a joint statement outlining new coordinated sanctions against a specific nation following recent cyber attacks?",
+            "payout": 1.9,
+            "desc": "G7 finance ministers are concluding their two-day summit today. Amidst heightened tensions over recent state-sponsored cyber attacks, there is strong speculation that they will issue a unified statement before the end of the day, detailing new, coordinated economic sanctions targeting the alleged perpetrator."
+        },
+        {
+            "id": "20260611100005",
+            "title": "Will the United Nations Security Council today pass a resolution authorizing increased peacekeeping forces to the disputed border region in Central Asia?",
+            "payout": 4.75,
+            "desc": "With reports of escalating border skirmishes and a humanitarian crisis in the Central Asian disputed region, an emergency session of the UN Security Council is scheduled for today. Diplomatic sources indicate a draft resolution for an expanded peacekeeping mandate is on the table, with a vote expected by late evening."
         }
     ],
     "history": [
@@ -1831,7 +1831,47 @@
             "desc": "Reports from the Eastern Mediterranean indicate renewed tensions despite a prior ceasefire agreement. The UN Special Envoy, having engaged in recent diplomatic efforts, might feel compelled to issue a public statement today reinforcing adherence to the ceasefire to de-escalate the situation.",
             "result": "WON",
             "settled_at": "2026-06-10"
+        },
+        {
+            "id": "20260610000001",
+            "title": "Will the UK Prime Minister's official spokesperson today confirm that the government will proceed with the controversial 'Digital Identity Bill' without further amendments?",
+            "payout": 1.73,
+            "desc": "After weeks of parliamentary debate and committee hearings, pressure is mounting for the government to clarify its stance on the contentious Digital Identity Bill. A statement from Downing Street today could confirm their intention to push the legislation through in its current form.",
+            "result": "LOST",
+            "settled_at": "2026-06-11"
+        },
+        {
+            "id": "20260610000002",
+            "title": "Will the Scottish Labour Party today call for a no-confidence vote in a specific Scottish Government minister following recent public sector performance figures?",
+            "payout": 2.38,
+            "desc": "Recent widely criticized public sector performance statistics have intensified scrutiny on the Scottish Government. The opposition Scottish Labour Party, keen to capitalize on political vulnerability, might formally announce a call for a no-confidence vote in a named minister today.",
+            "result": "LOST",
+            "settled_at": "2026-06-11"
+        },
+        {
+            "id": "20260610000003",
+            "title": "Will the Department for Transport today publish the final decision regarding the proposed high-speed rail link extension to Leeds?",
+            "payout": 3.17,
+            "desc": "The future of the HS2 extension to Leeds has been under review for several months, causing uncertainty for regional planning. Following recent reports of internal departmental meetings, a definitive announcement confirming or cancelling the project could be made by the DfT today.",
+            "result": "LOST",
+            "settled_at": "2026-06-11"
+        },
+        {
+            "id": "20260610000004",
+            "title": "Will the European Central Bank (ECB) today announce an unscheduled emergency meeting to discuss Eurozone inflation figures?",
+            "payout": 4.75,
+            "desc": "Unconfirmed reports and market speculation suggest that new, higher-than-expected inflation data for the Eurozone might be surfacing. If deemed critical, the ECB could call an emergency meeting today to discuss potential policy responses and reassure markets.",
+            "result": "LOST",
+            "settled_at": "2026-06-11"
+        },
+        {
+            "id": "20260610000005",
+            "title": "Will the International Committee of the Red Cross (ICRC) today issue a statement confirming the successful opening of a humanitarian corridor to a conflict-affected region in the Sahel?",
+            "payout": 1.58,
+            "desc": "Following intense diplomatic efforts by UN envoys and regional powers, there are strong indications that an agreement on a temporary humanitarian corridor has been reached for a critical region in the Sahel. The ICRC would be poised to confirm its operational success and access to those in need today.",
+            "result": "LOST",
+            "settled_at": "2026-06-11"
         }
     ],
-    "last_update": "2026-06-10 02:39"
+    "last_update": "2026-06-11 02:49"
 }
