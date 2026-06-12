@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260611100001",
-            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms following widespread teacher protests?",
-            "payout": 2.38,
-            "desc": "Teacher unions have intensified their protests against the government's planned curriculum reforms. With a key parliamentary committee hearing scheduled for this afternoon, the Secretary of State might face pressure to announce a delay or review today."
-        },
-        {
-            "id": "20260611100002",
-            "title": "Will the Scottish Government today publish the long-awaited independent review into social care funding?",
+            "id": "20260612100001",
+            "title": "Will the Secretary of State for Education today announce a full independent review of the proposed curriculum reforms?",
             "payout": 1.58,
-            "desc": "After several delays, sources within Holyrood suggest the independent review into the future of social care funding, commissioned months ago, is now complete and awaiting publication today, potentially coinciding with First Minister's Questions."
+            "desc": "Following yesterday's widespread teacher protests and intense parliamentary scrutiny, sources close to the Department for Education suggest a concession might be announced today to de-escalate tensions, possibly in the form of a formal independent review rather than an outright delay."
         },
         {
-            "id": "20260611100003",
-            "title": "Will Transport for London (TfL) today confirm the permanent closure of at least one major Tube line station due to ongoing structural issues?",
-            "payout": 3.17,
-            "desc": "Following reports of engineering inspections revealing critical structural flaws at several key Tube stations, industry insiders are anticipating a decisive announcement from TfL today regarding station closures to ensure public safety, potentially affecting a high-traffic line."
-        },
-        {
-            "id": "20260611100004",
-            "title": "Will the G7 finance ministers today release a joint statement outlining new coordinated sanctions against a specific nation following recent cyber attacks?",
+            "id": "20260612100002",
+            "title": "Will the Scottish National Party (SNP) today confirm the exact date for their special conference on future leadership?",
             "payout": 1.9,
-            "desc": "G7 finance ministers are concluding their two-day summit today. Amidst heightened tensions over recent state-sponsored cyber attacks, there is strong speculation that they will issue a unified statement before the end of the day, detailing new, coordinated economic sanctions targeting the alleged perpetrator."
+            "desc": "With ongoing speculation surrounding the First Minister's future and internal party divisions, a senior SNP source indicated this morning that the party's National Executive Committee might officially confirm the date for a crucial leadership-focused special conference by the end of today."
         },
         {
-            "id": "20260611100005",
-            "title": "Will the United Nations Security Council today pass a resolution authorizing increased peacekeeping forces to the disputed border region in Central Asia?",
-            "payout": 4.75,
-            "desc": "With reports of escalating border skirmishes and a humanitarian crisis in the Central Asian disputed region, an emergency session of the UN Security Council is scheduled for today. Diplomatic sources indicate a draft resolution for an expanded peacekeeping mandate is on the table, with a vote expected by late evening."
+            "id": "20260612100003",
+            "title": "Will the UK Government today confirm additional funding for the northern leg of HS2 following recent cost reassessments?",
+            "payout": 2.38,
+            "desc": "Reports from the Department for Transport suggest that revised costings for the remaining sections of HS2 are now on the Prime Minister's desk. With pressure from northern MPs and industry leaders, an announcement of additional financial commitment could be made today to secure the project's future."
+        },
+        {
+            "id": "20260612100004",
+            "title": "Will the EU today announce a new package of humanitarian aid specifically for the Sahel region following recent escalating conflict?",
+            "payout": 1.36,
+            "desc": "With increasing reports of displacement and food insecurity in the Sahel, and a high-level EU Development Council meeting scheduled for this afternoon, there's growing expectation that a significant new humanitarian aid package will be unveiled by the end of the day."
+        },
+        {
+            "id": "20260612100005",
+            "title": "Will a major international news agency today report a confirmed ceasefire agreement between the warring factions in the Central Asian disputed border region?",
+            "payout": 3.17,
+            "desc": "Following intense diplomatic efforts and yesterday's UN Security Council discussions (even if a resolution wasn't passed), sources close to the negotiating teams suggest a temporary ceasefire agreement is imminent. A major news outlet could break the story today as details are finalized."
         }
     ],
     "history": [
@@ -1871,7 +1871,47 @@
             "desc": "Following intense diplomatic efforts by UN envoys and regional powers, there are strong indications that an agreement on a temporary humanitarian corridor has been reached for a critical region in the Sahel. The ICRC would be poised to confirm its operational success and access to those in need today.",
             "result": "LOST",
             "settled_at": "2026-06-11"
+        },
+        {
+            "id": "20260611100001",
+            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms following widespread teacher protests?",
+            "payout": 2.38,
+            "desc": "Teacher unions have intensified their protests against the government's planned curriculum reforms. With a key parliamentary committee hearing scheduled for this afternoon, the Secretary of State might face pressure to announce a delay or review today.",
+            "result": "LOST",
+            "settled_at": "2026-06-12"
+        },
+        {
+            "id": "20260611100002",
+            "title": "Will the Scottish Government today publish the long-awaited independent review into social care funding?",
+            "payout": 1.58,
+            "desc": "After several delays, sources within Holyrood suggest the independent review into the future of social care funding, commissioned months ago, is now complete and awaiting publication today, potentially coinciding with First Minister's Questions.",
+            "result": "WON",
+            "settled_at": "2026-06-12"
+        },
+        {
+            "id": "20260611100003",
+            "title": "Will Transport for London (TfL) today confirm the permanent closure of at least one major Tube line station due to ongoing structural issues?",
+            "payout": 3.17,
+            "desc": "Following reports of engineering inspections revealing critical structural flaws at several key Tube stations, industry insiders are anticipating a decisive announcement from TfL today regarding station closures to ensure public safety, potentially affecting a high-traffic line.",
+            "result": "WON",
+            "settled_at": "2026-06-12"
+        },
+        {
+            "id": "20260611100004",
+            "title": "Will the G7 finance ministers today release a joint statement outlining new coordinated sanctions against a specific nation following recent cyber attacks?",
+            "payout": 1.9,
+            "desc": "G7 finance ministers are concluding their two-day summit today. Amidst heightened tensions over recent state-sponsored cyber attacks, there is strong speculation that they will issue a unified statement before the end of the day, detailing new, coordinated economic sanctions targeting the alleged perpetrator.",
+            "result": "WON",
+            "settled_at": "2026-06-12"
+        },
+        {
+            "id": "20260611100005",
+            "title": "Will the United Nations Security Council today pass a resolution authorizing increased peacekeeping forces to the disputed border region in Central Asia?",
+            "payout": 4.75,
+            "desc": "With reports of escalating border skirmishes and a humanitarian crisis in the Central Asian disputed region, an emergency session of the UN Security Council is scheduled for today. Diplomatic sources indicate a draft resolution for an expanded peacekeeping mandate is on the table, with a vote expected by late evening.",
+            "result": "LOST",
+            "settled_at": "2026-06-12"
         }
     ],
-    "last_update": "2026-06-11 02:49"
+    "last_update": "2026-06-12 02:45"
 }
