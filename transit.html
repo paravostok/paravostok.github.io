@@ -5,32 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>paravostok transit hub</title>
   <link rel="stylesheet" href="style.css"/>
-  <style>
-    /* Updated styling inspired by your style.css */
-    .recent-posts {
-      list-style-type: none;
-      padding: 0;
-      text-align: center;
-      margin-bottom: 1.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 15px; 
-    }
-    .recent-posts li {
-      background-color: #f9f7f2; /* Matches your .post-preview background */
-      padding: 15px;             /* Matches your .post-preview padding */
-      border-radius: 8px;        /* Matches your .post-preview border-radius */
-    }
-    .recent-posts a {
-      text-decoration: none;
-      display: block;
-      font-weight: 500;
-      color: #e74c3c;            /* Matches your .read-more link color */
-    }
-    .recent-posts a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
   <header class="site-header">
@@ -45,7 +19,7 @@
     <section class="block-section">
       <h2 class="block-title">2026 travel stats</h2>
         <ul>
-        <li><strong>currently ongoing, 6 months data currently available/li>
+        <li><strong>currently ongoing, 6 months data currently available</strong></li>
       </ul>
       <p><a href="stats2026.html" class="read-more">see detailed stats →</a></p>
     </section>
@@ -60,11 +34,25 @@
 
     <section class="block-section">
       <h2 class="block-title">latest blog posts</h2>
-      <ul class="recent-posts">
-        <li><a href="posts/6.2.26.html">london: luxury and regret →</a></li>
-        <li><a href="posts/19.9.25.html">ireland, my first solo trip abroad →</a></li>
-        <li><a href="posts/9.6.25.html">citylink woes, ember yearning, and my tailbone →</a></li>
-      </ul>
+      
+      <div class="post-preview" style="margin-bottom: 15px;">
+        <h3 class="post-title">london,a tale in overnight travel</h3>
+        <p class="post-excerpt">a 3 day trip to london, filled with luxury and regret.</p>
+        <a href="posts/6.2.26.html" class="read-more">read more →</a>
+      </div>
+
+      <div class="post-preview" style="margin-bottom: 15px;">
+        <h3 class="post-title">ireland, my first solo trip abroad</h3>
+        <p class="post-excerpt">leaving the country at 16 for a short trip in the emerald isle.</p>
+        <a href="posts/19.9.25.html" class="read-more">read more →</a>
+      </div>
+
+      <div class="post-preview" style="margin-bottom: 15px;">
+        <h3 class="post-title">citylink woes and ember yearning</h3>
+        <p class="post-excerpt">a triangular loop of 3 of scotland's biggest cities, and how it left me with a hole in my heart.</p>
+        <a href="posts/9.6.25.html" class="read-more">read more →</a>
+      </div>
+
       <p><a href="posts/posts.html" class="read-more">see all posts →</a></p>
     </section>
 
