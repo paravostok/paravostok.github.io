@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260612100001",
-            "title": "Will the Secretary of State for Education today announce a full independent review of the proposed curriculum reforms?",
+            "id": "20260613000001",
+            "title": "Will the Secretary of State for Health and Social Care today announce new emergency measures to tackle the winter health crisis?",
             "payout": 1.58,
-            "desc": "Following yesterday's widespread teacher protests and intense parliamentary scrutiny, sources close to the Department for Education suggest a concession might be announced today to de-escalate tensions, possibly in the form of a formal independent review rather than an outright delay."
+            "desc": "Amid mounting pressure over NHS waiting lists and a flu surge, the Secretary is scheduled to deliver a statement to Parliament this afternoon, where new short-term policy interventions are widely anticipated."
         },
         {
-            "id": "20260612100002",
-            "title": "Will the Scottish National Party (SNP) today confirm the exact date for their special conference on future leadership?",
-            "payout": 1.9,
-            "desc": "With ongoing speculation surrounding the First Minister's future and internal party divisions, a senior SNP source indicated this morning that the party's National Executive Committee might officially confirm the date for a crucial leadership-focused special conference by the end of today."
+            "id": "20260613000002",
+            "title": "Will the Scottish Government today officially confirm the launch date for the new national infrastructure strategy?",
+            "payout": 1.73,
+            "desc": "Following weeks of internal discussions and leaks, a spokesperson for the First Minister hinted this morning at a significant policy unveiling, with a formal announcement regarding the highly anticipated infrastructure plan expected by close of business today."
         },
         {
-            "id": "20260612100003",
-            "title": "Will the UK Government today confirm additional funding for the northern leg of HS2 following recent cost reassessments?",
+            "id": "20260613000003",
+            "title": "Will the Department for Transport today announce a revised timeline for the completion of the TransPennine Route Upgrade?",
             "payout": 2.38,
-            "desc": "Reports from the Department for Transport suggest that revised costings for the remaining sections of HS2 are now on the Prime Minister's desk. With pressure from northern MPs and industry leaders, an announcement of additional financial commitment could be made today to secure the project's future."
+            "desc": "Following recent site visits and a closed-door meeting between the Transport Minister and contractors, speculation is rife that an updated, potentially accelerated, completion schedule for the critical northern rail project will be revealed by today's end."
         },
         {
-            "id": "20260612100004",
-            "title": "Will the EU today announce a new package of humanitarian aid specifically for the Sahel region following recent escalating conflict?",
+            "id": "20260613000004",
+            "title": "Will the G7 foreign ministers today issue a joint statement condemning the recent cyberattacks attributed to a specific state actor?",
             "payout": 1.36,
-            "desc": "With increasing reports of displacement and food insecurity in the Sahel, and a high-level EU Development Council meeting scheduled for this afternoon, there's growing expectation that a significant new humanitarian aid package will be unveiled by the end of the day."
+            "desc": "With ongoing G7 discussions focusing heavily on global security and recent reports linking a major state to widespread cyber intrusions, diplomatic sources suggest a strongly worded collective condemnation could be agreed upon and released before the end of their meeting today."
         },
         {
-            "id": "20260612100005",
-            "title": "Will a major international news agency today report a confirmed ceasefire agreement between the warring factions in the Central Asian disputed border region?",
-            "payout": 3.17,
-            "desc": "Following intense diplomatic efforts and yesterday's UN Security Council discussions (even if a resolution wasn't passed), sources close to the negotiating teams suggest a temporary ceasefire agreement is imminent. A major news outlet could break the story today as details are finalized."
+            "id": "20260613000005",
+            "title": "Will the UN Security Council today vote on a new resolution calling for a full cessation of hostilities in the ongoing conflict in Eastern Europe?",
+            "payout": 1.46,
+            "desc": "Following intense overnight negotiations and an emergency session called for this morning, member states have reportedly finalized a draft resolution that sources indicate will be put to a vote before the council adjourns for the day."
         }
     ],
     "history": [
@@ -1911,7 +1911,47 @@
             "desc": "With reports of escalating border skirmishes and a humanitarian crisis in the Central Asian disputed region, an emergency session of the UN Security Council is scheduled for today. Diplomatic sources indicate a draft resolution for an expanded peacekeeping mandate is on the table, with a vote expected by late evening.",
             "result": "LOST",
             "settled_at": "2026-06-12"
+        },
+        {
+            "id": "20260612100001",
+            "title": "Will the Secretary of State for Education today announce a full independent review of the proposed curriculum reforms?",
+            "payout": 1.58,
+            "desc": "Following yesterday's widespread teacher protests and intense parliamentary scrutiny, sources close to the Department for Education suggest a concession might be announced today to de-escalate tensions, possibly in the form of a formal independent review rather than an outright delay.",
+            "result": "LOST",
+            "settled_at": "2026-06-13"
+        },
+        {
+            "id": "20260612100002",
+            "title": "Will the Scottish National Party (SNP) today confirm the exact date for their special conference on future leadership?",
+            "payout": 1.9,
+            "desc": "With ongoing speculation surrounding the First Minister's future and internal party divisions, a senior SNP source indicated this morning that the party's National Executive Committee might officially confirm the date for a crucial leadership-focused special conference by the end of today.",
+            "result": "LOST",
+            "settled_at": "2026-06-13"
+        },
+        {
+            "id": "20260612100003",
+            "title": "Will the UK Government today confirm additional funding for the northern leg of HS2 following recent cost reassessments?",
+            "payout": 2.38,
+            "desc": "Reports from the Department for Transport suggest that revised costings for the remaining sections of HS2 are now on the Prime Minister's desk. With pressure from northern MPs and industry leaders, an announcement of additional financial commitment could be made today to secure the project's future.",
+            "result": "LOST",
+            "settled_at": "2026-06-13"
+        },
+        {
+            "id": "20260612100004",
+            "title": "Will the EU today announce a new package of humanitarian aid specifically for the Sahel region following recent escalating conflict?",
+            "payout": 1.36,
+            "desc": "With increasing reports of displacement and food insecurity in the Sahel, and a high-level EU Development Council meeting scheduled for this afternoon, there's growing expectation that a significant new humanitarian aid package will be unveiled by the end of the day.",
+            "result": "LOST",
+            "settled_at": "2026-06-13"
+        },
+        {
+            "id": "20260612100005",
+            "title": "Will a major international news agency today report a confirmed ceasefire agreement between the warring factions in the Central Asian disputed border region?",
+            "payout": 3.17,
+            "desc": "Following intense diplomatic efforts and yesterday's UN Security Council discussions (even if a resolution wasn't passed), sources close to the negotiating teams suggest a temporary ceasefire agreement is imminent. A major news outlet could break the story today as details are finalized.",
+            "result": "LOST",
+            "settled_at": "2026-06-13"
         }
     ],
-    "last_update": "2026-06-12 02:45"
+    "last_update": "2026-06-13 02:38"
 }
