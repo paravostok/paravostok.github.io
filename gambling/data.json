@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260613000001",
-            "title": "Will the Secretary of State for Health and Social Care today announce new emergency measures to tackle the winter health crisis?",
+            "id": "20260614000001",
+            "title": "Will a Cabinet Minister today tender their resignation following recent reports of financial impropriety?",
+            "payout": 2.57,
+            "desc": "Following escalating media scrutiny and an emergency meeting called by the Prime Minister this morning, sources close to Downing Street suggest a prominent minister's position has become untenable, with an announcement expected today."
+        },
+        {
+            "id": "20260614000002",
+            "title": "Will the Scottish Labour leader today call for an immediate snap election in the Scottish Parliament?",
+            "payout": 2.11,
+            "desc": "After recent setbacks for the Scottish Government and a surge in their own poll numbers, the Scottish Labour Party is holding an unscheduled press conference this afternoon, where the leader is widely anticipated to demand a fresh mandate."
+        },
+        {
+            "id": "20260614000003",
+            "title": "Will Network Rail today confirm a new major disruption on the West Coast Main Line due to ongoing engineering works?",
             "payout": 1.58,
-            "desc": "Amid mounting pressure over NHS waiting lists and a flu surge, the Secretary is scheduled to deliver a statement to Parliament this afternoon, where new short-term policy interventions are widely anticipated."
+            "desc": "Following overnight inspections of critical infrastructure and a sudden urgent meeting called this morning, industry insiders are anticipating an update on potential widespread delays and cancellations, likely to be announced before midday."
         },
         {
-            "id": "20260613000002",
-            "title": "Will the Scottish Government today officially confirm the launch date for the new national infrastructure strategy?",
+            "id": "20260614000004",
+            "title": "Will the President of the European Commission today issue a formal statement rejecting the UK's latest proposal on trade cooperation?",
             "payout": 1.73,
-            "desc": "Following weeks of internal discussions and leaks, a spokesperson for the First Minister hinted this morning at a significant policy unveiling, with a formal announcement regarding the highly anticipated infrastructure plan expected by close of business today."
+            "desc": "Following a leaked draft of the UK's new trade document and a rapid response from Brussels, the EC President's office indicated a direct public reaction is likely today, following internal discussions."
         },
         {
-            "id": "20260613000003",
-            "title": "Will the Department for Transport today announce a revised timeline for the completion of the TransPennine Route Upgrade?",
+            "id": "20260614000005",
+            "title": "Will the UN Special Envoy for the Middle East today announce a breakthrough in ceasefire negotiations for the Gaza Strip?",
             "payout": 2.38,
-            "desc": "Following recent site visits and a closed-door meeting between the Transport Minister and contractors, speculation is rife that an updated, potentially accelerated, completion schedule for the critical northern rail project will be revealed by today's end."
-        },
-        {
-            "id": "20260613000004",
-            "title": "Will the G7 foreign ministers today issue a joint statement condemning the recent cyberattacks attributed to a specific state actor?",
-            "payout": 1.36,
-            "desc": "With ongoing G7 discussions focusing heavily on global security and recent reports linking a major state to widespread cyber intrusions, diplomatic sources suggest a strongly worded collective condemnation could be agreed upon and released before the end of their meeting today."
-        },
-        {
-            "id": "20260613000005",
-            "title": "Will the UN Security Council today vote on a new resolution calling for a full cessation of hostilities in the ongoing conflict in Eastern Europe?",
-            "payout": 1.46,
-            "desc": "Following intense overnight negotiations and an emergency session called for this morning, member states have reportedly finalized a draft resolution that sources indicate will be put to a vote before the council adjourns for the day."
+            "desc": "After an intense 48-hour period of shuttle diplomacy and unconfirmed reports of concessions from both sides, the Special Envoy is scheduled to brief the press in New York this afternoon, raising hopes for an immediate cessation of hostilities."
         }
     ],
     "history": [
@@ -1951,7 +1951,47 @@
             "desc": "Following intense diplomatic efforts and yesterday's UN Security Council discussions (even if a resolution wasn't passed), sources close to the negotiating teams suggest a temporary ceasefire agreement is imminent. A major news outlet could break the story today as details are finalized.",
             "result": "LOST",
             "settled_at": "2026-06-13"
+        },
+        {
+            "id": "20260613000001",
+            "title": "Will the Secretary of State for Health and Social Care today announce new emergency measures to tackle the winter health crisis?",
+            "payout": 1.58,
+            "desc": "Amid mounting pressure over NHS waiting lists and a flu surge, the Secretary is scheduled to deliver a statement to Parliament this afternoon, where new short-term policy interventions are widely anticipated.",
+            "result": "WON",
+            "settled_at": "2026-06-14"
+        },
+        {
+            "id": "20260613000002",
+            "title": "Will the Scottish Government today officially confirm the launch date for the new national infrastructure strategy?",
+            "payout": 1.73,
+            "desc": "Following weeks of internal discussions and leaks, a spokesperson for the First Minister hinted this morning at a significant policy unveiling, with a formal announcement regarding the highly anticipated infrastructure plan expected by close of business today.",
+            "result": "WON",
+            "settled_at": "2026-06-14"
+        },
+        {
+            "id": "20260613000003",
+            "title": "Will the Department for Transport today announce a revised timeline for the completion of the TransPennine Route Upgrade?",
+            "payout": 2.38,
+            "desc": "Following recent site visits and a closed-door meeting between the Transport Minister and contractors, speculation is rife that an updated, potentially accelerated, completion schedule for the critical northern rail project will be revealed by today's end.",
+            "result": "LOST",
+            "settled_at": "2026-06-14"
+        },
+        {
+            "id": "20260613000004",
+            "title": "Will the G7 foreign ministers today issue a joint statement condemning the recent cyberattacks attributed to a specific state actor?",
+            "payout": 1.36,
+            "desc": "With ongoing G7 discussions focusing heavily on global security and recent reports linking a major state to widespread cyber intrusions, diplomatic sources suggest a strongly worded collective condemnation could be agreed upon and released before the end of their meeting today.",
+            "result": "WON",
+            "settled_at": "2026-06-14"
+        },
+        {
+            "id": "20260613000005",
+            "title": "Will the UN Security Council today vote on a new resolution calling for a full cessation of hostilities in the ongoing conflict in Eastern Europe?",
+            "payout": 1.46,
+            "desc": "Following intense overnight negotiations and an emergency session called for this morning, member states have reportedly finalized a draft resolution that sources indicate will be put to a vote before the council adjourns for the day.",
+            "result": "WON",
+            "settled_at": "2026-06-14"
         }
     ],
-    "last_update": "2026-06-13 02:38"
+    "last_update": "2026-06-14 02:50"
 }
