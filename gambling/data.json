@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260614000001",
-            "title": "Will a Cabinet Minister today tender their resignation following recent reports of financial impropriety?",
-            "payout": 2.57,
-            "desc": "Following escalating media scrutiny and an emergency meeting called by the Prime Minister this morning, sources close to Downing Street suggest a prominent minister's position has become untenable, with an announcement expected today."
+            "id": "20260615000001",
+            "title": "Will a senior Cabinet Minister today publicly contradict the Prime Minister's stance on the new economic recovery plan?",
+            "payout": 3.17,
+            "desc": "Following anonymous briefings to the press yesterday suggesting internal divisions, a key minister is scheduled to speak at an economic conference this morning, raising expectations of a potential public divergence."
         },
         {
-            "id": "20260614000002",
-            "title": "Will the Scottish Labour leader today call for an immediate snap election in the Scottish Parliament?",
-            "payout": 2.11,
-            "desc": "After recent setbacks for the Scottish Government and a surge in their own poll numbers, the Scottish Labour Party is holding an unscheduled press conference this afternoon, where the leader is widely anticipated to demand a fresh mandate."
-        },
-        {
-            "id": "20260614000003",
-            "title": "Will Network Rail today confirm a new major disruption on the West Coast Main Line due to ongoing engineering works?",
-            "payout": 1.58,
-            "desc": "Following overnight inspections of critical infrastructure and a sudden urgent meeting called this morning, industry insiders are anticipating an update on potential widespread delays and cancellations, likely to be announced before midday."
-        },
-        {
-            "id": "20260614000004",
-            "title": "Will the President of the European Commission today issue a formal statement rejecting the UK's latest proposal on trade cooperation?",
+            "id": "20260615000002",
+            "title": "Will the Scottish National Party (SNP) today announce the immediate suspension of a prominent MSP following recent ethics allegations?",
             "payout": 1.73,
-            "desc": "Following a leaked draft of the UK's new trade document and a rapid response from Brussels, the EC President's office indicated a direct public reaction is likely today, following internal discussions."
+            "desc": "After intense media pressure over the weekend and an emergency party meeting convened this morning, sources within the SNP suggest a decisive disciplinary action is imminent."
         },
         {
-            "id": "20260614000005",
-            "title": "Will the UN Special Envoy for the Middle East today announce a breakthrough in ceasefire negotiations for the Gaza Strip?",
-            "payout": 2.38,
-            "desc": "After an intense 48-hour period of shuttle diplomacy and unconfirmed reports of concessions from both sides, the Special Envoy is scheduled to brief the press in New York this afternoon, raising hopes for an immediate cessation of hostilities."
+            "id": "20260615000003",
+            "title": "Will Transport for London (TfL) today confirm an unscheduled strike action affecting a major Tube line for later this week?",
+            "payout": 1.46,
+            "desc": "Unofficial reports circulated overnight concerning a breakdown in negotiations between TfL and a key union, leading to an urgent press conference called for this afternoon by the union."
+        },
+        {
+            "id": "20260615000004",
+            "title": "Will the US State Department today issue a formal travel advisory warning against non-essential travel to a specific Eastern European country?",
+            "payout": 1.36,
+            "desc": "Following escalating cross-border incidents reported over the weekend and an emergency briefing of the National Security Council, an update on the security situation and potential advisories is expected."
+        },
+        {
+            "id": "20260615000005",
+            "title": "Will the leaders of two rival factions in the ongoing civil conflict in Country Y today sign a preliminary agreement on humanitarian corridors?",
+            "payout": 2.11,
+            "desc": "Mediators from the African Union have reported 'significant progress' overnight, with both leaders present for an unexpected joint press conference this afternoon at a neutral location."
         }
     ],
     "history": [
@@ -1991,7 +1991,47 @@
             "desc": "Following intense overnight negotiations and an emergency session called for this morning, member states have reportedly finalized a draft resolution that sources indicate will be put to a vote before the council adjourns for the day.",
             "result": "WON",
             "settled_at": "2026-06-14"
+        },
+        {
+            "id": "20260614000001",
+            "title": "Will a Cabinet Minister today tender their resignation following recent reports of financial impropriety?",
+            "payout": 2.57,
+            "desc": "Following escalating media scrutiny and an emergency meeting called by the Prime Minister this morning, sources close to Downing Street suggest a prominent minister's position has become untenable, with an announcement expected today.",
+            "result": "WON",
+            "settled_at": "2026-06-15"
+        },
+        {
+            "id": "20260614000002",
+            "title": "Will the Scottish Labour leader today call for an immediate snap election in the Scottish Parliament?",
+            "payout": 2.11,
+            "desc": "After recent setbacks for the Scottish Government and a surge in their own poll numbers, the Scottish Labour Party is holding an unscheduled press conference this afternoon, where the leader is widely anticipated to demand a fresh mandate.",
+            "result": "WON",
+            "settled_at": "2026-06-15"
+        },
+        {
+            "id": "20260614000003",
+            "title": "Will Network Rail today confirm a new major disruption on the West Coast Main Line due to ongoing engineering works?",
+            "payout": 1.58,
+            "desc": "Following overnight inspections of critical infrastructure and a sudden urgent meeting called this morning, industry insiders are anticipating an update on potential widespread delays and cancellations, likely to be announced before midday.",
+            "result": "WON",
+            "settled_at": "2026-06-15"
+        },
+        {
+            "id": "20260614000004",
+            "title": "Will the President of the European Commission today issue a formal statement rejecting the UK's latest proposal on trade cooperation?",
+            "payout": 1.73,
+            "desc": "Following a leaked draft of the UK's new trade document and a rapid response from Brussels, the EC President's office indicated a direct public reaction is likely today, following internal discussions.",
+            "result": "WON",
+            "settled_at": "2026-06-15"
+        },
+        {
+            "id": "20260614000005",
+            "title": "Will the UN Special Envoy for the Middle East today announce a breakthrough in ceasefire negotiations for the Gaza Strip?",
+            "payout": 2.38,
+            "desc": "After an intense 48-hour period of shuttle diplomacy and unconfirmed reports of concessions from both sides, the Special Envoy is scheduled to brief the press in New York this afternoon, raising hopes for an immediate cessation of hostilities.",
+            "result": "LOST",
+            "settled_at": "2026-06-15"
         }
     ],
-    "last_update": "2026-06-14 02:50"
+    "last_update": "2026-06-15 02:54"
 }
