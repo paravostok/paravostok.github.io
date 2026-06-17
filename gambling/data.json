@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260616000001",
-            "title": "Will the UK Government today activate the 'urgent procedure' for a new piece of financial legislation in the House of Commons?",
-            "payout": 2.0,
-            "desc": "Following market jitters and calls for rapid intervention, anonymous government sources suggest the Treasury is pushing for a swift parliamentary process to reassure investors."
+            "id": "20260617000001",
+            "title": "Will a prominent UK Cabinet minister today officially tender their resignation by the close of play?",
+            "payout": 2.71,
+            "desc": "Rumours have intensified overnight regarding an imminent reshuffle, with multiple sources suggesting a particular minister is on the brink of departure following recent policy disagreements and increasing backbench pressure."
         },
         {
-            "id": "20260616000002",
-            "title": "Will the Scottish Labour leader today issue a public statement calling for a snap Holyrood election within the next six months?",
-            "payout": 3.01,
-            "desc": "With recent national polls showing a tightening race and internal party pressure mounting, the leader's office has scheduled an unannounced press conference for late this afternoon."
-        },
-        {
-            "id": "20260616000003",
-            "title": "Will the Department for Transport today announce a further delay to the planned completion date for the HS2 Crewe-Manchester leg?",
-            "payout": 1.36,
-            "desc": "Rumours of significant cost overruns and engineering challenges have intensified this week, with the Secretary of State for Transport due to face questions from a parliamentary committee this morning."
-        },
-        {
-            "id": "20260616000004",
-            "title": "Will the European Union today issue a formal condemnation of Country Z's recent border policy changes?",
-            "payout": 1.19,
-            "desc": "Following weekend reports of increased restrictions and a violation of international agreements, a special meeting of EU foreign ministers is scheduled for this morning, with a press readout expected shortly after."
-        },
-        {
-            "id": "20260616000005",
-            "title": "Will the United Nations Security Council today vote to pass a resolution calling for an immediate ceasefire in the ongoing conflict in Region X?",
+            "id": "20260617000002",
+            "title": "Will the Scottish Government today confirm a specific new date for the next stage of its proposed land reform legislation?",
             "payout": 1.58,
-            "desc": "After intense diplomatic efforts by several member states, a draft resolution has been circulated overnight, and a vote is expected during today's unscheduled session."
+            "desc": "Following a contentious debate yesterday and pressure from opposition parties for clarity, the Minister for Rural Affairs is expected to make a statement this afternoon outlining the next steps for the bill."
+        },
+        {
+            "id": "20260617000003",
+            "title": "Will Transport for London (TfL) today announce a new specific date for the opening of the full Bakerloo Line extension consultation?",
+            "payout": 1.9,
+            "desc": "After several delays and mounting public frustration, the Mayor of London's office indicated yesterday that a fresh timeline for public engagement on key infrastructure projects would be prioritised this week, with the Bakerloo extension a high-profile case."
+        },
+        {
+            "id": "20260617000004",
+            "title": "Will the G7 group of nations today release a joint statement specifically condemning Country Y's recent cyber activities?",
+            "payout": 2.38,
+            "desc": "Intelligence reports leaked overnight allege state-sponsored cyber-attacks by Country Y targeting critical infrastructure. A hastily arranged virtual meeting of G7 foreign ministers is scheduled for this morning, with a joint press briefing anticipated."
+        },
+        {
+            "id": "20260617000005",
+            "title": "Will a major international aid organisation today confirm the successful delivery of a new, significant humanitarian aid convoy into the besieged city in Region Z?",
+            "payout": 1.36,
+            "desc": "Negotiators have been working through the night to secure safe passage for vital supplies. A senior UN official stated this morning that an update on the convoy's progress was expected by close of day, following yesterday's breach of the ceasefire."
         }
     ],
     "history": [
@@ -2071,7 +2071,47 @@
             "desc": "Mediators from the African Union have reported 'significant progress' overnight, with both leaders present for an unexpected joint press conference this afternoon at a neutral location.",
             "result": "WON",
             "settled_at": "2026-06-16"
+        },
+        {
+            "id": "20260616000001",
+            "title": "Will the UK Government today activate the 'urgent procedure' for a new piece of financial legislation in the House of Commons?",
+            "payout": 2.0,
+            "desc": "Following market jitters and calls for rapid intervention, anonymous government sources suggest the Treasury is pushing for a swift parliamentary process to reassure investors.",
+            "result": "WON",
+            "settled_at": "2026-06-17"
+        },
+        {
+            "id": "20260616000002",
+            "title": "Will the Scottish Labour leader today issue a public statement calling for a snap Holyrood election within the next six months?",
+            "payout": 3.01,
+            "desc": "With recent national polls showing a tightening race and internal party pressure mounting, the leader's office has scheduled an unannounced press conference for late this afternoon.",
+            "result": "LOST",
+            "settled_at": "2026-06-17"
+        },
+        {
+            "id": "20260616000003",
+            "title": "Will the Department for Transport today announce a further delay to the planned completion date for the HS2 Crewe-Manchester leg?",
+            "payout": 1.36,
+            "desc": "Rumours of significant cost overruns and engineering challenges have intensified this week, with the Secretary of State for Transport due to face questions from a parliamentary committee this morning.",
+            "result": "WON",
+            "settled_at": "2026-06-17"
+        },
+        {
+            "id": "20260616000004",
+            "title": "Will the European Union today issue a formal condemnation of Country Z's recent border policy changes?",
+            "payout": 1.19,
+            "desc": "Following weekend reports of increased restrictions and a violation of international agreements, a special meeting of EU foreign ministers is scheduled for this morning, with a press readout expected shortly after.",
+            "result": "WON",
+            "settled_at": "2026-06-17"
+        },
+        {
+            "id": "20260616000005",
+            "title": "Will the United Nations Security Council today vote to pass a resolution calling for an immediate ceasefire in the ongoing conflict in Region X?",
+            "payout": 1.58,
+            "desc": "After intense diplomatic efforts by several member states, a draft resolution has been circulated overnight, and a vote is expected during today's unscheduled session.",
+            "result": "LOST",
+            "settled_at": "2026-06-17"
         }
     ],
-    "last_update": "2026-06-16 02:55"
+    "last_update": "2026-06-17 02:52"
 }
