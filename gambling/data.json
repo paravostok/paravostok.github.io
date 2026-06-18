@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260617000001",
-            "title": "Will a prominent UK Cabinet minister today officially tender their resignation by the close of play?",
-            "payout": 2.71,
-            "desc": "Rumours have intensified overnight regarding an imminent reshuffle, with multiple sources suggesting a particular minister is on the brink of departure following recent policy disagreements and increasing backbench pressure."
+            "id": "20260618001",
+            "title": "Will the UK Government today confirm a specific new date for the planned reform of the social care system?",
+            "payout": 2.11,
+            "desc": "Following recent criticism over delays and an urgent question expected in Parliament, sources within Whitehall suggest the Secretary of State for Health and Social Care is under pressure to provide a definitive timeline for the long-awaited reforms."
         },
         {
-            "id": "20260617000002",
-            "title": "Will the Scottish Government today confirm a specific new date for the next stage of its proposed land reform legislation?",
+            "id": "20260618002",
+            "title": "Will the Scottish National Party (SNP) today officially confirm the dates for its annual party conference?",
             "payout": 1.58,
-            "desc": "Following a contentious debate yesterday and pressure from opposition parties for clarity, the Minister for Rural Affairs is expected to make a statement this afternoon outlining the next steps for the bill."
+            "desc": "With the summer recess approaching and recent internal discussions about party strategy, an official announcement regarding the dates and venue for the autumn conference is widely anticipated today to allow for logistical planning and delegate registration."
         },
         {
-            "id": "20260617000003",
-            "title": "Will Transport for London (TfL) today announce a new specific date for the opening of the full Bakerloo Line extension consultation?",
-            "payout": 1.9,
-            "desc": "After several delays and mounting public frustration, the Mayor of London's office indicated yesterday that a fresh timeline for public engagement on key infrastructure projects would be prioritised this week, with the Bakerloo extension a high-profile case."
+            "id": "20260618003",
+            "title": "Will HS2 Ltd today officially confirm the postponement of the Euston station redevelopment phase until 2027?",
+            "payout": 1.73,
+            "desc": "Amid ongoing budgetary concerns and reports of construction delays, industry insiders and several media outlets are reporting that an official statement regarding the timeline for the critical Euston hub is expected today, potentially confirming a significant deferral."
         },
         {
-            "id": "20260617000004",
-            "title": "Will the G7 group of nations today release a joint statement specifically condemning Country Y's recent cyber activities?",
-            "payout": 2.38,
-            "desc": "Intelligence reports leaked overnight allege state-sponsored cyber-attacks by Country Y targeting critical infrastructure. A hastily arranged virtual meeting of G7 foreign ministers is scheduled for this morning, with a joint press briefing anticipated."
-        },
-        {
-            "id": "20260617000005",
-            "title": "Will a major international aid organisation today confirm the successful delivery of a new, significant humanitarian aid convoy into the besieged city in Region Z?",
+            "id": "20260618004",
+            "title": "Will the European Union (EU) today announce new targeted sanctions against officials linked to the recent political crackdown in Country X?",
             "payout": 1.36,
-            "desc": "Negotiators have been working through the night to secure safe passage for vital supplies. A senior UN official stated this morning that an update on the convoy's progress was expected by close of day, following yesterday's breach of the ceasefire."
+            "desc": "Following an emergency meeting of EU foreign ministers yesterday and increasing international pressure, sources close to the European Commission indicate that a package of new restrictive measures is finalised and an announcement is imminent today."
+        },
+        {
+            "id": "20260618005",
+            "title": "Will the UN Secretary-General today publicly call for an immediate and unconditional 72-hour ceasefire in Region W?",
+            "payout": 1.46,
+            "desc": "After a recent escalation in hostilities and increasing civilian casualties, diplomatic efforts have intensified, and the Secretary-General's office is reportedly preparing a strong statement for release today, urging all parties to de-escalate immediately."
         }
     ],
     "history": [
@@ -2111,7 +2111,47 @@
             "desc": "After intense diplomatic efforts by several member states, a draft resolution has been circulated overnight, and a vote is expected during today's unscheduled session.",
             "result": "LOST",
             "settled_at": "2026-06-17"
+        },
+        {
+            "id": "20260617000001",
+            "title": "Will a prominent UK Cabinet minister today officially tender their resignation by the close of play?",
+            "payout": 2.71,
+            "desc": "Rumours have intensified overnight regarding an imminent reshuffle, with multiple sources suggesting a particular minister is on the brink of departure following recent policy disagreements and increasing backbench pressure.",
+            "result": "LOST",
+            "settled_at": "2026-06-18"
+        },
+        {
+            "id": "20260617000002",
+            "title": "Will the Scottish Government today confirm a specific new date for the next stage of its proposed land reform legislation?",
+            "payout": 1.58,
+            "desc": "Following a contentious debate yesterday and pressure from opposition parties for clarity, the Minister for Rural Affairs is expected to make a statement this afternoon outlining the next steps for the bill.",
+            "result": "WON",
+            "settled_at": "2026-06-18"
+        },
+        {
+            "id": "20260617000003",
+            "title": "Will Transport for London (TfL) today announce a new specific date for the opening of the full Bakerloo Line extension consultation?",
+            "payout": 1.9,
+            "desc": "After several delays and mounting public frustration, the Mayor of London's office indicated yesterday that a fresh timeline for public engagement on key infrastructure projects would be prioritised this week, with the Bakerloo extension a high-profile case.",
+            "result": "LOST",
+            "settled_at": "2026-06-18"
+        },
+        {
+            "id": "20260617000004",
+            "title": "Will the G7 group of nations today release a joint statement specifically condemning Country Y's recent cyber activities?",
+            "payout": 2.38,
+            "desc": "Intelligence reports leaked overnight allege state-sponsored cyber-attacks by Country Y targeting critical infrastructure. A hastily arranged virtual meeting of G7 foreign ministers is scheduled for this morning, with a joint press briefing anticipated.",
+            "result": "WON",
+            "settled_at": "2026-06-18"
+        },
+        {
+            "id": "20260617000005",
+            "title": "Will a major international aid organisation today confirm the successful delivery of a new, significant humanitarian aid convoy into the besieged city in Region Z?",
+            "payout": 1.36,
+            "desc": "Negotiators have been working through the night to secure safe passage for vital supplies. A senior UN official stated this morning that an update on the convoy's progress was expected by close of day, following yesterday's breach of the ceasefire.",
+            "result": "LOST",
+            "settled_at": "2026-06-18"
         }
     ],
-    "last_update": "2026-06-17 02:52"
+    "last_update": "2026-06-18 02:48"
 }
