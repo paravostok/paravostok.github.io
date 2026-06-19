@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260618001",
-            "title": "Will the UK Government today confirm a specific new date for the planned reform of the social care system?",
+            "id": "20260619001",
+            "title": "Will a UK Government cabinet minister resign or be sacked from their post today?",
+            "payout": 2.58,
+            "desc": "Amidst heightened scrutiny over the government's recent legislative defeat and ongoing controversies regarding departmental spending, sources close to Downing Street suggest a decision regarding ministerial accountability could be made public today to regain public trust. (UK Politics)"
+        },
+        {
+            "id": "20260619002",
+            "title": "Will the Scottish Government today announce a new specific date for the implementation of its proposed National Care Service bill?",
             "payout": 2.11,
-            "desc": "Following recent criticism over delays and an urgent question expected in Parliament, sources within Whitehall suggest the Secretary of State for Health and Social Care is under pressure to provide a definitive timeline for the long-awaited reforms."
+            "desc": "After recent Holyrood committee hearings highlighted significant implementation challenges and a lack of a clear timeline, MSPs from opposition parties are demanding clarity. A press conference is scheduled for later today where the Social Care Minister is expected to address these concerns. (Scottish Politics)"
         },
         {
-            "id": "20260618002",
-            "title": "Will the Scottish National Party (SNP) today officially confirm the dates for its annual party conference?",
-            "payout": 1.58,
-            "desc": "With the summer recess approaching and recent internal discussions about party strategy, an official announcement regarding the dates and venue for the autumn conference is widely anticipated today to allow for logistical planning and delegate registration."
-        },
-        {
-            "id": "20260618003",
-            "title": "Will HS2 Ltd today officially confirm the postponement of the Euston station redevelopment phase until 2027?",
+            "id": "20260619003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Powerhouse Rail' eastern leg?",
             "payout": 1.73,
-            "desc": "Amid ongoing budgetary concerns and reports of construction delays, industry insiders and several media outlets are reporting that an official statement regarding the timeline for the critical Euston hub is expected today, potentially confirming a significant deferral."
+            "desc": "Persistent rumours of significant funding shortfalls and a push to reallocate infrastructure budgets have intensified. Industry analysts and regional mayors are anticipating an update today, with many fearing the eastern leg of the high-speed rail project will be formally scrapped. (UK Transport Projects)"
         },
         {
-            "id": "20260618004",
-            "title": "Will the European Union (EU) today announce new targeted sanctions against officials linked to the recent political crackdown in Country X?",
-            "payout": 1.36,
-            "desc": "Following an emergency meeting of EU foreign ministers yesterday and increasing international pressure, sources close to the European Commission indicate that a package of new restrictive measures is finalised and an announcement is imminent today."
-        },
-        {
-            "id": "20260618005",
-            "title": "Will the UN Secretary-General today publicly call for an immediate and unconditional 72-hour ceasefire in Region W?",
+            "id": "20260619004",
+            "title": "Will the G7 leaders today release a joint statement condemning the recent military actions by Nation Y?",
             "payout": 1.46,
-            "desc": "After a recent escalation in hostilities and increasing civilian casualties, diplomatic efforts have intensified, and the Secretary-General's office is reportedly preparing a strong statement for release today, urging all parties to de-escalate immediately."
+            "desc": "As the G7 summit enters its final day, discussions are focused on the escalating conflict in the region involving Nation Y. Diplomatic sources indicate a strong consensus for a unified condemnation, and a final communiqu\u00e9 is anticipated before the summit concludes later today. (World Affairs)"
+        },
+        {
+            "id": "20260619005",
+            "title": "Will the International Red Cross today announce the successful negotiation of a temporary humanitarian corridor in War-torn Area Z?",
+            "payout": 2.38,
+            "desc": "For days, the ICRC has been mediating between warring factions to allow aid access to besieged populations. Spokespersons have hinted at significant progress, and a press briefing is scheduled for this afternoon, where an announcement regarding a breakthrough is highly anticipated. (Conflicts)"
         }
     ],
     "history": [
@@ -2151,7 +2151,47 @@
             "desc": "Negotiators have been working through the night to secure safe passage for vital supplies. A senior UN official stated this morning that an update on the convoy's progress was expected by close of day, following yesterday's breach of the ceasefire.",
             "result": "LOST",
             "settled_at": "2026-06-18"
+        },
+        {
+            "id": "20260618001",
+            "title": "Will the UK Government today confirm a specific new date for the planned reform of the social care system?",
+            "payout": 2.11,
+            "desc": "Following recent criticism over delays and an urgent question expected in Parliament, sources within Whitehall suggest the Secretary of State for Health and Social Care is under pressure to provide a definitive timeline for the long-awaited reforms.",
+            "result": "LOST",
+            "settled_at": "2026-06-19"
+        },
+        {
+            "id": "20260618002",
+            "title": "Will the Scottish National Party (SNP) today officially confirm the dates for its annual party conference?",
+            "payout": 1.58,
+            "desc": "With the summer recess approaching and recent internal discussions about party strategy, an official announcement regarding the dates and venue for the autumn conference is widely anticipated today to allow for logistical planning and delegate registration.",
+            "result": "WON",
+            "settled_at": "2026-06-19"
+        },
+        {
+            "id": "20260618003",
+            "title": "Will HS2 Ltd today officially confirm the postponement of the Euston station redevelopment phase until 2027?",
+            "payout": 1.73,
+            "desc": "Amid ongoing budgetary concerns and reports of construction delays, industry insiders and several media outlets are reporting that an official statement regarding the timeline for the critical Euston hub is expected today, potentially confirming a significant deferral.",
+            "result": "WON",
+            "settled_at": "2026-06-19"
+        },
+        {
+            "id": "20260618004",
+            "title": "Will the European Union (EU) today announce new targeted sanctions against officials linked to the recent political crackdown in Country X?",
+            "payout": 1.36,
+            "desc": "Following an emergency meeting of EU foreign ministers yesterday and increasing international pressure, sources close to the European Commission indicate that a package of new restrictive measures is finalised and an announcement is imminent today.",
+            "result": "WON",
+            "settled_at": "2026-06-19"
+        },
+        {
+            "id": "20260618005",
+            "title": "Will the UN Secretary-General today publicly call for an immediate and unconditional 72-hour ceasefire in Region W?",
+            "payout": 1.46,
+            "desc": "After a recent escalation in hostilities and increasing civilian casualties, diplomatic efforts have intensified, and the Secretary-General's office is reportedly preparing a strong statement for release today, urging all parties to de-escalate immediately.",
+            "result": "WON",
+            "settled_at": "2026-06-19"
         }
     ],
-    "last_update": "2026-06-18 02:48"
+    "last_update": "2026-06-19 03:32"
 }
