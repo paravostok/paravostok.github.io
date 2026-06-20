@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260619001",
-            "title": "Will a UK Government cabinet minister resign or be sacked from their post today?",
-            "payout": 2.58,
-            "desc": "Amidst heightened scrutiny over the government's recent legislative defeat and ongoing controversies regarding departmental spending, sources close to Downing Street suggest a decision regarding ministerial accountability could be made public today to regain public trust. (UK Politics)"
-        },
-        {
-            "id": "20260619002",
-            "title": "Will the Scottish Government today announce a new specific date for the implementation of its proposed National Care Service bill?",
+            "id": "20260620001",
+            "title": "Will the UK Home Secretary today announce a new independent review into recent policing controversies?",
             "payout": 2.11,
-            "desc": "After recent Holyrood committee hearings highlighted significant implementation challenges and a lack of a clear timeline, MSPs from opposition parties are demanding clarity. A press conference is scheduled for later today where the Social Care Minister is expected to address these concerns. (Scottish Politics)"
+            "desc": "Amid ongoing pressure following several high-profile incidents and calls from opposition parties, a spokesperson for the Home Office suggested an update on accountability measures is imminent, possibly addressing a forthcoming parliamentary question later today. (UK Politics)"
         },
         {
-            "id": "20260619003",
-            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Powerhouse Rail' eastern leg?",
+            "id": "20260620002",
+            "title": "Will the Scottish Green Party today confirm its withdrawal from the Bute House Agreement with the SNP?",
+            "payout": 3.17,
+            "desc": "Following recent disagreements over environmental policy and budget allocations, anonymous sources within the Scottish Parliament suggest discussions between the two parties are at a critical stage, with a definitive statement expected before the close of business today. (Scottish Politics)"
+        },
+        {
+            "id": "20260620003",
+            "title": "Will the Department for Transport today announce a new specific funding package for upgrades to the East Coast Main Line?",
             "payout": 1.73,
-            "desc": "Persistent rumours of significant funding shortfalls and a push to reallocate infrastructure budgets have intensified. Industry analysts and regional mayors are anticipating an update today, with many fearing the eastern leg of the high-speed rail project will be formally scrapped. (UK Transport Projects)"
+            "desc": "With infrastructure spending under renewed scrutiny after recent project discussions, and a commitment to 'levelling up' transport links, industry observers are predicting an announcement of new investment in existing crucial routes, potentially during a planned departmental briefing today. (UK Transport Projects)"
         },
         {
-            "id": "20260619004",
-            "title": "Will the G7 leaders today release a joint statement condemning the recent military actions by Nation Y?",
-            "payout": 1.46,
-            "desc": "As the G7 summit enters its final day, discussions are focused on the escalating conflict in the region involving Nation Y. Diplomatic sources indicate a strong consensus for a unified condemnation, and a final communiqu\u00e9 is anticipated before the summit concludes later today. (World Affairs)"
+            "id": "20260620004",
+            "title": "Will the European Union today formally announce new sanctions against high-ranking officials in Nation X for human rights abuses?",
+            "payout": 1.36,
+            "desc": "Diplomatic pressure has been mounting on Nation X following recent reports from human rights organisations. EU foreign ministers are meeting today, and a consensus on punitive measures is widely anticipated, with a press statement expected this afternoon. (World Affairs)"
         },
         {
-            "id": "20260619005",
-            "title": "Will the International Red Cross today announce the successful negotiation of a temporary humanitarian corridor in War-torn Area Z?",
-            "payout": 2.38,
-            "desc": "For days, the ICRC has been mediating between warring factions to allow aid access to besieged populations. Spokespersons have hinted at significant progress, and a press briefing is scheduled for this afternoon, where an announcement regarding a breakthrough is highly anticipated. (Conflicts)"
+            "id": "20260620005",
+            "title": "Will the UN Security Council today pass a resolution calling for an immediate ceasefire in the conflict in Region A?",
+            "payout": 1.58,
+            "desc": "Emergency sessions have been ongoing, and after intense negotiations between key member states, sources indicate that a draft resolution has garnered sufficient support to proceed to a vote today. A press conference is scheduled at UN headquarters post-vote. (Conflicts)"
         }
     ],
     "history": [
@@ -2191,7 +2191,47 @@
             "desc": "After a recent escalation in hostilities and increasing civilian casualties, diplomatic efforts have intensified, and the Secretary-General's office is reportedly preparing a strong statement for release today, urging all parties to de-escalate immediately.",
             "result": "WON",
             "settled_at": "2026-06-19"
+        },
+        {
+            "id": "20260619001",
+            "title": "Will a UK Government cabinet minister resign or be sacked from their post today?",
+            "payout": 2.58,
+            "desc": "Amidst heightened scrutiny over the government's recent legislative defeat and ongoing controversies regarding departmental spending, sources close to Downing Street suggest a decision regarding ministerial accountability could be made public today to regain public trust. (UK Politics)",
+            "result": "LOST",
+            "settled_at": "2026-06-20"
+        },
+        {
+            "id": "20260619002",
+            "title": "Will the Scottish Government today announce a new specific date for the implementation of its proposed National Care Service bill?",
+            "payout": 2.11,
+            "desc": "After recent Holyrood committee hearings highlighted significant implementation challenges and a lack of a clear timeline, MSPs from opposition parties are demanding clarity. A press conference is scheduled for later today where the Social Care Minister is expected to address these concerns. (Scottish Politics)",
+            "result": "LOST",
+            "settled_at": "2026-06-20"
+        },
+        {
+            "id": "20260619003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed 'Northern Powerhouse Rail' eastern leg?",
+            "payout": 1.73,
+            "desc": "Persistent rumours of significant funding shortfalls and a push to reallocate infrastructure budgets have intensified. Industry analysts and regional mayors are anticipating an update today, with many fearing the eastern leg of the high-speed rail project will be formally scrapped. (UK Transport Projects)",
+            "result": "WON",
+            "settled_at": "2026-06-20"
+        },
+        {
+            "id": "20260619004",
+            "title": "Will the G7 leaders today release a joint statement condemning the recent military actions by Nation Y?",
+            "payout": 1.46,
+            "desc": "As the G7 summit enters its final day, discussions are focused on the escalating conflict in the region involving Nation Y. Diplomatic sources indicate a strong consensus for a unified condemnation, and a final communiqu\u00e9 is anticipated before the summit concludes later today. (World Affairs)",
+            "result": "WON",
+            "settled_at": "2026-06-20"
+        },
+        {
+            "id": "20260619005",
+            "title": "Will the International Red Cross today announce the successful negotiation of a temporary humanitarian corridor in War-torn Area Z?",
+            "payout": 2.38,
+            "desc": "For days, the ICRC has been mediating between warring factions to allow aid access to besieged populations. Spokespersons have hinted at significant progress, and a press briefing is scheduled for this afternoon, where an announcement regarding a breakthrough is highly anticipated. (Conflicts)",
+            "result": "WON",
+            "settled_at": "2026-06-20"
         }
     ],
-    "last_update": "2026-06-19 03:32"
+    "last_update": "2026-06-20 02:37"
 }
