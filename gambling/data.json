@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260624001",
-            "title": "Will the UK Government today announce a delay to the proposed university tuition fee increase for the 2027 academic year?",
-            "payout": 2.38,
-            "desc": "Amidst growing student and opposition protests regarding the planned tuition fee hike, and reported internal government debates, a statement from the Department for Education addressing the timeline or details of the policy is widely anticipated today. (UK Politics)"
-        },
-        {
-            "id": "20260624002",
-            "title": "Will the Scottish First Minister today address recent calls for an independent review into the performance of NHS Scotland during a scheduled press conference?",
-            "payout": 1.58,
-            "desc": "Following a damning report on NHS Scotland's performance and mounting pressure from opposition parties and patient groups, the First Minister has a scheduled public appearance today, where she is expected to respond to demands for an independent inquiry into the health service. (Scottish Politics)"
-        },
-        {
-            "id": "20260624003",
-            "title": "Will the Department for Transport today confirm the cancellation of the proposed 'Cross-Pennine Tunnel' project?",
+            "id": "20260625001",
+            "title": "Will a UK Cabinet minister resign from their post today amidst ongoing scrutiny over policy X?",
             "payout": 2.71,
-            "desc": "Unconfirmed reports and leaks from within Whitehall suggest that the long-stalled Cross-Pennine Tunnel road project, facing significant cost overruns and environmental opposition, is set to be formally abandoned. An official announcement from the DfT is speculated to be imminent, possibly today. (UK Transport Projects)"
+            "desc": "Following intense media speculation and calls for accountability regarding the recent controversy surrounding the 'Green Homes Initiative', sources close to Downing Street suggest a high-profile resignation could be imminent, possibly within the next 24 hours to pre-empt a no-confidence vote. (UK Politics)"
         },
         {
-            "id": "20260624004",
-            "title": "Will the European Commission today announce new sanctions targeting specific individuals within Country X's government following recent human rights abuses?",
-            "payout": 1.73,
-            "desc": "Following yesterday's strong condemnation by the European Parliament and ongoing reports of human rights violations in Country X, diplomatic sources indicate that the European Commission has been fast-tracking discussions on targeted sanctions. An announcement on new restrictive measures is anticipated today. (World Affairs)"
+            "id": "20260625002",
+            "title": "Will the Scottish Government today officially confirm a target date for the introduction of the new National Care Service legislation?",
+            "payout": 1.58,
+            "desc": "Despite previous delays, the Minister for Social Care is scheduled to give a statement to Holyrood today on the progress of the National Care Service. Political commentators anticipate pressure to announce a concrete legislative timeline to reassure stakeholders and the public. (Scottish Politics)"
         },
         {
-            "id": "20260624005",
-            "title": "Will the warring factions in the protracted conflict in Country Z today agree to a 24-hour humanitarian ceasefire, as proposed by the UN?",
-            "payout": 3.8,
-            "desc": "Intense last-minute negotiations spearheaded by the UN special envoy are reportedly underway to secure a temporary humanitarian ceasefire in Country Z. With a critical aid convoy awaiting passage, an agreement for a 24-hour pause in hostilities is being pushed for by the end of today. (Conflicts)"
+            "id": "20260625003",
+            "title": "Will Heathrow Airport today officially announce a definitive start date for the construction of its proposed third runway?",
+            "payout": 1.9,
+            "desc": "With recent court approvals cleared and new funding secured, industry analysts believe Heathrow Airport management is poised to make a major announcement regarding the long-anticipated third runway. A definitive start date is widely expected to be confirmed today during a press briefing scheduled for late afternoon. (UK Transport Projects)"
+        },
+        {
+            "id": "20260625004",
+            "title": "Will the UN Security Council today pass a resolution condemning recent cross-border incursions by Country Y?",
+            "payout": 1.36,
+            "desc": "Emergency consultations of the UN Security Council have been ongoing for 48 hours following escalating tensions and alleged border violations by Country Y. Diplomats report a draft resolution is nearing agreement, and a vote is expected today to issue a formal condemnation. (World Affairs)"
+        },
+        {
+            "id": "20260625005",
+            "title": "Will the leader of the rebel group in Country K today release a statement accepting the terms of the regional peace initiative?",
+            "payout": 2.38,
+            "desc": "Following intense diplomatic pressure and a reported breakthrough in overnight negotiations, mediators have indicated that the leader of the main rebel faction in Country K is close to agreeing to the proposed regional peace framework. A public declaration of acceptance is being sought before the end of the day to solidify the agreement. (Conflicts)"
         }
     ],
     "history": [
@@ -2311,7 +2311,47 @@
             "desc": "After intensive shuttle diplomacy and reports of tentative agreements on a framework for dialogue, the special envoy has signaled a potential breakthrough. A press briefing is scheduled, where an announcement of a concrete date for the next round of negotiations is widely expected. (Conflicts)",
             "result": "LOST",
             "settled_at": "2026-06-24"
+        },
+        {
+            "id": "20260624001",
+            "title": "Will the UK Government today announce a delay to the proposed university tuition fee increase for the 2027 academic year?",
+            "payout": 2.38,
+            "desc": "Amidst growing student and opposition protests regarding the planned tuition fee hike, and reported internal government debates, a statement from the Department for Education addressing the timeline or details of the policy is widely anticipated today. (UK Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-25"
+        },
+        {
+            "id": "20260624002",
+            "title": "Will the Scottish First Minister today address recent calls for an independent review into the performance of NHS Scotland during a scheduled press conference?",
+            "payout": 1.58,
+            "desc": "Following a damning report on NHS Scotland's performance and mounting pressure from opposition parties and patient groups, the First Minister has a scheduled public appearance today, where she is expected to respond to demands for an independent inquiry into the health service. (Scottish Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-25"
+        },
+        {
+            "id": "20260624003",
+            "title": "Will the Department for Transport today confirm the cancellation of the proposed 'Cross-Pennine Tunnel' project?",
+            "payout": 2.71,
+            "desc": "Unconfirmed reports and leaks from within Whitehall suggest that the long-stalled Cross-Pennine Tunnel road project, facing significant cost overruns and environmental opposition, is set to be formally abandoned. An official announcement from the DfT is speculated to be imminent, possibly today. (UK Transport Projects)",
+            "result": "LOST",
+            "settled_at": "2026-06-25"
+        },
+        {
+            "id": "20260624004",
+            "title": "Will the European Commission today announce new sanctions targeting specific individuals within Country X's government following recent human rights abuses?",
+            "payout": 1.73,
+            "desc": "Following yesterday's strong condemnation by the European Parliament and ongoing reports of human rights violations in Country X, diplomatic sources indicate that the European Commission has been fast-tracking discussions on targeted sanctions. An announcement on new restrictive measures is anticipated today. (World Affairs)",
+            "result": "WON",
+            "settled_at": "2026-06-25"
+        },
+        {
+            "id": "20260624005",
+            "title": "Will the warring factions in the protracted conflict in Country Z today agree to a 24-hour humanitarian ceasefire, as proposed by the UN?",
+            "payout": 3.8,
+            "desc": "Intense last-minute negotiations spearheaded by the UN special envoy are reportedly underway to secure a temporary humanitarian ceasefire in Country Z. With a critical aid convoy awaiting passage, an agreement for a 24-hour pause in hostilities is being pushed for by the end of today. (Conflicts)",
+            "result": "LOST",
+            "settled_at": "2026-06-25"
         }
     ],
-    "last_update": "2026-06-24 02:32"
+    "last_update": "2026-06-25 02:33"
 }
