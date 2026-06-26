@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260625001",
-            "title": "Will a UK Cabinet minister resign from their post today amidst ongoing scrutiny over policy X?",
-            "payout": 2.71,
-            "desc": "Following intense media speculation and calls for accountability regarding the recent controversy surrounding the 'Green Homes Initiative', sources close to Downing Street suggest a high-profile resignation could be imminent, possibly within the next 24 hours to pre-empt a no-confidence vote. (UK Politics)"
-        },
-        {
-            "id": "20260625002",
-            "title": "Will the Scottish Government today officially confirm a target date for the introduction of the new National Care Service legislation?",
+            "id": "20260626001",
+            "title": "Will the UK Home Secretary today announce new measures to tackle small boat crossings in the English Channel?",
             "payout": 1.58,
-            "desc": "Despite previous delays, the Minister for Social Care is scheduled to give a statement to Holyrood today on the progress of the National Care Service. Political commentators anticipate pressure to announce a concrete legislative timeline to reassure stakeholders and the public. (Scottish Politics)"
+            "desc": "Following recent leaked statistics indicating a surge in crossings and intense pressure from backbench MPs, government sources suggest the Home Secretary is preparing to unveil a new package of enforcement measures, possibly via an urgent parliamentary statement or press conference later today. (UK Politics)"
         },
         {
-            "id": "20260625003",
-            "title": "Will Heathrow Airport today officially announce a definitive start date for the construction of its proposed third runway?",
+            "id": "20260626002",
+            "title": "Will the Scottish Government today confirm details of its proposed independence referendum bill consultation period?",
             "payout": 1.9,
-            "desc": "With recent court approvals cleared and new funding secured, industry analysts believe Heathrow Airport management is poised to make a major announcement regarding the long-anticipated third runway. A definitive start date is widely expected to be confirmed today during a press briefing scheduled for late afternoon. (UK Transport Projects)"
+            "desc": "The First Minister is scheduled to address Holyrood later today, with political commentators anticipating a move to outline the next steps for constitutional reform, including a concrete timeline for public consultation on a draft independence referendum bill. (Scottish Politics)"
         },
         {
-            "id": "20260625004",
-            "title": "Will the UN Security Council today pass a resolution condemning recent cross-border incursions by Country Y?",
+            "id": "20260626003",
+            "title": "Will Transport for London (TfL) today officially announce a fare increase for the London Underground and bus network?",
             "payout": 1.36,
-            "desc": "Emergency consultations of the UN Security Council have been ongoing for 48 hours following escalating tensions and alleged border violations by Country Y. Diplomats report a draft resolution is nearing agreement, and a vote is expected today to issue a formal condemnation. (World Affairs)"
+            "desc": "Ahead of a critical funding review and facing inflationary pressures, sources within City Hall suggest a statement regarding future fares is imminent, possibly before the end of the business day, to balance the transport authority's budget. (UK Transport Projects)"
         },
         {
-            "id": "20260625005",
-            "title": "Will the leader of the rebel group in Country K today release a statement accepting the terms of the regional peace initiative?",
-            "payout": 2.38,
-            "desc": "Following intense diplomatic pressure and a reported breakthrough in overnight negotiations, mediators have indicated that the leader of the main rebel faction in Country K is close to agreeing to the proposed regional peace framework. A public declaration of acceptance is being sought before the end of the day to solidify the agreement. (Conflicts)"
+            "id": "20260626004",
+            "title": "Will the EU Commission today initiate formal infringement proceedings against Member State X over rule of law concerns?",
+            "payout": 1.73,
+            "desc": "After weeks of escalating rhetoric and unmet deadlines regarding judicial reforms in Member State X, reports from Brussels indicate the Commission could take decisive action today following an emergency meeting of Commissioners, moving beyond mere warnings. (World Affairs)"
+        },
+        {
+            "id": "20260626005",
+            "title": "Will the warring factions in Country L today confirm a 72-hour humanitarian truce brokered by international observers?",
+            "payout": 2.11,
+            "desc": "Mediators have expressed optimism following overnight talks, suggesting an agreement on a temporary cessation of hostilities for aid delivery is close to being finalised and announced publicly today, providing a much-needed window for humanitarian access. (Conflicts)"
         }
     ],
     "history": [
@@ -2351,7 +2351,47 @@
             "desc": "Intense last-minute negotiations spearheaded by the UN special envoy are reportedly underway to secure a temporary humanitarian ceasefire in Country Z. With a critical aid convoy awaiting passage, an agreement for a 24-hour pause in hostilities is being pushed for by the end of today. (Conflicts)",
             "result": "LOST",
             "settled_at": "2026-06-25"
+        },
+        {
+            "id": "20260625001",
+            "title": "Will a UK Cabinet minister resign from their post today amidst ongoing scrutiny over policy X?",
+            "payout": 2.71,
+            "desc": "Following intense media speculation and calls for accountability regarding the recent controversy surrounding the 'Green Homes Initiative', sources close to Downing Street suggest a high-profile resignation could be imminent, possibly within the next 24 hours to pre-empt a no-confidence vote. (UK Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-26"
+        },
+        {
+            "id": "20260625002",
+            "title": "Will the Scottish Government today officially confirm a target date for the introduction of the new National Care Service legislation?",
+            "payout": 1.58,
+            "desc": "Despite previous delays, the Minister for Social Care is scheduled to give a statement to Holyrood today on the progress of the National Care Service. Political commentators anticipate pressure to announce a concrete legislative timeline to reassure stakeholders and the public. (Scottish Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-26"
+        },
+        {
+            "id": "20260625003",
+            "title": "Will Heathrow Airport today officially announce a definitive start date for the construction of its proposed third runway?",
+            "payout": 1.9,
+            "desc": "With recent court approvals cleared and new funding secured, industry analysts believe Heathrow Airport management is poised to make a major announcement regarding the long-anticipated third runway. A definitive start date is widely expected to be confirmed today during a press briefing scheduled for late afternoon. (UK Transport Projects)",
+            "result": "WON",
+            "settled_at": "2026-06-26"
+        },
+        {
+            "id": "20260625004",
+            "title": "Will the UN Security Council today pass a resolution condemning recent cross-border incursions by Country Y?",
+            "payout": 1.36,
+            "desc": "Emergency consultations of the UN Security Council have been ongoing for 48 hours following escalating tensions and alleged border violations by Country Y. Diplomats report a draft resolution is nearing agreement, and a vote is expected today to issue a formal condemnation. (World Affairs)",
+            "result": "LOST",
+            "settled_at": "2026-06-26"
+        },
+        {
+            "id": "20260625005",
+            "title": "Will the leader of the rebel group in Country K today release a statement accepting the terms of the regional peace initiative?",
+            "payout": 2.38,
+            "desc": "Following intense diplomatic pressure and a reported breakthrough in overnight negotiations, mediators have indicated that the leader of the main rebel faction in Country K is close to agreeing to the proposed regional peace framework. A public declaration of acceptance is being sought before the end of the day to solidify the agreement. (Conflicts)",
+            "result": "LOST",
+            "settled_at": "2026-06-26"
         }
     ],
-    "last_update": "2026-06-25 02:33"
+    "last_update": "2026-06-26 02:36"
 }
