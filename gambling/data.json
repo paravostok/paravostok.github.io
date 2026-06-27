@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260626001",
-            "title": "Will the UK Home Secretary today announce new measures to tackle small boat crossings in the English Channel?",
+            "id": "20260627001",
+            "title": "Will a UK Cabinet Minister today resign or be removed from their post?",
+            "payout": 2.38,
+            "desc": "Intense speculation is mounting around potential changes within the government, following recent media reports on policy disagreements and backbench discontent. Downing Street sources are reportedly preparing for an announcement before the close of business, possibly indicating a reshuffle or departure. (UK Politics)"
+        },
+        {
+            "id": "20260627002",
+            "title": "Will the Scottish Parliament today pass the final stage of the proposed Social Care Reform Bill?",
+            "payout": 1.29,
+            "desc": "The Scottish Government's flagship Social Care Reform Bill is scheduled for its crucial final vote this afternoon in Holyrood. Following extensive debate and minor amendments in recent days, party whips are confident of securing its passage, with a result expected before Parliament adjourns. (Scottish Politics)"
+        },
+        {
+            "id": "20260627003",
+            "title": "Will Transport for London (TfL) today confirm the cancellation of the proposed Bakerloo Line extension beyond Lewisham?",
             "payout": 1.58,
-            "desc": "Following recent leaked statistics indicating a surge in crossings and intense pressure from backbench MPs, government sources suggest the Home Secretary is preparing to unveil a new package of enforcement measures, possibly via an urgent parliamentary statement or press conference later today. (UK Politics)"
+            "desc": "Amid ongoing financial pressures and a strategic review of major infrastructure projects, City Hall sources are suggesting an official announcement regarding the future of the Bakerloo Line extension is imminent. A decision to scrap the project is widely anticipated, possibly in a statement later today. (UK Transport Projects)"
         },
         {
-            "id": "20260626002",
-            "title": "Will the Scottish Government today confirm details of its proposed independence referendum bill consultation period?",
+            "id": "20260627004",
+            "title": "Will the United Nations Security Council today vote on a new resolution imposing sanctions on Country Y for its recent aggression?",
             "payout": 1.9,
-            "desc": "The First Minister is scheduled to address Holyrood later today, with political commentators anticipating a move to outline the next steps for constitutional reform, including a concrete timeline for public consultation on a draft independence referendum bill. (Scottish Politics)"
+            "desc": "Following an emergency session and overnight negotiations, a draft resolution concerning Country Y's recent military actions has been finalised. Diplomats anticipate a vote in the Security Council this afternoon, with strong backing from several permanent members despite potential veto threats. (World Affairs)"
         },
         {
-            "id": "20260626003",
-            "title": "Will Transport for London (TfL) today officially announce a fare increase for the London Underground and bus network?",
-            "payout": 1.36,
-            "desc": "Ahead of a critical funding review and facing inflationary pressures, sources within City Hall suggest a statement regarding future fares is imminent, possibly before the end of the business day, to balance the transport authority's budget. (UK Transport Projects)"
-        },
-        {
-            "id": "20260626004",
-            "title": "Will the EU Commission today initiate formal infringement proceedings against Member State X over rule of law concerns?",
-            "payout": 1.73,
-            "desc": "After weeks of escalating rhetoric and unmet deadlines regarding judicial reforms in Member State X, reports from Brussels indicate the Commission could take decisive action today following an emergency meeting of Commissioners, moving beyond mere warnings. (World Affairs)"
-        },
-        {
-            "id": "20260626005",
-            "title": "Will the warring factions in Country L today confirm a 72-hour humanitarian truce brokered by international observers?",
-            "payout": 2.11,
-            "desc": "Mediators have expressed optimism following overnight talks, suggesting an agreement on a temporary cessation of hostilities for aid delivery is close to being finalised and announced publicly today, providing a much-needed window for humanitarian access. (Conflicts)"
+            "id": "20260627005",
+            "title": "Will Country Z and Rebel Group A today agree to a UN-supervised exchange of prisoners of war?",
+            "payout": 3.01,
+            "desc": "High-level, UN-backed talks aimed at de-escalating the conflict have been underway for 48 hours in a neutral location. Mediators have expressed cautious optimism, with sources close to the negotiations suggesting a final agreement on prisoner exchange terms is expected to be signed and announced publicly before the end of the day. (Conflicts)"
         }
     ],
     "history": [
@@ -2391,7 +2391,47 @@
             "desc": "Following intense diplomatic pressure and a reported breakthrough in overnight negotiations, mediators have indicated that the leader of the main rebel faction in Country K is close to agreeing to the proposed regional peace framework. A public declaration of acceptance is being sought before the end of the day to solidify the agreement. (Conflicts)",
             "result": "LOST",
             "settled_at": "2026-06-26"
+        },
+        {
+            "id": "20260626001",
+            "title": "Will the UK Home Secretary today announce new measures to tackle small boat crossings in the English Channel?",
+            "payout": 1.58,
+            "desc": "Following recent leaked statistics indicating a surge in crossings and intense pressure from backbench MPs, government sources suggest the Home Secretary is preparing to unveil a new package of enforcement measures, possibly via an urgent parliamentary statement or press conference later today. (UK Politics)",
+            "result": "LOST",
+            "settled_at": "2026-06-27"
+        },
+        {
+            "id": "20260626002",
+            "title": "Will the Scottish Government today confirm details of its proposed independence referendum bill consultation period?",
+            "payout": 1.9,
+            "desc": "The First Minister is scheduled to address Holyrood later today, with political commentators anticipating a move to outline the next steps for constitutional reform, including a concrete timeline for public consultation on a draft independence referendum bill. (Scottish Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-27"
+        },
+        {
+            "id": "20260626003",
+            "title": "Will Transport for London (TfL) today officially announce a fare increase for the London Underground and bus network?",
+            "payout": 1.36,
+            "desc": "Ahead of a critical funding review and facing inflationary pressures, sources within City Hall suggest a statement regarding future fares is imminent, possibly before the end of the business day, to balance the transport authority's budget. (UK Transport Projects)",
+            "result": "WON",
+            "settled_at": "2026-06-27"
+        },
+        {
+            "id": "20260626004",
+            "title": "Will the EU Commission today initiate formal infringement proceedings against Member State X over rule of law concerns?",
+            "payout": 1.73,
+            "desc": "After weeks of escalating rhetoric and unmet deadlines regarding judicial reforms in Member State X, reports from Brussels indicate the Commission could take decisive action today following an emergency meeting of Commissioners, moving beyond mere warnings. (World Affairs)",
+            "result": "WON",
+            "settled_at": "2026-06-27"
+        },
+        {
+            "id": "20260626005",
+            "title": "Will the warring factions in Country L today confirm a 72-hour humanitarian truce brokered by international observers?",
+            "payout": 2.11,
+            "desc": "Mediators have expressed optimism following overnight talks, suggesting an agreement on a temporary cessation of hostilities for aid delivery is close to being finalised and announced publicly today, providing a much-needed window for humanitarian access. (Conflicts)",
+            "result": "WON",
+            "settled_at": "2026-06-27"
         }
     ],
-    "last_update": "2026-06-26 02:36"
+    "last_update": "2026-06-27 02:29"
 }
