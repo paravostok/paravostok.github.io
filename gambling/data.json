@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260627001",
-            "title": "Will a UK Cabinet Minister today resign or be removed from their post?",
-            "payout": 2.38,
-            "desc": "Intense speculation is mounting around potential changes within the government, following recent media reports on policy disagreements and backbench discontent. Downing Street sources are reportedly preparing for an announcement before the close of business, possibly indicating a reshuffle or departure. (UK Politics)"
-        },
-        {
-            "id": "20260627002",
-            "title": "Will the Scottish Parliament today pass the final stage of the proposed Social Care Reform Bill?",
-            "payout": 1.29,
-            "desc": "The Scottish Government's flagship Social Care Reform Bill is scheduled for its crucial final vote this afternoon in Holyrood. Following extensive debate and minor amendments in recent days, party whips are confident of securing its passage, with a result expected before Parliament adjourns. (Scottish Politics)"
-        },
-        {
-            "id": "20260627003",
-            "title": "Will Transport for London (TfL) today confirm the cancellation of the proposed Bakerloo Line extension beyond Lewisham?",
+            "id": "20260628001",
+            "title": "Will the Secretary of State for Health and Social Care today announce new measures to address the NHS waiting list crisis?",
             "payout": 1.58,
-            "desc": "Amid ongoing financial pressures and a strategic review of major infrastructure projects, City Hall sources are suggesting an official announcement regarding the future of the Bakerloo Line extension is imminent. A decision to scrap the project is widely anticipated, possibly in a statement later today. (UK Transport Projects)"
+            "desc": "Following critical reports on NHS performance and calls for immediate action from opposition parties, the Secretary of State is expected to make a statement or announcement today. Downing Street sources suggest policy options have been prepared for immediate rollout. (UK Politics)"
         },
         {
-            "id": "20260627004",
-            "title": "Will the United Nations Security Council today vote on a new resolution imposing sanctions on Country Y for its recent aggression?",
-            "payout": 1.9,
-            "desc": "Following an emergency session and overnight negotiations, a draft resolution concerning Country Y's recent military actions has been finalised. Diplomats anticipate a vote in the Security Council this afternoon, with strong backing from several permanent members despite potential veto threats. (World Affairs)"
+            "id": "20260628002",
+            "title": "Will the Scottish Government today publish its official response to the consultation on stricter short-term let regulations?",
+            "payout": 1.72,
+            "desc": "The public consultation on controversial short-term let regulations closed last month, and industry bodies are anticipating the government's official response and implementation timeline. Sources close to Holyrood suggest an update is prepared for release today. (Scottish Politics)"
         },
         {
-            "id": "20260627005",
-            "title": "Will Country Z and Rebel Group A today agree to a UN-supervised exchange of prisoners of war?",
-            "payout": 3.01,
-            "desc": "High-level, UN-backed talks aimed at de-escalating the conflict have been underway for 48 hours in a neutral location. Mediators have expressed cautious optimism, with sources close to the negotiations suggesting a final agreement on prisoner exchange terms is expected to be signed and announced publicly before the end of the day. (Conflicts)"
+            "id": "20260628003",
+            "title": "Will the Department for Transport today confirm the allocation of additional funding for the Northern Powerhouse Rail project's Manchester-Leeds leg?",
+            "payout": 2.38,
+            "desc": "Following recent lobbying from Northern Mayors and renewed calls for infrastructure investment, the Department for Transport is under pressure to commit to further phases of Northern Powerhouse Rail. A statement on funding allocations for key projects is rumoured for later today. (UK Transport Projects)"
+        },
+        {
+            "id": "20260628004",
+            "title": "Will the G7 leaders, meeting in Tokyo, today issue a joint statement condemning the recent cyberattacks attributed to State X?",
+            "payout": 1.36,
+            "desc": "G7 leaders are gathered for their final day of talks in Tokyo. Following a surge in cyberattacks across member states, sources indicate that a strong, unified condemnation of State X is high on the agenda for their concluding joint communiqu\u00e9, expected to be released today. (World Affairs)"
+        },
+        {
+            "id": "20260628005",
+            "title": "Will the warring parties in the ongoing conflict in Region Y today agree to a 24-hour humanitarian ceasefire, facilitated by UN mediators?",
+            "payout": 2.71,
+            "desc": "Intense diplomatic efforts are underway to secure a temporary halt in hostilities to allow aid delivery. UN special envoy remarks hinted at progress overnight, with a push to secure a short-term ceasefire agreement for today, though challenges remain. (Conflicts)"
         }
     ],
     "history": [
@@ -2431,7 +2431,47 @@
             "desc": "Mediators have expressed optimism following overnight talks, suggesting an agreement on a temporary cessation of hostilities for aid delivery is close to being finalised and announced publicly today, providing a much-needed window for humanitarian access. (Conflicts)",
             "result": "WON",
             "settled_at": "2026-06-27"
+        },
+        {
+            "id": "20260627001",
+            "title": "Will a UK Cabinet Minister today resign or be removed from their post?",
+            "payout": 2.38,
+            "desc": "Intense speculation is mounting around potential changes within the government, following recent media reports on policy disagreements and backbench discontent. Downing Street sources are reportedly preparing for an announcement before the close of business, possibly indicating a reshuffle or departure. (UK Politics)",
+            "result": "LOST",
+            "settled_at": "2026-06-28"
+        },
+        {
+            "id": "20260627002",
+            "title": "Will the Scottish Parliament today pass the final stage of the proposed Social Care Reform Bill?",
+            "payout": 1.29,
+            "desc": "The Scottish Government's flagship Social Care Reform Bill is scheduled for its crucial final vote this afternoon in Holyrood. Following extensive debate and minor amendments in recent days, party whips are confident of securing its passage, with a result expected before Parliament adjourns. (Scottish Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-28"
+        },
+        {
+            "id": "20260627003",
+            "title": "Will Transport for London (TfL) today confirm the cancellation of the proposed Bakerloo Line extension beyond Lewisham?",
+            "payout": 1.58,
+            "desc": "Amid ongoing financial pressures and a strategic review of major infrastructure projects, City Hall sources are suggesting an official announcement regarding the future of the Bakerloo Line extension is imminent. A decision to scrap the project is widely anticipated, possibly in a statement later today. (UK Transport Projects)",
+            "result": "LOST",
+            "settled_at": "2026-06-28"
+        },
+        {
+            "id": "20260627004",
+            "title": "Will the United Nations Security Council today vote on a new resolution imposing sanctions on Country Y for its recent aggression?",
+            "payout": 1.9,
+            "desc": "Following an emergency session and overnight negotiations, a draft resolution concerning Country Y's recent military actions has been finalised. Diplomats anticipate a vote in the Security Council this afternoon, with strong backing from several permanent members despite potential veto threats. (World Affairs)",
+            "result": "WON",
+            "settled_at": "2026-06-28"
+        },
+        {
+            "id": "20260627005",
+            "title": "Will Country Z and Rebel Group A today agree to a UN-supervised exchange of prisoners of war?",
+            "payout": 3.01,
+            "desc": "High-level, UN-backed talks aimed at de-escalating the conflict have been underway for 48 hours in a neutral location. Mediators have expressed cautious optimism, with sources close to the negotiations suggesting a final agreement on prisoner exchange terms is expected to be signed and announced publicly before the end of the day. (Conflicts)",
+            "result": "LOST",
+            "settled_at": "2026-06-28"
         }
     ],
-    "last_update": "2026-06-27 02:29"
+    "last_update": "2026-06-28 02:41"
 }
