@@ -6,6 +6,7 @@
   <title>City Map Trivia Quiz</title>
   <link rel="stylesheet" href="../style.css">
   <style>
+    /* Layout & Centering */
     body {
       font-family: inherit;
       background-color: #fcfbfa;
@@ -16,16 +17,35 @@
       align-items: center;
       min-height: 100vh;
     }
+    
     .quiz-wrapper {
       width: 100%;
-      max-width: 850px; 
+      max-width: 900px; /* Slightly widened to accommodate the new sidebar */
     }
+    
     .text-center {
       text-align: center;
     }
+
     .hidden {
       display: none !important;
     }
+
+    /* New Flex Layout for Map and Sidebar */
+    .map-layout {
+      display: flex;
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    .map-container {
+      flex: 1;
+      background: #fff; 
+      padding: 15px; 
+      border-radius: 8px; 
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+    }
+
     .map-display {
       width: 100%;
       max-height: 65vh; 
@@ -33,6 +53,53 @@
       border-radius: 8px;
       display: block;
       margin: 0 auto;
+    }
+
+    /* Live Stats Sidebar Styling */
+    .stats-sidebar {
+      width: 130px;
+      background: #fff;
+      padding: 20px 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .stat-block {
+      margin-bottom: 20px;
+    }
+
+    .stat-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #7f8c8d;
+      margin: 0 0 5px 0;
+    }
+
+    .stat-number {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    /* Responsive check for smaller screens */
+    @media (max-width: 700px) {
+      .map-layout {
+        flex-direction: column;
+      }
+      .stats-sidebar {
+        width: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+      }
+      .stat-block {
+        margin-bottom: 0;
+      }
     }
   </style>
 </head>
@@ -52,16 +119,34 @@
     </div>
 
     <div id="question-screen" class="hidden">
+      
       <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
         <span class="read-more" style="cursor: pointer;" onclick="resetQuiz()">Quit Game</span>
       </div>
       
-      <div style="background: #fff; padding: 15px; border-radius: 8px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05);">
-        <img id="map-image" src="" alt="Unlabelled city road map" class="map-display">
+      <div class="map-layout">
+        <div class="map-container">
+          <img id="map-image" src="" alt="Unlabelled city road map" class="map-display">
+        </div>
+        
+        <div class="stats-sidebar">
+          <div class="stat-block">
+            <p class="stat-title">Correct</p>
+            <p class="stat-number" id="stat-correct" style="color: #27ae60;">0</p>
+          </div>
+          <div class="stat-block">
+            <p class="stat-title">Failed</p>
+            <p class="stat-number" id="stat-failed" style="color: #e74c3c;">0</p>
+          </div>
+          <div style="border-top: 1px solid #eee; padding-top: 20px;" class="stat-block">
+            <p class="stat-title">Accuracy</p>
+            <p class="stat-number" id="stat-percent" style="color: #2c3e50;">0%</p>
+          </div>
+        </div>
       </div>
       
       <div style="margin-top: 25px; text-align: center;">
-        <p class="post-excerpt" id="tries-tracker" style="font-weight: bold; color: #2c3e50; margin-bottom: 10px;">Tries left: 4</p>
+        <p class="post-excerpt" id="tries-tracker" style="font-weight: bold; color: #2c3e50; margin-bottom: 10px;">Tries left: 3</p>
 
         <div id="input-area">
           <input type="text" id="user-answer" class="bet-input" style="width: 50%; max-width: 260px;" placeholder="Enter city name..." autocomplete="off">
@@ -73,7 +158,7 @@
         
         <div id="feedback-area" class="hidden" style="margin-top: 15px; padding: 10px; border-radius: 6px;">
           <p id="feedback-text" style="font-weight: bold; margin: 0;"></p>
-          <button class="bet-button" id="next-btn" style="margin-top: 12px; margin-left: 0;" onclick="nextQuestion()">Continue</button>
+          <button class="bet-button" id="next-btn" style="margin-top: 12px; margin-left: 0;" onclick="nextQuestion()">Next Map</button>
         </div>
       </div>
     </div>
@@ -81,7 +166,7 @@
     <div id="results-screen" class="hidden" style="text-align: center;">
       <h2 class="post-title">Quiz Complete!</h2>
       <div class="balance-banner" style="margin: 20px auto; max-width: 280px;">
-        <span style="font-size: 1.2rem;">Your Score: <span id="final-score">0</span></span>
+        <span style="font-size: 1.2rem;">Final Score: <span id="final-score">0</span></span>
       </div>
       <p class="post-excerpt" id="results-feedback"></p>
       <button class="bet-button" onclick="resetQuiz()" style="margin-top: 10px;">Play Again</button>
@@ -96,12 +181,15 @@
   let quizDatabase = {}; 
   let currentQuestions = [];
   let currentQuestionIndex = 0;
-  let score = 0;
   
-  let maxTries = 4;
-  let triesLeft = 4;
+  // Game state variables
+  let triesLeft = 3;
   let availableHints = [];
-  let isTransitioning = false; // State lock to prevent phantom double-clicks
+  let isProcessing = false;
+  
+  // Tracking Variables for Sidebar
+  let correctCount = 0;
+  let failedCount = 0;
 
   window.addEventListener('DOMContentLoaded', () => {
     fetch('quizData.json')
@@ -119,7 +207,11 @@
 
     currentQuestions = [...maps];
     currentQuestionIndex = 0;
-    score = 0;
+    
+    // Reset live stats on new game
+    correctCount = 0;
+    failedCount = 0;
+    updateStatsUI();
 
     document.getElementById('category-screen').classList.add('hidden');
     document.getElementById('question-screen').classList.remove('hidden');
@@ -129,19 +221,19 @@
   }
 
   function loadQuestion() {
-    isTransitioning = false; // Release input lock
+    isProcessing = false;
     const currentQuestion = currentQuestions[currentQuestionIndex];
-    
     document.getElementById('map-image').src = currentQuestion.image;
 
-    triesLeft = maxTries;
+    // Reset tries exactly to 3
+    triesLeft = 3;
     document.getElementById('tries-tracker').innerText = `Tries left: ${triesLeft}`;
     document.getElementById('tries-tracker').style.color = "#2c3e50"; 
     
     availableHints = [...currentQuestion.hints];
     document.getElementById('hints-container').innerHTML = '';
 
-    // Immediately display Hint #1 on map load
+    // Immediately reveal the first hint on load
     revealRandomHint();
 
     const textInput = document.getElementById('user-answer');
@@ -153,16 +245,16 @@
     document.getElementById('feedback-area').classList.add('hidden');
     
     textInput.onkeydown = function(e) {
-      if (e.key === 'Enter' && !isTransitioning) {
-        e.preventDefault();
+      if (e.key === 'Enter') {
+        e.preventDefault(); 
         checkAnswer();
       }
     };
   }
 
   function checkAnswer() {
-    if (isTransitioning) return; // Block accidental double triggers
-
+    if (isProcessing) return; 
+    
     const userRaw = document.getElementById('user-answer').value;
     const cleanedUserAnswer = userRaw.trim().toLowerCase();
 
@@ -175,10 +267,10 @@
     const isCorrect = currentQuestion.answers.includes(cleanedUserAnswer);
 
     if (isCorrect) {
-      score++;
-      const attemptsUsed = (maxTries - triesLeft) + 1;
-      const tryWord = attemptsUsed === 1 ? "try" : "tries";
-      endQuestionState(true, `Spot on! You got the correct answer in ${attemptsUsed} ${tryWord}!`);
+      // Calculate how many tries were used (e.g., 3 left = 1 try taken)
+      let triesTaken = 3 - triesLeft + 1; 
+      let tryWord = triesTaken === 1 ? "try" : "tries";
+      endQuestionState(true, `Correct! You got the correct answer in ${triesTaken} ${tryWord}!`);
     } else {
       triesLeft--;
       if (triesLeft > 0) {
@@ -188,6 +280,7 @@
         document.getElementById('tries-tracker').style.color = "#e74c3c";
         revealRandomHint();
       } else {
+        document.getElementById('tries-tracker').innerText = `Tries left: 0`;
         endQuestionState(false, "Out of tries!");
       }
     }
@@ -210,13 +303,13 @@
   }
 
   function skipQuestion() {
-    if (isTransitioning) return;
+    if (isProcessing) return;
+    document.getElementById('tries-tracker').innerText = `Tries left: 0`;
     endQuestionState(false, "Skipped question.");
   }
 
   function endQuestionState(wasCorrect, customTextMessage) {
-    isTransitioning = true; // Lock the question state down
-
+    isProcessing = true; 
     document.getElementById('user-answer').disabled = true;
     document.getElementById('input-area').classList.add('hidden');
     
@@ -228,22 +321,33 @@
     const primaryCorrectAnswer = currentQuestion.answers[0].replace(/\b\w/g, c => c.toUpperCase());
 
     if (wasCorrect) {
+      correctCount++;
       feedbackText.innerText = customTextMessage;
       feedbackText.style.color = "#27ae60"; 
     } else {
+      failedCount++;
       feedbackText.innerText = `${customTextMessage} It was ${primaryCorrectAnswer}.`;
       feedbackText.style.color = "#e74c3c"; 
     }
+    
+    updateStatsUI();
+  }
 
-    // Safely shift focus to Continue without firing keyboard click events
-    setTimeout(() => {
-      document.getElementById('next-btn').focus();
-    }, 50);
+  function updateStatsUI() {
+    document.getElementById('stat-correct').innerText = correctCount;
+    document.getElementById('stat-failed').innerText = failedCount;
+    
+    const totalAttempted = correctCount + failedCount;
+    if (totalAttempted === 0) {
+      document.getElementById('stat-percent').innerText = "0%";
+    } else {
+      const percentage = Math.round((correctCount / totalAttempted) * 100);
+      document.getElementById('stat-percent').innerText = `${percentage}%`;
+    }
   }
 
   function nextQuestion() {
-    if (!isTransitioning) return;
-    
+    document.getElementById('feedback-area').classList.add('hidden'); 
     currentQuestionIndex++;
     if (currentQuestionIndex < currentQuestions.length) {
       loadQuestion();
@@ -256,10 +360,11 @@
     document.getElementById('question-screen').classList.add('hidden');
     document.getElementById('results-screen').classList.remove('hidden');
     
-    document.getElementById('final-score').innerText = `${score} / ${currentQuestions.length}`;
+    document.getElementById('final-score').innerText = `${correctCount} / ${currentQuestions.length}`;
     
     const feedbackText = document.getElementById('results-feedback');
-    const percentage = (score / currentQuestions.length) * 100;
+    const totalAttempted = correctCount + failedCount;
+    const percentage = totalAttempted === 0 ? 0 : (correctCount / totalAttempted) * 100;
 
     if (percentage === 100) {
       feedbackText.innerText = "Flawless! Complete mastery of the network lines.";
@@ -271,7 +376,6 @@
   }
 
   function resetQuiz() {
-    isTransitioning = false;
     document.getElementById('category-screen').classList.remove('hidden');
     document.getElementById('question-screen').classList.add('hidden');
     document.getElementById('results-screen').classList.add('hidden');
