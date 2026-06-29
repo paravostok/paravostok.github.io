@@ -4,21 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>city map trivia quiz</title>
-  <link rel="icon" type="image/png" href="../assets/favicon.png">
   <link rel="stylesheet" href="../style.css">
   <style>
-    body {
-      font-family: inherit;
-      background-color: #fcfbfa;
-      margin: 0;
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      text-transform: lowercase;
-    }
-    
+    body { font-family: inherit; background-color: #fcfbfa; margin: 0; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; text-transform: lowercase; }
     .quiz-wrapper { width: 100%; max-width: 900px; }
     .text-center { text-align: center; }
     .hidden { display: none !important; }
@@ -38,14 +26,10 @@
 <div class="quiz-wrapper">
   <div class="post-preview" id="quiz-container">
     
-    <div id="category-screen" class="text-center">
+    <div id="start-screen" class="text-center">
       <h2 class="post-title">city map trivia quiz</h2>
-      <p class="post-excerpt">select a region to test your geographic and transit layout knowledge:</p>
-      <div style="display: flex; gap: 15px; justify-content: center; margin-top: 25px; flex-wrap: wrap;">
-        <button class="bet-button" onclick="startQuiz('scotland')">scotland</button>
-        <button class="bet-button" onclick="startQuiz('uk')">rest of uk</button>
-        <button class="bet-button" onclick="startQuiz('international')">international</button>
-      </div>
+      <p class="post-excerpt">test your knowledge of scottish city road layouts.</p>
+      <button class="bet-button" style="margin-top: 25px;" onclick="startQuiz('scotland')">start quiz</button>
     </div>
 
     <div id="question-screen" class="hidden">
@@ -76,44 +60,55 @@
       
       <div style="margin-top: 25px; text-align: center;">
         <p class="post-excerpt" id="tries-tracker" style="font-weight: bold; margin-bottom: 10px;">tries left: 3</p>
-
         <div id="input-area">
           <input type="text" id="user-answer" class="bet-input" style="width: 50%; max-width: 260px;" placeholder="enter city name..." autocomplete="off">
           <button class="bet-button" id="submit-btn" onclick="checkAnswer()">submit</button>
           <button class="bet-button" id="skip-btn" style="background-color: #7f8c8d; margin-left: 5px;" onclick="skipQuestion()">skip</button>
         </div>
-
         <div id="hints-container" style="margin-top: 15px; text-align: left; background: rgba(0,0,0,0.02); padding: 0 15px; border-radius: 6px;"></div>
-        
         <div id="feedback-area" class="hidden" style="margin-top: 15px; padding: 10px; border-radius: 6px;">
           <p id="feedback-text" style="font-weight: bold; margin: 0;"></p>
           <button class="bet-button" id="next-btn" style="margin-top: 12px; margin-left: 0;" onclick="nextQuestion()">next map</button>
         </div>
       </div>
     </div>
-
-    <div id="results-screen" class="hidden" style="text-align: center;">
-      <h2 class="post-title">quiz complete!</h2>
-      <p class="post-excerpt" id="results-feedback"></p>
-      <button class="bet-button" onclick="resetQuiz()" style="margin-top: 10px;">play again</button>
-    </div>
   </div>
 </div>
 
 <script>
-  function revealRandomHint() {
-    if (availableHints.length === 0) return;
-    const randomIndex = Math.floor(Math.random() * availableHints.length);
-    const selectedHint = availableHints.splice(randomIndex, 1)[0];
-    const hintContainer = document.getElementById('hints-container');
-    const hintElement = document.createElement('p');
-    hintElement.className = "post-excerpt";
-    hintElement.style.fontStyle = "italic";
-    hintElement.style.margin = "8px 0";
-    hintElement.innerHTML = `hint: ${selectedHint}`; 
-    hintContainer.appendChild(hintElement);
-  }
-</script>
+  let quizDatabase = {}; 
+  let currentQuestions = [];
+  let currentQuestionIndex = 0;
+  let triesLeft = 3;
+  let correctCount = 0;
+  let failedCount = 0;
+  let isProcessing = false;
 
+  window.addEventListener('DOMContentLoaded', () => {
+    fetch('quizData.json')
+      .then(res => res.json())
+      .then(data => { quizDatabase = data; })
+      .catch(err => console.error("Database error:", err));
+  });
+
+  function startQuiz(category) {
+    currentQuestions = [...quizDatabase[category]];
+    for (let i = currentQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [currentQuestions[i], currentQuestions[j]] = [currentQuestions[j], currentQuestions[i]];
+    }
+    currentQuestionIndex = 0;
+    correctCount = 0; failedCount = 0;
+    updateStatsUI();
+    document.getElementById('start-screen').classList.add('hidden');
+    document.getElementById('question-screen').classList.remove('hidden');
+    loadQuestion();
+  }
+
+  function resetQuiz() {
+    location.reload();
+  }
+  
+</script>
 </body>
 </html>
