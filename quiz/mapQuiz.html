@@ -3,22 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>city map trivia quiz</title>
+  <title>City Map Trivia Quiz</title>
   <link rel="stylesheet" href="../style.css">
   <style>
-    body { font-family: inherit; background-color: #fcfbfa; margin: 0; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; text-transform: lowercase; }
-    .quiz-wrapper { width: 100%; max-width: 900px; }
-    .text-center { text-align: center; }
-    .hidden { display: none !important; }
+    /* Layout & Centering */
+    body {
+      font-family: inherit;
+      background-color: #fcfbfa;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    
+    .quiz-wrapper {
+      width: 100%;
+      max-width: 900px; /* Slightly widened to accommodate the new sidebar */
+    }
+    
+    .text-center {
+      text-align: center;
+    }
 
-    .map-layout { display: flex; gap: 20px; align-items: stretch; }
-    .map-container { flex: 1; background: #fff; padding: 15px; border-radius: 8px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05); }
-    .map-display { width: 100%; max-height: 65vh; object-fit: contain; border-radius: 8px; display: block; margin: 0 auto; }
+    .hidden {
+      display: none !important;
+    }
 
-    .stats-sidebar { width: 130px; background: #fff; padding: 20px 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); text-align: center; }
-    .stat-block { margin-bottom: 20px; }
-    .stat-title { font-size: 0.85rem; text-transform: lowercase; color: #7f8c8d; margin: 0 0 5px 0; }
-    .stat-number { font-size: 1.8rem; font-weight: bold; margin: 0; }
+    /* New Flex Layout for Map and Sidebar */
+    .map-layout {
+      display: flex;
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    .map-container {
+      flex: 1;
+      background: #fff; 
+      padding: 15px; 
+      border-radius: 8px; 
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+    }
+
+    .map-display {
+      width: 100%;
+      max-height: 65vh; 
+      object-fit: contain; 
+      border-radius: 8px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Live Stats Sidebar Styling */
+    .stats-sidebar {
+      width: 130px;
+      background: #fff;
+      padding: 20px 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .stat-block {
+      margin-bottom: 20px;
+    }
+
+    .stat-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #7f8c8d;
+      margin: 0 0 5px 0;
+    }
+
+    .stat-number {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    /* Responsive check for smaller screens */
+    @media (max-width: 700px) {
+      .map-layout {
+        flex-direction: column;
+      }
+      .stats-sidebar {
+        width: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+      }
+      .stat-block {
+        margin-bottom: 0;
+      }
+    }
   </style>
 </head>
 <body>
@@ -26,92 +108,293 @@
 <div class="quiz-wrapper">
   <div class="post-preview" id="quiz-container">
     
-    <div id="start-screen" class="hidden text-center">
-      <h2 class="post-title">city map trivia quiz</h2>
-      <p class="post-excerpt">test your knowledge of scottish city road layouts.</p>
-      <button class="bet-button" style="margin-top: 25px;" onclick="startQuiz('scotland')">start quiz</button>
+    <div id="category-screen" class="text-center">
+      <h2 class="post-title">City Map Trivia Quiz</h2>
+      <p class="post-excerpt">Select a region to test your geographic and transit layout knowledge:</p>
+      <div style="display: flex; gap: 15px; justify-content: center; margin-top: 25px; flex-wrap: wrap;">
+        <button class="bet-button" onclick="startQuiz('scotland')">Scotland</button>
+        <button class="bet-button" onclick="startQuiz('uk')">Rest of UK</button>
+        <button class="bet-button" onclick="startQuiz('international')">International</button>
+      </div>
     </div>
 
-    <div id="question-screen">
+    <div id="question-screen" class="hidden">
+      
       <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
-        <span class="read-more" style="cursor: pointer;" onclick="resetQuiz()">quit game</span>
+        <span class="read-more" style="cursor: pointer;" onclick="resetQuiz()">Quit Game</span>
       </div>
       
       <div class="map-layout">
         <div class="map-container">
-          <img id="map-image" src="" alt="unlabelled city road map" class="map-display">
+          <img id="map-image" src="" alt="Unlabelled city road map" class="map-display">
         </div>
         
         <div class="stats-sidebar">
           <div class="stat-block">
-            <p class="stat-title">correct</p>
-            <p class="stat-number" id="stat-correct">0</p>
+            <p class="stat-title">Correct</p>
+            <p class="stat-number" id="stat-correct" style="color: #27ae60;">0</p>
           </div>
           <div class="stat-block">
-            <p class="stat-title">incorrect</p>
-            <p class="stat-number" id="stat-failed">0</p>
+            <p class="stat-title">Failed</p>
+            <p class="stat-number" id="stat-failed" style="color: #e74c3c;">0</p>
           </div>
-          <div class="stat-block">
-            <p class="stat-title">accuracy</p>
-            <p class="stat-number" id="stat-percent">0%</p>
+          <div style="border-top: 1px solid #eee; padding-top: 20px;" class="stat-block">
+            <p class="stat-title">Accuracy</p>
+            <p class="stat-number" id="stat-percent" style="color: #2c3e50;">0%</p>
           </div>
         </div>
       </div>
       
       <div style="margin-top: 25px; text-align: center;">
-        <p class="post-excerpt" id="tries-tracker" style="font-weight: bold; margin-bottom: 10px;">tries left: 3</p>
+        <p class="post-excerpt" id="tries-tracker" style="font-weight: bold; color: #2c3e50; margin-bottom: 10px;">Tries left: 3</p>
+
         <div id="input-area">
-          <input type="text" id="user-answer" class="bet-input" style="width: 50%; max-width: 260px;" placeholder="enter city name..." autocomplete="off">
-          <button class="bet-button" id="submit-btn" onclick="checkAnswer()">submit</button>
-          <button class="bet-button" id="skip-btn" style="background-color: #7f8c8d; margin-left: 5px;" onclick="skipQuestion()">skip</button>
+          <input type="text" id="user-answer" class="bet-input" style="width: 50%; max-width: 260px;" placeholder="Enter city name..." autocomplete="off">
+          <button class="bet-button" id="submit-btn" onclick="checkAnswer()">Submit</button>
+          <button class="bet-button" id="skip-btn" style="background-color: #7f8c8d; margin-left: 5px;" onclick="skipQuestion()">Skip</button>
         </div>
+
         <div id="hints-container" style="margin-top: 15px; text-align: left; background: rgba(0,0,0,0.02); padding: 0 15px; border-radius: 6px;"></div>
+        
         <div id="feedback-area" class="hidden" style="margin-top: 15px; padding: 10px; border-radius: 6px;">
           <p id="feedback-text" style="font-weight: bold; margin: 0;"></p>
-          <button class="bet-button" id="next-btn" style="margin-top: 12px; margin-left: 0;" onclick="nextQuestion()">next map</button>
+          <button class="bet-button" id="next-btn" style="margin-top: 12px; margin-left: 0;" onclick="nextQuestion()">Next Map</button>
         </div>
       </div>
     </div>
+
+    <div id="results-screen" class="hidden" style="text-align: center;">
+      <h2 class="post-title">Quiz Complete!</h2>
+      <div class="balance-banner" style="margin: 20px auto; max-width: 280px;">
+        <span style="font-size: 1.2rem;">Final Score: <span id="final-score">0</span></span>
+      </div>
+      <p class="post-excerpt" id="results-feedback"></p>
+      <button class="bet-button" onclick="resetQuiz()" style="margin-top: 10px;">Play Again</button>
+    </div>
+
   </div>
 </div>
+
+<div id="quiz-toast" class="toast error">Please enter a guess!</div>
 
 <script>
   let quizDatabase = {}; 
   let currentQuestions = [];
   let currentQuestionIndex = 0;
+  
+  // Game state variables
   let triesLeft = 3;
+  let availableHints = [];
+  let isProcessing = false;
+  
+  // Tracking Variables for Sidebar
   let correctCount = 0;
   let failedCount = 0;
-  let isProcessing = false;
 
   window.addEventListener('DOMContentLoaded', () => {
     fetch('quizData.json')
-      .then(res => res.json())
-      .then(data => { 
-        quizDatabase = data;
-        startQuiz('scotland');
+      .then(res => {
+        if (!res.ok) throw new Error("Unable to locate quizData.json.");
+        return res.json();
       })
+      .then(data => { quizDatabase = data; })
       .catch(err => console.error("Database error:", err));
   });
 
-  function startQuiz(category) {
-    currentQuestions = [...quizDatabase[category]];
+function startQuiz(category) {
+    const maps = quizDatabase[category];
+    if (!maps || maps.length === 0) return;
+
+    // 1. Copy the array
+    currentQuestions = [...maps];
+    
+    // 2. Run the Fisher-Yates Shuffle on the copy
     for (let i = currentQuestions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [currentQuestions[i], currentQuestions[j]] = [currentQuestions[j], currentQuestions[i]];
     }
+
     currentQuestionIndex = 0;
-    correctCount = 0; failedCount = 0;
+    
+    // Reset live stats
+    correctCount = 0;
+    failedCount = 0;
     updateStatsUI();
-    document.getElementById('start-screen').classList.add('hidden');
+
+    document.getElementById('category-screen').classList.add('hidden');
     document.getElementById('question-screen').classList.remove('hidden');
+    document.getElementById('results-screen').classList.add('hidden');
+
     loadQuestion();
   }
 
-  function resetQuiz() {
-    location.reload();
+  function loadQuestion() {
+    isProcessing = false;
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    document.getElementById('map-image').src = currentQuestion.image;
+
+    // Reset tries exactly to 3
+    triesLeft = 3;
+    document.getElementById('tries-tracker').innerText = `Tries left: ${triesLeft}`;
+    document.getElementById('tries-tracker').style.color = "#2c3e50"; 
+    
+    availableHints = [...currentQuestion.hints];
+    document.getElementById('hints-container').innerHTML = '';
+
+    // Immediately reveal the first hint on load
+    revealRandomHint();
+
+    const textInput = document.getElementById('user-answer');
+    textInput.value = '';
+    textInput.disabled = false;
+    textInput.focus();
+
+    document.getElementById('input-area').classList.remove('hidden');
+    document.getElementById('feedback-area').classList.add('hidden');
+    
+    textInput.onkeydown = function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault(); 
+        checkAnswer();
+      }
+    };
   }
-  
+
+  function checkAnswer() {
+    if (isProcessing) return; 
+    
+    const userRaw = document.getElementById('user-answer').value;
+    const cleanedUserAnswer = userRaw.trim().toLowerCase();
+
+    if (!cleanedUserAnswer) {
+      showToast();
+      return;
+    }
+
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    const isCorrect = currentQuestion.answers.includes(cleanedUserAnswer);
+
+    if (isCorrect) {
+      // Calculate how many tries were used (e.g., 3 left = 1 try taken)
+      let triesTaken = 3 - triesLeft + 1; 
+      let tryWord = triesTaken === 1 ? "try" : "tries";
+      endQuestionState(true, `Correct! You got the correct answer in ${triesTaken} ${tryWord}!`);
+    } else {
+      triesLeft--;
+      if (triesLeft > 0) {
+        document.getElementById('user-answer').value = '';
+        document.getElementById('user-answer').focus();
+        document.getElementById('tries-tracker').innerText = `Tries left: ${triesLeft}`;
+        document.getElementById('tries-tracker').style.color = "#e74c3c";
+        revealRandomHint();
+      } else {
+        document.getElementById('tries-tracker').innerText = `Tries left: 0`;
+        endQuestionState(false, "Out of tries!");
+      }
+    }
+  }
+
+  function revealRandomHint() {
+    if (availableHints.length === 0) return;
+    
+    const randomIndex = Math.floor(Math.random() * availableHints.length);
+    const selectedHint = availableHints.splice(randomIndex, 1)[0];
+
+    const hintContainer = document.getElementById('hints-container');
+    const hintElement = document.createElement('p');
+    hintElement.className = "post-excerpt";
+    hintElement.style.fontStyle = "italic";
+    hintElement.style.margin = "8px 0";
+    hintElement.innerHTML = `💡 <strong>Hint:</strong> ${selectedHint}`;
+    
+    hintContainer.appendChild(hintElement);
+  }
+
+  function skipQuestion() {
+    if (isProcessing) return;
+    document.getElementById('tries-tracker').innerText = `Tries left: 0`;
+    endQuestionState(false, "Skipped question.");
+  }
+
+  function endQuestionState(wasCorrect, customTextMessage) {
+    isProcessing = true; 
+    document.getElementById('user-answer').disabled = true;
+    document.getElementById('input-area').classList.add('hidden');
+    
+    const feedbackArea = document.getElementById('feedback-area');
+    const feedbackText = document.getElementById('feedback-text');
+    feedbackArea.classList.remove('hidden');
+
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    const primaryCorrectAnswer = currentQuestion.answers[0].replace(/\b\w/g, c => c.toUpperCase());
+
+    if (wasCorrect) {
+      correctCount++;
+      feedbackText.innerText = customTextMessage;
+      feedbackText.style.color = "#27ae60"; 
+    } else {
+      failedCount++;
+      feedbackText.innerText = `${customTextMessage} It was ${primaryCorrectAnswer}.`;
+      feedbackText.style.color = "#e74c3c"; 
+    }
+    
+    updateStatsUI();
+  }
+
+  function updateStatsUI() {
+    document.getElementById('stat-correct').innerText = correctCount;
+    document.getElementById('stat-failed').innerText = failedCount;
+    
+    const totalAttempted = correctCount + failedCount;
+    if (totalAttempted === 0) {
+      document.getElementById('stat-percent').innerText = "0%";
+    } else {
+      const percentage = Math.round((correctCount / totalAttempted) * 100);
+      document.getElementById('stat-percent').innerText = `${percentage}%`;
+    }
+  }
+
+  function nextQuestion() {
+    document.getElementById('feedback-area').classList.add('hidden'); 
+    currentQuestionIndex++;
+    if (currentQuestionIndex < currentQuestions.length) {
+      loadQuestion();
+    } else {
+      showResults();
+    }
+  }
+
+  function showResults() {
+    document.getElementById('question-screen').classList.add('hidden');
+    document.getElementById('results-screen').classList.remove('hidden');
+    
+    document.getElementById('final-score').innerText = `${correctCount} / ${currentQuestions.length}`;
+    
+    const feedbackText = document.getElementById('results-feedback');
+    const totalAttempted = correctCount + failedCount;
+    const percentage = totalAttempted === 0 ? 0 : (correctCount / totalAttempted) * 100;
+
+    if (percentage === 100) {
+      feedbackText.innerText = "Flawless! Complete mastery of the network lines.";
+    } else if (percentage >= 60) {
+      feedbackText.innerText = "Solid effort. You've got an eye for urban topology.";
+    } else {
+      feedbackText.innerText = "Time to study the local system registries and trace some lines again.";
+    }
+  }
+
+  function resetQuiz() {
+    document.getElementById('category-screen').classList.remove('hidden');
+    document.getElementById('question-screen').classList.add('hidden');
+    document.getElementById('results-screen').classList.add('hidden');
+  }
+
+  function showToast() {
+    const toast = document.getElementById('quiz-toast');
+    toast.classList.add('show');
+    setTimeout(() => { toast.classList.remove('show'); }, 2500);
+  }
 </script>
+
 </body>
 </html>
