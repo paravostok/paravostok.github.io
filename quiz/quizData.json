@@ -1,0 +1,343 @@
+{
+  "scotland": [
+    {
+      "image": "../assets/cityMaps/scotland/aberdeen.png",
+      "answers": ["aberdeen", "city of aberdeen", "aberdeen city"],
+      "hints": ["Northeast of Scotland", "City and Shire", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/airdrie.png",
+      "answers": ["airdrie"],
+      "hints": ["North Lanarkshire", "Monklands", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/alloa.png",
+      "answers": ["alloa"],
+      "hints": ["Clackmannanshire", "On the River Forth", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/arbroath.png",
+      "answers": ["arbroath"],
+      "hints": ["Angus", "Famous Declaration", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/armadale.png",
+      "answers": ["armadale"],
+      "hints": ["West Lothian", "Formerly Barbauchlaw", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/ayr.png",
+      "answers": ["ayr"],
+      "hints": ["Ayrshire", "Robert Burns", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/bathgate.png",
+      "answers": ["bathgate"],
+      "hints": ["West Lothian", "Bruce's Daughter", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/bo_ness.png",
+      "answers": ["bo'ness", "borrowstounness"],
+      "hints": ["Little-known Contraction", "Formerly West Lothian", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/bonnyrigg.png",
+      "answers": ["bonnyrigg"],
+      "hints": ["Midlothian", "Confluence of the River Esks", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/broxburn.png",
+      "answers": ["broxburn"],
+      "hints": ["West Lothian", "Named After a Body of Water", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/clydebank.png",
+      "answers": ["clydebank"],
+      "hints": ["West Dunbartonshire", "Titan Crane", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/coatbridge.png",
+      "answers": ["coatbridge"],
+      "hints": ["Time Capsule", "Sunnyside", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/cumbernauld.png",
+      "answers": ["cumbernauld"],
+      "hints": ["New Town", "North Lanarkshire", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/dalkeith.png",
+      "answers": ["dalkeith"],
+      "hints": ["Midlothian", "River Esk", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/dumbarton.png",
+      "answers": ["dumbarton"],
+      "hints": ["West Dunbartonshire", "Strathclyde", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/dumfries.png",
+      "answers": ["dumfries"],
+      "hints": ["...and Galloway", "South Scotland", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/dunbar.png",
+      "answers": ["dunbar"],
+      "hints": ["John Muir", "East Lothian", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/dundee.png",
+      "answers": ["dundee", "city of dundee", "dundee city"],
+      "hints": ["Jam, Jute, and Journalism", "Oor Wullie", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/dunfermline.png",
+      "answers": ["dunfermline"],
+      "hints": ["Scotland's Newest City", "Fife", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/east_kilbride.png",
+      "answers": ["east kilbride", "ek"],
+      "hints": ["New Town", "South Lanarkshire", "Starts with E"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/edinburgh.png",
+      "answers": ["edinburgh", "city of edinburgh", "edinburgh city"],
+      "hints": ["The Non-Titular Lothian", "Famous for Tourism", "Starts with E"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/elgin.png",
+      "answers": ["elgin"],
+      "hints": ["Speyside", "Moray", "Starts with E"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/falkirk.png",
+      "answers": ["falkirk"],
+      "hints": ["Famous for Wheel and Canals", "Battle of...", "Starts with F"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/forfar.png",
+      "answers": ["forfar"],
+      "hints": ["Angus", "... Birdie", "Starts with F"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/fort_william.png",
+      "answers": ["fort william", "fort bill"],
+      "hints": ["Highlands", "Ben Nevis", "Starts with F"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/fraserburgh.png",
+      "answers": ["fraserburgh"],
+      "hints": ["Aberdeenshire", "The Broch", "Starts with F"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/galashiels.png",
+      "answers": ["galashiels"],
+      "hints": ["The Borders", "Famous Tapestry", "Starts with G"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/glasgow.png",
+      "answers": ["glasgow", "city of glasgow", "glasgow city"],
+      "hints": ["Strathclyde", "Famous for being a New York Analogue", "Starts with G"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/glenrothes.png",
+      "answers": ["glenrothes"],
+      "hints": ["New Town", "Fife", "Starts with G"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/grangemouth.png",
+      "answers": ["grangemouth"],
+      "hints": ["Falkirk", "Ex-oil Refinery", "Starts with G"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/greenock.png",
+      "answers": ["greenock"],
+      "hints": ["Inverclyde", "Lee Jeans Sit-in", "Starts with G"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/haddington.png",
+      "answers": ["haddington"],
+      "hints": ["East Lothian, not Coastal", "The Other River Tyne", "Starts with H"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/hamilton.png",
+      "answers": ["hamilton"],
+      "hints": ["South Lanarkshire", "Famous Musical", "Starts with H"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/hawick.png",
+      "answers": ["hawick"],
+      "hints": ["The Borders", "Rhymes with Troike", "Starts with H"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/helensburgh.png",
+      "answers": ["helensburgh"],
+      "hints": ["Argyll and Bute", "Home of The First TV", "Starts with H"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/inverness.png",
+      "answers": ["inverness", "city of inverness", "inverness city"],
+      "hints": ["Capital of the Highlands", "Sits on the River Ness", "Starts with I"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/irvine.png",
+      "answers": ["irvine"],
+      "hints": ["North Ayrshire", "Coastal New Town", "Starts with I"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/kelso.png",
+      "answers": ["kelso"],
+      "hints": ["The Borders", "Market Town with Famous Abbey", "Starts with K"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/kilmarnock.png",
+      "answers": ["kilmarnock"],
+      "hints": ["East Ayrshire", "Original Home of Johnnie Walker Whisky", "Starts with K"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/kirkcaldy.png",
+      "answers": ["kirkcaldy"],
+      "hints": ["Fife", "Large Coastal Town", "Starts with K"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/kirkintilloch.png",
+      "answers": ["kirkintilloch"],
+      "hints": ["East Dunbartonshire", "Canal Capital of Scotland", "Starts with K"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/larbert.png",
+      "answers": ["larbert"],
+      "hints": ["Falkirk", "River Carron", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/linlithgow.png",
+      "answers": ["linlithgow"],
+      "hints": ["West Lothian", "Palace and Loch", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/livingston.png",
+      "answers": ["livingston", "livi"],
+      "hints": ["The Centre", "New Town", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/lockerbie.png",
+      "answers": ["lockerbie"],
+      "hints": ["Dumfries and Galloway", "Pan Am 103", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/montrose.png",
+      "answers": ["montrose"],
+      "hints": ["Angus", "Steve Marsh", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/motherwell.png",
+      "answers": ["motherwell"],
+      "hints": ["North Lanarkshire", "Scotlands Biggest Themepark", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/musselburgh.png",
+      "answers": ["musselburgh"],
+      "hints": ["East Lothian", "Contigious with Edinburgh", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/north_berwick.png",
+      "answers": ["north berwick"],
+      "hints": ["East Lothian", "Bass Rock", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/oband.png",
+      "answers": ["oban"],
+      "hints": ["Argyll and Bute", "Gateway to the Isles", "Starts with O"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/paisley.png",
+      "answers": ["paisley"],
+      "hints": ["Renfrewshire", "Glasgow Airport", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/pebles.png",
+      "answers": ["peebles"],
+      "hints": ["The Borders", "Textile Industry", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/penicuik.png",
+      "answers": ["penicuik"],
+      "hints": ["Midlothian", "Pentlands", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/perth.png",
+      "answers": ["perth", "city of perth", "perth city"],
+      "hints": ["River Tay", "..And Kinross", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/peterhead.png",
+      "answers": ["peterhead"],
+      "hints": ["Aberdeenshire", "Fishing Town", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/prestwick.png",
+      "answers": ["prestwick"],
+      "hints": ["South Ayrshire", "Dying Airport", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/st_andrews.png",
+      "answers": ["st andrews", "st. andrews"],
+      "hints": ["University Town", "Home of Golf", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/stalbans_stand_in_standrews.png",
+      "answers": ["st andrews", "st. andrews", "stalbans_stand_in_standrews"],
+      "hints": ["University Town", "Home of Golf", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/stenhousemuir.png",
+      "answers": ["stenhousemuir"],
+      "hints": ["Falkirk", "Stenny", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/stirling.png",
+      "answers": ["stirling", "city of stirling", "stirling city"],
+      "hints": ["Famous Castle", "Wallace Monument", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/stranraer.png",
+      "answers": ["stranraer"],
+      "hints": ["Dumfries and Galloway", "No Longer the Ferry Port of Choice", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/troon.png",
+      "answers": ["troon"],
+      "hints": ["South Ayrshire", "Famous seaside resort and Open golf venue", "Starts with T"]
+    },
+    {
+      "image": "../assets/cityMaps/scotland/whitburn.png",
+      "answers": ["whitburn"],
+      "hints": ["West Lothian", "Heartlands", "Starts with W"]
+    }
+  ],
+  "uk": [
+    {
+      "image": "../assets/cityMaps/uk/belfast.png",
+      "answers": ["belfast"],
+      "hints": ["Located in Northern Ireland", "A major port city", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/manchester.png",
+      "answers": ["manchester", "greater manchester"],
+      "hints": ["Located in North West England", "Famous for its industrial heritage and canals", "Starts with M"]
+    }
+  ],
+  "international": [
+    {
+      "image": "../assets/cityMaps/international/paris.png",
+      "answers": ["paris"],
+      "hints": ["Located in Europe", "The capital of France", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/international/nairobi.png",
+      "answers": ["nairobi"],
+      "hints": ["Located in Africa", "The capital of Kenya", "Starts with N"]
+    }
+  ]
+}
