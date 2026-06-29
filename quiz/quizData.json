@@ -37,7 +37,7 @@
     },
     {
       "image": "../assets/cityMaps/scotland/bo_ness.png",
-      "answers": ["bo'ness", "borrowstounness"],
+      "answers": ["bo'ness", "borrowstounness", "boness"],
       "hints": ["Little-known Contraction", "Formerly West Lothian", "Starts with B"]
     },
     {
@@ -282,12 +282,12 @@
     },
     {
       "image": "../assets/cityMaps/scotland/st_andrews.png",
-      "answers": ["st andrews", "st. andrews"],
+      "answers": ["st andrews", "st. andrews", "saint andrews"],
       "hints": ["University Town", "Home of Golf", "Starts with S"]
     },
     {
       "image": "../assets/cityMaps/scotland/stalbans_stand_in_standrews.png",
-      "answers": ["st andrews", "st. andrews", "stalbans_stand_in_standrews"],
+      "answers": ["st andrews", "st. andrews", "stalbans_stand_in_standrews", "saint andrews"],
       "hints": ["University Town", "Home of Golf", "Starts with S"]
     },
     {
