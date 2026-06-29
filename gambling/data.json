@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260628001",
-            "title": "Will the Secretary of State for Health and Social Care today announce new measures to address the NHS waiting list crisis?",
-            "payout": 1.58,
-            "desc": "Following critical reports on NHS performance and calls for immediate action from opposition parties, the Secretary of State is expected to make a statement or announcement today. Downing Street sources suggest policy options have been prepared for immediate rollout. (UK Politics)"
-        },
-        {
-            "id": "20260628002",
-            "title": "Will the Scottish Government today publish its official response to the consultation on stricter short-term let regulations?",
-            "payout": 1.72,
-            "desc": "The public consultation on controversial short-term let regulations closed last month, and industry bodies are anticipating the government's official response and implementation timeline. Sources close to Holyrood suggest an update is prepared for release today. (Scottish Politics)"
-        },
-        {
-            "id": "20260628003",
-            "title": "Will the Department for Transport today confirm the allocation of additional funding for the Northern Powerhouse Rail project's Manchester-Leeds leg?",
-            "payout": 2.38,
-            "desc": "Following recent lobbying from Northern Mayors and renewed calls for infrastructure investment, the Department for Transport is under pressure to commit to further phases of Northern Powerhouse Rail. A statement on funding allocations for key projects is rumoured for later today. (UK Transport Projects)"
-        },
-        {
-            "id": "20260628004",
-            "title": "Will the G7 leaders, meeting in Tokyo, today issue a joint statement condemning the recent cyberattacks attributed to State X?",
-            "payout": 1.36,
-            "desc": "G7 leaders are gathered for their final day of talks in Tokyo. Following a surge in cyberattacks across member states, sources indicate that a strong, unified condemnation of State X is high on the agenda for their concluding joint communiqu\u00e9, expected to be released today. (World Affairs)"
-        },
-        {
-            "id": "20260628005",
-            "title": "Will the warring parties in the ongoing conflict in Region Y today agree to a 24-hour humanitarian ceasefire, facilitated by UN mediators?",
+            "id": "20260629001",
+            "title": "Will the Prime Minister's official spokesperson today confirm the resignation of a senior cabinet minister?",
             "payout": 2.71,
-            "desc": "Intense diplomatic efforts are underway to secure a temporary halt in hostilities to allow aid delivery. UN special envoy remarks hinted at progress overnight, with a push to secure a short-term ceasefire agreement for today, though challenges remain. (Conflicts)"
+            "desc": "Following weekend media speculation regarding internal dissent over recent policy decisions, Westminster sources suggest a significant cabinet departure could be announced as early as today to address the government's stability concerns. (UK Politics)"
+        },
+        {
+            "id": "20260629002",
+            "title": "Will the Scottish Government today announce a public inquiry into the recent ferry procurement scandal?",
+            "payout": 2.11,
+            "desc": "Pressure has been mounting on the Scottish Government following a damning report released last week on cost overruns and delays in ferry construction. Opposition parties and advocacy groups are demanding a full public inquiry, with a statement expected today. (Scottish Politics)"
+        },
+        {
+            "id": "20260629003",
+            "title": "Will HS2 Ltd. today announce a further delay to the completion of the Birmingham-Crewe leg of the high-speed rail project?",
+            "payout": 1.58,
+            "desc": "Industry analysts have been flagging potential further setbacks for HS2's northern phases due to rising material costs and land acquisition issues. A major update on project timelines is anticipated from HS2 Ltd. today. (UK Transport Projects)"
+        },
+        {
+            "id": "20260629004",
+            "title": "Will the European Commission today formally launch an infringement procedure against Member State Z over its recent judicial reforms?",
+            "payout": 1.73,
+            "desc": "Tensions between Brussels and Member State Z have escalated over controversial new judicial reforms perceived as undermining the rule of law. European Commission sources indicate a decision on formal action is prepared for today. (World Affairs)"
+        },
+        {
+            "id": "20260629005",
+            "title": "Will the United Nations Security Council today pass a resolution calling for increased humanitarian aid access in the conflict-affected area of Region X?",
+            "payout": 1.36,
+            "desc": "Following weeks of stalled efforts, negotiations have reportedly advanced overnight on a draft UN Security Council resolution addressing the dire humanitarian situation in Region X. A vote is expected later today. (Conflicts)"
         }
     ],
     "history": [
@@ -2471,7 +2471,47 @@
             "desc": "High-level, UN-backed talks aimed at de-escalating the conflict have been underway for 48 hours in a neutral location. Mediators have expressed cautious optimism, with sources close to the negotiations suggesting a final agreement on prisoner exchange terms is expected to be signed and announced publicly before the end of the day. (Conflicts)",
             "result": "LOST",
             "settled_at": "2026-06-28"
+        },
+        {
+            "id": "20260628001",
+            "title": "Will the Secretary of State for Health and Social Care today announce new measures to address the NHS waiting list crisis?",
+            "payout": 1.58,
+            "desc": "Following critical reports on NHS performance and calls for immediate action from opposition parties, the Secretary of State is expected to make a statement or announcement today. Downing Street sources suggest policy options have been prepared for immediate rollout. (UK Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-29"
+        },
+        {
+            "id": "20260628002",
+            "title": "Will the Scottish Government today publish its official response to the consultation on stricter short-term let regulations?",
+            "payout": 1.72,
+            "desc": "The public consultation on controversial short-term let regulations closed last month, and industry bodies are anticipating the government's official response and implementation timeline. Sources close to Holyrood suggest an update is prepared for release today. (Scottish Politics)",
+            "result": "LOST",
+            "settled_at": "2026-06-29"
+        },
+        {
+            "id": "20260628003",
+            "title": "Will the Department for Transport today confirm the allocation of additional funding for the Northern Powerhouse Rail project's Manchester-Leeds leg?",
+            "payout": 2.38,
+            "desc": "Following recent lobbying from Northern Mayors and renewed calls for infrastructure investment, the Department for Transport is under pressure to commit to further phases of Northern Powerhouse Rail. A statement on funding allocations for key projects is rumoured for later today. (UK Transport Projects)",
+            "result": "LOST",
+            "settled_at": "2026-06-29"
+        },
+        {
+            "id": "20260628004",
+            "title": "Will the G7 leaders, meeting in Tokyo, today issue a joint statement condemning the recent cyberattacks attributed to State X?",
+            "payout": 1.36,
+            "desc": "G7 leaders are gathered for their final day of talks in Tokyo. Following a surge in cyberattacks across member states, sources indicate that a strong, unified condemnation of State X is high on the agenda for their concluding joint communiqu\u00e9, expected to be released today. (World Affairs)",
+            "result": "WON",
+            "settled_at": "2026-06-29"
+        },
+        {
+            "id": "20260628005",
+            "title": "Will the warring parties in the ongoing conflict in Region Y today agree to a 24-hour humanitarian ceasefire, facilitated by UN mediators?",
+            "payout": 2.71,
+            "desc": "Intense diplomatic efforts are underway to secure a temporary halt in hostilities to allow aid delivery. UN special envoy remarks hinted at progress overnight, with a push to secure a short-term ceasefire agreement for today, though challenges remain. (Conflicts)",
+            "result": "LOST",
+            "settled_at": "2026-06-29"
         }
     ],
-    "last_update": "2026-06-28 02:41"
+    "last_update": "2026-06-29 02:42"
 }
