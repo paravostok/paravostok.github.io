@@ -26,13 +26,13 @@
 <div class="quiz-wrapper">
   <div class="post-preview" id="quiz-container">
     
-    <div id="start-screen" class="text-center">
+    <div id="start-screen" class="hidden text-center">
       <h2 class="post-title">city map trivia quiz</h2>
       <p class="post-excerpt">test your knowledge of scottish city road layouts.</p>
       <button class="bet-button" style="margin-top: 25px;" onclick="startQuiz('scotland')">start quiz</button>
     </div>
 
-    <div id="question-screen" class="hidden">
+    <div id="question-screen">
       <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
         <span class="read-more" style="cursor: pointer;" onclick="resetQuiz()">quit game</span>
       </div>
@@ -87,7 +87,10 @@
   window.addEventListener('DOMContentLoaded', () => {
     fetch('quizData.json')
       .then(res => res.json())
-      .then(data => { quizDatabase = data; })
+      .then(data => { 
+        quizDatabase = data;
+        startQuiz('scotland');
+      })
       .catch(err => console.error("Database error:", err));
   });
 
