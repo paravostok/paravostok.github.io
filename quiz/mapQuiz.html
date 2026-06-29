@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Map Trivia Quiz</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    /* Quick page centering layout that fits your site's aesthetic */
+    body {
+      font-family: inherit;
+      background-color: #fcfbfa; /* Slightly lighter shade to frame the main box */
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+    }
+    .quiz-wrapper {
+      width: 100%;
+      max-width: 600px;
+    }
+    .text-center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="quiz-wrapper">
+  <div class="post-preview" id="quiz-container">
+    
+    <div id="category-screen" class="text-center">
+      <h2 class="post-title">City Map Trivia Quiz</h2>
+      <p class="post-excerpt">Select a region to test your geographic and transit layout knowledge:</p>
+      <div style="display: flex; gap: 15px; justify-content: center; margin-top: 25px; flex-wrap: wrap;">
+        <button class="bet-button" onclick="startQuiz('scotland')">Scotland</button>
+        <button class="bet-button" onclick="startQuiz('uk')">Rest of UK</button>
+        <button class="bet-button" onclick="startQuiz('international')">International</button>
+      </div>
+    </div>
+
+    <div id="question-screen" class="hidden">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+        <span class="post-excerpt" id="progress-tracker" style="font-weight: bold; margin: 0;">Map 1 of 5</span>
+        <span class="read-more" style="cursor: pointer;" onclick="resetQuiz()">Quit Game</span>
+      </div>
+      
+      <div style="background: #fff; padding: 15px; border-radius: 8px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05);">
+        <img id="map-image" src="" alt="Unlabelled city road map" class="thumbnail-image">
+      </div>
+      
+      <div style="margin-top: 25px; text-align: center;">
+        <div id="input-area">
+          <input type="text" id="user-answer" class="bet-input" style="width: 65%; max-width: 320px;" placeholder="Enter city name..." autocomplete="off">
+          <button class="bet-button" id="submit-btn" onclick="checkAnswer()">Submit</button>
+        </div>
+        
+        <div id="feedback-area" class="hidden" style="margin-top: 15px; padding: 10px; border-radius: 6px;">
+          <p id="feedback-text" style="font-weight: bold; margin: 0;"></p>
+          <button class="bet-button" id="next-btn" style="margin-top: 12px; margin-left: 0;" onclick="nextQuestion()">Next Map</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="results-screen" class="hidden" style="text-align: center;">
+      <h2 class="post-title">Quiz Complete!</h2>
+      <div class="balance-banner" style="margin: 20px auto; max-width: 280px;">
+        <span style="font-size: 1.2rem;">Your Score: <span id="final-score">0</span></span>
+      </div>
+      <p class="post-excerpt" id="results-feedback"></p>
+      <button class="bet-button" onclick="resetQuiz()" style="margin-top: 10px;">Play Again</button>
+    </div>
+
+  </div>
+</div>
+
+<div id="quiz-toast" class="toast error">Please enter a guess!</div>
+
+<script>
+  // 1. UPDATED DATASET PATTERNS (Points cleanly to your asset directories)
+  const quizDatabase = {
+    scotland: [
+      { image: '../assets/cityMaps/scotland/edinburgh.png', answers: ['edinburgh', 'city of edinburgh'] },
+      { image: '../assets/cityMaps/scotland/glasgow.png', answers: ['glasgow'] },
+      { image: '../assets/cityMaps/scotland/aberdeen.png', answers: ['aberdeen'] },
+      { image: '../assets/cityMaps/scotland/dundee.png', answers: ['dundee'] }
+    ],
+    uk: [
+      { image: '../assets/cityMaps/uk/london.png', answers: ['london', 'greater london'] },
+      { image: '../assets/cityMaps/uk/belfast.png', answers: ['belfast'] },
+      { image: '../assets/cityMaps/uk/manchester.png', answers: ['manchester', 'greater manchester'] },
+      { image: '../assets/cityMaps/uk/birmingham.png', answers: ['birmingham'] }
+    ],
+    international: [
+      { image: '../assets/cityMaps/international/toronto.png', answers: ['toronto'] },
+      { image: '../assets/cityMaps/international/montreal.png', answers: ['montreal', 'montréal'] },
+      { image: '../assets/cityMaps/international/paris.png', answers: ['paris'] },
+      { image: '../assets/cityMaps/international/newyork.png', answers: ['new york', 'new york city', 'nyc'] }
+    ]
+  };
+
+  // 2. STATE MANAGER INITIALIZATION
+  let currentQuestions = [];
+  let currentQuestionIndex = 0;
+  let score = 0;
+
+  // 3. LOGIC MODULES
+  function startQuiz(category) {
+    const maps = quizDatabase[category];
+    if (!maps || maps.length === 0) return;
+
+    // Randomizes question order per run
+    currentQuestions = [...maps].sort(() => Math.random() - 0.5);
+    currentQuestionIndex = 0;
+    score = 0;
+
+    document.getElementById('category-screen').classList.add('hidden');
+    document.getElementById('question-screen').classList.remove('hidden');
+    document.getElementById('results-screen').classList.add('hidden');
+
+    loadQuestion();
+  }
+
+  function loadQuestion() {
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    
+    document.getElementById('progress-tracker').innerText = `Map ${currentQuestionIndex + 1} of ${currentQuestions.length}`;
+    
+    const imgElement = document.getElementById('map-image');
+    imgElement.src = currentQuestion.image;
+
+    const textInput = document.getElementById('user-answer');
+    textInput.value = '';
+    textInput.disabled = false;
+    textInput.focus();
+
+    document.getElementById('input-area').classList.remove('hidden');
+    document.getElementById('feedback-area').classList.add('hidden');
+    
+    textInput.onkeydown = function(e) {
+      if (e.key === 'Enter') checkAnswer();
+    };
+  }
+
+  function checkAnswer() {
+    const userRaw = document.getElementById('user-answer').value;
+    const cleanedUserAnswer = userRaw.trim().toLowerCase();
+
+    if (!cleanedUserAnswer) {
+      showToast();
+      return;
+    }
+
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    const isCorrect = currentQuestion.answers.includes(cleanedUserAnswer);
+
+    document.getElementById('user-answer').disabled = true;
+    document.getElementById('input-area').classList.add('hidden');
+    
+    const feedbackArea = document.getElementById('feedback-area');
+    const feedbackText = document.getElementById('feedback-text');
+    feedbackArea.classList.remove('hidden');
+
+    if (isCorrect) {
+      score++;
+      feedbackText.innerText = "Correct! Well spotted.";
+      feedbackText.style.color = "#27ae60"; 
+    } else {
+      const primaryCorrectAnswer = currentQuestion.answers[0].replace(/\b\w/g, c => c.toUpperCase());
+      feedbackText.innerText = `Incorrect. It was ${primaryCorrectAnswer}.`;
+      feedbackText.style.color = "#e74c3c"; 
+    }
+
+    document.getElementById('next-btn').focus();
+  }
+
+  function nextQuestion() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < currentQuestions.length) {
+      loadQuestion();
+    } else {
+      showResults();
+    }
+  }
+
+  function showResults() {
+    document.getElementById('question-screen').classList.add('hidden');
+    document.getElementById('results-screen').classList.remove('hidden');
+    
+    document.getElementById('final-score').innerText = `${score} / ${currentQuestions.length}`;
+    
+    const feedbackText = document.getElementById('results-feedback');
+    const percentage = (score / currentQuestions.length) * 100;
+
+    if (percentage === 100) {
+      feedbackText.innerText = "Flawless! Complete mastery of the network lines.";
+    } else if (percentage >= 60) {
+      feedbackText.innerText = "Solid effort. You've got an eye for urban topology.";
+    } else {
+      feedbackText.innerText = "Time to study the local system registries and trace some lines again.";
+    }
+  }
+
+  function resetQuiz() {
+    document.getElementById('category-screen').classList.remove('hidden');
+    document.getElementById('question-screen').classList.add('hidden');
+    document.getElementById('results-screen').classList.add('hidden');
+  }
+
+  function showToast() {
+    const toast = document.getElementById('quiz-toast');
+    toast.classList.add('show');
+    setTimeout(() => { toast.classList.remove('show'); }, 2500);
+  }
+</script>
+
+</body>
+</html>
