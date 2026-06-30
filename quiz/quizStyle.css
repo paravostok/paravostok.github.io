@@ -28,15 +28,15 @@
 
 /* Background Images for each category column */
 .scotland-bg {
-  background-image: url('../assets/ui/scotland_start.jpg'); 
+  background-image: url('../assets/cityMaps/startScreen/scotland_start.png'); 
   background-color: #34495e; /* Fallback color */
 }
 .uk-bg {
-  background-image: url('../assets/ui/uk_start.jpg');
+  background-image: url('../assets/cityMaps/startScreen/uk_start.png');
   background-color: #2c3e50;
 }
 .international-bg {
-  background-image: url('../assets/ui/international_start.jpg');
+  background-image: url('../assets/cityMaps/startScreen/international_start.png');
   background-color: #232526;
 }
 
