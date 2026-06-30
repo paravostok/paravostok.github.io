@@ -330,14 +330,256 @@
   ],
   "international": [
     {
+      "image": "../assets/cityMaps/international/london.png",
+      "answers": ["london"],
+      "hints": ["The Square Mile", "Founded by the Romans", "Starts with L"]
+    },
+    {
       "image": "../assets/cityMaps/international/paris.png",
       "answers": ["paris"],
-      "hints": ["Located in Europe", "The capital of France", "Starts with P"]
+      "hints": ["Famed Boulevards", "Founded by the Romans", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/international/berlin.png",
+      "answers": ["berlin"],
+      "hints": ["Once in Twain", "Ghost Stations", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/international/rome.png",
+      "answers": ["rome"],
+      "hints": ["Founded by Two Brothers", "Historic City", "Starts with R"]
+    },
+    {
+      "image": "../assets/cityMaps/international/madrid.png",
+      "answers": ["madrid"],
+      "hints": ["Landlocked", "Challenging Topography", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/international/moscow.png",
+      "answers": ["moscow"],
+      "hints": ["Largest City in Europe", "Famed 1917 Uprising", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/international/amsterdam.png",
+      "answers": ["amsterdam"],
+      "hints": ["Van Gogh", "Rowhouses", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/international/vienna.png",
+      "answers": ["vienna"],
+      "hints": ["Sigmund Freud", "The House of Habsburg", "Starts with V"]
+    },
+    {
+      "image": "../assets/cityMaps/international/athens.png",
+      "answers": ["athens"],
+      "hints": ["Oldest Capital in Europe", "Eponymous Goddess", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/international/dublin.png",
+      "answers": ["dublin"],
+      "hints": ["James Joyce", "River Liffey", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/international/lisbon.png",
+      "answers": ["lisbon"],
+      "hints": ["Lusitania", "Yellow Trams", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/international/brussels.png",
+      "answers": ["brussels"],
+      "hints": ["Home of the EU", "Smurfs", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/international/stockholm.png",
+      "answers": ["stockholm"],
+      "hints": ["... Syndrome", "Abba", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/international/oslo.png",
+      "answers": ["oslo"],
+      "hints": ["Marka Forest", "Head of a Fjord", "Starts with O"]
+    },
+    {
+      "image": "../assets/cityMaps/international/copenhagen.png",
+      "answers": ["copenhagen"],
+      "hints": ["Zealand", "Oresund Bridge", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/international/warsaw.png",
+      "answers": ["warsaw"],
+      "hints": ["Tallest Building in the EU", "Vistula River", "Starts with W"]
+    },
+    {
+      "image": "../assets/cityMaps/international/budapest.png",
+      "answers": ["budapest"],
+      "hints": ["Rule of 96", "Three Cities United", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/international/prague.png",
+      "answers": ["prague"],
+      "hints": ["Country's Name Does *Not* Contain 'Republic'", "Vltava River", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/international/reykjavik.png",
+      "answers": ["reykjavik"],
+      "hints": ["Hold Nearly Two-thirds of its Country's population", "Famous Hot Springs", "Starts with R"]
+    },
+    {
+      "image": "../assets/cityMaps/international/istanbul.png",
+      "answers": ["istanbul"],
+      "hints": ["Transcontinental", "Formerly Byzantium", "Starts with I"]
+    },
+    {
+      "image": "../assets/cityMaps/international/tokyo.png",
+      "answers": ["tokyo"],
+      "hints": ["More Popoulous than 157 Countries", "Tower Emoji", "Starts with T"]
+    },
+    {
+      "image": "../assets/cityMaps/international/beijing.png",
+      "answers": ["beijing"],
+      "hints": ["Great Wall", "Forbidden City", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/international/seoul.png",
+      "answers": ["seoul"],
+      "hints": ["Originally Hanyang", "Han River", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/international/bangkok.png",
+      "answers": ["bangkok"],
+      "hints": ["Known locally as Krung Thep", "Chao Phraya River", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/international/singapore.png",
+      "answers": ["singapore"],
+      "hints": ["Malacca Strait", "Formerly Temasek", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/international/mumbai.png",
+      "answers": ["mumbai"],
+      "hints": ["Formerly Bombay", "Seven Islands", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/international/new_delhi.png",
+      "answers": ["new delhi", "new_delhi"],
+      "hints": ["Planned British Capital", "Yamuna River", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/international/jakarta.png",
+      "answers": ["jakarta"],
+      "hints": ["Formerly Batavia", "Sinking City", "Starts with J"]
+    },
+    {
+      "image": "../assets/cityMaps/international/manila.png",
+      "answers": ["manila"],
+      "hints": ["Spanish Colonial Capital", "Manila Bay", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/international/dubai.png",
+      "answers": ["dubai"],
+      "hints": ["Persian Gulf", "Dubai Creek", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/international/jerusalem.png",
+      "answers": ["jerusalem"],
+      "hints": ["Site of Pilgrimage for 3 Religions", "Judean Mountains", "Starts with J"]
+    },
+    {
+      "image": "../assets/cityMaps/international/sydney.png",
+      "answers": ["sydney"],
+      "hints": ["British Penal Colony", "Port Jackson", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/international/auckland.png",
+      "answers": ["auckland"],
+      "hints": ["Volcanic Field", "City of Sails", "Starts with A"]
+    },
+    {
+      "image": "../assets/cityMaps/international/new_york.png",
+      "answers": ["new york", "new york city", "nyc"],
+      "hints": ["Formerly New Amsterdam", "Five Boroughs", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/international/los_angeles.png",
+      "answers": ["los angeles", "la"],
+      "hints": ["Spanish Mission Origin", "Coastal Basin Sprawl", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/international/washington_dc.png",
+      "answers": ["washington dc", "washington", "dc"],
+      "hints": ["Planned Federal District", "Potomac River", "Starts with W"]
+    },
+    {
+      "image": "../assets/cityMaps/international/toronto.png",
+      "answers": ["toronto"],
+      "hints": ["Formerly York", "Lake Ontario", "Starts with T"]
+    },
+    {
+      "image": "../assets/cityMaps/international/mexico_city.png",
+      "answers": ["mexico city", "cdmx"],
+      "hints": ["Aztec Capital Tenochtitlan", "Sinking Lakebed", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/international/havana.png",
+      "answers": ["havana"],
+      "hints": ["Spanish Colonial Port", "Malecón Sea Wall", "Starts with H"]
+    },
+    {
+      "image": "../assets/cityMaps/international/rio_de_janeiro.png",
+      "answers": ["rio de janeiro", "rio"],
+      "hints": ["Former Portuguese Capital", "Guanabara Bay", "Starts with R"]
+    },
+    {
+      "image": "../assets/cityMaps/international/buenos_aires.png",
+      "answers": ["buenos aires"],
+      "hints": ["Río de la Plata", "The Pampas Gateway", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/international/santiago.png",
+      "answers": ["santiago"],
+      "hints": ["Spanish Conquistador Origin", "Andean Valley", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/international/lima.png",
+      "answers": ["lima"],
+      "hints": ["Formerly City of the Kings", "Coastal Desert", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/international/bogota.png",
+      "answers": ["bogota"],
+      "hints": ["Formerly Santa Fe", "High Andean Plateau", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/international/cairo.png",
+      "answers": ["cairo"],
+      "hints": ["Nile River", "Pyramids", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/international/cape_town.png",
+      "answers": ["cape town"],
+      "hints": ["Dutch Colonial Outpost", "Table Mountain", "Starts with C"]
     },
     {
       "image": "../assets/cityMaps/international/nairobi.png",
       "answers": ["nairobi"],
-      "hints": ["Located in Africa", "The capital of Kenya", "Starts with N"]
+      "hints": ["British Rail Depot Origin", "In-City Safari Park", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/international/lagos.png",
+      "answers": ["lagos"],
+      "hints": ["Africa's Most Populous City", "Nollywood", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/international/casablanca.png",
+      "answers": ["casablanca"],
+      "hints": ["Formerly Anfa", "Artificial Atlantic Coast", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/international/addis_ababa.png",
+      "answers": ["addis ababa"],
+      "hints": ["African Union Base", "Entoto Mountains", "Starts with A"]
     }
+  ]
+}
   ]
 }
