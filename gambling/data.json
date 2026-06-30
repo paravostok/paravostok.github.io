@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260629001",
-            "title": "Will the Prime Minister's official spokesperson today confirm the resignation of a senior cabinet minister?",
+            "id": "20260630001",
+            "title": "Will the Prime Minister's office today announce a reshuffle of junior ministerial posts by 5 PM BST?",
+            "payout": 2.01,
+            "desc": "Following yesterday's speculation regarding cabinet stability, Westminster insiders suggest the PM might seek to assert authority and refresh the team with minor appointments to quell further dissent, with an announcement potentially coming after PMQs. (UK Politics)"
+        },
+        {
+            "id": "20260630002",
+            "title": "Will the Scottish First Minister today face a vote of no confidence tabled by an opposition party leader?",
             "payout": 2.71,
-            "desc": "Following weekend media speculation regarding internal dissent over recent policy decisions, Westminster sources suggest a significant cabinet departure could be announced as early as today to address the government's stability concerns. (UK Politics)"
+            "desc": "After a challenging week for the Scottish Government, including the recent public inquiry announcement and ongoing budget pressures, opposition leaders are reportedly meeting this morning to discuss immediate challenges to the First Minister's authority. A motion could be formally tabled today. (Scottish Politics)"
         },
         {
-            "id": "20260629002",
-            "title": "Will the Scottish Government today announce a public inquiry into the recent ferry procurement scandal?",
-            "payout": 2.11,
-            "desc": "Pressure has been mounting on the Scottish Government following a damning report released last week on cost overruns and delays in ferry construction. Opposition parties and advocacy groups are demanding a full public inquiry, with a statement expected today. (Scottish Politics)"
-        },
-        {
-            "id": "20260629003",
-            "title": "Will HS2 Ltd. today announce a further delay to the completion of the Birmingham-Crewe leg of the high-speed rail project?",
-            "payout": 1.58,
-            "desc": "Industry analysts have been flagging potential further setbacks for HS2's northern phases due to rising material costs and land acquisition issues. A major update on project timelines is anticipated from HS2 Ltd. today. (UK Transport Projects)"
-        },
-        {
-            "id": "20260629004",
-            "title": "Will the European Commission today formally launch an infringement procedure against Member State Z over its recent judicial reforms?",
+            "id": "20260630003",
+            "title": "Will the Department for Transport today issue a formal statement outlining revised timelines for the TransPennine Route Upgrade?",
             "payout": 1.73,
-            "desc": "Tensions between Brussels and Member State Z have escalated over controversial new judicial reforms perceived as undermining the rule of law. European Commission sources indicate a decision on formal action is prepared for today. (World Affairs)"
+            "desc": "With renewed focus on infrastructure project delivery following yesterday's HS2 news, sources within the DfT suggest a proactive move to update on other key projects like the TransPennine Route Upgrade could be made today to manage expectations and demonstrate continued progress. (UK Transport Projects)"
         },
         {
-            "id": "20260629005",
-            "title": "Will the United Nations Security Council today pass a resolution calling for increased humanitarian aid access in the conflict-affected area of Region X?",
-            "payout": 1.36,
-            "desc": "Following weeks of stalled efforts, negotiations have reportedly advanced overnight on a draft UN Security Council resolution addressing the dire humanitarian situation in Region X. A vote is expected later today. (Conflicts)"
+            "id": "20260630004",
+            "title": "Will the President of Member State Z today publicly reject the European Commission's infringement procedure as politically motivated?",
+            "payout": 1.19,
+            "desc": "Following yesterday's formal launch of an infringement procedure by the European Commission, the President of Member State Z is scheduled to give a press conference this afternoon, where strong rhetoric and an outright rejection of the EU's actions are highly anticipated. (World Affairs)"
+        },
+        {
+            "id": "20260630005",
+            "title": "Will a major international news agency today report the immediate cessation of hostilities by at least one major faction in Region X?",
+            "payout": 2.38,
+            "desc": "With the UN Security Council having passed a resolution calling for increased humanitarian access and a cessation of hostilities, international observers are keenly watching for an immediate positive response from the warring parties, with some reports suggesting a unilateral declaration could be imminent. (Conflicts)"
         }
     ],
     "history": [
@@ -2511,7 +2511,47 @@
             "desc": "Intense diplomatic efforts are underway to secure a temporary halt in hostilities to allow aid delivery. UN special envoy remarks hinted at progress overnight, with a push to secure a short-term ceasefire agreement for today, though challenges remain. (Conflicts)",
             "result": "LOST",
             "settled_at": "2026-06-29"
+        },
+        {
+            "id": "20260629001",
+            "title": "Will the Prime Minister's official spokesperson today confirm the resignation of a senior cabinet minister?",
+            "payout": 2.71,
+            "desc": "Following weekend media speculation regarding internal dissent over recent policy decisions, Westminster sources suggest a significant cabinet departure could be announced as early as today to address the government's stability concerns. (UK Politics)",
+            "result": "LOST",
+            "settled_at": "2026-06-30"
+        },
+        {
+            "id": "20260629002",
+            "title": "Will the Scottish Government today announce a public inquiry into the recent ferry procurement scandal?",
+            "payout": 2.11,
+            "desc": "Pressure has been mounting on the Scottish Government following a damning report released last week on cost overruns and delays in ferry construction. Opposition parties and advocacy groups are demanding a full public inquiry, with a statement expected today. (Scottish Politics)",
+            "result": "WON",
+            "settled_at": "2026-06-30"
+        },
+        {
+            "id": "20260629003",
+            "title": "Will HS2 Ltd. today announce a further delay to the completion of the Birmingham-Crewe leg of the high-speed rail project?",
+            "payout": 1.58,
+            "desc": "Industry analysts have been flagging potential further setbacks for HS2's northern phases due to rising material costs and land acquisition issues. A major update on project timelines is anticipated from HS2 Ltd. today. (UK Transport Projects)",
+            "result": "WON",
+            "settled_at": "2026-06-30"
+        },
+        {
+            "id": "20260629004",
+            "title": "Will the European Commission today formally launch an infringement procedure against Member State Z over its recent judicial reforms?",
+            "payout": 1.73,
+            "desc": "Tensions between Brussels and Member State Z have escalated over controversial new judicial reforms perceived as undermining the rule of law. European Commission sources indicate a decision on formal action is prepared for today. (World Affairs)",
+            "result": "WON",
+            "settled_at": "2026-06-30"
+        },
+        {
+            "id": "20260629005",
+            "title": "Will the United Nations Security Council today pass a resolution calling for increased humanitarian aid access in the conflict-affected area of Region X?",
+            "payout": 1.36,
+            "desc": "Following weeks of stalled efforts, negotiations have reportedly advanced overnight on a draft UN Security Council resolution addressing the dire humanitarian situation in Region X. A vote is expected later today. (Conflicts)",
+            "result": "WON",
+            "settled_at": "2026-06-30"
         }
     ],
-    "last_update": "2026-06-29 02:42"
+    "last_update": "2026-06-30 02:36"
 }
