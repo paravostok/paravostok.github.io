@@ -1,15 +1,15 @@
 .category-container {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 25px;
   flex-wrap: wrap;
 }
 
 .category-card {
   flex: 1;
-  min-width: 240px;
-  height: 480px;
+  min-width: 260px;
+  height: 520px; /* Made slightly taller to match the wider layout */
   border-radius: 8px;
   overflow: hidden;
   position: relative;
@@ -84,12 +84,31 @@
   background-color: #ff3838; 
 }
 
+/* Back Link Utilities */
+.quiz-top-nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.back-home-link {
+  text-decoration: none;
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-home-link:hover {
+  color: #ff3838;
+}
+
 /* Mobile Responsive View: Stack columns vertically if screen is narrow */
 @media (max-width: 768px) {
   .category-container {
     flex-direction: column;
   }
   .category-card {
-    height: 320px;
+    height: 360px;
   }
 }
