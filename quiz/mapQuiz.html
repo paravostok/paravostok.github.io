@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>City Map Trivia Quiz</title>
+  
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="quizStyle.css">
+  
   <style>
     /* Layout & Centering */
     body {
@@ -20,7 +23,7 @@
     
     .quiz-wrapper {
       width: 100%;
-      max-width: 900px; /* Slightly widened to accommodate the new sidebar */
+      max-width: 900px; /* Width remains expanded to perfectly frame the cards */
     }
     
     .text-center {
@@ -109,12 +112,32 @@
   <div class="post-preview" id="quiz-container">
     
     <div id="category-screen" class="text-center">
-      <h2 class="post-title">City Map Trivia Quiz</h2>
-      <p class="post-excerpt">Select a region to test your geographic and transit layout knowledge:</p>
-      <div style="display: flex; gap: 15px; justify-content: center; margin-top: 25px; flex-wrap: wrap;">
-        <button class="bet-button" onclick="startQuiz('scotland')">Scotland</button>
-        <button class="bet-button" onclick="startQuiz('uk')">Rest of UK</button>
-        <button class="bet-button" onclick="startQuiz('international')">International</button>
+      <h2 class="post-title" style="font-size: 2.2rem; margin-bottom: 5px;">City Map Trivia Quiz</h2>
+      <p class="post-excerpt" style="color: #666; margin-bottom: 25px;">Select a region to test your geographic and transit layout knowledge:</p>
+      
+      <div class="category-container">
+        
+        <div class="category-card scotland-bg">
+          <div class="card-overlay">
+            <h3 class="card-title">Scotland</h3>
+            <button class="play-button" onclick="startQuiz('scotland')">PLAY</button>
+          </div>
+        </div>
+        
+        <div class="category-card uk-bg">
+          <div class="card-overlay">
+            <h3 class="card-title">UK</h3>
+            <button class="play-button" onclick="startQuiz('uk')">PLAY</button>
+          </div>
+        </div>
+        
+        <div class="category-card international-bg">
+          <div class="card-overlay">
+            <h3 class="card-title">International</h3>
+            <button class="play-button" onclick="startQuiz('international')">PLAY</button>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -201,7 +224,7 @@
       .catch(err => console.error("Database error:", err));
   });
 
-function startQuiz(category) {
+  function startQuiz(category) {
     const maps = quizDatabase[category];
     if (!maps || maps.length === 0) return;
 
@@ -275,7 +298,6 @@ function startQuiz(category) {
     const isCorrect = currentQuestion.answers.includes(cleanedUserAnswer);
 
     if (isCorrect) {
-      // Calculate how many tries were used (e.g., 3 left = 1 try taken)
       let triesTaken = 3 - triesLeft + 1; 
       let tryWord = triesTaken === 1 ? "try" : "tries";
       endQuestionState(true, `Correct! You got the correct answer in ${triesTaken} ${tryWord}!`);
