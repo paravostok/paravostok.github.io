@@ -25,7 +25,7 @@
     
     .quiz-wrapper {
       width: 100%;
-      max-width: 1150px; /* Expanded from 900px to give the graphics a giant premium presence */
+      max-width: 1150px;
     }
     
     .text-center {
@@ -91,7 +91,47 @@
       margin: 0;
     }
 
-    /* Responsive check for smaller screens */
+    /* Settings Panel */
+    .settings-panel {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      text-align: left;
+    }
+
+    .settings-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+    
+    .setting-item label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: #34495e;
+      margin-bottom: 5px;
+    }
+
+    .setting-item select {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+
+    .preset-buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 15px;
+    }
+
     @media (max-width: 700px) {
       .map-layout {
         flex-direction: column;
@@ -114,18 +154,53 @@
   <div class="post-preview" id="quiz-container" style="padding: 30px;">
     
     <div id="category-screen">
-      
       <div class="quiz-top-nav">
         <a href="../index.html" class="back-home-link">← Back to Home</a>
       </div>
       
       <div class="text-center">
         <h2 class="post-title" style="font-size: 2.4rem; margin-bottom: 5px;">City Map Trivia Quiz</h2>
-        <p class="post-excerpt" style="color: #666; margin-bottom: 30px;">Select a region to test your geographic and transit layout knowledge:</p>
+        <p class="post-excerpt" style="color: #666; margin-bottom: 20px;">Configure your difficulty, then select a region to begin:</p>
+      </div>
+
+      <div class="settings-panel">
+        <div class="preset-buttons">
+          <button class="bet-button" style="background-color: #2ecc71;" onclick="applyPreset('easy')">Easy</button>
+          <button class="bet-button" style="background-color: #f39c12;" onclick="applyPreset('medium')">Medium</button>
+          <button class="bet-button" style="background-color: #e74c3c;" onclick="applyPreset('hard')">Hard</button>
+        </div>
+        
+        <div class="settings-grid">
+          <div class="setting-item">
+            <label for="setting-lives">Total Lives</label>
+            <select id="setting-lives">
+              <option value="unlimited">Unlimited</option>
+              <option value="10">10 Lives</option>
+              <option value="5" selected>5 Lives</option>
+              <option value="3">3 Lives</option>
+              <option value="1">1 Life (Sudden Death)</option>
+            </select>
+          </div>
+          <div class="setting-item">
+            <label for="setting-tries">Tries Per Map</label>
+            <select id="setting-tries">
+              <option value="3" selected>3 Tries</option>
+              <option value="2">2 Tries</option>
+              <option value="1">1 Try</option>
+            </select>
+          </div>
+          <div class="setting-item">
+            <label for="setting-hints">Hint Frequency</label>
+            <select id="setting-hints">
+              <option value="0">Start with 1 Hint</option>
+              <option value="1" selected>1 per wrong attempt</option>
+              <option value="2">1 per every 2nd wrong attempt</option>
+            </select>
+          </div>
+        </div>
       </div>
       
       <div class="category-container">
-        
         <div class="category-card scotland-bg">
           <div class="card-overlay">
             <h3 class="card-title">Scotland</h3>
@@ -146,12 +221,10 @@
             <button class="play-button" onclick="startQuiz('international')">PLAY</button>
           </div>
         </div>
-
       </div>
     </div>
 
     <div id="question-screen" class="hidden">
-      
       <div style="display: flex; justify-content: flex-end; margin-bottom: 15px;">
         <span class="read-more" style="cursor: pointer;" onclick="resetQuiz()">Quit Game</span>
       </div>
@@ -162,6 +235,11 @@
         </div>
         
         <div class="stats-sidebar">
+          <div class="stat-block" id="lives-block">
+            <p class="stat-title">Lives</p>
+            <p class="stat-number" id="stat-lives" style="color: #e67e22;">♥ 3</p>
+          </div>
+
           <div class="stat-block">
             <p class="stat-title">Correct</p>
             <p class="stat-number" id="stat-correct" style="color: #27ae60;">0</p>
@@ -196,7 +274,7 @@
     </div>
 
     <div id="results-screen" class="hidden" style="text-align: center;">
-      <h2 class="post-title">Quiz Complete!</h2>
+      <h2 class="post-title" id="results-title">Quiz Complete!</h2>
       <div class="balance-banner" style="margin: 20px auto; max-width: 280px;">
         <span style="font-size: 1.2rem;">Final Score: <span id="final-score">0</span></span>
       </div>
@@ -214,7 +292,12 @@
   let currentQuestions = [];
   let currentQuestionIndex = 0;
   
+  // Game Settings & State
+  let gameSettings = { lives: 5, maxTries: 3, hintFreq: 1 };
+  let currentLives = 5;
   let triesLeft = 3;
+  let wrongGuessesThisMap = 0; // NEW: tracks misses to calculate hint frequency
+  
   let availableHints = [];
   let isProcessing = false;
   
@@ -231,12 +314,43 @@
       .catch(err => console.error("Database error:", err));
   });
 
+  // NEW: Apply difficulty presets
+  function applyPreset(level) {
+    const livesSelect = document.getElementById('setting-lives');
+    const triesSelect = document.getElementById('setting-tries');
+    const hintsSelect = document.getElementById('setting-hints');
+
+    if (level === 'easy') {
+      livesSelect.value = "unlimited";
+      triesSelect.value = "3";
+      hintsSelect.value = "0"; // Start with 1 hint
+    } else if (level === 'medium') {
+      livesSelect.value = "5";
+      triesSelect.value = "3";
+      hintsSelect.value = "1"; // 1 per wrong attempt
+    } else if (level === 'hard') {
+      livesSelect.value = "1";
+      triesSelect.value = "1";
+      hintsSelect.value = "2"; // Basically no hints since only 1 try
+    }
+  }
+
+  function captureSettings() {
+    const livesVal = document.getElementById('setting-lives').value;
+    gameSettings.lives = livesVal === 'unlimited' ? 'unlimited' : parseInt(livesVal);
+    gameSettings.maxTries = parseInt(document.getElementById('setting-tries').value);
+    gameSettings.hintFreq = parseInt(document.getElementById('setting-hints').value);
+    
+    currentLives = gameSettings.lives;
+  }
+
   function startQuiz(category) {
     const maps = quizDatabase[category];
     if (!maps || maps.length === 0) return;
 
+    captureSettings(); // Grab the UI settings before starting
+
     currentQuestions = [...maps];
-    
     for (let i = currentQuestions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [currentQuestions[i], currentQuestions[j]] = [currentQuestions[j], currentQuestions[i]];
@@ -256,17 +370,21 @@
 
   function loadQuestion() {
     isProcessing = false;
+    wrongGuessesThisMap = 0; 
     const currentQuestion = currentQuestions[currentQuestionIndex];
     document.getElementById('map-image').src = currentQuestion.image;
 
-    triesLeft = 3;
+    triesLeft = gameSettings.maxTries;
     document.getElementById('tries-tracker').innerText = `Tries left: ${triesLeft}`;
     document.getElementById('tries-tracker').style.color = "#2c3e50"; 
     
     availableHints = [...currentQuestion.hints];
     document.getElementById('hints-container').innerHTML = '';
 
-    revealRandomHint();
+    // If Hint Frequency is 0, they get a hint immediately
+    if (gameSettings.hintFreq === 0) {
+      revealRandomHint();
+    }
 
     const textInput = document.getElementById('user-answer');
     textInput.value = '';
@@ -275,6 +393,7 @@
 
     document.getElementById('input-area').classList.remove('hidden');
     document.getElementById('feedback-area').classList.add('hidden');
+    document.getElementById('next-btn').innerText = "Next Map"; 
     
     textInput.onkeydown = function(e) {
       if (e.key === 'Enter') {
@@ -299,22 +418,50 @@
     const isCorrect = currentQuestion.answers.includes(cleanedUserAnswer);
 
     if (isCorrect) {
-      let triesTaken = 3 - triesLeft + 1; 
+      let triesTaken = gameSettings.maxTries - triesLeft + 1; 
       let tryWord = triesTaken === 1 ? "try" : "tries";
-      endQuestionState(true, `Correct! You got the correct answer in ${triesTaken} ${tryWord}!`);
+      endQuestionState(true, `Correct! You got it in ${triesTaken} ${tryWord}!`);
     } else {
       triesLeft--;
+      wrongGuessesThisMap++;
+      
       if (triesLeft > 0) {
         document.getElementById('user-answer').value = '';
         document.getElementById('user-answer').focus();
         document.getElementById('tries-tracker').innerText = `Tries left: ${triesLeft}`;
         document.getElementById('tries-tracker').style.color = "#e74c3c";
-        revealRandomHint();
+        
+        // Hint Logic based on settings
+        if (gameSettings.hintFreq === 1) {
+          revealRandomHint();
+        } else if (gameSettings.hintFreq === 2 && wrongGuessesThisMap % 2 === 0) {
+          revealRandomHint();
+        }
+
       } else {
         document.getElementById('tries-tracker').innerText = `Tries left: 0`;
-        endQuestionState(false, "Out of tries!");
+        handleMapFailure("Out of tries!");
       }
     }
+  }
+
+  function skipQuestion() {
+    if (isProcessing) return;
+    document.getElementById('tries-tracker').innerText = `Tries left: 0`;
+    handleMapFailure("Skipped question.");
+  }
+
+  function handleMapFailure(message) {
+    if (gameSettings.lives !== 'unlimited') {
+      currentLives--;
+      updateStatsUI();
+      if (currentLives <= 0) {
+        endQuestionState(false, `${message} And you are out of lives! Game Over.`);
+        document.getElementById('next-btn').innerText = "View Results";
+        return;
+      }
+    }
+    endQuestionState(false, message);
   }
 
   function revealRandomHint() {
@@ -331,12 +478,6 @@
     hintElement.innerHTML = `💡 <strong>Hint:</strong> ${selectedHint}`;
     
     hintContainer.appendChild(hintElement);
-  }
-
-  function skipQuestion() {
-    if (isProcessing) return;
-    document.getElementById('tries-tracker').innerText = `Tries left: 0`;
-    endQuestionState(false, "Skipped question.");
   }
 
   function endQuestionState(wasCorrect, customTextMessage) {
@@ -368,6 +509,16 @@
     document.getElementById('stat-correct').innerText = correctCount;
     document.getElementById('stat-failed').innerText = failedCount;
     
+    // Update Lives UI
+    const livesStat = document.getElementById('stat-lives');
+    if (gameSettings.lives === 'unlimited') {
+      livesStat.innerText = "∞";
+      livesStat.style.color = "#2ecc71";
+    } else {
+      livesStat.innerText = `♥ ${currentLives}`;
+      livesStat.style.color = currentLives <= 1 ? "#e74c3c" : "#e67e22";
+    }
+
     const totalAttempted = correctCount + failedCount;
     if (totalAttempted === 0) {
       document.getElementById('stat-percent').innerText = "0%";
@@ -378,26 +529,38 @@
   }
 
   function nextQuestion() {
+    // Check for Game Over condition
+    if (gameSettings.lives !== 'unlimited' && currentLives <= 0) {
+      showResults(true);
+      return;
+    }
+
     document.getElementById('feedback-area').classList.add('hidden'); 
     currentQuestionIndex++;
     if (currentQuestionIndex < currentQuestions.length) {
       loadQuestion();
     } else {
-      showResults();
+      showResults(false);
     }
   }
 
-  function showResults() {
+  function showResults(isGameOver = false) {
     document.getElementById('question-screen').classList.add('hidden');
     document.getElementById('results-screen').classList.remove('hidden');
     
+    const titleEl = document.getElementById('results-title');
+    titleEl.innerText = isGameOver ? "Game Over!" : "Quiz Complete!";
+    titleEl.style.color = isGameOver ? "#e74c3c" : "inherit";
+
     document.getElementById('final-score').innerText = `${correctCount} / ${currentQuestions.length}`;
     
     const feedbackText = document.getElementById('results-feedback');
     const totalAttempted = correctCount + failedCount;
     const percentage = totalAttempted === 0 ? 0 : (correctCount / totalAttempted) * 100;
 
-    if (percentage === 100) {
+    if (isGameOver) {
+      feedbackText.innerText = "You ran out of lives! Adjust your difficulty settings and try again.";
+    } else if (percentage === 100) {
       feedbackText.innerText = "Flawless! Complete mastery of the network lines.";
     } else if (percentage >= 60) {
       feedbackText.innerText = "Solid effort. You've got an eye for urban topology.";
