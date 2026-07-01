@@ -106,9 +106,14 @@
 /* Mobile Responsive View: Stack columns vertically if screen is narrow */
 @media (max-width: 768px) {
   .category-container {
+    display: flex;
     flex-direction: column;
+    align-items: center; /* Centers the cards */
   }
   .category-card {
+    width: 100%;
+    max-width: 400px; /* Prevents them from getting absurdly wide on tablets */
     height: 360px;
+    flex: none; /* Crucial Fix: Stops flex-basis from collapsing the height */
   }
 }
