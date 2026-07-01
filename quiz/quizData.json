@@ -18,7 +18,7 @@
     {
       "image": "../assets/cityMaps/scotland/arbroath.png",
       "answers": ["arbroath"],
-      "hints": ["Angus", "Famous Declaration", "Starts with A"]
+      "hints": ["text", "Famous Declaration", "Starts with A"]
     },
     {
       "image": "../assets/cityMaps/scotland/armadale.png",
@@ -318,14 +318,274 @@
   ],
   "uk": [
     {
+      "image": "../assets/cityMaps/uk/ballymena.png",
+      "answers": ["ballymena"],
+      "hints": ["Located in Northern Ireland", "The Seven Towers", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/bangor.png",
+      "answers": ["bangor"],
+      "hints": ["Located in Wales", "The oldest city in Wales", "Starts with B"]
+    },
+    {
       "image": "../assets/cityMaps/uk/belfast.png",
       "answers": ["belfast"],
       "hints": ["Located in Northern Ireland", "A major port city", "Starts with B"]
     },
     {
+      "image": "../assets/cityMaps/uk/birmingham.png",
+      "answers": ["birmingham", "brum"],
+      "hints": ["Located in the West Midlands", "The Bullring and more canals than Venice", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/blackpool.png",
+      "answers": ["blackpool"],
+      "hints": ["Located in North West England", "Famous Tower and the Illuminations", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/bournemouth.png",
+      "answers": ["bournemouth"],
+      "hints": ["Located in Dorset", "Seven miles of sandy beaches", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/bradford.png",
+      "answers": ["bradford"],
+      "hints": ["Located in West Yorkshire", "The Curry Capital of Britain", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/brighton.png",
+      "answers": ["brighton", "brighton & hove", "brighton and hove"],
+      "hints": ["Located in East Sussex", "The Lanes and a famous pebble beach", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/bristol.png",
+      "answers": ["bristol"],
+      "hints": ["Located in South West England", "Banksy and hot air balloons", "Starts with B"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/cambridge.png",
+      "answers": ["cambridge"],
+      "hints": ["Located in Cambridgeshire", "Punting on the River Cam and Silicon Fen", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/canterbury.png",
+      "answers": ["canterbury"],
+      "hints": ["Located in Kent", "Famous Cathedral and Chaucer's tales", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/cardiff.png",
+      "answers": ["cardiff", "caerdydd"],
+      "hints": ["The Capital of Wales", "Principality Stadium and Castle", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/carlisle.png",
+      "answers": ["carlisle"],
+      "hints": ["Located in Cumbria", "The Border City near Hadrian's Wall", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/chelmsford.png",
+      "answers": ["chelmsford"],
+      "hints": ["Located in Essex", "The Birthplace of Radio", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/chester.png",
+      "answers": ["chester"],
+      "hints": ["Located in Cheshire", "Stunning Roman Walls and 'The Rows'", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/colchester.png",
+      "answers": ["colchester"],
+      "hints": ["Located in Essex", "Britain's first recorded town", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/coventry.png",
+      "answers": ["coventry"],
+      "hints": ["Located in the West Midlands", "Lady Godiva's legendary ride", "Starts with C"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/derby.png",
+      "answers": ["derby"],
+      "hints": ["Located in Derbyshire", "Rolls-Royce and the Industrial Revolution", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/derry.png",
+      "answers": ["derry", "londonderry"],
+      "hints": ["Located in Northern Ireland", "The Walled City", "Starts with D"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/exeter.png",
+      "answers": ["exeter"],
+      "hints": ["Located in Devon", "Gothic Cathedral and ancient Roman walls", "Starts with E"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/gloucester.png",
+      "answers": ["gloucester"],
+      "hints": ["Located in Gloucestershire", "Historic docks and a magical Harry Potter cloister", "Starts with G"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/huddersfield.png",
+      "answers": ["huddersfield"],
+      "hints": ["Located in West Yorkshire", "The Birthplace of Rugby League", "Starts with H"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/hull.png",
+      "answers": ["hull", "kingston upon hull"],
+      "hints": ["Located in East Yorkshire", "The massive Humber Bridge", "Starts with H"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/ipswich.png",
+      "answers": ["ipswich"],
+      "hints": ["Located in Suffolk", "One of England's oldest continuous towns", "Starts with I"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/leeds.png",
+      "answers": ["leeds"],
+      "hints": ["Located in West Yorkshire", "The unofficial capital of Yorkshire", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/leicester.png",
+      "answers": ["leicester"],
+      "hints": ["Located in Leicestershire", "Finding a long-lost King in a car park", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/lincoln.png",
+      "answers": ["lincoln"],
+      "hints": ["Located in Lincolnshire", "Steep Hill and an infamous Imp", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/lisburn.png",
+      "answers": ["lisburn"],
+      "hints": ["Located in Northern Ireland", "The historic hub of the Irish linen industry", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/liverpool.png",
+      "answers": ["liverpool"],
+      "hints": ["Located in Merseyside", "The Beatles and Ferry Cross the Mersey", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/luton.png",
+      "answers": ["luton"],
+      "hints": ["Located in Bedfordshire", "Famous for hat-making and a very busy airport", "Starts with L"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/maidstone.png",
+      "answers": ["maidstone"],
+      "hints": ["Located in Kent", "The county town of the 'Garden of England'", "Starts with M"]
+    },
+    {
       "image": "../assets/cityMaps/uk/manchester.png",
       "answers": ["manchester", "greater manchester"],
       "hints": ["Located in North West England", "Famous for its industrial heritage and canals", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/middlesbrough.png",
+      "answers": ["middlesbrough"],
+      "hints": ["Located in North East England", "The Transporter Bridge and the Parmo", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/milton_keynes.png",
+      "answers": ["milton keynes", "mk"],
+      "hints": ["Located in Buckinghamshire", "Famous grid system and Concrete Cows", "Starts with M"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/newcastle.png",
+      "answers": ["newcastle", "newcastle upon tyne"],
+      "hints": ["Located in North East England", "The Tyne Bridge and proud Geordies", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/newport.png",
+      "answers": ["newport"],
+      "hints": ["Located in South Wales", "Transporter Bridge and Ryder Cup hosting history", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/newry.png",
+      "answers": ["newry"],
+      "hints": ["Located in Northern Ireland", "The Gateway to the North near the border", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/northampton.png",
+      "answers": ["northampton"],
+      "hints": ["Located in the East Midlands", "An incredibly deep history of shoemaking", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/norwich.png",
+      "answers": ["norwich"],
+      "hints": ["Located in Norfolk", "Alan Partridge's favourite city and hot mustard", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/nottingham.png",
+      "answers": ["nottingham"],
+      "hints": ["Located in the East Midlands", "Robin Hood and the Lace Market", "Starts with N"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/oxford.png",
+      "answers": ["oxford"],
+      "hints": ["Located in Oxfordshire", "The famous City of Dreaming Spires", "Starts with O"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/plymouth.png",
+      "answers": ["plymouth"],
+      "hints": ["Located in Devon", "The Mayflower Steps and Plymouth Hoe", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/portsmouth.png",
+      "answers": ["portsmouth", "pompey"],
+      "hints": ["Located on the South Coast of England", "Historic Dockyard home of the Royal Navy", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/preston.png",
+      "answers": ["preston"],
+      "hints": ["Located in Lancashire", "Proud Preston and the famous Guild Wheel", "Starts with P"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/reading.png",
+      "answers": ["reading"],
+      "hints": ["Located in Berkshire", "Massive annual music festival and biscuits", "Starts with R"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/sheffield.png",
+      "answers": ["sheffield"],
+      "hints": ["Located in South Yorkshire", "The iconic Steel City", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/southampton.png",
+      "answers": ["southampton"],
+      "hints": ["Located on the South Coast of England", "The Titanic's tragic departure port", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/stoke_on_trent.png",
+      "answers": ["stoke on trent", "stoke"],
+      "hints": ["Located in Staffordshire", "The Potteries and delicious oatcakes", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/sunderland.png",
+      "answers": ["sunderland"],
+      "hints": ["Located in North East England", "Home of the Mackems and glassmaking heritage", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/swansea.png",
+      "answers": ["swansea", "abertawe"],
+      "hints": ["Located in South Wales", "Dylan Thomas and the stunning Gower Peninsula", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/swindon.png",
+      "answers": ["swindon"],
+      "hints": ["Located in Wiltshire", "The dizzying Magic Roundabout and the GWR", "Starts with S"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/wolverhampton.png",
+      "answers": ["wolverhampton", "wolves"],
+      "hints": ["Located in the West Midlands", "The Black Country and the Wolves", "Starts with W"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/wrexham.png",
+      "answers": ["wrexham", "wrecsam"],
+      "hints": ["Located in North Wales", "Hollywood-owned football fairy tale", "Starts with W"]
+    },
+    {
+      "image": "../assets/cityMaps/uk/york.png",
+      "answers": ["york"],
+      "hints": ["Located in North Yorkshire", "The Shambles and ancient Viking heritage", "Starts with Y"]
     }
   ],
   "international": [
