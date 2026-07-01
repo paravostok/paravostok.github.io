@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260630001",
-            "title": "Will the Prime Minister's office today announce a reshuffle of junior ministerial posts by 5 PM BST?",
-            "payout": 2.01,
-            "desc": "Following yesterday's speculation regarding cabinet stability, Westminster insiders suggest the PM might seek to assert authority and refresh the team with minor appointments to quell further dissent, with an announcement potentially coming after PMQs. (UK Politics)"
+            "id": "20260701001",
+            "title": "Will the Prime Minister's official spokesperson today decline to comment on reports of an imminent cabinet reshuffle during their daily briefing?",
+            "payout": 1.36,
+            "desc": "Following persistent media speculation over cabinet stability and a possible reshuffle, journalists are expected to press the PM's spokesperson for answers during today's daily briefing, making a 'no comment' stance highly probable. (UK Politics)"
         },
         {
-            "id": "20260630002",
-            "title": "Will the Scottish First Minister today face a vote of no confidence tabled by an opposition party leader?",
-            "payout": 2.71,
-            "desc": "After a challenging week for the Scottish Government, including the recent public inquiry announcement and ongoing budget pressures, opposition leaders are reportedly meeting this morning to discuss immediate challenges to the First Minister's authority. A motion could be formally tabled today. (Scottish Politics)"
-        },
-        {
-            "id": "20260630003",
-            "title": "Will the Department for Transport today issue a formal statement outlining revised timelines for the TransPennine Route Upgrade?",
-            "payout": 1.73,
-            "desc": "With renewed focus on infrastructure project delivery following yesterday's HS2 news, sources within the DfT suggest a proactive move to update on other key projects like the TransPennine Route Upgrade could be made today to manage expectations and demonstrate continued progress. (UK Transport Projects)"
-        },
-        {
-            "id": "20260630004",
-            "title": "Will the President of Member State Z today publicly reject the European Commission's infringement procedure as politically motivated?",
-            "payout": 1.19,
-            "desc": "Following yesterday's formal launch of an infringement procedure by the European Commission, the President of Member State Z is scheduled to give a press conference this afternoon, where strong rhetoric and an outright rejection of the EU's actions are highly anticipated. (World Affairs)"
-        },
-        {
-            "id": "20260630005",
-            "title": "Will a major international news agency today report the immediate cessation of hostilities by at least one major faction in Region X?",
+            "id": "20260701002",
+            "title": "Will the Scottish Government today announce a revised timeline for the implementation of its proposed environmental levy?",
             "payout": 2.38,
-            "desc": "With the UN Security Council having passed a resolution calling for increased humanitarian access and a cessation of hostilities, international observers are keenly watching for an immediate positive response from the warring parties, with some reports suggesting a unilateral declaration could be imminent. (Conflicts)"
+            "desc": "With opposition parties and industry bodies intensifying pressure over the proposed environmental levy's economic impact, sources within Holyrood suggest the Scottish Government may today pre-empt further criticism by outlining revised implementation plans. (Scottish Politics)"
+        },
+        {
+            "id": "20260701003",
+            "title": "Will Transport for London today announce any new delays to planned Tube line upgrades scheduled for this weekend?",
+            "payout": 1.58,
+            "desc": "With ongoing engineering challenges and recent industrial action impacting London's transport network, TfL is expected to issue its latest service update today, with many anticipating further adjustments or delays to weekend upgrade works. (UK Transport Projects)"
+        },
+        {
+            "id": "20260701004",
+            "title": "Will the German Foreign Minister today publicly support calls for new sanctions against Country Y following recent cyber attacks?",
+            "payout": 1.9,
+            "desc": "Following yesterday's confirmed cyber attack attributed to state-sponsored actors from Country Y, and with EU foreign ministers meeting virtually this morning, the German Foreign Minister is likely to be pressed on a unified European response, with a strong statement on sanctions a possibility. (World Affairs)"
+        },
+        {
+            "id": "20260701005",
+            "title": "Will the United Nations Security Council today issue a new joint statement explicitly condemning recent violations of the ceasefire in Region Z?",
+            "payout": 1.19,
+            "desc": "Following multiple reports from the ground detailing fresh ceasefire violations and a renewed surge in violence in Region Z, UN diplomats are understood to be drafting a strongly worded joint statement, with an official release anticipated by the end of today. (Conflicts)"
         }
     ],
     "history": [
@@ -2551,7 +2551,47 @@
             "desc": "Following weeks of stalled efforts, negotiations have reportedly advanced overnight on a draft UN Security Council resolution addressing the dire humanitarian situation in Region X. A vote is expected later today. (Conflicts)",
             "result": "WON",
             "settled_at": "2026-06-30"
+        },
+        {
+            "id": "20260630001",
+            "title": "Will the Prime Minister's office today announce a reshuffle of junior ministerial posts by 5 PM BST?",
+            "payout": 2.01,
+            "desc": "Following yesterday's speculation regarding cabinet stability, Westminster insiders suggest the PM might seek to assert authority and refresh the team with minor appointments to quell further dissent, with an announcement potentially coming after PMQs. (UK Politics)",
+            "result": "LOST",
+            "settled_at": "2026-07-01"
+        },
+        {
+            "id": "20260630002",
+            "title": "Will the Scottish First Minister today face a vote of no confidence tabled by an opposition party leader?",
+            "payout": 2.71,
+            "desc": "After a challenging week for the Scottish Government, including the recent public inquiry announcement and ongoing budget pressures, opposition leaders are reportedly meeting this morning to discuss immediate challenges to the First Minister's authority. A motion could be formally tabled today. (Scottish Politics)",
+            "result": "LOST",
+            "settled_at": "2026-07-01"
+        },
+        {
+            "id": "20260630003",
+            "title": "Will the Department for Transport today issue a formal statement outlining revised timelines for the TransPennine Route Upgrade?",
+            "payout": 1.73,
+            "desc": "With renewed focus on infrastructure project delivery following yesterday's HS2 news, sources within the DfT suggest a proactive move to update on other key projects like the TransPennine Route Upgrade could be made today to manage expectations and demonstrate continued progress. (UK Transport Projects)",
+            "result": "LOST",
+            "settled_at": "2026-07-01"
+        },
+        {
+            "id": "20260630004",
+            "title": "Will the President of Member State Z today publicly reject the European Commission's infringement procedure as politically motivated?",
+            "payout": 1.19,
+            "desc": "Following yesterday's formal launch of an infringement procedure by the European Commission, the President of Member State Z is scheduled to give a press conference this afternoon, where strong rhetoric and an outright rejection of the EU's actions are highly anticipated. (World Affairs)",
+            "result": "WON",
+            "settled_at": "2026-07-01"
+        },
+        {
+            "id": "20260630005",
+            "title": "Will a major international news agency today report the immediate cessation of hostilities by at least one major faction in Region X?",
+            "payout": 2.38,
+            "desc": "With the UN Security Council having passed a resolution calling for increased humanitarian access and a cessation of hostilities, international observers are keenly watching for an immediate positive response from the warring parties, with some reports suggesting a unilateral declaration could be imminent. (Conflicts)",
+            "result": "LOST",
+            "settled_at": "2026-07-01"
         }
     ],
-    "last_update": "2026-06-30 02:36"
+    "last_update": "2026-07-01 02:42"
 }
