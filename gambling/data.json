@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260701001",
-            "title": "Will the Prime Minister's official spokesperson today decline to comment on reports of an imminent cabinet reshuffle during their daily briefing?",
-            "payout": 1.36,
-            "desc": "Following persistent media speculation over cabinet stability and a possible reshuffle, journalists are expected to press the PM's spokesperson for answers during today's daily briefing, making a 'no comment' stance highly probable. (UK Politics)"
-        },
-        {
-            "id": "20260701002",
-            "title": "Will the Scottish Government today announce a revised timeline for the implementation of its proposed environmental levy?",
+            "id": "20260702001",
+            "title": "Will the Secretary of State for Education today publicly contradict recent Downing Street guidance on university admissions reform?",
             "payout": 2.38,
-            "desc": "With opposition parties and industry bodies intensifying pressure over the proposed environmental levy's economic impact, sources within Holyrood suggest the Scottish Government may today pre-empt further criticism by outlining revised implementation plans. (Scottish Politics)"
+            "desc": "Rumours of growing internal party tensions over the government's controversial university admissions reforms continue to circulate. Following a leaked draft policy paper this morning, political commentators suggest the Education Secretary may use an afternoon media appearance to distance themselves or publicly challenge Downing Street's line."
         },
         {
-            "id": "20260701003",
-            "title": "Will Transport for London today announce any new delays to planned Tube line upgrades scheduled for this weekend?",
+            "id": "20260702002",
+            "title": "Will the Scottish National Party (SNP) today confirm that their annual conference, scheduled for October, will be brought forward to September?",
+            "payout": 2.71,
+            "desc": "Following recent challenging polling data and intensified leadership discussions, internal sources within the SNP suggest a strategic move to rally party support earlier. An official announcement regarding the conference timeline is anticipated following this morning's parliamentary group meeting."
+        },
+        {
+            "id": "20260702003",
+            "title": "Will HS2 Ltd today issue a public statement confirming that the northern leg of the high-speed rail project will face further cost overruns exceeding 10% of its current budget?",
             "payout": 1.58,
-            "desc": "With ongoing engineering challenges and recent industrial action impacting London's transport network, TfL is expected to issue its latest service update today, with many anticipating further adjustments or delays to weekend upgrade works. (UK Transport Projects)"
+            "desc": "A highly anticipated National Audit Office (NAO) report on major infrastructure projects is due to be published this morning. With leaks already suggesting significant financial pressures on the HS2 project, a public response from HS2 Ltd addressing potential further cost increases is expected today."
         },
         {
-            "id": "20260701004",
-            "title": "Will the German Foreign Minister today publicly support calls for new sanctions against Country Y following recent cyber attacks?",
+            "id": "20260702004",
+            "title": "Will the US State Department today issue a formal travel advisory upgrade for Country X, recommending 'Do Not Travel'?",
             "payout": 1.9,
-            "desc": "Following yesterday's confirmed cyber attack attributed to state-sponsored actors from Country Y, and with EU foreign ministers meeting virtually this morning, the German Foreign Minister is likely to be pressed on a unified European response, with a strong statement on sanctions a possibility. (World Affairs)"
+            "desc": "Following an incident targeting foreign nationals in Country X yesterday and intelligence briefings this morning, sources indicate an elevated risk assessment is underway within the US State Department, with a public advisory update regarding travel conditions anticipated by the end of today."
         },
         {
-            "id": "20260701005",
-            "title": "Will the United Nations Security Council today issue a new joint statement explicitly condemning recent violations of the ceasefire in Region Z?",
-            "payout": 1.19,
-            "desc": "Following multiple reports from the ground detailing fresh ceasefire violations and a renewed surge in violence in Region Z, UN diplomats are understood to be drafting a strongly worded joint statement, with an official release anticipated by the end of today. (Conflicts)"
+            "id": "20260702005",
+            "title": "Will the UN Special Envoy for Region Z today publicly call for an immediate 72-hour humanitarian ceasefire following renewed clashes?",
+            "payout": 1.36,
+            "desc": "With multiple reports detailing a rapidly deteriorating humanitarian situation and escalating violence overnight in Region Z, the UN Special Envoy is scheduled to brief the Security Council this afternoon. Diplomats believe an urgent public plea for a temporary humanitarian ceasefire is highly likely during or immediately after the briefing."
         }
     ],
     "history": [
@@ -2591,7 +2591,47 @@
             "desc": "With the UN Security Council having passed a resolution calling for increased humanitarian access and a cessation of hostilities, international observers are keenly watching for an immediate positive response from the warring parties, with some reports suggesting a unilateral declaration could be imminent. (Conflicts)",
             "result": "LOST",
             "settled_at": "2026-07-01"
+        },
+        {
+            "id": "20260701001",
+            "title": "Will the Prime Minister's official spokesperson today decline to comment on reports of an imminent cabinet reshuffle during their daily briefing?",
+            "payout": 1.36,
+            "desc": "Following persistent media speculation over cabinet stability and a possible reshuffle, journalists are expected to press the PM's spokesperson for answers during today's daily briefing, making a 'no comment' stance highly probable. (UK Politics)",
+            "result": "WON",
+            "settled_at": "2026-07-02"
+        },
+        {
+            "id": "20260701002",
+            "title": "Will the Scottish Government today announce a revised timeline for the implementation of its proposed environmental levy?",
+            "payout": 2.38,
+            "desc": "With opposition parties and industry bodies intensifying pressure over the proposed environmental levy's economic impact, sources within Holyrood suggest the Scottish Government may today pre-empt further criticism by outlining revised implementation plans. (Scottish Politics)",
+            "result": "LOST",
+            "settled_at": "2026-07-02"
+        },
+        {
+            "id": "20260701003",
+            "title": "Will Transport for London today announce any new delays to planned Tube line upgrades scheduled for this weekend?",
+            "payout": 1.58,
+            "desc": "With ongoing engineering challenges and recent industrial action impacting London's transport network, TfL is expected to issue its latest service update today, with many anticipating further adjustments or delays to weekend upgrade works. (UK Transport Projects)",
+            "result": "WON",
+            "settled_at": "2026-07-02"
+        },
+        {
+            "id": "20260701004",
+            "title": "Will the German Foreign Minister today publicly support calls for new sanctions against Country Y following recent cyber attacks?",
+            "payout": 1.9,
+            "desc": "Following yesterday's confirmed cyber attack attributed to state-sponsored actors from Country Y, and with EU foreign ministers meeting virtually this morning, the German Foreign Minister is likely to be pressed on a unified European response, with a strong statement on sanctions a possibility. (World Affairs)",
+            "result": "LOST",
+            "settled_at": "2026-07-02"
+        },
+        {
+            "id": "20260701005",
+            "title": "Will the United Nations Security Council today issue a new joint statement explicitly condemning recent violations of the ceasefire in Region Z?",
+            "payout": 1.19,
+            "desc": "Following multiple reports from the ground detailing fresh ceasefire violations and a renewed surge in violence in Region Z, UN diplomats are understood to be drafting a strongly worded joint statement, with an official release anticipated by the end of today. (Conflicts)",
+            "result": "WON",
+            "settled_at": "2026-07-02"
         }
     ],
-    "last_update": "2026-07-01 02:42"
+    "last_update": "2026-07-02 02:32"
 }
