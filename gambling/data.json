@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260702001",
-            "title": "Will the Secretary of State for Education today publicly contradict recent Downing Street guidance on university admissions reform?",
-            "payout": 2.38,
-            "desc": "Rumours of growing internal party tensions over the government's controversial university admissions reforms continue to circulate. Following a leaked draft policy paper this morning, political commentators suggest the Education Secretary may use an afternoon media appearance to distance themselves or publicly challenge Downing Street's line."
-        },
-        {
-            "id": "20260702002",
-            "title": "Will the Scottish National Party (SNP) today confirm that their annual conference, scheduled for October, will be brought forward to September?",
-            "payout": 2.71,
-            "desc": "Following recent challenging polling data and intensified leadership discussions, internal sources within the SNP suggest a strategic move to rally party support earlier. An official announcement regarding the conference timeline is anticipated following this morning's parliamentary group meeting."
-        },
-        {
-            "id": "20260702003",
-            "title": "Will HS2 Ltd today issue a public statement confirming that the northern leg of the high-speed rail project will face further cost overruns exceeding 10% of its current budget?",
-            "payout": 1.58,
-            "desc": "A highly anticipated National Audit Office (NAO) report on major infrastructure projects is due to be published this morning. With leaks already suggesting significant financial pressures on the HS2 project, a public response from HS2 Ltd addressing potential further cost increases is expected today."
-        },
-        {
-            "id": "20260702004",
-            "title": "Will the US State Department today issue a formal travel advisory upgrade for Country X, recommending 'Do Not Travel'?",
-            "payout": 1.9,
-            "desc": "Following an incident targeting foreign nationals in Country X yesterday and intelligence briefings this morning, sources indicate an elevated risk assessment is underway within the US State Department, with a public advisory update regarding travel conditions anticipated by the end of today."
-        },
-        {
-            "id": "20260702005",
-            "title": "Will the UN Special Envoy for Region Z today publicly call for an immediate 72-hour humanitarian ceasefire following renewed clashes?",
+            "id": "20260703001",
+            "title": "Will the Prime Minister's official spokesperson today confirm the government's continued commitment to the entirety of the HS2 project's northern leg?",
             "payout": 1.36,
-            "desc": "With multiple reports detailing a rapidly deteriorating humanitarian situation and escalating violence overnight in Region Z, the UN Special Envoy is scheduled to brief the Security Council this afternoon. Diplomats believe an urgent public plea for a temporary humanitarian ceasefire is highly likely during or immediately after the briefing."
+            "desc": "Following yesterday's confirmation from HS2 Ltd of significant cost overruns on the northern leg of the project, the government will be under pressure to respond and reassure stakeholders. A statement of continued commitment from Downing Street is anticipated today."
+        },
+        {
+            "id": "20260703002",
+            "title": "Will a new opinion poll on Scottish independence, commissioned by a major media outlet, be published today?",
+            "payout": 2.38,
+            "desc": "With the Scottish National Party (SNP) bringing forward their annual conference (as confirmed yesterday) and ongoing internal leadership discussions, there's heightened political activity and increased public interest in Scottish opinion. Pollsters may move quickly to gauge current sentiment."
+        },
+        {
+            "id": "20260703003",
+            "title": "Will the Transport Select Committee today announce an urgent inquiry into the financial management of HS2, specifically concerning the northern leg?",
+            "payout": 1.27,
+            "desc": "Building on yesterday's confirmation of significant further cost overruns on the HS2 northern leg, a parliamentary committee would be under immediate pressure to launch an inquiry to scrutinise the project's financial oversight and management."
+        },
+        {
+            "id": "20260703004",
+            "title": "Will the government of Country X today issue a formal protest note to the US State Department regarding the recently upgraded travel advisory?",
+            "payout": 1.19,
+            "desc": "Following the US State Department's upgrade of its travel advisory for Country X to 'Do Not Travel' yesterday, a strong diplomatic response from Country X's government is highly anticipated, likely in the form of a formal protest today."
+        },
+        {
+            "id": "20260703005",
+            "title": "Will one of the primary warring factions in Region Z today publicly commit to observing the UN Special Envoy's proposed 72-hour humanitarian ceasefire?",
+            "payout": 3.17,
+            "desc": "Following the UN Special Envoy's public call for an immediate 72-hour humanitarian ceasefire yesterday amidst escalating violence, international pressure will be intense for the involved factions to issue a formal response or commitment to the proposal today."
         }
     ],
     "history": [
@@ -2631,7 +2631,47 @@
             "desc": "Following multiple reports from the ground detailing fresh ceasefire violations and a renewed surge in violence in Region Z, UN diplomats are understood to be drafting a strongly worded joint statement, with an official release anticipated by the end of today. (Conflicts)",
             "result": "WON",
             "settled_at": "2026-07-02"
+        },
+        {
+            "id": "20260702001",
+            "title": "Will the Secretary of State for Education today publicly contradict recent Downing Street guidance on university admissions reform?",
+            "payout": 2.38,
+            "desc": "Rumours of growing internal party tensions over the government's controversial university admissions reforms continue to circulate. Following a leaked draft policy paper this morning, political commentators suggest the Education Secretary may use an afternoon media appearance to distance themselves or publicly challenge Downing Street's line.",
+            "result": "LOST",
+            "settled_at": "2026-07-03"
+        },
+        {
+            "id": "20260702002",
+            "title": "Will the Scottish National Party (SNP) today confirm that their annual conference, scheduled for October, will be brought forward to September?",
+            "payout": 2.71,
+            "desc": "Following recent challenging polling data and intensified leadership discussions, internal sources within the SNP suggest a strategic move to rally party support earlier. An official announcement regarding the conference timeline is anticipated following this morning's parliamentary group meeting.",
+            "result": "WON",
+            "settled_at": "2026-07-03"
+        },
+        {
+            "id": "20260702003",
+            "title": "Will HS2 Ltd today issue a public statement confirming that the northern leg of the high-speed rail project will face further cost overruns exceeding 10% of its current budget?",
+            "payout": 1.58,
+            "desc": "A highly anticipated National Audit Office (NAO) report on major infrastructure projects is due to be published this morning. With leaks already suggesting significant financial pressures on the HS2 project, a public response from HS2 Ltd addressing potential further cost increases is expected today.",
+            "result": "WON",
+            "settled_at": "2026-07-03"
+        },
+        {
+            "id": "20260702004",
+            "title": "Will the US State Department today issue a formal travel advisory upgrade for Country X, recommending 'Do Not Travel'?",
+            "payout": 1.9,
+            "desc": "Following an incident targeting foreign nationals in Country X yesterday and intelligence briefings this morning, sources indicate an elevated risk assessment is underway within the US State Department, with a public advisory update regarding travel conditions anticipated by the end of today.",
+            "result": "WON",
+            "settled_at": "2026-07-03"
+        },
+        {
+            "id": "20260702005",
+            "title": "Will the UN Special Envoy for Region Z today publicly call for an immediate 72-hour humanitarian ceasefire following renewed clashes?",
+            "payout": 1.36,
+            "desc": "With multiple reports detailing a rapidly deteriorating humanitarian situation and escalating violence overnight in Region Z, the UN Special Envoy is scheduled to brief the Security Council this afternoon. Diplomats believe an urgent public plea for a temporary humanitarian ceasefire is highly likely during or immediately after the briefing.",
+            "result": "WON",
+            "settled_at": "2026-07-03"
         }
     ],
-    "last_update": "2026-07-02 02:32"
+    "last_update": "2026-07-03 02:07"
 }
