@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260703001",
-            "title": "Will the Prime Minister's official spokesperson today confirm the government's continued commitment to the entirety of the HS2 project's northern leg?",
-            "payout": 1.36,
-            "desc": "Following yesterday's confirmation from HS2 Ltd of significant cost overruns on the northern leg of the project, the government will be under pressure to respond and reassure stakeholders. A statement of continued commitment from Downing Street is anticipated today."
+            "id": "20260704001",
+            "title": "Will the Prime Minister make an unscheduled public statement or press conference today specifically addressing the future of the HS2 project?",
+            "payout": 2.11,
+            "desc": "Following significant cost overrun revelations for HS2's northern leg yesterday, there is immense political pressure on the Prime Minister to personally address the crisis and clarify the government's definitive stance beyond official spokespersons."
         },
         {
-            "id": "20260703002",
-            "title": "Will a new opinion poll on Scottish independence, commissioned by a major media outlet, be published today?",
-            "payout": 2.38,
-            "desc": "With the Scottish National Party (SNP) bringing forward their annual conference (as confirmed yesterday) and ongoing internal leadership discussions, there's heightened political activity and increased public interest in Scottish opinion. Pollsters may move quickly to gauge current sentiment."
+            "id": "20260704002",
+            "title": "Will a current Scottish Government Cabinet Secretary today publicly declare their intention to run for the leadership of the Scottish National Party?",
+            "payout": 2.71,
+            "desc": "With the SNP's annual conference brought forward and ongoing internal leadership discussions intensifying (as highlighted yesterday), a prominent figure may choose today to position themselves as a potential successor and seize early momentum."
         },
         {
-            "id": "20260703003",
-            "title": "Will the Transport Select Committee today announce an urgent inquiry into the financial management of HS2, specifically concerning the northern leg?",
-            "payout": 1.27,
-            "desc": "Building on yesterday's confirmation of significant further cost overruns on the HS2 northern leg, a parliamentary committee would be under immediate pressure to launch an inquiry to scrutinise the project's financial oversight and management."
+            "id": "20260704003",
+            "title": "Will the Secretary of State for Transport today announce the immediate suspension of all non-essential works on HS2's northern leg pending a full review?",
+            "payout": 1.73,
+            "desc": "After yesterday's confirmation of further significant cost overruns on HS2's northern leg, the Secretary of State for Transport is under extreme pressure to demonstrate immediate, decisive action to control spending while a full inquiry is prepared."
         },
         {
-            "id": "20260703004",
-            "title": "Will the government of Country X today issue a formal protest note to the US State Department regarding the recently upgraded travel advisory?",
-            "payout": 1.19,
-            "desc": "Following the US State Department's upgrade of its travel advisory for Country X to 'Do Not Travel' yesterday, a strong diplomatic response from Country X's government is highly anticipated, likely in the form of a formal protest today."
+            "id": "20260704004",
+            "title": "Will the government of Country X today recall its ambassador from the United States in response to the travel advisory and protest note?",
+            "payout": 3.8,
+            "desc": "Following yesterday's formal protest note from Country X concerning the US 'Do Not Travel' advisory, and given the severity of the diplomatic rift, recalling the ambassador could be an immediate and significant escalation of the dispute by Country X's government."
         },
         {
-            "id": "20260703005",
-            "title": "Will one of the primary warring factions in Region Z today publicly commit to observing the UN Special Envoy's proposed 72-hour humanitarian ceasefire?",
-            "payout": 3.17,
-            "desc": "Following the UN Special Envoy's public call for an immediate 72-hour humanitarian ceasefire yesterday amidst escalating violence, international pressure will be intense for the involved factions to issue a formal response or commitment to the proposal today."
+            "id": "20260704005",
+            "title": "Will the UN Security Council today convene an emergency session to discuss the escalating conflict in Region Z and the rejected ceasefire proposal?",
+            "payout": 1.58,
+            "desc": "With escalating violence in Region Z and the apparent failure of yesterday's humanitarian ceasefire proposal, the UN Special Envoy or a member state may call for an immediate Security Council meeting to seek stronger international action or a new diplomatic push."
         }
     ],
     "history": [
@@ -2671,7 +2671,47 @@
             "desc": "With multiple reports detailing a rapidly deteriorating humanitarian situation and escalating violence overnight in Region Z, the UN Special Envoy is scheduled to brief the Security Council this afternoon. Diplomats believe an urgent public plea for a temporary humanitarian ceasefire is highly likely during or immediately after the briefing.",
             "result": "WON",
             "settled_at": "2026-07-03"
+        },
+        {
+            "id": "20260703001",
+            "title": "Will the Prime Minister's official spokesperson today confirm the government's continued commitment to the entirety of the HS2 project's northern leg?",
+            "payout": 1.36,
+            "desc": "Following yesterday's confirmation from HS2 Ltd of significant cost overruns on the northern leg of the project, the government will be under pressure to respond and reassure stakeholders. A statement of continued commitment from Downing Street is anticipated today.",
+            "result": "LOST",
+            "settled_at": "2026-07-04"
+        },
+        {
+            "id": "20260703002",
+            "title": "Will a new opinion poll on Scottish independence, commissioned by a major media outlet, be published today?",
+            "payout": 2.38,
+            "desc": "With the Scottish National Party (SNP) bringing forward their annual conference (as confirmed yesterday) and ongoing internal leadership discussions, there's heightened political activity and increased public interest in Scottish opinion. Pollsters may move quickly to gauge current sentiment.",
+            "result": "WON",
+            "settled_at": "2026-07-04"
+        },
+        {
+            "id": "20260703003",
+            "title": "Will the Transport Select Committee today announce an urgent inquiry into the financial management of HS2, specifically concerning the northern leg?",
+            "payout": 1.27,
+            "desc": "Building on yesterday's confirmation of significant further cost overruns on the HS2 northern leg, a parliamentary committee would be under immediate pressure to launch an inquiry to scrutinise the project's financial oversight and management.",
+            "result": "WON",
+            "settled_at": "2026-07-04"
+        },
+        {
+            "id": "20260703004",
+            "title": "Will the government of Country X today issue a formal protest note to the US State Department regarding the recently upgraded travel advisory?",
+            "payout": 1.19,
+            "desc": "Following the US State Department's upgrade of its travel advisory for Country X to 'Do Not Travel' yesterday, a strong diplomatic response from Country X's government is highly anticipated, likely in the form of a formal protest today.",
+            "result": "WON",
+            "settled_at": "2026-07-04"
+        },
+        {
+            "id": "20260703005",
+            "title": "Will one of the primary warring factions in Region Z today publicly commit to observing the UN Special Envoy's proposed 72-hour humanitarian ceasefire?",
+            "payout": 3.17,
+            "desc": "Following the UN Special Envoy's public call for an immediate 72-hour humanitarian ceasefire yesterday amidst escalating violence, international pressure will be intense for the involved factions to issue a formal response or commitment to the proposal today.",
+            "result": "LOST",
+            "settled_at": "2026-07-04"
         }
     ],
-    "last_update": "2026-07-03 02:07"
+    "last_update": "2026-07-04 02:06"
 }
