@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260705001",
-            "title": "Will a UK Government Minister (of any rank) resign from their post today, citing the HS2 project's financial mismanagement as a primary reason?",
-            "payout": 3.8,
-            "desc": "Following yesterday's confirmation of further significant cost overruns on HS2's northern leg and the immediate suspension of works by the Transport Secretary, intense political pressure could force an immediate ministerial resignation as accountability is sought."
+            "id": "20260706001",
+            "title": "Will the UK Prime Minister today publicly reiterate full confidence in the Transport Secretary following the HS2 inquiry announcement?",
+            "payout": 1.46,
+            "desc": "Following yesterday's announcement of an independent public inquiry into HS2 and mounting pressure on the Transport Secretary, the Prime Minister is expected to make a statement, potentially today, to either shore up support or signal a change in position."
         },
         {
-            "id": "20260705002",
-            "title": "Will the Scottish National Party (SNP) formally announce the official timetable or opening date for its next leadership contest today?",
-            "payout": 1.58,
-            "desc": "With the SNP's annual conference brought forward and internal leadership discussions intensifying, the party leadership is under pressure to provide clarity and a formal process for succession, potentially announcing the contest's timeline today."
+            "id": "20260706002",
+            "title": "Will a second high-profile MSP publicly declare their intention to challenge for the SNP leadership today?",
+            "payout": 2.11,
+            "desc": "With internal SNP leadership discussions intensifying and at least one high-profile figure already having declared or strongly hinted, further declarations or significant endorsements are anticipated as potential contenders seek to gain early momentum today."
         },
         {
-            "id": "20260705003",
-            "title": "Will the UK Government today announce the establishment of an independent public inquiry into the management and financial oversight of the HS2 project?",
-            "payout": 1.9,
-            "desc": "After yesterday's revelations of further significant cost overruns and the Transport Secretary's immediate action to suspend works, the government is likely to face calls for a broader, independent review, with an announcement possibly made today to demonstrate transparency and accountability."
+            "id": "20260706003",
+            "title": "Will the UK Government today publish an updated timeline or financial projections for the remaining operational sections of HS2?",
+            "payout": 1.73,
+            "desc": "After yesterday's suspension of works on the northern leg and the announcement of an independent inquiry, the government will be under pressure to provide immediate clarity on the stability and future of the operational or near-operational phases of the HS2 project."
         },
         {
-            "id": "20260705004",
-            "title": "Will the United States Department of State today issue a formal public statement directly responding to Country X's recent protest note concerning travel advisories?",
-            "payout": 1.36,
-            "desc": "Following yesterday's formal protest note from Country X concerning the US 'Do Not Travel' advisory, and given the severity of the diplomatic rift, the US State Department is expected to issue a public counter-statement or response relatively quickly, possibly today."
+            "id": "20260706004",
+            "title": "Will Country X today announce the expulsion of any US diplomatic personnel in response to recent US statements?",
+            "payout": 2.71,
+            "desc": "Following the US State Department's formal response yesterday to Country X's protest note, and given the escalating severity of the diplomatic rift, Country X may choose to implement more stringent retaliatory measures, such as diplomatic expulsions, today."
         },
         {
-            "id": "20260705005",
-            "title": "Will a permanent member of the UN Security Council today formally propose a new draft resolution concerning the conflict in Region Z, aiming for a fresh ceasefire or peace process?",
+            "id": "20260706005",
+            "title": "Will the UN Security Council today formally adopt the new draft resolution concerning the conflict in Region Z?",
             "payout": 2.38,
-            "desc": "With escalating violence in Region Z, the failure of yesterday's humanitarian ceasefire proposal, and the UN Security Council having convened an emergency session yesterday, a major power may quickly follow up with a concrete new diplomatic initiative in the form of a draft resolution today."
+            "desc": "After a permanent member formally proposed a new draft resolution yesterday following an emergency session, intense diplomatic efforts will be underway, potentially leading to a rapid vote and adoption today to address the escalating violence in Region Z."
         }
     ],
     "history": [
@@ -2751,7 +2751,47 @@
             "desc": "With escalating violence in Region Z and the apparent failure of yesterday's humanitarian ceasefire proposal, the UN Special Envoy or a member state may call for an immediate Security Council meeting to seek stronger international action or a new diplomatic push.",
             "result": "WON",
             "settled_at": "2026-07-05"
+        },
+        {
+            "id": "20260705001",
+            "title": "Will a UK Government Minister (of any rank) resign from their post today, citing the HS2 project's financial mismanagement as a primary reason?",
+            "payout": 3.8,
+            "desc": "Following yesterday's confirmation of further significant cost overruns on HS2's northern leg and the immediate suspension of works by the Transport Secretary, intense political pressure could force an immediate ministerial resignation as accountability is sought.",
+            "result": "LOST",
+            "settled_at": "2026-07-06"
+        },
+        {
+            "id": "20260705002",
+            "title": "Will the Scottish National Party (SNP) formally announce the official timetable or opening date for its next leadership contest today?",
+            "payout": 1.58,
+            "desc": "With the SNP's annual conference brought forward and internal leadership discussions intensifying, the party leadership is under pressure to provide clarity and a formal process for succession, potentially announcing the contest's timeline today.",
+            "result": "LOST",
+            "settled_at": "2026-07-06"
+        },
+        {
+            "id": "20260705003",
+            "title": "Will the UK Government today announce the establishment of an independent public inquiry into the management and financial oversight of the HS2 project?",
+            "payout": 1.9,
+            "desc": "After yesterday's revelations of further significant cost overruns and the Transport Secretary's immediate action to suspend works, the government is likely to face calls for a broader, independent review, with an announcement possibly made today to demonstrate transparency and accountability.",
+            "result": "WON",
+            "settled_at": "2026-07-06"
+        },
+        {
+            "id": "20260705004",
+            "title": "Will the United States Department of State today issue a formal public statement directly responding to Country X's recent protest note concerning travel advisories?",
+            "payout": 1.36,
+            "desc": "Following yesterday's formal protest note from Country X concerning the US 'Do Not Travel' advisory, and given the severity of the diplomatic rift, the US State Department is expected to issue a public counter-statement or response relatively quickly, possibly today.",
+            "result": "WON",
+            "settled_at": "2026-07-06"
+        },
+        {
+            "id": "20260705005",
+            "title": "Will a permanent member of the UN Security Council today formally propose a new draft resolution concerning the conflict in Region Z, aiming for a fresh ceasefire or peace process?",
+            "payout": 2.38,
+            "desc": "With escalating violence in Region Z, the failure of yesterday's humanitarian ceasefire proposal, and the UN Security Council having convened an emergency session yesterday, a major power may quickly follow up with a concrete new diplomatic initiative in the form of a draft resolution today.",
+            "result": "WON",
+            "settled_at": "2026-07-06"
         }
     ],
-    "last_update": "2026-07-05 02:14"
+    "last_update": "2026-07-06 02:26"
 }
