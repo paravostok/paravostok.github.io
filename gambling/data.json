@@ -1,34 +1,39 @@
 {
     "current_events": [
         {
-            "id": "20260706001",
-            "title": "Will the UK Prime Minister today publicly reiterate full confidence in the Transport Secretary following the HS2 inquiry announcement?",
-            "payout": 1.46,
-            "desc": "Following yesterday's announcement of an independent public inquiry into HS2 and mounting pressure on the Transport Secretary, the Prime Minister is expected to make a statement, potentially today, to either shore up support or signal a change in position."
-        },
-        {
-            "id": "20260706002",
-            "title": "Will a second high-profile MSP publicly declare their intention to challenge for the SNP leadership today?",
+            "id": "20260707001",
+            "title": "Will the UK Prime Minister's office today announce a cabinet reshuffle or a specific ministerial resignation?",
             "payout": 2.11,
-            "desc": "With internal SNP leadership discussions intensifying and at least one high-profile figure already having declared or strongly hinted, further declarations or significant endorsements are anticipated as potential contenders seek to gain early momentum today."
+            "desc": "Following yesterday's implied lack of full confidence in the Transport Secretary and the ongoing HS2 inquiry, pressure is mounting on the Prime Minister to assert control and potentially reorganize their frontbench team or accept a resignation to manage public perception.",
+            "probability": 0.45
         },
         {
-            "id": "20260706003",
-            "title": "Will the UK Government today publish an updated timeline or financial projections for the remaining operational sections of HS2?",
-            "payout": 1.73,
-            "desc": "After yesterday's suspension of works on the northern leg and the announcement of an independent inquiry, the government will be under pressure to provide immediate clarity on the stability and future of the operational or near-operational phases of the HS2 project."
-        },
-        {
-            "id": "20260706004",
-            "title": "Will Country X today announce the expulsion of any US diplomatic personnel in response to recent US statements?",
+            "id": "20260707002",
+            "title": "Will the current Scottish First Minister today publicly endorse one of the declared candidates for the SNP leadership?",
             "payout": 2.71,
-            "desc": "Following the US State Department's formal response yesterday to Country X's protest note, and given the escalating severity of the diplomatic rift, Country X may choose to implement more stringent retaliatory measures, such as diplomatic expulsions, today."
+            "desc": "With multiple high-profile figures now challenging for the SNP leadership, the current First Minister may face pressure or feel compelled to publicly back a candidate today, either to lend significant weight to a preferred successor or to try and unify the party.",
+            "probability": 0.35
         },
         {
-            "id": "20260706005",
-            "title": "Will the UN Security Council today formally adopt the new draft resolution concerning the conflict in Region Z?",
-            "payout": 2.38,
-            "desc": "After a permanent member formally proposed a new draft resolution yesterday following an emergency session, intense diplomatic efforts will be underway, potentially leading to a rapid vote and adoption today to address the escalating violence in Region Z."
+            "id": "20260707003",
+            "title": "Will the Department for Transport today announce the commencement of a new review into the funding or viability of a major *existing* UK regional rail line?",
+            "payout": 3.8,
+            "desc": "In the wake of the HS2 inquiry and increased scrutiny on major infrastructure spending, the Department for Transport might today announce a new review into an existing regional rail line's funding or viability, possibly signaling future cuts or reallocations to manage public finances.",
+            "probability": 0.25
+        },
+        {
+            "id": "20260707004",
+            "title": "Will the EU today formally issue a statement condemning Country X's recent diplomatic actions and threatening sanctions?",
+            "payout": 3.17,
+            "desc": "After yesterday's escalation in diplomatic tensions between Country X and the US, the European Union may today release a coordinated statement, potentially aligning with US concerns, condemning Country X's actions and hinting at future sanctions to exert diplomatic pressure.",
+            "probability": 0.3
+        },
+        {
+            "id": "20260707005",
+            "title": "Will the UN Secretary-General today issue a direct, urgent appeal for an immediate, unconditional ceasefire in Region Z?",
+            "payout": 1.58,
+            "desc": "Following the UN Security Council's failure to adopt a resolution on Region Z yesterday, the UN Secretary-General is likely to step in with a direct, urgent appeal for an immediate and unconditional ceasefire today to try and stem the escalating violence.",
+            "probability": 0.6
         }
     ],
     "history": [
@@ -2791,7 +2796,47 @@
             "desc": "With escalating violence in Region Z, the failure of yesterday's humanitarian ceasefire proposal, and the UN Security Council having convened an emergency session yesterday, a major power may quickly follow up with a concrete new diplomatic initiative in the form of a draft resolution today.",
             "result": "WON",
             "settled_at": "2026-07-06"
+        },
+        {
+            "id": "20260706001",
+            "title": "Will the UK Prime Minister today publicly reiterate full confidence in the Transport Secretary following the HS2 inquiry announcement?",
+            "payout": 1.46,
+            "desc": "Following yesterday's announcement of an independent public inquiry into HS2 and mounting pressure on the Transport Secretary, the Prime Minister is expected to make a statement, potentially today, to either shore up support or signal a change in position.",
+            "result": "LOST",
+            "settled_at": "2026-07-07"
+        },
+        {
+            "id": "20260706002",
+            "title": "Will a second high-profile MSP publicly declare their intention to challenge for the SNP leadership today?",
+            "payout": 2.11,
+            "desc": "With internal SNP leadership discussions intensifying and at least one high-profile figure already having declared or strongly hinted, further declarations or significant endorsements are anticipated as potential contenders seek to gain early momentum today.",
+            "result": "WON",
+            "settled_at": "2026-07-07"
+        },
+        {
+            "id": "20260706003",
+            "title": "Will the UK Government today publish an updated timeline or financial projections for the remaining operational sections of HS2?",
+            "payout": 1.73,
+            "desc": "After yesterday's suspension of works on the northern leg and the announcement of an independent inquiry, the government will be under pressure to provide immediate clarity on the stability and future of the operational or near-operational phases of the HS2 project.",
+            "result": "LOST",
+            "settled_at": "2026-07-07"
+        },
+        {
+            "id": "20260706004",
+            "title": "Will Country X today announce the expulsion of any US diplomatic personnel in response to recent US statements?",
+            "payout": 2.71,
+            "desc": "Following the US State Department's formal response yesterday to Country X's protest note, and given the escalating severity of the diplomatic rift, Country X may choose to implement more stringent retaliatory measures, such as diplomatic expulsions, today.",
+            "result": "LOST",
+            "settled_at": "2026-07-07"
+        },
+        {
+            "id": "20260706005",
+            "title": "Will the UN Security Council today formally adopt the new draft resolution concerning the conflict in Region Z?",
+            "payout": 2.38,
+            "desc": "After a permanent member formally proposed a new draft resolution yesterday following an emergency session, intense diplomatic efforts will be underway, potentially leading to a rapid vote and adoption today to address the escalating violence in Region Z.",
+            "result": "LOST",
+            "settled_at": "2026-07-07"
         }
     ],
-    "last_update": "2026-07-06 02:26"
+    "last_update": "2026-07-07 02:14"
 }
