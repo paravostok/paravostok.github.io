@@ -1,38 +1,38 @@
 {
     "current_events": [
         {
-            "id": "20260707001",
-            "title": "Will the UK Prime Minister's office today announce a cabinet reshuffle or a specific ministerial resignation?",
-            "payout": 2.11,
-            "desc": "Following yesterday's implied lack of full confidence in the Transport Secretary and the ongoing HS2 inquiry, pressure is mounting on the Prime Minister to assert control and potentially reorganize their frontbench team or accept a resignation to manage public perception.",
-            "probability": 0.45
-        },
-        {
-            "id": "20260707002",
-            "title": "Will the current Scottish First Minister today publicly endorse one of the declared candidates for the SNP leadership?",
-            "payout": 2.71,
-            "desc": "With multiple high-profile figures now challenging for the SNP leadership, the current First Minister may face pressure or feel compelled to publicly back a candidate today, either to lend significant weight to a preferred successor or to try and unify the party.",
-            "probability": 0.35
-        },
-        {
-            "id": "20260707003",
-            "title": "Will the Department for Transport today announce the commencement of a new review into the funding or viability of a major *existing* UK regional rail line?",
+            "id": "20260708001",
+            "title": "Will a Conservative backbench MP publicly call for a vote of no confidence in the Prime Minister today?",
             "payout": 3.8,
-            "desc": "In the wake of the HS2 inquiry and increased scrutiny on major infrastructure spending, the Department for Transport might today announce a new review into an existing regional rail line's funding or viability, possibly signaling future cuts or reallocations to manage public finances.",
+            "desc": "Following continued speculation around the Prime Minister's leadership after recent controversies, a prominent backbencher might choose today to publicly challenge the PM, potentially triggering further instability within the party.",
             "probability": 0.25
         },
         {
-            "id": "20260707004",
-            "title": "Will the EU today formally issue a statement condemning Country X's recent diplomatic actions and threatening sanctions?",
-            "payout": 3.17,
-            "desc": "After yesterday's escalation in diplomatic tensions between Country X and the US, the European Union may today release a coordinated statement, potentially aligning with US concerns, condemning Country X's actions and hinting at future sanctions to exert diplomatic pressure.",
-            "probability": 0.3
+            "id": "20260708002",
+            "title": "Will one of the declared SNP leadership candidates withdraw from the race by the end of today?",
+            "payout": 2.71,
+            "desc": "With the SNP leadership contest intensifying and candidates facing scrutiny over their platforms, one of the contenders might today assess their chances or face insurmountable pressure, leading to a decision to withdraw from the race to consolidate support behind another candidate.",
+            "probability": 0.35
         },
         {
-            "id": "20260707005",
-            "title": "Will the UN Secretary-General today issue a direct, urgent appeal for an immediate, unconditional ceasefire in Region Z?",
-            "payout": 1.58,
-            "desc": "Following the UN Security Council's failure to adopt a resolution on Region Z yesterday, the UN Secretary-General is likely to step in with a direct, urgent appeal for an immediate and unconditional ceasefire today to try and stem the escalating violence.",
+            "id": "20260708003",
+            "title": "Will the UK government today announce a specific date for the conclusion of the ongoing HS2 Phase 2b review?",
+            "payout": 2.375,
+            "desc": "Amidst calls for clarity on major infrastructure spending and the ongoing HS2 inquiry, the Department for Transport or the Prime Minister's office might today announce a specific deadline or target date for the conclusion of the HS2 Phase 2b review, aiming to quell uncertainty and demonstrate progress.",
+            "probability": 0.4
+        },
+        {
+            "id": "20260708004",
+            "title": "Will Country X's Foreign Ministry today issue an official statement rejecting the EU's condemnation and threatening retaliatory measures?",
+            "payout": 1.357,
+            "desc": "Following yesterday's formal condemnation from the EU regarding Country X's diplomatic actions and the threat of sanctions, Country X's government is highly likely to respond today, potentially rejecting the accusations and escalating tensions further by threatening reciprocal actions.",
+            "probability": 0.7
+        },
+        {
+            "id": "20260708005",
+            "title": "Will a major party to the conflict in Region Z today publicly reject the UN Secretary-General's call for an immediate ceasefire?",
+            "payout": 1.583,
+            "desc": "After the UN Secretary-General's urgent appeal for an unconditional ceasefire yesterday, one of the primary factions involved in the conflict in Region Z may today issue a public statement, rejecting the call and outlining their conditions for peace, thereby undermining immediate de-escalation efforts.",
             "probability": 0.6
         }
     ],
@@ -2836,7 +2836,52 @@
             "desc": "After a permanent member formally proposed a new draft resolution yesterday following an emergency session, intense diplomatic efforts will be underway, potentially leading to a rapid vote and adoption today to address the escalating violence in Region Z.",
             "result": "LOST",
             "settled_at": "2026-07-07"
+        },
+        {
+            "id": "20260707001",
+            "title": "Will the UK Prime Minister's office today announce a cabinet reshuffle or a specific ministerial resignation?",
+            "payout": 2.11,
+            "desc": "Following yesterday's implied lack of full confidence in the Transport Secretary and the ongoing HS2 inquiry, pressure is mounting on the Prime Minister to assert control and potentially reorganize their frontbench team or accept a resignation to manage public perception.",
+            "probability": 0.45,
+            "result": "LOST",
+            "settled_at": "2026-07-08"
+        },
+        {
+            "id": "20260707002",
+            "title": "Will the current Scottish First Minister today publicly endorse one of the declared candidates for the SNP leadership?",
+            "payout": 2.71,
+            "desc": "With multiple high-profile figures now challenging for the SNP leadership, the current First Minister may face pressure or feel compelled to publicly back a candidate today, either to lend significant weight to a preferred successor or to try and unify the party.",
+            "probability": 0.35,
+            "result": "LOST",
+            "settled_at": "2026-07-08"
+        },
+        {
+            "id": "20260707003",
+            "title": "Will the Department for Transport today announce the commencement of a new review into the funding or viability of a major *existing* UK regional rail line?",
+            "payout": 3.8,
+            "desc": "In the wake of the HS2 inquiry and increased scrutiny on major infrastructure spending, the Department for Transport might today announce a new review into an existing regional rail line's funding or viability, possibly signaling future cuts or reallocations to manage public finances.",
+            "probability": 0.25,
+            "result": "LOST",
+            "settled_at": "2026-07-08"
+        },
+        {
+            "id": "20260707004",
+            "title": "Will the EU today formally issue a statement condemning Country X's recent diplomatic actions and threatening sanctions?",
+            "payout": 3.17,
+            "desc": "After yesterday's escalation in diplomatic tensions between Country X and the US, the European Union may today release a coordinated statement, potentially aligning with US concerns, condemning Country X's actions and hinting at future sanctions to exert diplomatic pressure.",
+            "probability": 0.3,
+            "result": "WON",
+            "settled_at": "2026-07-08"
+        },
+        {
+            "id": "20260707005",
+            "title": "Will the UN Secretary-General today issue a direct, urgent appeal for an immediate, unconditional ceasefire in Region Z?",
+            "payout": 1.58,
+            "desc": "Following the UN Security Council's failure to adopt a resolution on Region Z yesterday, the UN Secretary-General is likely to step in with a direct, urgent appeal for an immediate and unconditional ceasefire today to try and stem the escalating violence.",
+            "probability": 0.6,
+            "result": "WON",
+            "settled_at": "2026-07-08"
         }
     ],
-    "last_update": "2026-07-07 02:14"
+    "last_update": "2026-07-08 01:55"
 }
