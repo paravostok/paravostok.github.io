@@ -1,39 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260708001",
-            "title": "Will a Conservative backbench MP publicly call for a vote of no confidence in the Prime Minister today?",
-            "payout": 3.8,
-            "desc": "Following continued speculation around the Prime Minister's leadership after recent controversies, a prominent backbencher might choose today to publicly challenge the PM, potentially triggering further instability within the party.",
-            "probability": 0.25
-        },
-        {
-            "id": "20260708002",
-            "title": "Will one of the declared SNP leadership candidates withdraw from the race by the end of today?",
-            "payout": 2.71,
-            "desc": "With the SNP leadership contest intensifying and candidates facing scrutiny over their platforms, one of the contenders might today assess their chances or face insurmountable pressure, leading to a decision to withdraw from the race to consolidate support behind another candidate.",
-            "probability": 0.35
-        },
-        {
-            "id": "20260708003",
-            "title": "Will the UK government today announce a specific date for the conclusion of the ongoing HS2 Phase 2b review?",
-            "payout": 2.375,
-            "desc": "Amidst calls for clarity on major infrastructure spending and the ongoing HS2 inquiry, the Department for Transport or the Prime Minister's office might today announce a specific deadline or target date for the conclusion of the HS2 Phase 2b review, aiming to quell uncertainty and demonstrate progress.",
-            "probability": 0.4
-        },
-        {
-            "id": "20260708004",
-            "title": "Will Country X's Foreign Ministry today issue an official statement rejecting the EU's condemnation and threatening retaliatory measures?",
-            "payout": 1.357,
-            "desc": "Following yesterday's formal condemnation from the EU regarding Country X's diplomatic actions and the threat of sanctions, Country X's government is highly likely to respond today, potentially rejecting the accusations and escalating tensions further by threatening reciprocal actions.",
-            "probability": 0.7
-        },
-        {
-            "id": "20260708005",
-            "title": "Will a major party to the conflict in Region Z today publicly reject the UN Secretary-General's call for an immediate ceasefire?",
+            "id": "20260709001",
+            "title": "Will the Chancellor of the Exchequer today publicly rule out further tax rises for the current fiscal year during a scheduled Treasury committee hearing?",
             "payout": 1.583,
-            "desc": "After the UN Secretary-General's urgent appeal for an unconditional ceasefire yesterday, one of the primary factions involved in the conflict in Region Z may today issue a public statement, rejecting the call and outlining their conditions for peace, thereby undermining immediate de-escalation efforts.",
-            "probability": 0.6
+            "desc": "With sustained pressure on the government regarding economic stability and a scheduled appearance before the Treasury committee, the Chancellor may choose today to offer a clear commitment on taxation to reassure markets and the public, or face further speculation if they dodge the question."
+        },
+        {
+            "id": "20260709002",
+            "title": "Will the First Minister of Scotland today address speculation regarding a potential early Holyrood election in a public statement?",
+            "payout": 2.375,
+            "desc": "Amidst persistent rumours of internal party disagreements and a desire to seek a renewed mandate, the First Minister might today be prompted or choose to issue a statement clarifying their stance on the prospect of an early Scottish parliamentary election, aiming to either quash or confirm the speculation."
+        },
+        {
+            "id": "20260709003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of any remaining portion of the HS2 Phase 2b route?",
+            "payout": 3.167,
+            "desc": "Following yesterday's update on the HS2 review and ongoing cost concerns, there is considerable pressure for the government to provide ultimate clarity. A decision to scrap further sections of Phase 2b could be announced today, potentially leaked, or revealed in an official update to parliament or the press."
+        },
+        {
+            "id": "20260709004",
+            "title": "Will the US Secretary of State today make an unscheduled visit to a Middle Eastern capital following recent regional tensions?",
+            "payout": 1.9,
+            "desc": "In light of escalating diplomatic strains and renewed security concerns in the Middle East, the US Secretary of State might today embark on an unannounced diplomatic mission to a key capital in the region, seeking to de-escalate tensions or bolster alliances."
+        },
+        {
+            "id": "20260709005",
+            "title": "Will a military spokesperson for one of the primary factions in the ongoing conflict in Region A today claim capture of a strategic city?",
+            "payout": 1.357,
+            "desc": "With the conflict in Region A intensifying, both sides are engaged in active military operations. Today, one of the main belligerent factions may issue a public statement or hold a press briefing to announce a significant battlefield gain, specifically the capture of a key strategic city, aiming to demonstrate dominance and boost morale."
         }
     ],
     "history": [
@@ -2881,7 +2876,52 @@
             "probability": 0.6,
             "result": "WON",
             "settled_at": "2026-07-08"
+        },
+        {
+            "id": "20260708001",
+            "title": "Will a Conservative backbench MP publicly call for a vote of no confidence in the Prime Minister today?",
+            "payout": 3.8,
+            "desc": "Following continued speculation around the Prime Minister's leadership after recent controversies, a prominent backbencher might choose today to publicly challenge the PM, potentially triggering further instability within the party.",
+            "probability": 0.25,
+            "result": "LOST",
+            "settled_at": "2026-07-09"
+        },
+        {
+            "id": "20260708002",
+            "title": "Will one of the declared SNP leadership candidates withdraw from the race by the end of today?",
+            "payout": 2.71,
+            "desc": "With the SNP leadership contest intensifying and candidates facing scrutiny over their platforms, one of the contenders might today assess their chances or face insurmountable pressure, leading to a decision to withdraw from the race to consolidate support behind another candidate.",
+            "probability": 0.35,
+            "result": "LOST",
+            "settled_at": "2026-07-09"
+        },
+        {
+            "id": "20260708003",
+            "title": "Will the UK government today announce a specific date for the conclusion of the ongoing HS2 Phase 2b review?",
+            "payout": 2.375,
+            "desc": "Amidst calls for clarity on major infrastructure spending and the ongoing HS2 inquiry, the Department for Transport or the Prime Minister's office might today announce a specific deadline or target date for the conclusion of the HS2 Phase 2b review, aiming to quell uncertainty and demonstrate progress.",
+            "probability": 0.4,
+            "result": "WON",
+            "settled_at": "2026-07-09"
+        },
+        {
+            "id": "20260708004",
+            "title": "Will Country X's Foreign Ministry today issue an official statement rejecting the EU's condemnation and threatening retaliatory measures?",
+            "payout": 1.357,
+            "desc": "Following yesterday's formal condemnation from the EU regarding Country X's diplomatic actions and the threat of sanctions, Country X's government is highly likely to respond today, potentially rejecting the accusations and escalating tensions further by threatening reciprocal actions.",
+            "probability": 0.7,
+            "result": "WON",
+            "settled_at": "2026-07-09"
+        },
+        {
+            "id": "20260708005",
+            "title": "Will a major party to the conflict in Region Z today publicly reject the UN Secretary-General's call for an immediate ceasefire?",
+            "payout": 1.583,
+            "desc": "After the UN Secretary-General's urgent appeal for an unconditional ceasefire yesterday, one of the primary factions involved in the conflict in Region Z may today issue a public statement, rejecting the call and outlining their conditions for peace, thereby undermining immediate de-escalation efforts.",
+            "probability": 0.6,
+            "result": "WON",
+            "settled_at": "2026-07-09"
         }
     ],
-    "last_update": "2026-07-08 01:55"
+    "last_update": "2026-07-09 02:08"
 }
