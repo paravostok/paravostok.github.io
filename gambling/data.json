@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260710001",
-            "title": "Will the UK Government today officially announce the date for the upcoming by-election in the 'Westshire North' constituency?",
-            "payout": 2.375,
-            "desc": "Following yesterday's resignation of the MP for Westshire North, there is anticipation for the government to swiftly confirm the date for the ensuing by-election, with an announcement potentially coming today to avoid prolonged speculation."
+            "id": "20260711001",
+            "title": "Will a UK Cabinet minister resign from their post today amid ongoing pressure?",
+            "payout": 2.578,
+            "desc": "Following days of intense media speculation and mounting pressure over recent policy controversies, there are strong rumours that a Cabinet minister might offer their resignation to the Prime Minister today to pre-empt a vote of no confidence or a reshuffle. An announcement could come at any time."
         },
         {
-            "id": "20260710002",
-            "title": "Will the Scottish Government today publish its long-awaited white paper detailing the economic case for independence?",
-            "payout": 3.167,
-            "desc": "Amidst ongoing calls from pro-independence parties and increasing pressure for clarity on Scotland's economic future, the Scottish Government may choose today to finally release its detailed white paper on the economic arguments for independence, seeking to regain narrative control."
-        },
-        {
-            "id": "20260710003",
-            "title": "Will the Department for Transport today confirm the allocation of additional funding for rail upgrades in the North of England, specifically mentioning the 'Northern Powerhouse Rail' project?",
-            "payout": 1.9,
-            "desc": "Following recent criticism regarding regional transport disparities and renewed calls for investment in 'Northern Powerhouse Rail', the Department for Transport is under pressure to deliver. An announcement on new funding for key rail upgrades in the North could be made today to address these concerns."
-        },
-        {
-            "id": "20260710004",
-            "title": "Will the European Commission today formally launch new antitrust proceedings against a major global tech company?",
-            "payout": 2.714,
-            "desc": "With increasing global scrutiny on the market dominance of major technology firms, sources close to the European Commission suggest an announcement regarding new antitrust investigations could be imminent. Today might see the official launch of proceedings against a prominent tech giant."
-        },
-        {
-            "id": "20260710005",
-            "title": "Will a UN special envoy today publicly announce a new proposed date for multilateral peace talks concerning the conflict in Region Z?",
+            "id": "20260711002",
+            "title": "Will a new official opinion poll on Scottish independence, commissioned by a major Scottish media outlet, be published today?",
             "payout": 2.111,
-            "desc": "Following recent behind-the-scenes diplomatic efforts to de-escalate the protracted conflict in Region Z, there is growing expectation that a UN special envoy might today unveil a concrete proposal, including a new date, for restarting multilateral peace negotiations."
+            "desc": "With the ongoing debate around independence and recent political developments, a major Scottish newspaper or broadcaster might today release the findings of a new, significant opinion poll on Scottish independence, potentially influencing the political narrative ahead of upcoming parliamentary sessions."
+        },
+        {
+            "id": "20260711003",
+            "title": "Will the High Speed 2 (HS2) project today officially confirm a further delay to a specific phase of its construction (e.g., Birmingham-Crewe segment)?",
+            "payout": 1.727,
+            "desc": "Amid persistent reports of budgetary overruns and logistical challenges, sources close to the HS2 project management suggest an internal review conclusion might be leaked or officially announced today, confirming a further delay to the planned completion of a key segment like Birmingham-Crewe."
+        },
+        {
+            "id": "20260711004",
+            "title": "Will the G7 today issue a joint statement explicitly condemning recent cyberattacks and directly attributing them to Nation X?",
+            "payout": 2.375,
+            "desc": "Following a series of high-profile cyberattacks and mounting intelligence, G7 leaders, currently engaged in virtual discussions, are under pressure to present a united front. A formal joint statement specifically attributing the attacks to and condemning Nation X could be released today to send a strong message."
+        },
+        {
+            "id": "20260711005",
+            "title": "Will a major international news agency today report a confirmed significant breach of the newly declared ceasefire in the conflict zone of Region Y?",
+            "payout": 1.583,
+            "desc": "Despite a recent ceasefire agreement, tensions remain extremely high in Region Y. Given the fragility of the truce and historical precedents, a major international news agency might today publish confirmed reports of significant violations, indicating the ceasefire's collapse, possibly from official military or UN sources."
         }
     ],
     "history": [
@@ -2961,7 +2961,47 @@
             "desc": "With the conflict in Region A intensifying, both sides are engaged in active military operations. Today, one of the main belligerent factions may issue a public statement or hold a press briefing to announce a significant battlefield gain, specifically the capture of a key strategic city, aiming to demonstrate dominance and boost morale.",
             "result": "LOST",
             "settled_at": "2026-07-10"
+        },
+        {
+            "id": "20260710001",
+            "title": "Will the UK Government today officially announce the date for the upcoming by-election in the 'Westshire North' constituency?",
+            "payout": 2.375,
+            "desc": "Following yesterday's resignation of the MP for Westshire North, there is anticipation for the government to swiftly confirm the date for the ensuing by-election, with an announcement potentially coming today to avoid prolonged speculation.",
+            "result": "LOST",
+            "settled_at": "2026-07-11"
+        },
+        {
+            "id": "20260710002",
+            "title": "Will the Scottish Government today publish its long-awaited white paper detailing the economic case for independence?",
+            "payout": 3.167,
+            "desc": "Amidst ongoing calls from pro-independence parties and increasing pressure for clarity on Scotland's economic future, the Scottish Government may choose today to finally release its detailed white paper on the economic arguments for independence, seeking to regain narrative control.",
+            "result": "LOST",
+            "settled_at": "2026-07-11"
+        },
+        {
+            "id": "20260710003",
+            "title": "Will the Department for Transport today confirm the allocation of additional funding for rail upgrades in the North of England, specifically mentioning the 'Northern Powerhouse Rail' project?",
+            "payout": 1.9,
+            "desc": "Following recent criticism regarding regional transport disparities and renewed calls for investment in 'Northern Powerhouse Rail', the Department for Transport is under pressure to deliver. An announcement on new funding for key rail upgrades in the North could be made today to address these concerns.",
+            "result": "LOST",
+            "settled_at": "2026-07-11"
+        },
+        {
+            "id": "20260710004",
+            "title": "Will the European Commission today formally launch new antitrust proceedings against a major global tech company?",
+            "payout": 2.714,
+            "desc": "With increasing global scrutiny on the market dominance of major technology firms, sources close to the European Commission suggest an announcement regarding new antitrust investigations could be imminent. Today might see the official launch of proceedings against a prominent tech giant.",
+            "result": "LOST",
+            "settled_at": "2026-07-11"
+        },
+        {
+            "id": "20260710005",
+            "title": "Will a UN special envoy today publicly announce a new proposed date for multilateral peace talks concerning the conflict in Region Z?",
+            "payout": 2.111,
+            "desc": "Following recent behind-the-scenes diplomatic efforts to de-escalate the protracted conflict in Region Z, there is growing expectation that a UN special envoy might today unveil a concrete proposal, including a new date, for restarting multilateral peace negotiations.",
+            "result": "LOST",
+            "settled_at": "2026-07-11"
         }
     ],
-    "last_update": "2026-07-10 02:07"
+    "last_update": "2026-07-11 01:53"
 }
