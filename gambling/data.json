@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260712001",
-            "title": "Will a UK Cabinet minister today announce a new specific date for the delayed 'Skills for Tomorrow' white paper publication?",
-            "payout": 1.9,
-            "desc": "Following intense questioning in Parliament yesterday regarding the repeatedly delayed 'Skills for Tomorrow' white paper, the relevant Cabinet minister is under pressure to provide clarity. Sources within Whitehall suggest an announcement with a firm new publication date could be made today to appease critics."
-        },
-        {
-            "id": "20260712002",
-            "title": "Will the Scottish Government today officially confirm a new financial support package for the struggling fisheries sector?",
+            "id": "20260713001",
+            "title": "Will the UK government today announce an immediate halt to the controversial 'Digital Identity' bill following widespread public backlash?",
             "payout": 2.375,
-            "desc": "With the Scottish fisheries sector facing significant challenges and ongoing calls for government intervention, the Scottish Rural Affairs Secretary is scheduled to make a statement this afternoon. Strong rumours suggest a new, targeted financial aid package will be unveiled to address immediate concerns."
+            "desc": "Following days of protests and significant cross-party opposition, speculation is mounting that the government might be forced to reconsider its 'Digital Identity' bill. A statement from Downing Street or the relevant minister is anticipated today to address the escalating concerns. (Probability: 0.4)"
         },
         {
-            "id": "20260712003",
-            "title": "Will HS2 Ltd today issue a press release confirming the award of a major new contract for track installation on the northern sections of the project?",
+            "id": "20260713002",
+            "title": "Will the Scottish National Party today officially confirm the dates for their leadership election, following recent internal disagreements?",
             "payout": 1.583,
-            "desc": "After several months of procurement negotiations, industry insiders are abuzz with speculation that HS2 Ltd is ready to announce a significant new contract award. A press release detailing the chosen contractor for track installation on the northern segments is widely anticipated before the end of business today."
+            "desc": "After reports emerged yesterday of growing divisions within the Scottish National Party, several prominent MSPs have called for clarity on the party's future direction. Sources within the party headquarters suggest an announcement regarding the timing of the leadership contest could be made today to quell speculation. (Probability: 0.6)"
         },
         {
-            "id": "20260712004",
-            "title": "Will the European Union today issue formal sanctions against individuals tied to the recent unrest in Nation Alpha?",
+            "id": "20260713003",
+            "title": "Will HS2 Ltd today announce a further cost increase estimate for the Euston station redevelopment?",
             "payout": 1.357,
-            "desc": "Following an emergency meeting yesterday to discuss the deteriorating situation in Nation Alpha, EU diplomatic sources have indicated a strong consensus for punitive measures. An official announcement detailing specific sanctions targeting individuals deemed responsible for the unrest is expected to be published today."
+            "desc": "Anonymous sources close to the HS2 project have indicated that new financial projections for the contentious Euston station phase are significantly higher than previously published figures. A statement or briefing note from HS2 Ltd addressing these spiralling costs is widely expected today amid renewed political scrutiny. (Probability: 0.7)"
         },
         {
-            "id": "20260712005",
-            "title": "Will a UN special envoy today confirm a new, temporary humanitarian corridor agreement has been established in the conflict zone of Region Beta?",
-            "payout": 2.714,
-            "desc": "Amid severe humanitarian conditions in Region Beta, UN diplomatic efforts have been ongoing to secure safe passage for aid. Reports from regional agencies suggest a breakthrough in negotiations is imminent, with a UN special envoy potentially confirming a limited, temporary humanitarian corridor today."
+            "id": "20260713004",
+            "title": "Will the G7 group today release a joint statement condemning the recent military actions by Country Gamma?",
+            "payout": 1.1875,
+            "desc": "Following emergency consultations throughout the weekend, leaders of the G7 nations are reportedly close to finalising a joint condemnation of Country Gamma's recent cross-border incursions. Diplomatic sources suggest the statement will be issued before the close of business today to demonstrate a united front. (Probability: 0.8)"
+        },
+        {
+            "id": "20260713005",
+            "title": "Will the warring factions in Region Beta today publicly accuse each other of violating the newly established humanitarian corridor agreement?",
+            "payout": 1.9,
+            "desc": "Despite yesterday's breakthrough on a temporary humanitarian corridor in Region Beta, local reports and aid agencies are already expressing concerns about the fragile truce. Observers fear that reciprocal accusations of violations by either side could emerge today, threatening the agreement's viability. (Probability: 0.5)"
         }
     ],
     "history": [
@@ -3041,7 +3041,47 @@
             "desc": "Despite a recent ceasefire agreement, tensions remain extremely high in Region Y. Given the fragility of the truce and historical precedents, a major international news agency might today publish confirmed reports of significant violations, indicating the ceasefire's collapse, possibly from official military or UN sources.",
             "result": "LOST",
             "settled_at": "2026-07-12"
+        },
+        {
+            "id": "20260712001",
+            "title": "Will a UK Cabinet minister today announce a new specific date for the delayed 'Skills for Tomorrow' white paper publication?",
+            "payout": 1.9,
+            "desc": "Following intense questioning in Parliament yesterday regarding the repeatedly delayed 'Skills for Tomorrow' white paper, the relevant Cabinet minister is under pressure to provide clarity. Sources within Whitehall suggest an announcement with a firm new publication date could be made today to appease critics.",
+            "result": "LOST",
+            "settled_at": "2026-07-13"
+        },
+        {
+            "id": "20260712002",
+            "title": "Will the Scottish Government today officially confirm a new financial support package for the struggling fisheries sector?",
+            "payout": 2.375,
+            "desc": "With the Scottish fisheries sector facing significant challenges and ongoing calls for government intervention, the Scottish Rural Affairs Secretary is scheduled to make a statement this afternoon. Strong rumours suggest a new, targeted financial aid package will be unveiled to address immediate concerns.",
+            "result": "WON",
+            "settled_at": "2026-07-13"
+        },
+        {
+            "id": "20260712003",
+            "title": "Will HS2 Ltd today issue a press release confirming the award of a major new contract for track installation on the northern sections of the project?",
+            "payout": 1.583,
+            "desc": "After several months of procurement negotiations, industry insiders are abuzz with speculation that HS2 Ltd is ready to announce a significant new contract award. A press release detailing the chosen contractor for track installation on the northern segments is widely anticipated before the end of business today.",
+            "result": "WON",
+            "settled_at": "2026-07-13"
+        },
+        {
+            "id": "20260712004",
+            "title": "Will the European Union today issue formal sanctions against individuals tied to the recent unrest in Nation Alpha?",
+            "payout": 1.357,
+            "desc": "Following an emergency meeting yesterday to discuss the deteriorating situation in Nation Alpha, EU diplomatic sources have indicated a strong consensus for punitive measures. An official announcement detailing specific sanctions targeting individuals deemed responsible for the unrest is expected to be published today.",
+            "result": "WON",
+            "settled_at": "2026-07-13"
+        },
+        {
+            "id": "20260712005",
+            "title": "Will a UN special envoy today confirm a new, temporary humanitarian corridor agreement has been established in the conflict zone of Region Beta?",
+            "payout": 2.714,
+            "desc": "Amid severe humanitarian conditions in Region Beta, UN diplomatic efforts have been ongoing to secure safe passage for aid. Reports from regional agencies suggest a breakthrough in negotiations is imminent, with a UN special envoy potentially confirming a limited, temporary humanitarian corridor today.",
+            "result": "WON",
+            "settled_at": "2026-07-13"
         }
     ],
-    "last_update": "2026-07-12 01:56"
+    "last_update": "2026-07-13 01:58"
 }
