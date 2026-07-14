@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260713001",
-            "title": "Will the UK government today announce an immediate halt to the controversial 'Digital Identity' bill following widespread public backlash?",
-            "payout": 2.375,
-            "desc": "Following days of protests and significant cross-party opposition, speculation is mounting that the government might be forced to reconsider its 'Digital Identity' bill. A statement from Downing Street or the relevant minister is anticipated today to address the escalating concerns. (Probability: 0.4)"
+            "id": "20260714001",
+            "title": "Will the UK Prime Minister today announce a cabinet reshuffle involving at least two ministerial positions?",
+            "payout": 3.008,
+            "desc": "Rumours have intensified overnight regarding dissatisfaction within Number 10 over recent policy setbacks. Political commentators are speculating that a decisive move, possibly a cabinet reshuffle, could be announced today to reassert authority and shift focus."
         },
         {
-            "id": "20260713002",
-            "title": "Will the Scottish National Party today officially confirm the dates for their leadership election, following recent internal disagreements?",
+            "id": "20260714002",
+            "title": "Will the Scottish Government today officially confirm the full details of its proposed new rural investment fund?",
             "payout": 1.583,
-            "desc": "After reports emerged yesterday of growing divisions within the Scottish National Party, several prominent MSPs have called for clarity on the party's future direction. Sources within the party headquarters suggest an announcement regarding the timing of the leadership contest could be made today to quell speculation. (Probability: 0.6)"
+            "desc": "Following yesterday's confirmation of the SNP leadership election dates, sources close to Bute House suggest the current administration is keen to demonstrate continued progress. An announcement detailing the long-awaited rural investment fund is highly anticipated today to underline policy commitment."
         },
         {
-            "id": "20260713003",
-            "title": "Will HS2 Ltd today announce a further cost increase estimate for the Euston station redevelopment?",
-            "payout": 1.357,
-            "desc": "Anonymous sources close to the HS2 project have indicated that new financial projections for the contentious Euston station phase are significantly higher than previously published figures. A statement or briefing note from HS2 Ltd addressing these spiralling costs is widely expected today amid renewed political scrutiny. (Probability: 0.7)"
-        },
-        {
-            "id": "20260713004",
-            "title": "Will the G7 group today release a joint statement condemning the recent military actions by Country Gamma?",
-            "payout": 1.1875,
-            "desc": "Following emergency consultations throughout the weekend, leaders of the G7 nations are reportedly close to finalising a joint condemnation of Country Gamma's recent cross-border incursions. Diplomatic sources suggest the statement will be issued before the close of business today to demonstrate a united front. (Probability: 0.8)"
-        },
-        {
-            "id": "20260713005",
-            "title": "Will the warring factions in Region Beta today publicly accuse each other of violating the newly established humanitarian corridor agreement?",
+            "id": "20260714003",
+            "title": "Will the Department for Transport today issue a formal rebuttal to yesterday's HS2 Euston cost increase reports?",
             "payout": 1.9,
-            "desc": "Despite yesterday's breakthrough on a temporary humanitarian corridor in Region Beta, local reports and aid agencies are already expressing concerns about the fragile truce. Observers fear that reciprocal accusations of violations by either side could emerge today, threatening the agreement's viability. (Probability: 0.5)"
+            "desc": "After yesterday's reports of escalating costs for the HS2 Euston station redevelopment, pressure is mounting on the Department for Transport to provide clarity. A rapid response, possibly in the form of a formal statement or briefing, is expected today to address public and political concerns."
+        },
+        {
+            "id": "20260714004",
+            "title": "Will Country Beta today announce new economic sanctions against Country Gamma, following yesterday's G7 condemnation?",
+            "payout": 1.357,
+            "desc": "In the wake of yesterday's decisive G7 joint statement condemning Country Gamma's military actions, key allies are now being watched closely for follow-up measures. Diplomatic sources indicate that Country Beta, a close regional partner, may announce its own set of economic sanctions today to reinforce the international stance."
+        },
+        {
+            "id": "20260714005",
+            "title": "Will the UN Security Council today call an emergency session to discuss the escalating humanitarian crisis in Region Beta?",
+            "payout": 1.188,
+            "desc": "Despite a fragile humanitarian corridor agreement, reports from aid agencies and local observers in Region Beta continue to paint a dire picture of the humanitarian situation. Growing international alarm suggests the UN Security Council may convene an emergency session today to address the rapidly deteriorating conditions."
         }
     ],
     "history": [
@@ -3081,7 +3081,47 @@
             "desc": "Amid severe humanitarian conditions in Region Beta, UN diplomatic efforts have been ongoing to secure safe passage for aid. Reports from regional agencies suggest a breakthrough in negotiations is imminent, with a UN special envoy potentially confirming a limited, temporary humanitarian corridor today.",
             "result": "WON",
             "settled_at": "2026-07-13"
+        },
+        {
+            "id": "20260713001",
+            "title": "Will the UK government today announce an immediate halt to the controversial 'Digital Identity' bill following widespread public backlash?",
+            "payout": 2.375,
+            "desc": "Following days of protests and significant cross-party opposition, speculation is mounting that the government might be forced to reconsider its 'Digital Identity' bill. A statement from Downing Street or the relevant minister is anticipated today to address the escalating concerns. (Probability: 0.4)",
+            "result": "LOST",
+            "settled_at": "2026-07-14"
+        },
+        {
+            "id": "20260713002",
+            "title": "Will the Scottish National Party today officially confirm the dates for their leadership election, following recent internal disagreements?",
+            "payout": 1.583,
+            "desc": "After reports emerged yesterday of growing divisions within the Scottish National Party, several prominent MSPs have called for clarity on the party's future direction. Sources within the party headquarters suggest an announcement regarding the timing of the leadership contest could be made today to quell speculation. (Probability: 0.6)",
+            "result": "WON",
+            "settled_at": "2026-07-14"
+        },
+        {
+            "id": "20260713003",
+            "title": "Will HS2 Ltd today announce a further cost increase estimate for the Euston station redevelopment?",
+            "payout": 1.357,
+            "desc": "Anonymous sources close to the HS2 project have indicated that new financial projections for the contentious Euston station phase are significantly higher than previously published figures. A statement or briefing note from HS2 Ltd addressing these spiralling costs is widely expected today amid renewed political scrutiny. (Probability: 0.7)",
+            "result": "WON",
+            "settled_at": "2026-07-14"
+        },
+        {
+            "id": "20260713004",
+            "title": "Will the G7 group today release a joint statement condemning the recent military actions by Country Gamma?",
+            "payout": 1.1875,
+            "desc": "Following emergency consultations throughout the weekend, leaders of the G7 nations are reportedly close to finalising a joint condemnation of Country Gamma's recent cross-border incursions. Diplomatic sources suggest the statement will be issued before the close of business today to demonstrate a united front. (Probability: 0.8)",
+            "result": "WON",
+            "settled_at": "2026-07-14"
+        },
+        {
+            "id": "20260713005",
+            "title": "Will the warring factions in Region Beta today publicly accuse each other of violating the newly established humanitarian corridor agreement?",
+            "payout": 1.9,
+            "desc": "Despite yesterday's breakthrough on a temporary humanitarian corridor in Region Beta, local reports and aid agencies are already expressing concerns about the fragile truce. Observers fear that reciprocal accusations of violations by either side could emerge today, threatening the agreement's viability. (Probability: 0.5)",
+            "result": "LOST",
+            "settled_at": "2026-07-14"
         }
     ],
-    "last_update": "2026-07-13 01:58"
+    "last_update": "2026-07-14 01:45"
 }
