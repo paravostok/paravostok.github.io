@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260714001",
-            "title": "Will the UK Prime Minister today announce a cabinet reshuffle involving at least two ministerial positions?",
-            "payout": 3.008,
-            "desc": "Rumours have intensified overnight regarding dissatisfaction within Number 10 over recent policy setbacks. Political commentators are speculating that a decisive move, possibly a cabinet reshuffle, could be announced today to reassert authority and shift focus."
+            "id": "20260715001",
+            "title": "Will a prominent UK government minister today announce their resignation following media revelations?",
+            "payout": 2.578,
+            "desc": "Following widespread media coverage of leaked documents from a departmental inquiry yesterday, speculation is rife that a senior minister may face calls to resign. A statement or announcement could be made today to address the intensifying pressure."
         },
         {
-            "id": "20260714002",
-            "title": "Will the Scottish Government today officially confirm the full details of its proposed new rural investment fund?",
-            "payout": 1.583,
-            "desc": "Following yesterday's confirmation of the SNP leadership election dates, sources close to Bute House suggest the current administration is keen to demonstrate continued progress. An announcement detailing the long-awaited rural investment fund is highly anticipated today to underline policy commitment."
+            "id": "20260715002",
+            "title": "Will a second candidate officially declare their intention to run in the Scottish SNP leadership election today?",
+            "payout": 1.584,
+            "desc": "With the SNP leadership election dates now confirmed, prospective candidates are expected to begin formal declarations. Following initial speculation and one confirmed runner, today could see another high-profile figure officially announce their bid for the party's top job."
         },
         {
-            "id": "20260714003",
-            "title": "Will the Department for Transport today issue a formal rebuttal to yesterday's HS2 Euston cost increase reports?",
-            "payout": 1.9,
-            "desc": "After yesterday's reports of escalating costs for the HS2 Euston station redevelopment, pressure is mounting on the Department for Transport to provide clarity. A rapid response, possibly in the form of a formal statement or briefing, is expected today to address public and political concerns."
+            "id": "20260715003",
+            "title": "Will the Mayor of London today formally reject the proposed funding model for the London Underground's Northern Line extension?",
+            "payout": 2.375,
+            "desc": "Following reports of disagreements between Transport for London and central government over the financing of the Northern Line extension, the Mayor's office is under pressure to clarify its position. A formal statement or press conference today could see the Mayor reject the current funding proposal."
         },
         {
-            "id": "20260714004",
-            "title": "Will Country Beta today announce new economic sanctions against Country Gamma, following yesterday's G7 condemnation?",
+            "id": "20260715004",
+            "title": "Will the European Commission today propose new emergency energy measures ahead of the winter season?",
             "payout": 1.357,
-            "desc": "In the wake of yesterday's decisive G7 joint statement condemning Country Gamma's military actions, key allies are now being watched closely for follow-up measures. Diplomatic sources indicate that Country Beta, a close regional partner, may announce its own set of economic sanctions today to reinforce the international stance."
+            "desc": "With rising energy prices and geopolitical instability raising concerns about winter energy supply, sources in Brussels suggest the European Commission is preparing to unveil a package of emergency measures. An official proposal is anticipated today to address these growing concerns."
         },
         {
-            "id": "20260714005",
-            "title": "Will the UN Security Council today call an emergency session to discuss the escalating humanitarian crisis in Region Beta?",
-            "payout": 1.188,
-            "desc": "Despite a fragile humanitarian corridor agreement, reports from aid agencies and local observers in Region Beta continue to paint a dire picture of the humanitarian situation. Growing international alarm suggests the UN Security Council may convene an emergency session today to address the rapidly deteriorating conditions."
+            "id": "20260715005",
+            "title": "Will the foreign ministry of Country Delta today issue a travel advisory urging its citizens to leave Region Alpha immediately?",
+            "payout": 1.727,
+            "desc": "Reports from Region Alpha indicate a significant escalation in ongoing hostilities overnight, with several humanitarian organizations suspending operations. Given the rapidly deteriorating security situation, Country Delta's foreign ministry may today issue a heightened travel warning for its citizens in the area."
         }
     ],
     "history": [
@@ -3121,7 +3121,47 @@
             "desc": "Despite yesterday's breakthrough on a temporary humanitarian corridor in Region Beta, local reports and aid agencies are already expressing concerns about the fragile truce. Observers fear that reciprocal accusations of violations by either side could emerge today, threatening the agreement's viability. (Probability: 0.5)",
             "result": "LOST",
             "settled_at": "2026-07-14"
+        },
+        {
+            "id": "20260714001",
+            "title": "Will the UK Prime Minister today announce a cabinet reshuffle involving at least two ministerial positions?",
+            "payout": 3.008,
+            "desc": "Rumours have intensified overnight regarding dissatisfaction within Number 10 over recent policy setbacks. Political commentators are speculating that a decisive move, possibly a cabinet reshuffle, could be announced today to reassert authority and shift focus.",
+            "result": "LOST",
+            "settled_at": "2026-07-15"
+        },
+        {
+            "id": "20260714002",
+            "title": "Will the Scottish Government today officially confirm the full details of its proposed new rural investment fund?",
+            "payout": 1.583,
+            "desc": "Following yesterday's confirmation of the SNP leadership election dates, sources close to Bute House suggest the current administration is keen to demonstrate continued progress. An announcement detailing the long-awaited rural investment fund is highly anticipated today to underline policy commitment.",
+            "result": "WON",
+            "settled_at": "2026-07-15"
+        },
+        {
+            "id": "20260714003",
+            "title": "Will the Department for Transport today issue a formal rebuttal to yesterday's HS2 Euston cost increase reports?",
+            "payout": 1.9,
+            "desc": "After yesterday's reports of escalating costs for the HS2 Euston station redevelopment, pressure is mounting on the Department for Transport to provide clarity. A rapid response, possibly in the form of a formal statement or briefing, is expected today to address public and political concerns.",
+            "result": "WON",
+            "settled_at": "2026-07-15"
+        },
+        {
+            "id": "20260714004",
+            "title": "Will Country Beta today announce new economic sanctions against Country Gamma, following yesterday's G7 condemnation?",
+            "payout": 1.357,
+            "desc": "In the wake of yesterday's decisive G7 joint statement condemning Country Gamma's military actions, key allies are now being watched closely for follow-up measures. Diplomatic sources indicate that Country Beta, a close regional partner, may announce its own set of economic sanctions today to reinforce the international stance.",
+            "result": "WON",
+            "settled_at": "2026-07-15"
+        },
+        {
+            "id": "20260714005",
+            "title": "Will the UN Security Council today call an emergency session to discuss the escalating humanitarian crisis in Region Beta?",
+            "payout": 1.188,
+            "desc": "Despite a fragile humanitarian corridor agreement, reports from aid agencies and local observers in Region Beta continue to paint a dire picture of the humanitarian situation. Growing international alarm suggests the UN Security Council may convene an emergency session today to address the rapidly deteriorating conditions.",
+            "result": "WON",
+            "settled_at": "2026-07-15"
         }
     ],
-    "last_update": "2026-07-14 01:45"
+    "last_update": "2026-07-15 01:41"
 }
