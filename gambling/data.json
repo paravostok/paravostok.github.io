@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260715001",
-            "title": "Will a prominent UK government minister today announce their resignation following media revelations?",
-            "payout": 2.578,
-            "desc": "Following widespread media coverage of leaked documents from a departmental inquiry yesterday, speculation is rife that a senior minister may face calls to resign. A statement or announcement could be made today to address the intensifying pressure."
-        },
-        {
-            "id": "20260715002",
-            "title": "Will a second candidate officially declare their intention to run in the Scottish SNP leadership election today?",
-            "payout": 1.584,
-            "desc": "With the SNP leadership election dates now confirmed, prospective candidates are expected to begin formal declarations. Following initial speculation and one confirmed runner, today could see another high-profile figure officially announce their bid for the party's top job."
-        },
-        {
-            "id": "20260715003",
-            "title": "Will the Mayor of London today formally reject the proposed funding model for the London Underground's Northern Line extension?",
+            "id": "20260716001",
+            "title": "Will the UK Prime Minister today announce a cabinet reshuffle?",
             "payout": 2.375,
-            "desc": "Following reports of disagreements between Transport for London and central government over the financing of the Northern Line extension, the Mayor's office is under pressure to clarify its position. A formal statement or press conference today could see the Mayor reject the current funding proposal."
+            "desc": "Following a sharp drop in recent approval ratings and persistent rumors of discontent within the ruling party, political analysts suggest the Prime Minister may use today's Prime Minister's Questions or a subsequent press conference to announce a strategic cabinet reshuffle to reassert authority."
         },
         {
-            "id": "20260715004",
-            "title": "Will the European Commission today propose new emergency energy measures ahead of the winter season?",
-            "payout": 1.357,
-            "desc": "With rising energy prices and geopolitical instability raising concerns about winter energy supply, sources in Brussels suggest the European Commission is preparing to unveil a package of emergency measures. An official proposal is anticipated today to address these growing concerns."
+            "id": "20260716002",
+            "title": "Will the second SNP leadership candidate today hold their first major campaign rally?",
+            "payout": 1.583,
+            "desc": "Following yesterday's official declaration, the second candidate in the SNP leadership race is widely expected to launch their campaign with a significant public event. Media reports suggest a venue has been booked for an evening rally in Glasgow, with an announcement expected early today."
         },
         {
-            "id": "20260715005",
-            "title": "Will the foreign ministry of Country Delta today issue a travel advisory urging its citizens to leave Region Alpha immediately?",
+            "id": "20260716003",
+            "title": "Will the Department for Transport today confirm new delays to the HS2 Birmingham-Crewe leg?",
             "payout": 1.727,
-            "desc": "Reports from Region Alpha indicate a significant escalation in ongoing hostilities overnight, with several humanitarian organizations suspending operations. Given the rapidly deteriorating security situation, Country Delta's foreign ministry may today issue a heightened travel warning for its citizens in the area."
+            "desc": "Sources close to the HS2 project have indicated further cost overruns and technical challenges. With a parliamentary committee inquiry into infrastructure spending scheduled for this afternoon, there's a possibility the Department for Transport will be pressed to confirm ongoing delays to key phases of the high-speed rail network."
+        },
+        {
+            "id": "20260716004",
+            "title": "Will the G7 finance ministers today issue a joint statement condemning recent currency fluctuations?",
+            "payout": 1.357,
+            "desc": "A virtual meeting of G7 finance ministers is underway today to discuss global economic stability. With several major currencies experiencing unusual volatility this week, observers anticipate a strong, coordinated message could be issued by the end of the day to reassure markets."
+        },
+        {
+            "id": "20260716005",
+            "title": "Will the UN Security Council today fail to pass a resolution on the escalating situation in Region Alpha?",
+            "payout": 1.461,
+            "desc": "Following yesterday's heightened travel advisories and reports of escalating hostilities in Region Alpha, an emergency session of the UN Security Council is planned for today. However, with historical divisions among permanent members, there is considerable skepticism about whether a consensus resolution can be achieved."
         }
     ],
     "history": [
@@ -3161,7 +3161,47 @@
             "desc": "Despite a fragile humanitarian corridor agreement, reports from aid agencies and local observers in Region Beta continue to paint a dire picture of the humanitarian situation. Growing international alarm suggests the UN Security Council may convene an emergency session today to address the rapidly deteriorating conditions.",
             "result": "WON",
             "settled_at": "2026-07-15"
+        },
+        {
+            "id": "20260715001",
+            "title": "Will a prominent UK government minister today announce their resignation following media revelations?",
+            "payout": 2.578,
+            "desc": "Following widespread media coverage of leaked documents from a departmental inquiry yesterday, speculation is rife that a senior minister may face calls to resign. A statement or announcement could be made today to address the intensifying pressure.",
+            "result": "LOST",
+            "settled_at": "2026-07-16"
+        },
+        {
+            "id": "20260715002",
+            "title": "Will a second candidate officially declare their intention to run in the Scottish SNP leadership election today?",
+            "payout": 1.584,
+            "desc": "With the SNP leadership election dates now confirmed, prospective candidates are expected to begin formal declarations. Following initial speculation and one confirmed runner, today could see another high-profile figure officially announce their bid for the party's top job.",
+            "result": "WON",
+            "settled_at": "2026-07-16"
+        },
+        {
+            "id": "20260715003",
+            "title": "Will the Mayor of London today formally reject the proposed funding model for the London Underground's Northern Line extension?",
+            "payout": 2.375,
+            "desc": "Following reports of disagreements between Transport for London and central government over the financing of the Northern Line extension, the Mayor's office is under pressure to clarify its position. A formal statement or press conference today could see the Mayor reject the current funding proposal.",
+            "result": "LOST",
+            "settled_at": "2026-07-16"
+        },
+        {
+            "id": "20260715004",
+            "title": "Will the European Commission today propose new emergency energy measures ahead of the winter season?",
+            "payout": 1.357,
+            "desc": "With rising energy prices and geopolitical instability raising concerns about winter energy supply, sources in Brussels suggest the European Commission is preparing to unveil a package of emergency measures. An official proposal is anticipated today to address these growing concerns.",
+            "result": "WON",
+            "settled_at": "2026-07-16"
+        },
+        {
+            "id": "20260715005",
+            "title": "Will the foreign ministry of Country Delta today issue a travel advisory urging its citizens to leave Region Alpha immediately?",
+            "payout": 1.727,
+            "desc": "Reports from Region Alpha indicate a significant escalation in ongoing hostilities overnight, with several humanitarian organizations suspending operations. Given the rapidly deteriorating security situation, Country Delta's foreign ministry may today issue a heightened travel warning for its citizens in the area.",
+            "result": "WON",
+            "settled_at": "2026-07-16"
         }
     ],
-    "last_update": "2026-07-15 01:41"
+    "last_update": "2026-07-16 01:51"
 }
