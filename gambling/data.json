@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260716001",
-            "title": "Will the UK Prime Minister today announce a cabinet reshuffle?",
-            "payout": 2.375,
-            "desc": "Following a sharp drop in recent approval ratings and persistent rumors of discontent within the ruling party, political analysts suggest the Prime Minister may use today's Prime Minister's Questions or a subsequent press conference to announce a strategic cabinet reshuffle to reassert authority."
+            "id": "20260717001",
+            "title": "Will a prominent cabinet minister today publicly announce their resignation from the UK government?",
+            "payout": 2.579,
+            "desc": "Following intense speculation regarding an impending cabinet reshuffle and reports of growing dissent, a high-profile minister, potentially facing demotion, may choose to preempt the Prime Minister by resigning today. Political journalists are on high alert for any sudden announcements from ministerial offices."
         },
         {
-            "id": "20260716002",
-            "title": "Will the second SNP leadership candidate today hold their first major campaign rally?",
+            "id": "20260717002",
+            "title": "Will a new opinion poll on the SNP leadership race be published today?",
             "payout": 1.583,
-            "desc": "Following yesterday's official declaration, the second candidate in the SNP leadership race is widely expected to launch their campaign with a significant public event. Media reports suggest a venue has been booked for an evening rally in Glasgow, with an announcement expected early today."
+            "desc": "As the SNP leadership contest gains momentum, and following yesterday's first major rally from one candidate, polling firms often release snap surveys to gauge public reaction and shifts in support. A reputable pollster is rumored to be close to releasing new figures by this evening."
         },
         {
-            "id": "20260716003",
-            "title": "Will the Department for Transport today confirm new delays to the HS2 Birmingham-Crewe leg?",
+            "id": "20260717003",
+            "title": "Will a major UK rail union today announce new dates for strike action?",
+            "payout": 2.111,
+            "desc": "Ongoing pay and conditions disputes between rail operators and unions continue to simmer. Following recent inconclusive talks, union leaders have hinted at escalating industrial action. An announcement detailing new strike dates could come as early as today, aiming to pressure the government and operators."
+        },
+        {
+            "id": "20260717004",
+            "title": "Will the President of the European Commission today hold an unscheduled press conference regarding EU-China trade relations?",
+            "payout": 3.8,
+            "desc": "Tensions regarding EU-China trade imbalances have been high, with recent reports of potential new tariffs from Brussels. Following a closed-door meeting of trade commissioners this morning, there is speculation the EC President might address the media unexpectedly to outline the bloc's immediate next steps."
+        },
+        {
+            "id": "20260717005",
+            "title": "Will a major international aid organization today confirm the withdrawal of its staff from Region Alpha?",
             "payout": 1.727,
-            "desc": "Sources close to the HS2 project have indicated further cost overruns and technical challenges. With a parliamentary committee inquiry into infrastructure spending scheduled for this afternoon, there's a possibility the Department for Transport will be pressed to confirm ongoing delays to key phases of the high-speed rail network."
-        },
-        {
-            "id": "20260716004",
-            "title": "Will the G7 finance ministers today issue a joint statement condemning recent currency fluctuations?",
-            "payout": 1.357,
-            "desc": "A virtual meeting of G7 finance ministers is underway today to discuss global economic stability. With several major currencies experiencing unusual volatility this week, observers anticipate a strong, coordinated message could be issued by the end of the day to reassure markets."
-        },
-        {
-            "id": "20260716005",
-            "title": "Will the UN Security Council today fail to pass a resolution on the escalating situation in Region Alpha?",
-            "payout": 1.461,
-            "desc": "Following yesterday's heightened travel advisories and reports of escalating hostilities in Region Alpha, an emergency session of the UN Security Council is planned for today. However, with historical divisions among permanent members, there is considerable skepticism about whether a consensus resolution can be achieved."
+            "desc": "With reports of escalating hostilities in Region Alpha and the UN Security Council failing to reach a consensus yesterday, the security situation for humanitarian workers is deteriorating rapidly. A major aid agency operating in the region may be forced to announce an emergency withdrawal of non-essential personnel today for their safety."
         }
     ],
     "history": [
@@ -3201,7 +3201,47 @@
             "desc": "Reports from Region Alpha indicate a significant escalation in ongoing hostilities overnight, with several humanitarian organizations suspending operations. Given the rapidly deteriorating security situation, Country Delta's foreign ministry may today issue a heightened travel warning for its citizens in the area.",
             "result": "WON",
             "settled_at": "2026-07-16"
+        },
+        {
+            "id": "20260716001",
+            "title": "Will the UK Prime Minister today announce a cabinet reshuffle?",
+            "payout": 2.375,
+            "desc": "Following a sharp drop in recent approval ratings and persistent rumors of discontent within the ruling party, political analysts suggest the Prime Minister may use today's Prime Minister's Questions or a subsequent press conference to announce a strategic cabinet reshuffle to reassert authority.",
+            "result": "LOST",
+            "settled_at": "2026-07-17"
+        },
+        {
+            "id": "20260716002",
+            "title": "Will the second SNP leadership candidate today hold their first major campaign rally?",
+            "payout": 1.583,
+            "desc": "Following yesterday's official declaration, the second candidate in the SNP leadership race is widely expected to launch their campaign with a significant public event. Media reports suggest a venue has been booked for an evening rally in Glasgow, with an announcement expected early today.",
+            "result": "WON",
+            "settled_at": "2026-07-17"
+        },
+        {
+            "id": "20260716003",
+            "title": "Will the Department for Transport today confirm new delays to the HS2 Birmingham-Crewe leg?",
+            "payout": 1.727,
+            "desc": "Sources close to the HS2 project have indicated further cost overruns and technical challenges. With a parliamentary committee inquiry into infrastructure spending scheduled for this afternoon, there's a possibility the Department for Transport will be pressed to confirm ongoing delays to key phases of the high-speed rail network.",
+            "result": "WON",
+            "settled_at": "2026-07-17"
+        },
+        {
+            "id": "20260716004",
+            "title": "Will the G7 finance ministers today issue a joint statement condemning recent currency fluctuations?",
+            "payout": 1.357,
+            "desc": "A virtual meeting of G7 finance ministers is underway today to discuss global economic stability. With several major currencies experiencing unusual volatility this week, observers anticipate a strong, coordinated message could be issued by the end of the day to reassure markets.",
+            "result": "WON",
+            "settled_at": "2026-07-17"
+        },
+        {
+            "id": "20260716005",
+            "title": "Will the UN Security Council today fail to pass a resolution on the escalating situation in Region Alpha?",
+            "payout": 1.461,
+            "desc": "Following yesterday's heightened travel advisories and reports of escalating hostilities in Region Alpha, an emergency session of the UN Security Council is planned for today. However, with historical divisions among permanent members, there is considerable skepticism about whether a consensus resolution can be achieved.",
+            "result": "WON",
+            "settled_at": "2026-07-17"
         }
     ],
-    "last_update": "2026-07-16 01:51"
+    "last_update": "2026-07-17 01:55"
 }
