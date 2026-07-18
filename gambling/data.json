@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260717001",
-            "title": "Will a prominent cabinet minister today publicly announce their resignation from the UK government?",
-            "payout": 2.579,
-            "desc": "Following intense speculation regarding an impending cabinet reshuffle and reports of growing dissent, a high-profile minister, potentially facing demotion, may choose to preempt the Prime Minister by resigning today. Political journalists are on high alert for any sudden announcements from ministerial offices."
-        },
-        {
-            "id": "20260717002",
-            "title": "Will a new opinion poll on the SNP leadership race be published today?",
-            "payout": 1.583,
-            "desc": "As the SNP leadership contest gains momentum, and following yesterday's first major rally from one candidate, polling firms often release snap surveys to gauge public reaction and shifts in support. A reputable pollster is rumored to be close to releasing new figures by this evening."
-        },
-        {
-            "id": "20260717003",
-            "title": "Will a major UK rail union today announce new dates for strike action?",
-            "payout": 2.111,
-            "desc": "Ongoing pay and conditions disputes between rail operators and unions continue to simmer. Following recent inconclusive talks, union leaders have hinted at escalating industrial action. An announcement detailing new strike dates could come as early as today, aiming to pressure the government and operators."
-        },
-        {
-            "id": "20260717004",
-            "title": "Will the President of the European Commission today hold an unscheduled press conference regarding EU-China trade relations?",
+            "id": "20260718001",
+            "title": "Will a prominent Conservative MP today publicly call for a vote of no confidence in the Prime Minister?",
             "payout": 3.8,
-            "desc": "Tensions regarding EU-China trade imbalances have been high, with recent reports of potential new tariffs from Brussels. Following a closed-door meeting of trade commissioners this morning, there is speculation the EC President might address the media unexpectedly to outline the bloc's immediate next steps."
+            "desc": "Amid ongoing internal party tensions and recent poor poll performances, a prominent Conservative backbencher or former cabinet minister, sensing a shift in party mood, may decide today is the moment to publicly demand a leadership contest, potentially influencing others to submit letters to the 1922 Committee."
         },
         {
-            "id": "20260717005",
-            "title": "Will a major international aid organization today confirm the withdrawal of its staff from Region Alpha?",
-            "payout": 1.727,
-            "desc": "With reports of escalating hostilities in Region Alpha and the UN Security Council failing to reach a consensus yesterday, the security situation for humanitarian workers is deteriorating rapidly. A major aid agency operating in the region may be forced to announce an emergency withdrawal of non-essential personnel today for their safety."
+            "id": "20260718002",
+            "title": "Will the Scottish Government today publish its response to the recent consultation on local council funding reform?",
+            "payout": 1.583,
+            "desc": "Following months of discussions and a recently closed public consultation period on proposals for significant changes to how local councils are funded, the Scottish Government is under pressure to outline its next steps. An official publication detailing the summary of responses and the government's initial view could be released today."
+        },
+        {
+            "id": "20260718003",
+            "title": "Will the UK government today announce a new package of measures to address ongoing delays at Dover Port?",
+            "payout": 1.357,
+            "desc": "After recent reports highlighting severe congestion and operational disruptions at Dover, causing significant economic impact, the Department for Transport is expected to outline immediate and long-term solutions. A press conference or ministerial statement regarding new funding or regulatory changes could occur today."
+        },
+        {
+            "id": "20260718004",
+            "title": "Will the EU's High Representative for Foreign Affairs today issue a formal condemnation of recent actions by Country Z in the South China Sea?",
+            "payout": 2.375,
+            "desc": "Following fresh reports of maritime incursions and escalating rhetoric in the South China Sea, and after a series of diplomatic consultations within Brussels, the EU's chief diplomat might make a public statement today, signaling the bloc's official stance and potential next steps."
+        },
+        {
+            "id": "20260718005",
+            "title": "Will a major international human rights organization today release a new report detailing alleged war crimes in the conflict in Region Delta?",
+            "payout": 3.167,
+            "desc": "With the conflict in Region Delta intensifying and reports of widespread civilian harm, a prominent human rights watchdog, known for its rapid deployment of investigators, may today publish a comprehensive report outlining alleged atrocities and calling for international intervention or accountability."
         }
     ],
     "history": [
@@ -3241,7 +3241,47 @@
             "desc": "Following yesterday's heightened travel advisories and reports of escalating hostilities in Region Alpha, an emergency session of the UN Security Council is planned for today. However, with historical divisions among permanent members, there is considerable skepticism about whether a consensus resolution can be achieved.",
             "result": "WON",
             "settled_at": "2026-07-17"
+        },
+        {
+            "id": "20260717001",
+            "title": "Will a prominent cabinet minister today publicly announce their resignation from the UK government?",
+            "payout": 2.579,
+            "desc": "Following intense speculation regarding an impending cabinet reshuffle and reports of growing dissent, a high-profile minister, potentially facing demotion, may choose to preempt the Prime Minister by resigning today. Political journalists are on high alert for any sudden announcements from ministerial offices.",
+            "result": "LOST",
+            "settled_at": "2026-07-18"
+        },
+        {
+            "id": "20260717002",
+            "title": "Will a new opinion poll on the SNP leadership race be published today?",
+            "payout": 1.583,
+            "desc": "As the SNP leadership contest gains momentum, and following yesterday's first major rally from one candidate, polling firms often release snap surveys to gauge public reaction and shifts in support. A reputable pollster is rumored to be close to releasing new figures by this evening.",
+            "result": "WON",
+            "settled_at": "2026-07-18"
+        },
+        {
+            "id": "20260717003",
+            "title": "Will a major UK rail union today announce new dates for strike action?",
+            "payout": 2.111,
+            "desc": "Ongoing pay and conditions disputes between rail operators and unions continue to simmer. Following recent inconclusive talks, union leaders have hinted at escalating industrial action. An announcement detailing new strike dates could come as early as today, aiming to pressure the government and operators.",
+            "result": "WON",
+            "settled_at": "2026-07-18"
+        },
+        {
+            "id": "20260717004",
+            "title": "Will the President of the European Commission today hold an unscheduled press conference regarding EU-China trade relations?",
+            "payout": 3.8,
+            "desc": "Tensions regarding EU-China trade imbalances have been high, with recent reports of potential new tariffs from Brussels. Following a closed-door meeting of trade commissioners this morning, there is speculation the EC President might address the media unexpectedly to outline the bloc's immediate next steps.",
+            "result": "LOST",
+            "settled_at": "2026-07-18"
+        },
+        {
+            "id": "20260717005",
+            "title": "Will a major international aid organization today confirm the withdrawal of its staff from Region Alpha?",
+            "payout": 1.727,
+            "desc": "With reports of escalating hostilities in Region Alpha and the UN Security Council failing to reach a consensus yesterday, the security situation for humanitarian workers is deteriorating rapidly. A major aid agency operating in the region may be forced to announce an emergency withdrawal of non-essential personnel today for their safety.",
+            "result": "WON",
+            "settled_at": "2026-07-18"
         }
     ],
-    "last_update": "2026-07-17 01:55"
+    "last_update": "2026-07-18 01:45"
 }
