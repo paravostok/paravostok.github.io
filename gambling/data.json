@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260718001",
-            "title": "Will a prominent Conservative MP today publicly call for a vote of no confidence in the Prime Minister?",
-            "payout": 3.8,
-            "desc": "Amid ongoing internal party tensions and recent poor poll performances, a prominent Conservative backbencher or former cabinet minister, sensing a shift in party mood, may decide today is the moment to publicly demand a leadership contest, potentially influencing others to submit letters to the 1922 Committee."
-        },
-        {
-            "id": "20260718002",
-            "title": "Will the Scottish Government today publish its response to the recent consultation on local council funding reform?",
+            "id": "20260719001",
+            "title": "Will a cabinet minister today publicly express 'full confidence' in the Prime Minister, following recent speculation?",
             "payout": 1.583,
-            "desc": "Following months of discussions and a recently closed public consultation period on proposals for significant changes to how local councils are funded, the Scottish Government is under pressure to outline its next steps. An official publication detailing the summary of responses and the government's initial view could be released today."
+            "desc": "Amid persistent whispers regarding the Prime Minister's leadership and recent poor poll numbers, a key cabinet minister might be prompted or choose to issue a public statement of support today, either to quell unrest or as a show of loyalty ahead of potential challenges."
         },
         {
-            "id": "20260718003",
-            "title": "Will the UK government today announce a new package of measures to address ongoing delays at Dover Port?",
+            "id": "20260719002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
             "payout": 1.357,
-            "desc": "After recent reports highlighting severe congestion and operational disruptions at Dover, causing significant economic impact, the Department for Transport is expected to outline immediate and long-term solutions. A press conference or ministerial statement regarding new funding or regulatory changes could occur today."
+            "desc": "With the political calendar moving towards autumn, and following recent internal party discussions, the SNP's central office may today issue an official announcement confirming the exact dates and location for its annual conference, which is typically planned several months in advance."
         },
         {
-            "id": "20260718004",
-            "title": "Will the EU's High Representative for Foreign Affairs today issue a formal condemnation of recent actions by Country Z in the South China Sea?",
+            "id": "20260719003",
+            "title": "Will the Department for Transport today announce a revised timeline for the northern leg of HS2, following recent cost reviews?",
             "payout": 2.375,
-            "desc": "Following fresh reports of maritime incursions and escalating rhetoric in the South China Sea, and after a series of diplomatic consultations within Brussels, the EU's chief diplomat might make a public statement today, signaling the bloc's official stance and potential next steps."
+            "desc": "Following weeks of media scrutiny over escalating costs and efficiency concerns for the High-Speed 2 project, particularly its northern sections, the Department for Transport might today release a statement or hold a briefing to detail any adjustments to the construction schedule or proposed completion dates."
         },
         {
-            "id": "20260718005",
-            "title": "Will a major international human rights organization today release a new report detailing alleged war crimes in the conflict in Region Delta?",
+            "id": "20260719004",
+            "title": "Will the G7 foreign ministers today issue a joint statement condemning recent cyberattacks attributed to State X?",
+            "payout": 1.9,
+            "desc": "After a series of sophisticated cyberattacks reported globally, with intelligence agencies reportedly pointing towards State X, the foreign ministers of the G7 nations, currently engaged in virtual or in-person consultations, may today release a unified denunciation signaling their collective diplomatic response."
+        },
+        {
+            "id": "20260719005",
+            "title": "Will the United Nations Special Envoy for Region Alpha today call for an immediate 72-hour humanitarian ceasefire?",
             "payout": 3.167,
-            "desc": "With the conflict in Region Delta intensifying and reports of widespread civilian harm, a prominent human rights watchdog, known for its rapid deployment of investigators, may today publish a comprehensive report outlining alleged atrocities and calling for international intervention or accountability."
+            "desc": "Amid escalating hostilities and a worsening humanitarian crisis in Region Alpha, and following urgent appeals from international aid organizations, the UN's chief diplomat for the region may today leverage their position to demand a short-term cessation of fighting to allow aid delivery and evacuation of civilians."
         }
     ],
     "history": [
@@ -3281,7 +3281,47 @@
             "desc": "With reports of escalating hostilities in Region Alpha and the UN Security Council failing to reach a consensus yesterday, the security situation for humanitarian workers is deteriorating rapidly. A major aid agency operating in the region may be forced to announce an emergency withdrawal of non-essential personnel today for their safety.",
             "result": "WON",
             "settled_at": "2026-07-18"
+        },
+        {
+            "id": "20260718001",
+            "title": "Will a prominent Conservative MP today publicly call for a vote of no confidence in the Prime Minister?",
+            "payout": 3.8,
+            "desc": "Amid ongoing internal party tensions and recent poor poll performances, a prominent Conservative backbencher or former cabinet minister, sensing a shift in party mood, may decide today is the moment to publicly demand a leadership contest, potentially influencing others to submit letters to the 1922 Committee.",
+            "result": "LOST",
+            "settled_at": "2026-07-19"
+        },
+        {
+            "id": "20260718002",
+            "title": "Will the Scottish Government today publish its response to the recent consultation on local council funding reform?",
+            "payout": 1.583,
+            "desc": "Following months of discussions and a recently closed public consultation period on proposals for significant changes to how local councils are funded, the Scottish Government is under pressure to outline its next steps. An official publication detailing the summary of responses and the government's initial view could be released today.",
+            "result": "LOST",
+            "settled_at": "2026-07-19"
+        },
+        {
+            "id": "20260718003",
+            "title": "Will the UK government today announce a new package of measures to address ongoing delays at Dover Port?",
+            "payout": 1.357,
+            "desc": "After recent reports highlighting severe congestion and operational disruptions at Dover, causing significant economic impact, the Department for Transport is expected to outline immediate and long-term solutions. A press conference or ministerial statement regarding new funding or regulatory changes could occur today.",
+            "result": "LOST",
+            "settled_at": "2026-07-19"
+        },
+        {
+            "id": "20260718004",
+            "title": "Will the EU's High Representative for Foreign Affairs today issue a formal condemnation of recent actions by Country Z in the South China Sea?",
+            "payout": 2.375,
+            "desc": "Following fresh reports of maritime incursions and escalating rhetoric in the South China Sea, and after a series of diplomatic consultations within Brussels, the EU's chief diplomat might make a public statement today, signaling the bloc's official stance and potential next steps.",
+            "result": "LOST",
+            "settled_at": "2026-07-19"
+        },
+        {
+            "id": "20260718005",
+            "title": "Will a major international human rights organization today release a new report detailing alleged war crimes in the conflict in Region Delta?",
+            "payout": 3.167,
+            "desc": "With the conflict in Region Delta intensifying and reports of widespread civilian harm, a prominent human rights watchdog, known for its rapid deployment of investigators, may today publish a comprehensive report outlining alleged atrocities and calling for international intervention or accountability.",
+            "result": "LOST",
+            "settled_at": "2026-07-19"
         }
     ],
-    "last_update": "2026-07-18 01:45"
+    "last_update": "2026-07-19 01:54"
 }
