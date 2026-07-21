@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260719001",
-            "title": "Will a cabinet minister today publicly express 'full confidence' in the Prime Minister, following recent speculation?",
-            "payout": 1.583,
-            "desc": "Amid persistent whispers regarding the Prime Minister's leadership and recent poor poll numbers, a key cabinet minister might be prompted or choose to issue a public statement of support today, either to quell unrest or as a show of loyalty ahead of potential challenges."
+            "id": "20260721001",
+            "title": "Will the UK Prime Minister today reshuffle at least one cabinet minister following ongoing media speculation?",
+            "payout": 2.111,
+            "desc": "Following a weekend of intense speculation and several prominent media reports hinting at dissatisfaction within government ranks, a minor or major cabinet reshuffle could be announced today to refresh the Prime Minister's team or address underperforming departments."
         },
         {
-            "id": "20260719002",
-            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
+            "id": "20260721002",
+            "title": "Will the Scottish Education Secretary today announce new national targets for literacy attainment in primary schools?",
+            "payout": 1.727,
+            "desc": "With the Scottish Parliament reconvening soon and ongoing debates about educational standards, the Education Secretary may today deliver a statement outlining updated or ambitious new literacy targets, potentially in response to recent performance reviews."
+        },
+        {
+            "id": "20260721003",
+            "title": "Will Network Rail today confirm a new projected completion date for the delayed East West Rail Bicester to Bletchley section?",
+            "payout": 2.714,
+            "desc": "The East West Rail project has faced various challenges, and the Bicester to Bletchley section's timeline has been a point of contention. Following recent engineering reviews and funding updates, Network Rail might today issue a statement clarifying the revised projected completion date."
+        },
+        {
+            "id": "20260721004",
+            "title": "Will the European Central Bank (ECB) today signal a further interest rate hike in its upcoming policy statement?",
             "payout": 1.357,
-            "desc": "With the political calendar moving towards autumn, and following recent internal party discussions, the SNP's central office may today issue an official announcement confirming the exact dates and location for its annual conference, which is typically planned several months in advance."
+            "desc": "As inflation figures remain a concern across the Eurozone, market analysts are closely watching for any hawkish signals from the ECB. Their scheduled policy statement or a press conference by its President today could explicitly or implicitly indicate another rate increase is imminent."
         },
         {
-            "id": "20260719003",
-            "title": "Will the Department for Transport today announce a revised timeline for the northern leg of HS2, following recent cost reviews?",
-            "payout": 2.375,
-            "desc": "Following weeks of media scrutiny over escalating costs and efficiency concerns for the High-Speed 2 project, particularly its northern sections, the Department for Transport might today release a statement or hold a briefing to detail any adjustments to the construction schedule or proposed completion dates."
-        },
-        {
-            "id": "20260719004",
-            "title": "Will the G7 foreign ministers today issue a joint statement condemning recent cyberattacks attributed to State X?",
-            "payout": 1.9,
-            "desc": "After a series of sophisticated cyberattacks reported globally, with intelligence agencies reportedly pointing towards State X, the foreign ministers of the G7 nations, currently engaged in virtual or in-person consultations, may today release a unified denunciation signaling their collective diplomatic response."
-        },
-        {
-            "id": "20260719005",
-            "title": "Will the United Nations Special Envoy for Region Alpha today call for an immediate 72-hour humanitarian ceasefire?",
-            "payout": 3.167,
-            "desc": "Amid escalating hostilities and a worsening humanitarian crisis in Region Alpha, and following urgent appeals from international aid organizations, the UN's chief diplomat for the region may today leverage their position to demand a short-term cessation of fighting to allow aid delivery and evacuation of civilians."
+            "id": "20260721005",
+            "title": "Will a major international news agency today report a confirmed drone strike in Border Region Delta, attributed to Military Faction Y?",
+            "payout": 1.583,
+            "desc": "Amid ongoing low-level conflict and escalating tensions in Border Region Delta, intelligence suggests increased drone activity. Following recent skirmishes, a significant drone strike attributed to a specific military faction could be reported by a reputable international news outlet today."
         }
     ],
     "history": [
@@ -3321,7 +3321,47 @@
             "desc": "With the conflict in Region Delta intensifying and reports of widespread civilian harm, a prominent human rights watchdog, known for its rapid deployment of investigators, may today publish a comprehensive report outlining alleged atrocities and calling for international intervention or accountability.",
             "result": "LOST",
             "settled_at": "2026-07-19"
+        },
+        {
+            "id": "20260719001",
+            "title": "Will a cabinet minister today publicly express 'full confidence' in the Prime Minister, following recent speculation?",
+            "payout": 1.583,
+            "desc": "Amid persistent whispers regarding the Prime Minister's leadership and recent poor poll numbers, a key cabinet minister might be prompted or choose to issue a public statement of support today, either to quell unrest or as a show of loyalty ahead of potential challenges.",
+            "result": "LOST",
+            "settled_at": "2026-07-21"
+        },
+        {
+            "id": "20260719002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
+            "payout": 1.357,
+            "desc": "With the political calendar moving towards autumn, and following recent internal party discussions, the SNP's central office may today issue an official announcement confirming the exact dates and location for its annual conference, which is typically planned several months in advance.",
+            "result": "LOST",
+            "settled_at": "2026-07-21"
+        },
+        {
+            "id": "20260719003",
+            "title": "Will the Department for Transport today announce a revised timeline for the northern leg of HS2, following recent cost reviews?",
+            "payout": 2.375,
+            "desc": "Following weeks of media scrutiny over escalating costs and efficiency concerns for the High-Speed 2 project, particularly its northern sections, the Department for Transport might today release a statement or hold a briefing to detail any adjustments to the construction schedule or proposed completion dates.",
+            "result": "WON",
+            "settled_at": "2026-07-21"
+        },
+        {
+            "id": "20260719004",
+            "title": "Will the G7 foreign ministers today issue a joint statement condemning recent cyberattacks attributed to State X?",
+            "payout": 1.9,
+            "desc": "After a series of sophisticated cyberattacks reported globally, with intelligence agencies reportedly pointing towards State X, the foreign ministers of the G7 nations, currently engaged in virtual or in-person consultations, may today release a unified denunciation signaling their collective diplomatic response.",
+            "result": "WON",
+            "settled_at": "2026-07-21"
+        },
+        {
+            "id": "20260719005",
+            "title": "Will the United Nations Special Envoy for Region Alpha today call for an immediate 72-hour humanitarian ceasefire?",
+            "payout": 3.167,
+            "desc": "Amid escalating hostilities and a worsening humanitarian crisis in Region Alpha, and following urgent appeals from international aid organizations, the UN's chief diplomat for the region may today leverage their position to demand a short-term cessation of fighting to allow aid delivery and evacuation of civilians.",
+            "result": "WON",
+            "settled_at": "2026-07-21"
         }
     ],
-    "last_update": "2026-07-19 01:54"
+    "last_update": "2026-07-21 01:53"
 }
