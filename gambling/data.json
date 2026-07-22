@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260721001",
-            "title": "Will the UK Prime Minister today reshuffle at least one cabinet minister following ongoing media speculation?",
+            "id": "20260722001",
+            "title": "Will a junior minister in the UK government resign today following fresh media reports of an ethics investigation?",
+            "payout": 2.578,
+            "desc": "Following fresh allegations circulating in political circles and an investigative report by a prominent newspaper expected to drop this morning, a junior minister could preemptively resign or be asked to step down to mitigate further damage to the government."
+        },
+        {
+            "id": "20260722002",
+            "title": "Will the Scottish Government today confirm a formal inquiry into the recent ferry procurement delays?",
             "payout": 2.111,
-            "desc": "Following a weekend of intense speculation and several prominent media reports hinting at dissatisfaction within government ranks, a minor or major cabinet reshuffle could be announced today to refresh the Prime Minister's team or address underperforming departments."
+            "desc": "After weeks of mounting pressure from opposition parties and public outcry over escalating costs and missed deadlines for new ferries, the First Minister or a senior cabinet member may announce a formal inquiry today to address accountability concerns and restore public confidence."
         },
         {
-            "id": "20260721002",
-            "title": "Will the Scottish Education Secretary today announce new national targets for literacy attainment in primary schools?",
-            "payout": 1.727,
-            "desc": "With the Scottish Parliament reconvening soon and ongoing debates about educational standards, the Education Secretary may today deliver a statement outlining updated or ambitious new literacy targets, potentially in response to recent performance reviews."
+            "id": "20260722003",
+            "title": "Will HS2 Ltd today issue a statement confirming a further significant cost increase for the northern Euston approach?",
+            "payout": 1.584,
+            "desc": "Ongoing engineering challenges and materials price inflation have fuelled speculation about HS2's budget. Following recent internal reviews and leaks, HS2 Ltd might today release a statement updating stakeholders on projected costs, with reports hinting at an upward revision for the complex Euston section."
         },
         {
-            "id": "20260721003",
-            "title": "Will Network Rail today confirm a new projected completion date for the delayed East West Rail Bicester to Bletchley section?",
-            "payout": 2.714,
-            "desc": "The East West Rail project has faced various challenges, and the Bicester to Bletchley section's timeline has been a point of contention. Following recent engineering reviews and funding updates, Network Rail might today issue a statement clarifying the revised projected completion date."
-        },
-        {
-            "id": "20260721004",
-            "title": "Will the European Central Bank (ECB) today signal a further interest rate hike in its upcoming policy statement?",
+            "id": "20260722004",
+            "title": "Will the G7 foreign ministers today release a joint statement condemning recent cyberattacks attributed to State Actor X?",
             "payout": 1.357,
-            "desc": "As inflation figures remain a concern across the Eurozone, market analysts are closely watching for any hawkish signals from the ECB. Their scheduled policy statement or a press conference by its President today could explicitly or implicitly indicate another rate increase is imminent."
+            "desc": "Following a series of high-profile cyberattacks impacting critical infrastructure in several G7 nations over the past 48 hours, an emergency virtual meeting of foreign ministers is understood to be underway, potentially leading to a coordinated condemnation and warning statement today."
         },
         {
-            "id": "20260721005",
-            "title": "Will a major international news agency today report a confirmed drone strike in Border Region Delta, attributed to Military Faction Y?",
-            "payout": 1.583,
-            "desc": "Amid ongoing low-level conflict and escalating tensions in Border Region Delta, intelligence suggests increased drone activity. Following recent skirmishes, a significant drone strike attributed to a specific military faction could be reported by a reputable international news outlet today."
+            "id": "20260722005",
+            "title": "Will a major UN agency today report a successful delivery of humanitarian aid through the newly agreed 'Green Corridor' in Conflict Zone Z?",
+            "payout": 1.727,
+            "desc": "Following fragile negotiations, an agreement for a humanitarian 'Green Corridor' in Conflict Zone Z was announced yesterday. UN agencies have been poised to deliver critical supplies, and a successful first passage, if achieved, would likely be reported today to affirm the corridor's viability."
         }
     ],
     "history": [
@@ -3361,7 +3361,47 @@
             "desc": "Amid escalating hostilities and a worsening humanitarian crisis in Region Alpha, and following urgent appeals from international aid organizations, the UN's chief diplomat for the region may today leverage their position to demand a short-term cessation of fighting to allow aid delivery and evacuation of civilians.",
             "result": "WON",
             "settled_at": "2026-07-21"
+        },
+        {
+            "id": "20260721001",
+            "title": "Will the UK Prime Minister today reshuffle at least one cabinet minister following ongoing media speculation?",
+            "payout": 2.111,
+            "desc": "Following a weekend of intense speculation and several prominent media reports hinting at dissatisfaction within government ranks, a minor or major cabinet reshuffle could be announced today to refresh the Prime Minister's team or address underperforming departments.",
+            "result": "LOST",
+            "settled_at": "2026-07-22"
+        },
+        {
+            "id": "20260721002",
+            "title": "Will the Scottish Education Secretary today announce new national targets for literacy attainment in primary schools?",
+            "payout": 1.727,
+            "desc": "With the Scottish Parliament reconvening soon and ongoing debates about educational standards, the Education Secretary may today deliver a statement outlining updated or ambitious new literacy targets, potentially in response to recent performance reviews.",
+            "result": "LOST",
+            "settled_at": "2026-07-22"
+        },
+        {
+            "id": "20260721003",
+            "title": "Will Network Rail today confirm a new projected completion date for the delayed East West Rail Bicester to Bletchley section?",
+            "payout": 2.714,
+            "desc": "The East West Rail project has faced various challenges, and the Bicester to Bletchley section's timeline has been a point of contention. Following recent engineering reviews and funding updates, Network Rail might today issue a statement clarifying the revised projected completion date.",
+            "result": "LOST",
+            "settled_at": "2026-07-22"
+        },
+        {
+            "id": "20260721004",
+            "title": "Will the European Central Bank (ECB) today signal a further interest rate hike in its upcoming policy statement?",
+            "payout": 1.357,
+            "desc": "As inflation figures remain a concern across the Eurozone, market analysts are closely watching for any hawkish signals from the ECB. Their scheduled policy statement or a press conference by its President today could explicitly or implicitly indicate another rate increase is imminent.",
+            "result": "WON",
+            "settled_at": "2026-07-22"
+        },
+        {
+            "id": "20260721005",
+            "title": "Will a major international news agency today report a confirmed drone strike in Border Region Delta, attributed to Military Faction Y?",
+            "payout": 1.583,
+            "desc": "Amid ongoing low-level conflict and escalating tensions in Border Region Delta, intelligence suggests increased drone activity. Following recent skirmishes, a significant drone strike attributed to a specific military faction could be reported by a reputable international news outlet today.",
+            "result": "WON",
+            "settled_at": "2026-07-22"
         }
     ],
-    "last_update": "2026-07-21 01:53"
+    "last_update": "2026-07-22 01:52"
 }
