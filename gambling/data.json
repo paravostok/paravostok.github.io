@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260722001",
-            "title": "Will a junior minister in the UK government resign today following fresh media reports of an ethics investigation?",
-            "payout": 2.578,
-            "desc": "Following fresh allegations circulating in political circles and an investigative report by a prominent newspaper expected to drop this morning, a junior minister could preemptively resign or be asked to step down to mitigate further damage to the government."
+            "id": "20260723001",
+            "title": "Will a major national pollster today publish new Westminster voting intention figures showing Labour's lead dropping below 10 percentage points?",
+            "payout": 3.008,
+            "desc": "Following recent government announcements and a period of relative calm in opposition criticism, political analysts are anticipating whether public opinion has shifted, with new polling data often released midweek."
         },
         {
-            "id": "20260722002",
-            "title": "Will the Scottish Government today confirm a formal inquiry into the recent ferry procurement delays?",
+            "id": "20260723002",
+            "title": "Will the Scottish National Party (SNP) today issue a formal public response to the First Minister's recent statement regarding the ferry procurement inquiry, specifically endorsing its terms of reference?",
+            "payout": 1.267,
+            "desc": "With the First Minister having announced the inquiry yesterday, the ruling party's formal backing for its scope and leadership is expected quickly to present a united front, with a statement likely to be prepared overnight for release today."
+        },
+        {
+            "id": "20260723003",
+            "title": "Will the Department for Transport (DfT) today officially confirm the cancellation of the proposed HS2 spur connecting to Heathrow Airport?",
             "payout": 2.111,
-            "desc": "After weeks of mounting pressure from opposition parties and public outcry over escalating costs and missed deadlines for new ferries, the First Minister or a senior cabinet member may announce a formal inquiry today to address accountability concerns and restore public confidence."
+            "desc": "Speculation has mounted for weeks regarding the future of the Heathrow spur, with cost-benefit analyses reportedly showing diminishing returns. A highly anticipated policy review is due this week, and sources suggest an announcement on its future could be made today to coincide with departmental efficiency drives."
         },
         {
-            "id": "20260722003",
-            "title": "Will HS2 Ltd today issue a statement confirming a further significant cost increase for the northern Euston approach?",
-            "payout": 1.584,
-            "desc": "Ongoing engineering challenges and materials price inflation have fuelled speculation about HS2's budget. Following recent internal reviews and leaks, HS2 Ltd might today release a statement updating stakeholders on projected costs, with reports hinting at an upward revision for the complex Euston section."
+            "id": "20260723004",
+            "title": "Will the European Commission today formally announce new retaliatory tariffs against imported goods from Country Y, following recent trade disputes?",
+            "payout": 1.583,
+            "desc": "After several rounds of failed negotiations regarding alleged unfair trade practices, the EU's trade commissioner hinted yesterday at imminent 'decisive action.' A formal announcement of new tariffs, drafted in recent days, is now widely expected by end-of-day today."
         },
         {
-            "id": "20260722004",
-            "title": "Will the G7 foreign ministers today release a joint statement condemning recent cyberattacks attributed to State Actor X?",
-            "payout": 1.357,
-            "desc": "Following a series of high-profile cyberattacks impacting critical infrastructure in several G7 nations over the past 48 hours, an emergency virtual meeting of foreign ministers is understood to be underway, potentially leading to a coordinated condemnation and warning statement today."
-        },
-        {
-            "id": "20260722005",
-            "title": "Will a major UN agency today report a successful delivery of humanitarian aid through the newly agreed 'Green Corridor' in Conflict Zone Z?",
+            "id": "20260723005",
+            "title": "Will a spokesperson for the United Nations today confirm that humanitarian access via the 'Green Corridor' in Conflict Zone Z has been temporarily suspended due to new security concerns?",
             "payout": 1.727,
-            "desc": "Following fragile negotiations, an agreement for a humanitarian 'Green Corridor' in Conflict Zone Z was announced yesterday. UN agencies have been poised to deliver critical supplies, and a successful first passage, if achieved, would likely be reported today to affirm the corridor's viability."
+            "desc": "While initial reports yesterday indicated success, humanitarian corridors in conflict zones are inherently fragile. Whispers from aid agencies on the ground suggest renewed localized fighting or security breaches could prompt a temporary halt, with the UN expected to issue an update on the corridor's status today if operations are impacted."
         }
     ],
     "history": [
@@ -3401,7 +3401,47 @@
             "desc": "Amid ongoing low-level conflict and escalating tensions in Border Region Delta, intelligence suggests increased drone activity. Following recent skirmishes, a significant drone strike attributed to a specific military faction could be reported by a reputable international news outlet today.",
             "result": "WON",
             "settled_at": "2026-07-22"
+        },
+        {
+            "id": "20260722001",
+            "title": "Will a junior minister in the UK government resign today following fresh media reports of an ethics investigation?",
+            "payout": 2.578,
+            "desc": "Following fresh allegations circulating in political circles and an investigative report by a prominent newspaper expected to drop this morning, a junior minister could preemptively resign or be asked to step down to mitigate further damage to the government.",
+            "result": "WON",
+            "settled_at": "2026-07-23"
+        },
+        {
+            "id": "20260722002",
+            "title": "Will the Scottish Government today confirm a formal inquiry into the recent ferry procurement delays?",
+            "payout": 2.111,
+            "desc": "After weeks of mounting pressure from opposition parties and public outcry over escalating costs and missed deadlines for new ferries, the First Minister or a senior cabinet member may announce a formal inquiry today to address accountability concerns and restore public confidence.",
+            "result": "WON",
+            "settled_at": "2026-07-23"
+        },
+        {
+            "id": "20260722003",
+            "title": "Will HS2 Ltd today issue a statement confirming a further significant cost increase for the northern Euston approach?",
+            "payout": 1.584,
+            "desc": "Ongoing engineering challenges and materials price inflation have fuelled speculation about HS2's budget. Following recent internal reviews and leaks, HS2 Ltd might today release a statement updating stakeholders on projected costs, with reports hinting at an upward revision for the complex Euston section.",
+            "result": "WON",
+            "settled_at": "2026-07-23"
+        },
+        {
+            "id": "20260722004",
+            "title": "Will the G7 foreign ministers today release a joint statement condemning recent cyberattacks attributed to State Actor X?",
+            "payout": 1.357,
+            "desc": "Following a series of high-profile cyberattacks impacting critical infrastructure in several G7 nations over the past 48 hours, an emergency virtual meeting of foreign ministers is understood to be underway, potentially leading to a coordinated condemnation and warning statement today.",
+            "result": "WON",
+            "settled_at": "2026-07-23"
+        },
+        {
+            "id": "20260722005",
+            "title": "Will a major UN agency today report a successful delivery of humanitarian aid through the newly agreed 'Green Corridor' in Conflict Zone Z?",
+            "payout": 1.727,
+            "desc": "Following fragile negotiations, an agreement for a humanitarian 'Green Corridor' in Conflict Zone Z was announced yesterday. UN agencies have been poised to deliver critical supplies, and a successful first passage, if achieved, would likely be reported today to affirm the corridor's viability.",
+            "result": "WON",
+            "settled_at": "2026-07-23"
         }
     ],
-    "last_update": "2026-07-22 01:52"
+    "last_update": "2026-07-23 02:00"
 }
