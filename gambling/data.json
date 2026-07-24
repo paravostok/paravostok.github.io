@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260723001",
-            "title": "Will a major national pollster today publish new Westminster voting intention figures showing Labour's lead dropping below 10 percentage points?",
-            "payout": 3.008,
-            "desc": "Following recent government announcements and a period of relative calm in opposition criticism, political analysts are anticipating whether public opinion has shifted, with new polling data often released midweek."
+            "id": "20260724001",
+            "title": "Will a UK Cabinet Minister resign from their post today, citing policy disagreements or personal reasons?",
+            "payout": 3.8,
+            "desc": "Rumours have been circulating in Westminster for the past 24 hours regarding potential disagreements within the Cabinet over the upcoming Autumn Statement's spending priorities. A snap resignation, particularly from a Minister at odds with the Treasury, could be announced before parliamentary recess."
         },
         {
-            "id": "20260723002",
-            "title": "Will the Scottish National Party (SNP) today issue a formal public response to the First Minister's recent statement regarding the ferry procurement inquiry, specifically endorsing its terms of reference?",
-            "payout": 1.267,
-            "desc": "With the First Minister having announced the inquiry yesterday, the ruling party's formal backing for its scope and leadership is expected quickly to present a united front, with a statement likely to be prepared overnight for release today."
+            "id": "20260724002",
+            "title": "Will a prominent Scottish opposition leader today formally call for a vote of no confidence in the First Minister?",
+            "payout": 2.714,
+            "desc": "Following yesterday's statement on the ferry procurement inquiry and subsequent media scrutiny, opposition parties are under pressure to respond forcefully. A formal call for a vote of no confidence could be made during today's First Minister's Questions or in a press conference later."
         },
         {
-            "id": "20260723003",
-            "title": "Will the Department for Transport (DfT) today officially confirm the cancellation of the proposed HS2 spur connecting to Heathrow Airport?",
-            "payout": 2.111,
-            "desc": "Speculation has mounted for weeks regarding the future of the Heathrow spur, with cost-benefit analyses reportedly showing diminishing returns. A highly anticipated policy review is due this week, and sources suggest an announcement on its future could be made today to coincide with departmental efficiency drives."
+            "id": "20260724003",
+            "title": "Will the Secretary of State for Transport today announce a new specific funding package for upgrades to the East Coast Main Line rail infrastructure?",
+            "payout": 2.375,
+            "desc": "After recent announcements regarding HS2, the government is keen to show its commitment to rail improvements across the country. Sources within the DfT suggest a statement could be made today outlining immediate investment plans for key intercity routes, with the East Coast Main Line being a prime candidate."
         },
         {
-            "id": "20260723004",
-            "title": "Will the European Commission today formally announce new retaliatory tariffs against imported goods from Country Y, following recent trade disputes?",
-            "payout": 1.583,
-            "desc": "After several rounds of failed negotiations regarding alleged unfair trade practices, the EU's trade commissioner hinted yesterday at imminent 'decisive action.' A formal announcement of new tariffs, drafted in recent days, is now widely expected by end-of-day today."
+            "id": "20260724004",
+            "title": "Will Country Y's Ministry of Foreign Affairs today issue a statement formally condemning the European Commission's new tariffs and announcing retaliatory measures?",
+            "payout": 1.357,
+            "desc": "Given the European Commission's expected announcement of new tariffs yesterday, Country Y's government is highly likely to respond swiftly. A formal statement, potentially outlining reciprocal trade actions, is anticipated by diplomatic observers today as tensions escalate."
         },
         {
-            "id": "20260723005",
-            "title": "Will a spokesperson for the United Nations today confirm that humanitarian access via the 'Green Corridor' in Conflict Zone Z has been temporarily suspended due to new security concerns?",
-            "payout": 1.727,
-            "desc": "While initial reports yesterday indicated success, humanitarian corridors in conflict zones are inherently fragile. Whispers from aid agencies on the ground suggest renewed localized fighting or security breaches could prompt a temporary halt, with the UN expected to issue an update on the corridor's status today if operations are impacted."
+            "id": "20260724005",
+            "title": "Will the UN Special Envoy for Conflict Zone Z today announce that negotiations for the immediate resumption of the 'Green Corridor' humanitarian access have begun?",
+            "payout": 1.462,
+            "desc": "Following yesterday's temporary suspension of the vital 'Green Corridor,' international pressure will be intense to restore humanitarian access. The UN Special Envoy is expected to make a statement today, potentially confirming active negotiations with all parties to restart operations urgently."
         }
     ],
     "history": [
@@ -3441,7 +3441,47 @@
             "desc": "Following fragile negotiations, an agreement for a humanitarian 'Green Corridor' in Conflict Zone Z was announced yesterday. UN agencies have been poised to deliver critical supplies, and a successful first passage, if achieved, would likely be reported today to affirm the corridor's viability.",
             "result": "WON",
             "settled_at": "2026-07-23"
+        },
+        {
+            "id": "20260723001",
+            "title": "Will a major national pollster today publish new Westminster voting intention figures showing Labour's lead dropping below 10 percentage points?",
+            "payout": 3.008,
+            "desc": "Following recent government announcements and a period of relative calm in opposition criticism, political analysts are anticipating whether public opinion has shifted, with new polling data often released midweek.",
+            "result": "LOST",
+            "settled_at": "2026-07-24"
+        },
+        {
+            "id": "20260723002",
+            "title": "Will the Scottish National Party (SNP) today issue a formal public response to the First Minister's recent statement regarding the ferry procurement inquiry, specifically endorsing its terms of reference?",
+            "payout": 1.267,
+            "desc": "With the First Minister having announced the inquiry yesterday, the ruling party's formal backing for its scope and leadership is expected quickly to present a united front, with a statement likely to be prepared overnight for release today.",
+            "result": "WON",
+            "settled_at": "2026-07-24"
+        },
+        {
+            "id": "20260723003",
+            "title": "Will the Department for Transport (DfT) today officially confirm the cancellation of the proposed HS2 spur connecting to Heathrow Airport?",
+            "payout": 2.111,
+            "desc": "Speculation has mounted for weeks regarding the future of the Heathrow spur, with cost-benefit analyses reportedly showing diminishing returns. A highly anticipated policy review is due this week, and sources suggest an announcement on its future could be made today to coincide with departmental efficiency drives.",
+            "result": "WON",
+            "settled_at": "2026-07-24"
+        },
+        {
+            "id": "20260723004",
+            "title": "Will the European Commission today formally announce new retaliatory tariffs against imported goods from Country Y, following recent trade disputes?",
+            "payout": 1.583,
+            "desc": "After several rounds of failed negotiations regarding alleged unfair trade practices, the EU's trade commissioner hinted yesterday at imminent 'decisive action.' A formal announcement of new tariffs, drafted in recent days, is now widely expected by end-of-day today.",
+            "result": "WON",
+            "settled_at": "2026-07-24"
+        },
+        {
+            "id": "20260723005",
+            "title": "Will a spokesperson for the United Nations today confirm that humanitarian access via the 'Green Corridor' in Conflict Zone Z has been temporarily suspended due to new security concerns?",
+            "payout": 1.727,
+            "desc": "While initial reports yesterday indicated success, humanitarian corridors in conflict zones are inherently fragile. Whispers from aid agencies on the ground suggest renewed localized fighting or security breaches could prompt a temporary halt, with the UN expected to issue an update on the corridor's status today if operations are impacted.",
+            "result": "WON",
+            "settled_at": "2026-07-24"
         }
     ],
-    "last_update": "2026-07-23 02:00"
+    "last_update": "2026-07-24 01:55"
 }
