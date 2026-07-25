@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260724001",
-            "title": "Will a UK Cabinet Minister resign from their post today, citing policy disagreements or personal reasons?",
-            "payout": 3.8,
-            "desc": "Rumours have been circulating in Westminster for the past 24 hours regarding potential disagreements within the Cabinet over the upcoming Autumn Statement's spending priorities. A snap resignation, particularly from a Minister at odds with the Treasury, could be announced before parliamentary recess."
+            "id": "20260725001",
+            "title": "Will the Secretary of State for Health and Social Care today announce a new specific government review into local authority social care funding shortfalls?",
+            "payout": 2.005,
+            "desc": "Following intensified calls from local government associations and backbench MPs after yesterday's critical National Audit Office report, the government is under pressure to demonstrate proactive engagement. An announcement of a review could be made in a parliamentary statement or press release today."
         },
         {
-            "id": "20260724002",
-            "title": "Will a prominent Scottish opposition leader today formally call for a vote of no confidence in the First Minister?",
-            "payout": 2.714,
-            "desc": "Following yesterday's statement on the ferry procurement inquiry and subsequent media scrutiny, opposition parties are under pressure to respond forcefully. A formal call for a vote of no confidence could be made during today's First Minister's Questions or in a press conference later."
+            "id": "20260725002",
+            "title": "Will the Scottish National Party (SNP) today confirm the exact date for their annual party conference?",
+            "payout": 1.583,
+            "desc": "With summer parliamentary recess approaching and recent internal discussions reported, the SNP is expected to set out its schedule for the political autumn. A formal announcement regarding the party conference dates is often made before the end of July."
         },
         {
-            "id": "20260724003",
-            "title": "Will the Secretary of State for Transport today announce a new specific funding package for upgrades to the East Coast Main Line rail infrastructure?",
-            "payout": 2.375,
-            "desc": "After recent announcements regarding HS2, the government is keen to show its commitment to rail improvements across the country. Sources within the DfT suggest a statement could be made today outlining immediate investment plans for key intercity routes, with the East Coast Main Line being a prime candidate."
+            "id": "20260725003",
+            "title": "Will HS2 Ltd today issue a revised estimated completion date for the Birmingham to Crewe leg (Phase 2a) of the project?",
+            "payout": 3.166,
+            "desc": "Recent media speculation and industry reports have highlighted potential further delays and cost overruns on critical sections of HS2. An official update or clarification on revised timelines could be issued by HS2 Ltd today to manage expectations ahead of the summer parliamentary recess."
         },
         {
-            "id": "20260724004",
-            "title": "Will Country Y's Ministry of Foreign Affairs today issue a statement formally condemning the European Commission's new tariffs and announcing retaliatory measures?",
-            "payout": 1.357,
-            "desc": "Given the European Commission's expected announcement of new tariffs yesterday, Country Y's government is highly likely to respond swiftly. A formal statement, potentially outlining reciprocal trade actions, is anticipated by diplomatic observers today as tensions escalate."
+            "id": "20260725004",
+            "title": "Will the G7 Finance Ministers today issue a joint communiqu\u00e9 committing to new coordinated measures to tackle global inflation?",
+            "payout": 1.266,
+            "desc": "A scheduled virtual meeting of G7 Finance Ministers and Central Bank Governors is taking place today, with inflation high on the agenda. Economic analysts are closely watching for any signs of renewed coordinated action beyond existing fiscal policies."
         },
         {
-            "id": "20260724005",
-            "title": "Will the UN Special Envoy for Conflict Zone Z today announce that negotiations for the immediate resumption of the 'Green Corridor' humanitarian access have begun?",
-            "payout": 1.462,
-            "desc": "Following yesterday's temporary suspension of the vital 'Green Corridor,' international pressure will be intense to restore humanitarian access. The UN Special Envoy is expected to make a statement today, potentially confirming active negotiations with all parties to restart operations urgently."
+            "id": "20260725005",
+            "title": "Will the foreign ministers of two key regional powers, Country A and Country B, today announce a bilateral agreement for a de-escalation zone along their shared border?",
+            "payout": 4.75,
+            "desc": "Following weeks of heightened tensions and border skirmishes, diplomatic efforts mediated by international bodies have reportedly intensified. Sources close to the negotiation teams suggest a breakthrough agreement on a de-escalation mechanism could be announced jointly today."
         }
     ],
     "history": [
@@ -3481,7 +3481,47 @@
             "desc": "While initial reports yesterday indicated success, humanitarian corridors in conflict zones are inherently fragile. Whispers from aid agencies on the ground suggest renewed localized fighting or security breaches could prompt a temporary halt, with the UN expected to issue an update on the corridor's status today if operations are impacted.",
             "result": "WON",
             "settled_at": "2026-07-24"
+        },
+        {
+            "id": "20260724001",
+            "title": "Will a UK Cabinet Minister resign from their post today, citing policy disagreements or personal reasons?",
+            "payout": 3.8,
+            "desc": "Rumours have been circulating in Westminster for the past 24 hours regarding potential disagreements within the Cabinet over the upcoming Autumn Statement's spending priorities. A snap resignation, particularly from a Minister at odds with the Treasury, could be announced before parliamentary recess.",
+            "result": "LOST",
+            "settled_at": "2026-07-25"
+        },
+        {
+            "id": "20260724002",
+            "title": "Will a prominent Scottish opposition leader today formally call for a vote of no confidence in the First Minister?",
+            "payout": 2.714,
+            "desc": "Following yesterday's statement on the ferry procurement inquiry and subsequent media scrutiny, opposition parties are under pressure to respond forcefully. A formal call for a vote of no confidence could be made during today's First Minister's Questions or in a press conference later.",
+            "result": "LOST",
+            "settled_at": "2026-07-25"
+        },
+        {
+            "id": "20260724003",
+            "title": "Will the Secretary of State for Transport today announce a new specific funding package for upgrades to the East Coast Main Line rail infrastructure?",
+            "payout": 2.375,
+            "desc": "After recent announcements regarding HS2, the government is keen to show its commitment to rail improvements across the country. Sources within the DfT suggest a statement could be made today outlining immediate investment plans for key intercity routes, with the East Coast Main Line being a prime candidate.",
+            "result": "LOST",
+            "settled_at": "2026-07-25"
+        },
+        {
+            "id": "20260724004",
+            "title": "Will Country Y's Ministry of Foreign Affairs today issue a statement formally condemning the European Commission's new tariffs and announcing retaliatory measures?",
+            "payout": 1.357,
+            "desc": "Given the European Commission's expected announcement of new tariffs yesterday, Country Y's government is highly likely to respond swiftly. A formal statement, potentially outlining reciprocal trade actions, is anticipated by diplomatic observers today as tensions escalate.",
+            "result": "WON",
+            "settled_at": "2026-07-25"
+        },
+        {
+            "id": "20260724005",
+            "title": "Will the UN Special Envoy for Conflict Zone Z today announce that negotiations for the immediate resumption of the 'Green Corridor' humanitarian access have begun?",
+            "payout": 1.462,
+            "desc": "Following yesterday's temporary suspension of the vital 'Green Corridor,' international pressure will be intense to restore humanitarian access. The UN Special Envoy is expected to make a statement today, potentially confirming active negotiations with all parties to restart operations urgently.",
+            "result": "WON",
+            "settled_at": "2026-07-25"
         }
     ],
-    "last_update": "2026-07-24 01:55"
+    "last_update": "2026-07-25 01:55"
 }
