@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260725001",
-            "title": "Will the Secretary of State for Health and Social Care today announce a new specific government review into local authority social care funding shortfalls?",
-            "payout": 2.005,
-            "desc": "Following intensified calls from local government associations and backbench MPs after yesterday's critical National Audit Office report, the government is under pressure to demonstrate proactive engagement. An announcement of a review could be made in a parliamentary statement or press release today."
+            "id": "20260726001",
+            "title": "Will the Secretary of State for Education today announce a major overhaul of university admissions criteria?",
+            "payout": 3.167,
+            "desc": "Following recent criticisms of the current university admissions system and a leaked departmental report suggesting radical changes, the Education Secretary is rumoured to be preparing a statement or press conference for later today. This could include changes to A-level weighting or personal statements."
         },
         {
-            "id": "20260725002",
-            "title": "Will the Scottish National Party (SNP) today confirm the exact date for their annual party conference?",
-            "payout": 1.583,
-            "desc": "With summer parliamentary recess approaching and recent internal discussions reported, the SNP is expected to set out its schedule for the political autumn. A formal announcement regarding the party conference dates is often made before the end of July."
+            "id": "20260726002",
+            "title": "Will the Scottish Labour Party today issue a formal vote of no confidence in a specific Scottish Government minister?",
+            "payout": 3.8,
+            "desc": "Following yesterday's intense First Minister's Questions and ongoing controversy surrounding a specific minister's portfolio, opposition sources have indicated that Scottish Labour is considering tabling a no-confidence motion today to keep pressure on the SNP-Green administration."
         },
         {
-            "id": "20260725003",
-            "title": "Will HS2 Ltd today issue a revised estimated completion date for the Birmingham to Crewe leg (Phase 2a) of the project?",
-            "payout": 3.166,
-            "desc": "Recent media speculation and industry reports have highlighted potential further delays and cost overruns on critical sections of HS2. An official update or clarification on revised timelines could be issued by HS2 Ltd today to manage expectations ahead of the summer parliamentary recess."
-        },
-        {
-            "id": "20260725004",
-            "title": "Will the G7 Finance Ministers today issue a joint communiqu\u00e9 committing to new coordinated measures to tackle global inflation?",
-            "payout": 1.266,
-            "desc": "A scheduled virtual meeting of G7 Finance Ministers and Central Bank Governors is taking place today, with inflation high on the agenda. Economic analysts are closely watching for any signs of renewed coordinated action beyond existing fiscal policies."
-        },
-        {
-            "id": "20260725005",
-            "title": "Will the foreign ministers of two key regional powers, Country A and Country B, today announce a bilateral agreement for a de-escalation zone along their shared border?",
+            "id": "20260726003",
+            "title": "Will Transport for London (TfL) today confirm the permanent closure of a major Underground line section due to engineering faults?",
             "payout": 4.75,
-            "desc": "Following weeks of heightened tensions and border skirmishes, diplomatic efforts mediated by international bodies have reportedly intensified. Sources close to the negotiation teams suggest a breakthrough agreement on a de-escalation mechanism could be announced jointly today."
+            "desc": "A section of a key Underground line has been experiencing severe disruptions for over a week, with engineers reportedly discovering deeper structural issues. TfL is under pressure to provide a definitive long-term solution, and a permanent closure announcement for specific sections could be made today to allow for extensive repairs."
+        },
+        {
+            "id": "20260726004",
+            "title": "Will the European Central Bank (ECB) today announce an emergency interest rate hike?",
+            "payout": 2.111,
+            "desc": "With inflation figures across the Eurozone continuing to defy expectations and fresh economic data released this morning showing stronger-than-anticipated price pressures, financial analysts are speculating on an unscheduled intervention from the ECB before markets close today."
+        },
+        {
+            "id": "20260726005",
+            "title": "Will military leaders from Country X and Country Y today agree to an immediate cessation of hostilities in the disputed border region?",
+            "payout": 2.714,
+            "desc": "Intense diplomatic efforts, reportedly spearheaded by a neutral third country, have been ongoing overnight after significant clashes yesterday. Sources indicate that a direct meeting between top military commanders is scheduled for today, with hopes of securing a swift, albeit temporary, de-escalation."
         }
     ],
     "history": [
@@ -3521,7 +3521,47 @@
             "desc": "Following yesterday's temporary suspension of the vital 'Green Corridor,' international pressure will be intense to restore humanitarian access. The UN Special Envoy is expected to make a statement today, potentially confirming active negotiations with all parties to restart operations urgently.",
             "result": "WON",
             "settled_at": "2026-07-25"
+        },
+        {
+            "id": "20260725001",
+            "title": "Will the Secretary of State for Health and Social Care today announce a new specific government review into local authority social care funding shortfalls?",
+            "payout": 2.005,
+            "desc": "Following intensified calls from local government associations and backbench MPs after yesterday's critical National Audit Office report, the government is under pressure to demonstrate proactive engagement. An announcement of a review could be made in a parliamentary statement or press release today.",
+            "result": "LOST",
+            "settled_at": "2026-07-26"
+        },
+        {
+            "id": "20260725002",
+            "title": "Will the Scottish National Party (SNP) today confirm the exact date for their annual party conference?",
+            "payout": 1.583,
+            "desc": "With summer parliamentary recess approaching and recent internal discussions reported, the SNP is expected to set out its schedule for the political autumn. A formal announcement regarding the party conference dates is often made before the end of July.",
+            "result": "WON",
+            "settled_at": "2026-07-26"
+        },
+        {
+            "id": "20260725003",
+            "title": "Will HS2 Ltd today issue a revised estimated completion date for the Birmingham to Crewe leg (Phase 2a) of the project?",
+            "payout": 3.166,
+            "desc": "Recent media speculation and industry reports have highlighted potential further delays and cost overruns on critical sections of HS2. An official update or clarification on revised timelines could be issued by HS2 Ltd today to manage expectations ahead of the summer parliamentary recess.",
+            "result": "LOST",
+            "settled_at": "2026-07-26"
+        },
+        {
+            "id": "20260725004",
+            "title": "Will the G7 Finance Ministers today issue a joint communiqu\u00e9 committing to new coordinated measures to tackle global inflation?",
+            "payout": 1.266,
+            "desc": "A scheduled virtual meeting of G7 Finance Ministers and Central Bank Governors is taking place today, with inflation high on the agenda. Economic analysts are closely watching for any signs of renewed coordinated action beyond existing fiscal policies.",
+            "result": "LOST",
+            "settled_at": "2026-07-26"
+        },
+        {
+            "id": "20260725005",
+            "title": "Will the foreign ministers of two key regional powers, Country A and Country B, today announce a bilateral agreement for a de-escalation zone along their shared border?",
+            "payout": 4.75,
+            "desc": "Following weeks of heightened tensions and border skirmishes, diplomatic efforts mediated by international bodies have reportedly intensified. Sources close to the negotiation teams suggest a breakthrough agreement on a de-escalation mechanism could be announced jointly today.",
+            "result": "LOST",
+            "settled_at": "2026-07-26"
         }
     ],
-    "last_update": "2026-07-25 01:55"
+    "last_update": "2026-07-26 01:59"
 }
