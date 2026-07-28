@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260727001",
-            "title": "Will a senior UK Cabinet Minister resign from their post by the end of today, following recent media scrutiny?",
-            "payout": 2.71,
-            "desc": "Reports surfaced overnight suggesting deep internal divisions within the government and intense pressure on a specific Cabinet member following critical media coverage of their department. Political commentators are speculating that a resignation could be imminent to stabilize the government's position."
-        },
-        {
-            "id": "20260727002",
-            "title": "Will the Scottish National Party (SNP) today announce a formal internal inquiry into recent financial allegations concerning a high-ranking official?",
+            "id": "20260728001",
+            "title": "Will the opposition Labour Party today formally table a vote of no confidence in the Secretary of State for Justice?",
             "payout": 2.38,
-            "desc": "After a weekend of growing media pressure and calls from opposition parties regarding alleged financial irregularities involving a prominent SNP figure, the party leadership is expected to make a statement today. An internal inquiry might be announced to address public concerns and maintain party credibility."
+            "desc": "After mounting pressure and yesterday's parliamentary exchanges regarding the Justice Secretary's policy on prison overcrowding, Labour sources are reportedly finalising plans to formally table a no-confidence motion today to force a debate and vote."
         },
         {
-            "id": "20260727003",
-            "title": "Will the Department for Transport today confirm further cost increases for the HS2 project?",
-            "payout": 1.58,
-            "desc": "Amid ongoing concerns about the budget of the High-Speed 2 (HS2) rail project and leaked documents suggesting new financial pressures, the Secretary of State for Transport is scheduled to face questions in Parliament today. There is speculation that updated cost estimates, potentially higher than previous figures, may be presented or confirmed."
+            "id": "20260728002",
+            "title": "Will the Scottish Government today announce a temporary pause on all new major infrastructure spending projects?",
+            "payout": 2.71,
+            "desc": "Amid ongoing financial scrutiny (potentially related to yesterday's SNP inquiry) and whispers of an emergency Cabinet meeting this morning, there's speculation the Scottish Government may announce immediate fiscal tightening measures, including a pause on new infrastructure projects, to address perceived budget pressures."
         },
         {
-            "id": "20260727004",
-            "title": "Will the UN Security Council today pass a new resolution specifically condemning recent cross-border incursions by Country Z?",
-            "payout": 2.11,
-            "desc": "An emergency session of the UN Security Council has been convened for this afternoon following reports of escalating tensions and military incursions by Country Z into a neighbouring state. Diplomatic sources suggest that a draft resolution is being circulated, aiming for a strong condemnation to de-escalate the situation, with a vote expected before day's end."
-        },
-        {
-            "id": "20260727005",
-            "title": "Will the newly agreed ceasefire between Country A and Country B be officially declared broken by either party before the end of today?",
+            "id": "20260728003",
+            "title": "Will the Secretary of State for Transport today announce a new independent review into the governance and oversight of the HS2 project?",
             "payout": 1.9,
-            "desc": "Despite yesterday's breakthrough agreement on a temporary cessation of hostilities, reports from the disputed region indicate continued sporadic clashes and a fragile situation on the ground. Military observers and diplomatic channels are closely monitoring compliance, and there is a significant risk that either side could declare the ceasefire nullified if violations persist."
+            "desc": "In the wake of yesterday's confirmation of further HS2 cost increases and intense questioning in Parliament, sources within the Department for Transport suggest the Secretary of State is considering commissioning an immediate independent review into HS2's management to address public and parliamentary concerns."
+        },
+        {
+            "id": "20260728004",
+            "title": "Will the European Union today issue new, targeted sanctions against specific officials from Country Z, following their recent cross-border incursions?",
+            "payout": 2.38,
+            "desc": "After the UN Security Council's failure yesterday to pass a resolution condemning Country Z, EU foreign ministers are reportedly holding an unscheduled video conference this morning. Diplomatic sources suggest discussions are focused on immediate, unilateral EU action, with targeted sanctions against key figures in Country Z a strong possibility to be announced today."
+        },
+        {
+            "id": "20260728005",
+            "title": "Will the UN Special Envoy to the conflict region today call for an immediate emergency humanitarian aid corridor to be established?",
+            "payout": 1.58,
+            "desc": "With yesterday's ceasefire between Country A and Country B officially broken and reports of renewed intense fighting, humanitarian organizations are issuing urgent warnings. The UN Special Envoy is expected to make a statement today, and there's strong pressure for an immediate call for an emergency humanitarian aid corridor to prevent further civilian suffering."
         }
     ],
     "history": [
@@ -3601,7 +3601,47 @@
             "desc": "Intense diplomatic efforts, reportedly spearheaded by a neutral third country, have been ongoing overnight after significant clashes yesterday. Sources indicate that a direct meeting between top military commanders is scheduled for today, with hopes of securing a swift, albeit temporary, de-escalation.",
             "result": "WON",
             "settled_at": "2026-07-27"
+        },
+        {
+            "id": "20260727001",
+            "title": "Will a senior UK Cabinet Minister resign from their post by the end of today, following recent media scrutiny?",
+            "payout": 2.71,
+            "desc": "Reports surfaced overnight suggesting deep internal divisions within the government and intense pressure on a specific Cabinet member following critical media coverage of their department. Political commentators are speculating that a resignation could be imminent to stabilize the government's position.",
+            "result": "LOST",
+            "settled_at": "2026-07-28"
+        },
+        {
+            "id": "20260727002",
+            "title": "Will the Scottish National Party (SNP) today announce a formal internal inquiry into recent financial allegations concerning a high-ranking official?",
+            "payout": 2.38,
+            "desc": "After a weekend of growing media pressure and calls from opposition parties regarding alleged financial irregularities involving a prominent SNP figure, the party leadership is expected to make a statement today. An internal inquiry might be announced to address public concerns and maintain party credibility.",
+            "result": "WON",
+            "settled_at": "2026-07-28"
+        },
+        {
+            "id": "20260727003",
+            "title": "Will the Department for Transport today confirm further cost increases for the HS2 project?",
+            "payout": 1.58,
+            "desc": "Amid ongoing concerns about the budget of the High-Speed 2 (HS2) rail project and leaked documents suggesting new financial pressures, the Secretary of State for Transport is scheduled to face questions in Parliament today. There is speculation that updated cost estimates, potentially higher than previous figures, may be presented or confirmed.",
+            "result": "WON",
+            "settled_at": "2026-07-28"
+        },
+        {
+            "id": "20260727004",
+            "title": "Will the UN Security Council today pass a new resolution specifically condemning recent cross-border incursions by Country Z?",
+            "payout": 2.11,
+            "desc": "An emergency session of the UN Security Council has been convened for this afternoon following reports of escalating tensions and military incursions by Country Z into a neighbouring state. Diplomatic sources suggest that a draft resolution is being circulated, aiming for a strong condemnation to de-escalate the situation, with a vote expected before day's end.",
+            "result": "LOST",
+            "settled_at": "2026-07-28"
+        },
+        {
+            "id": "20260727005",
+            "title": "Will the newly agreed ceasefire between Country A and Country B be officially declared broken by either party before the end of today?",
+            "payout": 1.9,
+            "desc": "Despite yesterday's breakthrough agreement on a temporary cessation of hostilities, reports from the disputed region indicate continued sporadic clashes and a fragile situation on the ground. Military observers and diplomatic channels are closely monitoring compliance, and there is a significant risk that either side could declare the ceasefire nullified if violations persist.",
+            "result": "WON",
+            "settled_at": "2026-07-28"
         }
     ],
-    "last_update": "2026-07-27 02:07"
+    "last_update": "2026-07-28 01:48"
 }
