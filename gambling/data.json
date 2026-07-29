@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260728001",
-            "title": "Will the opposition Labour Party today formally table a vote of no confidence in the Secretary of State for Justice?",
-            "payout": 2.38,
-            "desc": "After mounting pressure and yesterday's parliamentary exchanges regarding the Justice Secretary's policy on prison overcrowding, Labour sources are reportedly finalising plans to formally table a no-confidence motion today to force a debate and vote."
-        },
-        {
-            "id": "20260728002",
-            "title": "Will the Scottish Government today announce a temporary pause on all new major infrastructure spending projects?",
+            "id": "20260729001",
+            "title": "Will a junior minister in the Department for Justice today resign over the government's prison overcrowding policy?",
             "payout": 2.71,
-            "desc": "Amid ongoing financial scrutiny (potentially related to yesterday's SNP inquiry) and whispers of an emergency Cabinet meeting this morning, there's speculation the Scottish Government may announce immediate fiscal tightening measures, including a pause on new infrastructure projects, to address perceived budget pressures."
+            "desc": "Following intense scrutiny of the Justice Secretary's handling of prison overcrowding and reports of internal dissent, speculation is mounting that a junior minister may resign today to distance themselves from the controversial policy."
         },
         {
-            "id": "20260728003",
-            "title": "Will the Secretary of State for Transport today announce a new independent review into the governance and oversight of the HS2 project?",
-            "payout": 1.9,
-            "desc": "In the wake of yesterday's confirmation of further HS2 cost increases and intense questioning in Parliament, sources within the Department for Transport suggest the Secretary of State is considering commissioning an immediate independent review into HS2's management to address public and parliamentary concerns."
+            "id": "20260729002",
+            "title": "Will the Scottish First Minister today make an unscheduled statement to Holyrood addressing the ongoing budget pressures?",
+            "payout": 2.11,
+            "desc": "Amid continued financial scrutiny and yesterday's emergency Cabinet meeting failing to yield an immediate infrastructure pause, the First Minister is under pressure to provide clarity. Sources suggest an unscheduled statement to Parliament today could be used to outline the government's fiscal strategy."
         },
         {
-            "id": "20260728004",
-            "title": "Will the European Union today issue new, targeted sanctions against specific officials from Country Z, following their recent cross-border incursions?",
-            "payout": 2.38,
-            "desc": "After the UN Security Council's failure yesterday to pass a resolution condemning Country Z, EU foreign ministers are reportedly holding an unscheduled video conference this morning. Diplomatic sources suggest discussions are focused on immediate, unilateral EU action, with targeted sanctions against key figures in Country Z a strong possibility to be announced today."
-        },
-        {
-            "id": "20260728005",
-            "title": "Will the UN Special Envoy to the conflict region today call for an immediate emergency humanitarian aid corridor to be established?",
+            "id": "20260729003",
+            "title": "Will the Department for Transport today announce the lead independent commissioner for the newly established HS2 governance review?",
             "payout": 1.58,
-            "desc": "With yesterday's ceasefire between Country A and Country B officially broken and reports of renewed intense fighting, humanitarian organizations are issuing urgent warnings. The UN Special Envoy is expected to make a statement today, and there's strong pressure for an immediate call for an emergency humanitarian aid corridor to prevent further civilian suffering."
+            "desc": "Following yesterday's commitment to an independent review into HS2's governance, attention now turns to its implementation. Industry insiders suggest an announcement detailing the appointed lead commissioner, tasked with overseeing the inquiry, is expected today to demonstrate swift action."
+        },
+        {
+            "id": "20260729004",
+            "title": "Will Country Z today formally expel a European Union diplomat in retaliation for yesterday's sanctions?",
+            "payout": 1.73,
+            "desc": "After the European Union's announcement yesterday of new targeted sanctions against officials from Country Z, diplomatic experts predict a swift retaliatory response. Expelling a diplomat is a common immediate measure, with an announcement potentially coming from Country Z's foreign ministry today."
+        },
+        {
+            "id": "20260729005",
+            "title": "Will either Country A or Country B today publicly agree to a temporary humanitarian ceasefire to allow aid delivery?",
+            "payout": 2.38,
+            "desc": "Following yesterday's urgent call from the UN Special Envoy for an emergency humanitarian aid corridor, international pressure is mounting on both Country A and Country B. Aid agencies are reporting dire conditions, making a temporary ceasefire for aid delivery a crucial and immediate possibility today."
         }
     ],
     "history": [
@@ -3641,7 +3641,47 @@
             "desc": "Despite yesterday's breakthrough agreement on a temporary cessation of hostilities, reports from the disputed region indicate continued sporadic clashes and a fragile situation on the ground. Military observers and diplomatic channels are closely monitoring compliance, and there is a significant risk that either side could declare the ceasefire nullified if violations persist.",
             "result": "WON",
             "settled_at": "2026-07-28"
+        },
+        {
+            "id": "20260728001",
+            "title": "Will the opposition Labour Party today formally table a vote of no confidence in the Secretary of State for Justice?",
+            "payout": 2.38,
+            "desc": "After mounting pressure and yesterday's parliamentary exchanges regarding the Justice Secretary's policy on prison overcrowding, Labour sources are reportedly finalising plans to formally table a no-confidence motion today to force a debate and vote.",
+            "result": "LOST",
+            "settled_at": "2026-07-29"
+        },
+        {
+            "id": "20260728002",
+            "title": "Will the Scottish Government today announce a temporary pause on all new major infrastructure spending projects?",
+            "payout": 2.71,
+            "desc": "Amid ongoing financial scrutiny (potentially related to yesterday's SNP inquiry) and whispers of an emergency Cabinet meeting this morning, there's speculation the Scottish Government may announce immediate fiscal tightening measures, including a pause on new infrastructure projects, to address perceived budget pressures.",
+            "result": "LOST",
+            "settled_at": "2026-07-29"
+        },
+        {
+            "id": "20260728003",
+            "title": "Will the Secretary of State for Transport today announce a new independent review into the governance and oversight of the HS2 project?",
+            "payout": 1.9,
+            "desc": "In the wake of yesterday's confirmation of further HS2 cost increases and intense questioning in Parliament, sources within the Department for Transport suggest the Secretary of State is considering commissioning an immediate independent review into HS2's management to address public and parliamentary concerns.",
+            "result": "WON",
+            "settled_at": "2026-07-29"
+        },
+        {
+            "id": "20260728004",
+            "title": "Will the European Union today issue new, targeted sanctions against specific officials from Country Z, following their recent cross-border incursions?",
+            "payout": 2.38,
+            "desc": "After the UN Security Council's failure yesterday to pass a resolution condemning Country Z, EU foreign ministers are reportedly holding an unscheduled video conference this morning. Diplomatic sources suggest discussions are focused on immediate, unilateral EU action, with targeted sanctions against key figures in Country Z a strong possibility to be announced today.",
+            "result": "WON",
+            "settled_at": "2026-07-29"
+        },
+        {
+            "id": "20260728005",
+            "title": "Will the UN Special Envoy to the conflict region today call for an immediate emergency humanitarian aid corridor to be established?",
+            "payout": 1.58,
+            "desc": "With yesterday's ceasefire between Country A and Country B officially broken and reports of renewed intense fighting, humanitarian organizations are issuing urgent warnings. The UN Special Envoy is expected to make a statement today, and there's strong pressure for an immediate call for an emergency humanitarian aid corridor to prevent further civilian suffering.",
+            "result": "WON",
+            "settled_at": "2026-07-29"
         }
     ],
-    "last_update": "2026-07-28 01:48"
+    "last_update": "2026-07-29 01:50"
 }
