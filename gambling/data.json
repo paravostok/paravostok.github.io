@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260729001",
-            "title": "Will a junior minister in the Department for Justice today resign over the government's prison overcrowding policy?",
-            "payout": 2.71,
-            "desc": "Following intense scrutiny of the Justice Secretary's handling of prison overcrowding and reports of internal dissent, speculation is mounting that a junior minister may resign today to distance themselves from the controversial policy."
-        },
-        {
-            "id": "20260729002",
-            "title": "Will the Scottish First Minister today make an unscheduled statement to Holyrood addressing the ongoing budget pressures?",
+            "id": "20260730001",
+            "title": "Will the Secretary of State for Education today announce a delay to the proposed changes to university tuition fees?",
             "payout": 2.11,
-            "desc": "Amid continued financial scrutiny and yesterday's emergency Cabinet meeting failing to yield an immediate infrastructure pause, the First Minister is under pressure to provide clarity. Sources suggest an unscheduled statement to Parliament today could be used to outline the government's fiscal strategy."
+            "desc": "Following recent criticism from academic bodies and student unions regarding the government's planned university tuition fee reforms, speculation is mounting that the Education Secretary may announce a delay to allow for further consultation and impact assessments. An announcement today could pre-empt an urgent parliamentary debate."
         },
         {
-            "id": "20260729003",
-            "title": "Will the Department for Transport today announce the lead independent commissioner for the newly established HS2 governance review?",
+            "id": "20260730002",
+            "title": "Will the Scottish Government today announce a revised timeline for the introduction of the National Care Service following internal consultations?",
             "payout": 1.58,
-            "desc": "Following yesterday's commitment to an independent review into HS2's governance, attention now turns to its implementation. Industry insiders suggest an announcement detailing the appointed lead commissioner, tasked with overseeing the inquiry, is expected today to demonstrate swift action."
+            "desc": "Amid ongoing concerns from local authorities and care providers about the readiness and funding of the proposed National Care Service, recent internal consultations are understood to have concluded. A statement today from the Scottish Government outlining a potentially revised, and likely extended, timeline for its implementation is anticipated."
         },
         {
-            "id": "20260729004",
-            "title": "Will Country Z today formally expel a European Union diplomat in retaliation for yesterday's sanctions?",
-            "payout": 1.73,
-            "desc": "After the European Union's announcement yesterday of new targeted sanctions against officials from Country Z, diplomatic experts predict a swift retaliatory response. Expelling a diplomat is a common immediate measure, with an announcement potentially coming from Country Z's foreign ministry today."
+            "id": "20260730003",
+            "title": "Will the Department for Transport today publicly confirm that construction on the northern leg of HS2 will restart within the next six months?",
+            "payout": 2.71,
+            "desc": "Following yesterday's commitment to an independent review of HS2's governance, attention shifts to the future of its stalled northern leg. Industry insiders suggest that, in a bid to reassure investors and northern leaders, the Department for Transport might today issue a statement confirming a concrete timeline for the resumption of construction work, possibly within the next half-year."
         },
         {
-            "id": "20260729005",
-            "title": "Will either Country A or Country B today publicly agree to a temporary humanitarian ceasefire to allow aid delivery?",
-            "payout": 2.38,
-            "desc": "Following yesterday's urgent call from the UN Special Envoy for an emergency humanitarian aid corridor, international pressure is mounting on both Country A and Country B. Aid agencies are reporting dire conditions, making a temporary ceasefire for aid delivery a crucial and immediate possibility today."
+            "id": "20260730004",
+            "title": "Will the UN Security Council today formally adopt a new resolution concerning the humanitarian crisis in Country Y?",
+            "payout": 1.9,
+            "desc": "Intense diplomatic efforts have been underway at the United Nations following escalating reports of a severe humanitarian crisis in Country Y. With several member states pressing for immediate action, a new draft resolution addressing aid access and protection of civilians is reportedly on the agenda for today's Security Council session, with expectations of a vote."
+        },
+        {
+            "id": "20260730005",
+            "title": "Will a major international aid organisation today confirm that a humanitarian aid convoy has successfully reached the besieged city of M in Country P?",
+            "payout": 1.36,
+            "desc": "After yesterday's urgent pleas from international bodies for unhindered access, an aid convoy was reportedly attempting to reach the besieged city of M, where conditions are critical. Aid agencies often confirm successful deliveries quickly to update the international community and solicit further support, making an announcement today highly probable if the mission was successful."
         }
     ],
     "history": [
@@ -3681,7 +3681,47 @@
             "desc": "With yesterday's ceasefire between Country A and Country B officially broken and reports of renewed intense fighting, humanitarian organizations are issuing urgent warnings. The UN Special Envoy is expected to make a statement today, and there's strong pressure for an immediate call for an emergency humanitarian aid corridor to prevent further civilian suffering.",
             "result": "WON",
             "settled_at": "2026-07-29"
+        },
+        {
+            "id": "20260729001",
+            "title": "Will a junior minister in the Department for Justice today resign over the government's prison overcrowding policy?",
+            "payout": 2.71,
+            "desc": "Following intense scrutiny of the Justice Secretary's handling of prison overcrowding and reports of internal dissent, speculation is mounting that a junior minister may resign today to distance themselves from the controversial policy.",
+            "result": "LOST",
+            "settled_at": "2026-07-30"
+        },
+        {
+            "id": "20260729002",
+            "title": "Will the Scottish First Minister today make an unscheduled statement to Holyrood addressing the ongoing budget pressures?",
+            "payout": 2.11,
+            "desc": "Amid continued financial scrutiny and yesterday's emergency Cabinet meeting failing to yield an immediate infrastructure pause, the First Minister is under pressure to provide clarity. Sources suggest an unscheduled statement to Parliament today could be used to outline the government's fiscal strategy.",
+            "result": "LOST",
+            "settled_at": "2026-07-30"
+        },
+        {
+            "id": "20260729003",
+            "title": "Will the Department for Transport today announce the lead independent commissioner for the newly established HS2 governance review?",
+            "payout": 1.58,
+            "desc": "Following yesterday's commitment to an independent review into HS2's governance, attention now turns to its implementation. Industry insiders suggest an announcement detailing the appointed lead commissioner, tasked with overseeing the inquiry, is expected today to demonstrate swift action.",
+            "result": "WON",
+            "settled_at": "2026-07-30"
+        },
+        {
+            "id": "20260729004",
+            "title": "Will Country Z today formally expel a European Union diplomat in retaliation for yesterday's sanctions?",
+            "payout": 1.73,
+            "desc": "After the European Union's announcement yesterday of new targeted sanctions against officials from Country Z, diplomatic experts predict a swift retaliatory response. Expelling a diplomat is a common immediate measure, with an announcement potentially coming from Country Z's foreign ministry today.",
+            "result": "WON",
+            "settled_at": "2026-07-30"
+        },
+        {
+            "id": "20260729005",
+            "title": "Will either Country A or Country B today publicly agree to a temporary humanitarian ceasefire to allow aid delivery?",
+            "payout": 2.38,
+            "desc": "Following yesterday's urgent call from the UN Special Envoy for an emergency humanitarian aid corridor, international pressure is mounting on both Country A and Country B. Aid agencies are reporting dire conditions, making a temporary ceasefire for aid delivery a crucial and immediate possibility today.",
+            "result": "LOST",
+            "settled_at": "2026-07-30"
         }
     ],
-    "last_update": "2026-07-29 01:50"
+    "last_update": "2026-07-30 01:43"
 }
