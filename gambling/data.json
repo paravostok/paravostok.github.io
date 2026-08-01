@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260731001",
-            "title": "Will the Department for Health and Social Care today announce a new emergency funding package for struggling NHS trusts?",
+            "id": "20260801001",
+            "title": "Will the Department for Energy Security and Net Zero today announce a new consultation period for its proposed changes to onshore wind farm planning regulations?",
             "payout": 1.58,
-            "desc": "Following yesterday's dire warnings from hospital leaders about funding shortfalls and bed shortages, the government is under immense pressure to act. An emergency announcement could be made today to pre-empt further negative headlines ahead of the weekend."
+            "desc": "Following recent debates on renewable energy targets and local planning concerns, the government might today signal its intent to revisit onshore wind regulations by launching a new public consultation, potentially at a scheduled departmental briefing or via a press release."
         },
         {
-            "id": "20260731002",
-            "title": "Will the Scottish National Party (SNP) today issue a formal statement reaffirming their commitment to a second independence referendum before the end of 2027?",
+            "id": "20260801002",
+            "title": "Will the Scottish Green Party today issue a statement reiterating their concerns over the proposed expansion of a major Scottish airport, following recent local protests?",
             "payout": 1.73,
-            "desc": "Amidst ongoing internal party debate and recent opposition challenges regarding the party's long-term strategy, a clear statement could be issued today to unify the base and reassert political direction, possibly at a scheduled press conference."
+            "desc": "Amidst ongoing environmental concerns and fresh reports of local community protests against a planned airport expansion project, the Scottish Green Party, known for its strong environmental stance, could issue a public statement today to reaffirm its opposition and pressure coalition partners."
         },
         {
-            "id": "20260731003",
-            "title": "Will the Mayor of London today formally announce a new public consultation period for the proposed expansion of the Ultra Low Emission Zone (ULEZ) to outer boroughs?",
+            "id": "20260801003",
+            "title": "Will the Department for Transport today announce a new funding allocation for road maintenance projects in the North West of England?",
+            "payout": 2.38,
+            "desc": "With local councils and MPs in the North West increasingly vocal about deteriorating road conditions and funding shortfalls, the Department for Transport might today choose to alleviate pressure by announcing a specific, targeted funding allocation, possibly as part of a wider infrastructure update or regional visit."
+        },
+        {
+            "id": "20260801004",
+            "title": "Will a spokesperson for the US State Department today issue a formal condemnation of recent cyberattacks targeting a European ally?",
             "payout": 1.46,
-            "desc": "Following ongoing public debate and recent protests concerning air quality and traffic congestion in the capital, the Mayor's office might use a pre-scheduled press briefing today to launch a new consultation phase, signalling intent to move forward with the contentious policy."
+            "desc": "Following unconfirmed reports of sophisticated cyberattacks impacting critical infrastructure in a key European NATO ally, the US State Department may feel compelled to issue a formal condemnation today, signalling solidarity and a united front against malign cyber activity."
         },
         {
-            "id": "20260731004",
-            "title": "Will a spokesperson for the International Atomic Energy Agency (IAEA) today confirm that their inspectors have been granted full access to the contested nuclear facility in Country X?",
+            "id": "20260801005",
+            "title": "Will a joint statement from the G7 foreign ministers today be released, condemning the recent escalation of hostilities in the disputed region of Volya?",
             "payout": 1.36,
-            "desc": "Following heightened international concern and several days of tense negotiations, a breakthrough in access for IAEA inspectors is crucial. An official confirmation would be expected swiftly today if an agreement was reached in recent hours."
-        },
-        {
-            "id": "20260731005",
-            "title": "Will the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) today issue an urgent appeal for specific airlifts of medical supplies to the conflict-affected region of Alpha in Country Beta?",
-            "payout": 1.9,
-            "desc": "Reports from the ground indicate rapidly deteriorating health conditions and critical shortages of essential medicines. An urgent appeal for airlifts would be a natural and immediate step for OCHA today if these reports are confirmed and ground access remains blocked."
+            "desc": "With international observers reporting a significant uptick in military activity and humanitarian concerns growing in the long-standing disputed region of Volya, the G7 foreign ministers might coordinate and release a joint statement today to unequivocally condemn the escalation and call for de-escalation."
         }
     ],
     "history": [
@@ -3761,7 +3761,47 @@
             "desc": "After yesterday's urgent pleas from international bodies for unhindered access, an aid convoy was reportedly attempting to reach the besieged city of M, where conditions are critical. Aid agencies often confirm successful deliveries quickly to update the international community and solicit further support, making an announcement today highly probable if the mission was successful.",
             "result": "WON",
             "settled_at": "2026-07-31"
+        },
+        {
+            "id": "20260731001",
+            "title": "Will the Department for Health and Social Care today announce a new emergency funding package for struggling NHS trusts?",
+            "payout": 1.58,
+            "desc": "Following yesterday's dire warnings from hospital leaders about funding shortfalls and bed shortages, the government is under immense pressure to act. An emergency announcement could be made today to pre-empt further negative headlines ahead of the weekend.",
+            "result": "LOST",
+            "settled_at": "2026-08-01"
+        },
+        {
+            "id": "20260731002",
+            "title": "Will the Scottish National Party (SNP) today issue a formal statement reaffirming their commitment to a second independence referendum before the end of 2027?",
+            "payout": 1.73,
+            "desc": "Amidst ongoing internal party debate and recent opposition challenges regarding the party's long-term strategy, a clear statement could be issued today to unify the base and reassert political direction, possibly at a scheduled press conference.",
+            "result": "LOST",
+            "settled_at": "2026-08-01"
+        },
+        {
+            "id": "20260731003",
+            "title": "Will the Mayor of London today formally announce a new public consultation period for the proposed expansion of the Ultra Low Emission Zone (ULEZ) to outer boroughs?",
+            "payout": 1.46,
+            "desc": "Following ongoing public debate and recent protests concerning air quality and traffic congestion in the capital, the Mayor's office might use a pre-scheduled press briefing today to launch a new consultation phase, signalling intent to move forward with the contentious policy.",
+            "result": "LOST",
+            "settled_at": "2026-08-01"
+        },
+        {
+            "id": "20260731004",
+            "title": "Will a spokesperson for the International Atomic Energy Agency (IAEA) today confirm that their inspectors have been granted full access to the contested nuclear facility in Country X?",
+            "payout": 1.36,
+            "desc": "Following heightened international concern and several days of tense negotiations, a breakthrough in access for IAEA inspectors is crucial. An official confirmation would be expected swiftly today if an agreement was reached in recent hours.",
+            "result": "LOST",
+            "settled_at": "2026-08-01"
+        },
+        {
+            "id": "20260731005",
+            "title": "Will the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) today issue an urgent appeal for specific airlifts of medical supplies to the conflict-affected region of Alpha in Country Beta?",
+            "payout": 1.9,
+            "desc": "Reports from the ground indicate rapidly deteriorating health conditions and critical shortages of essential medicines. An urgent appeal for airlifts would be a natural and immediate step for OCHA today if these reports are confirmed and ground access remains blocked.",
+            "result": "LOST",
+            "settled_at": "2026-08-01"
         }
     ],
-    "last_update": "2026-07-31 02:01"
+    "last_update": "2026-08-01 02:02"
 }
