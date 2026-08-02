@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260801001",
-            "title": "Will the Department for Energy Security and Net Zero today announce a new consultation period for its proposed changes to onshore wind farm planning regulations?",
-            "payout": 1.58,
-            "desc": "Following recent debates on renewable energy targets and local planning concerns, the government might today signal its intent to revisit onshore wind regulations by launching a new public consultation, potentially at a scheduled departmental briefing or via a press release."
+            "id": "20260802001",
+            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms, following pressure from teaching unions?",
+            "payout": 2.01,
+            "desc": "With growing opposition from major teaching unions and reports of internal departmental discussions, the Secretary of State for Education might today use a parliamentary update or scheduled press conference to signal a pause or delay in the controversial curriculum reforms to allow for further stakeholder engagement."
         },
         {
-            "id": "20260801002",
-            "title": "Will the Scottish Green Party today issue a statement reiterating their concerns over the proposed expansion of a major Scottish airport, following recent local protests?",
+            "id": "20260802002",
+            "title": "Will the Scottish Government today publish its long-awaited review into the effectiveness of current NHS waiting time targets?",
             "payout": 1.73,
-            "desc": "Amidst ongoing environmental concerns and fresh reports of local community protests against a planned airport expansion project, the Scottish Green Party, known for its strong environmental stance, could issue a public statement today to reaffirm its opposition and pressure coalition partners."
+            "desc": "Amidst persistent scrutiny over healthcare performance and previous indications that a comprehensive review was nearing completion 'early August', the Scottish Government could choose today to release its findings, potentially seeking to address public and political concerns."
         },
         {
-            "id": "20260801003",
-            "title": "Will the Department for Transport today announce a new funding allocation for road maintenance projects in the North West of England?",
+            "id": "20260802003",
+            "title": "Will Transport for London (TfL) today confirm the start date for the new cycle lane extension project through Central London?",
+            "payout": 1.58,
+            "desc": "Following the recent closure of the public consultation period for the Central London cycle lane extension and ongoing local council lobbying for clarity, TfL may today issue a public statement or press release confirming the commencement date for the highly anticipated project."
+        },
+        {
+            "id": "20260802004",
+            "title": "Will the European Commission today issue a formal warning to a member state regarding its new digital services tax proposals?",
             "payout": 2.38,
-            "desc": "With local councils and MPs in the North West increasingly vocal about deteriorating road conditions and funding shortfalls, the Department for Transport might today choose to alleviate pressure by announcing a specific, targeted funding allocation, possibly as part of a wider infrastructure update or regional visit."
+            "desc": "Reports from Brussels suggest the European Commission is concerned that a particular member state's newly drafted digital services tax may violate EU single market rules. A formal warning, often a precursor to legal action, could be issued today following internal consultations."
         },
         {
-            "id": "20260801004",
-            "title": "Will a spokesperson for the US State Department today issue a formal condemnation of recent cyberattacks targeting a European ally?",
-            "payout": 1.46,
-            "desc": "Following unconfirmed reports of sophisticated cyberattacks impacting critical infrastructure in a key European NATO ally, the US State Department may feel compelled to issue a formal condemnation today, signalling solidarity and a united front against malign cyber activity."
-        },
-        {
-            "id": "20260801005",
-            "title": "Will a joint statement from the G7 foreign ministers today be released, condemning the recent escalation of hostilities in the disputed region of Volya?",
-            "payout": 1.36,
-            "desc": "With international observers reporting a significant uptick in military activity and humanitarian concerns growing in the long-standing disputed region of Volya, the G7 foreign ministers might coordinate and release a joint statement today to unequivocally condemn the escalation and call for de-escalation."
+            "id": "20260802005",
+            "title": "Will the UN Special Envoy for the Zylos Conflict today announce a date for a new round of peace talks between the warring factions?",
+            "payout": 3.17,
+            "desc": "Following an intense period of shuttle diplomacy and unconfirmed reports of a breakthrough in preliminary discussions, the UN Special Envoy for the Zylos Conflict is under pressure to formalize progress. An announcement regarding a specific date for renewed peace talks could be made today to build momentum."
         }
     ],
     "history": [
@@ -3801,7 +3801,47 @@
             "desc": "Reports from the ground indicate rapidly deteriorating health conditions and critical shortages of essential medicines. An urgent appeal for airlifts would be a natural and immediate step for OCHA today if these reports are confirmed and ground access remains blocked.",
             "result": "LOST",
             "settled_at": "2026-08-01"
+        },
+        {
+            "id": "20260801001",
+            "title": "Will the Department for Energy Security and Net Zero today announce a new consultation period for its proposed changes to onshore wind farm planning regulations?",
+            "payout": 1.58,
+            "desc": "Following recent debates on renewable energy targets and local planning concerns, the government might today signal its intent to revisit onshore wind regulations by launching a new public consultation, potentially at a scheduled departmental briefing or via a press release.",
+            "result": "LOST",
+            "settled_at": "2026-08-02"
+        },
+        {
+            "id": "20260801002",
+            "title": "Will the Scottish Green Party today issue a statement reiterating their concerns over the proposed expansion of a major Scottish airport, following recent local protests?",
+            "payout": 1.73,
+            "desc": "Amidst ongoing environmental concerns and fresh reports of local community protests against a planned airport expansion project, the Scottish Green Party, known for its strong environmental stance, could issue a public statement today to reaffirm its opposition and pressure coalition partners.",
+            "result": "WON",
+            "settled_at": "2026-08-02"
+        },
+        {
+            "id": "20260801003",
+            "title": "Will the Department for Transport today announce a new funding allocation for road maintenance projects in the North West of England?",
+            "payout": 2.38,
+            "desc": "With local councils and MPs in the North West increasingly vocal about deteriorating road conditions and funding shortfalls, the Department for Transport might today choose to alleviate pressure by announcing a specific, targeted funding allocation, possibly as part of a wider infrastructure update or regional visit.",
+            "result": "LOST",
+            "settled_at": "2026-08-02"
+        },
+        {
+            "id": "20260801004",
+            "title": "Will a spokesperson for the US State Department today issue a formal condemnation of recent cyberattacks targeting a European ally?",
+            "payout": 1.46,
+            "desc": "Following unconfirmed reports of sophisticated cyberattacks impacting critical infrastructure in a key European NATO ally, the US State Department may feel compelled to issue a formal condemnation today, signalling solidarity and a united front against malign cyber activity.",
+            "result": "WON",
+            "settled_at": "2026-08-02"
+        },
+        {
+            "id": "20260801005",
+            "title": "Will a joint statement from the G7 foreign ministers today be released, condemning the recent escalation of hostilities in the disputed region of Volya?",
+            "payout": 1.36,
+            "desc": "With international observers reporting a significant uptick in military activity and humanitarian concerns growing in the long-standing disputed region of Volya, the G7 foreign ministers might coordinate and release a joint statement today to unequivocally condemn the escalation and call for de-escalation.",
+            "result": "WON",
+            "settled_at": "2026-08-02"
         }
     ],
-    "last_update": "2026-08-01 02:02"
+    "last_update": "2026-08-02 01:58"
 }
