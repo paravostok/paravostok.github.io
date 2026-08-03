@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260802001",
-            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms, following pressure from teaching unions?",
-            "payout": 2.01,
-            "desc": "With growing opposition from major teaching unions and reports of internal departmental discussions, the Secretary of State for Education might today use a parliamentary update or scheduled press conference to signal a pause or delay in the controversial curriculum reforms to allow for further stakeholder engagement."
+            "id": "20260803001",
+            "title": "Will the UK Prime Minister today confirm that a mini-reshuffle of junior ministerial roles is underway, following persistent rumours?",
+            "payout": 2.11,
+            "desc": "Reports across various political outlets suggest movement within the junior ranks of government. The Prime Minister, aiming to control the narrative, might choose today to confirm initial changes or state that a process is underway, potentially during a scheduled morning media round or a statement to Parliament."
         },
         {
-            "id": "20260802002",
-            "title": "Will the Scottish Government today publish its long-awaited review into the effectiveness of current NHS waiting time targets?",
+            "id": "20260803002",
+            "title": "Will the Scottish National Party (SNP) today announce the date for its autumn conference, amidst calls for internal reform?",
             "payout": 1.73,
-            "desc": "Amidst persistent scrutiny over healthcare performance and previous indications that a comprehensive review was nearing completion 'early August', the Scottish Government could choose today to release its findings, potentially seeking to address public and political concerns."
+            "desc": "With the political calendar progressing and internal party pressures mounting, the SNP's headquarters may decide today to release the official dates and location for its crucial autumn conference, aiming to provide clarity and demonstrate organizational stability."
         },
         {
-            "id": "20260802003",
-            "title": "Will Transport for London (TfL) today confirm the start date for the new cycle lane extension project through Central London?",
-            "payout": 1.58,
-            "desc": "Following the recent closure of the public consultation period for the Central London cycle lane extension and ongoing local council lobbying for clarity, TfL may today issue a public statement or press release confirming the commencement date for the highly anticipated project."
-        },
-        {
-            "id": "20260802004",
-            "title": "Will the European Commission today issue a formal warning to a member state regarding its new digital services tax proposals?",
-            "payout": 2.38,
-            "desc": "Reports from Brussels suggest the European Commission is concerned that a particular member state's newly drafted digital services tax may violate EU single market rules. A formal warning, often a precursor to legal action, could be issued today following internal consultations."
-        },
-        {
-            "id": "20260802005",
-            "title": "Will the UN Special Envoy for the Zylos Conflict today announce a date for a new round of peace talks between the warring factions?",
+            "id": "20260803003",
+            "title": "Will HS2 Ltd today issue a revised completion timeline for the Birmingham-Crewe phase following recent construction challenges?",
             "payout": 3.17,
-            "desc": "Following an intense period of shuttle diplomacy and unconfirmed reports of a breakthrough in preliminary discussions, the UN Special Envoy for the Zylos Conflict is under pressure to formalize progress. An announcement regarding a specific date for renewed peace talks could be made today to build momentum."
+            "desc": "Following unconfirmed reports of further unforeseen engineering challenges and ongoing scrutiny from parliamentary committees, HS2 Ltd might be compelled today to update its projected completion timeline for a key phase of the high-speed rail project, potentially via a statement to investors or a press release."
+        },
+        {
+            "id": "20260803004",
+            "title": "Will the President of France today release a statement regarding the ongoing farmers' protests across the nation?",
+            "payout": 1.58,
+            "desc": "With farmers' protests reportedly escalating overnight and blocking key transport routes, pressure is mounting on the French government. The President may choose today to issue a formal statement to address the demands and outline potential government responses, aiming to de-escalate tensions."
+        },
+        {
+            "id": "20260803005",
+            "title": "Will the African Union (AU) today publicly condemn the recent escalation of violence in the Borana region, calling for immediate de-escalation?",
+            "payout": 1.36,
+            "desc": "Reports from the Borana region indicate a sharp and concerning rise in inter-communal violence over the past 24-48 hours. The African Union, often quick to respond to regional instability, may issue an official statement today to condemn the violence and urge all parties towards a peaceful resolution, possibly following an emergency internal meeting."
         }
     ],
     "history": [
@@ -3841,7 +3841,47 @@
             "desc": "With international observers reporting a significant uptick in military activity and humanitarian concerns growing in the long-standing disputed region of Volya, the G7 foreign ministers might coordinate and release a joint statement today to unequivocally condemn the escalation and call for de-escalation.",
             "result": "WON",
             "settled_at": "2026-08-02"
+        },
+        {
+            "id": "20260802001",
+            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms, following pressure from teaching unions?",
+            "payout": 2.01,
+            "desc": "With growing opposition from major teaching unions and reports of internal departmental discussions, the Secretary of State for Education might today use a parliamentary update or scheduled press conference to signal a pause or delay in the controversial curriculum reforms to allow for further stakeholder engagement.",
+            "result": "LOST",
+            "settled_at": "2026-08-03"
+        },
+        {
+            "id": "20260802002",
+            "title": "Will the Scottish Government today publish its long-awaited review into the effectiveness of current NHS waiting time targets?",
+            "payout": 1.73,
+            "desc": "Amidst persistent scrutiny over healthcare performance and previous indications that a comprehensive review was nearing completion 'early August', the Scottish Government could choose today to release its findings, potentially seeking to address public and political concerns.",
+            "result": "WON",
+            "settled_at": "2026-08-03"
+        },
+        {
+            "id": "20260802003",
+            "title": "Will Transport for London (TfL) today confirm the start date for the new cycle lane extension project through Central London?",
+            "payout": 1.58,
+            "desc": "Following the recent closure of the public consultation period for the Central London cycle lane extension and ongoing local council lobbying for clarity, TfL may today issue a public statement or press release confirming the commencement date for the highly anticipated project.",
+            "result": "WON",
+            "settled_at": "2026-08-03"
+        },
+        {
+            "id": "20260802004",
+            "title": "Will the European Commission today issue a formal warning to a member state regarding its new digital services tax proposals?",
+            "payout": 2.38,
+            "desc": "Reports from Brussels suggest the European Commission is concerned that a particular member state's newly drafted digital services tax may violate EU single market rules. A formal warning, often a precursor to legal action, could be issued today following internal consultations.",
+            "result": "WON",
+            "settled_at": "2026-08-03"
+        },
+        {
+            "id": "20260802005",
+            "title": "Will the UN Special Envoy for the Zylos Conflict today announce a date for a new round of peace talks between the warring factions?",
+            "payout": 3.17,
+            "desc": "Following an intense period of shuttle diplomacy and unconfirmed reports of a breakthrough in preliminary discussions, the UN Special Envoy for the Zylos Conflict is under pressure to formalize progress. An announcement regarding a specific date for renewed peace talks could be made today to build momentum.",
+            "result": "WON",
+            "settled_at": "2026-08-03"
         }
     ],
-    "last_update": "2026-08-02 01:58"
+    "last_update": "2026-08-03 02:01"
 }
