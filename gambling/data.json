@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260804001",
-            "title": "Will the UK Prime Minister's Official Spokesperson (PMOS) today hold an unscheduled press briefing following recent cabinet office leaks?",
-            "payout": 2.11,
-            "desc": "After a weekend dominated by unconfirmed reports and leaks regarding potential shifts within junior ministerial ranks, the Prime Minister's team may opt for an unscheduled briefing today to address the speculation directly and regain control of the narrative, particularly as Parliament is not sitting."
-        },
-        {
-            "id": "20260804002",
-            "title": "Will the Scottish Government today publish its formal response to the independent review on the future of ferry services?",
-            "payout": 1.73,
-            "desc": "An independent review into Scotland's beleaguered ferry network was submitted last week, with widespread calls from opposition parties and island communities for the government to provide a swift and comprehensive response. Today, being a Monday, could see the publication to set the week's political agenda."
-        },
-        {
-            "id": "20260804003",
-            "title": "Will Network Rail today announce a new timetable for essential engineering works on the West Coast Main Line for late 2026?",
+            "id": "20260805001",
+            "title": "Will a junior minister within the UK cabinet today resign or be removed from their post following recent media leaks?",
             "payout": 2.71,
-            "desc": "Following consultations with train operating companies, Network Rail is expected to confirm significant engineering works affecting the West Coast Main Line later this year. An announcement is anticipated today to give operators and passengers advanced warning and allow for planning, potentially via a press release to industry stakeholders."
+            "desc": "Following a weekend and Monday dominated by unconfirmed reports and leaks (as per yesterday's speculation), the Prime Minister's office may be under pressure to take decisive action today, either via a resignation or dismissal, to regain control of the narrative and enforce discipline within government ranks."
         },
         {
-            "id": "20260804004",
-            "title": "Will the European Central Bank (ECB) President today give a public address on the Eurozone's Q2 economic growth figures?",
-            "payout": 1.46,
-            "desc": "Preliminary Q2 Eurozone economic growth figures are set to be released today. Given the sensitivity of current inflation rates and ongoing geopolitical tensions, the ECB President may choose to deliver an immediate public address to offer commentary and reassure markets, possibly following an early morning internal meeting."
+            "id": "20260805002",
+            "title": "Will the Scottish Government today announce a date for a new public consultation on local council funding reform?",
+            "payout": 2.11,
+            "desc": "With ongoing debates regarding the financial sustainability and devolved powers of local authorities, the Scottish Government might use today to signal upcoming policy moves. Announcing a public consultation date would allow them to engage stakeholders and demonstrate progress on a key domestic policy area."
         },
         {
-            "id": "20260804005",
-            "title": "Will the UN Secretary-General today issue a formal statement condemning renewed cross-border shelling in Eastern Europe?",
+            "id": "20260805003",
+            "title": "Will the Department for Transport today publish a revised timeline or cost estimate for the Birmingham-Crewe section of HS2 Phase 2a?",
+            "payout": 3.8,
+            "desc": "HS2 remains a project under intense scrutiny regarding its budget and schedule. Following any recent internal reviews or parliamentary committee pressure, the Department for Transport might choose today to release updated figures or projected completion dates for a specific, advanced section of the line to manage public expectations."
+        },
+        {
+            "id": "20260805004",
+            "title": "Will the German Chancellor today make a public statement addressing rising energy prices ahead of the winter season?",
+            "payout": 1.73,
+            "desc": "As summer wanes and the prospect of higher winter energy demands looms, especially with ongoing global energy market volatility, the German Chancellor may opt to deliver a public address today to reassure citizens and industries, outline government strategies, or prepare the public for potential challenges."
+        },
+        {
+            "id": "20260805005",
+            "title": "Will a major international news agency today report that a temporary humanitarian ceasefire has been agreed upon in the Eastern European conflict zone?",
             "payout": 2.38,
-            "desc": "Reports from various international monitors and news agencies indicate a significant escalation in cross-border shelling in a key Eastern European conflict zone over the weekend. The UN Secretary-General, often quick to respond to such developments, may issue a formal statement today calling for de-escalation and adherence to international law."
+            "desc": "Following significant cross-border shelling reported over the weekend and potential UN condemnation (as per yesterday's event), diplomatic pressure for de-escalation would be extremely high. Negotiations often intensify rapidly in such situations, and a temporary humanitarian ceasefire could be agreed upon quickly and reported by a wire service today."
         }
     ],
     "history": [
@@ -3921,7 +3921,47 @@
             "desc": "Reports from the Borana region indicate a sharp and concerning rise in inter-communal violence over the past 24-48 hours. The African Union, often quick to respond to regional instability, may issue an official statement today to condemn the violence and urge all parties towards a peaceful resolution, possibly following an emergency internal meeting.",
             "result": "WON",
             "settled_at": "2026-08-04"
+        },
+        {
+            "id": "20260804001",
+            "title": "Will the UK Prime Minister's Official Spokesperson (PMOS) today hold an unscheduled press briefing following recent cabinet office leaks?",
+            "payout": 2.11,
+            "desc": "After a weekend dominated by unconfirmed reports and leaks regarding potential shifts within junior ministerial ranks, the Prime Minister's team may opt for an unscheduled briefing today to address the speculation directly and regain control of the narrative, particularly as Parliament is not sitting.",
+            "result": "LOST",
+            "settled_at": "2026-08-05"
+        },
+        {
+            "id": "20260804002",
+            "title": "Will the Scottish Government today publish its formal response to the independent review on the future of ferry services?",
+            "payout": 1.73,
+            "desc": "An independent review into Scotland's beleaguered ferry network was submitted last week, with widespread calls from opposition parties and island communities for the government to provide a swift and comprehensive response. Today, being a Monday, could see the publication to set the week's political agenda.",
+            "result": "LOST",
+            "settled_at": "2026-08-05"
+        },
+        {
+            "id": "20260804003",
+            "title": "Will Network Rail today announce a new timetable for essential engineering works on the West Coast Main Line for late 2026?",
+            "payout": 2.71,
+            "desc": "Following consultations with train operating companies, Network Rail is expected to confirm significant engineering works affecting the West Coast Main Line later this year. An announcement is anticipated today to give operators and passengers advanced warning and allow for planning, potentially via a press release to industry stakeholders.",
+            "result": "LOST",
+            "settled_at": "2026-08-05"
+        },
+        {
+            "id": "20260804004",
+            "title": "Will the European Central Bank (ECB) President today give a public address on the Eurozone's Q2 economic growth figures?",
+            "payout": 1.46,
+            "desc": "Preliminary Q2 Eurozone economic growth figures are set to be released today. Given the sensitivity of current inflation rates and ongoing geopolitical tensions, the ECB President may choose to deliver an immediate public address to offer commentary and reassure markets, possibly following an early morning internal meeting.",
+            "result": "LOST",
+            "settled_at": "2026-08-05"
+        },
+        {
+            "id": "20260804005",
+            "title": "Will the UN Secretary-General today issue a formal statement condemning renewed cross-border shelling in Eastern Europe?",
+            "payout": 2.38,
+            "desc": "Reports from various international monitors and news agencies indicate a significant escalation in cross-border shelling in a key Eastern European conflict zone over the weekend. The UN Secretary-General, often quick to respond to such developments, may issue a formal statement today calling for de-escalation and adherence to international law.",
+            "result": "WON",
+            "settled_at": "2026-08-05"
         }
     ],
-    "last_update": "2026-08-04 01:46"
+    "last_update": "2026-08-05 01:48"
 }
