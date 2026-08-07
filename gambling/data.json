@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260806001",
-            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms for secondary schools?",
-            "payout": 2.11,
-            "desc": "Following increasing pressure from teaching unions and leaked internal reviews highlighting implementation challenges, the Department for Education may today issue a statement or hold a briefing to signal a delay in the rollout of contentious new curriculum reforms, aiming to manage stakeholder expectations."
+            "id": "20260807001",
+            "title": "Will the UK government today announce a significant new round of funding for local councils to address social care shortfalls?",
+            "payout": 2.38,
+            "desc": "Following ongoing public pressure from local authorities and recent negative reports on social care capacity, the Department for Levelling Up, Housing and Communities may today issue a statement or hold a briefing to detail new financial support for struggling councils."
         },
         {
-            "id": "20260806002",
-            "title": "Will the First Minister of Scotland today hold an unscheduled press conference regarding the ongoing NHS Scotland waiting list figures?",
+            "id": "20260807002",
+            "title": "Will the Scottish Health Secretary today confirm the activation of emergency winter resilience plans for NHS Scotland, ahead of schedule?",
             "payout": 2.71,
-            "desc": "With persistent negative headlines and recent critical reports detailing record-high waiting times for NHS Scotland, the First Minister may feel compelled to make an urgent public appearance today to address concerns, reassure the public, and outline immediate government actions."
+            "desc": "With sustained high demand across NHS Scotland, exacerbated by unusual late summer viral outbreaks and persistent staffing shortages, the Scottish Government may today pre-emptively trigger its emergency winter planning to mitigate further pressures."
         },
         {
-            "id": "20260806003",
-            "title": "Will Network Rail today announce an urgent timetable review for services operating on the East Coast Main Line due to staffing shortages?",
-            "payout": 1.73,
-            "desc": "Amid reports of increased cancellations and significant delays over the past week, potentially exacerbated by higher-than-usual staff sickness or ongoing industrial disputes, Network Rail might be forced to announce an emergency review and potential adjustments to the East Coast Main Line timetable today to ensure service stability."
-        },
-        {
-            "id": "20260806004",
-            "title": "Will the European Central Bank (ECB) today publish an extraordinary statement addressing inflation concerns in the Eurozone?",
-            "payout": 3.17,
-            "desc": "Following recent unexpected spikes in energy prices or weaker-than-anticipated economic indicators across the Eurozone, the ECB may today issue an unscheduled statement to either calm market anxieties, clarify its monetary policy stance, or signal potential upcoming measures ahead of its next scheduled meeting."
-        },
-        {
-            "id": "20260806005",
-            "title": "Will the United Nations Secretary-General today call for an emergency session of the Security Council regarding the ongoing humanitarian crisis in the Central African region?",
+            "id": "20260807003",
+            "title": "Will Network Rail today confirm the indefinite suspension of all planned engineering works on the West Coast Main Line due to operational demands?",
             "payout": 3.8,
-            "desc": "With escalating reports from international NGOs detailing severe displacement, widespread food insecurity, and potential cross-border incursions in the Central African region, the UN Secretary-General might today deem the situation critical enough to demand an urgent, high-level discussion within the Security Council."
+            "desc": "Amid reports of widespread disruption and a surge in passenger complaints linked to recent engineering possessions, Network Rail might today be forced to halt or postpone future planned works on the vital West Coast Main Line to prioritise service reliability and capacity."
+        },
+        {
+            "id": "20260807004",
+            "title": "Will the United States today announce new targeted sanctions against officials from a specific country for human rights abuses?",
+            "payout": 1.73,
+            "desc": "Following the release of a damning UN human rights report and increasing bipartisan calls from Congress, the Biden administration may today decide to impose immediate, targeted sanctions on high-ranking officials implicated in documented human rights violations."
+        },
+        {
+            "id": "20260807005",
+            "title": "Will the UN Special Envoy for the Sahel region today publicly call for an international donor conference to address escalating food insecurity?",
+            "payout": 3.17,
+            "desc": "With international NGOs reporting a rapid deterioration in humanitarian conditions and increased displacement across parts of the Sahel, the UN Special Envoy may today use a scheduled press engagement or issue a statement to urgently appeal for greater international financial support."
         }
     ],
     "history": [
@@ -4001,7 +4001,47 @@
             "desc": "Following significant cross-border shelling reported over the weekend and potential UN condemnation (as per yesterday's event), diplomatic pressure for de-escalation would be extremely high. Negotiations often intensify rapidly in such situations, and a temporary humanitarian ceasefire could be agreed upon quickly and reported by a wire service today.",
             "result": "LOST",
             "settled_at": "2026-08-06"
+        },
+        {
+            "id": "20260806001",
+            "title": "Will the Secretary of State for Education today announce a delay to the proposed curriculum reforms for secondary schools?",
+            "payout": 2.11,
+            "desc": "Following increasing pressure from teaching unions and leaked internal reviews highlighting implementation challenges, the Department for Education may today issue a statement or hold a briefing to signal a delay in the rollout of contentious new curriculum reforms, aiming to manage stakeholder expectations.",
+            "result": "LOST",
+            "settled_at": "2026-08-07"
+        },
+        {
+            "id": "20260806002",
+            "title": "Will the First Minister of Scotland today hold an unscheduled press conference regarding the ongoing NHS Scotland waiting list figures?",
+            "payout": 2.71,
+            "desc": "With persistent negative headlines and recent critical reports detailing record-high waiting times for NHS Scotland, the First Minister may feel compelled to make an urgent public appearance today to address concerns, reassure the public, and outline immediate government actions.",
+            "result": "LOST",
+            "settled_at": "2026-08-07"
+        },
+        {
+            "id": "20260806003",
+            "title": "Will Network Rail today announce an urgent timetable review for services operating on the East Coast Main Line due to staffing shortages?",
+            "payout": 1.73,
+            "desc": "Amid reports of increased cancellations and significant delays over the past week, potentially exacerbated by higher-than-usual staff sickness or ongoing industrial disputes, Network Rail might be forced to announce an emergency review and potential adjustments to the East Coast Main Line timetable today to ensure service stability.",
+            "result": "LOST",
+            "settled_at": "2026-08-07"
+        },
+        {
+            "id": "20260806004",
+            "title": "Will the European Central Bank (ECB) today publish an extraordinary statement addressing inflation concerns in the Eurozone?",
+            "payout": 3.17,
+            "desc": "Following recent unexpected spikes in energy prices or weaker-than-anticipated economic indicators across the Eurozone, the ECB may today issue an unscheduled statement to either calm market anxieties, clarify its monetary policy stance, or signal potential upcoming measures ahead of its next scheduled meeting.",
+            "result": "LOST",
+            "settled_at": "2026-08-07"
+        },
+        {
+            "id": "20260806005",
+            "title": "Will the United Nations Secretary-General today call for an emergency session of the Security Council regarding the ongoing humanitarian crisis in the Central African region?",
+            "payout": 3.8,
+            "desc": "With escalating reports from international NGOs detailing severe displacement, widespread food insecurity, and potential cross-border incursions in the Central African region, the UN Secretary-General might today deem the situation critical enough to demand an urgent, high-level discussion within the Security Council.",
+            "result": "LOST",
+            "settled_at": "2026-08-07"
         }
     ],
-    "last_update": "2026-08-06 01:48"
+    "last_update": "2026-08-07 02:12"
 }
