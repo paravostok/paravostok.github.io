@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260807001",
-            "title": "Will the UK government today announce a significant new round of funding for local councils to address social care shortfalls?",
-            "payout": 2.38,
-            "desc": "Following ongoing public pressure from local authorities and recent negative reports on social care capacity, the Department for Levelling Up, Housing and Communities may today issue a statement or hold a briefing to detail new financial support for struggling councils."
+            "id": "20260808001",
+            "title": "Will the UK government today announce a specific date for the next general election?",
+            "payout": 5.28,
+            "desc": "With the current parliamentary term approaching its final year and persistent media speculation, the Prime Minister or a senior cabinet minister may today use a high-profile public appearance or statement to end the uncertainty and formally announce the date for the upcoming general election."
         },
         {
-            "id": "20260807002",
-            "title": "Will the Scottish Health Secretary today confirm the activation of emergency winter resilience plans for NHS Scotland, ahead of schedule?",
+            "id": "20260808002",
+            "title": "Will the Scottish Government today publish new detailed proposals for its highly anticipated rent control legislation?",
+            "payout": 1.58,
+            "desc": "Following a recent consultation period and ongoing pressure from tenant advocacy groups, the Scottish Housing Minister is expected to provide an update, and there are strong indications new, specific legislative proposals on rent controls could be unveiled today."
+        },
+        {
+            "id": "20260808003",
+            "title": "Will Network Rail today confirm the approval for the full electrification of the Midland Main Line north of Market Harborough?",
             "payout": 2.71,
-            "desc": "With sustained high demand across NHS Scotland, exacerbated by unusual late summer viral outbreaks and persistent staffing shortages, the Scottish Government may today pre-emptively trigger its emergency winter planning to mitigate further pressures."
+            "desc": "After years of lobbying and recent positive feasibility studies, reports suggest a final investment decision from the Department for Transport is imminent. Network Rail could today announce the long-awaited 'green light' for this significant upgrade to the Midland Main Line."
         },
         {
-            "id": "20260807003",
-            "title": "Will Network Rail today confirm the indefinite suspension of all planned engineering works on the West Coast Main Line due to operational demands?",
-            "payout": 3.8,
-            "desc": "Amid reports of widespread disruption and a surge in passenger complaints linked to recent engineering possessions, Network Rail might today be forced to halt or postpone future planned works on the vital West Coast Main Line to prioritise service reliability and capacity."
+            "id": "20260808004",
+            "title": "Will the United States today announce a new strategic partnership agreement with an Indo-Pacific nation regarding critical mineral supply chains?",
+            "payout": 1.36,
+            "desc": "In light of ongoing efforts to diversify critical mineral sourcing away from concentrated suppliers and a high-level delegation from an Indo-Pacific nation currently in Washington, a significant announcement of a new supply chain partnership is anticipated today."
         },
         {
-            "id": "20260807004",
-            "title": "Will the United States today announce new targeted sanctions against officials from a specific country for human rights abuses?",
-            "payout": 1.73,
-            "desc": "Following the release of a damning UN human rights report and increasing bipartisan calls from Congress, the Biden administration may today decide to impose immediate, targeted sanctions on high-ranking officials implicated in documented human rights violations."
-        },
-        {
-            "id": "20260807005",
-            "title": "Will the UN Special Envoy for the Sahel region today publicly call for an international donor conference to address escalating food insecurity?",
-            "payout": 3.17,
-            "desc": "With international NGOs reporting a rapid deterioration in humanitarian conditions and increased displacement across parts of the Sahel, the UN Special Envoy may today use a scheduled press engagement or issue a statement to urgently appeal for greater international financial support."
+            "id": "20260808005",
+            "title": "Will a major international aid organization today confirm the successful establishment of a new humanitarian air bridge into the besieged region of Kavar?",
+            "payout": 2.38,
+            "desc": "Following intense negotiations and severe food shortages reported in Kavar, the UN and partner NGOs have been working to secure access. A breakthrough for an air bridge, potentially allowing vital supplies to enter, could be confirmed by a lead agency today."
         }
     ],
     "history": [
@@ -4041,7 +4041,47 @@
             "desc": "With escalating reports from international NGOs detailing severe displacement, widespread food insecurity, and potential cross-border incursions in the Central African region, the UN Secretary-General might today deem the situation critical enough to demand an urgent, high-level discussion within the Security Council.",
             "result": "LOST",
             "settled_at": "2026-08-07"
+        },
+        {
+            "id": "20260807001",
+            "title": "Will the UK government today announce a significant new round of funding for local councils to address social care shortfalls?",
+            "payout": 2.38,
+            "desc": "Following ongoing public pressure from local authorities and recent negative reports on social care capacity, the Department for Levelling Up, Housing and Communities may today issue a statement or hold a briefing to detail new financial support for struggling councils.",
+            "result": "LOST",
+            "settled_at": "2026-08-08"
+        },
+        {
+            "id": "20260807002",
+            "title": "Will the Scottish Health Secretary today confirm the activation of emergency winter resilience plans for NHS Scotland, ahead of schedule?",
+            "payout": 2.71,
+            "desc": "With sustained high demand across NHS Scotland, exacerbated by unusual late summer viral outbreaks and persistent staffing shortages, the Scottish Government may today pre-emptively trigger its emergency winter planning to mitigate further pressures.",
+            "result": "WON",
+            "settled_at": "2026-08-08"
+        },
+        {
+            "id": "20260807003",
+            "title": "Will Network Rail today confirm the indefinite suspension of all planned engineering works on the West Coast Main Line due to operational demands?",
+            "payout": 3.8,
+            "desc": "Amid reports of widespread disruption and a surge in passenger complaints linked to recent engineering possessions, Network Rail might today be forced to halt or postpone future planned works on the vital West Coast Main Line to prioritise service reliability and capacity.",
+            "result": "LOST",
+            "settled_at": "2026-08-08"
+        },
+        {
+            "id": "20260807004",
+            "title": "Will the United States today announce new targeted sanctions against officials from a specific country for human rights abuses?",
+            "payout": 1.73,
+            "desc": "Following the release of a damning UN human rights report and increasing bipartisan calls from Congress, the Biden administration may today decide to impose immediate, targeted sanctions on high-ranking officials implicated in documented human rights violations.",
+            "result": "WON",
+            "settled_at": "2026-08-08"
+        },
+        {
+            "id": "20260807005",
+            "title": "Will the UN Special Envoy for the Sahel region today publicly call for an international donor conference to address escalating food insecurity?",
+            "payout": 3.17,
+            "desc": "With international NGOs reporting a rapid deterioration in humanitarian conditions and increased displacement across parts of the Sahel, the UN Special Envoy may today use a scheduled press engagement or issue a statement to urgently appeal for greater international financial support.",
+            "result": "WON",
+            "settled_at": "2026-08-08"
         }
     ],
-    "last_update": "2026-08-07 02:12"
+    "last_update": "2026-08-08 01:00"
 }
