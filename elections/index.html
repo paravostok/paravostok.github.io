@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Election Engine Skeleton</title>
+</head>
+<body>
+
+  <h1>Election Calculator Engine</h1>
+
+  <!-- Data Fetcher Controls -->
+  <fieldset>
+    <legend>Data Source</legend>
+    <label for="data-source">JSON URL or Wikipedia Page:</label>
+    <input type="text" id="data-source" size="60" value="2017-election.json">
+    <button onclick="loadAndRun()">Fetch Election Data</button>
+    <p><small>Tip: Type <code>wikipedia:2017_United_Kingdom_general_election</code> to query Wikipedia live.</small></p>
+  </fieldset>
+
+  <br>
+
+  <!-- System Settings -->
+  <fieldset>
+    <legend>System Configuration</legend>
+    <label>Local Seats Target: <input type="number" id="local-seats" value="640"></label>
+    <label>Levelling Pool Cap: <input type="number" id="levelling-cap" value="60"></label>
+    <label><input type="checkbox" id="fairness-rule" checked> Enable Fairness Rule (4.5% / 11.5%)</label>
+  </fieldset>
+
+  <br>
+
+  <!-- Results Overview -->
+  <div>
+    <p>Total Local Seats Assigned: <strong id="out-local-assigned">0</strong> / <span id="out-local-target">640</span></p>
+    <p>Levelling Seats Awarded: <strong id="out-pool-used">0</strong></p>
+    <p>Final House Size: <strong id="out-house-size">0</strong> MPs</p>
+  </div>
+
+  <br>
+
+  <!-- Full Results Table -->
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Party Name</th>
+        <th>UK Vote %</th>
+        <th>Local Seats (STV)</th>
+        <th>Fair Share</th>
+        <th>Qualification</th>
+        <th>Levelling Awarded</th>
+        <th>Final Seats</th>
+      </tr>
+    </thead>
+    <tbody id="results-table-body">
+      <!-- Data injected dynamically -->
+    </tbody>
+  </table>
+
+  <!-- Include engine logic -->
+  <script src="election-engine.js"></script>
+
+  <script>
+    let activeDataset = null;
+
+    async function loadAndRun() {
+      const source = document.getElementById('data-source').value.trim();
+      try {
+        activeDataset = await fetchElectionData(source);
+        execute();
+      } catch (err) {
+        alert('Failed to load data source: ' + err.message);
+      }
+    }
+
+    function execute() {
+      if (!activeDataset) return;
+
+      const options = {
+        localSeatsTotal: parseInt(document.getElementById('local-seats').value) || 640,
+        levellingCap: parseInt(document.getElementById('levelling-cap').value) || 60,
+        fairnessRule: document.getElementById('fairness-rule').checked
+      };
+
+      const results = calculateElection(activeDataset, options);
+
+      // Render summary indicators
+      document.getElementById('out-local-assigned').textContent = results.localSeatsAssigned;
+      document.getElementById('out-local-target').textContent = options.localSeatsTotal;
+      document.getElementById('out-pool-used').textContent = `${results.poolUsed} / ${results.poolCapacity}`;
+      document.getElementById('out-house-size').textContent = results.houseSize;
+
+      // Render party rows
+      const tbody = document.getElementById('results-table-body');
+      tbody.innerHTML = '';
+
+      results.parties.forEach(party => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td>${party.name}</td>
+          <td>${party.ukVotePct}%</td>
+          <td>${party.localSeats}</td>
+          <td>${party.fairShare}</td>
+          <td>${party.qualificationType}</td>
+          <td>+${party.levellingAwarded}</td>
+          <td><strong>${party.totalSeats}</strong></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Attach recalculation listeners
+    document.getElementById('local-seats').addEventListener('change', execute);
+    document.getElementById('levelling-cap').addEventListener('change', execute);
+    document.getElementById('fairness-rule').addEventListener('change', execute);
+  </script>
+
+</body>
+</html>
