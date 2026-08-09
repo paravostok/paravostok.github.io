@@ -2,78 +2,321 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Election Engine Skeleton</title>
+  <title>Regional STV + Best Loser Levelling Engine</title>
 </head>
 <body>
 
-  <h1>Election Calculator Engine</h1>
+  <h1>UK Election Simulator & Levelling Engine</h1>
 
-  <!-- Data Fetcher Controls -->
+  <!-- DATA SOURCE CONFIGURATION -->
   <fieldset>
-    <legend>Data Source</legend>
-    <label for="data-source">JSON URL or Wikipedia Page:</label>
-    <input type="text" id="data-source" size="60" value="2017-election.json">
-    <button onclick="loadAndRun()">Fetch Election Data</button>
-    <p><small>Tip: Type <code>wikipedia:2017_United_Kingdom_general_election</code> to query Wikipedia live.</small></p>
+    <legend>Data Source & Fetcher</legend>
+    
+    <label for="fetch-mode">Select Source Mode:</label>
+    <select id="fetch-mode" onchange="toggleFetchInputs()">
+      <option value="preset">Built-In Preset (2017 Full)</option>
+      <option value="parliament">UK Parliament / Commons Library API</option>
+      <option value="custom-json">Custom Open JSON Repository URL</option>
+    </select>
+
+    <br><br>
+
+    <!-- Dynamic URL Input -->
+    <div id="url-input-container" style="display: none;">
+      <label for="data-url">API Endpoint or File URL:</label>
+      <input type="text" id="data-url" size="70" value="https://members-api.parliament.uk/api/Parties/StateOfTheParties/1/2017-06-08">
+    </div>
+
+    <br>
+    <button onclick="loadDataAndCalculate()">Fetch & Run Election Engine</button>
   </fieldset>
 
   <br>
 
-  <!-- System Settings -->
+  <!-- SYSTEM PARAMETERS -->
   <fieldset>
-    <legend>System Configuration</legend>
+    <legend>System Parameters</legend>
     <label>Local Seats Target: <input type="number" id="local-seats" value="640"></label>
     <label>Levelling Pool Cap: <input type="number" id="levelling-cap" value="60"></label>
-    <label><input type="checkbox" id="fairness-rule" checked> Enable Fairness Rule (4.5% / 11.5%)</label>
+    <label><input type="checkbox" id="fairness-rule" checked> Enable Fairness Rule (4.5% UK / 11.5% Regional)</label>
   </fieldset>
 
   <br>
 
-  <!-- Results Overview -->
-  <div>
-    <p>Total Local Seats Assigned: <strong id="out-local-assigned">0</strong> / <span id="out-local-target">640</span></p>
-    <p>Levelling Seats Awarded: <strong id="out-pool-used">0</strong></p>
-    <p>Final House Size: <strong id="out-house-size">0</strong> MPs</p>
-  </div>
+  <!-- RESULTS OVERVIEW -->
+  <fieldset>
+    <legend>Engine Summary Output</legend>
+    <p>Target Local Seats: <span id="out-local-target">640</span></p>
+    <p>Actual Local Seats Assigned: <strong id="out-local-assigned">0</strong></p>
+    <p>Levelling Pool Used: <strong id="out-pool-used">0</strong> / <span id="out-pool-cap">60</span></p>
+    <p>Final Size of House of Commons: <strong id="out-house-size">0</strong> MPs</p>
+  </fieldset>
 
   <br>
 
-  <!-- Full Results Table -->
+  <!-- PARLIAMENTARY SEAT TABLE -->
   <table border="1" cellpadding="8" cellspacing="0">
     <thead>
       <tr>
         <th>Party Name</th>
         <th>UK Vote %</th>
         <th>Local Seats (STV)</th>
-        <th>Fair Share</th>
-        <th>Qualification</th>
+        <th>Fair Share (640)</th>
+        <th>Deficit Line</th>
+        <th>Qualification Status</th>
         <th>Levelling Awarded</th>
         <th>Final Seats</th>
       </tr>
     </thead>
     <tbody id="results-table-body">
-      <!-- Data injected dynamically -->
+      <!-- Injected dynamically by JavaScript -->
     </tbody>
   </table>
 
-  <!-- Include engine logic -->
-  <script src="election-engine.js"></script>
-
+  <!-- ENGINE SCRIPT -->
   <script>
-    let activeDataset = null;
+    /**
+     * 1. AUTOMATIC DATA BALANCER
+     * Ensures all 640 baseline local seats are accounted for.
+     * If an API or dataset excludes minor parties/independents, 
+     * remaining seats and votes are aggregated into "Others / Independents".
+     */
+    function normalizeElectionData(rawData, targetLocalSeats = 640) {
+      if (!rawData || !rawData.parties) return rawData;
 
-    async function loadAndRun() {
-      const source = document.getElementById('data-source').value.trim();
-      try {
-        activeDataset = await fetchElectionData(source);
-        execute();
-      } catch (err) {
-        alert('Failed to load data source: ' + err.message);
+      let parties = JSON.parse(JSON.stringify(rawData.parties)); // Deep copy
+      let currentLocalSum = parties.reduce((acc, p) => acc + (p.localSeatsTotal || p.localSeats || 0), 0);
+
+      // Balance unassigned seats to hit 640
+      if (currentLocalSum < targetLocalSeats) {
+        const remainingSeats = targetLocalSeats - currentLocalSum;
+        const currentVoteSum = parties.reduce((acc, p) => acc + (p.ukVotePct || 0), 0);
+        const remainingVotePct = Math.max(0, parseFloat((100 - currentVoteSum).toFixed(2)));
+
+        let others = parties.find(p => 
+          p.name.toLowerCase().includes('other') || p.name.toLowerCase().includes('independent')
+        );
+
+        if (others) {
+          others.localSeatsTotal = (others.localSeatsTotal || others.localSeats || 0) + remainingSeats;
+          others.ukVotePct = parseFloat(((others.ukVotePct || 0) + remainingVotePct).toFixed(2));
+        } else {
+          parties.push({
+            name: 'Others / Independents',
+            ukVotePct: remainingVotePct,
+            localSeatsTotal: remainingSeats,
+            regionalData: {}
+          });
+        }
+      }
+
+      return {
+        ...rawData,
+        parties: parties
+      };
+    }
+
+    /**
+     * 2. MAIN SYSTEM ENGINE
+     * Executes Regional STV + Best Loser Levelling logic.
+     */
+    function calculateElection(rawData, options = {}) {
+      const localTotal = options.localSeatsTotal || 640;
+      const poolCap = options.levellingCap || 60;
+      const fairnessActive = options.fairnessRule !== false;
+
+      // Ensure full 640-seat balance
+      const data = normalizeElectionData(rawData, localTotal);
+
+      let totalDemand = 0;
+      const partyResults = [];
+
+      data.parties.forEach(party => {
+        const localSeats = party.localSeatsTotal || party.localSeats || 0;
+        const votePct = party.ukVotePct || 0;
+
+        let qualifiesNational = false;
+        let qualifiesRegional = false;
+        let levellingNeeded = 0;
+
+        // Mathematical Fair Share (against baseline local seats)
+        const nationalFairShare = (votePct / 100) * localTotal;
+        const nationalDeficitLimit = nationalFairShare * 0.80; // 20% deficit trigger
+        const nationalDeficitPct = nationalFairShare > 0 ? (nationalFairShare - localSeats) / nationalFairShare : 0;
+
+        // A. National Threshold (5% UK OR 4.5% if >=30% deficit under Fairness Rule)
+        if (votePct >= 5.0) {
+          qualifiesNational = true;
+        } else if (fairnessActive && votePct >= 4.5 && nationalDeficitPct >= 0.30) {
+          qualifiesNational = true;
+        }
+
+        if (qualifiesNational) {
+          // 20% deficit evaluated against Nationwide fair share
+          if (localSeats <= nationalDeficitLimit) {
+            levellingNeeded = Math.round(nationalFairShare - localSeats);
+          }
+        } else {
+          // B. Regional Thresholds (12% Region OR 11.5% if >=30% deficit) for parties < 5% UK
+          if (party.regionalData && data.regionalSeatTotals) {
+            Object.keys(party.regionalData).forEach(region => {
+              const regInfo = party.regionalData[region];
+              const regTotalSeats = data.regionalSeatTotals[region] || 0;
+              const regFairShare = (regInfo.votePct / 100) * regTotalSeats;
+              const regDeficitLimit = regFairShare * 0.80;
+              const regDeficitPct = regFairShare > 0 ? (regFairShare - regInfo.localSeats) / regFairShare : 0;
+
+              let regQualifies = regInfo.votePct >= 12.0;
+              if (!regQualifies && fairnessActive && regInfo.votePct >= 11.5 && regDeficitPct >= 0.30) {
+                regQualifies = true;
+              }
+
+              if (regQualifies && regInfo.localSeats <= regDeficitLimit) {
+                qualifiesRegional = true;
+                levellingNeeded += Math.round(regFairShare - regInfo.localSeats);
+              }
+            });
+          }
+        }
+
+        totalDemand += Math.max(0, levellingNeeded);
+
+        partyResults.push({
+          name: party.name,
+          ukVotePct: votePct,
+          localSeats: localSeats,
+          fairShare: parseFloat(nationalFairShare.toFixed(1)),
+          deficitTriggerLine: parseFloat(nationalDeficitLimit.toFixed(1)),
+          qualifies: qualifiesNational || qualifiesRegional,
+          qualificationType: qualifiesNational ? 'National' : qualifiesRegional ? 'Regional' : 'None',
+          levellingNeeded: Math.max(0, levellingNeeded),
+          levellingAwarded: 0,
+          totalSeats: localSeats
+        });
+      });
+
+      // Levelling Pool Allocation (Capped at 60 seats)
+      let poolUsed = 0;
+      partyResults.forEach(p => {
+        if (p.qualifies && p.levellingNeeded > 0) {
+          if (totalDemand <= poolCap) {
+            p.levellingAwarded = p.levellingNeeded;
+          } else {
+            p.levellingAwarded = Math.floor((p.levellingNeeded / totalDemand) * poolCap);
+          }
+          poolUsed += p.levellingAwarded;
+        }
+        p.totalSeats = p.localSeats + p.levellingAwarded;
+      });
+
+      const sumLocalSeatsAssigned = partyResults.reduce((acc, p) => acc + p.localSeats, 0);
+
+      return {
+        houseSize: sumLocalSeatsAssigned + poolUsed,
+        localSeatsAssigned: sumLocalSeatsAssigned,
+        poolUsed: poolUsed,
+        poolCapacity: poolCap,
+        parties: partyResults
+      };
+    }
+
+    /**
+     * 3. DATA FETCHING MODULE
+     * Handles API queries or loads local datasets.
+     */
+    async function fetchFromParliamentAPI(endpointUrl) {
+      const response = await fetch(endpointUrl, {
+        headers: { 'Accept': 'application/json' }
+      });
+      
+      if (!response.ok) throw new Error(`Parliament API error HTTP ${response.status}`);
+      const json = await response.json();
+
+      // Transform raw Parliament API payload into engine schema
+      return transformParliamentApiResponse(json);
+    }
+
+    function transformParliamentApiResponse(apiData) {
+      // Map API array to standard format
+      const partyList = (apiData.value || apiData.items || apiData.parties || []).map(p => ({
+        name: p.name || p.partyName || p.value?.name,
+        ukVotePct: p.votePercentage || p.votePct || 0,
+        localSeatsTotal: p.seatsWon || p.memberCount || p.localSeats || 0,
+        regionalData: {}
+      }));
+
+      return {
+        election: "Parliament API Dataset",
+        regionalSeatTotals: { "Scotland": 58, "Wales": 38, "Northern Ireland": 18, "England": 526 },
+        parties: partyList
+      };
+    }
+
+    // Built-in 2017 Dataset Fallback
+    const preset2017 = {
+      election: "2017 General Election",
+      regionalSeatTotals: { "Scotland": 58, "Wales": 38, "Northern Ireland": 18, "England": 526 },
+      parties: [
+        { name: "Conservative", ukVotePct: 42.4, localSeatsTotal: 271, regionalData: {} },
+        { name: "Labour", ukVotePct: 40.0, localSeatsTotal: 254, regionalData: {} },
+        { name: "Liberal Democrats", ukVotePct: 7.4, localSeatsTotal: 24, regionalData: {} },
+        { name: "SNP", ukVotePct: 3.0, localSeatsTotal: 23, regionalData: { "Scotland": { votePct: 36.9, localSeats: 23 } } },
+        { name: "UKIP", ukVotePct: 1.8, localSeatsTotal: 0, regionalData: {} },
+        { name: "Green Party", ukVotePct: 1.6, localSeatsTotal: 0, regionalData: {} },
+        { name: "Plaid Cymru", ukVotePct: 0.5, localSeatsTotal: 2, regionalData: { "Wales": { votePct: 10.4, localSeats: 2 } } },
+        { name: "DUP", ukVotePct: 0.9, localSeatsTotal: 6, regionalData: { "Northern Ireland": { votePct: 36.0, localSeats: 6 } } },
+        { name: "Sinn Féin", ukVotePct: 0.7, localSeatsTotal: 5, regionalData: { "Northern Ireland": { votePct: 29.4, localSeats: 5 } } },
+        { name: "SDLP", ukVotePct: 0.3, localSeatsTotal: 1, regionalData: { "Northern Ireland": { votePct: 11.7, localSeats: 1 } } },
+        { name: "UUP", ukVotePct: 0.3, localSeatsTotal: 1, regionalData: { "Northern Ireland": { votePct: 10.3, localSeats: 1 } } },
+        { name: "Alliance NI", ukVotePct: 0.2, localSeatsTotal: 1, regionalData: { "Northern Ireland": { votePct: 7.9, localSeats: 1 } } },
+        { name: "Independents / Others", ukVotePct: 0.9, localSeatsTotal: 51, regionalData: {} }
+      ]
+    };
+
+    /**
+     * 4. UI INTERFACE & CONTROLLER GLUE
+     */
+    let activeData = preset2017;
+
+    function toggleFetchInputs() {
+      const mode = document.getElementById('fetch-mode').value;
+      const urlContainer = document.getElementById('url-input-container');
+      
+      if (mode === 'preset') {
+        urlContainer.style.display = 'none';
+      } else {
+        urlContainer.style.display = 'block';
+        if (mode === 'parliament') {
+          document.getElementById('data-url').value = 'https://members-api.parliament.uk/api/Parties/GetActive/1';
+        }
       }
     }
 
-    function execute() {
-      if (!activeDataset) return;
+    async function loadDataAndCalculate() {
+      const mode = document.getElementById('fetch-mode').value;
+      
+      if (mode === 'preset') {
+        activeData = preset2017;
+      } else {
+        const url = document.getElementById('data-url').value.trim();
+        try {
+          if (mode === 'parliament') {
+            activeData = await fetchFromParliamentAPI(url);
+          } else {
+            const res = await fetch(url);
+            activeData = await res.json();
+          }
+        } catch (err) {
+          alert('Fetch failed: ' + err.message + '\nReverting to built-in 2017 preset.');
+          activeData = preset2017;
+        }
+      }
+
+      runEngine();
+    }
+
+    function runEngine() {
+      if (!activeData) return;
 
       const options = {
         localSeatsTotal: parseInt(document.getElementById('local-seats').value) || 640,
@@ -81,25 +324,27 @@
         fairnessRule: document.getElementById('fairness-rule').checked
       };
 
-      const results = calculateElection(activeDataset, options);
+      const result = calculateElection(activeData, options);
 
-      // Render summary indicators
-      document.getElementById('out-local-assigned').textContent = results.localSeatsAssigned;
+      // Render Summary Outputs
       document.getElementById('out-local-target').textContent = options.localSeatsTotal;
-      document.getElementById('out-pool-used').textContent = `${results.poolUsed} / ${results.poolCapacity}`;
-      document.getElementById('out-house-size').textContent = results.houseSize;
+      document.getElementById('out-local-assigned').textContent = result.localSeatsAssigned;
+      document.getElementById('out-pool-used').textContent = result.poolUsed;
+      document.getElementById('out-pool-cap').textContent = result.poolCapacity;
+      document.getElementById('out-house-size').textContent = result.houseSize;
 
-      // Render party rows
+      // Render Table Rows
       const tbody = document.getElementById('results-table-body');
       tbody.innerHTML = '';
 
-      results.parties.forEach(party => {
+      result.parties.forEach(party => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td>${party.name}</td>
           <td>${party.ukVotePct}%</td>
           <td>${party.localSeats}</td>
           <td>${party.fairShare}</td>
+          <td>${party.deficitTriggerLine}</td>
           <td>${party.qualificationType}</td>
           <td>+${party.levellingAwarded}</td>
           <td><strong>${party.totalSeats}</strong></td>
@@ -108,10 +353,13 @@
       });
     }
 
-    // Attach recalculation listeners
-    document.getElementById('local-seats').addEventListener('change', execute);
-    document.getElementById('levelling-cap').addEventListener('change', execute);
-    document.getElementById('fairness-rule').addEventListener('change', execute);
+    // Attach Live Parameter Change Listeners
+    document.getElementById('local-seats').addEventListener('change', runEngine);
+    document.getElementById('levelling-cap').addEventListener('change', runEngine);
+    document.getElementById('fairness-rule').addEventListener('change', runEngine);
+
+    // Initial Run on Load
+    window.addEventListener('DOMContentLoaded', runEngine);
   </script>
 
 </body>
