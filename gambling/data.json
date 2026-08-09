@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260808001",
-            "title": "Will the UK government today announce a specific date for the next general election?",
-            "payout": 5.28,
-            "desc": "With the current parliamentary term approaching its final year and persistent media speculation, the Prime Minister or a senior cabinet minister may today use a high-profile public appearance or statement to end the uncertainty and formally announce the date for the upcoming general election."
+            "id": "20260809001",
+            "title": "Will the Chancellor today announce any new specific measures to combat rising inflation?",
+            "payout": 2.01,
+            "desc": "Following yesterday's release of higher-than-expected inflation figures from the ONS, there is mounting pressure on the Treasury to act. The Chancellor may today issue a statement or hold a press conference to outline immediate steps."
         },
         {
-            "id": "20260808002",
-            "title": "Will the Scottish Government today publish new detailed proposals for its highly anticipated rent control legislation?",
+            "id": "20260809002",
+            "title": "Will the Scottish Government today confirm the full details of its proposed new visitor levy (tourist tax) legislation?",
+            "payout": 1.64,
+            "desc": "Following extensive public and industry consultation, the Scottish Government has indicated its intention to introduce a visitor levy. With the legislative timetable becoming tighter, a detailed announcement, potentially including proposed rates and local discretion, could be made today."
+        },
+        {
+            "id": "20260809003",
+            "title": "Will Transport for London (TfL) today confirm the definitive re-opening date for the entire Northern Line Bank branch?",
+            "payout": 1.29,
+            "desc": "The Northern Line Bank branch closure has been a significant disruption for months. With work nearing completion and daily updates expected, TfL could today provide the highly anticipated definitive re-opening date for the full branch."
+        },
+        {
+            "id": "20260809004",
+            "title": "Will the European Union today formally announce new sanctions targeting specific entities involved in human rights abuses?",
+            "payout": 2.57,
+            "desc": "Following recent reports from international human rights organizations and ongoing discussions within the EU Council, there is growing expectation that new restrictive measures could be announced today against individuals and organizations implicated in severe human rights violations."
+        },
+        {
+            "id": "20260809005",
+            "title": "Will the International Committee of the Red Cross (ICRC) today confirm that a humanitarian aid convoy has successfully reached the besieged city of Z?",
             "payout": 1.58,
-            "desc": "Following a recent consultation period and ongoing pressure from tenant advocacy groups, the Scottish Housing Minister is expected to provide an update, and there are strong indications new, specific legislative proposals on rent controls could be unveiled today."
-        },
-        {
-            "id": "20260808003",
-            "title": "Will Network Rail today confirm the approval for the full electrification of the Midland Main Line north of Market Harborough?",
-            "payout": 2.71,
-            "desc": "After years of lobbying and recent positive feasibility studies, reports suggest a final investment decision from the Department for Transport is imminent. Network Rail could today announce the long-awaited 'green light' for this significant upgrade to the Midland Main Line."
-        },
-        {
-            "id": "20260808004",
-            "title": "Will the United States today announce a new strategic partnership agreement with an Indo-Pacific nation regarding critical mineral supply chains?",
-            "payout": 1.36,
-            "desc": "In light of ongoing efforts to diversify critical mineral sourcing away from concentrated suppliers and a high-level delegation from an Indo-Pacific nation currently in Washington, a significant announcement of a new supply chain partnership is anticipated today."
-        },
-        {
-            "id": "20260808005",
-            "title": "Will a major international aid organization today confirm the successful establishment of a new humanitarian air bridge into the besieged region of Kavar?",
-            "payout": 2.38,
-            "desc": "Following intense negotiations and severe food shortages reported in Kavar, the UN and partner NGOs have been working to secure access. A breakthrough for an air bridge, potentially allowing vital supplies to enter, could be confirmed by a lead agency today."
+            "desc": "Reports overnight indicated intensified negotiations for humanitarian access to City Z, which has been cut off for weeks. The ICRC or a partner organization may today confirm a successful aid delivery, marking a significant development."
         }
     ],
     "history": [
@@ -4081,7 +4081,47 @@
             "desc": "With international NGOs reporting a rapid deterioration in humanitarian conditions and increased displacement across parts of the Sahel, the UN Special Envoy may today use a scheduled press engagement or issue a statement to urgently appeal for greater international financial support.",
             "result": "WON",
             "settled_at": "2026-08-08"
+        },
+        {
+            "id": "20260808001",
+            "title": "Will the UK government today announce a specific date for the next general election?",
+            "payout": 5.28,
+            "desc": "With the current parliamentary term approaching its final year and persistent media speculation, the Prime Minister or a senior cabinet minister may today use a high-profile public appearance or statement to end the uncertainty and formally announce the date for the upcoming general election.",
+            "result": "LOST",
+            "settled_at": "2026-08-09"
+        },
+        {
+            "id": "20260808002",
+            "title": "Will the Scottish Government today publish new detailed proposals for its highly anticipated rent control legislation?",
+            "payout": 1.58,
+            "desc": "Following a recent consultation period and ongoing pressure from tenant advocacy groups, the Scottish Housing Minister is expected to provide an update, and there are strong indications new, specific legislative proposals on rent controls could be unveiled today.",
+            "result": "WON",
+            "settled_at": "2026-08-09"
+        },
+        {
+            "id": "20260808003",
+            "title": "Will Network Rail today confirm the approval for the full electrification of the Midland Main Line north of Market Harborough?",
+            "payout": 2.71,
+            "desc": "After years of lobbying and recent positive feasibility studies, reports suggest a final investment decision from the Department for Transport is imminent. Network Rail could today announce the long-awaited 'green light' for this significant upgrade to the Midland Main Line.",
+            "result": "LOST",
+            "settled_at": "2026-08-09"
+        },
+        {
+            "id": "20260808004",
+            "title": "Will the United States today announce a new strategic partnership agreement with an Indo-Pacific nation regarding critical mineral supply chains?",
+            "payout": 1.36,
+            "desc": "In light of ongoing efforts to diversify critical mineral sourcing away from concentrated suppliers and a high-level delegation from an Indo-Pacific nation currently in Washington, a significant announcement of a new supply chain partnership is anticipated today.",
+            "result": "WON",
+            "settled_at": "2026-08-09"
+        },
+        {
+            "id": "20260808005",
+            "title": "Will a major international aid organization today confirm the successful establishment of a new humanitarian air bridge into the besieged region of Kavar?",
+            "payout": 2.38,
+            "desc": "Following intense negotiations and severe food shortages reported in Kavar, the UN and partner NGOs have been working to secure access. A breakthrough for an air bridge, potentially allowing vital supplies to enter, could be confirmed by a lead agency today.",
+            "result": "WON",
+            "settled_at": "2026-08-09"
         }
     ],
-    "last_update": "2026-08-08 01:00"
+    "last_update": "2026-08-09 01:03"
 }
