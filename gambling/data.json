@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260810001",
-            "title": "Will the UK government today formally confirm the immediate suspension of the HS2 eastern leg construction contract?",
-            "payout": 2.38,
-            "desc": "Following persistent rumours regarding significant cost overruns and internal reviews of major infrastructure projects, there is growing pressure on the Department for Transport. A scheduled emergency ministerial briefing or a late afternoon written statement could be used to announce a definitive decision on the HS2 eastern leg as early as today."
+            "id": "20260811001",
+            "title": "Will the Prime Minister today formally accept the resignation of a cabinet minister following recent media scrutiny?",
+            "payout": 2.71,
+            "desc": "Following intense media speculation regarding a particular cabinet minister's conduct and an unscheduled government meeting this morning, there is growing expectation that a resignation could be formally accepted and announced by Downing Street today."
         },
         {
-            "id": "20260810002",
-            "title": "Will the Scottish Government today confirm the specific date for the implementation of its new rent control measures?",
-            "payout": 1.9,
-            "desc": "After weeks of stakeholder discussions and the recent passing of enabling legislation, the Scottish Government is under pressure to provide clarity on the start date for its updated rent control framework. An announcement could come today, potentially following a cabinet meeting or in a statement by the Housing Minister."
+            "id": "20260811002",
+            "title": "Will the Scottish National Party (SNP) today announce the date for its autumn party conference?",
+            "payout": 1.58,
+            "desc": "With the Scottish Parliament's summer recess drawing to a close, the SNP typically confirms the dates for its annual autumn conference around this time. An announcement via their press office or official social media channels could be made today to allow delegates to plan."
         },
         {
-            "id": "20260810003",
-            "title": "Will the Department for Transport today announce a new funding package specifically for local road repairs across England?",
-            "payout": 3.17,
-            "desc": "With local councils facing significant budget pressures and recent media attention on the state of UK roads, there's growing expectation that the DfT might unveil new financial support. An announcement could be made today, possibly linked to a government 'delivery' update or a ministerial visit."
-        },
-        {
-            "id": "20260810004",
-            "title": "Will the International Atomic Energy Agency (IAEA) today confirm that its inspectors have gained full, unrestricted access to the contested nuclear facility in 'Country Y'?",
-            "payout": 1.46,
-            "desc": "Following intense diplomatic negotiations and recent reports of restricted access, the IAEA Director-General is expected to provide an update. A confirmation of full access could be issued today during a scheduled press briefing or an official agency statement."
-        },
-        {
-            "id": "20260810005",
-            "title": "Will the United Nations today formally announce a new, extended humanitarian corridor to allow full aid access into the besieged 'Region K'?",
+            "id": "20260811003",
+            "title": "Will Network Rail today issue a public statement confirming a revised completion date for the major upgrades at London Euston station?",
             "payout": 2.11,
-            "desc": "Following an urgent appeal from humanitarian organisations and overnight diplomatic efforts, there is significant pressure on the UN to establish broader and more secure aid routes. A confirmation of an extended corridor could be announced by the UN Secretary-General's office or UN aid agencies today."
+            "desc": "Following recent reports of delays and cost overruns at London Euston, Network Rail has been under pressure to provide an updated timeline. An internal review was reportedly finalised yesterday, making an announcement on revised completion dates plausible today."
+        },
+        {
+            "id": "20260811004",
+            "title": "Will the G7 foreign ministers today release a joint statement outlining new sanctions against 'Nation X'?",
+            "payout": 1.73,
+            "desc": "Following an emergency virtual meeting of G7 foreign ministers that concluded late last night, there are strong indications they discussed a coordinated response to recent actions by 'Nation X'. A joint communiqu\u00e9, potentially including details of new economic sanctions, could be issued today."
+        },
+        {
+            "id": "20260811005",
+            "title": "Will the UN Special Envoy for 'Conflict Zone Z' today publicly confirm that direct peace talks between the warring factions will commence within the next 48 hours?",
+            "payout": 2.38,
+            "desc": "After intense shuttle diplomacy over the past few days, the UN Special Envoy for 'Conflict Zone Z' is scheduled to hold a press conference today. There are strong hopes that the Envoy will announce a breakthrough, specifically confirming the imminent start of direct peace negotiations between the conflict's main parties."
         }
     ],
     "history": [
@@ -4161,7 +4161,47 @@
             "desc": "Reports overnight indicated intensified negotiations for humanitarian access to City Z, which has been cut off for weeks. The ICRC or a partner organization may today confirm a successful aid delivery, marking a significant development.",
             "result": "WON",
             "settled_at": "2026-08-10"
+        },
+        {
+            "id": "20260810001",
+            "title": "Will the UK government today formally confirm the immediate suspension of the HS2 eastern leg construction contract?",
+            "payout": 2.38,
+            "desc": "Following persistent rumours regarding significant cost overruns and internal reviews of major infrastructure projects, there is growing pressure on the Department for Transport. A scheduled emergency ministerial briefing or a late afternoon written statement could be used to announce a definitive decision on the HS2 eastern leg as early as today.",
+            "result": "LOST",
+            "settled_at": "2026-08-11"
+        },
+        {
+            "id": "20260810002",
+            "title": "Will the Scottish Government today confirm the specific date for the implementation of its new rent control measures?",
+            "payout": 1.9,
+            "desc": "After weeks of stakeholder discussions and the recent passing of enabling legislation, the Scottish Government is under pressure to provide clarity on the start date for its updated rent control framework. An announcement could come today, potentially following a cabinet meeting or in a statement by the Housing Minister.",
+            "result": "WON",
+            "settled_at": "2026-08-11"
+        },
+        {
+            "id": "20260810003",
+            "title": "Will the Department for Transport today announce a new funding package specifically for local road repairs across England?",
+            "payout": 3.17,
+            "desc": "With local councils facing significant budget pressures and recent media attention on the state of UK roads, there's growing expectation that the DfT might unveil new financial support. An announcement could be made today, possibly linked to a government 'delivery' update or a ministerial visit.",
+            "result": "LOST",
+            "settled_at": "2026-08-11"
+        },
+        {
+            "id": "20260810004",
+            "title": "Will the International Atomic Energy Agency (IAEA) today confirm that its inspectors have gained full, unrestricted access to the contested nuclear facility in 'Country Y'?",
+            "payout": 1.46,
+            "desc": "Following intense diplomatic negotiations and recent reports of restricted access, the IAEA Director-General is expected to provide an update. A confirmation of full access could be issued today during a scheduled press briefing or an official agency statement.",
+            "result": "LOST",
+            "settled_at": "2026-08-11"
+        },
+        {
+            "id": "20260810005",
+            "title": "Will the United Nations today formally announce a new, extended humanitarian corridor to allow full aid access into the besieged 'Region K'?",
+            "payout": 2.11,
+            "desc": "Following an urgent appeal from humanitarian organisations and overnight diplomatic efforts, there is significant pressure on the UN to establish broader and more secure aid routes. A confirmation of an extended corridor could be announced by the UN Secretary-General's office or UN aid agencies today.",
+            "result": "LOST",
+            "settled_at": "2026-08-11"
         }
     ],
-    "last_update": "2026-08-10 01:05"
+    "last_update": "2026-08-11 01:04"
 }
