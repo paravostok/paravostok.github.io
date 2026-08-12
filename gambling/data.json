@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260811001",
-            "title": "Will the Prime Minister today formally accept the resignation of a cabinet minister following recent media scrutiny?",
-            "payout": 2.71,
-            "desc": "Following intense media speculation regarding a particular cabinet minister's conduct and an unscheduled government meeting this morning, there is growing expectation that a resignation could be formally accepted and announced by Downing Street today."
-        },
-        {
-            "id": "20260811002",
-            "title": "Will the Scottish National Party (SNP) today announce the date for its autumn party conference?",
-            "payout": 1.58,
-            "desc": "With the Scottish Parliament's summer recess drawing to a close, the SNP typically confirms the dates for its annual autumn conference around this time. An announcement via their press office or official social media channels could be made today to allow delegates to plan."
-        },
-        {
-            "id": "20260811003",
-            "title": "Will Network Rail today issue a public statement confirming a revised completion date for the major upgrades at London Euston station?",
-            "payout": 2.11,
-            "desc": "Following recent reports of delays and cost overruns at London Euston, Network Rail has been under pressure to provide an updated timeline. An internal review was reportedly finalised yesterday, making an announcement on revised completion dates plausible today."
-        },
-        {
-            "id": "20260811004",
-            "title": "Will the G7 foreign ministers today release a joint statement outlining new sanctions against 'Nation X'?",
-            "payout": 1.73,
-            "desc": "Following an emergency virtual meeting of G7 foreign ministers that concluded late last night, there are strong indications they discussed a coordinated response to recent actions by 'Nation X'. A joint communiqu\u00e9, potentially including details of new economic sanctions, could be issued today."
-        },
-        {
-            "id": "20260811005",
-            "title": "Will the UN Special Envoy for 'Conflict Zone Z' today publicly confirm that direct peace talks between the warring factions will commence within the next 48 hours?",
+            "id": "20260812001",
+            "title": "Will the UK Chancellor today publicly confirm that an emergency autumn budget statement will be delivered in September?",
             "payout": 2.38,
-            "desc": "After intense shuttle diplomacy over the past few days, the UN Special Envoy for 'Conflict Zone Z' is scheduled to hold a press conference today. There are strong hopes that the Envoy will announce a breakthrough, specifically confirming the imminent start of direct peace negotiations between the conflict's main parties."
+            "desc": "Following persistent rumors of deteriorating economic indicators and pressure from opposition parties, the Chancellor is scheduled to give a speech at an economic summit this afternoon. Speculation is mounting that he may use this platform to announce an imminent emergency budget."
+        },
+        {
+            "id": "20260812002",
+            "title": "Will the Scottish Government today publish its long-awaited independent review into the future funding of local authorities?",
+            "payout": 1.73,
+            "desc": "The Scottish Parliament's Local Government Committee has reportedly received the final draft of this critical review, which was commissioned earlier in the year. A government spokesperson indicated yesterday that its publication was 'imminent' and could happen 'any day now', potentially via a statement to parliament or a press release."
+        },
+        {
+            "id": "20260812003",
+            "title": "Will HS2 Ltd. today issue a press release confirming the award of the final major civil engineering contracts for the northern legs of Phase 2b?",
+            "payout": 2.71,
+            "desc": "Industry sources have indicated that the internal decision-making process for these multi-billion-pound contracts has now concluded. With intense pressure on the project's timeline and budget, an announcement confirming these critical awards could be made today to maintain momentum."
+        },
+        {
+            "id": "20260812004",
+            "title": "Will the European Commission President today officially unveil the bloc's updated 2040 climate emissions reduction target?",
+            "payout": 1.58,
+            "desc": "The Commission President is scheduled to deliver a major policy speech at a European Green Deal conference in Brussels this morning. Experts widely expect her to use this platform to announce the EU's ambitious new intermediate climate targets, ahead of the next round of international climate negotiations."
+        },
+        {
+            "id": "20260812005",
+            "title": "Will the International Committee of the Red Cross (ICRC) today publicly confirm that a humanitarian aid convoy has successfully entered 'Region Y'?",
+            "payout": 2.11,
+            "desc": "Negotiations for safe passage into the besieged 'Region Y' have been ongoing for several days, with reports emerging overnight of a potential breakthrough. The ICRC spokesperson is due to give an update later today, and a confirmation of the convoy's entry would mark a significant development."
         }
     ],
     "history": [
@@ -4201,7 +4201,47 @@
             "desc": "Following an urgent appeal from humanitarian organisations and overnight diplomatic efforts, there is significant pressure on the UN to establish broader and more secure aid routes. A confirmation of an extended corridor could be announced by the UN Secretary-General's office or UN aid agencies today.",
             "result": "LOST",
             "settled_at": "2026-08-11"
+        },
+        {
+            "id": "20260811001",
+            "title": "Will the Prime Minister today formally accept the resignation of a cabinet minister following recent media scrutiny?",
+            "payout": 2.71,
+            "desc": "Following intense media speculation regarding a particular cabinet minister's conduct and an unscheduled government meeting this morning, there is growing expectation that a resignation could be formally accepted and announced by Downing Street today.",
+            "result": "LOST",
+            "settled_at": "2026-08-12"
+        },
+        {
+            "id": "20260811002",
+            "title": "Will the Scottish National Party (SNP) today announce the date for its autumn party conference?",
+            "payout": 1.58,
+            "desc": "With the Scottish Parliament's summer recess drawing to a close, the SNP typically confirms the dates for its annual autumn conference around this time. An announcement via their press office or official social media channels could be made today to allow delegates to plan.",
+            "result": "LOST",
+            "settled_at": "2026-08-12"
+        },
+        {
+            "id": "20260811003",
+            "title": "Will Network Rail today issue a public statement confirming a revised completion date for the major upgrades at London Euston station?",
+            "payout": 2.11,
+            "desc": "Following recent reports of delays and cost overruns at London Euston, Network Rail has been under pressure to provide an updated timeline. An internal review was reportedly finalised yesterday, making an announcement on revised completion dates plausible today.",
+            "result": "LOST",
+            "settled_at": "2026-08-12"
+        },
+        {
+            "id": "20260811004",
+            "title": "Will the G7 foreign ministers today release a joint statement outlining new sanctions against 'Nation X'?",
+            "payout": 1.73,
+            "desc": "Following an emergency virtual meeting of G7 foreign ministers that concluded late last night, there are strong indications they discussed a coordinated response to recent actions by 'Nation X'. A joint communiqu\u00e9, potentially including details of new economic sanctions, could be issued today.",
+            "result": "LOST",
+            "settled_at": "2026-08-12"
+        },
+        {
+            "id": "20260811005",
+            "title": "Will the UN Special Envoy for 'Conflict Zone Z' today publicly confirm that direct peace talks between the warring factions will commence within the next 48 hours?",
+            "payout": 2.38,
+            "desc": "After intense shuttle diplomacy over the past few days, the UN Special Envoy for 'Conflict Zone Z' is scheduled to hold a press conference today. There are strong hopes that the Envoy will announce a breakthrough, specifically confirming the imminent start of direct peace negotiations between the conflict's main parties.",
+            "result": "LOST",
+            "settled_at": "2026-08-12"
         }
     ],
-    "last_update": "2026-08-11 01:04"
+    "last_update": "2026-08-12 01:12"
 }
