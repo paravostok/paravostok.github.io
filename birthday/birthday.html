@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where Were We?</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Work+Sans:wght@400;500;600&family=Caveat:wght@600;700&display=swap');
+
+:root{
+  --navy:#211A3E;
+  --navy-2:#2E2456;
+  --paper:#FFF8ED;
+  --paper-2:#F3E9D4;
+  --coral:#FF6B5B;
+  --gold:#FFC857;
+  --teal:#2E8B7E;
+  --ink:#211A3E;
+  --cream:#FFF8ED;
+  --shadow: 0 14px 30px rgba(33,26,62,0.35);
+}
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255,200,87,0.10), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(255,107,91,0.10), transparent 45%),
+    var(--navy);
+  color:var(--cream);
+  font-family:'Work Sans', sans-serif;
+  min-height:100vh;
+}
+
+h1,h2,h3, .display{
+  font-family:'Baloo 2', sans-serif;
+}
+
+/* ---------- HEADER ---------- */
+header{
+  padding:56px 24px 32px;
+  text-align:center;
+  position:relative;
+}
+header h1{
+  font-size:clamp(2.2rem, 5vw, 3.6rem);
+  font-weight:800;
+  margin:0 0 10px;
+  color:var(--cream);
+  letter-spacing:0.5px;
+}
+header h1 span{ color:var(--gold); }
+header p{
+  max-width:520px;
+  margin:0 auto;
+  opacity:0.85;
+  font-size:1.05rem;
+  line-height:1.5;
+}
+
+/* ---------- GALLERY ---------- */
+#gallery{
+  max-width:1100px;
+  margin:0 auto;
+  padding:20px 28px 80px;
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(170px, 1fr));
+  gap:34px 26px;
+}
+
+.polaroid{
+  background:var(--paper);
+  border-radius:6px;
+  padding:10px 10px 34px;
+  box-shadow:var(--shadow);
+  cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease;
+  position:relative;
+}
+.polaroid:hover{
+  transform:translateY(-6px) rotate(0deg) !important;
+  box-shadow:0 20px 34px rgba(33,26,62,0.45);
+}
+.polaroid img{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  display:block;
+  border-radius:2px;
+  background:var(--paper-2);
+}
+.polaroid .cap{
+  position:absolute;
+  bottom:8px;
+  left:0;
+  right:0;
+  text-align:center;
+  font-family:'Caveat', cursive;
+  font-size:1.15rem;
+  color:var(--ink);
+  opacity:0.85;
+}
+.polaroid.solved .cap{ color:var(--teal); font-weight:700; }
+.polaroid .stamp-mini{
+  position:absolute;
+  top:-10px;
+  right:-10px;
+  background:var(--coral);
+  color:var(--cream);
+  font-family:'Baloo 2';
+  font-weight:800;
+  font-size:0.75rem;
+  border-radius:50%;
+  width:44px;
+  height:44px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transform:rotate(12deg);
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+  text-align:center;
+  line-height:1;
+}
+
+/* ---------- MODAL ---------- */
+.overlay{
+  position:fixed; inset:0;
+  background:rgba(15,11,30,0.86);
+  display:none;
+  align-items:flex-start;
+  justify-content:center;
+  padding:30px 16px;
+  overflow-y:auto;
+  z-index:100;
+}
+.overlay.open{ display:flex; }
+
+.modal{
+  background:var(--paper);
+  color:var(--ink);
+  width:100%;
+  max-width:760px;
+  border-radius:16px;
+  padding:26px;
+  position:relative;
+  box-shadow:0 30px 60px rgba(0,0,0,0.5);
+}
+.modal .close-btn{
+  position:absolute;
+  top:14px; right:14px;
+  background:var(--navy);
+  color:var(--cream);
+  border:none;
+  width:34px; height:34px;
+  border-radius:50%;
+  font-size:1rem;
+  cursor:pointer;
+}
+.modal img.hero-photo{
+  width:100%;
+  max-height:320px;
+  object-fit:cover;
+  border-radius:10px;
+  margin-bottom:18px;
+}
+.modal h2{
+  margin:0 0 4px;
+  font-size:1.5rem;
+}
+.modal .sub{
+  opacity:0.7;
+  margin-bottom:18px;
+  font-size:0.95rem;
+}
+
+.field-label{
+  font-family:'Baloo 2';
+  font-weight:700;
+  margin:18px 0 8px;
+  font-size:1rem;
+}
+
+#map{
+  height:280px;
+  border-radius:10px;
+  border:3px solid var(--navy);
+}
+
+input[type=range]{
+  width:100%;
+  accent-color:var(--coral);
+}
+.date-readout{
+  font-family:'Baloo 2';
+  font-weight:700;
+  color:var(--coral);
+  font-size:1.1rem;
+  margin-top:6px;
+}
+
+.submit-btn{
+  margin-top:22px;
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:var(--coral);
+  color:var(--cream);
+  font-family:'Baloo 2';
+  font-weight:700;
+  font-size:1.05rem;
+  cursor:pointer;
+  transition:transform .12s ease;
+}
+.submit-btn:hover{ transform:scale(1.02); }
+.submit-btn:disabled{ opacity:0.5; cursor:not-allowed; }
+.hint{
+  font-size:0.85rem;
+  opacity:0.6;
+  margin-top:6px;
+}
+
+/* ---------- REVEAL ---------- */
+.reveal{ display:none; margin-top:6px; }
+.reveal.open{ display:block; }
+
+.stamp{
+  width:118px; height:118px;
+  border-radius:50%;
+  border:4px dashed var(--teal);
+  color:var(--teal);
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  margin:0 auto 14px;
+  transform:rotate(-8deg);
+  font-family:'Baloo 2';
+  animation:stampIn .35s ease-out;
+}
+.stamp .big{ font-size:1.6rem; font-weight:800; line-height:1; }
+.stamp .small{ font-size:0.65rem; letter-spacing:1px; text-transform:uppercase; }
+@keyframes stampIn{
+  0%{ transform:scale(2) rotate(-8deg); opacity:0; }
+  100%{ transform:scale(1) rotate(-8deg); opacity:1; }
+}
+
+.score-lines{
+  display:flex;
+  justify-content:center;
+  gap:26px;
+  margin-bottom:16px;
+  font-size:0.9rem;
+  flex-wrap:wrap;
+}
+.score-lines div{ text-align:center; }
+.score-lines b{ display:block; font-family:'Baloo 2'; font-size:1.1rem; color:var(--navy); }
+
+.rank-line{
+  text-align:center;
+  font-family:'Baloo 2';
+  font-weight:700;
+  font-size:1.15rem;
+  margin-bottom:16px;
+  color:var(--coral);
+}
+
+.truth{
+  text-align:center;
+  margin-bottom:14px;
+}
+.truth .place-date{
+  font-family:'Baloo 2';
+  font-weight:700;
+  font-size:1.05rem;
+}
+
+.note-card{
+  background:var(--paper-2);
+  border-left:5px solid var(--gold);
+  border-radius:8px;
+  padding:18px 20px;
+  font-family:'Caveat', cursive;
+  font-size:1.35rem;
+  line-height:1.4;
+  color:var(--ink);
+}
+
+.done-btn{
+  margin-top:20px;
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:var(--navy);
+  color:var(--cream);
+  font-family:'Baloo 2';
+  font-weight:700;
+  cursor:pointer;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:0.5;
+  font-size:0.8rem;
+}
+footer button{
+  background:none;
+  border:1px solid rgba(255,248,237,0.3);
+  color:var(--cream);
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:0.75rem;
+  cursor:pointer;
+  margin-top:8px;
+}
+
+@media(max-width:520px){
+  #gallery{ grid-template-columns:repeat(auto-fill, minmax(130px,1fr)); gap:24px 16px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Where Were <span>We?</span></h1>
+</header>
+
+<div id="gallery"></div>
+
+<footer>
+  <button onclick="resetProgress()">Reset progress</button>
+</footer>
+
+<!-- ---------- MODAL ---------- -->
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <button class="close-btn" onclick="closeModal()">✕</button>
+    <img class="hero-photo" id="modalPhoto" src="" alt="">
+    <h2 id="modalTitlePrompt">Where and when was this?</h2>
+
+    <div id="guessSection">
+      <div class="field-label">📍 Tap the map to place your guess</div>
+      <div id="map"></div>
+      <div class="hint" id="mapHint">No pin placed yet.</div>
+
+      <div class="field-label">📅 When was it?</div>
+      <input type="range" id="dateSlider" min="0" max="21" step="1" value="10">
+      <div class="date-readout" id="dateReadout"></div>
+
+      <button class="submit-btn" id="submitBtn" onclick="submitGuess()" disabled>Lock in my guess</button>
+    </div>
+
+    <div class="reveal" id="revealSection">
+      <div class="stamp">
+        <div class="big" id="stampScore">0</div>
+        <div class="small">points</div>
+      </div>
+      <div class="rank-line" id="rankLine"></div>
+      <div class="score-lines">
+        <div>📍 Location<br><b id="locScore">0</b></div>
+        <div>📅 Date<br><b id="dateScore">0</b></div>
+      </div>
+      <div class="truth">
+        It was actually...<br>
+        <span class="place-date" id="truthLine"></span>
+      </div>
+      <div class="note-card" id="noteCard"></div>
+      <button class="done-btn" onclick="closeModal()">Back to the gallery</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+/* =========================================================================
+   EDIT YOUR PHOTOS HERE
+   ---------------------------------------------------------------------
+   One object per photo. Put your image files in a folder called "photos"
+   next to this index.html file, then list them below.
+
+   file      -> filename inside the /photos folder
+   date      -> the real date it was taken, "YYYY-MM-DD"
+                (should fall between November 2024 and August 2026 -
+                that's the range the date slider covers)
+   lat / lng -> the real coordinates. Easiest way: open Google Maps,
+                right-click the spot, click the coordinates to copy them.
+   location  -> a human-readable place name shown after she guesses
+   note      -> the personal message revealed after her guess.
+                This is the whole point of the site - make it good.
+
+   Duplicate a block below for each of your ~50 photos. The six here
+   are just examples using real Scottish places - replace everything.
+   ========================================================================= */
+const PHOTOS = [
+  {
+    file: "01.jpg",
+    date: "2024-11-16",
+    lat: 55.9486, lng: -3.1999,
+    location: "Edinburgh Castle",
+    note: "Replace this with your own note about this photo."
+  },
+  {
+    file: "02.jpg",
+    date: "2024-11-20",
+    lat: 55.8642, lng: -4.2518,
+    location: "Glasgow, Scotland",
+    note: "Replace this with your own note about this photo."
+  },
+  {
+    file: "03.jpg",
+    date: "2025-02-08",
+    lat: 57.2736, lng: -6.2155,
+    location: "Portree, Isle of Skye",
+    note: "Replace this with your own note about this photo."
+  },
+  {
+    file: "04.jpg",
+    date: "2025-06-05",
+    lat: 56.6822, lng: -5.1032,
+    location: "Glencoe",
+    note: "Replace this with your own note about this photo."
+  },
+  {
+    file: "05.jpg",
+    date: "2025-11-01",
+    lat: 56.3398, lng: -2.7967,
+    location: "St Andrews",
+    note: "Replace this with your own note about this photo."
+  },
+  {
+    file: "06.jpg",
+    date: "2026-04-14",
+    lat: 57.3229, lng: -4.4244,
+    location: "Loch Ness",
+    note: "Replace this with your own note about this photo."
+  }
+  // Add more objects here, following the same format, up to ~50.
+];
+
+/* ========================================================================= */
+
+const SCOTLAND_BOUNDS = [[54.4, -8.9], [61.1, -0.3]];
+const DATE_MIN = new Date(2024, 10, 1); // November 2024
+const DATE_MAX = new Date(2026, 7, 1);  // August 2026
+const DAY_MS = 86400000;
+const totalMonths = (DATE_MAX.getFullYear() - DATE_MIN.getFullYear()) * 12 + (DATE_MAX.getMonth() - DATE_MIN.getMonth());
+
+let progress = JSON.parse(localStorage.getItem("guessUsProgress") || "{}");
+let currentIndex = null;
+let map, guessMarker = null, actualMarker = null, connectLine = null;
+let guessLatLng = null;
+
+function fmtDate(d){
+  return d.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' });
+}
+
+function fmtMonth(d){
+  return d.toLocaleDateString('en-GB', { month:'long', year:'numeric' });
+}
+
+function monthIndexToDate(i){
+  return new Date(DATE_MIN.getFullYear(), DATE_MIN.getMonth() + i, 1);
+}
+
+function haversine(lat1, lon1, lat2, lon2){
+  const R = 6371;
+  const toRad = x => x * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function renderGallery(){
+  const wrap = document.getElementById("gallery");
+  wrap.innerHTML = "";
+  PHOTOS.forEach((p, i) => {
+    const solved = progress[i];
+    const card = document.createElement("div");
+    card.className = "polaroid" + (solved ? " solved" : "");
+    const rot = (i % 5 - 2) * 2.4;
+    card.style.transform = `rotate(${rot}deg)`;
+    card.onclick = () => openModal(i);
+    card.innerHTML = `
+      <img src="photos/${p.file}" alt="Memory ${i+1}" onerror="this.src='https://placehold.co/400x400/2E2456/FFF8ED?text=Add+photo+' + '${p.file}'">
+      <div class="cap">${solved ? "solved ✓" : "?"}</div>
+      ${solved ? `<div class="stamp-mini">${solved.total}</div>` : ""}
+    `;
+    wrap.appendChild(card);
+  });
+}
+
+function openModal(i){
+  currentIndex = i;
+  const p = PHOTOS[i];
+  document.getElementById("modalPhoto").src = `photos/${p.file}`;
+  document.getElementById("overlay").classList.add("open");
+
+  const already = progress[i];
+  document.getElementById("guessSection").style.display = already ? "none" : "block";
+  document.getElementById("revealSection").classList.toggle("open", !!already);
+  document.getElementById("modalTitlePrompt").textContent = already ? "This one's already solved" : "Where and when was this?";
+
+  if (already){
+    showReveal(already.total, already.locScore, already.dateScore, p);
+  } else {
+    guessLatLng = null;
+    document.getElementById("submitBtn").disabled = true;
+    document.getElementById("mapHint").textContent = "No pin placed yet.";
+    const slider = document.getElementById("dateSlider");
+    slider.max = totalMonths;
+    slider.value = Math.round(totalMonths/2);
+    updateDateReadout();
+    setTimeout(initMap, 50); // let modal render first
+  }
+}
+
+function closeModal(){
+  document.getElementById("overlay").classList.remove("open");
+  currentIndex = null;
+}
+
+function initMap(){
+  if (!map){
+    map = L.map('map', { minZoom: 5, maxZoom: 11 });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+    map.setMaxBounds(SCOTLAND_BOUNDS);
+    map.on('click', e => placeGuessMarker(e.latlng));
+  }
+  map.fitBounds(SCOTLAND_BOUNDS);
+  if (guessMarker){ map.removeLayer(guessMarker); guessMarker = null; }
+  if (actualMarker){ map.removeLayer(actualMarker); actualMarker = null; }
+  if (connectLine){ map.removeLayer(connectLine); connectLine = null; }
+  setTimeout(() => map.invalidateSize(), 100);
+}
+
+function placeGuessMarker(latlng){
+  guessLatLng = latlng;
+  if (guessMarker){ map.removeLayer(guessMarker); }
+  guessMarker = L.marker(latlng, {
+    icon: L.divIcon({ className: '', html: '📍', iconSize:[30,30], iconAnchor:[15,28] })
+  }).addTo(map);
+  document.getElementById("mapHint").textContent = `Pin placed at ${latlng.lat.toFixed(2)}, ${latlng.lng.toFixed(2)}`;
+  document.getElementById("submitBtn").disabled = false;
+}
+
+document.getElementById("dateSlider").addEventListener("input", updateDateReadout);
+function updateDateReadout(){
+  const val = parseInt(document.getElementById("dateSlider").value, 10);
+  document.getElementById("dateReadout").textContent = fmtMonth(monthIndexToDate(val));
+}
+
+function submitGuess(){
+  const p = PHOTOS[currentIndex];
+  const guessMonthIdx = parseInt(document.getElementById("dateSlider").value, 10);
+  const actualDate = new Date(p.date + "T00:00:00");
+  const actualMonthIdx = (actualDate.getFullYear() - DATE_MIN.getFullYear()) * 12 + (actualDate.getMonth() - DATE_MIN.getMonth());
+
+  const distKm = haversine(guessLatLng.lat, guessLatLng.lng, p.lat, p.lng);
+  const locScore = Math.max(0, Math.round(5000 * Math.exp(-distKm/80)));
+
+  const monthDiff = Math.abs(guessMonthIdx - actualMonthIdx);
+  const dateScore = Math.max(0, Math.round(5000 * Math.exp(-monthDiff/1.5)));
+
+  const total = locScore + dateScore;
+  progress[currentIndex] = { total, locScore, dateScore };
+  localStorage.setItem("guessUsProgress", JSON.stringify(progress));
+
+  // draw actual + line
+  actualMarker = L.marker([p.lat, p.lng], {
+    icon: L.divIcon({ className:'', html:'💚', iconSize:[30,30], iconAnchor:[15,28] })
+  }).addTo(map);
+  connectLine = L.polyline([[guessLatLng.lat, guessLatLng.lng],[p.lat, p.lng]], {
+    color:'#FF6B5B', dashArray:'6,8', weight:3
+  }).addTo(map);
+  map.fitBounds(L.latLngBounds([guessLatLng, [p.lat,p.lng]]).pad(0.4));
+
+  document.getElementById("guessSection").style.display = "none";
+  showReveal(total, locScore, dateScore, p);
+  renderGallery();
+}
+
+function rankFor(total){
+  if (total >= 9000) return "Spot on";
+  if (total >= 7000) return "Very close";
+  if (total >= 5000) return "Good guess";
+  if (total >= 3000) return "Not quite";
+  return "Way off";
+}
+
+function showReveal(total, locScore, dateScore, p){
+  document.getElementById("revealSection").classList.add("open");
+  document.getElementById("stampScore").textContent = total;
+  document.getElementById("rankLine").textContent = rankFor(total);
+  document.getElementById("locScore").textContent = locScore;
+  document.getElementById("dateScore").textContent = dateScore;
+  document.getElementById("truthLine").textContent = `${p.location} — ${fmtDate(new Date(p.date + "T00:00:00"))}`;
+  document.getElementById("noteCard").textContent = p.note;
+}
+
+function resetProgress(){
+  if (confirm("Clear all guessed scores and start over?")){
+    progress = {};
+    localStorage.removeItem("guessUsProgress");
+    renderGallery();
+  }
+}
+
+renderGallery();
+</script>
+</body>
+</html>
