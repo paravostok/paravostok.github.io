@@ -42,24 +42,28 @@ h1,h2,h3, .display{
 
 /* ---------- HEADER ---------- */
 header{
-  padding:56px 24px 32px;
+  padding:48px 24px 24px;
   text-align:center;
   position:relative;
 }
 header h1{
   font-size:clamp(2.2rem, 5vw, 3.6rem);
   font-weight:800;
-  margin:0 0 10px;
+  margin:0 0 6px;
   color:var(--cream);
   letter-spacing:0.5px;
 }
 header h1 span{ color:var(--gold); }
-header p{
-  max-width:520px;
-  margin:0 auto;
-  opacity:0.85;
-  font-size:1.05rem;
-  line-height:1.5;
+.score-banner{
+  font-family:'Baloo 2', sans-serif;
+  font-size:1.15rem;
+  color:var(--gold);
+  background:rgba(46, 36, 86, 0.6);
+  display:inline-block;
+  padding:6px 18px;
+  border-radius:20px;
+  border:1px solid rgba(255,200,87,0.3);
+  margin-top:6px;
 }
 
 /* ---------- GALLERY ---------- */
@@ -126,7 +130,7 @@ header p{
   line-height:1;
 }
 
-/* ---------- MODAL ---------- */
+/* ---------- MODALS ---------- */
 .overlay{
   position:fixed; inset:0;
   background:rgba(15,11,30,0.86);
@@ -159,6 +163,7 @@ header p{
   border-radius:50%;
   font-size:1rem;
   cursor:pointer;
+  z-index:10;
 }
 .modal img.hero-photo{
   width:100%;
@@ -170,11 +175,6 @@ header p{
 .modal h2{
   margin:0 0 4px;
   font-size:1.5rem;
-}
-.modal .sub{
-  opacity:0.7;
-  margin-bottom:18px;
-  font-size:0.95rem;
 }
 
 .field-label{
@@ -301,6 +301,40 @@ input[type=range]{
   cursor:pointer;
 }
 
+/* ---------- CELEBRATION MODAL ---------- */
+.celeb-modal{
+  text-align:center;
+  max-width:550px;
+}
+.celeb-badge{
+  font-family:'Baloo 2';
+  font-weight:800;
+  color:var(--coral);
+  letter-spacing:1px;
+  font-size:0.9rem;
+  margin-bottom:10px;
+}
+.celeb-title{
+  font-size:2.2rem;
+  color:var(--navy);
+  margin:12px 0 6px;
+}
+.celeb-sub{
+  font-size:1.05rem;
+  opacity:0.8;
+  margin-bottom:18px;
+}
+.celeb-score-box{
+  background:var(--paper-2);
+  border-radius:10px;
+  padding:14px;
+  font-family:'Baloo 2';
+  font-weight:800;
+  font-size:1.3rem;
+  color:var(--teal);
+  margin-bottom:20px;
+}
+
 footer{
   text-align:center;
   padding:20px;
@@ -327,6 +361,9 @@ footer button{
 
 <header>
   <h1>Where Were <span>We?</span></h1>
+  <div class="score-banner" id="scoreBanner">
+    Memories Solved: <span id="solvedCount">0</span> / 15 &nbsp;|&nbsp; Score: <span id="grandTotal">0</span>
+  </div>
 </header>
 
 <div id="gallery"></div>
@@ -335,7 +372,7 @@ footer button{
   <button onclick="resetProgress()">Reset progress</button>
 </footer>
 
-<!-- ---------- MODAL ---------- -->
+<!-- ---------- GAME MODAL ---------- -->
 <div class="overlay" id="overlay">
   <div class="modal">
     <button class="close-btn" onclick="closeModal()">✕</button>
@@ -374,79 +411,138 @@ footer button{
   </div>
 </div>
 
+<!-- ---------- CELEBRATION MODAL ---------- -->
+<div class="overlay" id="celebrationOverlay">
+  <div class="modal celeb-modal">
+    <button class="close-btn" onclick="closeCelebrationModal()">✕</button>
+    <div class="celeb-badge">🎉 ALL MEMORIES SOLVED!</div>
+    <img class="hero-photo" src="photos/birthday.jpg" onerror="this.src='https://placehold.co/600x400/2E2456/FFF8ED?text=Add+photos/birthday.jpg'" alt="Happy Birthday!">
+    <h2 class="celeb-title">Happy (late) Birthday! ❤️</h2>
+    <p class="celeb-sub">You remembered every single trip, stroll, and moment together.</p>
+    <div class="celeb-score-box">
+      Final Score: <span id="celebFinalScore">0</span> / 150,000
+    </div>
+    <button class="done-btn" onclick="closeCelebrationModal()">Back to Gallery</button>
+  </div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 /* =========================================================================
    EDIT YOUR PHOTOS HERE
-   ---------------------------------------------------------------------
-   One object per photo. Put your image files in a folder called "photos"
-   next to this index.html file, then list them below.
-
-   file      -> filename inside the /photos folder
-   date      -> the real date it was taken, "YYYY-MM-DD"
-                (should fall between November 2024 and August 2026 -
-                that's the range the date slider covers)
-   lat / lng -> the real coordinates. Easiest way: open Google Maps,
-                right-click the spot, click the coordinates to copy them.
-   location  -> a human-readable place name shown after she guesses
-   note      -> the personal message revealed after her guess.
-                This is the whole point of the site - make it good.
-
-   Duplicate a block below for each of your ~50 photos. The six here
-   are just examples using real Scottish places - replace everything.
    ========================================================================= */
 const PHOTOS = [
   {
     file: "01.jpg",
-    date: "2024-11-16",
-    lat: 55.9486, lng: -3.1999,
-    location: "Edinburgh Castle",
-    note: "Replace this with your own note about this photo."
+    date: "2025-11-29",
+    lat: 52.35874216, lng: 4.8793325,
+    location: "Moco Museum",
+    note: "Our first trip abroad! I really like this photo and I can tell I'm smiling really hard in it, because it was such a nice day together and I was so glad to be with you."
   },
   {
     file: "02.jpg",
-    date: "2024-11-20",
-    lat: 55.8642, lng: -4.2518,
-    location: "Glasgow, Scotland",
-    note: "Replace this with your own note about this photo."
+    date: "2024-02-10",
+    lat: 56.4568619344634, lng: -2.9691003393440405,
+    location: "Dundee",
+    note: "I think this is the first time we went to Dundee together, and I doubt at that point we would've realised what Dundee would become to us, nothing but the place to get Tim Hortons, though actually we haven't been in a while!"
   },
   {
     file: "03.jpg",
-    date: "2025-02-08",
-    lat: 57.2736, lng: -6.2155,
-    location: "Portree, Isle of Skye",
-    note: "Replace this with your own note about this photo."
+    date: "2026-03-28",
+    lat: 57.47954653443891, lng: -6.1806046904819025,
+    location: "Skye",
+    note: "Skye was really really nice, and the weather this day was so lovely, as was the walk, donut, pizza, and obviously you! But this photo is probably my favourite because you just look so happy."
   },
   {
     file: "04.jpg",
-    date: "2025-06-05",
-    lat: 56.6822, lng: -5.1032,
-    location: "Glencoe",
-    note: "Replace this with your own note about this photo."
+    date: "2025-01-25",
+    lat: 55.9523580636023, lng: -3.1918975594053496,
+    location: "Edinburgh",
+    note: "Remember when Jess had a thing for papparazi-ng us?. Well either way I remember this day being freezing and leading to that damn greggs in Waverley Mall"
   },
   {
     file: "05.jpg",
-    date: "2025-11-01",
-    lat: 56.3398, lng: -2.7967,
-    location: "St Andrews",
-    note: "Replace this with your own note about this photo."
+    date: "2025-10-11",
+    lat: 56.607473948889535, lng: -2.5773535992106367,
+    location: "Somewhere near Arbroath",
+    note: "I remember when going to Aberdeen felt like a big deal, but I think this was our first proper trip together, and although we basically walked around for 10 minutes and then had to come back it was still special to me, Aberdeen was like the final frontier I hadn't yet had a chance to go and so it was nice to do it with you. P.S. Ember didn't even exist yet so it was a stinky Citylink back."
   },
   {
     file: "06.jpg",
+    date: "2026-06-06",
+    lat: 55.87076114535969, lng: -4.313437597556729,
+    location: "Hot Doughnut",
+    note: "The fabled hot doughnut, a shame we couldn't go more but thanks for being there to do stupid stuff like this for me, particularly this as I appreciate your morning was a tad stressful."
+  },
+  {
+    file: "07.jpg",
+    date: "2024-12-15",
+    lat: 55.967469433020256, lng: -3.2671372065016824,
+    location: "Your house",
+    note: "The first of the wallpaper photos! Albeit a bit awkward, but still very nice, and crazy to think we had only been dating for just over a month here!"
+  },
+  {
+    file: "08.jpg",
+    date: "2026-04-26",
+    lat: 55.85204435446593, lng: -4.243029955412527,
+    location: "Glasgow Green",
+    note: "This day was so nice and I really appreciated going with you, the weather was so nice and it was really nice just to lay together in the grass, in the photo you look so relaxed and it's just really nice."
+  },
+  {
+    file: "09.jpg",
+    date: "2025-05-17",
+    lat: 56.05947478746623, lng: -2.7246631735141316,
+    location: "North Berwick Beach",
+    note: "This day meant a lot to me because I really wasn't feeling great and you were so understanding and helpful, Thanks for always being so kind and amazing, it really means a lot to me."
+  },
+  {
+    file: "10.jpg",
+    date: "2025-10-11",
+    lat: 55.94162294474181, lng: -3.373248621953303,
+    location: "Royal Highland Showgrounds",
+    note: "The fuckass Jen photo. Still, beyond me being unwell I really enjoyed seeing Chappell and I'm so glad we could do it together as it was really special."
+  },
+  {
+    file: "11.jpg",
+    date: "2025-09-08",
+    lat: 56.607473948889535, lng: -2.5773535992106367,
+    location: "Somewhere near Arbroath",
+    note: "Another memory along the way!"
+  },
+  {
+    file: "12.jpg",
+    date: "2025-10-11",
+    lat: 55.967469433020256, lng: -3.2671372065016824,
+    location: "Your house (again)",
+    note: "Beyond baby Milo which I audibly awwed at for a minute or two, this day was really nice! Me you and Jess went to Ikea and basically did nothing but still! Maybe Costco one day..."
+  },
+  {
+    file: "13.jpg",
+    date: "2025-05-04",
+    lat: 56.607473948889535, lng: -2.5773535992106367,
+    location: "Your house (again²)",
+    note: "A recreation of the wallpaper photo! And foreshadowing of the SPT hoodie becoming yours I suppose. Still I jus t think it's nice how happy we look together."
+  },
+  {
+    file: "14.jpg",
+    date: "2025-10-11",
+    lat: 51.519756095405626, lng: -0.07611091579158226,
+    location: "Spitalfields",
+    note: "London was so nice! I'm so glad and lucky we get to do trips like this, going on the sleeper with you was such a cherished experience and I'm so glad we did it!"
+  },
+  {
+    file: "15.jpg",
     date: "2026-04-14",
-    lat: 57.3229, lng: -4.4244,
-    location: "Loch Ness",
-    note: "Replace this with your own note about this photo."
+    lat: 50.85511583998122, lng: 4.357829409204133,
+    location: "Brussels",
+    note: "Brussels was so nice and I'm glad we went, I honestly didn't expect it to be as nice (sorry brussels) but It was really lovely and I'm so glad we got to go together!"
   }
-  // Add more objects here, following the same format, up to ~50.
 ];
 
 /* ========================================================================= */
 
-const SCOTLAND_BOUNDS = [[54.4, -8.9], [61.1, -0.3]];
 const DATE_MIN = new Date(2024, 10, 1); // November 2024
 const DATE_MAX = new Date(2026, 7, 1);  // August 2026
-const DAY_MS = 86400000;
 const totalMonths = (DATE_MAX.getFullYear() - DATE_MIN.getFullYear()) * 12 + (DATE_MAX.getMonth() - DATE_MIN.getMonth());
 
 let progress = JSON.parse(localStorage.getItem("guessUsProgress") || "{}");
@@ -478,8 +574,17 @@ function haversine(lat1, lon1, lat2, lon2){
 function renderGallery(){
   const wrap = document.getElementById("gallery");
   wrap.innerHTML = "";
+  
+  let grandTotal = 0;
+  let solvedCount = 0;
+
   PHOTOS.forEach((p, i) => {
     const solved = progress[i];
+    if (solved) {
+      grandTotal += solved.total;
+      solvedCount++;
+    }
+
     const card = document.createElement("div");
     card.className = "polaroid" + (solved ? " solved" : "");
     const rot = (i % 5 - 2) * 2.4;
@@ -492,6 +597,9 @@ function renderGallery(){
     `;
     wrap.appendChild(card);
   });
+
+  document.getElementById("solvedCount").textContent = solvedCount;
+  document.getElementById("grandTotal").textContent = grandTotal.toLocaleString();
 }
 
 function openModal(i){
@@ -515,29 +623,53 @@ function openModal(i){
     slider.max = totalMonths;
     slider.value = Math.round(totalMonths/2);
     updateDateReadout();
-    setTimeout(initMap, 50); // let modal render first
+    setTimeout(initMap, 100);
   }
 }
 
 function closeModal(){
   document.getElementById("overlay").classList.remove("open");
   currentIndex = null;
+
+  // Check if all photos are solved
+  if (Object.keys(progress).length === PHOTOS.length) {
+    setTimeout(showCelebrationModal, 300);
+  }
+}
+
+function showCelebrationModal(){
+  let grandTotal = 0;
+  Object.values(progress).forEach(p => grandTotal += p.total);
+  document.getElementById("celebFinalScore").textContent = grandTotal.toLocaleString();
+  document.getElementById("celebrationOverlay").classList.add("open");
+}
+
+function closeCelebrationModal(){
+  document.getElementById("celebrationOverlay").classList.remove("open");
 }
 
 function initMap(){
   if (!map){
-    map = L.map('map', { minZoom: 5, maxZoom: 11 });
+    // Broad European bounds & standard zoom levels so user can pan freely
+    map = L.map('map', { minZoom: 3, maxZoom: 18 });
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
-    map.setMaxBounds(SCOTLAND_BOUNDS);
     map.on('click', e => placeGuessMarker(e.latlng));
   }
-  map.fitBounds(SCOTLAND_BOUNDS);
+  
+  // Center map around the photo's general area or default to UK
+  const currentPhoto = PHOTOS[currentIndex];
+  if (currentPhoto) {
+    map.setView([currentPhoto.lat, currentPhoto.lng], 6);
+  } else {
+    map.setView([55.0, -3.5], 5);
+  }
+
   if (guessMarker){ map.removeLayer(guessMarker); guessMarker = null; }
   if (actualMarker){ map.removeLayer(actualMarker); actualMarker = null; }
   if (connectLine){ map.removeLayer(connectLine); connectLine = null; }
-  setTimeout(() => map.invalidateSize(), 100);
+  setTimeout(() => map.invalidateSize(), 150);
 }
 
 function placeGuessMarker(latlng){
@@ -572,7 +704,7 @@ function submitGuess(){
   progress[currentIndex] = { total, locScore, dateScore };
   localStorage.setItem("guessUsProgress", JSON.stringify(progress));
 
-  // draw actual + line
+  // Draw actual location marker + dashed connector line
   actualMarker = L.marker([p.lat, p.lng], {
     icon: L.divIcon({ className:'', html:'💚', iconSize:[30,30], iconAnchor:[15,28] })
   }).addTo(map);
@@ -587,11 +719,11 @@ function submitGuess(){
 }
 
 function rankFor(total){
-  if (total >= 9000) return "Spot on";
-  if (total >= 7000) return "Very close";
-  if (total >= 5000) return "Good guess";
-  if (total >= 3000) return "Not quite";
-  return "Way off";
+  if (total >= 9000) return "Spot on!";
+  if (total >= 7000) return "Very close!";
+  if (total >= 5000) return "Good guess!";
+  if (total >= 3000) return "Not quite...";
+  return "Way off!";
 }
 
 function showReveal(total, locScore, dateScore, p){
