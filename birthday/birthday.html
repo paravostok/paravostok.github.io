@@ -415,10 +415,10 @@ footer button{
 <div class="overlay" id="celebrationOverlay">
   <div class="modal celeb-modal">
     <button class="close-btn" onclick="closeCelebrationModal()">✕</button>
-    <div class="celeb-badge">🎉 ALL MEMORIES SOLVED!</div>
+    <div class="celeb-badge">ALL MEMORIES SOLVED!</div>
     <img class="hero-photo" src="photos/birthday.jpg" onerror="this.src='https://placehold.co/600x400/2E2456/FFF8ED?text=Add+photos/birthday.jpg'" alt="Happy Birthday!">
-    <h2 class="celeb-title">Happy (late) Birthday! ❤️</h2>
-    <p class="celeb-sub">You remembered every single trip, stroll, and moment together.</p>
+    <h2 class="celeb-title">Happy (late) Birthday!</h2>
+    <p class="celeb-sub">You are amazing and I love you so, so much Annie ❤️.</p>
     <div class="celeb-score-box">
       Final Score: <span id="celebFinalScore">0</span> / 150,000
     </div>
@@ -427,6 +427,9 @@ footer button{
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<!-- Canvas Confetti Library -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
 <script>
 /* =========================================================================
    EDIT YOUR PHOTOS HERE
@@ -505,9 +508,9 @@ const PHOTOS = [
   {
     file: "11.jpg",
     date: "2025-09-08",
-    lat: 56.607473948889535, lng: -2.5773535992106367,
-    location: "Somewhere near Arbroath",
-    note: "Another memory along the way!"
+    lat: 53.46471668152575, lng: -2.3463632926523896,
+    location: "Manchester",
+    note: "Another lovely trip, and a photo I really like, I can't even tell the difference! But seriously Manchester was really nice and I'm glad you liked it!"
   },
   {
     file: "12.jpg",
@@ -637,11 +640,36 @@ function closeModal(){
   }
 }
 
+function launchConfetti(){
+  if (typeof confetti !== 'function') return;
+
+  const count = 200;
+  const defaults = { origin: { y: 0.7 } };
+
+  function fire(particleRatio, opts) {
+    confetti({
+      ...defaults,
+      ...opts,
+      particleCount: Math.floor(count * particleRatio)
+    });
+  }
+
+  // Multi-burst using website theme colors (#FF6B5B coral, #FFC857 gold, #2E8B7E teal)
+  fire(0.25, { spread: 26, startVelocity: 55, colors: ['#FF6B5B', '#FFC857', '#2E8B7E'] });
+  fire(0.2,  { spread: 60, colors: ['#FF6B5B', '#FFC857', '#2E8B7E'] });
+  fire(0.35, { spread: 100, decay: 0.91, scalar: 0.8, colors: ['#FF6B5B', '#FFC857', '#2E8B7E'] });
+  fire(0.1,  { spread: 120, startVelocity: 25, decay: 0.92, scalar: 1.2, colors: ['#FF6B5B', '#FFC857', '#2E8B7E'] });
+  fire(0.1,  { spread: 120, startVelocity: 45, colors: ['#FF6B5B', '#FFC857', '#2E8B7E'] });
+}
+
 function showCelebrationModal(){
   let grandTotal = 0;
   Object.values(progress).forEach(p => grandTotal += p.total);
   document.getElementById("celebFinalScore").textContent = grandTotal.toLocaleString();
   document.getElementById("celebrationOverlay").classList.add("open");
+  
+  // Trigger confetti burst
+  launchConfetti();
 }
 
 function closeCelebrationModal(){
@@ -650,7 +678,6 @@ function closeCelebrationModal(){
 
 function initMap(){
   if (!map){
-    // Broad European bounds & standard zoom levels so user can pan freely
     map = L.map('map', { minZoom: 3, maxZoom: 18 });
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
@@ -658,7 +685,6 @@ function initMap(){
     map.on('click', e => placeGuessMarker(e.latlng));
   }
   
-  // Center map around the photo's general area or default to UK
   const currentPhoto = PHOTOS[currentIndex];
   if (currentPhoto) {
     map.setView([currentPhoto.lat, currentPhoto.lng], 6);
@@ -704,7 +730,6 @@ function submitGuess(){
   progress[currentIndex] = { total, locScore, dateScore };
   localStorage.setItem("guessUsProgress", JSON.stringify(progress));
 
-  // Draw actual location marker + dashed connector line
   actualMarker = L.marker([p.lat, p.lng], {
     icon: L.divIcon({ className:'', html:'💚', iconSize:[30,30], iconAnchor:[15,28] })
   }).addTo(map);
