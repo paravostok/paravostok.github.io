@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260813001",
-            "title": "Will a prominent UK Cabinet minister (Secretary of State level or above) resign from the government today?",
-            "payout": 3.8,
-            "desc": "Following sustained negative economic headlines and reports of internal government disagreements over fiscal strategy, speculation is rife that a senior minister, particularly one involved in economic or social policy, could tender their resignation today, possibly ahead of a planned policy announcement or parliamentary debate."
-        },
-        {
-            "id": "20260813002",
-            "title": "Will the Scottish Government today announce a specific new date for the publication of its independent review into local authority funding?",
-            "payout": 2.38,
-            "desc": "After the anticipated publication of the independent review into local authority funding did not occur yesterday, the Scottish Government is under pressure to clarify the delay. A statement to Holyrood or a press briefing today could be used to provide a concrete new timeline for its release, especially given previous commitments to transparency."
-        },
-        {
-            "id": "20260813003",
-            "title": "Will the Department for Transport (DfT) today publish new details or a consultation document regarding the proposed Northern Powerhouse Rail (NPR) route between Leeds and Manchester?",
+            "id": "20260814001",
+            "title": "Will the Chancellor of the Exchequer make an unscheduled statement to the House of Commons today regarding the UK's latest inflation figures?",
             "payout": 2.71,
-            "desc": "With ongoing scrutiny of major infrastructure spending, and following recent questions in Parliament about progress on regional connectivity, the DfT may choose today to release updated plans or launch a new public consultation for a key segment of the Northern Powerhouse Rail project to demonstrate commitment to its long-term strategy."
+            "desc": "Following yesterday's release of higher-than-expected inflation figures and growing calls from opposition parties for immediate action, there is significant speculation the Chancellor might seek to reassure markets and the public with an unscheduled statement on government economic strategy today."
         },
         {
-            "id": "20260813004",
-            "title": "Will the United Nations Secretary-General today issue a direct public appeal for increased international funding for climate change adaptation in developing nations?",
-            "payout": 1.9,
-            "desc": "Ahead of upcoming international climate summits and in the wake of recent extreme weather events, the UN Secretary-General has consistently highlighted the urgent need for adaptation funding. A scheduled press conference or a significant policy speech today could serve as a platform for a renewed, explicit public appeal to donor nations."
-        },
-        {
-            "id": "20260813005",
-            "title": "Will the foreign ministry of 'Nation Z' today issue a formal statement condemning recent military actions in 'Conflict Zone A' and calling for an immediate de-escalation?",
+            "id": "20260814002",
+            "title": "Will the Scottish National Party (SNP) today officially confirm the specific dates for its annual party conference?",
             "payout": 1.58,
-            "desc": "Following escalating reports of violence and civilian casualties in 'Conflict Zone A' overnight, 'Nation Z', known for its diplomatic influence in the region, is facing international pressure to respond. A formal statement today would signal its increasing concern and potential readiness to engage in mediation efforts."
+            "desc": "With the political calendar firming up for the autumn and winter parliamentary sessions, and following recent reports of internal party strategy meetings, the SNP is widely expected to announce the specific dates for its annual conference today to allow delegates, members, and media to make necessary arrangements."
+        },
+        {
+            "id": "20260814003",
+            "title": "Will High Speed 2 (HS2) Ltd. today issue a public statement updating the estimated completion date for the Birmingham to Crewe (Phase 2a) section?",
+            "payout": 2.38,
+            "desc": "After continued media reports questioning the HS2 project's budget and schedule, particularly for the northern sections, HS2 Ltd. may choose today to provide a definitive public update on the expected completion timeline for Phase 2a, possibly in response to leaked internal documents or recent parliamentary questions."
+        },
+        {
+            "id": "20260814004",
+            "title": "Will the European Union (EU) today announce new sanctions targeting specific individuals or entities within 'Country X' following recent human rights reports?",
+            "payout": 1.9,
+            "desc": "In the wake of a damning report released yesterday by a leading human rights organization detailing widespread abuses in 'Country X', and with pressure mounting from several key member states, the EU is reportedly fast-tracking discussions on targeted sanctions, with an official announcement possible today."
+        },
+        {
+            "id": "20260814005",
+            "title": "Will the warring factions in 'Conflict Zone B' today agree to a temporary, humanitarian ceasefire facilitated by the International Red Cross?",
+            "payout": 3.8,
+            "desc": "Following intense overnight fighting and growing international concerns about the escalating humanitarian crisis in 'Conflict Zone B', the International Red Cross has indicated it is in urgent, high-level negotiations with both sides. A short-term ceasefire to allow aid delivery is being vigorously pushed, with an agreement potentially announced today."
         }
     ],
     "history": [
@@ -4281,7 +4281,47 @@
             "desc": "Negotiations for safe passage into the besieged 'Region Y' have been ongoing for several days, with reports emerging overnight of a potential breakthrough. The ICRC spokesperson is due to give an update later today, and a confirmation of the convoy's entry would mark a significant development.",
             "result": "WON",
             "settled_at": "2026-08-13"
+        },
+        {
+            "id": "20260813001",
+            "title": "Will a prominent UK Cabinet minister (Secretary of State level or above) resign from the government today?",
+            "payout": 3.8,
+            "desc": "Following sustained negative economic headlines and reports of internal government disagreements over fiscal strategy, speculation is rife that a senior minister, particularly one involved in economic or social policy, could tender their resignation today, possibly ahead of a planned policy announcement or parliamentary debate.",
+            "result": "LOST",
+            "settled_at": "2026-08-14"
+        },
+        {
+            "id": "20260813002",
+            "title": "Will the Scottish Government today announce a specific new date for the publication of its independent review into local authority funding?",
+            "payout": 2.38,
+            "desc": "After the anticipated publication of the independent review into local authority funding did not occur yesterday, the Scottish Government is under pressure to clarify the delay. A statement to Holyrood or a press briefing today could be used to provide a concrete new timeline for its release, especially given previous commitments to transparency.",
+            "result": "WON",
+            "settled_at": "2026-08-14"
+        },
+        {
+            "id": "20260813003",
+            "title": "Will the Department for Transport (DfT) today publish new details or a consultation document regarding the proposed Northern Powerhouse Rail (NPR) route between Leeds and Manchester?",
+            "payout": 2.71,
+            "desc": "With ongoing scrutiny of major infrastructure spending, and following recent questions in Parliament about progress on regional connectivity, the DfT may choose today to release updated plans or launch a new public consultation for a key segment of the Northern Powerhouse Rail project to demonstrate commitment to its long-term strategy.",
+            "result": "WON",
+            "settled_at": "2026-08-14"
+        },
+        {
+            "id": "20260813004",
+            "title": "Will the United Nations Secretary-General today issue a direct public appeal for increased international funding for climate change adaptation in developing nations?",
+            "payout": 1.9,
+            "desc": "Ahead of upcoming international climate summits and in the wake of recent extreme weather events, the UN Secretary-General has consistently highlighted the urgent need for adaptation funding. A scheduled press conference or a significant policy speech today could serve as a platform for a renewed, explicit public appeal to donor nations.",
+            "result": "WON",
+            "settled_at": "2026-08-14"
+        },
+        {
+            "id": "20260813005",
+            "title": "Will the foreign ministry of 'Nation Z' today issue a formal statement condemning recent military actions in 'Conflict Zone A' and calling for an immediate de-escalation?",
+            "payout": 1.58,
+            "desc": "Following escalating reports of violence and civilian casualties in 'Conflict Zone A' overnight, 'Nation Z', known for its diplomatic influence in the region, is facing international pressure to respond. A formal statement today would signal its increasing concern and potential readiness to engage in mediation efforts.",
+            "result": "WON",
+            "settled_at": "2026-08-14"
         }
     ],
-    "last_update": "2026-08-13 01:14"
+    "last_update": "2026-08-14 01:13"
 }
