@@ -464,11 +464,11 @@ const PHOTOS = [
     note: "Remember when Jess had a thing for papparazi-ng us?. Well either way I remember this day being freezing and leading to that damn greggs in Waverley Mall"
   },
   {
-    file: "05.jpg",
-    date: "2025-10-11",
-    lat: 56.607473948889535, lng: -2.5773535992106367,
-    location: "Somewhere near Arbroath",
-    note: "I remember when going to Aberdeen felt like a big deal, but I think this was our first proper trip together, and although we basically walked around for 10 minutes and then had to come back it was still special to me, Aberdeen was like the final frontier I hadn't yet had a chance to go and so it was nice to do it with you. P.S. Ember didn't even exist yet so it was a stinky Citylink back."
+    file: "11.jpg",
+    date: "2025-09-08",
+    lat: 53.46471668152575, lng: -2.3463632926523896,
+    location: "Manchester",
+    note: "Another lovely trip, and a photo I really like, I can't even tell the difference! But seriously Manchester was really nice and I'm glad you liked it!"
   },
   {
     file: "06.jpg",
@@ -506,11 +506,11 @@ const PHOTOS = [
     note: "The fuckass Jen photo. Still, beyond me being unwell I really enjoyed seeing Chappell and I'm so glad we could do it together as it was really special."
   },
   {
-    file: "11.jpg",
-    date: "2025-09-08",
-    lat: 53.46471668152575, lng: -2.3463632926523896,
-    location: "Manchester",
-    note: "Another lovely trip, and a photo I really like, I can't even tell the difference! But seriously Manchester was really nice and I'm glad you liked it!"
+    file: "05.jpg",
+    date: "2025-10-11",
+    lat: 56.607473948889535, lng: -2.5773535992106367,
+    location: "Somewhere near Arbroath",
+    note: "I remember when going to Aberdeen felt like a big deal, but I think this was our first proper trip together, and although we basically walked around for 10 minutes and then had to come back it was still special to me, Aberdeen was like the final frontier I hadn't yet had a chance to go and so it was nice to do it with you. P.S. Ember didn't even exist yet so it was a stinky Citylink back."
   },
   {
     file: "12.jpg",
@@ -685,12 +685,8 @@ function initMap(){
     map.on('click', e => placeGuessMarker(e.latlng));
   }
   
-  const currentPhoto = PHOTOS[currentIndex];
-  if (currentPhoto) {
-    map.setView([currentPhoto.lat, currentPhoto.lng], 6);
-  } else {
-    map.setView([55.0, -3.5], 5);
-  }
+  // Always start centered over central Scotland (56.5 N, -4.2 W)
+  map.setView([56.5, -4.2], 6);
 
   if (guessMarker){ map.removeLayer(guessMarker); guessMarker = null; }
   if (actualMarker){ map.removeLayer(actualMarker); actualMarker = null; }
