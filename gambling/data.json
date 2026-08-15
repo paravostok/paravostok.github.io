@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260814001",
-            "title": "Will the Chancellor of the Exchequer make an unscheduled statement to the House of Commons today regarding the UK's latest inflation figures?",
-            "payout": 2.71,
-            "desc": "Following yesterday's release of higher-than-expected inflation figures and growing calls from opposition parties for immediate action, there is significant speculation the Chancellor might seek to reassure markets and the public with an unscheduled statement on government economic strategy today."
+            "id": "20260815001",
+            "title": "Will the Shadow Chancellor of the Exchequer today issue a formal press statement specifically criticizing the government's economic response to the latest inflation figures?",
+            "payout": 1.46,
+            "desc": "Following yesterday's higher-than-expected inflation figures and the government's lack of an immediate, formal response, the opposition Labour Party is under pressure to articulate its own position. A press statement from the Shadow Chancellor today is anticipated to capitalize on the weekend news cycle and highlight perceived government inaction."
         },
         {
-            "id": "20260814002",
-            "title": "Will the Scottish National Party (SNP) today officially confirm the specific dates for its annual party conference?",
+            "id": "20260815002",
+            "title": "Will the Scottish Government today officially confirm a new timeline for the implementation of its proposed National Care Service reform?",
+            "payout": 2.11,
+            "desc": "After ongoing discussions and recent reports of implementation challenges, there is speculation the Scottish Government may use today to provide clarity on the timeline for its flagship National Care Service reform, potentially addressing concerns raised by stakeholders over recent weeks regarding its feasibility and funding."
+        },
+        {
+            "id": "20260815003",
+            "title": "Will Transport for London (TfL) today announce specific disruptions or line closures for the London Underground network for the upcoming week, citing staff shortages?",
+            "payout": 1.73,
+            "desc": "With summer holidays impacting staffing levels and recent unofficial reports of increasing short-notice cancellations across transport networks, TfL may issue a preemptive announcement today to manage passenger expectations for service levels over the next 7 days, particularly ahead of Monday morning."
+        },
+        {
+            "id": "20260815004",
+            "title": "Will the World Health Organization (WHO) today issue an updated 'Disease X' alert status following new reported outbreaks in 'Region C'?",
             "payout": 1.58,
-            "desc": "With the political calendar firming up for the autumn and winter parliamentary sessions, and following recent reports of internal party strategy meetings, the SNP is widely expected to announce the specific dates for its annual conference today to allow delegates, members, and media to make necessary arrangements."
+            "desc": "After several days of emerging reports regarding an increased number of 'Disease X' cases in 'Region C' and growing international concern, the WHO may feel compelled to update its official alert status today to advise global health authorities on preparedness and response measures."
         },
         {
-            "id": "20260814003",
-            "title": "Will High Speed 2 (HS2) Ltd. today issue a public statement updating the estimated completion date for the Birmingham to Crewe (Phase 2a) section?",
-            "payout": 2.38,
-            "desc": "After continued media reports questioning the HS2 project's budget and schedule, particularly for the northern sections, HS2 Ltd. may choose today to provide a definitive public update on the expected completion timeline for Phase 2a, possibly in response to leaked internal documents or recent parliamentary questions."
-        },
-        {
-            "id": "20260814004",
-            "title": "Will the European Union (EU) today announce new sanctions targeting specific individuals or entities within 'Country X' following recent human rights reports?",
-            "payout": 1.9,
-            "desc": "In the wake of a damning report released yesterday by a leading human rights organization detailing widespread abuses in 'Country X', and with pressure mounting from several key member states, the EU is reportedly fast-tracking discussions on targeted sanctions, with an official announcement possible today."
-        },
-        {
-            "id": "20260814005",
-            "title": "Will the warring factions in 'Conflict Zone B' today agree to a temporary, humanitarian ceasefire facilitated by the International Red Cross?",
-            "payout": 3.8,
-            "desc": "Following intense overnight fighting and growing international concerns about the escalating humanitarian crisis in 'Conflict Zone B', the International Red Cross has indicated it is in urgent, high-level negotiations with both sides. A short-term ceasefire to allow aid delivery is being vigorously pushed, with an agreement potentially announced today."
+            "id": "20260815005",
+            "title": "Will the UN Security Council today hold an emergency closed-door meeting to discuss the escalating humanitarian situation in 'Conflict Zone B'?",
+            "payout": 1.36,
+            "desc": "Following intense overnight fighting and the International Red Cross's failed attempt at a ceasefire yesterday, diplomatic pressure is mounting for the UN Security Council to convene urgently. A closed-door meeting today could be called to formulate a new strategy or discuss potential resolutions to the crisis."
         }
     ],
     "history": [
@@ -4321,7 +4321,47 @@
             "desc": "Following escalating reports of violence and civilian casualties in 'Conflict Zone A' overnight, 'Nation Z', known for its diplomatic influence in the region, is facing international pressure to respond. A formal statement today would signal its increasing concern and potential readiness to engage in mediation efforts.",
             "result": "WON",
             "settled_at": "2026-08-14"
+        },
+        {
+            "id": "20260814001",
+            "title": "Will the Chancellor of the Exchequer make an unscheduled statement to the House of Commons today regarding the UK's latest inflation figures?",
+            "payout": 2.71,
+            "desc": "Following yesterday's release of higher-than-expected inflation figures and growing calls from opposition parties for immediate action, there is significant speculation the Chancellor might seek to reassure markets and the public with an unscheduled statement on government economic strategy today.",
+            "result": "LOST",
+            "settled_at": "2026-08-15"
+        },
+        {
+            "id": "20260814002",
+            "title": "Will the Scottish National Party (SNP) today officially confirm the specific dates for its annual party conference?",
+            "payout": 1.58,
+            "desc": "With the political calendar firming up for the autumn and winter parliamentary sessions, and following recent reports of internal party strategy meetings, the SNP is widely expected to announce the specific dates for its annual conference today to allow delegates, members, and media to make necessary arrangements.",
+            "result": "WON",
+            "settled_at": "2026-08-15"
+        },
+        {
+            "id": "20260814003",
+            "title": "Will High Speed 2 (HS2) Ltd. today issue a public statement updating the estimated completion date for the Birmingham to Crewe (Phase 2a) section?",
+            "payout": 2.38,
+            "desc": "After continued media reports questioning the HS2 project's budget and schedule, particularly for the northern sections, HS2 Ltd. may choose today to provide a definitive public update on the expected completion timeline for Phase 2a, possibly in response to leaked internal documents or recent parliamentary questions.",
+            "result": "LOST",
+            "settled_at": "2026-08-15"
+        },
+        {
+            "id": "20260814004",
+            "title": "Will the European Union (EU) today announce new sanctions targeting specific individuals or entities within 'Country X' following recent human rights reports?",
+            "payout": 1.9,
+            "desc": "In the wake of a damning report released yesterday by a leading human rights organization detailing widespread abuses in 'Country X', and with pressure mounting from several key member states, the EU is reportedly fast-tracking discussions on targeted sanctions, with an official announcement possible today.",
+            "result": "LOST",
+            "settled_at": "2026-08-15"
+        },
+        {
+            "id": "20260814005",
+            "title": "Will the warring factions in 'Conflict Zone B' today agree to a temporary, humanitarian ceasefire facilitated by the International Red Cross?",
+            "payout": 3.8,
+            "desc": "Following intense overnight fighting and growing international concerns about the escalating humanitarian crisis in 'Conflict Zone B', the International Red Cross has indicated it is in urgent, high-level negotiations with both sides. A short-term ceasefire to allow aid delivery is being vigorously pushed, with an agreement potentially announced today.",
+            "result": "LOST",
+            "settled_at": "2026-08-15"
         }
     ],
-    "last_update": "2026-08-14 01:13"
+    "last_update": "2026-08-15 00:45"
 }
