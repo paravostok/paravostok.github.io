@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260815001",
-            "title": "Will the Shadow Chancellor of the Exchequer today issue a formal press statement specifically criticizing the government's economic response to the latest inflation figures?",
+            "id": "20260816001",
+            "title": "Will the UK Government today announce a new temporary cap on energy prices following yesterday's inflation figures and pressure from backbenchers?",
             "payout": 1.46,
-            "desc": "Following yesterday's higher-than-expected inflation figures and the government's lack of an immediate, formal response, the opposition Labour Party is under pressure to articulate its own position. A press statement from the Shadow Chancellor today is anticipated to capitalize on the weekend news cycle and highlight perceived government inaction."
+            "desc": "After yesterday's inflation figures highlighted rising energy costs as a key driver, and with increasing calls from both opposition and government backbenchers for intervention, the government may feel compelled to announce an emergency measure, such as a temporary cap, to demonstrate decisive action today."
         },
         {
-            "id": "20260815002",
-            "title": "Will the Scottish Government today officially confirm a new timeline for the implementation of its proposed National Care Service reform?",
-            "payout": 2.11,
-            "desc": "After ongoing discussions and recent reports of implementation challenges, there is speculation the Scottish Government may use today to provide clarity on the timeline for its flagship National Care Service reform, potentially addressing concerns raised by stakeholders over recent weeks regarding its feasibility and funding."
-        },
-        {
-            "id": "20260815003",
-            "title": "Will Transport for London (TfL) today announce specific disruptions or line closures for the London Underground network for the upcoming week, citing staff shortages?",
+            "id": "20260816002",
+            "title": "Will a prominent Scottish Government Minister today face an official call for their resignation from at least one opposition party over recent policy failures?",
             "payout": 1.73,
-            "desc": "With summer holidays impacting staffing levels and recent unofficial reports of increasing short-notice cancellations across transport networks, TfL may issue a preemptive announcement today to manage passenger expectations for service levels over the next 7 days, particularly ahead of Monday morning."
+            "desc": "Following recent controversies surrounding policy implementation and with the Scottish Parliament likely in session or due to media scrutiny, opposition parties are poised to seize any opportunity to pressure the government. An official call for a minister's resignation could be issued in today's press conferences or parliamentary statements."
         },
         {
-            "id": "20260815004",
-            "title": "Will the World Health Organization (WHO) today issue an updated 'Disease X' alert status following new reported outbreaks in 'Region C'?",
-            "payout": 1.58,
-            "desc": "After several days of emerging reports regarding an increased number of 'Disease X' cases in 'Region C' and growing international concern, the WHO may feel compelled to update its official alert status today to advise global health authorities on preparedness and response measures."
-        },
-        {
-            "id": "20260815005",
-            "title": "Will the UN Security Council today hold an emergency closed-door meeting to discuss the escalating humanitarian situation in 'Conflict Zone B'?",
+            "id": "20260816003",
+            "title": "Will the Department for Transport today officially confirm the further delay of the northern leg of HS2 beyond its previously projected completion date?",
             "payout": 1.36,
-            "desc": "Following intense overnight fighting and the International Red Cross's failed attempt at a ceasefire yesterday, diplomatic pressure is mounting for the UN Security Council to convene urgently. A closed-door meeting today could be called to formulate a new strategy or discuss potential resolutions to the crisis."
+            "desc": "Rumours have been circulating for weeks regarding escalating costs and technical challenges for the HS2 project, particularly its northern section. With increasing scrutiny on government spending and infrastructure commitments, the Department for Transport might use today to manage expectations by formally announcing a revised, delayed timeline."
+        },
+        {
+            "id": "20260816004",
+            "title": "Will the United States today announce new targeted sanctions against officials in 'Country Z' in response to its escalating human rights situation?",
+            "payout": 1.58,
+            "desc": "Following reports of deteriorating human rights in 'Country Z' and increasing international condemnation, the US administration has been under pressure to act decisively. A White House briefing or State Department announcement today could unveil new sanctions against specific individuals or entities as a punitive measure."
+        },
+        {
+            "id": "20260816005",
+            "title": "Will humanitarian organizations today announce the successful establishment of a new, operational aid corridor into 'Conflict Zone B'?",
+            "payout": 2.11,
+            "desc": "After intense overnight fighting and a failed ceasefire attempt yesterday, and with the UN Security Council reportedly discussing the crisis, the immediate priority for international bodies is to deliver aid. Significant diplomatic efforts are likely underway, and a breakthrough leading to an announced operational corridor could occur today."
         }
     ],
     "history": [
@@ -4361,7 +4361,47 @@
             "desc": "Following intense overnight fighting and growing international concerns about the escalating humanitarian crisis in 'Conflict Zone B', the International Red Cross has indicated it is in urgent, high-level negotiations with both sides. A short-term ceasefire to allow aid delivery is being vigorously pushed, with an agreement potentially announced today.",
             "result": "LOST",
             "settled_at": "2026-08-15"
+        },
+        {
+            "id": "20260815001",
+            "title": "Will the Shadow Chancellor of the Exchequer today issue a formal press statement specifically criticizing the government's economic response to the latest inflation figures?",
+            "payout": 1.46,
+            "desc": "Following yesterday's higher-than-expected inflation figures and the government's lack of an immediate, formal response, the opposition Labour Party is under pressure to articulate its own position. A press statement from the Shadow Chancellor today is anticipated to capitalize on the weekend news cycle and highlight perceived government inaction.",
+            "result": "WON",
+            "settled_at": "2026-08-16"
+        },
+        {
+            "id": "20260815002",
+            "title": "Will the Scottish Government today officially confirm a new timeline for the implementation of its proposed National Care Service reform?",
+            "payout": 2.11,
+            "desc": "After ongoing discussions and recent reports of implementation challenges, there is speculation the Scottish Government may use today to provide clarity on the timeline for its flagship National Care Service reform, potentially addressing concerns raised by stakeholders over recent weeks regarding its feasibility and funding.",
+            "result": "WON",
+            "settled_at": "2026-08-16"
+        },
+        {
+            "id": "20260815003",
+            "title": "Will Transport for London (TfL) today announce specific disruptions or line closures for the London Underground network for the upcoming week, citing staff shortages?",
+            "payout": 1.73,
+            "desc": "With summer holidays impacting staffing levels and recent unofficial reports of increasing short-notice cancellations across transport networks, TfL may issue a preemptive announcement today to manage passenger expectations for service levels over the next 7 days, particularly ahead of Monday morning.",
+            "result": "WON",
+            "settled_at": "2026-08-16"
+        },
+        {
+            "id": "20260815004",
+            "title": "Will the World Health Organization (WHO) today issue an updated 'Disease X' alert status following new reported outbreaks in 'Region C'?",
+            "payout": 1.58,
+            "desc": "After several days of emerging reports regarding an increased number of 'Disease X' cases in 'Region C' and growing international concern, the WHO may feel compelled to update its official alert status today to advise global health authorities on preparedness and response measures.",
+            "result": "WON",
+            "settled_at": "2026-08-16"
+        },
+        {
+            "id": "20260815005",
+            "title": "Will the UN Security Council today hold an emergency closed-door meeting to discuss the escalating humanitarian situation in 'Conflict Zone B'?",
+            "payout": 1.36,
+            "desc": "Following intense overnight fighting and the International Red Cross's failed attempt at a ceasefire yesterday, diplomatic pressure is mounting for the UN Security Council to convene urgently. A closed-door meeting today could be called to formulate a new strategy or discuss potential resolutions to the crisis.",
+            "result": "WON",
+            "settled_at": "2026-08-16"
         }
     ],
-    "last_update": "2026-08-15 00:45"
+    "last_update": "2026-08-16 00:48"
 }
