@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260816001",
-            "title": "Will the UK Government today announce a new temporary cap on energy prices following yesterday's inflation figures and pressure from backbenchers?",
-            "payout": 1.46,
-            "desc": "After yesterday's inflation figures highlighted rising energy costs as a key driver, and with increasing calls from both opposition and government backbenchers for intervention, the government may feel compelled to announce an emergency measure, such as a temporary cap, to demonstrate decisive action today."
+            "id": "20260817001",
+            "title": "Will a junior minister in the UK Department for Education today resign or be asked to step down following criticism of their recent public comments?",
+            "payout": 2.58,
+            "desc": "Following growing calls for accountability from opposition parties and some backbenchers regarding a junior Education Minister's controversial statements on school budgets over the weekend, an urgent question is scheduled in the House of Commons today, potentially forcing a decisive response from the government or the minister themselves."
         },
         {
-            "id": "20260816002",
-            "title": "Will a prominent Scottish Government Minister today face an official call for their resignation from at least one opposition party over recent policy failures?",
-            "payout": 1.73,
-            "desc": "Following recent controversies surrounding policy implementation and with the Scottish Parliament likely in session or due to media scrutiny, opposition parties are poised to seize any opportunity to pressure the government. An official call for a minister's resignation could be issued in today's press conferences or parliamentary statements."
-        },
-        {
-            "id": "20260816003",
-            "title": "Will the Department for Transport today officially confirm the further delay of the northern leg of HS2 beyond its previously projected completion date?",
-            "payout": 1.36,
-            "desc": "Rumours have been circulating for weeks regarding escalating costs and technical challenges for the HS2 project, particularly its northern section. With increasing scrutiny on government spending and infrastructure commitments, the Department for Transport might use today to manage expectations by formally announcing a revised, delayed timeline."
-        },
-        {
-            "id": "20260816004",
-            "title": "Will the United States today announce new targeted sanctions against officials in 'Country Z' in response to its escalating human rights situation?",
-            "payout": 1.58,
-            "desc": "Following reports of deteriorating human rights in 'Country Z' and increasing international condemnation, the US administration has been under pressure to act decisively. A White House briefing or State Department announcement today could unveil new sanctions against specific individuals or entities as a punitive measure."
-        },
-        {
-            "id": "20260816005",
-            "title": "Will humanitarian organizations today announce the successful establishment of a new, operational aid corridor into 'Conflict Zone B'?",
+            "id": "20260817002",
+            "title": "Will the Scottish First Minister today announce a new specific funding package for local authorities to address the ongoing social care staffing crisis?",
             "payout": 2.11,
-            "desc": "After intense overnight fighting and a failed ceasefire attempt yesterday, and with the UN Security Council reportedly discussing the crisis, the immediate priority for international bodies is to deliver aid. Significant diplomatic efforts are likely underway, and a breakthrough leading to an announced operational corridor could occur today."
+            "desc": "With ongoing criticism regarding the social care sector and local authorities struggling to retain staff, the First Minister is scheduled to make a statement today during a visit to a community health centre. This visit could be an opportunity to unveil new measures to alleviate pressure on services and local budgets."
+        },
+        {
+            "id": "20260817003",
+            "title": "Will Network Rail today issue an official statement confirming the full completion of the 'Midlands Mainline Electrification Project' ahead of its revised schedule?",
+            "payout": 3.8,
+            "desc": "After several previous delays, internal sources have suggested that the long-running Midlands Mainline Electrification Project has made significant progress in recent weeks. With a major press event scheduled for Network Rail today to discuss 'future infrastructure', there's a possibility they could announce the project's unexpected early completion."
+        },
+        {
+            "id": "20260817004",
+            "title": "Will the EU Commission today announce the imposition of provisional anti-dumping duties on steel imports from 'Country Y'?",
+            "payout": 1.58,
+            "desc": "Following intensified lobbying from European steel manufacturers and a preliminary investigation into alleged unfair trading practices, the EU Commission has signalled a decision on steel imports from 'Country Y' is imminent. An official announcement regarding provisional anti-dumping measures is widely expected today during the daily press briefing."
+        },
+        {
+            "id": "20260817005",
+            "title": "Will a major international aid agency today confirm the start of a 24-hour localized ceasefire in the northern district of 'Region X' in 'Conflict Zone C'?",
+            "payout": 1.73,
+            "desc": "After intense negotiations facilitated by UN envoys and several aid organizations, reports from the ground indicate a potential agreement for a localized, humanitarian ceasefire in the heavily contested northern district of 'Region X'. A senior representative from a leading international aid agency is scheduled to give an update on the situation later today, which could include confirmation of a temporary halt to hostilities."
         }
     ],
     "history": [
@@ -4401,7 +4401,47 @@
             "desc": "Following intense overnight fighting and the International Red Cross's failed attempt at a ceasefire yesterday, diplomatic pressure is mounting for the UN Security Council to convene urgently. A closed-door meeting today could be called to formulate a new strategy or discuss potential resolutions to the crisis.",
             "result": "WON",
             "settled_at": "2026-08-16"
+        },
+        {
+            "id": "20260816001",
+            "title": "Will the UK Government today announce a new temporary cap on energy prices following yesterday's inflation figures and pressure from backbenchers?",
+            "payout": 1.46,
+            "desc": "After yesterday's inflation figures highlighted rising energy costs as a key driver, and with increasing calls from both opposition and government backbenchers for intervention, the government may feel compelled to announce an emergency measure, such as a temporary cap, to demonstrate decisive action today.",
+            "result": "LOST",
+            "settled_at": "2026-08-17"
+        },
+        {
+            "id": "20260816002",
+            "title": "Will a prominent Scottish Government Minister today face an official call for their resignation from at least one opposition party over recent policy failures?",
+            "payout": 1.73,
+            "desc": "Following recent controversies surrounding policy implementation and with the Scottish Parliament likely in session or due to media scrutiny, opposition parties are poised to seize any opportunity to pressure the government. An official call for a minister's resignation could be issued in today's press conferences or parliamentary statements.",
+            "result": "WON",
+            "settled_at": "2026-08-17"
+        },
+        {
+            "id": "20260816003",
+            "title": "Will the Department for Transport today officially confirm the further delay of the northern leg of HS2 beyond its previously projected completion date?",
+            "payout": 1.36,
+            "desc": "Rumours have been circulating for weeks regarding escalating costs and technical challenges for the HS2 project, particularly its northern section. With increasing scrutiny on government spending and infrastructure commitments, the Department for Transport might use today to manage expectations by formally announcing a revised, delayed timeline.",
+            "result": "WON",
+            "settled_at": "2026-08-17"
+        },
+        {
+            "id": "20260816004",
+            "title": "Will the United States today announce new targeted sanctions against officials in 'Country Z' in response to its escalating human rights situation?",
+            "payout": 1.58,
+            "desc": "Following reports of deteriorating human rights in 'Country Z' and increasing international condemnation, the US administration has been under pressure to act decisively. A White House briefing or State Department announcement today could unveil new sanctions against specific individuals or entities as a punitive measure.",
+            "result": "WON",
+            "settled_at": "2026-08-17"
+        },
+        {
+            "id": "20260816005",
+            "title": "Will humanitarian organizations today announce the successful establishment of a new, operational aid corridor into 'Conflict Zone B'?",
+            "payout": 2.11,
+            "desc": "After intense overnight fighting and a failed ceasefire attempt yesterday, and with the UN Security Council reportedly discussing the crisis, the immediate priority for international bodies is to deliver aid. Significant diplomatic efforts are likely underway, and a breakthrough leading to an announced operational corridor could occur today.",
+            "result": "LOST",
+            "settled_at": "2026-08-17"
         }
     ],
-    "last_update": "2026-08-16 00:48"
+    "last_update": "2026-08-17 00:45"
 }
