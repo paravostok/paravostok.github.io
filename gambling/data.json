@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260817001",
-            "title": "Will a junior minister in the UK Department for Education today resign or be asked to step down following criticism of their recent public comments?",
-            "payout": 2.58,
-            "desc": "Following growing calls for accountability from opposition parties and some backbenchers regarding a junior Education Minister's controversial statements on school budgets over the weekend, an urgent question is scheduled in the House of Commons today, potentially forcing a decisive response from the government or the minister themselves."
+            "id": "20260818001",
+            "title": "Will a senior UK government spokesperson today issue a formal clarification or apology regarding yesterday's junior Education Minister comments on school budgets?",
+            "payout": 1.46,
+            "desc": "Following intense criticism yesterday and an urgent question in the Commons, the government will be under pressure to address the controversy directly. A spokesperson might be deployed to manage the fallout during morning media rounds or an official briefing."
         },
         {
-            "id": "20260817002",
-            "title": "Will the Scottish First Minister today announce a new specific funding package for local authorities to address the ongoing social care staffing crisis?",
-            "payout": 2.11,
-            "desc": "With ongoing criticism regarding the social care sector and local authorities struggling to retain staff, the First Minister is scheduled to make a statement today during a visit to a community health centre. This visit could be an opportunity to unveil new measures to alleviate pressure on services and local budgets."
+            "id": "20260818002",
+            "title": "Will a Scottish opposition party today formally request an emergency debate in the Scottish Parliament regarding the details of the First Minister's newly announced social care funding package?",
+            "payout": 1.27,
+            "desc": "After the First Minister's announcement of a social care funding package yesterday, opposition parties are likely to scrutinise the details. An immediate request for an emergency debate is a common tactic to put pressure on the government and demand further clarity on how the funds will be allocated."
         },
         {
-            "id": "20260817003",
-            "title": "Will Network Rail today issue an official statement confirming the full completion of the 'Midlands Mainline Electrification Project' ahead of its revised schedule?",
-            "payout": 3.8,
-            "desc": "After several previous delays, internal sources have suggested that the long-running Midlands Mainline Electrification Project has made significant progress in recent weeks. With a major press event scheduled for Network Rail today to discuss 'future infrastructure', there's a possibility they could announce the project's unexpected early completion."
+            "id": "20260818003",
+            "title": "Will the UK Department for Transport today officially confirm the start date for construction on the 'Northern Rail Link Phase 2' project?",
+            "payout": 2.38,
+            "desc": "With the positive news yesterday from Network Rail regarding the Midlands Mainline project, attention might shift to other ongoing or pending projects. Rumours have circulated about the 'Northern Rail Link Phase 2' project, and an official confirmation of its construction start date could be announced today, perhaps building on momentum from the 'future infrastructure' discussions."
         },
         {
-            "id": "20260817004",
-            "title": "Will the EU Commission today announce the imposition of provisional anti-dumping duties on steel imports from 'Country Y'?",
+            "id": "20260818004",
+            "title": "Will 'Country Y' today issue an official diplomatic protest or announce retaliatory trade measures against the EU following yesterday's anti-dumping duties?",
+            "payout": 1.19,
+            "desc": "After the EU Commission's decision yesterday to impose provisional anti-dumping duties on steel imports from 'Country Y', a swift response from 'Country Y' is highly anticipated. This could take the form of an official diplomatic protest or the announcement of preliminary retaliatory trade measures."
+        },
+        {
+            "id": "20260818005",
+            "title": "Will the UN Special Envoy for 'Conflict Zone C' today announce the immediate resumption of emergency ceasefire negotiations concerning 'Region X'?",
             "payout": 1.58,
-            "desc": "Following intensified lobbying from European steel manufacturers and a preliminary investigation into alleged unfair trading practices, the EU Commission has signalled a decision on steel imports from 'Country Y' is imminent. An official announcement regarding provisional anti-dumping measures is widely expected today during the daily press briefing."
-        },
-        {
-            "id": "20260817005",
-            "title": "Will a major international aid agency today confirm the start of a 24-hour localized ceasefire in the northern district of 'Region X' in 'Conflict Zone C'?",
-            "payout": 1.73,
-            "desc": "After intense negotiations facilitated by UN envoys and several aid organizations, reports from the ground indicate a potential agreement for a localized, humanitarian ceasefire in the heavily contested northern district of 'Region X'. A senior representative from a leading international aid agency is scheduled to give an update on the situation later today, which could include confirmation of a temporary halt to hostilities."
+            "desc": "With the confirmation of a localised ceasefire in 'Region X' reportedly not materialising yesterday, international pressure will be high to re-engage. The UN Special Envoy for the region is expected to give an update today, and could announce urgent, renewed negotiations to achieve a humanitarian pause."
         }
     ],
     "history": [
@@ -4441,7 +4441,47 @@
             "desc": "After intense overnight fighting and a failed ceasefire attempt yesterday, and with the UN Security Council reportedly discussing the crisis, the immediate priority for international bodies is to deliver aid. Significant diplomatic efforts are likely underway, and a breakthrough leading to an announced operational corridor could occur today.",
             "result": "LOST",
             "settled_at": "2026-08-17"
+        },
+        {
+            "id": "20260817001",
+            "title": "Will a junior minister in the UK Department for Education today resign or be asked to step down following criticism of their recent public comments?",
+            "payout": 2.58,
+            "desc": "Following growing calls for accountability from opposition parties and some backbenchers regarding a junior Education Minister's controversial statements on school budgets over the weekend, an urgent question is scheduled in the House of Commons today, potentially forcing a decisive response from the government or the minister themselves.",
+            "result": "LOST",
+            "settled_at": "2026-08-18"
+        },
+        {
+            "id": "20260817002",
+            "title": "Will the Scottish First Minister today announce a new specific funding package for local authorities to address the ongoing social care staffing crisis?",
+            "payout": 2.11,
+            "desc": "With ongoing criticism regarding the social care sector and local authorities struggling to retain staff, the First Minister is scheduled to make a statement today during a visit to a community health centre. This visit could be an opportunity to unveil new measures to alleviate pressure on services and local budgets.",
+            "result": "WON",
+            "settled_at": "2026-08-18"
+        },
+        {
+            "id": "20260817003",
+            "title": "Will Network Rail today issue an official statement confirming the full completion of the 'Midlands Mainline Electrification Project' ahead of its revised schedule?",
+            "payout": 3.8,
+            "desc": "After several previous delays, internal sources have suggested that the long-running Midlands Mainline Electrification Project has made significant progress in recent weeks. With a major press event scheduled for Network Rail today to discuss 'future infrastructure', there's a possibility they could announce the project's unexpected early completion.",
+            "result": "WON",
+            "settled_at": "2026-08-18"
+        },
+        {
+            "id": "20260817004",
+            "title": "Will the EU Commission today announce the imposition of provisional anti-dumping duties on steel imports from 'Country Y'?",
+            "payout": 1.58,
+            "desc": "Following intensified lobbying from European steel manufacturers and a preliminary investigation into alleged unfair trading practices, the EU Commission has signalled a decision on steel imports from 'Country Y' is imminent. An official announcement regarding provisional anti-dumping measures is widely expected today during the daily press briefing.",
+            "result": "WON",
+            "settled_at": "2026-08-18"
+        },
+        {
+            "id": "20260817005",
+            "title": "Will a major international aid agency today confirm the start of a 24-hour localized ceasefire in the northern district of 'Region X' in 'Conflict Zone C'?",
+            "payout": 1.73,
+            "desc": "After intense negotiations facilitated by UN envoys and several aid organizations, reports from the ground indicate a potential agreement for a localized, humanitarian ceasefire in the heavily contested northern district of 'Region X'. A senior representative from a leading international aid agency is scheduled to give an update on the situation later today, which could include confirmation of a temporary halt to hostilities.",
+            "result": "LOST",
+            "settled_at": "2026-08-18"
         }
     ],
-    "last_update": "2026-08-17 00:45"
+    "last_update": "2026-08-18 00:44"
 }
