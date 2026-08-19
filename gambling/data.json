@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260818001",
-            "title": "Will a senior UK government spokesperson today issue a formal clarification or apology regarding yesterday's junior Education Minister comments on school budgets?",
-            "payout": 1.46,
-            "desc": "Following intense criticism yesterday and an urgent question in the Commons, the government will be under pressure to address the controversy directly. A spokesperson might be deployed to manage the fallout during morning media rounds or an official briefing."
+            "id": "20260819001",
+            "title": "Will a prominent Conservative backbench MP today publicly call for a leadership confidence vote against the Prime Minister?",
+            "payout": 3.8,
+            "desc": "Growing discontent within the Conservative party, potentially fueled by recent policy setbacks or adverse poll results, could reach a tipping point today. A vocal backbench MP might seize upon a particularly challenging morning for the government to make a decisive public statement, triggering leadership speculation."
         },
         {
-            "id": "20260818002",
-            "title": "Will a Scottish opposition party today formally request an emergency debate in the Scottish Parliament regarding the details of the First Minister's newly announced social care funding package?",
-            "payout": 1.27,
-            "desc": "After the First Minister's announcement of a social care funding package yesterday, opposition parties are likely to scrutinise the details. An immediate request for an emergency debate is a common tactic to put pressure on the government and demand further clarity on how the funds will be allocated."
-        },
-        {
-            "id": "20260818003",
-            "title": "Will the UK Department for Transport today officially confirm the start date for construction on the 'Northern Rail Link Phase 2' project?",
+            "id": "20260819002",
+            "title": "Will the Scottish National Party (SNP) today officially confirm the date for their upcoming autumn party conference?",
             "payout": 2.38,
-            "desc": "With the positive news yesterday from Network Rail regarding the Midlands Mainline project, attention might shift to other ongoing or pending projects. Rumours have circulated about the 'Northern Rail Link Phase 2' project, and an official confirmation of its construction start date could be announced today, perhaps building on momentum from the 'future infrastructure' discussions."
+            "desc": "Political parties typically schedule their major conferences well in advance. Following any recent internal discussions or media speculation regarding the timing of the SNP's autumn conference, the party leadership may opt to make an official announcement today to clarify their calendar and prepare for the event."
         },
         {
-            "id": "20260818004",
-            "title": "Will 'Country Y' today issue an official diplomatic protest or announce retaliatory trade measures against the EU following yesterday's anti-dumping duties?",
-            "payout": 1.19,
-            "desc": "After the EU Commission's decision yesterday to impose provisional anti-dumping duties on steel imports from 'Country Y', a swift response from 'Country Y' is highly anticipated. This could take the form of an official diplomatic protest or the announcement of preliminary retaliatory trade measures."
+            "id": "20260819003",
+            "title": "Will Network Rail today announce any new service disruptions or significant engineering works planned for the upcoming bank holiday weekend?",
+            "payout": 1.46,
+            "desc": "Network Rail regularly issues updates on planned maintenance and potential disruptions to the rail network, especially ahead of busy periods like bank holidays. To manage passenger expectations and allow for alternative travel arrangements, an announcement regarding major works or service changes for an upcoming long weekend could be made today."
         },
         {
-            "id": "20260818005",
-            "title": "Will the UN Special Envoy for 'Conflict Zone C' today announce the immediate resumption of emergency ceasefire negotiations concerning 'Region X'?",
-            "payout": 1.58,
-            "desc": "With the confirmation of a localised ceasefire in 'Region X' reportedly not materialising yesterday, international pressure will be high to re-engage. The UN Special Envoy for the region is expected to give an update today, and could announce urgent, renewed negotiations to achieve a humanitarian pause."
+            "id": "20260819004",
+            "title": "Will the EU Commission today announce the imposition of new sanctions targeting specific individuals or entities in 'Country Z' over alleged human rights abuses?",
+            "payout": 1.73,
+            "desc": "Following recent strong condemnation from EU officials and increasing international pressure regarding human rights concerns in 'Country Z', the EU Commission may conclude its internal deliberations today. A formal announcement of new targeted sanctions is plausible as a direct response to these alleged abuses."
+        },
+        {
+            "id": "20260819005",
+            "title": "Will the International Committee of the Red Cross (ICRC) today confirm the successful passage of a humanitarian aid convoy into the besieged 'City Y' in 'Conflict Zone C'?",
+            "payout": 2.11,
+            "desc": "With renewed efforts for de-escalation or ceasefire negotiations in 'Conflict Zone C' (as potentially established yesterday), humanitarian access would be an immediate priority. The ICRC often confirms successful aid deliveries quickly, and a breakthrough for the besieged 'City Y' could be announced today if arrangements were facilitated overnight."
         }
     ],
     "history": [
@@ -4481,7 +4481,47 @@
             "desc": "After intense negotiations facilitated by UN envoys and several aid organizations, reports from the ground indicate a potential agreement for a localized, humanitarian ceasefire in the heavily contested northern district of 'Region X'. A senior representative from a leading international aid agency is scheduled to give an update on the situation later today, which could include confirmation of a temporary halt to hostilities.",
             "result": "LOST",
             "settled_at": "2026-08-18"
+        },
+        {
+            "id": "20260818001",
+            "title": "Will a senior UK government spokesperson today issue a formal clarification or apology regarding yesterday's junior Education Minister comments on school budgets?",
+            "payout": 1.46,
+            "desc": "Following intense criticism yesterday and an urgent question in the Commons, the government will be under pressure to address the controversy directly. A spokesperson might be deployed to manage the fallout during morning media rounds or an official briefing.",
+            "result": "WON",
+            "settled_at": "2026-08-19"
+        },
+        {
+            "id": "20260818002",
+            "title": "Will a Scottish opposition party today formally request an emergency debate in the Scottish Parliament regarding the details of the First Minister's newly announced social care funding package?",
+            "payout": 1.27,
+            "desc": "After the First Minister's announcement of a social care funding package yesterday, opposition parties are likely to scrutinise the details. An immediate request for an emergency debate is a common tactic to put pressure on the government and demand further clarity on how the funds will be allocated.",
+            "result": "WON",
+            "settled_at": "2026-08-19"
+        },
+        {
+            "id": "20260818003",
+            "title": "Will the UK Department for Transport today officially confirm the start date for construction on the 'Northern Rail Link Phase 2' project?",
+            "payout": 2.38,
+            "desc": "With the positive news yesterday from Network Rail regarding the Midlands Mainline project, attention might shift to other ongoing or pending projects. Rumours have circulated about the 'Northern Rail Link Phase 2' project, and an official confirmation of its construction start date could be announced today, perhaps building on momentum from the 'future infrastructure' discussions.",
+            "result": "LOST",
+            "settled_at": "2026-08-19"
+        },
+        {
+            "id": "20260818004",
+            "title": "Will 'Country Y' today issue an official diplomatic protest or announce retaliatory trade measures against the EU following yesterday's anti-dumping duties?",
+            "payout": 1.19,
+            "desc": "After the EU Commission's decision yesterday to impose provisional anti-dumping duties on steel imports from 'Country Y', a swift response from 'Country Y' is highly anticipated. This could take the form of an official diplomatic protest or the announcement of preliminary retaliatory trade measures.",
+            "result": "WON",
+            "settled_at": "2026-08-19"
+        },
+        {
+            "id": "20260818005",
+            "title": "Will the UN Special Envoy for 'Conflict Zone C' today announce the immediate resumption of emergency ceasefire negotiations concerning 'Region X'?",
+            "payout": 1.58,
+            "desc": "With the confirmation of a localised ceasefire in 'Region X' reportedly not materialising yesterday, international pressure will be high to re-engage. The UN Special Envoy for the region is expected to give an update today, and could announce urgent, renewed negotiations to achieve a humanitarian pause.",
+            "result": "WON",
+            "settled_at": "2026-08-19"
         }
     ],
-    "last_update": "2026-08-18 00:44"
+    "last_update": "2026-08-19 00:44"
 }
