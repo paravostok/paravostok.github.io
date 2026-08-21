@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260819001",
-            "title": "Will a prominent Conservative backbench MP today publicly call for a leadership confidence vote against the Prime Minister?",
-            "payout": 3.8,
-            "desc": "Growing discontent within the Conservative party, potentially fueled by recent policy setbacks or adverse poll results, could reach a tipping point today. A vocal backbench MP might seize upon a particularly challenging morning for the government to make a decisive public statement, triggering leadership speculation."
+            "id": "20260821001",
+            "title": "Will the UK Government today officially announce a new date for the proposed 'Online Safety Bill' parliamentary debate, following recent delays?",
+            "payout": 1.58,
+            "desc": "The 'Online Safety Bill' has faced several delays and criticisms, leading to public and parliamentary pressure for progress. Following recent behind-the-scenes discussions or a notable media report, the government may opt to announce a definitive new debate date today to signal intent and regain momentum."
         },
         {
-            "id": "20260819002",
-            "title": "Will the Scottish National Party (SNP) today officially confirm the date for their upcoming autumn party conference?",
+            "id": "20260821002",
+            "title": "Will a new opinion poll on Scottish independence, commissioned by a major media outlet or research firm, be published today?",
             "payout": 2.38,
-            "desc": "Political parties typically schedule their major conferences well in advance. Following any recent internal discussions or media speculation regarding the timing of the SNP's autumn conference, the party leadership may opt to make an official announcement today to clarify their calendar and prepare for the event."
+            "desc": "With ongoing debate surrounding the future of the Union and recent political developments in Holyrood, interest in public sentiment on Scottish independence remains high. Major polling organizations frequently conduct and release new surveys to gauge public opinion, and one could drop today to capture the current mood."
         },
         {
-            "id": "20260819003",
-            "title": "Will Network Rail today announce any new service disruptions or significant engineering works planned for the upcoming bank holiday weekend?",
-            "payout": 1.46,
-            "desc": "Network Rail regularly issues updates on planned maintenance and potential disruptions to the rail network, especially ahead of busy periods like bank holidays. To manage passenger expectations and allow for alternative travel arrangements, an announcement regarding major works or service changes for an upcoming long weekend could be made today."
+            "id": "20260821003",
+            "title": "Will the Department for Transport today issue an official statement regarding potential further cost increases or delays to the HS2 project?",
+            "payout": 2.71,
+            "desc": "The HS2 project is frequently subject to speculation regarding its budget and timeline. Following recent scrutiny from parliamentary committees or leaks to the press concerning project challenges, the Department for Transport might issue a pre-emptive or reactive official statement today to address these concerns."
         },
         {
-            "id": "20260819004",
-            "title": "Will the EU Commission today announce the imposition of new sanctions targeting specific individuals or entities in 'Country Z' over alleged human rights abuses?",
-            "payout": 1.73,
-            "desc": "Following recent strong condemnation from EU officials and increasing international pressure regarding human rights concerns in 'Country Z', the EU Commission may conclude its internal deliberations today. A formal announcement of new targeted sanctions is plausible as a direct response to these alleged abuses."
+            "id": "20260821004",
+            "title": "Will the White House today confirm an upcoming state visit by a major European leader within the next month?",
+            "payout": 3.17,
+            "desc": "High-level diplomatic engagements are meticulously planned, and rumors often precede formal announcements. Following recent bilateral meetings or a particularly significant diplomatic event, the White House could today confirm an upcoming state visit by a key European ally, setting the stage for future policy discussions."
         },
         {
-            "id": "20260819005",
-            "title": "Will the International Committee of the Red Cross (ICRC) today confirm the successful passage of a humanitarian aid convoy into the besieged 'City Y' in 'Conflict Zone C'?",
+            "id": "20260821005",
+            "title": "Will the United Nations Security Council today issue a new joint resolution or statement condemning recent hostilities in 'Region X'?",
             "payout": 2.11,
-            "desc": "With renewed efforts for de-escalation or ceasefire negotiations in 'Conflict Zone C' (as potentially established yesterday), humanitarian access would be an immediate priority. The ICRC often confirms successful aid deliveries quickly, and a breakthrough for the besieged 'City Y' could be announced today if arrangements were facilitated overnight."
+            "desc": "If hostilities in 'Region X' have escalated or taken a new concerning turn recently (as might have been reported yesterday), the UN Security Council could convene or finalize deliberations today. A new joint resolution or a strong statement might be issued to reflect international condemnation and call for de-escalation, especially if diplomatic efforts have intensified."
         }
     ],
     "history": [
@@ -4521,7 +4521,47 @@
             "desc": "With the confirmation of a localised ceasefire in 'Region X' reportedly not materialising yesterday, international pressure will be high to re-engage. The UN Special Envoy for the region is expected to give an update today, and could announce urgent, renewed negotiations to achieve a humanitarian pause.",
             "result": "WON",
             "settled_at": "2026-08-19"
+        },
+        {
+            "id": "20260819001",
+            "title": "Will a prominent Conservative backbench MP today publicly call for a leadership confidence vote against the Prime Minister?",
+            "payout": 3.8,
+            "desc": "Growing discontent within the Conservative party, potentially fueled by recent policy setbacks or adverse poll results, could reach a tipping point today. A vocal backbench MP might seize upon a particularly challenging morning for the government to make a decisive public statement, triggering leadership speculation.",
+            "result": "LOST",
+            "settled_at": "2026-08-21"
+        },
+        {
+            "id": "20260819002",
+            "title": "Will the Scottish National Party (SNP) today officially confirm the date for their upcoming autumn party conference?",
+            "payout": 2.38,
+            "desc": "Political parties typically schedule their major conferences well in advance. Following any recent internal discussions or media speculation regarding the timing of the SNP's autumn conference, the party leadership may opt to make an official announcement today to clarify their calendar and prepare for the event.",
+            "result": "WON",
+            "settled_at": "2026-08-21"
+        },
+        {
+            "id": "20260819003",
+            "title": "Will Network Rail today announce any new service disruptions or significant engineering works planned for the upcoming bank holiday weekend?",
+            "payout": 1.46,
+            "desc": "Network Rail regularly issues updates on planned maintenance and potential disruptions to the rail network, especially ahead of busy periods like bank holidays. To manage passenger expectations and allow for alternative travel arrangements, an announcement regarding major works or service changes for an upcoming long weekend could be made today.",
+            "result": "WON",
+            "settled_at": "2026-08-21"
+        },
+        {
+            "id": "20260819004",
+            "title": "Will the EU Commission today announce the imposition of new sanctions targeting specific individuals or entities in 'Country Z' over alleged human rights abuses?",
+            "payout": 1.73,
+            "desc": "Following recent strong condemnation from EU officials and increasing international pressure regarding human rights concerns in 'Country Z', the EU Commission may conclude its internal deliberations today. A formal announcement of new targeted sanctions is plausible as a direct response to these alleged abuses.",
+            "result": "LOST",
+            "settled_at": "2026-08-21"
+        },
+        {
+            "id": "20260819005",
+            "title": "Will the International Committee of the Red Cross (ICRC) today confirm the successful passage of a humanitarian aid convoy into the besieged 'City Y' in 'Conflict Zone C'?",
+            "payout": 2.11,
+            "desc": "With renewed efforts for de-escalation or ceasefire negotiations in 'Conflict Zone C' (as potentially established yesterday), humanitarian access would be an immediate priority. The ICRC often confirms successful aid deliveries quickly, and a breakthrough for the besieged 'City Y' could be announced today if arrangements were facilitated overnight.",
+            "result": "LOST",
+            "settled_at": "2026-08-21"
         }
     ],
-    "last_update": "2026-08-19 00:44"
+    "last_update": "2026-08-21 00:49"
 }
