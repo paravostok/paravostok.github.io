@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260822001",
-            "title": "Will the UK Government today officially announce a new round of targeted financial support for businesses in the hospitality sector?",
-            "payout": 2.38,
-            "desc": "Following recent industry calls for assistance amidst rising operational costs and potential new regulations, the government may opt to announce a new support package today to address concerns and stabilize a key sector, potentially in a scheduled press conference or statement."
+            "id": "20260823001",
+            "title": "Will a UK Cabinet minister today officially announce their resignation or be dismissed from their post?",
+            "payout": 4.75,
+            "desc": "Amidst ongoing speculation about internal party divisions and recent media scrutiny over policy direction, a significant shake-up in the UK Cabinet could occur today, potentially signaled by an official statement or a No. 10 announcement. Rumours of discontent have been intensifying."
         },
         {
-            "id": "20260822002",
-            "title": "Will the Scottish Government today confirm a specific new date for the publication of its updated independence prospectus?",
+            "id": "20260823002",
+            "title": "Will the Scottish Government today officially confirm a complete U-turn on its highly contentious national recycling scheme?",
             "payout": 2.71,
-            "desc": "With the debate on Scotland's constitutional future ongoing and previous deadlines for policy papers having passed, there's pressure for the Scottish Government to provide clarity. An announcement of a new publication date could be made today to re-energize the independence campaign."
+            "desc": "Following mounting public criticism and a recent critical report on the rollout and efficacy of the national recycling scheme, pressure on the Scottish Government has intensified. An announcement reversing or significantly altering the scheme could be made today to appease protestors and stakeholders."
         },
         {
-            "id": "20260822003",
-            "title": "Will Network Rail today issue a 'do not travel' warning for any major train line in England due to forecasted adverse weather conditions?",
-            "payout": 2.11,
-            "desc": "With weather patterns becoming increasingly unpredictable and severe, transport operators frequently issue warnings. If significant storms or extreme temperatures are forecast for later today or overnight, Network Rail might issue a preemptive 'do not travel' advisory for passenger safety and operational planning."
+            "id": "20260823003",
+            "title": "Will the Secretary of State for Transport today announce a specific new delay to a segment of the HS2 project?",
+            "payout": 2.38,
+            "desc": "With persistent concerns over budget and timeline, HS2 remains a subject of intense scrutiny. Reports suggest new engineering challenges or funding issues could lead to further setbacks. A ministerial statement or press conference today might address these, confirming a specific new delay to a planned section of the line."
         },
         {
-            "id": "20260822004",
-            "title": "Will the G7 nations today release a joint statement calling for immediate de-escalation of tensions in the South China Sea?",
+            "id": "20260823004",
+            "title": "Will the European Union today issue formal, new economic sanctions against a non-member state for human rights violations?",
             "payout": 3.8,
-            "desc": "As geopolitical tensions continue in the region, the G7 often convenes to discuss global stability. Following recent naval exercises or diplomatic exchanges, a collective statement could be released today to signal unified international concern and pressure for peaceful resolution."
+            "desc": "Following recent reports of severe human rights abuses in a specific non-EU country, and increasing pressure from NGOs and member states, the EU might today formally announce a new package of economic sanctions. Discussions at an emergency meeting could culminate in a decision and public statement today."
         },
         {
-            "id": "20260822005",
-            "title": "Will the World Health Organization (WHO) today issue an updated, higher alert level for a newly identified infectious disease outbreak?",
-            "payout": 1.58,
-            "desc": "Given the continuous monitoring of global health threats, the WHO frequently updates its assessments. If new data on transmissibility or severity of a recent outbreak emerged overnight or early today, an immediate upward revision of the alert level would be expected to mobilize international response."
+            "id": "20260823005",
+            "title": "Will a UN special envoy today officially confirm a newly negotiated 24-hour humanitarian ceasefire in the disputed region of Azmar?",
+            "payout": 3.17,
+            "desc": "Amidst escalating conflict and a worsening humanitarian crisis in the Azmar region, UN mediators have been working intensely on a de-escalation agreement. A breakthrough could see a UN special envoy making an announcement today, confirming a temporary halt to hostilities to allow aid delivery."
         }
     ],
     "history": [
@@ -4601,7 +4601,47 @@
             "desc": "If hostilities in 'Region X' have escalated or taken a new concerning turn recently (as might have been reported yesterday), the UN Security Council could convene or finalize deliberations today. A new joint resolution or a strong statement might be issued to reflect international condemnation and call for de-escalation, especially if diplomatic efforts have intensified.",
             "result": "LOST",
             "settled_at": "2026-08-22"
+        },
+        {
+            "id": "20260822001",
+            "title": "Will the UK Government today officially announce a new round of targeted financial support for businesses in the hospitality sector?",
+            "payout": 2.38,
+            "desc": "Following recent industry calls for assistance amidst rising operational costs and potential new regulations, the government may opt to announce a new support package today to address concerns and stabilize a key sector, potentially in a scheduled press conference or statement.",
+            "result": "LOST",
+            "settled_at": "2026-08-23"
+        },
+        {
+            "id": "20260822002",
+            "title": "Will the Scottish Government today confirm a specific new date for the publication of its updated independence prospectus?",
+            "payout": 2.71,
+            "desc": "With the debate on Scotland's constitutional future ongoing and previous deadlines for policy papers having passed, there's pressure for the Scottish Government to provide clarity. An announcement of a new publication date could be made today to re-energize the independence campaign.",
+            "result": "LOST",
+            "settled_at": "2026-08-23"
+        },
+        {
+            "id": "20260822003",
+            "title": "Will Network Rail today issue a 'do not travel' warning for any major train line in England due to forecasted adverse weather conditions?",
+            "payout": 2.11,
+            "desc": "With weather patterns becoming increasingly unpredictable and severe, transport operators frequently issue warnings. If significant storms or extreme temperatures are forecast for later today or overnight, Network Rail might issue a preemptive 'do not travel' advisory for passenger safety and operational planning.",
+            "result": "LOST",
+            "settled_at": "2026-08-23"
+        },
+        {
+            "id": "20260822004",
+            "title": "Will the G7 nations today release a joint statement calling for immediate de-escalation of tensions in the South China Sea?",
+            "payout": 3.8,
+            "desc": "As geopolitical tensions continue in the region, the G7 often convenes to discuss global stability. Following recent naval exercises or diplomatic exchanges, a collective statement could be released today to signal unified international concern and pressure for peaceful resolution.",
+            "result": "LOST",
+            "settled_at": "2026-08-23"
+        },
+        {
+            "id": "20260822005",
+            "title": "Will the World Health Organization (WHO) today issue an updated, higher alert level for a newly identified infectious disease outbreak?",
+            "payout": 1.58,
+            "desc": "Given the continuous monitoring of global health threats, the WHO frequently updates its assessments. If new data on transmissibility or severity of a recent outbreak emerged overnight or early today, an immediate upward revision of the alert level would be expected to mobilize international response.",
+            "result": "LOST",
+            "settled_at": "2026-08-23"
         }
     ],
-    "last_update": "2026-08-22 00:44"
+    "last_update": "2026-08-23 00:49"
 }
