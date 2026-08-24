@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260823001",
-            "title": "Will a UK Cabinet minister today officially announce their resignation or be dismissed from their post?",
-            "payout": 4.75,
-            "desc": "Amidst ongoing speculation about internal party divisions and recent media scrutiny over policy direction, a significant shake-up in the UK Cabinet could occur today, potentially signaled by an official statement or a No. 10 announcement. Rumours of discontent have been intensifying."
-        },
-        {
-            "id": "20260823002",
-            "title": "Will the Scottish Government today officially confirm a complete U-turn on its highly contentious national recycling scheme?",
-            "payout": 2.71,
-            "desc": "Following mounting public criticism and a recent critical report on the rollout and efficacy of the national recycling scheme, pressure on the Scottish Government has intensified. An announcement reversing or significantly altering the scheme could be made today to appease protestors and stakeholders."
-        },
-        {
-            "id": "20260823003",
-            "title": "Will the Secretary of State for Transport today announce a specific new delay to a segment of the HS2 project?",
+            "id": "20260824001",
+            "title": "Will the UK Home Secretary today announce new legislative measures to tackle rising urban crime rates?",
             "payout": 2.38,
-            "desc": "With persistent concerns over budget and timeline, HS2 remains a subject of intense scrutiny. Reports suggest new engineering challenges or funding issues could lead to further setbacks. A ministerial statement or press conference today might address these, confirming a specific new delay to a planned section of the line."
+            "desc": "Following a recent surge in official crime statistics released over the weekend and increasing public pressure, the government is under scrutiny. The Home Secretary may make an urgent statement today outlining new policy or legislative responses to reassure the public and demonstrate decisive action."
         },
         {
-            "id": "20260823004",
-            "title": "Will the European Union today issue formal, new economic sanctions against a non-member state for human rights violations?",
-            "payout": 3.8,
-            "desc": "Following recent reports of severe human rights abuses in a specific non-EU country, and increasing pressure from NGOs and member states, the EU might today formally announce a new package of economic sanctions. Discussions at an emergency meeting could culminate in a decision and public statement today."
+            "id": "20260824002",
+            "title": "Will the Scottish First Minister today confirm a date for a new public inquiry into the recent ferry procurement delays?",
+            "payout": 2.71,
+            "desc": "Pressure has mounted significantly on the Scottish Government regarding ongoing delays and substantial cost overruns for new public ferries. A critical report or a planned parliamentary session today could prompt the First Minister to announce a firm date for a long-demanded public inquiry."
         },
         {
-            "id": "20260823005",
-            "title": "Will a UN special envoy today officially confirm a newly negotiated 24-hour humanitarian ceasefire in the disputed region of Azmar?",
+            "id": "20260824003",
+            "title": "Will Network Rail today confirm the complete suspension of all services on a major segment of the West Coast Main Line for planned engineering works next month?",
+            "payout": 2.11,
+            "desc": "After a weekend of significant operational disruptions and an internal review of track maintenance needs, Network Rail might be compelled to announce critical, pre-emptive service suspensions for a key section of the West Coast Main Line today. This could be to facilitate essential repairs next month, avoiding further last-minute chaos."
+        },
+        {
+            "id": "20260824004",
+            "title": "Will the G7 nations today issue a joint statement condemning recent cyberattacks attributed to a specific state actor?",
+            "payout": 1.9,
+            "desc": "Following widespread reports over the weekend of significant cyberattacks impacting multiple G7 member states, emergency diplomatic consultations are likely to have taken place. A united front is often presented in such scenarios, making a joint statement condemning the responsible state actor highly probable today."
+        },
+        {
+            "id": "20260824005",
+            "title": "Will a spokesperson for the UN peacekeeping mission in Darvan today officially report a significant escalation in border skirmishes?",
             "payout": 3.17,
-            "desc": "Amidst escalating conflict and a worsening humanitarian crisis in the Azmar region, UN mediators have been working intensely on a de-escalation agreement. A breakthrough could see a UN special envoy making an announcement today, confirming a temporary halt to hostilities to allow aid delivery."
+            "desc": "Reports from local media and humanitarian agencies over the past 24 hours indicate a notable increase in cross-border fighting in the volatile Darvan region. The UN mission, tasked with monitoring the security situation, may release an official statement or hold a press briefing today to confirm and detail the deteriorating situation."
         }
     ],
     "history": [
@@ -4641,7 +4641,47 @@
             "desc": "Given the continuous monitoring of global health threats, the WHO frequently updates its assessments. If new data on transmissibility or severity of a recent outbreak emerged overnight or early today, an immediate upward revision of the alert level would be expected to mobilize international response.",
             "result": "LOST",
             "settled_at": "2026-08-23"
+        },
+        {
+            "id": "20260823001",
+            "title": "Will a UK Cabinet minister today officially announce their resignation or be dismissed from their post?",
+            "payout": 4.75,
+            "desc": "Amidst ongoing speculation about internal party divisions and recent media scrutiny over policy direction, a significant shake-up in the UK Cabinet could occur today, potentially signaled by an official statement or a No. 10 announcement. Rumours of discontent have been intensifying.",
+            "result": "LOST",
+            "settled_at": "2026-08-24"
+        },
+        {
+            "id": "20260823002",
+            "title": "Will the Scottish Government today officially confirm a complete U-turn on its highly contentious national recycling scheme?",
+            "payout": 2.71,
+            "desc": "Following mounting public criticism and a recent critical report on the rollout and efficacy of the national recycling scheme, pressure on the Scottish Government has intensified. An announcement reversing or significantly altering the scheme could be made today to appease protestors and stakeholders.",
+            "result": "LOST",
+            "settled_at": "2026-08-24"
+        },
+        {
+            "id": "20260823003",
+            "title": "Will the Secretary of State for Transport today announce a specific new delay to a segment of the HS2 project?",
+            "payout": 2.38,
+            "desc": "With persistent concerns over budget and timeline, HS2 remains a subject of intense scrutiny. Reports suggest new engineering challenges or funding issues could lead to further setbacks. A ministerial statement or press conference today might address these, confirming a specific new delay to a planned section of the line.",
+            "result": "LOST",
+            "settled_at": "2026-08-24"
+        },
+        {
+            "id": "20260823004",
+            "title": "Will the European Union today issue formal, new economic sanctions against a non-member state for human rights violations?",
+            "payout": 3.8,
+            "desc": "Following recent reports of severe human rights abuses in a specific non-EU country, and increasing pressure from NGOs and member states, the EU might today formally announce a new package of economic sanctions. Discussions at an emergency meeting could culminate in a decision and public statement today.",
+            "result": "LOST",
+            "settled_at": "2026-08-24"
+        },
+        {
+            "id": "20260823005",
+            "title": "Will a UN special envoy today officially confirm a newly negotiated 24-hour humanitarian ceasefire in the disputed region of Azmar?",
+            "payout": 3.17,
+            "desc": "Amidst escalating conflict and a worsening humanitarian crisis in the Azmar region, UN mediators have been working intensely on a de-escalation agreement. A breakthrough could see a UN special envoy making an announcement today, confirming a temporary halt to hostilities to allow aid delivery.",
+            "result": "LOST",
+            "settled_at": "2026-08-24"
         }
     ],
-    "last_update": "2026-08-23 00:49"
+    "last_update": "2026-08-24 00:47"
 }
