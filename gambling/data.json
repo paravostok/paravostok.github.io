@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260824001",
-            "title": "Will the UK Home Secretary today announce new legislative measures to tackle rising urban crime rates?",
+            "id": "20260825001",
+            "title": "Will the UK Secretary of State for Education today announce a major review of university tuition fees following recent student protests?",
             "payout": 2.38,
-            "desc": "Following a recent surge in official crime statistics released over the weekend and increasing public pressure, the government is under scrutiny. The Home Secretary may make an urgent statement today outlining new policy or legislative responses to reassure the public and demonstrate decisive action."
+            "desc": "Following widespread student protests over the weekend regarding the cost and value of higher education, there is mounting political pressure on the Department for Education. A significant policy response, such as a major review, could be announced today to address public discontent and demonstrate governmental action."
         },
         {
-            "id": "20260824002",
-            "title": "Will the Scottish First Minister today confirm a date for a new public inquiry into the recent ferry procurement delays?",
-            "payout": 2.71,
-            "desc": "Pressure has mounted significantly on the Scottish Government regarding ongoing delays and substantial cost overruns for new public ferries. A critical report or a planned parliamentary session today could prompt the First Minister to announce a firm date for a long-demanded public inquiry."
+            "id": "20260825002",
+            "title": "Will the Scottish Government today confirm the re-opening date for the Edinburgh-Glasgow rail link following extended safety checks?",
+            "payout": 1.58,
+            "desc": "The vital Edinburgh-Glasgow rail link has been closed for several weeks due to extensive safety checks, causing significant commuter disruption. With public patience wearing thin, senior transport officials and the Scottish Government are under pressure to provide clarity. An announcement confirming a definitive re-opening date is highly anticipated today."
         },
         {
-            "id": "20260824003",
-            "title": "Will Network Rail today confirm the complete suspension of all services on a major segment of the West Coast Main Line for planned engineering works next month?",
+            "id": "20260825003",
+            "title": "Will HS2 Ltd today issue a revised completion timeline for the Birmingham-Crewe leg of the high-speed rail project?",
+            "payout": 1.73,
+            "desc": "Persistent rumours of further delays and escalating costs for the HS2 project's Birmingham-Crewe section have intensified over the past week. Industry insiders suggest that an internal review may compel HS2 Ltd to provide an updated, and potentially revised, completion timeline to the public or key stakeholders by the end of today."
+        },
+        {
+            "id": "20260825004",
+            "title": "Will the EU today announce new targeted sanctions against officials in the Republic of Belesia following reports of electoral interference?",
             "payout": 2.11,
-            "desc": "After a weekend of significant operational disruptions and an internal review of track maintenance needs, Network Rail might be compelled to announce critical, pre-emptive service suspensions for a key section of the West Coast Main Line today. This could be to facilitate essential repairs next month, avoiding further last-minute chaos."
+            "desc": "Following an emergency meeting yesterday to discuss findings from international observer missions concerning recent elections in the Republic of Belesia, which alleged widespread interference, the European Union is expected to consider a strong diplomatic response. An announcement of new targeted sanctions against specific Belesian officials could be made today."
         },
         {
-            "id": "20260824004",
-            "title": "Will the G7 nations today issue a joint statement condemning recent cyberattacks attributed to a specific state actor?",
-            "payout": 1.9,
-            "desc": "Following widespread reports over the weekend of significant cyberattacks impacting multiple G7 member states, emergency diplomatic consultations are likely to have taken place. A united front is often presented in such scenarios, making a joint statement condemning the responsible state actor highly probable today."
-        },
-        {
-            "id": "20260824005",
-            "title": "Will a spokesperson for the UN peacekeeping mission in Darvan today officially report a significant escalation in border skirmishes?",
-            "payout": 3.17,
-            "desc": "Reports from local media and humanitarian agencies over the past 24 hours indicate a notable increase in cross-border fighting in the volatile Darvan region. The UN mission, tasked with monitoring the security situation, may release an official statement or hold a press briefing today to confirm and detail the deteriorating situation."
+            "id": "20260825005",
+            "title": "Will the UN Special Envoy for the Zarkana conflict today confirm that a 24-hour humanitarian ceasefire has been agreed upon?",
+            "payout": 2.71,
+            "desc": "Intense diplomatic efforts have been underway, spearheaded by the UN Special Envoy, to secure a humanitarian ceasefire in the conflict-ridden region of Zarkana. Reports from sources close to the negotiations suggest a breakthrough might be imminent, with an official confirmation of a short-term ceasefire for aid delivery potentially being announced today."
         }
     ],
     "history": [
@@ -4681,7 +4681,47 @@
             "desc": "Amidst escalating conflict and a worsening humanitarian crisis in the Azmar region, UN mediators have been working intensely on a de-escalation agreement. A breakthrough could see a UN special envoy making an announcement today, confirming a temporary halt to hostilities to allow aid delivery.",
             "result": "LOST",
             "settled_at": "2026-08-24"
+        },
+        {
+            "id": "20260824001",
+            "title": "Will the UK Home Secretary today announce new legislative measures to tackle rising urban crime rates?",
+            "payout": 2.38,
+            "desc": "Following a recent surge in official crime statistics released over the weekend and increasing public pressure, the government is under scrutiny. The Home Secretary may make an urgent statement today outlining new policy or legislative responses to reassure the public and demonstrate decisive action.",
+            "result": "LOST",
+            "settled_at": "2026-08-25"
+        },
+        {
+            "id": "20260824002",
+            "title": "Will the Scottish First Minister today confirm a date for a new public inquiry into the recent ferry procurement delays?",
+            "payout": 2.71,
+            "desc": "Pressure has mounted significantly on the Scottish Government regarding ongoing delays and substantial cost overruns for new public ferries. A critical report or a planned parliamentary session today could prompt the First Minister to announce a firm date for a long-demanded public inquiry.",
+            "result": "WON",
+            "settled_at": "2026-08-25"
+        },
+        {
+            "id": "20260824003",
+            "title": "Will Network Rail today confirm the complete suspension of all services on a major segment of the West Coast Main Line for planned engineering works next month?",
+            "payout": 2.11,
+            "desc": "After a weekend of significant operational disruptions and an internal review of track maintenance needs, Network Rail might be compelled to announce critical, pre-emptive service suspensions for a key section of the West Coast Main Line today. This could be to facilitate essential repairs next month, avoiding further last-minute chaos.",
+            "result": "WON",
+            "settled_at": "2026-08-25"
+        },
+        {
+            "id": "20260824004",
+            "title": "Will the G7 nations today issue a joint statement condemning recent cyberattacks attributed to a specific state actor?",
+            "payout": 1.9,
+            "desc": "Following widespread reports over the weekend of significant cyberattacks impacting multiple G7 member states, emergency diplomatic consultations are likely to have taken place. A united front is often presented in such scenarios, making a joint statement condemning the responsible state actor highly probable today.",
+            "result": "WON",
+            "settled_at": "2026-08-25"
+        },
+        {
+            "id": "20260824005",
+            "title": "Will a spokesperson for the UN peacekeeping mission in Darvan today officially report a significant escalation in border skirmishes?",
+            "payout": 3.17,
+            "desc": "Reports from local media and humanitarian agencies over the past 24 hours indicate a notable increase in cross-border fighting in the volatile Darvan region. The UN mission, tasked with monitoring the security situation, may release an official statement or hold a press briefing today to confirm and detail the deteriorating situation.",
+            "result": "LOST",
+            "settled_at": "2026-08-25"
         }
     ],
-    "last_update": "2026-08-24 00:47"
+    "last_update": "2026-08-25 00:45"
 }
