@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260825001",
-            "title": "Will the UK Secretary of State for Education today announce a major review of university tuition fees following recent student protests?",
-            "payout": 2.38,
-            "desc": "Following widespread student protests over the weekend regarding the cost and value of higher education, there is mounting political pressure on the Department for Education. A significant policy response, such as a major review, could be announced today to address public discontent and demonstrate governmental action."
-        },
-        {
-            "id": "20260825002",
-            "title": "Will the Scottish Government today confirm the re-opening date for the Edinburgh-Glasgow rail link following extended safety checks?",
+            "id": "20260826001",
+            "title": "Will the Secretary of State for Health and Social Care issue a public apology today regarding comments made yesterday about NHS waiting lists?",
             "payout": 1.58,
-            "desc": "The vital Edinburgh-Glasgow rail link has been closed for several weeks due to extensive safety checks, causing significant commuter disruption. With public patience wearing thin, senior transport officials and the Scottish Government are under pressure to provide clarity. An announcement confirming a definitive re-opening date is highly anticipated today."
+            "desc": "Following significant backlash and calls for clarification from opposition parties and medical bodies regarding remarks made yesterday, political analysts believe the Secretary of State is under intense pressure to issue a public apology or comprehensive retraction by the end of today."
         },
         {
-            "id": "20260825003",
-            "title": "Will HS2 Ltd today issue a revised completion timeline for the Birmingham-Crewe leg of the high-speed rail project?",
-            "payout": 1.73,
-            "desc": "Persistent rumours of further delays and escalating costs for the HS2 project's Birmingham-Crewe section have intensified over the past week. Industry insiders suggest that an internal review may compel HS2 Ltd to provide an updated, and potentially revised, completion timeline to the public or key stakeholders by the end of today."
+            "id": "20260826002",
+            "title": "Will the First Minister of Scotland today rule out a snap Holyrood election before the end of the year?",
+            "payout": 1.9,
+            "desc": "Amid increasing media speculation sparked by recent polling figures and internal party discussions, the First Minister is expected to address reporters today, with many anticipating a definitive statement to either quell or fuel rumours of an early election."
         },
         {
-            "id": "20260825004",
-            "title": "Will the EU today announce new targeted sanctions against officials in the Republic of Belesia following reports of electoral interference?",
-            "payout": 2.11,
-            "desc": "Following an emergency meeting yesterday to discuss findings from international observer missions concerning recent elections in the Republic of Belesia, which alleged widespread interference, the European Union is expected to consider a strong diplomatic response. An announcement of new targeted sanctions against specific Belesian officials could be made today."
+            "id": "20260826003",
+            "title": "Will Transport for London (TfL) today confirm a delay to the planned fare increase scheduled for early 2027?",
+            "payout": 2.38,
+            "desc": "Sources close to City Hall indicate that mounting public pressure, combined with new economic forecasts showing a potential slowdown, may compel TfL to announce a postponement of the upcoming fare increase, with an official statement potentially due today."
         },
         {
-            "id": "20260825005",
-            "title": "Will the UN Special Envoy for the Zarkana conflict today confirm that a 24-hour humanitarian ceasefire has been agreed upon?",
-            "payout": 2.71,
-            "desc": "Intense diplomatic efforts have been underway, spearheaded by the UN Special Envoy, to secure a humanitarian ceasefire in the conflict-ridden region of Zarkana. Reports from sources close to the negotiations suggest a breakthrough might be imminent, with an official confirmation of a short-term ceasefire for aid delivery potentially being announced today."
+            "id": "20260826004",
+            "title": "Will the G7 leaders, meeting virtually today, issue a joint statement condemning the recent cyberattacks attributed to State X?",
+            "payout": 1.36,
+            "desc": "With a scheduled virtual meeting of G7 leaders today, cyber security is high on the agenda following a series of sophisticated cyberattacks targeting critical infrastructure across several member states. A strong, unified condemnation against the suspected perpetrator is widely anticipated."
+        },
+        {
+            "id": "20260826005",
+            "title": "Will the International Red Cross today announce the successful delivery of critical medical aid to the besieged region of Veridia?",
+            "payout": 3.17,
+            "desc": "Despite ongoing hostilities, reports from diplomatic channels suggested a fragile agreement for a humanitarian corridor to the besieged region of Veridia was established overnight. The International Red Cross is expected to provide an urgent update today on whether their teams successfully delivered vital medical supplies."
         }
     ],
     "history": [
@@ -4721,7 +4721,47 @@
             "desc": "Reports from local media and humanitarian agencies over the past 24 hours indicate a notable increase in cross-border fighting in the volatile Darvan region. The UN mission, tasked with monitoring the security situation, may release an official statement or hold a press briefing today to confirm and detail the deteriorating situation.",
             "result": "LOST",
             "settled_at": "2026-08-25"
+        },
+        {
+            "id": "20260825001",
+            "title": "Will the UK Secretary of State for Education today announce a major review of university tuition fees following recent student protests?",
+            "payout": 2.38,
+            "desc": "Following widespread student protests over the weekend regarding the cost and value of higher education, there is mounting political pressure on the Department for Education. A significant policy response, such as a major review, could be announced today to address public discontent and demonstrate governmental action.",
+            "result": "LOST",
+            "settled_at": "2026-08-26"
+        },
+        {
+            "id": "20260825002",
+            "title": "Will the Scottish Government today confirm the re-opening date for the Edinburgh-Glasgow rail link following extended safety checks?",
+            "payout": 1.58,
+            "desc": "The vital Edinburgh-Glasgow rail link has been closed for several weeks due to extensive safety checks, causing significant commuter disruption. With public patience wearing thin, senior transport officials and the Scottish Government are under pressure to provide clarity. An announcement confirming a definitive re-opening date is highly anticipated today.",
+            "result": "WON",
+            "settled_at": "2026-08-26"
+        },
+        {
+            "id": "20260825003",
+            "title": "Will HS2 Ltd today issue a revised completion timeline for the Birmingham-Crewe leg of the high-speed rail project?",
+            "payout": 1.73,
+            "desc": "Persistent rumours of further delays and escalating costs for the HS2 project's Birmingham-Crewe section have intensified over the past week. Industry insiders suggest that an internal review may compel HS2 Ltd to provide an updated, and potentially revised, completion timeline to the public or key stakeholders by the end of today.",
+            "result": "WON",
+            "settled_at": "2026-08-26"
+        },
+        {
+            "id": "20260825004",
+            "title": "Will the EU today announce new targeted sanctions against officials in the Republic of Belesia following reports of electoral interference?",
+            "payout": 2.11,
+            "desc": "Following an emergency meeting yesterday to discuss findings from international observer missions concerning recent elections in the Republic of Belesia, which alleged widespread interference, the European Union is expected to consider a strong diplomatic response. An announcement of new targeted sanctions against specific Belesian officials could be made today.",
+            "result": "WON",
+            "settled_at": "2026-08-26"
+        },
+        {
+            "id": "20260825005",
+            "title": "Will the UN Special Envoy for the Zarkana conflict today confirm that a 24-hour humanitarian ceasefire has been agreed upon?",
+            "payout": 2.71,
+            "desc": "Intense diplomatic efforts have been underway, spearheaded by the UN Special Envoy, to secure a humanitarian ceasefire in the conflict-ridden region of Zarkana. Reports from sources close to the negotiations suggest a breakthrough might be imminent, with an official confirmation of a short-term ceasefire for aid delivery potentially being announced today.",
+            "result": "LOST",
+            "settled_at": "2026-08-26"
         }
     ],
-    "last_update": "2026-08-25 00:45"
+    "last_update": "2026-08-26 00:47"
 }
