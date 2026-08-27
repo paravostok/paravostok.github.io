@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260826001",
-            "title": "Will the Secretary of State for Health and Social Care issue a public apology today regarding comments made yesterday about NHS waiting lists?",
+            "id": "20260827001",
+            "title": "Will the Secretary of State for Education resign from their post by the end of today?",
+            "payout": 2.71,
+            "desc": "Following yesterday's critical report on school funding and growing backbench dissent within the ruling party, speculation is rife that the Secretary of State might tender their resignation to protect the Prime Minister from further political damage. An announcement could come today."
+        },
+        {
+            "id": "20260827002",
+            "title": "Will the Scottish Government today announce a public inquiry into the recent delays in NHS Scotland's new hospital project?",
+            "payout": 2.11,
+            "desc": "Following widespread media criticism and opposition calls regarding significant cost overruns and delays in a flagship hospital project, the Scottish Government is under intense pressure to act. An announcement regarding a formal inquiry might be made today to address mounting public concerns."
+        },
+        {
+            "id": "20260827003",
+            "title": "Will HS2 Ltd. today confirm the award of the remaining major civil engineering contracts for the Birmingham to Crewe leg (Phase 2a)?",
             "payout": 1.58,
-            "desc": "Following significant backlash and calls for clarification from opposition parties and medical bodies regarding remarks made yesterday, political analysts believe the Secretary of State is under intense pressure to issue a public apology or comprehensive retraction by the end of today."
+            "desc": "With previous stages progressing, industry insiders have been anticipating the formal announcement of these significant contracts, which are crucial for the next phase of construction. Sources suggest an official confirmation could be released today, marking a key milestone for the project."
         },
         {
-            "id": "20260826002",
-            "title": "Will the First Minister of Scotland today rule out a snap Holyrood election before the end of the year?",
-            "payout": 1.9,
-            "desc": "Amid increasing media speculation sparked by recent polling figures and internal party discussions, the First Minister is expected to address reporters today, with many anticipating a definitive statement to either quell or fuel rumours of an early election."
-        },
-        {
-            "id": "20260826003",
-            "title": "Will Transport for London (TfL) today confirm a delay to the planned fare increase scheduled for early 2027?",
+            "id": "20260827004",
+            "title": "Will the UN Security Council, meeting in an emergency session today, pass a resolution condemning military actions in the disputed territory of Novad?",
             "payout": 2.38,
-            "desc": "Sources close to City Hall indicate that mounting public pressure, combined with new economic forecasts showing a potential slowdown, may compel TfL to announce a postponement of the upcoming fare increase, with an official statement potentially due today."
+            "desc": "An emergency session of the UN Security Council has been called following escalating military actions in Novad overnight. While consensus is often difficult among member states, the severity of the situation and widespread international alarm might push for a joint condemnation today."
         },
         {
-            "id": "20260826004",
-            "title": "Will the G7 leaders, meeting virtually today, issue a joint statement condemning the recent cyberattacks attributed to State X?",
-            "payout": 1.36,
-            "desc": "With a scheduled virtual meeting of G7 leaders today, cyber security is high on the agenda following a series of sophisticated cyberattacks targeting critical infrastructure across several member states. A strong, unified condemnation against the suspected perpetrator is widely anticipated."
-        },
-        {
-            "id": "20260826005",
-            "title": "Will the International Red Cross today announce the successful delivery of critical medical aid to the besieged region of Veridia?",
+            "id": "20260827005",
+            "title": "Will the warring factions in the Solarian Civil War today agree to a 24-hour humanitarian ceasefire brokered by the regional bloc?",
             "payout": 3.17,
-            "desc": "Despite ongoing hostilities, reports from diplomatic channels suggested a fragile agreement for a humanitarian corridor to the besieged region of Veridia was established overnight. The International Red Cross is expected to provide an urgent update today on whether their teams successfully delivered vital medical supplies."
+            "desc": "Intense negotiations have reportedly been underway for 72 hours, led by the ECOWAS regional bloc, to secure a temporary ceasefire to allow crucial aid delivery. Diplomatic sources suggest a breakthrough is imminent, with an announcement potentially scheduled for later today."
         }
     ],
     "history": [
@@ -4761,7 +4761,47 @@
             "desc": "Intense diplomatic efforts have been underway, spearheaded by the UN Special Envoy, to secure a humanitarian ceasefire in the conflict-ridden region of Zarkana. Reports from sources close to the negotiations suggest a breakthrough might be imminent, with an official confirmation of a short-term ceasefire for aid delivery potentially being announced today.",
             "result": "LOST",
             "settled_at": "2026-08-26"
+        },
+        {
+            "id": "20260826001",
+            "title": "Will the Secretary of State for Health and Social Care issue a public apology today regarding comments made yesterday about NHS waiting lists?",
+            "payout": 1.58,
+            "desc": "Following significant backlash and calls for clarification from opposition parties and medical bodies regarding remarks made yesterday, political analysts believe the Secretary of State is under intense pressure to issue a public apology or comprehensive retraction by the end of today.",
+            "result": "WON",
+            "settled_at": "2026-08-27"
+        },
+        {
+            "id": "20260826002",
+            "title": "Will the First Minister of Scotland today rule out a snap Holyrood election before the end of the year?",
+            "payout": 1.9,
+            "desc": "Amid increasing media speculation sparked by recent polling figures and internal party discussions, the First Minister is expected to address reporters today, with many anticipating a definitive statement to either quell or fuel rumours of an early election.",
+            "result": "WON",
+            "settled_at": "2026-08-27"
+        },
+        {
+            "id": "20260826003",
+            "title": "Will Transport for London (TfL) today confirm a delay to the planned fare increase scheduled for early 2027?",
+            "payout": 2.38,
+            "desc": "Sources close to City Hall indicate that mounting public pressure, combined with new economic forecasts showing a potential slowdown, may compel TfL to announce a postponement of the upcoming fare increase, with an official statement potentially due today.",
+            "result": "WON",
+            "settled_at": "2026-08-27"
+        },
+        {
+            "id": "20260826004",
+            "title": "Will the G7 leaders, meeting virtually today, issue a joint statement condemning the recent cyberattacks attributed to State X?",
+            "payout": 1.36,
+            "desc": "With a scheduled virtual meeting of G7 leaders today, cyber security is high on the agenda following a series of sophisticated cyberattacks targeting critical infrastructure across several member states. A strong, unified condemnation against the suspected perpetrator is widely anticipated.",
+            "result": "WON",
+            "settled_at": "2026-08-27"
+        },
+        {
+            "id": "20260826005",
+            "title": "Will the International Red Cross today announce the successful delivery of critical medical aid to the besieged region of Veridia?",
+            "payout": 3.17,
+            "desc": "Despite ongoing hostilities, reports from diplomatic channels suggested a fragile agreement for a humanitarian corridor to the besieged region of Veridia was established overnight. The International Red Cross is expected to provide an urgent update today on whether their teams successfully delivered vital medical supplies.",
+            "result": "LOST",
+            "settled_at": "2026-08-27"
         }
     ],
-    "last_update": "2026-08-26 00:47"
+    "last_update": "2026-08-27 05:59"
 }
