@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260827001",
-            "title": "Will the Secretary of State for Education resign from their post by the end of today?",
-            "payout": 2.71,
-            "desc": "Following yesterday's critical report on school funding and growing backbench dissent within the ruling party, speculation is rife that the Secretary of State might tender their resignation to protect the Prime Minister from further political damage. An announcement could come today."
-        },
-        {
-            "id": "20260827002",
-            "title": "Will the Scottish Government today announce a public inquiry into the recent delays in NHS Scotland's new hospital project?",
-            "payout": 2.11,
-            "desc": "Following widespread media criticism and opposition calls regarding significant cost overruns and delays in a flagship hospital project, the Scottish Government is under intense pressure to act. An announcement regarding a formal inquiry might be made today to address mounting public concerns."
-        },
-        {
-            "id": "20260827003",
-            "title": "Will HS2 Ltd. today confirm the award of the remaining major civil engineering contracts for the Birmingham to Crewe leg (Phase 2a)?",
-            "payout": 1.58,
-            "desc": "With previous stages progressing, industry insiders have been anticipating the formal announcement of these significant contracts, which are crucial for the next phase of construction. Sources suggest an official confirmation could be released today, marking a key milestone for the project."
-        },
-        {
-            "id": "20260827004",
-            "title": "Will the UN Security Council, meeting in an emergency session today, pass a resolution condemning military actions in the disputed territory of Novad?",
+            "id": "20260828001",
+            "title": "Will the Secretary of State for Health and Social Care today announce new measures to address the GP shortage crisis?",
             "payout": 2.38,
-            "desc": "An emergency session of the UN Security Council has been called following escalating military actions in Novad overnight. While consensus is often difficult among member states, the severity of the situation and widespread international alarm might push for a joint condemnation today."
+            "desc": "Pressure has been mounting on the government after recent figures showed record low GP numbers and increasing patient wait times. Sources close to the department suggest a significant policy announcement could be made today to address the ongoing crisis, possibly during a scheduled morning press conference."
         },
         {
-            "id": "20260827005",
-            "title": "Will the warring factions in the Solarian Civil War today agree to a 24-hour humanitarian ceasefire brokered by the regional bloc?",
-            "payout": 3.17,
-            "desc": "Intense negotiations have reportedly been underway for 72 hours, led by the ECOWAS regional bloc, to secure a temporary ceasefire to allow crucial aid delivery. Diplomatic sources suggest a breakthrough is imminent, with an announcement potentially scheduled for later today."
+            "id": "20260828002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
+            "payout": 1.36,
+            "desc": "With the Scottish Parliament recess drawing to a close, political parties are finalising their schedules. Speculation is rife that the SNP leadership will use today to officially announce the dates and venue for their crucial autumn conference, where key policy debates are expected."
+        },
+        {
+            "id": "20260828003",
+            "title": "Will the Department for Transport today officially approve funding for the proposed 'Midlands Gateway' rail freight hub?",
+            "payout": 2.71,
+            "desc": "A decision on the multi-million-pound 'Midlands Gateway' rail freight hub has been pending for several months, causing uncertainty for logistics firms and local councils. Industry insiders and local MPs have indicated that a final funding approval from the DfT could be announced today, marking a key investment in the region's infrastructure."
+        },
+        {
+            "id": "20260828004",
+            "title": "Will the European Central Bank (ECB) today announce an emergency interest rate hike in response to surging inflation data?",
+            "payout": 3.8,
+            "desc": "Following yesterday's release of unexpectedly high Eurozone inflation figures, markets are bracing for a potential intervention. Analysts are widely speculating that the ECB might convene an emergency meeting or issue an unscheduled statement today to announce an interest rate hike, aiming to curb persistent price rises."
+        },
+        {
+            "id": "20260828005",
+            "title": "Will the UN Special Envoy for Sudan today confirm a temporary cessation of hostilities in Darfur for aid access?",
+            "payout": 1.58,
+            "desc": "Intense diplomatic efforts, led by the UN Special Envoy, have reportedly been underway for 48 hours to secure a humanitarian ceasefire in Darfur, where civilians are facing acute shortages. Sources within the negotiating teams suggest a breakthrough is imminent, with the Envoy expected to make an announcement today."
         }
     ],
     "history": [
@@ -4801,7 +4801,47 @@
             "desc": "Despite ongoing hostilities, reports from diplomatic channels suggested a fragile agreement for a humanitarian corridor to the besieged region of Veridia was established overnight. The International Red Cross is expected to provide an urgent update today on whether their teams successfully delivered vital medical supplies.",
             "result": "LOST",
             "settled_at": "2026-08-27"
+        },
+        {
+            "id": "20260827001",
+            "title": "Will the Secretary of State for Education resign from their post by the end of today?",
+            "payout": 2.71,
+            "desc": "Following yesterday's critical report on school funding and growing backbench dissent within the ruling party, speculation is rife that the Secretary of State might tender their resignation to protect the Prime Minister from further political damage. An announcement could come today.",
+            "result": "LOST",
+            "settled_at": "2026-08-28"
+        },
+        {
+            "id": "20260827002",
+            "title": "Will the Scottish Government today announce a public inquiry into the recent delays in NHS Scotland's new hospital project?",
+            "payout": 2.11,
+            "desc": "Following widespread media criticism and opposition calls regarding significant cost overruns and delays in a flagship hospital project, the Scottish Government is under intense pressure to act. An announcement regarding a formal inquiry might be made today to address mounting public concerns.",
+            "result": "LOST",
+            "settled_at": "2026-08-28"
+        },
+        {
+            "id": "20260827003",
+            "title": "Will HS2 Ltd. today confirm the award of the remaining major civil engineering contracts for the Birmingham to Crewe leg (Phase 2a)?",
+            "payout": 1.58,
+            "desc": "With previous stages progressing, industry insiders have been anticipating the formal announcement of these significant contracts, which are crucial for the next phase of construction. Sources suggest an official confirmation could be released today, marking a key milestone for the project.",
+            "result": "LOST",
+            "settled_at": "2026-08-28"
+        },
+        {
+            "id": "20260827004",
+            "title": "Will the UN Security Council, meeting in an emergency session today, pass a resolution condemning military actions in the disputed territory of Novad?",
+            "payout": 2.38,
+            "desc": "An emergency session of the UN Security Council has been called following escalating military actions in Novad overnight. While consensus is often difficult among member states, the severity of the situation and widespread international alarm might push for a joint condemnation today.",
+            "result": "LOST",
+            "settled_at": "2026-08-28"
+        },
+        {
+            "id": "20260827005",
+            "title": "Will the warring factions in the Solarian Civil War today agree to a 24-hour humanitarian ceasefire brokered by the regional bloc?",
+            "payout": 3.17,
+            "desc": "Intense negotiations have reportedly been underway for 72 hours, led by the ECOWAS regional bloc, to secure a temporary ceasefire to allow crucial aid delivery. Diplomatic sources suggest a breakthrough is imminent, with an announcement potentially scheduled for later today.",
+            "result": "LOST",
+            "settled_at": "2026-08-28"
         }
     ],
-    "last_update": "2026-08-27 05:59"
+    "last_update": "2026-08-28 08:11"
 }
