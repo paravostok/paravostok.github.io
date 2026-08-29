@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260828001",
-            "title": "Will the Secretary of State for Health and Social Care today announce new measures to address the GP shortage crisis?",
-            "payout": 2.38,
-            "desc": "Pressure has been mounting on the government after recent figures showed record low GP numbers and increasing patient wait times. Sources close to the department suggest a significant policy announcement could be made today to address the ongoing crisis, possibly during a scheduled morning press conference."
+            "id": "20260829001",
+            "title": "Will the Chancellor of the Exchequer today issue a statement clarifying the government's position on the upcoming autumn budget tax cuts, following recent media speculation?",
+            "payout": 1.9,
+            "desc": "Pressure has been mounting on the Treasury to provide clarity after conflicting reports emerged in the press regarding the scope and timing of proposed tax cuts in the autumn budget. A statement today could aim to stabilise market expectations and public opinion ahead of the weekend."
         },
         {
-            "id": "20260828002",
-            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
-            "payout": 1.36,
-            "desc": "With the Scottish Parliament recess drawing to a close, political parties are finalising their schedules. Speculation is rife that the SNP leadership will use today to officially announce the dates and venue for their crucial autumn conference, where key policy debates are expected."
-        },
-        {
-            "id": "20260828003",
-            "title": "Will the Department for Transport today officially approve funding for the proposed 'Midlands Gateway' rail freight hub?",
+            "id": "20260829002",
+            "title": "Will the Scottish Green Party today threaten to withdraw from the Bute House Agreement if ongoing policy disagreements with the SNP are not resolved?",
             "payout": 2.71,
-            "desc": "A decision on the multi-million-pound 'Midlands Gateway' rail freight hub has been pending for several months, causing uncertainty for logistics firms and local councils. Industry insiders and local MPs have indicated that a final funding approval from the DfT could be announced today, marking a key investment in the region's infrastructure."
+            "desc": "Sources within the Scottish Parliament indicate growing friction between the SNP and Scottish Green Party over specific environmental and spending policies. A Friday announcement or strong declaration could be used by the Greens to leverage their position or signal a critical point in the coalition's stability."
         },
         {
-            "id": "20260828004",
-            "title": "Will the European Central Bank (ECB) today announce an emergency interest rate hike in response to surging inflation data?",
-            "payout": 3.8,
-            "desc": "Following yesterday's release of unexpectedly high Eurozone inflation figures, markets are bracing for a potential intervention. Analysts are widely speculating that the ECB might convene an emergency meeting or issue an unscheduled statement today to announce an interest rate hike, aiming to curb persistent price rises."
-        },
-        {
-            "id": "20260828005",
-            "title": "Will the UN Special Envoy for Sudan today confirm a temporary cessation of hostilities in Darfur for aid access?",
+            "id": "20260829003",
+            "title": "Will the Department for Transport today officially launch a public consultation for the proposed expansion of Bristol Airport?",
             "payout": 1.58,
-            "desc": "Intense diplomatic efforts, led by the UN Special Envoy, have reportedly been underway for 48 hours to secure a humanitarian ceasefire in Darfur, where civilians are facing acute shortages. Sources within the negotiating teams suggest a breakthrough is imminent, with the Envoy expected to make an announcement today."
+            "desc": "After months of environmental impact assessments and local stakeholder meetings, a decision on the future growth of Bristol Airport is anticipated. Industry observers suggest that the DfT is poised to open a formal public consultation period today, allowing for broader community input on the controversial plans."
+        },
+        {
+            "id": "20260829004",
+            "title": "Will the United Nations Security Council today vote on a new resolution sanctioning a major power for its nuclear proliferation activities?",
+            "payout": 2.38,
+            "desc": "Diplomatic sources at the UN headquarters have suggested that a draft resolution, concerning a specific nation's alleged breaches of nuclear non-proliferation treaties, has been finalised. With urgent calls for action from several member states, a vote could be brought before the Security Council today."
+        },
+        {
+            "id": "20260829005",
+            "title": "Will the President of [fictional nation Y] today accept the terms of a proposed ceasefire agreement brokered by the ECOWAS bloc in the ongoing civil conflict?",
+            "payout": 2.11,
+            "desc": "Intense negotiations have been underway in the capital of [fictional nation X], mediated by the Economic Community of West African States (ECOWAS), to halt the escalating civil conflict in [fictional nation Y]. Reports from negotiating teams indicate that the deadline for the President's decision on the draft ceasefire agreement is set for today."
         }
     ],
     "history": [
@@ -4841,7 +4841,47 @@
             "desc": "Intense negotiations have reportedly been underway for 72 hours, led by the ECOWAS regional bloc, to secure a temporary ceasefire to allow crucial aid delivery. Diplomatic sources suggest a breakthrough is imminent, with an announcement potentially scheduled for later today.",
             "result": "LOST",
             "settled_at": "2026-08-28"
+        },
+        {
+            "id": "20260828001",
+            "title": "Will the Secretary of State for Health and Social Care today announce new measures to address the GP shortage crisis?",
+            "payout": 2.38,
+            "desc": "Pressure has been mounting on the government after recent figures showed record low GP numbers and increasing patient wait times. Sources close to the department suggest a significant policy announcement could be made today to address the ongoing crisis, possibly during a scheduled morning press conference.",
+            "result": "LOST",
+            "settled_at": "2026-08-29"
+        },
+        {
+            "id": "20260828002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
+            "payout": 1.36,
+            "desc": "With the Scottish Parliament recess drawing to a close, political parties are finalising their schedules. Speculation is rife that the SNP leadership will use today to officially announce the dates and venue for their crucial autumn conference, where key policy debates are expected.",
+            "result": "WON",
+            "settled_at": "2026-08-29"
+        },
+        {
+            "id": "20260828003",
+            "title": "Will the Department for Transport today officially approve funding for the proposed 'Midlands Gateway' rail freight hub?",
+            "payout": 2.71,
+            "desc": "A decision on the multi-million-pound 'Midlands Gateway' rail freight hub has been pending for several months, causing uncertainty for logistics firms and local councils. Industry insiders and local MPs have indicated that a final funding approval from the DfT could be announced today, marking a key investment in the region's infrastructure.",
+            "result": "LOST",
+            "settled_at": "2026-08-29"
+        },
+        {
+            "id": "20260828004",
+            "title": "Will the European Central Bank (ECB) today announce an emergency interest rate hike in response to surging inflation data?",
+            "payout": 3.8,
+            "desc": "Following yesterday's release of unexpectedly high Eurozone inflation figures, markets are bracing for a potential intervention. Analysts are widely speculating that the ECB might convene an emergency meeting or issue an unscheduled statement today to announce an interest rate hike, aiming to curb persistent price rises.",
+            "result": "LOST",
+            "settled_at": "2026-08-29"
+        },
+        {
+            "id": "20260828005",
+            "title": "Will the UN Special Envoy for Sudan today confirm a temporary cessation of hostilities in Darfur for aid access?",
+            "payout": 1.58,
+            "desc": "Intense diplomatic efforts, led by the UN Special Envoy, have reportedly been underway for 48 hours to secure a humanitarian ceasefire in Darfur, where civilians are facing acute shortages. Sources within the negotiating teams suggest a breakthrough is imminent, with the Envoy expected to make an announcement today.",
+            "result": "WON",
+            "settled_at": "2026-08-29"
         }
     ],
-    "last_update": "2026-08-28 08:11"
+    "last_update": "2026-08-29 04:56"
 }
