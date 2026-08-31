@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260830001",
-            "title": "Will the Secretary of State for Education today announce new funding for vocational training colleges, following recent pressure from industry groups?",
-            "payout": 1.58,
-            "desc": "Reports suggest that the government is under increasing pressure to address skills gaps in key industries. A significant announcement on vocational training funding could be made today to placate critics and signal a policy shift, potentially during a scheduled public appearance or departmental briefing."
+            "id": "20260831001",
+            "title": "Will the Home Secretary today announce a new set of measures aimed at tackling organised crime, following recent high-profile incidents?",
+            "payout": 1.56,
+            "desc": "After a recent spate of headlines highlighting serious organised crime across the UK, there is public and political pressure for a strong government response. The Home Secretary is scheduled to make a public appearance today, and could use the opportunity to unveil tougher new policies."
         },
         {
-            "id": "20260830002",
-            "title": "Will the Scottish Government today confirm a new official target date for the full rollout of its proposed National Care Service, following recent parliamentary debate?",
-            "payout": 1.73,
-            "desc": "After heated debates in Holyrood and ongoing scrutiny from opposition parties regarding the timeline for the National Care Service, ministers may feel compelled to provide clearer, firmer dates today to quell uncertainty and demonstrate progress on the flagship policy."
+            "id": "20260831002",
+            "title": "Will a spokesperson for the Scottish Government today confirm that negotiations with teaching unions regarding public sector pay have broken down, leading to potential strike action?",
+            "payout": 2.26,
+            "desc": "Reports over the weekend indicated growing dissatisfaction among Scottish teaching unions with the latest government pay offer. A formal announcement today, following further talks or a lack thereof, could confirm that negotiations have stalled, raising the prospect of industrial action."
         },
         {
-            "id": "20260830003",
-            "title": "Will HS2 Ltd. today announce a further delay to the revised completion date for the Birmingham to Crewe leg of HS2, citing ongoing supply chain issues?",
-            "payout": 2.38,
-            "desc": "Industry whispers and leaked internal reports suggest that the high-speed rail project continues to face significant challenges. An update on the Birmingham to Crewe section's timeline is anticipated, and ongoing supply chain disruptions could force HS2 Ltd. to officially confirm another delay today."
+            "id": "20260831003",
+            "title": "Will National Highways today announce an indefinite closure of a section of a major motorway (M1, M4, M6, M25) due to urgent structural repairs?",
+            "payout": 3.39,
+            "desc": "Infrastructure across the UK is under constant strain. Unforeseen structural issues requiring immediate, extensive repairs can lead to sudden, long-term closures. An emergency inspection or recent incident might necessitate such an announcement today, impacting thousands of drivers."
         },
         {
-            "id": "20260830004",
-            "title": "Will the European Central Bank (ECB) today unexpectedly raise its key interest rates, following stronger-than-forecast inflation data from the Eurozone?",
-            "payout": 3.17,
-            "desc": "With recent Eurozone inflation figures surprising analysts on the upside, market speculation is growing about a potential emergency monetary policy response. While unscheduled hikes are rare, the ECB Governing Council could convene today to consider and announce an immediate rate increase to combat inflationary pressures."
+            "id": "20260831004",
+            "title": "Will the International Atomic Energy Agency (IAEA) today issue a new report expressing 'serious concerns' over nuclear facility inspections in [fictional country V]?",
+            "payout": 1.53,
+            "desc": "Ongoing tensions surrounding [fictional country V]'s nuclear program have kept the IAEA under pressure to provide updates. A new inspection report, or preliminary findings, could be released today, with analysts anticipating a critical assessment given recent satellite imagery and intelligence leaks."
         },
         {
-            "id": "20260830005",
-            "title": "Will the G7 nations today issue a joint statement condemning the recent escalation of hostilities in the [fictional region Z] and calling for an immediate ceasefire?",
-            "payout": 1.36,
-            "desc": "Following a weekend of intensified conflict in [fictional region Z] and increasing international alarm, diplomatic sources indicate that G7 leaders have been in urgent consultations. A coordinated, strong condemnation and a clear demand for a ceasefire could be issued today to exert diplomatic pressure."
+            "id": "20260831005",
+            "title": "Will a major international news agency today report a significant cross-border military incursion into [fictional country W] by a neighbouring state?",
+            "payout": 2.71,
+            "desc": "Recent intelligence suggests heightened military activity along the border of [fictional country W] and its neighbour. Tensions are at boiling point, and any confirmed cross-border movement could quickly escalate, with reports potentially breaking today as the situation unfolds."
         }
     ],
     "history": [
@@ -4921,7 +4921,47 @@
             "desc": "Intense negotiations have been underway in the capital of [fictional nation X], mediated by the Economic Community of West African States (ECOWAS), to halt the escalating civil conflict in [fictional nation Y]. Reports from negotiating teams indicate that the deadline for the President's decision on the draft ceasefire agreement is set for today.",
             "result": "LOST",
             "settled_at": "2026-08-30"
+        },
+        {
+            "id": "20260830001",
+            "title": "Will the Secretary of State for Education today announce new funding for vocational training colleges, following recent pressure from industry groups?",
+            "payout": 1.58,
+            "desc": "Reports suggest that the government is under increasing pressure to address skills gaps in key industries. A significant announcement on vocational training funding could be made today to placate critics and signal a policy shift, potentially during a scheduled public appearance or departmental briefing.",
+            "result": "LOST",
+            "settled_at": "2026-08-31"
+        },
+        {
+            "id": "20260830002",
+            "title": "Will the Scottish Government today confirm a new official target date for the full rollout of its proposed National Care Service, following recent parliamentary debate?",
+            "payout": 1.73,
+            "desc": "After heated debates in Holyrood and ongoing scrutiny from opposition parties regarding the timeline for the National Care Service, ministers may feel compelled to provide clearer, firmer dates today to quell uncertainty and demonstrate progress on the flagship policy.",
+            "result": "LOST",
+            "settled_at": "2026-08-31"
+        },
+        {
+            "id": "20260830003",
+            "title": "Will HS2 Ltd. today announce a further delay to the revised completion date for the Birmingham to Crewe leg of HS2, citing ongoing supply chain issues?",
+            "payout": 2.38,
+            "desc": "Industry whispers and leaked internal reports suggest that the high-speed rail project continues to face significant challenges. An update on the Birmingham to Crewe section's timeline is anticipated, and ongoing supply chain disruptions could force HS2 Ltd. to officially confirm another delay today.",
+            "result": "WON",
+            "settled_at": "2026-08-31"
+        },
+        {
+            "id": "20260830004",
+            "title": "Will the European Central Bank (ECB) today unexpectedly raise its key interest rates, following stronger-than-forecast inflation data from the Eurozone?",
+            "payout": 3.17,
+            "desc": "With recent Eurozone inflation figures surprising analysts on the upside, market speculation is growing about a potential emergency monetary policy response. While unscheduled hikes are rare, the ECB Governing Council could convene today to consider and announce an immediate rate increase to combat inflationary pressures.",
+            "result": "LOST",
+            "settled_at": "2026-08-31"
+        },
+        {
+            "id": "20260830005",
+            "title": "Will the G7 nations today issue a joint statement condemning the recent escalation of hostilities in the [fictional region Z] and calling for an immediate ceasefire?",
+            "payout": 1.36,
+            "desc": "Following a weekend of intensified conflict in [fictional region Z] and increasing international alarm, diplomatic sources indicate that G7 leaders have been in urgent consultations. A coordinated, strong condemnation and a clear demand for a ceasefire could be issued today to exert diplomatic pressure.",
+            "result": "WON",
+            "settled_at": "2026-08-31"
         }
     ],
-    "last_update": "2026-08-30 02:42"
+    "last_update": "2026-08-31 02:35"
 }
