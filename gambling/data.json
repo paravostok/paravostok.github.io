@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260831001",
-            "title": "Will the Home Secretary today announce a new set of measures aimed at tackling organised crime, following recent high-profile incidents?",
-            "payout": 1.56,
-            "desc": "After a recent spate of headlines highlighting serious organised crime across the UK, there is public and political pressure for a strong government response. The Home Secretary is scheduled to make a public appearance today, and could use the opportunity to unveil tougher new policies."
+            "id": "20260901001",
+            "title": "Will a senior Cabinet minister today publicly contradict the government's stance on recent economic data, leading to immediate headlines?",
+            "payout": 4.75,
+            "desc": "Following the release of new economic figures yesterday and the government's unified response, there are whispers of internal dissent. A scheduled morning media round by various ministers could provide an opportunity for an unexpected break from the official line, sparking immediate political fallout."
         },
         {
-            "id": "20260831002",
-            "title": "Will a spokesperson for the Scottish Government today confirm that negotiations with teaching unions regarding public sector pay have broken down, leading to potential strike action?",
-            "payout": 2.26,
-            "desc": "Reports over the weekend indicated growing dissatisfaction among Scottish teaching unions with the latest government pay offer. A formal announcement today, following further talks or a lack thereof, could confirm that negotiations have stalled, raising the prospect of industrial action."
+            "id": "20260901002",
+            "title": "Will the Scottish Government today announce an emergency meeting with teaching union representatives in an attempt to avert widespread strike action?",
+            "payout": 1.58,
+            "desc": "Following yesterday's reports of a breakdown in public sector pay negotiations with teaching unions, pressure is mounting on the Scottish Government. A swift announcement of further, urgent talks today would signal an attempt to de-escalate the situation and prevent widespread industrial action."
         },
         {
-            "id": "20260831003",
-            "title": "Will National Highways today announce an indefinite closure of a section of a major motorway (M1, M4, M6, M25) due to urgent structural repairs?",
-            "payout": 3.39,
-            "desc": "Infrastructure across the UK is under constant strain. Unforeseen structural issues requiring immediate, extensive repairs can lead to sudden, long-term closures. An emergency inspection or recent incident might necessitate such an announcement today, impacting thousands of drivers."
+            "id": "20260901003",
+            "title": "Will the Department for Transport today confirm new delays to the delivery timeline for a section of the HS2 high-speed rail project?",
+            "payout": 2.38,
+            "desc": "Reports have circulated regarding unforeseen geological challenges and rising costs affecting parts of the HS2 construction. A scheduled parliamentary statement or a press briefing by a DfT official today could see an official acknowledgment of these issues, leading to a revised, delayed timeline for a specific phase."
         },
         {
-            "id": "20260831004",
-            "title": "Will the International Atomic Energy Agency (IAEA) today issue a new report expressing 'serious concerns' over nuclear facility inspections in [fictional country V]?",
-            "payout": 1.53,
-            "desc": "Ongoing tensions surrounding [fictional country V]'s nuclear program have kept the IAEA under pressure to provide updates. A new inspection report, or preliminary findings, could be released today, with analysts anticipating a critical assessment given recent satellite imagery and intelligence leaks."
+            "id": "20260901004",
+            "title": "Will a spokesperson for the UN Secretary-General today issue a formal statement expressing 'deep concern' over escalating regional tensions in the South China Sea?",
+            "payout": 3.17,
+            "desc": "Recent naval maneuvers and territorial disputes in the South China Sea have seen an increase in international rhetoric. A scheduled daily press briefing at the UN headquarters could provide the platform for the Secretary-General's office to deliver a strongly worded statement, reflecting growing global apprehension."
         },
         {
-            "id": "20260831005",
-            "title": "Will a major international news agency today report a significant cross-border military incursion into [fictional country W] by a neighbouring state?",
-            "payout": 2.71,
-            "desc": "Recent intelligence suggests heightened military activity along the border of [fictional country W] and its neighbour. Tensions are at boiling point, and any confirmed cross-border movement could quickly escalate, with reports potentially breaking today as the situation unfolds."
+            "id": "20260901005",
+            "title": "Will official reports today confirm a significant advancement by either side in the ongoing conflict in [fictional country Z], leading to a shift in territorial control?",
+            "payout": 3.8,
+            "desc": "Military analysts have noted increased activity along a key front in [fictional country Z] overnight. News agencies are awaiting official updates, and a major breakthrough or strategic capture by either government or opposition forces could be confirmed today, dramatically altering the conflict's immediate outlook."
         }
     ],
     "history": [
@@ -4961,7 +4961,47 @@
             "desc": "Following a weekend of intensified conflict in [fictional region Z] and increasing international alarm, diplomatic sources indicate that G7 leaders have been in urgent consultations. A coordinated, strong condemnation and a clear demand for a ceasefire could be issued today to exert diplomatic pressure.",
             "result": "WON",
             "settled_at": "2026-08-31"
+        },
+        {
+            "id": "20260831001",
+            "title": "Will the Home Secretary today announce a new set of measures aimed at tackling organised crime, following recent high-profile incidents?",
+            "payout": 1.56,
+            "desc": "After a recent spate of headlines highlighting serious organised crime across the UK, there is public and political pressure for a strong government response. The Home Secretary is scheduled to make a public appearance today, and could use the opportunity to unveil tougher new policies.",
+            "result": "LOST",
+            "settled_at": "2026-09-01"
+        },
+        {
+            "id": "20260831002",
+            "title": "Will a spokesperson for the Scottish Government today confirm that negotiations with teaching unions regarding public sector pay have broken down, leading to potential strike action?",
+            "payout": 2.26,
+            "desc": "Reports over the weekend indicated growing dissatisfaction among Scottish teaching unions with the latest government pay offer. A formal announcement today, following further talks or a lack thereof, could confirm that negotiations have stalled, raising the prospect of industrial action.",
+            "result": "WON",
+            "settled_at": "2026-09-01"
+        },
+        {
+            "id": "20260831003",
+            "title": "Will National Highways today announce an indefinite closure of a section of a major motorway (M1, M4, M6, M25) due to urgent structural repairs?",
+            "payout": 3.39,
+            "desc": "Infrastructure across the UK is under constant strain. Unforeseen structural issues requiring immediate, extensive repairs can lead to sudden, long-term closures. An emergency inspection or recent incident might necessitate such an announcement today, impacting thousands of drivers.",
+            "result": "LOST",
+            "settled_at": "2026-09-01"
+        },
+        {
+            "id": "20260831004",
+            "title": "Will the International Atomic Energy Agency (IAEA) today issue a new report expressing 'serious concerns' over nuclear facility inspections in [fictional country V]?",
+            "payout": 1.53,
+            "desc": "Ongoing tensions surrounding [fictional country V]'s nuclear program have kept the IAEA under pressure to provide updates. A new inspection report, or preliminary findings, could be released today, with analysts anticipating a critical assessment given recent satellite imagery and intelligence leaks.",
+            "result": "WON",
+            "settled_at": "2026-09-01"
+        },
+        {
+            "id": "20260831005",
+            "title": "Will a major international news agency today report a significant cross-border military incursion into [fictional country W] by a neighbouring state?",
+            "payout": 2.71,
+            "desc": "Recent intelligence suggests heightened military activity along the border of [fictional country W] and its neighbour. Tensions are at boiling point, and any confirmed cross-border movement could quickly escalate, with reports potentially breaking today as the situation unfolds.",
+            "result": "LOST",
+            "settled_at": "2026-09-01"
         }
     ],
-    "last_update": "2026-08-31 02:35"
+    "last_update": "2026-09-01 02:49"
 }
