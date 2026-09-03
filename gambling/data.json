@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260902001",
-            "title": "Will a prominent Conservative backbench MP publicly call for a vote of no confidence in a Cabinet minister today following recent policy disagreements?",
-            "payout": 3.8,
-            "desc": "Whispers of dissent within the ruling party have intensified over a controversial new policy initiative. Following several critical media appearances yesterday, a significant backbencher could seize a parliamentary opportunity or issue a public statement today to formally challenge a Cabinet minister's position, signaling a deeper internal rift."
+            "id": "20260903001",
+            "title": "Will the Secretary of State for Health today confirm a new deadline for the NHS waiting list reduction target, following recent data releases?",
+            "payout": 1.9,
+            "desc": "Following recent, less-than-favourable NHS waiting list figures, the Secretary of State is under increased pressure to demonstrate progress. A confirmation of a revised, more ambitious deadline for reductions could be announced today, perhaps during a scheduled health sector conference or a departmental briefing, to regain public confidence."
         },
         {
-            "id": "20260902002",
-            "title": "Will the Scottish Government today announce a new specific funding package for local councils to address immediate social care pressures, following warnings from Cosla?",
-            "payout": 1.58,
-            "desc": "Local authority body Cosla issued a stark warning yesterday regarding the critical state of social care funding, urging immediate intervention. The Scottish Government is under pressure to respond, and an announcement of targeted financial support could be made today to mitigate mounting criticism and provide reassurance to local councils."
-        },
-        {
-            "id": "20260902003",
-            "title": "Will a major UK airline today announce significant operational disruptions or flight cancellations for later this week due to ongoing air traffic control staffing issues?",
+            "id": "20260903002",
+            "title": "Will the First Minister of Scotland today hold an unscheduled press conference specifically to address ongoing concerns about teacher strikes?",
             "payout": 2.38,
-            "desc": "Reports of persistent air traffic control staffing shortages have continued to impact air travel across the UK. To pre-empt further chaos and provide passengers with advanced notice, a major airline could today make a proactive announcement regarding upcoming flight adjustments or cancellations, aiming to stabilize its schedule for the coming days."
+            "desc": "With negotiations between teaching unions and the Scottish Government reportedly stalled, and further strike action looming, the First Minister could today choose to intervene directly. An unscheduled press conference would be a clear signal of the government's intent to either offer new proposals or appeal directly to the public regarding the dispute."
         },
         {
-            "id": "20260902004",
-            "title": "Will the President of the European Commission today publicly urge a specific Member State to comply with a recent European Court of Justice ruling?",
+            "id": "20260903003",
+            "title": "Will the Department for Transport today announce a revised budget and timeline for a major section of HS2, following recent cost reviews?",
             "payout": 1.73,
-            "desc": "A recent European Court of Justice ruling against a particular Member State has reportedly been met with a slow or insufficient response. The President of the European Commission, possibly during a scheduled press conference or official appearance, might today issue a direct public call for compliance, underscoring the importance of the rule of law within the EU."
+            "desc": "Ongoing scrutiny of major infrastructure spending has put pressure on the Department for Transport to provide updated financial projections for projects like HS2. Following recent internal audits, an announcement detailing revised costs and potentially adjusted timelines for specific phases could be made today to manage expectations."
         },
         {
-            "id": "20260902005",
-            "title": "Will the International Committee of the Red Cross (ICRC) today issue an urgent appeal for humanitarian corridors to be established in [fictional conflict zone X]?",
-            "payout": 1.36,
-            "desc": "New reports from [fictional conflict zone X] indicate a severe deterioration of the humanitarian situation, with civilians trapped and aid access severely restricted. In response to these escalating reports, the ICRC is highly likely to make an urgent public appeal today, demanding the immediate establishment of safe humanitarian corridors to allow aid in and civilians out."
+            "id": "20260903004",
+            "title": "Will the UN Security Council today pass a new resolution addressing the humanitarian situation in the Sahel region, following emergency consultations?",
+            "payout": 2.71,
+            "desc": "Reports of a worsening humanitarian crisis in the Sahel region have led to emergency consultations within the UN Security Council. While agreement can be challenging, intense diplomatic efforts might culminate in a new resolution being put to a vote and potentially passed today to address the escalating needs or authorize new measures."
+        },
+        {
+            "id": "20260903005",
+            "title": "Will a major international news agency today report a confirmed temporary ceasefire in [fictional conflict zone Y] following urgent mediation efforts?",
+            "payout": 1.58,
+            "desc": "Intense diplomatic efforts by international mediators have been underway to secure a temporary halt to hostilities in [fictional conflict zone Y]. With talks reportedly reaching a critical stage, there is a strong possibility that a major news agency could today confirm a short-term ceasefire agreement, aimed at allowing humanitarian aid or further negotiations."
         }
     ],
     "history": [
@@ -5041,7 +5041,47 @@
             "desc": "Military analysts have noted increased activity along a key front in [fictional country Z] overnight. News agencies are awaiting official updates, and a major breakthrough or strategic capture by either government or opposition forces could be confirmed today, dramatically altering the conflict's immediate outlook.",
             "result": "LOST",
             "settled_at": "2026-09-02"
+        },
+        {
+            "id": "20260902001",
+            "title": "Will a prominent Conservative backbench MP publicly call for a vote of no confidence in a Cabinet minister today following recent policy disagreements?",
+            "payout": 3.8,
+            "desc": "Whispers of dissent within the ruling party have intensified over a controversial new policy initiative. Following several critical media appearances yesterday, a significant backbencher could seize a parliamentary opportunity or issue a public statement today to formally challenge a Cabinet minister's position, signaling a deeper internal rift.",
+            "result": "LOST",
+            "settled_at": "2026-09-03"
+        },
+        {
+            "id": "20260902002",
+            "title": "Will the Scottish Government today announce a new specific funding package for local councils to address immediate social care pressures, following warnings from Cosla?",
+            "payout": 1.58,
+            "desc": "Local authority body Cosla issued a stark warning yesterday regarding the critical state of social care funding, urging immediate intervention. The Scottish Government is under pressure to respond, and an announcement of targeted financial support could be made today to mitigate mounting criticism and provide reassurance to local councils.",
+            "result": "WON",
+            "settled_at": "2026-09-03"
+        },
+        {
+            "id": "20260902003",
+            "title": "Will a major UK airline today announce significant operational disruptions or flight cancellations for later this week due to ongoing air traffic control staffing issues?",
+            "payout": 2.38,
+            "desc": "Reports of persistent air traffic control staffing shortages have continued to impact air travel across the UK. To pre-empt further chaos and provide passengers with advanced notice, a major airline could today make a proactive announcement regarding upcoming flight adjustments or cancellations, aiming to stabilize its schedule for the coming days.",
+            "result": "LOST",
+            "settled_at": "2026-09-03"
+        },
+        {
+            "id": "20260902004",
+            "title": "Will the President of the European Commission today publicly urge a specific Member State to comply with a recent European Court of Justice ruling?",
+            "payout": 1.73,
+            "desc": "A recent European Court of Justice ruling against a particular Member State has reportedly been met with a slow or insufficient response. The President of the European Commission, possibly during a scheduled press conference or official appearance, might today issue a direct public call for compliance, underscoring the importance of the rule of law within the EU.",
+            "result": "WON",
+            "settled_at": "2026-09-03"
+        },
+        {
+            "id": "20260902005",
+            "title": "Will the International Committee of the Red Cross (ICRC) today issue an urgent appeal for humanitarian corridors to be established in [fictional conflict zone X]?",
+            "payout": 1.36,
+            "desc": "New reports from [fictional conflict zone X] indicate a severe deterioration of the humanitarian situation, with civilians trapped and aid access severely restricted. In response to these escalating reports, the ICRC is highly likely to make an urgent public appeal today, demanding the immediate establishment of safe humanitarian corridors to allow aid in and civilians out.",
+            "result": "WON",
+            "settled_at": "2026-09-03"
         }
     ],
-    "last_update": "2026-09-02 02:09"
+    "last_update": "2026-09-03 02:16"
 }
