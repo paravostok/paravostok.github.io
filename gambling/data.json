@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260904001",
-            "title": "Will the Chancellor of the Exchequer today signal a new approach to tackling inflation during his scheduled speech to the CBI?",
+            "id": "20260905001",
+            "title": "Will the Secretary of State for Health and Social Care today announce a new target for reducing NHS waiting lists during an emergency press conference?",
             "payout": 1.58,
-            "desc": "With the latest inflation figures due next week, and pressure mounting on the government's economic strategy, the Chancellor has a key opportunity during his scheduled address to the Confederation of British Industry (CBI) today to outline any immediate policy shifts or new directions for economic stability."
+            "desc": "With mounting public pressure following recent record-high NHS waiting list figures, sources suggest the Secretary of State may hold an unscheduled press conference today to outline immediate actions, potentially including a new, ambitious target to reassure the public and staff."
         },
         {
-            "id": "20260904002",
-            "title": "Will the Scottish Government today publish its long-awaited white paper detailing options for future energy independence?",
+            "id": "20260905002",
+            "title": "Will the Scottish National Party (SNP) today confirm that their annual conference will be held earlier than scheduled this year?",
             "payout": 2.38,
-            "desc": "Following months of drafting and internal reviews, sources close to Holyrood suggest that the Scottish Government's comprehensive white paper on achieving energy independence for Scotland is now complete. There is increasing expectation that it could be officially released today, possibly coinciding with a press briefing by the Energy Minister."
+            "desc": "Following ongoing speculation about internal party dynamics and potential upcoming elections, whispers from within Holyrood suggest the SNP's ruling NEC could today confirm a strategic decision to bring forward their annual conference, possibly via a formal press release or party statement."
         },
         {
-            "id": "20260904003",
-            "title": "Will Transport for London (TfL) today announce a fare freeze for 2027 following ongoing public consultations?",
-            "payout": 3.17,
-            "desc": "Public consultations on TfL fares for the upcoming year recently concluded. Amidst a cost-of-living crisis and widespread calls for stability, the Mayor of London's office and TfL are under significant pressure. An announcement regarding a fare freeze or adjustment for 2027 could be made today to address public concerns ahead of the new financial year."
-        },
-        {
-            "id": "20260904004",
-            "title": "Will the G7 finance ministers today issue a joint statement condemning recent currency market volatility following their morning meeting?",
+            "id": "20260905003",
+            "title": "Will Network Rail today announce further delays to the completion of the TransPennine Route Upgrade following recent engineering challenges?",
             "payout": 1.36,
-            "desc": "G7 finance ministers are holding an unscheduled morning meeting today, reportedly to discuss global economic stability. With recent reports of unusual fluctuations in several major currency markets, a joint statement from the group's leading economies condemning or addressing this volatility is highly anticipated by the end of the day."
+            "desc": "Ongoing reports of geological difficulties and supply chain issues along critical sections of the TransPennine Route Upgrade project have led to concerns about its timeline. An internal review was reportedly completed yesterday, and Network Rail is under pressure to provide an update today, potentially confirming further setbacks."
         },
         {
-            "id": "20260904005",
-            "title": "Will the UN Special Envoy for [fictional region Z] today confirm the successful establishment of a new humanitarian aid corridor into the conflict-affected region?",
+            "id": "20260905004",
+            "title": "Will the European Union today formally initiate safeguard measures against imports of a specific agricultural product from a non-EU country?",
             "payout": 1.9,
-            "desc": "Reports from the ground indicate that negotiations for a vital new humanitarian aid corridor into the besieged parts of [fictional region Z] have reached a critical stage. The UN Special Envoy, currently in the region, is expected to provide an update, and there's a strong possibility that a formal confirmation of the corridor's establishment could be announced today, allowing crucial supplies to enter."
+            "desc": "Following an emergency meeting of EU agriculture ministers yesterday and intense lobbying from farmers' associations across the bloc, there is strong indication that the European Commission may today announce the formal activation of safeguard clauses to protect the domestic market against a surge of imports."
+        },
+        {
+            "id": "20260905005",
+            "title": "Will the spokesperson for the UN Secretary-General today confirm reports of a successful prisoner exchange between warring factions in [fictional region Y]?",
+            "payout": 3.17,
+            "desc": "Unconfirmed reports from regional media outlets suggest that quiet diplomacy over the past 48 hours has led to a breakthrough in prisoner exchange negotiations in [fictional region Y]. The UN Secretary-General's spokesperson is scheduled to give a routine briefing today, where a formal confirmation of this significant humanitarian development could be made."
         }
     ],
     "history": [
@@ -5121,7 +5121,47 @@
             "desc": "Intense diplomatic efforts by international mediators have been underway to secure a temporary halt to hostilities in [fictional conflict zone Y]. With talks reportedly reaching a critical stage, there is a strong possibility that a major news agency could today confirm a short-term ceasefire agreement, aimed at allowing humanitarian aid or further negotiations.",
             "result": "WON",
             "settled_at": "2026-09-04"
+        },
+        {
+            "id": "20260904001",
+            "title": "Will the Chancellor of the Exchequer today signal a new approach to tackling inflation during his scheduled speech to the CBI?",
+            "payout": 1.58,
+            "desc": "With the latest inflation figures due next week, and pressure mounting on the government's economic strategy, the Chancellor has a key opportunity during his scheduled address to the Confederation of British Industry (CBI) today to outline any immediate policy shifts or new directions for economic stability.",
+            "result": "LOST",
+            "settled_at": "2026-09-05"
+        },
+        {
+            "id": "20260904002",
+            "title": "Will the Scottish Government today publish its long-awaited white paper detailing options for future energy independence?",
+            "payout": 2.38,
+            "desc": "Following months of drafting and internal reviews, sources close to Holyrood suggest that the Scottish Government's comprehensive white paper on achieving energy independence for Scotland is now complete. There is increasing expectation that it could be officially released today, possibly coinciding with a press briefing by the Energy Minister.",
+            "result": "LOST",
+            "settled_at": "2026-09-05"
+        },
+        {
+            "id": "20260904003",
+            "title": "Will Transport for London (TfL) today announce a fare freeze for 2027 following ongoing public consultations?",
+            "payout": 3.17,
+            "desc": "Public consultations on TfL fares for the upcoming year recently concluded. Amidst a cost-of-living crisis and widespread calls for stability, the Mayor of London's office and TfL are under significant pressure. An announcement regarding a fare freeze or adjustment for 2027 could be made today to address public concerns ahead of the new financial year.",
+            "result": "LOST",
+            "settled_at": "2026-09-05"
+        },
+        {
+            "id": "20260904004",
+            "title": "Will the G7 finance ministers today issue a joint statement condemning recent currency market volatility following their morning meeting?",
+            "payout": 1.36,
+            "desc": "G7 finance ministers are holding an unscheduled morning meeting today, reportedly to discuss global economic stability. With recent reports of unusual fluctuations in several major currency markets, a joint statement from the group's leading economies condemning or addressing this volatility is highly anticipated by the end of the day.",
+            "result": "WON",
+            "settled_at": "2026-09-05"
+        },
+        {
+            "id": "20260904005",
+            "title": "Will the UN Special Envoy for [fictional region Z] today confirm the successful establishment of a new humanitarian aid corridor into the conflict-affected region?",
+            "payout": 1.9,
+            "desc": "Reports from the ground indicate that negotiations for a vital new humanitarian aid corridor into the besieged parts of [fictional region Z] have reached a critical stage. The UN Special Envoy, currently in the region, is expected to provide an update, and there's a strong possibility that a formal confirmation of the corridor's establishment could be announced today, allowing crucial supplies to enter.",
+            "result": "WON",
+            "settled_at": "2026-09-05"
         }
     ],
-    "last_update": "2026-09-04 02:12"
+    "last_update": "2026-09-05 02:12"
 }
