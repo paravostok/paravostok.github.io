@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260906001",
-            "title": "Will the Chancellor of the Exchequer today publicly hint at an emergency budget before the end of the year?",
+            "id": "20260907001",
+            "title": "Will the Secretary of State for Education today announce new funding for vocational training programs during their scheduled speech?",
+            "payout": 1.58,
+            "desc": "The Secretary is scheduled to deliver a keynote speech at the annual skills conference this afternoon. Recent reports have highlighted the government's commitment to boosting vocational skills, making a funding announcement highly anticipated."
+        },
+        {
+            "id": "20260907002",
+            "title": "Will the Scottish Government today confirm the initial findings of its review into offshore wind farm development bids?",
             "payout": 2.11,
-            "desc": "With increasing pressure on government finances and persistent rumors of new fiscal measures, the Chancellor is scheduled to give a speech at a think tank this afternoon, where they might allude to future financial plans or an upcoming significant fiscal event."
+            "desc": "Industry insiders and environmental groups are eagerly awaiting an update on the ongoing review of highly contentious offshore wind farm proposals. Sources suggest a preliminary statement or press release outlining key findings could be issued today by the Scottish Energy Minister."
         },
         {
-            "id": "20260906002",
-            "title": "Will the Scottish Government today release a formal statement confirming a public inquiry into recent NHS Scotland waiting list data?",
+            "id": "20260907003",
+            "title": "Will the Mayor of Greater Manchester today announce a new specific funding package for tram network expansion?",
             "payout": 1.73,
-            "desc": "Following a critical report published yesterday on NHS Scotland's performance and mounting calls from opposition parties, sources close to Holyrood suggest the Health Secretary or First Minister may issue a statement today outlining a robust response, potentially including a full public inquiry."
+            "desc": "The Mayor is set to hold a press conference this morning focusing on regional infrastructure. There has been growing pressure from local commuters and businesses for further investment in public transport, leading to speculation that new tram network funding could be revealed."
         },
         {
-            "id": "20260906003",
-            "title": "Will the Department for Transport today confirm the cancellation of Phase 2b of the HS2 project?",
-            "payout": 3.17,
-            "desc": "Speculation has intensified this morning regarding the future of the northern leg of HS2, with government leaks suggesting a significant announcement could be imminent. An official confirmation, potentially via a ministerial statement to Parliament or a press conference, is anticipated today amidst reports of revised costings."
-        },
-        {
-            "id": "20260906004",
-            "title": "Will the UN Security Council today fail to pass a resolution sanctioning [fictional country X] due to a veto from a permanent member?",
-            "payout": 1.46,
-            "desc": "A draft resolution proposing new sanctions against [fictional country X] is scheduled for a vote in the UN Security Council later today. Diplomatic sources indicate strong opposition from at least one permanent member, raising expectations of a likely veto that would prevent its passage."
-        },
-        {
-            "id": "20260906005",
-            "title": "Will a spokesperson for the International Committee of the Red Cross (ICRC) today confirm the successful opening of a new humanitarian aid corridor in [fictional conflict zone Z]?",
+            "id": "20260907004",
+            "title": "Will the EU Commissioner for Trade today publicly confirm the opening of new trade negotiations with [fictional country Y]?",
             "payout": 1.36,
-            "desc": "Reports from aid agencies on the ground suggest that intense negotiations over the weekend have yielded an agreement for a new aid corridor in [fictional conflict zone Z]. The ICRC, often responsible for overseeing such passages, is expected to provide an update during its daily briefing, potentially confirming the corridor's activation."
+            "desc": "Following recent high-level visits and discreet talks, sources within Brussels indicate that the EU is poised to formally announce the commencement of extensive trade discussions with [fictional country Y]. A press briefing is scheduled for this afternoon, making it a likely venue for such an announcement."
+        },
+        {
+            "id": "20260907005",
+            "title": "Will the UN Special Envoy for [fictional conflict zone V] today release a statement calling for an immediate and unconditional cessation of hostilities?",
+            "payout": 1.19,
+            "desc": "With reports of increased fighting and a breakdown in recent peace talks in [fictional conflict zone V], the UN Special Envoy is expected to make a public intervention today. A strong statement urging a ceasefire is highly anticipated, reflecting growing international concern."
         }
     ],
     "history": [
@@ -5201,7 +5201,47 @@
             "desc": "Unconfirmed reports from regional media outlets suggest that quiet diplomacy over the past 48 hours has led to a breakthrough in prisoner exchange negotiations in [fictional region Y]. The UN Secretary-General's spokesperson is scheduled to give a routine briefing today, where a formal confirmation of this significant humanitarian development could be made.",
             "result": "LOST",
             "settled_at": "2026-09-06"
+        },
+        {
+            "id": "20260906001",
+            "title": "Will the Chancellor of the Exchequer today publicly hint at an emergency budget before the end of the year?",
+            "payout": 2.11,
+            "desc": "With increasing pressure on government finances and persistent rumors of new fiscal measures, the Chancellor is scheduled to give a speech at a think tank this afternoon, where they might allude to future financial plans or an upcoming significant fiscal event.",
+            "result": "LOST",
+            "settled_at": "2026-09-07"
+        },
+        {
+            "id": "20260906002",
+            "title": "Will the Scottish Government today release a formal statement confirming a public inquiry into recent NHS Scotland waiting list data?",
+            "payout": 1.73,
+            "desc": "Following a critical report published yesterday on NHS Scotland's performance and mounting calls from opposition parties, sources close to Holyrood suggest the Health Secretary or First Minister may issue a statement today outlining a robust response, potentially including a full public inquiry.",
+            "result": "LOST",
+            "settled_at": "2026-09-07"
+        },
+        {
+            "id": "20260906003",
+            "title": "Will the Department for Transport today confirm the cancellation of Phase 2b of the HS2 project?",
+            "payout": 3.17,
+            "desc": "Speculation has intensified this morning regarding the future of the northern leg of HS2, with government leaks suggesting a significant announcement could be imminent. An official confirmation, potentially via a ministerial statement to Parliament or a press conference, is anticipated today amidst reports of revised costings.",
+            "result": "LOST",
+            "settled_at": "2026-09-07"
+        },
+        {
+            "id": "20260906004",
+            "title": "Will the UN Security Council today fail to pass a resolution sanctioning [fictional country X] due to a veto from a permanent member?",
+            "payout": 1.46,
+            "desc": "A draft resolution proposing new sanctions against [fictional country X] is scheduled for a vote in the UN Security Council later today. Diplomatic sources indicate strong opposition from at least one permanent member, raising expectations of a likely veto that would prevent its passage.",
+            "result": "WON",
+            "settled_at": "2026-09-07"
+        },
+        {
+            "id": "20260906005",
+            "title": "Will a spokesperson for the International Committee of the Red Cross (ICRC) today confirm the successful opening of a new humanitarian aid corridor in [fictional conflict zone Z]?",
+            "payout": 1.36,
+            "desc": "Reports from aid agencies on the ground suggest that intense negotiations over the weekend have yielded an agreement for a new aid corridor in [fictional conflict zone Z]. The ICRC, often responsible for overseeing such passages, is expected to provide an update during its daily briefing, potentially confirming the corridor's activation.",
+            "result": "LOST",
+            "settled_at": "2026-09-07"
         }
     ],
-    "last_update": "2026-09-06 02:08"
+    "last_update": "2026-09-07 02:05"
 }
