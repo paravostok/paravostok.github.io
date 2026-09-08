@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260907001",
-            "title": "Will the Secretary of State for Education today announce new funding for vocational training programs during their scheduled speech?",
-            "payout": 1.58,
-            "desc": "The Secretary is scheduled to deliver a keynote speech at the annual skills conference this afternoon. Recent reports have highlighted the government's commitment to boosting vocational skills, making a funding announcement highly anticipated."
-        },
-        {
-            "id": "20260907002",
-            "title": "Will the Scottish Government today confirm the initial findings of its review into offshore wind farm development bids?",
+            "id": "20260908001",
+            "title": "Will the Secretary of State for Health and Social Care today announce a delay to the proposed NHS restructuring bill?",
             "payout": 2.11,
-            "desc": "Industry insiders and environmental groups are eagerly awaiting an update on the ongoing review of highly contentious offshore wind farm proposals. Sources suggest a preliminary statement or press release outlining key findings could be issued today by the Scottish Energy Minister."
+            "desc": "Following growing backbench rebellion and widespread criticism from medical bodies, the government is facing significant pressure regarding its NHS restructuring bill. A key government minister is scheduled for a media appearance this afternoon, leading to speculation that a tactical delay or significant amendment could be announced to avoid a major defeat."
         },
         {
-            "id": "20260907003",
-            "title": "Will the Mayor of Greater Manchester today announce a new specific funding package for tram network expansion?",
-            "payout": 1.73,
-            "desc": "The Mayor is set to hold a press conference this morning focusing on regional infrastructure. There has been growing pressure from local commuters and businesses for further investment in public transport, leading to speculation that new tram network funding could be revealed."
+            "id": "20260908002",
+            "title": "Will the Scottish National Party (SNP) today issue a formal statement rejecting the latest offer from the UK Government on devolved powers?",
+            "payout": 1.58,
+            "desc": "After yesterday's reported new proposal from Westminster concerning further devolution of fiscal powers, the SNP leadership is convened for a crucial meeting this morning. A public response, widely anticipated to be a rejection of the terms, is expected by the close of business today."
         },
         {
-            "id": "20260907004",
-            "title": "Will the EU Commissioner for Trade today publicly confirm the opening of new trade negotiations with [fictional country Y]?",
+            "id": "20260908003",
+            "title": "Will the Department for Transport today confirm the allocation of additional funding for the Northern Powerhouse Rail project beyond its current budget?",
+            "payout": 2.71,
+            "desc": "Pressure from northern political and business leaders has intensified after recent reports suggested the Northern Powerhouse Rail project was facing substantial funding shortfalls. A DfT spokesperson is scheduled to appear before a parliamentary select committee this afternoon, where an urgent update or new funding commitment could be announced."
+        },
+        {
+            "id": "20260908004",
+            "title": "Will the G7 foreign ministers, meeting in Berlin, today issue a joint communiqu\u00e9 condemning [fictional country X]'s recent actions in the South Atlantic?",
             "payout": 1.36,
-            "desc": "Following recent high-level visits and discreet talks, sources within Brussels indicate that the EU is poised to formally announce the commencement of extensive trade discussions with [fictional country Y]. A press briefing is scheduled for this afternoon, making it a likely venue for such an announcement."
+            "desc": "The G7 foreign ministers are concluding their two-day summit in Berlin today. Tensions have risen significantly with [fictional country X] over its recent contentious maritime activities. A strong, unified statement condemning these actions is highly anticipated as part of the summit's closing declaration."
         },
         {
-            "id": "20260907005",
-            "title": "Will the UN Special Envoy for [fictional conflict zone V] today release a statement calling for an immediate and unconditional cessation of hostilities?",
-            "payout": 1.19,
-            "desc": "With reports of increased fighting and a breakdown in recent peace talks in [fictional conflict zone V], the UN Special Envoy is expected to make a public intervention today. A strong statement urging a ceasefire is highly anticipated, reflecting growing international concern."
+            "id": "20260908005",
+            "title": "Will the humanitarian aid convoy, attempting to reach [fictional besieged city Z] in [fictional conflict zone W], today successfully cross the contested frontline?",
+            "payout": 1.73,
+            "desc": "A major international aid convoy has been stalled for 48 hours at the border of [fictional conflict zone W], attempting to deliver critical supplies to the besieged city of [fictional besieged city Z]. Negotiations between warring factions and UN intermediaries have been ongoing overnight, with sources suggesting a breakthrough for passage could be announced today."
         }
     ],
     "history": [
@@ -5241,7 +5241,47 @@
             "desc": "Reports from aid agencies on the ground suggest that intense negotiations over the weekend have yielded an agreement for a new aid corridor in [fictional conflict zone Z]. The ICRC, often responsible for overseeing such passages, is expected to provide an update during its daily briefing, potentially confirming the corridor's activation.",
             "result": "LOST",
             "settled_at": "2026-09-07"
+        },
+        {
+            "id": "20260907001",
+            "title": "Will the Secretary of State for Education today announce new funding for vocational training programs during their scheduled speech?",
+            "payout": 1.58,
+            "desc": "The Secretary is scheduled to deliver a keynote speech at the annual skills conference this afternoon. Recent reports have highlighted the government's commitment to boosting vocational skills, making a funding announcement highly anticipated.",
+            "result": "WON",
+            "settled_at": "2026-09-08"
+        },
+        {
+            "id": "20260907002",
+            "title": "Will the Scottish Government today confirm the initial findings of its review into offshore wind farm development bids?",
+            "payout": 2.11,
+            "desc": "Industry insiders and environmental groups are eagerly awaiting an update on the ongoing review of highly contentious offshore wind farm proposals. Sources suggest a preliminary statement or press release outlining key findings could be issued today by the Scottish Energy Minister.",
+            "result": "LOST",
+            "settled_at": "2026-09-08"
+        },
+        {
+            "id": "20260907003",
+            "title": "Will the Mayor of Greater Manchester today announce a new specific funding package for tram network expansion?",
+            "payout": 1.73,
+            "desc": "The Mayor is set to hold a press conference this morning focusing on regional infrastructure. There has been growing pressure from local commuters and businesses for further investment in public transport, leading to speculation that new tram network funding could be revealed.",
+            "result": "WON",
+            "settled_at": "2026-09-08"
+        },
+        {
+            "id": "20260907004",
+            "title": "Will the EU Commissioner for Trade today publicly confirm the opening of new trade negotiations with [fictional country Y]?",
+            "payout": 1.36,
+            "desc": "Following recent high-level visits and discreet talks, sources within Brussels indicate that the EU is poised to formally announce the commencement of extensive trade discussions with [fictional country Y]. A press briefing is scheduled for this afternoon, making it a likely venue for such an announcement.",
+            "result": "WON",
+            "settled_at": "2026-09-08"
+        },
+        {
+            "id": "20260907005",
+            "title": "Will the UN Special Envoy for [fictional conflict zone V] today release a statement calling for an immediate and unconditional cessation of hostilities?",
+            "payout": 1.19,
+            "desc": "With reports of increased fighting and a breakdown in recent peace talks in [fictional conflict zone V], the UN Special Envoy is expected to make a public intervention today. A strong statement urging a ceasefire is highly anticipated, reflecting growing international concern.",
+            "result": "WON",
+            "settled_at": "2026-09-08"
         }
     ],
-    "last_update": "2026-09-07 02:05"
+    "last_update": "2026-09-08 02:17"
 }
