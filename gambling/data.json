@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260909001",
-            "title": "Will the Secretary of State for Education today announce a delay to the proposed changes to university admissions criteria?",
+            "id": "20260912001",
+            "title": "Will the Chancellor of the Exchequer today outline emergency fiscal measures to address the rising cost of living?",
             "payout": 1.58,
-            "desc": "Following extensive lobbying from higher education institutions and student bodies, speculation is mounting that the government might rethink its contentious university admissions reforms. A policy update is expected from the DfE this afternoon, where a tactical delay could be announced to allow for further consultation."
+            "desc": "Amid growing public concern and calls from opposition parties, reports suggest the Treasury has been preparing a rapid response. The Chancellor is scheduled to speak at an economic forum this afternoon, where new support packages are being widely anticipated."
         },
         {
-            "id": "20260909002",
-            "title": "Will the Scottish First Minister today formally request an urgent meeting with the Prime Minister regarding the future of offshore wind farm subsidies?",
-            "payout": 1.9,
-            "desc": "Following reports of significant discontent within the Scottish renewable energy sector over projected UK-wide subsidy cuts, the First Minister's office has hinted at an urgent intervention. A press conference is scheduled for this morning, where a direct appeal to Westminster is widely anticipated."
-        },
-        {
-            "id": "20260909003",
-            "title": "Will Network Rail today confirm the suspension of services on the West Coast Main Line for emergency repairs beyond this weekend?",
-            "payout": 2.11,
-            "desc": "Reports emerged overnight of significant structural defects found on a critical section of the West Coast Main Line, currently undergoing weekend maintenance. An urgent statement from Network Rail is expected this afternoon addressing the extent of the damage and potential for prolonged disruption."
-        },
-        {
-            "id": "20260909004",
-            "title": "Will the European Union's High Representative for Foreign Affairs today issue a statement warning [fictional country Y] against further incursions into regional waters?",
+            "id": "20260912002",
+            "title": "Will the Scottish Government today announce a new emergency fund to support the offshore wind sector, following yesterday's Westminster decision?",
             "payout": 1.36,
-            "desc": "Tensions have escalated in the [fictional region] after [fictional country Y]'s navy conducted drills in disputed waters. The EU's top diplomat is expected to address the European Parliament this morning, where a strong diplomatic warning is anticipated to prevent further destabilisation."
+            "desc": "Following the UK government's recent announcement on reduced offshore wind subsidies, the Scottish First Minister has pledged a swift response. An urgent ministerial statement is expected this morning, with industry leaders pushing for immediate financial intervention."
         },
         {
-            "id": "20260909005",
-            "title": "Will a UN-brokered ceasefire agreement come into effect today between warring factions in [fictional nation K]?",
-            "payout": 2.71,
-            "desc": "Despite ongoing hostilities, reports from diplomatic sources suggest significant progress in last-ditch UN negotiations for a temporary cessation of hostilities in [fictional nation K]. A formal announcement, or at least a commencement of the ceasefire, is being optimistically anticipated by observers for the end of today."
+            "id": "20260912003",
+            "title": "Will the Department for Transport today confirm a further delay to the construction timeline of the HS2 Eastern Leg?",
+            "payout": 1.9,
+            "desc": "Sources within Whitehall suggest ongoing budgetary pressures and planning complexities are forcing a re-evaluation of the HS2 Eastern Leg. The Transport Secretary is due to face questions in Parliament this afternoon, where an update on major infrastructure projects is expected."
+        },
+        {
+            "id": "20260912004",
+            "title": "Will the UN Security Council today adopt a resolution imposing sanctions on [fictional country Y] for recent maritime provocations?",
+            "payout": 2.38,
+            "desc": "After repeated incursions into disputed waters and the EU's recent warning, pressure is mounting on the UN to take stronger action. A Security Council emergency session is scheduled for later today, with several member states advocating for punitive measures."
+        },
+        {
+            "id": "20260912005",
+            "title": "Will the UN Special Envoy for [fictional nation K] today announce a new round of peace talks to begin next week?",
+            "payout": 1.73,
+            "desc": "Despite the failure of yesterday's proposed ceasefire, diplomatic efforts continue behind the scenes. The Special Envoy is scheduled to give a press briefing from UN Headquarters this afternoon, where an announcement regarding future negotiations is highly anticipated."
         }
     ],
     "history": [
@@ -5321,7 +5321,47 @@
             "desc": "A major international aid convoy has been stalled for 48 hours at the border of [fictional conflict zone W], attempting to deliver critical supplies to the besieged city of [fictional besieged city Z]. Negotiations between warring factions and UN intermediaries have been ongoing overnight, with sources suggesting a breakthrough for passage could be announced today.",
             "result": "LOST",
             "settled_at": "2026-09-09"
+        },
+        {
+            "id": "20260909001",
+            "title": "Will the Secretary of State for Education today announce a delay to the proposed changes to university admissions criteria?",
+            "payout": 1.58,
+            "desc": "Following extensive lobbying from higher education institutions and student bodies, speculation is mounting that the government might rethink its contentious university admissions reforms. A policy update is expected from the DfE this afternoon, where a tactical delay could be announced to allow for further consultation.",
+            "result": "LOST",
+            "settled_at": "2026-09-12"
+        },
+        {
+            "id": "20260909002",
+            "title": "Will the Scottish First Minister today formally request an urgent meeting with the Prime Minister regarding the future of offshore wind farm subsidies?",
+            "payout": 1.9,
+            "desc": "Following reports of significant discontent within the Scottish renewable energy sector over projected UK-wide subsidy cuts, the First Minister's office has hinted at an urgent intervention. A press conference is scheduled for this morning, where a direct appeal to Westminster is widely anticipated.",
+            "result": "WON",
+            "settled_at": "2026-09-12"
+        },
+        {
+            "id": "20260909003",
+            "title": "Will Network Rail today confirm the suspension of services on the West Coast Main Line for emergency repairs beyond this weekend?",
+            "payout": 2.11,
+            "desc": "Reports emerged overnight of significant structural defects found on a critical section of the West Coast Main Line, currently undergoing weekend maintenance. An urgent statement from Network Rail is expected this afternoon addressing the extent of the damage and potential for prolonged disruption.",
+            "result": "WON",
+            "settled_at": "2026-09-12"
+        },
+        {
+            "id": "20260909004",
+            "title": "Will the European Union's High Representative for Foreign Affairs today issue a statement warning [fictional country Y] against further incursions into regional waters?",
+            "payout": 1.36,
+            "desc": "Tensions have escalated in the [fictional region] after [fictional country Y]'s navy conducted drills in disputed waters. The EU's top diplomat is expected to address the European Parliament this morning, where a strong diplomatic warning is anticipated to prevent further destabilisation.",
+            "result": "WON",
+            "settled_at": "2026-09-12"
+        },
+        {
+            "id": "20260909005",
+            "title": "Will a UN-brokered ceasefire agreement come into effect today between warring factions in [fictional nation K]?",
+            "payout": 2.71,
+            "desc": "Despite ongoing hostilities, reports from diplomatic sources suggest significant progress in last-ditch UN negotiations for a temporary cessation of hostilities in [fictional nation K]. A formal announcement, or at least a commencement of the ceasefire, is being optimistically anticipated by observers for the end of today.",
+            "result": "LOST",
+            "settled_at": "2026-09-12"
         }
     ],
-    "last_update": "2026-09-09 02:20"
+    "last_update": "2026-09-12 02:21"
 }
