@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260912001",
-            "title": "Will the Chancellor of the Exchequer today outline emergency fiscal measures to address the rising cost of living?",
-            "payout": 1.58,
-            "desc": "Amid growing public concern and calls from opposition parties, reports suggest the Treasury has been preparing a rapid response. The Chancellor is scheduled to speak at an economic forum this afternoon, where new support packages are being widely anticipated."
+            "id": "20260913001",
+            "title": "Will a Cabinet Minister resign from the UK Government by the end of today?",
+            "payout": 3.8,
+            "desc": "Following recent disagreements over economic policy and leaked internal tensions, speculation is rife regarding potential high-profile departures. Political commentators are closely watching for any sudden announcements or statements today."
         },
         {
-            "id": "20260912002",
-            "title": "Will the Scottish Government today announce a new emergency fund to support the offshore wind sector, following yesterday's Westminster decision?",
-            "payout": 1.36,
-            "desc": "Following the UK government's recent announcement on reduced offshore wind subsidies, the Scottish First Minister has pledged a swift response. An urgent ministerial statement is expected this morning, with industry leaders pushing for immediate financial intervention."
+            "id": "20260913002",
+            "title": "Will the Scottish Government today launch a public consultation on the future of local council funding?",
+            "payout": 1.46,
+            "desc": "With upcoming local elections and increasing pressure from COSLA regarding budget shortfalls, sources suggest the First Minister is considering a fresh approach. An announcement is anticipated during this afternoon's parliamentary session or a subsequent press conference."
         },
         {
-            "id": "20260912003",
-            "title": "Will the Department for Transport today confirm a further delay to the construction timeline of the HS2 Eastern Leg?",
-            "payout": 1.9,
-            "desc": "Sources within Whitehall suggest ongoing budgetary pressures and planning complexities are forcing a re-evaluation of the HS2 Eastern Leg. The Transport Secretary is due to face questions in Parliament this afternoon, where an update on major infrastructure projects is expected."
-        },
-        {
-            "id": "20260912004",
-            "title": "Will the UN Security Council today adopt a resolution imposing sanctions on [fictional country Y] for recent maritime provocations?",
+            "id": "20260913003",
+            "title": "Will the Department for Transport today confirm the cancellation of the proposed rail link to Manston Airport?",
             "payout": 2.38,
-            "desc": "After repeated incursions into disputed waters and the EU's recent warning, pressure is mounting on the UN to take stronger action. A Security Council emergency session is scheduled for later today, with several member states advocating for punitive measures."
+            "desc": "After years of feasibility studies and environmental concerns, local campaigners are pushing for a definitive decision. The Transport Secretary is scheduled to meet with regional MPs this morning, with an outcome expected to be communicated today."
         },
         {
-            "id": "20260912005",
-            "title": "Will the UN Special Envoy for [fictional nation K] today announce a new round of peace talks to begin next week?",
+            "id": "20260913004",
+            "title": "Will the EU Commission today formally recommend beginning accession talks with [fictional country Z]?",
             "payout": 1.73,
-            "desc": "Despite the failure of yesterday's proposed ceasefire, diplomatic efforts continue behind the scenes. The Special Envoy is scheduled to give a press briefing from UN Headquarters this afternoon, where an announcement regarding future negotiations is highly anticipated."
+            "desc": "Following months of internal debate and a recent positive assessment report, diplomats in Brussels are anticipating a major announcement from the Commission President's office. A press conference is scheduled for late morning, where this recommendation is widely expected."
+        },
+        {
+            "id": "20260913005",
+            "title": "Will the UN Secretary-General today confirm the deployment of an international observer mission to the disputed border region of [fictional region X]?",
+            "payout": 1.36,
+            "desc": "Following increased tensions and calls for de-escalation from international bodies, the UN has been exploring options. The Secretary-General is expected to address the General Assembly today, where an update on regional stability and potential interventions is highly probable."
         }
     ],
     "history": [
@@ -5361,7 +5361,47 @@
             "desc": "Despite ongoing hostilities, reports from diplomatic sources suggest significant progress in last-ditch UN negotiations for a temporary cessation of hostilities in [fictional nation K]. A formal announcement, or at least a commencement of the ceasefire, is being optimistically anticipated by observers for the end of today.",
             "result": "LOST",
             "settled_at": "2026-09-12"
+        },
+        {
+            "id": "20260912001",
+            "title": "Will the Chancellor of the Exchequer today outline emergency fiscal measures to address the rising cost of living?",
+            "payout": 1.58,
+            "desc": "Amid growing public concern and calls from opposition parties, reports suggest the Treasury has been preparing a rapid response. The Chancellor is scheduled to speak at an economic forum this afternoon, where new support packages are being widely anticipated.",
+            "result": "WON",
+            "settled_at": "2026-09-13"
+        },
+        {
+            "id": "20260912002",
+            "title": "Will the Scottish Government today announce a new emergency fund to support the offshore wind sector, following yesterday's Westminster decision?",
+            "payout": 1.36,
+            "desc": "Following the UK government's recent announcement on reduced offshore wind subsidies, the Scottish First Minister has pledged a swift response. An urgent ministerial statement is expected this morning, with industry leaders pushing for immediate financial intervention.",
+            "result": "WON",
+            "settled_at": "2026-09-13"
+        },
+        {
+            "id": "20260912003",
+            "title": "Will the Department for Transport today confirm a further delay to the construction timeline of the HS2 Eastern Leg?",
+            "payout": 1.9,
+            "desc": "Sources within Whitehall suggest ongoing budgetary pressures and planning complexities are forcing a re-evaluation of the HS2 Eastern Leg. The Transport Secretary is due to face questions in Parliament this afternoon, where an update on major infrastructure projects is expected.",
+            "result": "WON",
+            "settled_at": "2026-09-13"
+        },
+        {
+            "id": "20260912004",
+            "title": "Will the UN Security Council today adopt a resolution imposing sanctions on [fictional country Y] for recent maritime provocations?",
+            "payout": 2.38,
+            "desc": "After repeated incursions into disputed waters and the EU's recent warning, pressure is mounting on the UN to take stronger action. A Security Council emergency session is scheduled for later today, with several member states advocating for punitive measures.",
+            "result": "LOST",
+            "settled_at": "2026-09-13"
+        },
+        {
+            "id": "20260912005",
+            "title": "Will the UN Special Envoy for [fictional nation K] today announce a new round of peace talks to begin next week?",
+            "payout": 1.73,
+            "desc": "Despite the failure of yesterday's proposed ceasefire, diplomatic efforts continue behind the scenes. The Special Envoy is scheduled to give a press briefing from UN Headquarters this afternoon, where an announcement regarding future negotiations is highly anticipated.",
+            "result": "WON",
+            "settled_at": "2026-09-13"
         }
     ],
-    "last_update": "2026-09-12 02:21"
+    "last_update": "2026-09-13 02:19"
 }
