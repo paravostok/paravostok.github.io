@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260913001",
-            "title": "Will a Cabinet Minister resign from the UK Government by the end of today?",
-            "payout": 3.8,
-            "desc": "Following recent disagreements over economic policy and leaked internal tensions, speculation is rife regarding potential high-profile departures. Political commentators are closely watching for any sudden announcements or statements today."
+            "id": "20260914001",
+            "title": "Will the Chancellor of the Exchequer rule out an autumn mini-budget in today's Treasury Committee hearing?",
+            "payout": 1.38,
+            "desc": "The Chancellor is scheduled to give evidence to the Treasury Committee this morning, where questions on the economy and future fiscal plans are expected to be prominent, potentially leading to a definitive statement on upcoming budgets."
         },
         {
-            "id": "20260913002",
-            "title": "Will the Scottish Government today launch a public consultation on the future of local council funding?",
-            "payout": 1.46,
-            "desc": "With upcoming local elections and increasing pressure from COSLA regarding budget shortfalls, sources suggest the First Minister is considering a fresh approach. An announcement is anticipated during this afternoon's parliamentary session or a subsequent press conference."
+            "id": "20260914002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
+            "payout": 1.26,
+            "desc": "Following a recent NEC meeting and amidst preparations for key policy debates, sources within the SNP suggest an official announcement regarding the dates and venue for the upcoming party conference could be made this afternoon to allow for delegate planning."
         },
         {
-            "id": "20260913003",
-            "title": "Will the Department for Transport today confirm the cancellation of the proposed rail link to Manston Airport?",
-            "payout": 2.38,
-            "desc": "After years of feasibility studies and environmental concerns, local campaigners are pushing for a definitive decision. The Transport Secretary is scheduled to meet with regional MPs this morning, with an outcome expected to be communicated today."
+            "id": "20260914003",
+            "title": "Will Transport for London (TfL) today announce a new specific fare increase for 2027?",
+            "payout": 1.58,
+            "desc": "With ongoing budget pressures and discussions with the Department for Transport, TfL is widely expected to outline its financial plans and potential fare adjustments for the next fiscal year. An update is anticipated during the Mayor's press conference this morning."
         },
         {
-            "id": "20260913004",
-            "title": "Will the EU Commission today formally recommend beginning accession talks with [fictional country Z]?",
-            "payout": 1.73,
-            "desc": "Following months of internal debate and a recent positive assessment report, diplomats in Brussels are anticipating a major announcement from the Commission President's office. A press conference is scheduled for late morning, where this recommendation is widely expected."
+            "id": "20260914004",
+            "title": "Will the G7 foreign ministers today issue a joint statement condemning recent actions by [fictional country Y]?",
+            "payout": 1.19,
+            "desc": "G7 foreign ministers are meeting virtually today to discuss global security challenges. Following escalating rhetoric and cross-border incidents involving [fictional country Y], a strong coordinated diplomatic response in the form of a joint statement is highly anticipated by the end of the day."
         },
         {
-            "id": "20260913005",
-            "title": "Will the UN Secretary-General today confirm the deployment of an international observer mission to the disputed border region of [fictional region X]?",
-            "payout": 1.36,
-            "desc": "Following increased tensions and calls for de-escalation from international bodies, the UN has been exploring options. The Secretary-General is expected to address the General Assembly today, where an update on regional stability and potential interventions is highly probable."
+            "id": "20260914005",
+            "title": "Will the Red Cross today confirm the successful delivery of humanitarian aid to the besieged city of [fictional city A]?",
+            "payout": 1.9,
+            "desc": "Following days of negotiations and a temporary ceasefire agreement, a convoy of Red Cross aid has been attempting to reach [fictional city A]. The organization is expected to provide an update on the mission's status by late afternoon today."
         }
     ],
     "history": [
@@ -5401,7 +5401,47 @@
             "desc": "Despite the failure of yesterday's proposed ceasefire, diplomatic efforts continue behind the scenes. The Special Envoy is scheduled to give a press briefing from UN Headquarters this afternoon, where an announcement regarding future negotiations is highly anticipated.",
             "result": "WON",
             "settled_at": "2026-09-13"
+        },
+        {
+            "id": "20260913001",
+            "title": "Will a Cabinet Minister resign from the UK Government by the end of today?",
+            "payout": 3.8,
+            "desc": "Following recent disagreements over economic policy and leaked internal tensions, speculation is rife regarding potential high-profile departures. Political commentators are closely watching for any sudden announcements or statements today.",
+            "result": "LOST",
+            "settled_at": "2026-09-14"
+        },
+        {
+            "id": "20260913002",
+            "title": "Will the Scottish Government today launch a public consultation on the future of local council funding?",
+            "payout": 1.46,
+            "desc": "With upcoming local elections and increasing pressure from COSLA regarding budget shortfalls, sources suggest the First Minister is considering a fresh approach. An announcement is anticipated during this afternoon's parliamentary session or a subsequent press conference.",
+            "result": "WON",
+            "settled_at": "2026-09-14"
+        },
+        {
+            "id": "20260913003",
+            "title": "Will the Department for Transport today confirm the cancellation of the proposed rail link to Manston Airport?",
+            "payout": 2.38,
+            "desc": "After years of feasibility studies and environmental concerns, local campaigners are pushing for a definitive decision. The Transport Secretary is scheduled to meet with regional MPs this morning, with an outcome expected to be communicated today.",
+            "result": "WON",
+            "settled_at": "2026-09-14"
+        },
+        {
+            "id": "20260913004",
+            "title": "Will the EU Commission today formally recommend beginning accession talks with [fictional country Z]?",
+            "payout": 1.73,
+            "desc": "Following months of internal debate and a recent positive assessment report, diplomats in Brussels are anticipating a major announcement from the Commission President's office. A press conference is scheduled for late morning, where this recommendation is widely expected.",
+            "result": "WON",
+            "settled_at": "2026-09-14"
+        },
+        {
+            "id": "20260913005",
+            "title": "Will the UN Secretary-General today confirm the deployment of an international observer mission to the disputed border region of [fictional region X]?",
+            "payout": 1.36,
+            "desc": "Following increased tensions and calls for de-escalation from international bodies, the UN has been exploring options. The Secretary-General is expected to address the General Assembly today, where an update on regional stability and potential interventions is highly probable.",
+            "result": "WON",
+            "settled_at": "2026-09-14"
         }
     ],
-    "last_update": "2026-09-13 02:19"
+    "last_update": "2026-09-14 02:36"
 }
