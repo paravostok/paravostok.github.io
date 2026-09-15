@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260914001",
-            "title": "Will the Chancellor of the Exchequer rule out an autumn mini-budget in today's Treasury Committee hearing?",
-            "payout": 1.38,
-            "desc": "The Chancellor is scheduled to give evidence to the Treasury Committee this morning, where questions on the economy and future fiscal plans are expected to be prominent, potentially leading to a definitive statement on upcoming budgets."
-        },
-        {
-            "id": "20260914002",
-            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
-            "payout": 1.26,
-            "desc": "Following a recent NEC meeting and amidst preparations for key policy debates, sources within the SNP suggest an official announcement regarding the dates and venue for the upcoming party conference could be made this afternoon to allow for delegate planning."
-        },
-        {
-            "id": "20260914003",
-            "title": "Will Transport for London (TfL) today announce a new specific fare increase for 2027?",
+            "id": "20260915001",
+            "title": "Will the Department for Work and Pensions (DWP) today publish its long-awaited white paper on pension reform?",
             "payout": 1.58,
-            "desc": "With ongoing budget pressures and discussions with the Department for Transport, TfL is widely expected to outline its financial plans and potential fare adjustments for the next fiscal year. An update is anticipated during the Mayor's press conference this morning."
+            "desc": "Following months of consultation and speculation regarding changes to the state pension age and private pension regulations, sources within Whitehall suggest the DWP is poised to release its detailed proposals in a white paper today, aiming to set the agenda for upcoming legislative debate."
         },
         {
-            "id": "20260914004",
-            "title": "Will the G7 foreign ministers today issue a joint statement condemning recent actions by [fictional country Y]?",
-            "payout": 1.19,
-            "desc": "G7 foreign ministers are meeting virtually today to discuss global security challenges. Following escalating rhetoric and cross-border incidents involving [fictional country Y], a strong coordinated diplomatic response in the form of a joint statement is highly anticipated by the end of the day."
+            "id": "20260915002",
+            "title": "Will the Scottish Government today confirm funding for the proposed new ferry route to the Western Isles?",
+            "payout": 1.36,
+            "desc": "Amid persistent calls from island communities and a review of transport links, the Scottish Government is under pressure to deliver on infrastructure promises. An announcement regarding the much-anticipated funding for the new Western Isles ferry service is reportedly on the agenda for today's cabinet meeting and expected shortly after."
         },
         {
-            "id": "20260914005",
-            "title": "Will the Red Cross today confirm the successful delivery of humanitarian aid to the besieged city of [fictional city A]?",
+            "id": "20260915003",
+            "title": "Will HS2 Ltd today confirm a new delay to the opening of the Birmingham-Crewe section of HS2?",
             "payout": 1.9,
-            "desc": "Following days of negotiations and a temporary ceasefire agreement, a convoy of Red Cross aid has been attempting to reach [fictional city A]. The organization is expected to provide an update on the mission's status by late afternoon today."
+            "desc": "Whispers from within HS2 Ltd and the Department for Transport suggest that further geotechnical challenges and supply chain issues are impacting the Birmingham-Crewe phase. An official statement or parliamentary update confirming a revised timeline, indicating further delays, is widely anticipated today."
+        },
+        {
+            "id": "20260915004",
+            "title": "Will the leaders of [Fictional Country X] and [Fictional Country Y] today agree to a bilateral ceasefire during their meeting in Geneva?",
+            "payout": 2.38,
+            "desc": "Following weeks of escalating tensions and border skirmishes, the heads of state of [Fictional Country X] and [Fictional Country Y] are scheduled to hold emergency talks in Geneva today, brokered by UN envoys. Hopes are high, but not guaranteed, for a breakthrough resulting in a confirmed bilateral ceasefire agreement by the day's end."
+        },
+        {
+            "id": "20260915005",
+            "title": "Will the warring factions in [fictional country B] today agree to a 72-hour humanitarian truce brokered by the UN?",
+            "payout": 3.17,
+            "desc": "Amid mounting international pressure and reports of severe civilian suffering in [fictional country B], UN mediators have been working intensely to secure a temporary cessation of hostilities. There are strong indications that negotiations today could culminate in a public agreement for a 72-hour humanitarian truce to allow aid distribution."
         }
     ],
     "history": [
@@ -5441,7 +5441,47 @@
             "desc": "Following increased tensions and calls for de-escalation from international bodies, the UN has been exploring options. The Secretary-General is expected to address the General Assembly today, where an update on regional stability and potential interventions is highly probable.",
             "result": "WON",
             "settled_at": "2026-09-14"
+        },
+        {
+            "id": "20260914001",
+            "title": "Will the Chancellor of the Exchequer rule out an autumn mini-budget in today's Treasury Committee hearing?",
+            "payout": 1.38,
+            "desc": "The Chancellor is scheduled to give evidence to the Treasury Committee this morning, where questions on the economy and future fiscal plans are expected to be prominent, potentially leading to a definitive statement on upcoming budgets.",
+            "result": "LOST",
+            "settled_at": "2026-09-15"
+        },
+        {
+            "id": "20260914002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its autumn party conference?",
+            "payout": 1.26,
+            "desc": "Following a recent NEC meeting and amidst preparations for key policy debates, sources within the SNP suggest an official announcement regarding the dates and venue for the upcoming party conference could be made this afternoon to allow for delegate planning.",
+            "result": "WON",
+            "settled_at": "2026-09-15"
+        },
+        {
+            "id": "20260914003",
+            "title": "Will Transport for London (TfL) today announce a new specific fare increase for 2027?",
+            "payout": 1.58,
+            "desc": "With ongoing budget pressures and discussions with the Department for Transport, TfL is widely expected to outline its financial plans and potential fare adjustments for the next fiscal year. An update is anticipated during the Mayor's press conference this morning.",
+            "result": "WON",
+            "settled_at": "2026-09-15"
+        },
+        {
+            "id": "20260914004",
+            "title": "Will the G7 foreign ministers today issue a joint statement condemning recent actions by [fictional country Y]?",
+            "payout": 1.19,
+            "desc": "G7 foreign ministers are meeting virtually today to discuss global security challenges. Following escalating rhetoric and cross-border incidents involving [fictional country Y], a strong coordinated diplomatic response in the form of a joint statement is highly anticipated by the end of the day.",
+            "result": "WON",
+            "settled_at": "2026-09-15"
+        },
+        {
+            "id": "20260914005",
+            "title": "Will the Red Cross today confirm the successful delivery of humanitarian aid to the besieged city of [fictional city A]?",
+            "payout": 1.9,
+            "desc": "Following days of negotiations and a temporary ceasefire agreement, a convoy of Red Cross aid has been attempting to reach [fictional city A]. The organization is expected to provide an update on the mission's status by late afternoon today.",
+            "result": "LOST",
+            "settled_at": "2026-09-15"
         }
     ],
-    "last_update": "2026-09-14 02:36"
+    "last_update": "2026-09-15 02:40"
 }
