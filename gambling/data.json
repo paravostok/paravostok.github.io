@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260915001",
-            "title": "Will the Department for Work and Pensions (DWP) today publish its long-awaited white paper on pension reform?",
-            "payout": 1.58,
-            "desc": "Following months of consultation and speculation regarding changes to the state pension age and private pension regulations, sources within Whitehall suggest the DWP is poised to release its detailed proposals in a white paper today, aiming to set the agenda for upcoming legislative debate."
+            "id": "20260916001",
+            "title": "Will the Chancellor of the Exchequer announce a new fiscal measure aimed at curbing inflation during his speech at the City of London today?",
+            "payout": 1.46,
+            "desc": "With inflation figures remaining stubbornly high, the Chancellor is under increasing pressure to act. His scheduled address to financial leaders today is widely seen as a potential platform for announcing new economic interventions, or at least hinting strongly at them, to reassure markets and the public."
         },
         {
-            "id": "20260915002",
-            "title": "Will the Scottish Government today confirm funding for the proposed new ferry route to the Western Isles?",
-            "payout": 1.36,
-            "desc": "Amid persistent calls from island communities and a review of transport links, the Scottish Government is under pressure to deliver on infrastructure promises. An announcement regarding the much-anticipated funding for the new Western Isles ferry service is reportedly on the agenda for today's cabinet meeting and expected shortly after."
+            "id": "20260916002",
+            "title": "Will a new opinion poll on Scottish independence be published today, showing support for 'Yes' exceeding 50%?",
+            "payout": 2.71,
+            "desc": "Following recent political developments in Westminster and Holyrood, speculation about shifting public opinion on Scottish independence is rife. Major polling firms often release surveys midweek, and a new poll focusing specifically on independence figures is rumoured to be in the works for today."
         },
         {
-            "id": "20260915003",
-            "title": "Will HS2 Ltd today confirm a new delay to the opening of the Birmingham-Crewe section of HS2?",
-            "payout": 1.9,
-            "desc": "Whispers from within HS2 Ltd and the Department for Transport suggest that further geotechnical challenges and supply chain issues are impacting the Birmingham-Crewe phase. An official statement or parliamentary update confirming a revised timeline, indicating further delays, is widely anticipated today."
-        },
-        {
-            "id": "20260915004",
-            "title": "Will the leaders of [Fictional Country X] and [Fictional Country Y] today agree to a bilateral ceasefire during their meeting in Geneva?",
+            "id": "20260916003",
+            "title": "Will the Department for Transport today confirm the cancellation of the proposed 'Northern Powerhouse Rail' Leeds-Manchester high-speed line segment?",
             "payout": 2.38,
-            "desc": "Following weeks of escalating tensions and border skirmishes, the heads of state of [Fictional Country X] and [Fictional Country Y] are scheduled to hold emergency talks in Geneva today, brokered by UN envoys. Hopes are high, but not guaranteed, for a breakthrough resulting in a confirmed bilateral ceasefire agreement by the day's end."
+            "desc": "Following persistent rumours of cost overruns and a re-evaluation of infrastructure priorities, whispers within the Department for Transport suggest that the long-contested Leeds-Manchester section of Northern Powerhouse Rail might face the axe. An announcement or leaked confirmation is anticipated today as part of a wider review update."
         },
         {
-            "id": "20260915005",
-            "title": "Will the warring factions in [fictional country B] today agree to a 72-hour humanitarian truce brokered by the UN?",
-            "payout": 3.17,
-            "desc": "Amid mounting international pressure and reports of severe civilian suffering in [fictional country B], UN mediators have been working intensely to secure a temporary cessation of hostilities. There are strong indications that negotiations today could culminate in a public agreement for a 72-hour humanitarian truce to allow aid distribution."
+            "id": "20260916004",
+            "title": "Will the G7 foreign ministers, meeting in Tokyo, today issue a joint statement condemning [Fictional Country Z]'s recent nuclear test?",
+            "payout": 1.19,
+            "desc": "Following [Fictional Country Z]'s alleged nuclear test earlier this week, G7 foreign ministers are holding an emergency meeting in Tokyo. A strong, unified condemnation is expected, and diplomatic sources indicate that a formal joint statement is being drafted for release by the end of today's discussions."
+        },
+        {
+            "id": "20260916005",
+            "title": "Will the UN Secretary-General today confirm the establishment of a humanitarian corridor in [Fictional Country D] following intense diplomatic efforts?",
+            "payout": 1.36,
+            "desc": "After days of intense fighting and reports of civilians trapped, UN diplomats have been working around the clock to secure safe passage for aid and civilians in [Fictional Country D]. Sources close to the UN suggest an agreement on a limited humanitarian corridor has been reached, with the Secretary-General expected to make a formal announcement today."
         }
     ],
     "history": [
@@ -5481,7 +5481,47 @@
             "desc": "Following days of negotiations and a temporary ceasefire agreement, a convoy of Red Cross aid has been attempting to reach [fictional city A]. The organization is expected to provide an update on the mission's status by late afternoon today.",
             "result": "LOST",
             "settled_at": "2026-09-15"
+        },
+        {
+            "id": "20260915001",
+            "title": "Will the Department for Work and Pensions (DWP) today publish its long-awaited white paper on pension reform?",
+            "payout": 1.58,
+            "desc": "Following months of consultation and speculation regarding changes to the state pension age and private pension regulations, sources within Whitehall suggest the DWP is poised to release its detailed proposals in a white paper today, aiming to set the agenda for upcoming legislative debate.",
+            "result": "WON",
+            "settled_at": "2026-09-16"
+        },
+        {
+            "id": "20260915002",
+            "title": "Will the Scottish Government today confirm funding for the proposed new ferry route to the Western Isles?",
+            "payout": 1.36,
+            "desc": "Amid persistent calls from island communities and a review of transport links, the Scottish Government is under pressure to deliver on infrastructure promises. An announcement regarding the much-anticipated funding for the new Western Isles ferry service is reportedly on the agenda for today's cabinet meeting and expected shortly after.",
+            "result": "WON",
+            "settled_at": "2026-09-16"
+        },
+        {
+            "id": "20260915003",
+            "title": "Will HS2 Ltd today confirm a new delay to the opening of the Birmingham-Crewe section of HS2?",
+            "payout": 1.9,
+            "desc": "Whispers from within HS2 Ltd and the Department for Transport suggest that further geotechnical challenges and supply chain issues are impacting the Birmingham-Crewe phase. An official statement or parliamentary update confirming a revised timeline, indicating further delays, is widely anticipated today.",
+            "result": "WON",
+            "settled_at": "2026-09-16"
+        },
+        {
+            "id": "20260915004",
+            "title": "Will the leaders of [Fictional Country X] and [Fictional Country Y] today agree to a bilateral ceasefire during their meeting in Geneva?",
+            "payout": 2.38,
+            "desc": "Following weeks of escalating tensions and border skirmishes, the heads of state of [Fictional Country X] and [Fictional Country Y] are scheduled to hold emergency talks in Geneva today, brokered by UN envoys. Hopes are high, but not guaranteed, for a breakthrough resulting in a confirmed bilateral ceasefire agreement by the day's end.",
+            "result": "LOST",
+            "settled_at": "2026-09-16"
+        },
+        {
+            "id": "20260915005",
+            "title": "Will the warring factions in [fictional country B] today agree to a 72-hour humanitarian truce brokered by the UN?",
+            "payout": 3.17,
+            "desc": "Amid mounting international pressure and reports of severe civilian suffering in [fictional country B], UN mediators have been working intensely to secure a temporary cessation of hostilities. There are strong indications that negotiations today could culminate in a public agreement for a 72-hour humanitarian truce to allow aid distribution.",
+            "result": "WON",
+            "settled_at": "2026-09-16"
         }
     ],
-    "last_update": "2026-09-15 02:40"
+    "last_update": "2026-09-16 02:35"
 }
