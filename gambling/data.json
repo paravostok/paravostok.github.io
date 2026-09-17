@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260916001",
-            "title": "Will the Chancellor of the Exchequer announce a new fiscal measure aimed at curbing inflation during his speech at the City of London today?",
-            "payout": 1.46,
-            "desc": "With inflation figures remaining stubbornly high, the Chancellor is under increasing pressure to act. His scheduled address to financial leaders today is widely seen as a potential platform for announcing new economic interventions, or at least hinting strongly at them, to reassure markets and the public."
+            "id": "20260917001",
+            "title": "Will the Secretary of State for Health and Social Care today announce a revised funding package for NHS dentistry, reversing earlier cuts?",
+            "payout": 2.11,
+            "desc": "Following widespread criticism and a looming parliamentary debate, government sources are hinting at a potential policy pivot on NHS dentistry funding. An announcement is expected to pre-empt a damaging opposition vote."
         },
         {
-            "id": "20260916002",
-            "title": "Will a new opinion poll on Scottish independence be published today, showing support for 'Yes' exceeding 50%?",
+            "id": "20260917002",
+            "title": "Will the Scottish Government today publish its long-awaited detailed implementation plan for the new National Care Service?",
             "payout": 2.71,
-            "desc": "Following recent political developments in Westminster and Holyrood, speculation about shifting public opinion on Scottish independence is rife. Major polling firms often release surveys midweek, and a new poll focusing specifically on independence figures is rumoured to be in the works for today."
+            "desc": "Despite previous delays, pressure from opposition parties and care sector unions has intensified for the Scottish Government to provide concrete details on the National Care Service's rollout. A spokesperson indicated a document *could* be released today."
         },
         {
-            "id": "20260916003",
-            "title": "Will the Department for Transport today confirm the cancellation of the proposed 'Northern Powerhouse Rail' Leeds-Manchester high-speed line segment?",
-            "payout": 2.38,
-            "desc": "Following persistent rumours of cost overruns and a re-evaluation of infrastructure priorities, whispers within the Department for Transport suggest that the long-contested Leeds-Manchester section of Northern Powerhouse Rail might face the axe. An announcement or leaked confirmation is anticipated today as part of a wider review update."
+            "id": "20260917003",
+            "title": "Will the Department for Transport today confirm the approval for the controversial expansion of Bristol Airport?",
+            "payout": 3.17,
+            "desc": "After years of planning battles and judicial reviews, the final decision on Bristol Airport's expansion has been pending. Rumours suggest the DfT is poised to make an announcement today, potentially following a leaked report."
         },
         {
-            "id": "20260916004",
-            "title": "Will the G7 foreign ministers, meeting in Tokyo, today issue a joint statement condemning [Fictional Country Z]'s recent nuclear test?",
-            "payout": 1.19,
-            "desc": "Following [Fictional Country Z]'s alleged nuclear test earlier this week, G7 foreign ministers are holding an emergency meeting in Tokyo. A strong, unified condemnation is expected, and diplomatic sources indicate that a formal joint statement is being drafted for release by the end of today's discussions."
-        },
-        {
-            "id": "20260916005",
-            "title": "Will the UN Secretary-General today confirm the establishment of a humanitarian corridor in [Fictional Country D] following intense diplomatic efforts?",
+            "id": "20260917004",
+            "title": "Will the EU Commission today announce new economic sanctions against [Fictional Country Y] following recent human rights abuses?",
             "payout": 1.36,
-            "desc": "After days of intense fighting and reports of civilians trapped, UN diplomats have been working around the clock to secure safe passage for aid and civilians in [Fictional Country D]. Sources close to the UN suggest an agreement on a limited humanitarian corridor has been reached, with the Secretary-General expected to make a formal announcement today."
+            "desc": "Following a week of escalating reports of human rights violations in [Fictional Country Y] and pressure from MEPs, EU foreign ministers concluded an emergency meeting yesterday. An announcement of targeted sanctions is widely expected from the Commission today."
+        },
+        {
+            "id": "20260917005",
+            "title": "Will the warring factions in [Fictional Country K] today agree to a 24-hour humanitarian ceasefire, brokered by UN envoys?",
+            "payout": 1.58,
+            "desc": "Despite ongoing clashes, UN Special Envoy for [Fictional Country K] has been engaged in intensive, back-channel negotiations for a temporary ceasefire to allow aid delivery. Reports from diplomatic sources suggest an agreement is imminent and could be announced today."
         }
     ],
     "history": [
@@ -5521,7 +5521,47 @@
             "desc": "Amid mounting international pressure and reports of severe civilian suffering in [fictional country B], UN mediators have been working intensely to secure a temporary cessation of hostilities. There are strong indications that negotiations today could culminate in a public agreement for a 72-hour humanitarian truce to allow aid distribution.",
             "result": "WON",
             "settled_at": "2026-09-16"
+        },
+        {
+            "id": "20260916001",
+            "title": "Will the Chancellor of the Exchequer announce a new fiscal measure aimed at curbing inflation during his speech at the City of London today?",
+            "payout": 1.46,
+            "desc": "With inflation figures remaining stubbornly high, the Chancellor is under increasing pressure to act. His scheduled address to financial leaders today is widely seen as a potential platform for announcing new economic interventions, or at least hinting strongly at them, to reassure markets and the public.",
+            "result": "LOST",
+            "settled_at": "2026-09-17"
+        },
+        {
+            "id": "20260916002",
+            "title": "Will a new opinion poll on Scottish independence be published today, showing support for 'Yes' exceeding 50%?",
+            "payout": 2.71,
+            "desc": "Following recent political developments in Westminster and Holyrood, speculation about shifting public opinion on Scottish independence is rife. Major polling firms often release surveys midweek, and a new poll focusing specifically on independence figures is rumoured to be in the works for today.",
+            "result": "LOST",
+            "settled_at": "2026-09-17"
+        },
+        {
+            "id": "20260916003",
+            "title": "Will the Department for Transport today confirm the cancellation of the proposed 'Northern Powerhouse Rail' Leeds-Manchester high-speed line segment?",
+            "payout": 2.38,
+            "desc": "Following persistent rumours of cost overruns and a re-evaluation of infrastructure priorities, whispers within the Department for Transport suggest that the long-contested Leeds-Manchester section of Northern Powerhouse Rail might face the axe. An announcement or leaked confirmation is anticipated today as part of a wider review update.",
+            "result": "LOST",
+            "settled_at": "2026-09-17"
+        },
+        {
+            "id": "20260916004",
+            "title": "Will the G7 foreign ministers, meeting in Tokyo, today issue a joint statement condemning [Fictional Country Z]'s recent nuclear test?",
+            "payout": 1.19,
+            "desc": "Following [Fictional Country Z]'s alleged nuclear test earlier this week, G7 foreign ministers are holding an emergency meeting in Tokyo. A strong, unified condemnation is expected, and diplomatic sources indicate that a formal joint statement is being drafted for release by the end of today's discussions.",
+            "result": "WON",
+            "settled_at": "2026-09-17"
+        },
+        {
+            "id": "20260916005",
+            "title": "Will the UN Secretary-General today confirm the establishment of a humanitarian corridor in [Fictional Country D] following intense diplomatic efforts?",
+            "payout": 1.36,
+            "desc": "After days of intense fighting and reports of civilians trapped, UN diplomats have been working around the clock to secure safe passage for aid and civilians in [Fictional Country D]. Sources close to the UN suggest an agreement on a limited humanitarian corridor has been reached, with the Secretary-General expected to make a formal announcement today.",
+            "result": "WON",
+            "settled_at": "2026-09-17"
         }
     ],
-    "last_update": "2026-09-16 02:35"
+    "last_update": "2026-09-17 02:39"
 }
