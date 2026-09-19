@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260917001",
-            "title": "Will the Secretary of State for Health and Social Care today announce a revised funding package for NHS dentistry, reversing earlier cuts?",
-            "payout": 2.11,
-            "desc": "Following widespread criticism and a looming parliamentary debate, government sources are hinting at a potential policy pivot on NHS dentistry funding. An announcement is expected to pre-empt a damaging opposition vote."
-        },
-        {
-            "id": "20260917002",
-            "title": "Will the Scottish Government today publish its long-awaited detailed implementation plan for the new National Care Service?",
-            "payout": 2.71,
-            "desc": "Despite previous delays, pressure from opposition parties and care sector unions has intensified for the Scottish Government to provide concrete details on the National Care Service's rollout. A spokesperson indicated a document *could* be released today."
-        },
-        {
-            "id": "20260917003",
-            "title": "Will the Department for Transport today confirm the approval for the controversial expansion of Bristol Airport?",
+            "id": "20260919001",
+            "title": "Will a Junior Minister within the Department for Education resign today following yesterday's leaked policy document?",
             "payout": 3.17,
-            "desc": "After years of planning battles and judicial reviews, the final decision on Bristol Airport's expansion has been pending. Rumours suggest the DfT is poised to make an announcement today, potentially following a leaked report."
+            "desc": "Following intense media scrutiny and calls for accountability over a leaked document detailing significant cuts to student support, whispers from Westminster suggest a junior minister might be made to take the fall and tender their resignation today."
         },
         {
-            "id": "20260917004",
-            "title": "Will the EU Commission today announce new economic sanctions against [Fictional Country Y] following recent human rights abuses?",
-            "payout": 1.36,
-            "desc": "Following a week of escalating reports of human rights violations in [Fictional Country Y] and pressure from MEPs, EU foreign ministers concluded an emergency meeting yesterday. An announcement of targeted sanctions is widely expected from the Commission today."
-        },
-        {
-            "id": "20260917005",
-            "title": "Will the warring factions in [Fictional Country K] today agree to a 24-hour humanitarian ceasefire, brokered by UN envoys?",
+            "id": "20260919002",
+            "title": "Will a new Ipsos/Scotsman poll on Scottish independence intentions be released before 5 PM today?",
             "payout": 1.58,
-            "desc": "Despite ongoing clashes, UN Special Envoy for [Fictional Country K] has been engaged in intensive, back-channel negotiations for a temporary ceasefire to allow aid delivery. Reports from diplomatic sources suggest an agreement is imminent and could be announced today."
+            "desc": "With recent debates heating up around a potential future independence referendum, speculation is rife that a major polling firm, Ipsos, commissioned by The Scotsman newspaper, has concluded fieldwork and is poised to release its latest figures today."
+        },
+        {
+            "id": "20260919003",
+            "title": "Will the Department for Levelling Up, Housing and Communities today confirm new funding for the 'East Midlands Rail Link Phase 2' project?",
+            "payout": 2.11,
+            "desc": "After weeks of local lobbying and a key meeting between regional leaders and DLUHC officials yesterday, sources close to the department indicate an announcement regarding the much-anticipated East Midlands Rail Link Phase 2 funding is on the cards for today's midday press briefing."
+        },
+        {
+            "id": "20260919004",
+            "title": "Will the US President today issue a formal statement condemning the recent military exercises conducted by [Fictional Country Z] in international waters?",
+            "payout": 1.36,
+            "desc": "Following widespread international condemnation from allied nations and a Pentagon briefing yesterday highlighting the provocative nature of [Fictional Country Z]'s naval drills, a formal and direct condemnation from the White House is widely anticipated today."
+        },
+        {
+            "id": "20260919005",
+            "title": "Will the first UN humanitarian aid convoy successfully cross into [Fictional Region R] today, following yesterday's limited agreement?",
+            "payout": 1.73,
+            "desc": "After a tentative agreement was reached yesterday to allow humanitarian access, UN officials are working against the clock to coordinate the first aid convoy. Its successful entry into the besieged [Fictional Region R] is crucial and will be closely watched today."
         }
     ],
     "history": [
@@ -5561,7 +5561,47 @@
             "desc": "After days of intense fighting and reports of civilians trapped, UN diplomats have been working around the clock to secure safe passage for aid and civilians in [Fictional Country D]. Sources close to the UN suggest an agreement on a limited humanitarian corridor has been reached, with the Secretary-General expected to make a formal announcement today.",
             "result": "WON",
             "settled_at": "2026-09-17"
+        },
+        {
+            "id": "20260917001",
+            "title": "Will the Secretary of State for Health and Social Care today announce a revised funding package for NHS dentistry, reversing earlier cuts?",
+            "payout": 2.11,
+            "desc": "Following widespread criticism and a looming parliamentary debate, government sources are hinting at a potential policy pivot on NHS dentistry funding. An announcement is expected to pre-empt a damaging opposition vote.",
+            "result": "WON",
+            "settled_at": "2026-09-19"
+        },
+        {
+            "id": "20260917002",
+            "title": "Will the Scottish Government today publish its long-awaited detailed implementation plan for the new National Care Service?",
+            "payout": 2.71,
+            "desc": "Despite previous delays, pressure from opposition parties and care sector unions has intensified for the Scottish Government to provide concrete details on the National Care Service's rollout. A spokesperson indicated a document *could* be released today.",
+            "result": "LOST",
+            "settled_at": "2026-09-19"
+        },
+        {
+            "id": "20260917003",
+            "title": "Will the Department for Transport today confirm the approval for the controversial expansion of Bristol Airport?",
+            "payout": 3.17,
+            "desc": "After years of planning battles and judicial reviews, the final decision on Bristol Airport's expansion has been pending. Rumours suggest the DfT is poised to make an announcement today, potentially following a leaked report.",
+            "result": "LOST",
+            "settled_at": "2026-09-19"
+        },
+        {
+            "id": "20260917004",
+            "title": "Will the EU Commission today announce new economic sanctions against [Fictional Country Y] following recent human rights abuses?",
+            "payout": 1.36,
+            "desc": "Following a week of escalating reports of human rights violations in [Fictional Country Y] and pressure from MEPs, EU foreign ministers concluded an emergency meeting yesterday. An announcement of targeted sanctions is widely expected from the Commission today.",
+            "result": "WON",
+            "settled_at": "2026-09-19"
+        },
+        {
+            "id": "20260917005",
+            "title": "Will the warring factions in [Fictional Country K] today agree to a 24-hour humanitarian ceasefire, brokered by UN envoys?",
+            "payout": 1.58,
+            "desc": "Despite ongoing clashes, UN Special Envoy for [Fictional Country K] has been engaged in intensive, back-channel negotiations for a temporary ceasefire to allow aid delivery. Reports from diplomatic sources suggest an agreement is imminent and could be announced today.",
+            "result": "LOST",
+            "settled_at": "2026-09-19"
         }
     ],
-    "last_update": "2026-09-17 02:39"
+    "last_update": "2026-09-19 02:26"
 }
