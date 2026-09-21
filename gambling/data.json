@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260919001",
-            "title": "Will a Junior Minister within the Department for Education resign today following yesterday's leaked policy document?",
-            "payout": 3.17,
-            "desc": "Following intense media scrutiny and calls for accountability over a leaked document detailing significant cuts to student support, whispers from Westminster suggest a junior minister might be made to take the fall and tender their resignation today."
+            "id": "20260921001",
+            "title": "Will the Labour Party today formally open disciplinary proceedings against MP [Fictional MP Name] following fresh allegations reported this morning?",
+            "payout": 2.38,
+            "desc": "Following a damaging expos\u00e9 in 'The Guardian' this morning detailing further allegations of financial impropriety against a prominent Labour MP, internal party sources suggest swift action may be taken to avoid a prolonged media spectacle, with an announcement expected by late afternoon."
         },
         {
-            "id": "20260919002",
-            "title": "Will a new Ipsos/Scotsman poll on Scottish independence intentions be released before 5 PM today?",
+            "id": "20260921002",
+            "title": "Will the Scottish Government today confirm a delay to the proposed National Care Service implementation beyond its 2027 target?",
             "payout": 1.58,
-            "desc": "With recent debates heating up around a potential future independence referendum, speculation is rife that a major polling firm, Ipsos, commissioned by The Scotsman newspaper, has concluded fieldwork and is poised to release its latest figures today."
+            "desc": "Following recent reports of significant cost overruns and workforce challenges, insider whispers from Holyrood suggest the Scottish Government is poised to acknowledge a delay to the contentious National Care Service project, possibly in a statement to parliament or a press release this afternoon."
         },
         {
-            "id": "20260919003",
-            "title": "Will the Department for Levelling Up, Housing and Communities today confirm new funding for the 'East Midlands Rail Link Phase 2' project?",
-            "payout": 2.11,
-            "desc": "After weeks of local lobbying and a key meeting between regional leaders and DLUHC officials yesterday, sources close to the department indicate an announcement regarding the much-anticipated East Midlands Rail Link Phase 2 funding is on the cards for today's midday press briefing."
+            "id": "20260921003",
+            "title": "Will the Department for Transport today announce a revised timeline for the completion of the A14 upgrade project near Cambridge?",
+            "payout": 1.9,
+            "desc": "With persistent local concerns over project delays and a recent question in Parliament, sources within the DfT indicate that an update regarding the A14 upgrade's completion, potentially extending its timeline, is being prepared for release today to address public and parliamentary pressure."
         },
         {
-            "id": "20260919004",
-            "title": "Will the US President today issue a formal statement condemning the recent military exercises conducted by [Fictional Country Z] in international waters?",
+            "id": "20260921004",
+            "title": "Will the European Union today formally announce sanctions against [Fictional Country Y] following yesterday's cyberattack revelations?",
             "payout": 1.36,
-            "desc": "Following widespread international condemnation from allied nations and a Pentagon briefing yesterday highlighting the provocative nature of [Fictional Country Z]'s naval drills, a formal and direct condemnation from the White House is widely anticipated today."
+            "desc": "After a classified report implicated [Fictional Country Y] in yesterday's widespread cyberattacks targeting European infrastructure, diplomatic sources in Brussels suggest the EU Commission is preparing a strong, unified response, with a formal announcement of targeted sanctions expected before the close of business."
         },
         {
-            "id": "20260919005",
-            "title": "Will the first UN humanitarian aid convoy successfully cross into [Fictional Region R] today, following yesterday's limited agreement?",
-            "payout": 1.73,
-            "desc": "After a tentative agreement was reached yesterday to allow humanitarian access, UN officials are working against the clock to coordinate the first aid convoy. Its successful entry into the besieged [Fictional Region R] is crucial and will be closely watched today."
+            "id": "20260921005",
+            "title": "Will an emergency session of the UN Security Council be called today regarding the escalating crisis in [Fictional Region S]?",
+            "payout": 3.17,
+            "desc": "Following reports of intensified cross-border shelling overnight and a failed mediation attempt by regional powers, calls from several member states for an immediate UN Security Council intervention are mounting, with a vote on convening an emergency session possibly taking place before end-of-day in New York."
         }
     ],
     "history": [
@@ -5601,7 +5601,47 @@
             "desc": "Despite ongoing clashes, UN Special Envoy for [Fictional Country K] has been engaged in intensive, back-channel negotiations for a temporary ceasefire to allow aid delivery. Reports from diplomatic sources suggest an agreement is imminent and could be announced today.",
             "result": "LOST",
             "settled_at": "2026-09-19"
+        },
+        {
+            "id": "20260919001",
+            "title": "Will a Junior Minister within the Department for Education resign today following yesterday's leaked policy document?",
+            "payout": 3.17,
+            "desc": "Following intense media scrutiny and calls for accountability over a leaked document detailing significant cuts to student support, whispers from Westminster suggest a junior minister might be made to take the fall and tender their resignation today.",
+            "result": "LOST",
+            "settled_at": "2026-09-21"
+        },
+        {
+            "id": "20260919002",
+            "title": "Will a new Ipsos/Scotsman poll on Scottish independence intentions be released before 5 PM today?",
+            "payout": 1.58,
+            "desc": "With recent debates heating up around a potential future independence referendum, speculation is rife that a major polling firm, Ipsos, commissioned by The Scotsman newspaper, has concluded fieldwork and is poised to release its latest figures today.",
+            "result": "WON",
+            "settled_at": "2026-09-21"
+        },
+        {
+            "id": "20260919003",
+            "title": "Will the Department for Levelling Up, Housing and Communities today confirm new funding for the 'East Midlands Rail Link Phase 2' project?",
+            "payout": 2.11,
+            "desc": "After weeks of local lobbying and a key meeting between regional leaders and DLUHC officials yesterday, sources close to the department indicate an announcement regarding the much-anticipated East Midlands Rail Link Phase 2 funding is on the cards for today's midday press briefing.",
+            "result": "WON",
+            "settled_at": "2026-09-21"
+        },
+        {
+            "id": "20260919004",
+            "title": "Will the US President today issue a formal statement condemning the recent military exercises conducted by [Fictional Country Z] in international waters?",
+            "payout": 1.36,
+            "desc": "Following widespread international condemnation from allied nations and a Pentagon briefing yesterday highlighting the provocative nature of [Fictional Country Z]'s naval drills, a formal and direct condemnation from the White House is widely anticipated today.",
+            "result": "WON",
+            "settled_at": "2026-09-21"
+        },
+        {
+            "id": "20260919005",
+            "title": "Will the first UN humanitarian aid convoy successfully cross into [Fictional Region R] today, following yesterday's limited agreement?",
+            "payout": 1.73,
+            "desc": "After a tentative agreement was reached yesterday to allow humanitarian access, UN officials are working against the clock to coordinate the first aid convoy. Its successful entry into the besieged [Fictional Region R] is crucial and will be closely watched today.",
+            "result": "LOST",
+            "settled_at": "2026-09-21"
         }
     ],
-    "last_update": "2026-09-19 02:26"
+    "last_update": "2026-09-21 02:34"
 }
