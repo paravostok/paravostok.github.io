@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260921001",
-            "title": "Will the Labour Party today formally open disciplinary proceedings against MP [Fictional MP Name] following fresh allegations reported this morning?",
-            "payout": 2.38,
-            "desc": "Following a damaging expos\u00e9 in 'The Guardian' this morning detailing further allegations of financial impropriety against a prominent Labour MP, internal party sources suggest swift action may be taken to avoid a prolonged media spectacle, with an announcement expected by late afternoon."
-        },
-        {
-            "id": "20260921002",
-            "title": "Will the Scottish Government today confirm a delay to the proposed National Care Service implementation beyond its 2027 target?",
+            "id": "20260922001",
+            "title": "Will the UK Government today announce new funding for vocational training colleges?",
             "payout": 1.58,
-            "desc": "Following recent reports of significant cost overruns and workforce challenges, insider whispers from Holyrood suggest the Scottish Government is poised to acknowledge a delay to the contentious National Care Service project, possibly in a statement to parliament or a press release this afternoon."
+            "desc": "Following persistent calls from industry and opposition parties, and a recent parliamentary debate highlighting critical skills shortages, sources within the Department for Education suggest an announcement on new funding initiatives for vocational training could be made today, possibly during a scheduled ministerial visit or via a departmental press release."
         },
         {
-            "id": "20260921003",
-            "title": "Will the Department for Transport today announce a revised timeline for the completion of the A14 upgrade project near Cambridge?",
-            "payout": 1.9,
-            "desc": "With persistent local concerns over project delays and a recent question in Parliament, sources within the DfT indicate that an update regarding the A14 upgrade's completion, potentially extending its timeline, is being prepared for release today to address public and parliamentary pressure."
+            "id": "20260922002",
+            "title": "Will the Scottish Government today formally commit to a public inquiry into the 'Clydebuild Ferries' procurement scandal?",
+            "payout": 2.11,
+            "desc": "Amid mounting pressure from opposition parties and victims' families, following new revelations in 'The Scotsman' this morning about the controversial 'Clydebuild Ferries' procurement, insider reports from Holyrood suggest the First Minister's office is debating a formal commitment to a public inquiry, with a statement potentially expected today to quell public outcry."
         },
         {
-            "id": "20260921004",
-            "title": "Will the European Union today formally announce sanctions against [Fictional Country Y] following yesterday's cyberattack revelations?",
-            "payout": 1.36,
-            "desc": "After a classified report implicated [Fictional Country Y] in yesterday's widespread cyberattacks targeting European infrastructure, diplomatic sources in Brussels suggest the EU Commission is preparing a strong, unified response, with a formal announcement of targeted sanctions expected before the close of business."
+            "id": "20260922003",
+            "title": "Will the Department for Transport today greenlight the expansion plans for Bristol Airport?",
+            "payout": 1.73,
+            "desc": "After months of public consultation and environmental impact assessments, and a recent leak suggesting a decision was imminent, aviation industry commentators anticipate that the Department for Transport could issue a final planning decision on Bristol Airport's expansion today, potentially via a press release or written parliamentary statement addressing local concerns."
         },
         {
-            "id": "20260921005",
-            "title": "Will an emergency session of the UN Security Council be called today regarding the escalating crisis in [Fictional Region S]?",
+            "id": "20260922004",
+            "title": "Will the German government today formally recall its ambassador from [Fictional Neighbouring Country X]?",
             "payout": 3.17,
-            "desc": "Following reports of intensified cross-border shelling overnight and a failed mediation attempt by regional powers, calls from several member states for an immediate UN Security Council intervention are mounting, with a vote on convening an emergency session possibly taking place before end-of-day in New York."
+            "desc": "Following yesterday's highly controversial remarks by the President of [Fictional Neighbouring Country X] concerning bilateral relations, and strong condemnation from Berlin, diplomatic analysts are speculating that the German Foreign Office may announce the recall of its ambassador today as a strong protest, with official channels remaining unusually active this morning."
+        },
+        {
+            "id": "20260922005",
+            "title": "Will UN Special Envoy [Fictional Name] today announce a breakthrough for humanitarian access to [Fictional Besieged Town G]?",
+            "payout": 2.71,
+            "desc": "After three days of intensive, closed-door talks in Geneva following an urgent appeal from the Red Cross, sources close to the UN Special Envoy suggest a critical agreement on humanitarian access to the embattled town of [Fictional Besieged Town G] might be on the verge of being announced today, possibly during a scheduled midday press conference aimed at easing the crisis."
         }
     ],
     "history": [
@@ -5641,7 +5641,47 @@
             "desc": "After a tentative agreement was reached yesterday to allow humanitarian access, UN officials are working against the clock to coordinate the first aid convoy. Its successful entry into the besieged [Fictional Region R] is crucial and will be closely watched today.",
             "result": "LOST",
             "settled_at": "2026-09-21"
+        },
+        {
+            "id": "20260921001",
+            "title": "Will the Labour Party today formally open disciplinary proceedings against MP [Fictional MP Name] following fresh allegations reported this morning?",
+            "payout": 2.38,
+            "desc": "Following a damaging expos\u00e9 in 'The Guardian' this morning detailing further allegations of financial impropriety against a prominent Labour MP, internal party sources suggest swift action may be taken to avoid a prolonged media spectacle, with an announcement expected by late afternoon.",
+            "result": "LOST",
+            "settled_at": "2026-09-22"
+        },
+        {
+            "id": "20260921002",
+            "title": "Will the Scottish Government today confirm a delay to the proposed National Care Service implementation beyond its 2027 target?",
+            "payout": 1.58,
+            "desc": "Following recent reports of significant cost overruns and workforce challenges, insider whispers from Holyrood suggest the Scottish Government is poised to acknowledge a delay to the contentious National Care Service project, possibly in a statement to parliament or a press release this afternoon.",
+            "result": "LOST",
+            "settled_at": "2026-09-22"
+        },
+        {
+            "id": "20260921003",
+            "title": "Will the Department for Transport today announce a revised timeline for the completion of the A14 upgrade project near Cambridge?",
+            "payout": 1.9,
+            "desc": "With persistent local concerns over project delays and a recent question in Parliament, sources within the DfT indicate that an update regarding the A14 upgrade's completion, potentially extending its timeline, is being prepared for release today to address public and parliamentary pressure.",
+            "result": "LOST",
+            "settled_at": "2026-09-22"
+        },
+        {
+            "id": "20260921004",
+            "title": "Will the European Union today formally announce sanctions against [Fictional Country Y] following yesterday's cyberattack revelations?",
+            "payout": 1.36,
+            "desc": "After a classified report implicated [Fictional Country Y] in yesterday's widespread cyberattacks targeting European infrastructure, diplomatic sources in Brussels suggest the EU Commission is preparing a strong, unified response, with a formal announcement of targeted sanctions expected before the close of business.",
+            "result": "LOST",
+            "settled_at": "2026-09-22"
+        },
+        {
+            "id": "20260921005",
+            "title": "Will an emergency session of the UN Security Council be called today regarding the escalating crisis in [Fictional Region S]?",
+            "payout": 3.17,
+            "desc": "Following reports of intensified cross-border shelling overnight and a failed mediation attempt by regional powers, calls from several member states for an immediate UN Security Council intervention are mounting, with a vote on convening an emergency session possibly taking place before end-of-day in New York.",
+            "result": "LOST",
+            "settled_at": "2026-09-22"
         }
     ],
-    "last_update": "2026-09-21 02:34"
+    "last_update": "2026-09-22 02:36"
 }
