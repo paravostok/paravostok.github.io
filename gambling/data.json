@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260922001",
-            "title": "Will the UK Government today announce new funding for vocational training colleges?",
-            "payout": 1.58,
-            "desc": "Following persistent calls from industry and opposition parties, and a recent parliamentary debate highlighting critical skills shortages, sources within the Department for Education suggest an announcement on new funding initiatives for vocational training could be made today, possibly during a scheduled ministerial visit or via a departmental press release."
+            "id": "20260923001",
+            "title": "Will the UK Government today announce new measures to address the rising cost of living?",
+            "payout": 1.63,
+            "desc": "With inflation figures released this morning showing an unexpected jump, and increasing public pressure, sources within Downing Street hint that the Chancellor or Prime Minister could make a statement today, possibly during a press conference, outlining new support measures or a revised economic strategy."
         },
         {
-            "id": "20260922002",
-            "title": "Will the Scottish Government today formally commit to a public inquiry into the 'Clydebuild Ferries' procurement scandal?",
-            "payout": 2.11,
-            "desc": "Amid mounting pressure from opposition parties and victims' families, following new revelations in 'The Scotsman' this morning about the controversial 'Clydebuild Ferries' procurement, insider reports from Holyrood suggest the First Minister's office is debating a formal commitment to a public inquiry, with a statement potentially expected today to quell public outcry."
+            "id": "20260923002",
+            "title": "Will the Scottish Greens today threaten to withdraw from the Bute House Agreement?",
+            "payout": 3.02,
+            "desc": "Following renewed disagreements within the Scottish government coalition regarding the proposed Deposit Return Scheme and recent public comments from a prominent Green MSP, insider reports suggest a crunch meeting is scheduled today, with a formal threat to the Bute House Agreement potentially emerging by day's end."
         },
         {
-            "id": "20260922003",
-            "title": "Will the Department for Transport today greenlight the expansion plans for Bristol Airport?",
-            "payout": 1.73,
-            "desc": "After months of public consultation and environmental impact assessments, and a recent leak suggesting a decision was imminent, aviation industry commentators anticipate that the Department for Transport could issue a final planning decision on Bristol Airport's expansion today, potentially via a press release or written parliamentary statement addressing local concerns."
+            "id": "20260923003",
+            "title": "Will Network Rail today announce the indefinite suspension of the TransPennine Route Upgrade?",
+            "payout": 2.24,
+            "desc": "Amidst persistent reports of severe budget overruns and engineering difficulties, and following an emergency board meeting convened yesterday, railway industry analysts are speculating that Network Rail could issue a critical update today, potentially confirming the indefinite suspension of the ambitious TransPennine Route Upgrade project."
         },
         {
-            "id": "20260922004",
-            "title": "Will the German government today formally recall its ambassador from [Fictional Neighbouring Country X]?",
-            "payout": 3.17,
-            "desc": "Following yesterday's highly controversial remarks by the President of [Fictional Neighbouring Country X] concerning bilateral relations, and strong condemnation from Berlin, diplomatic analysts are speculating that the German Foreign Office may announce the recall of its ambassador today as a strong protest, with official channels remaining unusually active this morning."
+            "id": "20260923004",
+            "title": "Will the UN Security Council today pass a new resolution condemning aggression in [Fictional Eastern European Nation Z]?",
+            "payout": 1.46,
+            "desc": "Following an emergency session called last night after escalating cross-border skirmishes in [Fictional Eastern European Nation Z], diplomatic sources at the UN suggest intensive negotiations have progressed, making it highly probable that a new, strongly worded resolution condemning aggression will be put to a vote and passed today."
         },
         {
-            "id": "20260922005",
-            "title": "Will UN Special Envoy [Fictional Name] today announce a breakthrough for humanitarian access to [Fictional Besieged Town G]?",
-            "payout": 2.71,
-            "desc": "After three days of intensive, closed-door talks in Geneva following an urgent appeal from the Red Cross, sources close to the UN Special Envoy suggest a critical agreement on humanitarian access to the embattled town of [Fictional Besieged Town G] might be on the verge of being announced today, possibly during a scheduled midday press conference aimed at easing the crisis."
+            "id": "20260923005",
+            "title": "Will the Red Cross today successfully deliver aid convoys to the besieged city of [Fictional City A]?",
+            "payout": 1.9,
+            "desc": "After securing temporary access agreements yesterday following international pressure, the International Committee of the Red Cross (ICRC) has announced its intention to send multiple aid convoys into the direly affected city of [Fictional City A] today, with updates on their successful passage expected throughout the day."
         }
     ],
     "history": [
@@ -5681,7 +5681,47 @@
             "desc": "Following reports of intensified cross-border shelling overnight and a failed mediation attempt by regional powers, calls from several member states for an immediate UN Security Council intervention are mounting, with a vote on convening an emergency session possibly taking place before end-of-day in New York.",
             "result": "LOST",
             "settled_at": "2026-09-22"
+        },
+        {
+            "id": "20260922001",
+            "title": "Will the UK Government today announce new funding for vocational training colleges?",
+            "payout": 1.58,
+            "desc": "Following persistent calls from industry and opposition parties, and a recent parliamentary debate highlighting critical skills shortages, sources within the Department for Education suggest an announcement on new funding initiatives for vocational training could be made today, possibly during a scheduled ministerial visit or via a departmental press release.",
+            "result": "LOST",
+            "settled_at": "2026-09-23"
+        },
+        {
+            "id": "20260922002",
+            "title": "Will the Scottish Government today formally commit to a public inquiry into the 'Clydebuild Ferries' procurement scandal?",
+            "payout": 2.11,
+            "desc": "Amid mounting pressure from opposition parties and victims' families, following new revelations in 'The Scotsman' this morning about the controversial 'Clydebuild Ferries' procurement, insider reports from Holyrood suggest the First Minister's office is debating a formal commitment to a public inquiry, with a statement potentially expected today to quell public outcry.",
+            "result": "WON",
+            "settled_at": "2026-09-23"
+        },
+        {
+            "id": "20260922003",
+            "title": "Will the Department for Transport today greenlight the expansion plans for Bristol Airport?",
+            "payout": 1.73,
+            "desc": "After months of public consultation and environmental impact assessments, and a recent leak suggesting a decision was imminent, aviation industry commentators anticipate that the Department for Transport could issue a final planning decision on Bristol Airport's expansion today, potentially via a press release or written parliamentary statement addressing local concerns.",
+            "result": "LOST",
+            "settled_at": "2026-09-23"
+        },
+        {
+            "id": "20260922004",
+            "title": "Will the German government today formally recall its ambassador from [Fictional Neighbouring Country X]?",
+            "payout": 3.17,
+            "desc": "Following yesterday's highly controversial remarks by the President of [Fictional Neighbouring Country X] concerning bilateral relations, and strong condemnation from Berlin, diplomatic analysts are speculating that the German Foreign Office may announce the recall of its ambassador today as a strong protest, with official channels remaining unusually active this morning.",
+            "result": "LOST",
+            "settled_at": "2026-09-23"
+        },
+        {
+            "id": "20260922005",
+            "title": "Will UN Special Envoy [Fictional Name] today announce a breakthrough for humanitarian access to [Fictional Besieged Town G]?",
+            "payout": 2.71,
+            "desc": "After three days of intensive, closed-door talks in Geneva following an urgent appeal from the Red Cross, sources close to the UN Special Envoy suggest a critical agreement on humanitarian access to the embattled town of [Fictional Besieged Town G] might be on the verge of being announced today, possibly during a scheduled midday press conference aimed at easing the crisis.",
+            "result": "WON",
+            "settled_at": "2026-09-23"
         }
     ],
-    "last_update": "2026-09-22 02:36"
+    "last_update": "2026-09-23 02:36"
 }
