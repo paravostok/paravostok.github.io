@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260923001",
-            "title": "Will the UK Government today announce new measures to address the rising cost of living?",
-            "payout": 1.63,
-            "desc": "With inflation figures released this morning showing an unexpected jump, and increasing public pressure, sources within Downing Street hint that the Chancellor or Prime Minister could make a statement today, possibly during a press conference, outlining new support measures or a revised economic strategy."
+            "id": "20260924001",
+            "title": "Will a prominent UK Cabinet Minister resign or be sacked by the Prime Minister today?",
+            "payout": 2.58,
+            "desc": "Following yesterday's announcement of new cost-of-living measures, and ongoing speculation about internal government dissent, Westminster sources are rife with rumors of a potential cabinet reshuffle or a high-profile departure today, possibly linked to the handling of recent economic data. Probability: 0.35"
         },
         {
-            "id": "20260923002",
-            "title": "Will the Scottish Greens today threaten to withdraw from the Bute House Agreement?",
-            "payout": 3.02,
-            "desc": "Following renewed disagreements within the Scottish government coalition regarding the proposed Deposit Return Scheme and recent public comments from a prominent Green MSP, insider reports suggest a crunch meeting is scheduled today, with a formal threat to the Bute House Agreement potentially emerging by day's end."
-        },
-        {
-            "id": "20260923003",
-            "title": "Will Network Rail today announce the indefinite suspension of the TransPennine Route Upgrade?",
-            "payout": 2.24,
-            "desc": "Amidst persistent reports of severe budget overruns and engineering difficulties, and following an emergency board meeting convened yesterday, railway industry analysts are speculating that Network Rail could issue a critical update today, potentially confirming the indefinite suspension of the ambitious TransPennine Route Upgrade project."
-        },
-        {
-            "id": "20260923004",
-            "title": "Will the UN Security Council today pass a new resolution condemning aggression in [Fictional Eastern European Nation Z]?",
+            "id": "20260924002",
+            "title": "Will the Scottish First Minister today issue a public ultimatum to the Scottish Green Party regarding the Bute House Agreement?",
             "payout": 1.46,
-            "desc": "Following an emergency session called last night after escalating cross-border skirmishes in [Fictional Eastern European Nation Z], diplomatic sources at the UN suggest intensive negotiations have progressed, making it highly probable that a new, strongly worded resolution condemning aggression will be put to a vote and passed today."
+            "desc": "In the wake of yesterday's reported threat from the Scottish Greens to withdraw from the Bute House Agreement, political commentators widely expect a strong response from the First Minister today, potentially in the form of a public statement or press conference setting clear conditions for the coalition's continuation. Probability: 0.65"
         },
         {
-            "id": "20260923005",
-            "title": "Will the Red Cross today successfully deliver aid convoys to the besieged city of [Fictional City A]?",
-            "payout": 1.9,
-            "desc": "After securing temporary access agreements yesterday following international pressure, the International Committee of the Red Cross (ICRC) has announced its intention to send multiple aid convoys into the direly affected city of [Fictional City A] today, with updates on their successful passage expected throughout the day."
+            "id": "20260924003",
+            "title": "Will the Department for Transport today announce an independent review into Network Rail's project management?",
+            "payout": 1.73,
+            "desc": "Following yesterday's indefinite suspension of the TransPennine Route Upgrade by Network Rail amidst budget overruns, calls for accountability have intensified. Transport sector insiders suggest the Department for Transport is under pressure to announce a formal, independent review into Network Rail's project delivery and financial oversight today. Probability: 0.55"
+        },
+        {
+            "id": "20260924004",
+            "title": "Will the President of [Fictional Nation Y], a key regional ally, today officially condemn the aggression in [Fictional Eastern European Nation Z]?",
+            "payout": 1.36,
+            "desc": "Following yesterday's UN Security Council resolution condemning aggression in [Fictional Eastern European Nation Z], international attention is now focused on how individual nations will respond. Diplomatic observers are anticipating a strong statement from [Fictional Nation Y]'s President today, a move that would significantly escalate international pressure on the aggressor. Probability: 0.7"
+        },
+        {
+            "id": "20260924005",
+            "title": "Will reports emerge today of a significant humanitarian ceasefire violation in [Fictional City A]?",
+            "payout": 2.38,
+            "desc": "Despite yesterday's successful aid delivery to [Fictional City A] by the Red Cross, the underlying conflict remains volatile. International monitors and local sources are on high alert for any breaches of the temporary access agreements or a breakdown of the fragile de-escalation, making reports of a ceasefire violation a real possibility today. Probability: 0.4"
         }
     ],
     "history": [
@@ -5721,7 +5721,47 @@
             "desc": "After three days of intensive, closed-door talks in Geneva following an urgent appeal from the Red Cross, sources close to the UN Special Envoy suggest a critical agreement on humanitarian access to the embattled town of [Fictional Besieged Town G] might be on the verge of being announced today, possibly during a scheduled midday press conference aimed at easing the crisis.",
             "result": "WON",
             "settled_at": "2026-09-23"
+        },
+        {
+            "id": "20260923001",
+            "title": "Will the UK Government today announce new measures to address the rising cost of living?",
+            "payout": 1.63,
+            "desc": "With inflation figures released this morning showing an unexpected jump, and increasing public pressure, sources within Downing Street hint that the Chancellor or Prime Minister could make a statement today, possibly during a press conference, outlining new support measures or a revised economic strategy.",
+            "result": "WON",
+            "settled_at": "2026-09-24"
+        },
+        {
+            "id": "20260923002",
+            "title": "Will the Scottish Greens today threaten to withdraw from the Bute House Agreement?",
+            "payout": 3.02,
+            "desc": "Following renewed disagreements within the Scottish government coalition regarding the proposed Deposit Return Scheme and recent public comments from a prominent Green MSP, insider reports suggest a crunch meeting is scheduled today, with a formal threat to the Bute House Agreement potentially emerging by day's end.",
+            "result": "WON",
+            "settled_at": "2026-09-24"
+        },
+        {
+            "id": "20260923003",
+            "title": "Will Network Rail today announce the indefinite suspension of the TransPennine Route Upgrade?",
+            "payout": 2.24,
+            "desc": "Amidst persistent reports of severe budget overruns and engineering difficulties, and following an emergency board meeting convened yesterday, railway industry analysts are speculating that Network Rail could issue a critical update today, potentially confirming the indefinite suspension of the ambitious TransPennine Route Upgrade project.",
+            "result": "WON",
+            "settled_at": "2026-09-24"
+        },
+        {
+            "id": "20260923004",
+            "title": "Will the UN Security Council today pass a new resolution condemning aggression in [Fictional Eastern European Nation Z]?",
+            "payout": 1.46,
+            "desc": "Following an emergency session called last night after escalating cross-border skirmishes in [Fictional Eastern European Nation Z], diplomatic sources at the UN suggest intensive negotiations have progressed, making it highly probable that a new, strongly worded resolution condemning aggression will be put to a vote and passed today.",
+            "result": "WON",
+            "settled_at": "2026-09-24"
+        },
+        {
+            "id": "20260923005",
+            "title": "Will the Red Cross today successfully deliver aid convoys to the besieged city of [Fictional City A]?",
+            "payout": 1.9,
+            "desc": "After securing temporary access agreements yesterday following international pressure, the International Committee of the Red Cross (ICRC) has announced its intention to send multiple aid convoys into the direly affected city of [Fictional City A] today, with updates on their successful passage expected throughout the day.",
+            "result": "WON",
+            "settled_at": "2026-09-24"
         }
     ],
-    "last_update": "2026-09-23 02:36"
+    "last_update": "2026-09-24 02:26"
 }
