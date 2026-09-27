@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260926001",
-            "title": "Will the Prime Minister's official spokesperson today confirm a cabinet reshuffle is NOT imminent, following recent speculation?",
+            "id": "20260927001",
+            "title": "Will the UK Government today table an emergency motion in the House of Commons to debate the new 'Public Services Minimum Standards' bill?",
             "payout": 1.58,
-            "desc": "Rumours of a cabinet reshuffle have intensified in recent days, especially after backbench unrest regarding government policy. The Prime Minister's office may seek to publicly address and dismiss these today to restore stability and project an image of unity."
+            "desc": "Following growing pressure from opposition parties and unions regarding the recent transport strikes, the government might seek to expedite legislative action today by tabling an emergency motion to debate its proposed minimum service levels bill, signaling its intent to crack down on future industrial action."
         },
         {
-            "id": "20260926002",
-            "title": "Will a Scottish Green Party MSP today publicly state that the Bute House Agreement is 'under review' or 'at risk'?",
-            "payout": 1.9,
-            "desc": "Following yesterday's First Minister's ultimatum to the Scottish Green Party and the lack of a strong public defence of the Bute House Agreement from official government channels, a key Scottish Green Party figure might issue a statement today to signal their dissatisfaction and potential re-evaluation of the pact."
-        },
-        {
-            "id": "20260926003",
-            "title": "Will the Department for Transport today issue a new public deadline for Network Rail's submission of an initial report on the independent review?",
-            "payout": 2.38,
-            "desc": "Given the CEO of Network Rail did not issue a public statement yesterday regarding the independent review into its project management and the TransPennine Route Upgrade suspension, the Department for Transport might today announce a new, immediate deadline to compel Network Rail to provide an initial response or plan."
-        },
-        {
-            "id": "20260926004",
-            "title": "Will the UN Secretary-General today publicly call for an immediate, unconditional ceasefire in [Fictional Eastern European Nation Z]?",
-            "payout": 1.36,
-            "desc": "With international diplomatic efforts intensifying and the G7 failing to issue a joint statement on sanctions yesterday, the UN Secretary-General may today make a strong public appeal for an immediate ceasefire in [Fictional Eastern European Nation Z] to address the escalating humanitarian crisis."
-        },
-        {
-            "id": "20260926005",
-            "title": "Will a major international news agency today report that ceasefire monitors have been withdrawn from [Fictional City A]?",
+            "id": "20260927002",
+            "title": "Will the Scottish First Minister today hold an unscheduled press conference specifically addressing the future of the Bute House Agreement?",
             "payout": 1.73,
-            "desc": "Despite the Red Cross not suspending aid deliveries yesterday, persistent reports of significant humanitarian ceasefire violations in [Fictional City A] suggest a deteriorating security environment. A major news agency could today report the withdrawal of international ceasefire monitors, indicating a further breakdown of security protocols."
+            "desc": "After yesterday's lack of a clear public statement from the Scottish Green Party regarding the Bute House Agreement's status, the First Minister might today call an unscheduled press conference to either reaffirm the government's commitment or present an updated stance on the power-sharing deal amidst ongoing political uncertainty."
+        },
+        {
+            "id": "20260927003",
+            "title": "Will a major national newspaper today report that Phase 2b of HS2 has been formally delayed by at least two years?",
+            "payout": 2.38,
+            "desc": "With whispers intensifying around the Department for Transport regarding cost overruns and construction challenges, a leak or official confirmation via a major newspaper could emerge today, indicating a significant formal delay to the contentious northern sections of the HS2 project."
+        },
+        {
+            "id": "20260927004",
+            "title": "Will the EU's High Representative for Foreign Affairs today issue a formal statement condemning [Fictional Nation Y]'s recent cyberattacks on critical infrastructure?",
+            "payout": 1.36,
+            "desc": "Following escalating tensions and unconfirmed reports of cyberattacks impacting member states' infrastructure over the weekend, the EU's chief diplomat may today make a strong public condemnation to signal a unified response and warn against further aggression from [Fictional Nation Y]."
+        },
+        {
+            "id": "20260927005",
+            "title": "Will the International Red Cross today announce a temporary suspension of aid convoys into [Fictional Region X] due to escalating hostilities?",
+            "payout": 2.11,
+            "desc": "Despite yesterday's UN ceasefire call, reports from the ground indicate worsening security in [Fictional Region X]. The Red Cross, prioritizing staff safety, might today make the difficult decision to temporarily suspend its vital aid convoys, reflecting a severe deterioration of humanitarian access."
         }
     ],
     "history": [
@@ -5841,7 +5841,47 @@
             "desc": "Following yesterday's reports of significant humanitarian ceasefire violations in [Fictional City A], the safety of aid workers has become a paramount concern. The Red Cross and other aid organizations are currently assessing the security situation, making an announcement regarding the suspension of operations highly possible today.",
             "result": "LOST",
             "settled_at": "2026-09-26"
+        },
+        {
+            "id": "20260926001",
+            "title": "Will the Prime Minister's official spokesperson today confirm a cabinet reshuffle is NOT imminent, following recent speculation?",
+            "payout": 1.58,
+            "desc": "Rumours of a cabinet reshuffle have intensified in recent days, especially after backbench unrest regarding government policy. The Prime Minister's office may seek to publicly address and dismiss these today to restore stability and project an image of unity.",
+            "result": "WON",
+            "settled_at": "2026-09-27"
+        },
+        {
+            "id": "20260926002",
+            "title": "Will a Scottish Green Party MSP today publicly state that the Bute House Agreement is 'under review' or 'at risk'?",
+            "payout": 1.9,
+            "desc": "Following yesterday's First Minister's ultimatum to the Scottish Green Party and the lack of a strong public defence of the Bute House Agreement from official government channels, a key Scottish Green Party figure might issue a statement today to signal their dissatisfaction and potential re-evaluation of the pact.",
+            "result": "LOST",
+            "settled_at": "2026-09-27"
+        },
+        {
+            "id": "20260926003",
+            "title": "Will the Department for Transport today issue a new public deadline for Network Rail's submission of an initial report on the independent review?",
+            "payout": 2.38,
+            "desc": "Given the CEO of Network Rail did not issue a public statement yesterday regarding the independent review into its project management and the TransPennine Route Upgrade suspension, the Department for Transport might today announce a new, immediate deadline to compel Network Rail to provide an initial response or plan.",
+            "result": "LOST",
+            "settled_at": "2026-09-27"
+        },
+        {
+            "id": "20260926004",
+            "title": "Will the UN Secretary-General today publicly call for an immediate, unconditional ceasefire in [Fictional Eastern European Nation Z]?",
+            "payout": 1.36,
+            "desc": "With international diplomatic efforts intensifying and the G7 failing to issue a joint statement on sanctions yesterday, the UN Secretary-General may today make a strong public appeal for an immediate ceasefire in [Fictional Eastern European Nation Z] to address the escalating humanitarian crisis.",
+            "result": "WON",
+            "settled_at": "2026-09-27"
+        },
+        {
+            "id": "20260926005",
+            "title": "Will a major international news agency today report that ceasefire monitors have been withdrawn from [Fictional City A]?",
+            "payout": 1.73,
+            "desc": "Despite the Red Cross not suspending aid deliveries yesterday, persistent reports of significant humanitarian ceasefire violations in [Fictional City A] suggest a deteriorating security environment. A major news agency could today report the withdrawal of international ceasefire monitors, indicating a further breakdown of security protocols.",
+            "result": "WON",
+            "settled_at": "2026-09-27"
         }
     ],
-    "last_update": "2026-09-26 02:45"
+    "last_update": "2026-09-27 02:46"
 }
