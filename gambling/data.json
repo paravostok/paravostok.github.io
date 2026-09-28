@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260927001",
-            "title": "Will the UK Government today table an emergency motion in the House of Commons to debate the new 'Public Services Minimum Standards' bill?",
-            "payout": 1.58,
-            "desc": "Following growing pressure from opposition parties and unions regarding the recent transport strikes, the government might seek to expedite legislative action today by tabling an emergency motion to debate its proposed minimum service levels bill, signaling its intent to crack down on future industrial action."
-        },
-        {
-            "id": "20260927002",
-            "title": "Will the Scottish First Minister today hold an unscheduled press conference specifically addressing the future of the Bute House Agreement?",
-            "payout": 1.73,
-            "desc": "After yesterday's lack of a clear public statement from the Scottish Green Party regarding the Bute House Agreement's status, the First Minister might today call an unscheduled press conference to either reaffirm the government's commitment or present an updated stance on the power-sharing deal amidst ongoing political uncertainty."
-        },
-        {
-            "id": "20260927003",
-            "title": "Will a major national newspaper today report that Phase 2b of HS2 has been formally delayed by at least two years?",
+            "id": "20260928001",
+            "title": "Will a UK Cabinet Minister today publicly hint at their resignation or openly challenge the Prime Minister's authority?",
             "payout": 2.38,
-            "desc": "With whispers intensifying around the Department for Transport regarding cost overruns and construction challenges, a leak or official confirmation via a major newspaper could emerge today, indicating a significant formal delay to the contentious northern sections of the HS2 project."
+            "desc": "Amidst ongoing reports of cabinet discord and recent policy disagreements, a high-profile minister might today make a public statement or be questioned in Parliament, leading to speculation about their future or a direct challenge to the PM's leadership."
         },
         {
-            "id": "20260927004",
-            "title": "Will the EU's High Representative for Foreign Affairs today issue a formal statement condemning [Fictional Nation Y]'s recent cyberattacks on critical infrastructure?",
-            "payout": 1.36,
-            "desc": "Following escalating tensions and unconfirmed reports of cyberattacks impacting member states' infrastructure over the weekend, the EU's chief diplomat may today make a strong public condemnation to signal a unified response and warn against further aggression from [Fictional Nation Y]."
+            "id": "20260928002",
+            "title": "Will a new opinion poll on Scottish independence be published today showing support for 'Yes' above 50%?",
+            "payout": 2.71,
+            "desc": "Following recent political shifts and yesterday's discussions around the Bute House Agreement, pollsters may release new data today, with heightened anticipation that public sentiment on independence could have crossed a significant threshold."
         },
         {
-            "id": "20260927005",
-            "title": "Will the International Red Cross today announce a temporary suspension of aid convoys into [Fictional Region X] due to escalating hostilities?",
+            "id": "20260928003",
+            "title": "Will the Department for Transport today issue a formal statement on the future funding model for Northern Powerhouse Rail?",
             "payout": 2.11,
-            "desc": "Despite yesterday's UN ceasefire call, reports from the ground indicate worsening security in [Fictional Region X]. The Red Cross, prioritizing staff safety, might today make the difficult decision to temporarily suspend its vital aid convoys, reflecting a severe deterioration of humanitarian access."
+            "desc": "After recent speculation surrounding other major rail projects (e.g., HS2) and calls for clarity on regional investment, the Department for Transport might today release a statement outlining revised plans or a new funding approach for the long-awaited Northern Powerhouse Rail initiative."
+        },
+        {
+            "id": "20260928004",
+            "title": "Will the UN Security Council today pass a new resolution for an immediate humanitarian pause in [Fictional Conflict Zone Z]?",
+            "payout": 3.17,
+            "desc": "With reports of worsening conditions and humanitarian aid challenges in [Fictional Conflict Zone Z], and following international pressure, a Security Council meeting today could see members push for and pass a resolution demanding a cessation of hostilities specifically for humanitarian purposes."
+        },
+        {
+            "id": "20260928005",
+            "title": "Will the Ministry of Defence of [Fictional Nation A] today announce the successful deployment of a new long-range missile defense system?",
+            "payout": 1.73,
+            "desc": "In response to heightened regional instability and ongoing security concerns, intelligence sources suggest [Fictional Nation A] may today officially confirm the operational readiness and deployment of a crucial new missile defense capability, signaling a significant shift in its defensive posture."
         }
     ],
     "history": [
@@ -5881,7 +5881,47 @@
             "desc": "Despite the Red Cross not suspending aid deliveries yesterday, persistent reports of significant humanitarian ceasefire violations in [Fictional City A] suggest a deteriorating security environment. A major news agency could today report the withdrawal of international ceasefire monitors, indicating a further breakdown of security protocols.",
             "result": "WON",
             "settled_at": "2026-09-27"
+        },
+        {
+            "id": "20260927001",
+            "title": "Will the UK Government today table an emergency motion in the House of Commons to debate the new 'Public Services Minimum Standards' bill?",
+            "payout": 1.58,
+            "desc": "Following growing pressure from opposition parties and unions regarding the recent transport strikes, the government might seek to expedite legislative action today by tabling an emergency motion to debate its proposed minimum service levels bill, signaling its intent to crack down on future industrial action.",
+            "result": "LOST",
+            "settled_at": "2026-09-28"
+        },
+        {
+            "id": "20260927002",
+            "title": "Will the Scottish First Minister today hold an unscheduled press conference specifically addressing the future of the Bute House Agreement?",
+            "payout": 1.73,
+            "desc": "After yesterday's lack of a clear public statement from the Scottish Green Party regarding the Bute House Agreement's status, the First Minister might today call an unscheduled press conference to either reaffirm the government's commitment or present an updated stance on the power-sharing deal amidst ongoing political uncertainty.",
+            "result": "WON",
+            "settled_at": "2026-09-28"
+        },
+        {
+            "id": "20260927003",
+            "title": "Will a major national newspaper today report that Phase 2b of HS2 has been formally delayed by at least two years?",
+            "payout": 2.38,
+            "desc": "With whispers intensifying around the Department for Transport regarding cost overruns and construction challenges, a leak or official confirmation via a major newspaper could emerge today, indicating a significant formal delay to the contentious northern sections of the HS2 project.",
+            "result": "WON",
+            "settled_at": "2026-09-28"
+        },
+        {
+            "id": "20260927004",
+            "title": "Will the EU's High Representative for Foreign Affairs today issue a formal statement condemning [Fictional Nation Y]'s recent cyberattacks on critical infrastructure?",
+            "payout": 1.36,
+            "desc": "Following escalating tensions and unconfirmed reports of cyberattacks impacting member states' infrastructure over the weekend, the EU's chief diplomat may today make a strong public condemnation to signal a unified response and warn against further aggression from [Fictional Nation Y].",
+            "result": "WON",
+            "settled_at": "2026-09-28"
+        },
+        {
+            "id": "20260927005",
+            "title": "Will the International Red Cross today announce a temporary suspension of aid convoys into [Fictional Region X] due to escalating hostilities?",
+            "payout": 2.11,
+            "desc": "Despite yesterday's UN ceasefire call, reports from the ground indicate worsening security in [Fictional Region X]. The Red Cross, prioritizing staff safety, might today make the difficult decision to temporarily suspend its vital aid convoys, reflecting a severe deterioration of humanitarian access.",
+            "result": "WON",
+            "settled_at": "2026-09-28"
         }
     ],
-    "last_update": "2026-09-27 02:46"
+    "last_update": "2026-09-28 02:47"
 }
