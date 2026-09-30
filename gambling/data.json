@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260929001",
-            "title": "Will the UK Government today announce a specific date for the upcoming general election?",
-            "payout": 3.17,
-            "desc": "Amidst heightened speculation regarding an early election and recent internal polling leaks, the Prime Minister might today choose to provide clarity by announcing a firm election date during a scheduled public appearance or press conference."
+            "id": "20260930001",
+            "title": "Will the UK Prime Minister today announce a new energy support package following a Cabinet meeting?",
+            "payout": 1.58,
+            "desc": "With rising wholesale energy prices dominating headlines and a key Cabinet meeting scheduled for this morning, the Prime Minister is under pressure to unveil fresh support measures, possibly at a press conference or through an official statement later today. (Probability: 0.6)"
         },
         {
-            "id": "20260929002",
-            "title": "Will the Scottish First Minister today confirm that negotiations for a revised Bute House Agreement have formally commenced?",
-            "payout": 2.38,
-            "desc": "Following yesterday's reports of ongoing discussions and recent public statements hinting at strain within the governing coalition, the First Minister may today address the future of the Bute House Agreement, potentially confirming the start of formal renegotiations."
-        },
-        {
-            "id": "20260929003",
-            "title": "Will the Department for Transport today announce a new specific route extension for the HS2 project beyond its currently planned terminus?",
-            "payout": 3.8,
-            "desc": "After recent reviews of major infrastructure spending and sustained lobbying from regional councils, the Department for Transport could today release details regarding the future expansion of HS2, signaling a commitment to further phases."
-        },
-        {
-            "id": "20260929004",
-            "title": "Will the UN Secretary-General today issue a direct public appeal for increased international funding for climate disaster relief in [Fictional Region X]?",
+            "id": "20260930002",
+            "title": "Will the Scottish Government today release its official response to the UK Government's fiscal framework proposals?",
             "payout": 1.9,
-            "desc": "With ongoing reports of devastating extreme weather events and escalating humanitarian crises in [Fictional Region X], the UN Secretary-General might today use a scheduled briefing or international forum to urgently call for greater financial assistance from member states."
+            "desc": "Following recent UK Treasury announcements regarding changes to inter-governmental fiscal arrangements, the Scottish Government has indicated it would issue a formal response. A statement or publication is anticipated today as Holyrood reconvenes. (Probability: 0.5)"
         },
         {
-            "id": "20260929005",
-            "title": "Will representatives from [Fictional Nation B] and [Fictional Nation C] today confirm the scheduling of direct peace talks for next month?",
-            "payout": 2.71,
-            "desc": "Following intense shuttle diplomacy efforts and growing international pressure to de-escalate tensions, a joint statement or separate official confirmations regarding the commencement of direct peace negotiations could be announced today."
+            "id": "20260930003",
+            "title": "Will the Department for Transport today confirm a new projected completion date for the HS2 Birmingham to Manchester leg?",
+            "payout": 2.38,
+            "desc": "Amid ongoing parliamentary scrutiny and recent reports of construction challenges, sources suggest the Department for Transport may today provide an updated timeline for key phases of HS2, potentially confirming a revised completion date for the Birmingham to Manchester segment. (Probability: 0.4)"
+        },
+        {
+            "id": "20260930004",
+            "title": "Will the European Central Bank today announce an emergency interest rate hike ahead of its scheduled meeting?",
+            "payout": 1.73,
+            "desc": "With new inflation data exceeding forecasts and currency markets showing volatility, speculation is mounting that the ECB might make an extraordinary intervention today, potentially through an unscheduled press conference or official statement, rather than waiting for its next scheduled policy meeting. (Probability: 0.55)"
+        },
+        {
+            "id": "20260930005",
+            "title": "Will the warring parties in [Fictional Conflict Zone Y] today confirm a 72-hour ceasefire agreement?",
+            "payout": 1.46,
+            "desc": "Following intensive mediation efforts by regional powers and growing calls for a de-escalation of violence, sources close to the negotiations suggest that an announcement regarding a temporary ceasefire, effective immediately, could be made by both sides today. (Probability: 0.65)"
         }
     ],
     "history": [
@@ -5961,7 +5961,47 @@
             "desc": "In response to heightened regional instability and ongoing security concerns, intelligence sources suggest [Fictional Nation A] may today officially confirm the operational readiness and deployment of a crucial new missile defense capability, signaling a significant shift in its defensive posture.",
             "result": "LOST",
             "settled_at": "2026-09-29"
+        },
+        {
+            "id": "20260929001",
+            "title": "Will the UK Government today announce a specific date for the upcoming general election?",
+            "payout": 3.17,
+            "desc": "Amidst heightened speculation regarding an early election and recent internal polling leaks, the Prime Minister might today choose to provide clarity by announcing a firm election date during a scheduled public appearance or press conference.",
+            "result": "LOST",
+            "settled_at": "2026-09-30"
+        },
+        {
+            "id": "20260929002",
+            "title": "Will the Scottish First Minister today confirm that negotiations for a revised Bute House Agreement have formally commenced?",
+            "payout": 2.38,
+            "desc": "Following yesterday's reports of ongoing discussions and recent public statements hinting at strain within the governing coalition, the First Minister may today address the future of the Bute House Agreement, potentially confirming the start of formal renegotiations.",
+            "result": "LOST",
+            "settled_at": "2026-09-30"
+        },
+        {
+            "id": "20260929003",
+            "title": "Will the Department for Transport today announce a new specific route extension for the HS2 project beyond its currently planned terminus?",
+            "payout": 3.8,
+            "desc": "After recent reviews of major infrastructure spending and sustained lobbying from regional councils, the Department for Transport could today release details regarding the future expansion of HS2, signaling a commitment to further phases.",
+            "result": "LOST",
+            "settled_at": "2026-09-30"
+        },
+        {
+            "id": "20260929004",
+            "title": "Will the UN Secretary-General today issue a direct public appeal for increased international funding for climate disaster relief in [Fictional Region X]?",
+            "payout": 1.9,
+            "desc": "With ongoing reports of devastating extreme weather events and escalating humanitarian crises in [Fictional Region X], the UN Secretary-General might today use a scheduled briefing or international forum to urgently call for greater financial assistance from member states.",
+            "result": "WON",
+            "settled_at": "2026-09-30"
+        },
+        {
+            "id": "20260929005",
+            "title": "Will representatives from [Fictional Nation B] and [Fictional Nation C] today confirm the scheduling of direct peace talks for next month?",
+            "payout": 2.71,
+            "desc": "Following intense shuttle diplomacy efforts and growing international pressure to de-escalate tensions, a joint statement or separate official confirmations regarding the commencement of direct peace negotiations could be announced today.",
+            "result": "LOST",
+            "settled_at": "2026-09-30"
         }
     ],
-    "last_update": "2026-09-29 03:29"
+    "last_update": "2026-09-30 03:12"
 }
