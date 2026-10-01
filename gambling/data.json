@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20260930001",
-            "title": "Will the UK Prime Minister today announce a new energy support package following a Cabinet meeting?",
-            "payout": 1.58,
-            "desc": "With rising wholesale energy prices dominating headlines and a key Cabinet meeting scheduled for this morning, the Prime Minister is under pressure to unveil fresh support measures, possibly at a press conference or through an official statement later today. (Probability: 0.6)"
-        },
-        {
-            "id": "20260930002",
-            "title": "Will the Scottish Government today release its official response to the UK Government's fiscal framework proposals?",
-            "payout": 1.9,
-            "desc": "Following recent UK Treasury announcements regarding changes to inter-governmental fiscal arrangements, the Scottish Government has indicated it would issue a formal response. A statement or publication is anticipated today as Holyrood reconvenes. (Probability: 0.5)"
-        },
-        {
-            "id": "20260930003",
-            "title": "Will the Department for Transport today confirm a new projected completion date for the HS2 Birmingham to Manchester leg?",
-            "payout": 2.38,
-            "desc": "Amid ongoing parliamentary scrutiny and recent reports of construction challenges, sources suggest the Department for Transport may today provide an updated timeline for key phases of HS2, potentially confirming a revised completion date for the Birmingham to Manchester segment. (Probability: 0.4)"
-        },
-        {
-            "id": "20260930004",
-            "title": "Will the European Central Bank today announce an emergency interest rate hike ahead of its scheduled meeting?",
-            "payout": 1.73,
-            "desc": "With new inflation data exceeding forecasts and currency markets showing volatility, speculation is mounting that the ECB might make an extraordinary intervention today, potentially through an unscheduled press conference or official statement, rather than waiting for its next scheduled policy meeting. (Probability: 0.55)"
-        },
-        {
-            "id": "20260930005",
-            "title": "Will the warring parties in [Fictional Conflict Zone Y] today confirm a 72-hour ceasefire agreement?",
+            "id": "20261001001",
+            "title": "Will the UK Prime Minister today announce a new initiative to tackle youth unemployment, following a Downing Street summit?",
             "payout": 1.46,
-            "desc": "Following intensive mediation efforts by regional powers and growing calls for a de-escalation of violence, sources close to the negotiations suggest that an announcement regarding a temporary ceasefire, effective immediately, could be made by both sides today. (Probability: 0.65)"
+            "desc": "After hosting a high-profile summit on youth employment this morning, sources close to No. 10 suggest the Prime Minister might make an announcement later today regarding new funding or policy measures to address the issue, possibly via a press release or statement. (Probability: 0.65)"
+        },
+        {
+            "id": "20261001002",
+            "title": "Will the Scottish Government today publish its annual report on carbon emission targets?",
+            "payout": 1.73,
+            "desc": "With the Scottish Parliament due to debate environmental progress next week, there's an expectation that the Scottish Government could release its crucial annual report detailing progress against carbon emission reduction targets today, providing data for the upcoming discussions. (Probability: 0.55)"
+        },
+        {
+            "id": "20261001003",
+            "title": "Will Heathrow Airport today announce a new partnership with a major international airline for a significant expansion of routes?",
+            "payout": 2.38,
+            "desc": "Following recent liberalisation of air travel agreements and increased passenger demand, industry insiders are speculating that Heathrow Airport might reveal a major new airline partnership today, potentially leading to new long-haul routes and increased capacity. (Probability: 0.4)"
+        },
+        {
+            "id": "20261001004",
+            "title": "Will the European Commission today launch a formal infringement procedure against Member State X over rule of law concerns?",
+            "payout": 1.9,
+            "desc": "Amid ongoing tensions regarding judicial independence and democratic standards, reports from Brussels suggest the European Commission, following its weekly meeting, could formally initiate infringement proceedings against a particular Member State later today, signaling escalated action. (Probability: 0.5)"
+        },
+        {
+            "id": "20261001005",
+            "title": "Will the UN Special Envoy to [Fictional Conflict Zone Z] today confirm a date for new peace talks between the warring factions?",
+            "payout": 1.58,
+            "desc": "After weeks of shuttle diplomacy and back-channel negotiations, sources within the United Nations mission indicate that the Special Envoy might today announce a specific date and venue for the next round of high-level peace talks, aiming to de-escalate the ongoing conflict. (Probability: 0.6)"
         }
     ],
     "history": [
@@ -6001,7 +6001,47 @@
             "desc": "Following intense shuttle diplomacy efforts and growing international pressure to de-escalate tensions, a joint statement or separate official confirmations regarding the commencement of direct peace negotiations could be announced today.",
             "result": "LOST",
             "settled_at": "2026-09-30"
+        },
+        {
+            "id": "20260930001",
+            "title": "Will the UK Prime Minister today announce a new energy support package following a Cabinet meeting?",
+            "payout": 1.58,
+            "desc": "With rising wholesale energy prices dominating headlines and a key Cabinet meeting scheduled for this morning, the Prime Minister is under pressure to unveil fresh support measures, possibly at a press conference or through an official statement later today. (Probability: 0.6)",
+            "result": "LOST",
+            "settled_at": "2026-10-01"
+        },
+        {
+            "id": "20260930002",
+            "title": "Will the Scottish Government today release its official response to the UK Government's fiscal framework proposals?",
+            "payout": 1.9,
+            "desc": "Following recent UK Treasury announcements regarding changes to inter-governmental fiscal arrangements, the Scottish Government has indicated it would issue a formal response. A statement or publication is anticipated today as Holyrood reconvenes. (Probability: 0.5)",
+            "result": "LOST",
+            "settled_at": "2026-10-01"
+        },
+        {
+            "id": "20260930003",
+            "title": "Will the Department for Transport today confirm a new projected completion date for the HS2 Birmingham to Manchester leg?",
+            "payout": 2.38,
+            "desc": "Amid ongoing parliamentary scrutiny and recent reports of construction challenges, sources suggest the Department for Transport may today provide an updated timeline for key phases of HS2, potentially confirming a revised completion date for the Birmingham to Manchester segment. (Probability: 0.4)",
+            "result": "LOST",
+            "settled_at": "2026-10-01"
+        },
+        {
+            "id": "20260930004",
+            "title": "Will the European Central Bank today announce an emergency interest rate hike ahead of its scheduled meeting?",
+            "payout": 1.73,
+            "desc": "With new inflation data exceeding forecasts and currency markets showing volatility, speculation is mounting that the ECB might make an extraordinary intervention today, potentially through an unscheduled press conference or official statement, rather than waiting for its next scheduled policy meeting. (Probability: 0.55)",
+            "result": "LOST",
+            "settled_at": "2026-10-01"
+        },
+        {
+            "id": "20260930005",
+            "title": "Will the warring parties in [Fictional Conflict Zone Y] today confirm a 72-hour ceasefire agreement?",
+            "payout": 1.46,
+            "desc": "Following intensive mediation efforts by regional powers and growing calls for a de-escalation of violence, sources close to the negotiations suggest that an announcement regarding a temporary ceasefire, effective immediately, could be made by both sides today. (Probability: 0.65)",
+            "result": "LOST",
+            "settled_at": "2026-10-01"
         }
     ],
-    "last_update": "2026-09-30 03:12"
+    "last_update": "2026-10-01 03:19"
 }
