@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261002001",
-            "title": "Will a prominent junior minister in the Department for Health and Social Care today announce their resignation, citing policy disagreements?",
-            "payout": 3.8,
-            "desc": "Rumours have been circulating about dissatisfaction within the DHSC regarding the upcoming NHS reforms, and a key minister might choose today to make a statement ahead of tomorrow's White Paper release, intensifying speculation of an imminent departure. (Probability: 0.25)"
+            "id": "20261003001",
+            "title": "Will the Prime Minister today announce an emergency cabinet reshuffle following growing criticism from backbenchers?",
+            "payout": 4.75,
+            "desc": "Persistent rumours of dissatisfaction within government ranks and a key speech by the Prime Minister scheduled for this afternoon have fuelled speculation of an imminent cabinet reshuffle to consolidate power ahead of tomorrow's parliamentary session."
         },
         {
-            "id": "20261002002",
-            "title": "Will the Scottish National Party (SNP) today confirm that their annual conference, scheduled for next month, will proceed with an extraordinary leadership debate?",
-            "payout": 2.71,
-            "desc": "Following recent internal polling leaks showing a dip in support and heightened tensions over the First Minister's handling of specific portfolios, senior party figures might today force a public acknowledgment of an impending leadership challenge ahead of the upcoming conference. (Probability: 0.35)"
+            "id": "20261003002",
+            "title": "Will the Scottish Government today confirm a delay to the proposed National Care Service implementation beyond 2028?",
+            "payout": 1.46,
+            "desc": "Following recent reports of significant funding shortfalls and persistent staffing issues, a planned ministerial statement on social care today is widely expected to address the project's timeline, with a delay now considered highly probable among policy experts."
         },
         {
-            "id": "20261002003",
-            "title": "Will the Department for Transport today issue a formal update confirming a further six-month delay to the opening of the new Northern Rail Link extension?",
-            "payout": 1.58,
-            "desc": "Persistent whispers of engineering challenges and supply chain issues affecting the Northern Rail Link project have intensified over the past 24 hours, with a departmental briefing scheduled for this afternoon where such an announcement could be made. (Probability: 0.6)"
+            "id": "20261003003",
+            "title": "Will Transport for London (TfL) today announce a fare increase across all Underground and bus services, effective from next month?",
+            "payout": 1.36,
+            "desc": "TfL is facing a substantial budget deficit, and a board meeting is scheduled for this morning where a proposal for a fare hike, aiming to generate much-needed revenue, is expected to be discussed and potentially ratified for immediate announcement."
         },
         {
-            "id": "20261002004",
-            "title": "Will the G7 foreign ministers, currently meeting in Tokyo, today issue a joint statement condemning recent cyberattacks attributed to State Y?",
-            "payout": 1.27,
-            "desc": "The G7 summit is concluding today, and amidst escalating global tensions over cyber warfare, there's strong diplomatic pressure for a unified and unequivocal condemnation against State Y, following recent high-profile attacks on critical infrastructure. (Probability: 0.75)"
+            "id": "20261003004",
+            "title": "Will the European Union today issue formal sanctions against 'Country X' in response to its recent breach of international trade agreements?",
+            "payout": 1.73,
+            "desc": "The EU's trade commissioner indicated yesterday that a decision on retaliatory measures against Country X could be made 'imminently' following the conclusion of internal discussions among member states this morning on the contentious trade dispute."
         },
         {
-            "id": "20261002005",
-            "title": "Will humanitarian aid agencies today confirm the successful passage of a major aid convoy into the besieged city of Veridia in [Fictional Conflict Zone Alpha]?",
-            "payout": 1.19,
-            "desc": "Following intense negotiations and a temporary ceasefire agreement brokered last night, aid organisations have been poised to enter Veridia since dawn, and a confirmation of their successful passage is anticipated before the end of the day. (Probability: 0.8)"
+            "id": "20261003005",
+            "title": "Will the United Nations Security Council today pass a resolution calling for an immediate and unconditional humanitarian ceasefire in [Fictional Conflict Zone Beta]?",
+            "payout": 2.38,
+            "desc": "An emergency UNSC session was convened overnight following a dramatic surge in civilian casualties, with several key member states expressing strong support for a decisive humanitarian resolution to be adopted today amidst growing international pressure."
         }
     ],
     "history": [
@@ -6081,7 +6081,47 @@
             "desc": "After weeks of shuttle diplomacy and back-channel negotiations, sources within the United Nations mission indicate that the Special Envoy might today announce a specific date and venue for the next round of high-level peace talks, aiming to de-escalate the ongoing conflict. (Probability: 0.6)",
             "result": "WON",
             "settled_at": "2026-10-02"
+        },
+        {
+            "id": "20261002001",
+            "title": "Will a prominent junior minister in the Department for Health and Social Care today announce their resignation, citing policy disagreements?",
+            "payout": 3.8,
+            "desc": "Rumours have been circulating about dissatisfaction within the DHSC regarding the upcoming NHS reforms, and a key minister might choose today to make a statement ahead of tomorrow's White Paper release, intensifying speculation of an imminent departure. (Probability: 0.25)",
+            "result": "LOST",
+            "settled_at": "2026-10-03"
+        },
+        {
+            "id": "20261002002",
+            "title": "Will the Scottish National Party (SNP) today confirm that their annual conference, scheduled for next month, will proceed with an extraordinary leadership debate?",
+            "payout": 2.71,
+            "desc": "Following recent internal polling leaks showing a dip in support and heightened tensions over the First Minister's handling of specific portfolios, senior party figures might today force a public acknowledgment of an impending leadership challenge ahead of the upcoming conference. (Probability: 0.35)",
+            "result": "LOST",
+            "settled_at": "2026-10-03"
+        },
+        {
+            "id": "20261002003",
+            "title": "Will the Department for Transport today issue a formal update confirming a further six-month delay to the opening of the new Northern Rail Link extension?",
+            "payout": 1.58,
+            "desc": "Persistent whispers of engineering challenges and supply chain issues affecting the Northern Rail Link project have intensified over the past 24 hours, with a departmental briefing scheduled for this afternoon where such an announcement could be made. (Probability: 0.6)",
+            "result": "WON",
+            "settled_at": "2026-10-03"
+        },
+        {
+            "id": "20261002004",
+            "title": "Will the G7 foreign ministers, currently meeting in Tokyo, today issue a joint statement condemning recent cyberattacks attributed to State Y?",
+            "payout": 1.27,
+            "desc": "The G7 summit is concluding today, and amidst escalating global tensions over cyber warfare, there's strong diplomatic pressure for a unified and unequivocal condemnation against State Y, following recent high-profile attacks on critical infrastructure. (Probability: 0.75)",
+            "result": "WON",
+            "settled_at": "2026-10-03"
+        },
+        {
+            "id": "20261002005",
+            "title": "Will humanitarian aid agencies today confirm the successful passage of a major aid convoy into the besieged city of Veridia in [Fictional Conflict Zone Alpha]?",
+            "payout": 1.19,
+            "desc": "Following intense negotiations and a temporary ceasefire agreement brokered last night, aid organisations have been poised to enter Veridia since dawn, and a confirmation of their successful passage is anticipated before the end of the day. (Probability: 0.8)",
+            "result": "WON",
+            "settled_at": "2026-10-03"
         }
     ],
-    "last_update": "2026-10-02 03:20"
+    "last_update": "2026-10-03 03:05"
 }
