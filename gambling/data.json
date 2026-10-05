@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261004001",
-            "title": "Will a prominent government minister resign today following ongoing revelations regarding a fictional political scandal?",
-            "payout": 3.17,
-            "desc": "Pressure has been mounting on a key cabinet member, with media speculation rife after new evidence emerged over the weekend. A major Sunday newspaper expos\u00e9 is expected to land later today, forcing an immediate reaction from Downing Street."
+            "id": "20261005001",
+            "title": "Will a prominent Conservative backbench MP publicly call for a delay to the 'Digital Services Oversight Bill' by the end of today?",
+            "payout": 2.01,
+            "desc": "With the second reading of the controversial 'Digital Services Oversight Bill' scheduled for later this week, reports suggest growing unease among Tory backbenchers. A key committee meeting this morning could see dissenting voices emerge publicly, potentially seeking to halt its progress."
         },
         {
-            "id": "20261004002",
-            "title": "Will the Scottish Green Party today threaten to withdraw from the Bute House Agreement following disagreements over a new climate policy proposal?",
-            "payout": 2.38,
-            "desc": "Tensions between the SNP and Scottish Greens have been running high over an ambitious new climate policy. A joint cabinet meeting is scheduled for this afternoon, where the contentious proposal is the main agenda item, and speculation of a significant rift is widespread."
+            "id": "20261005002",
+            "title": "Will the Scottish Government today announce a formal inquiry into the delayed rollout of the new social care IT system?",
+            "payout": 1.73,
+            "desc": "Following a damning provisional audit report leaked yesterday regarding significant delays and cost overruns in the new social care IT system, opposition parties are demanding immediate action. The First Minister is expected to make a statement to Holyrood this afternoon, where an inquiry could be announced to quell growing public anger."
         },
         {
-            "id": "20261004003",
-            "title": "Will Transport Secretary Mark Harper today confirm the immediate suspension of all planned maintenance work on the M1 motorway over the upcoming bank holiday weekend?",
-            "payout": 1.58,
-            "desc": "Heavy criticism regarding planned disruptions on the M1, coupled with new adverse weather warnings, has led to an emergency meeting with Highways England scheduled for this morning. An announcement addressing potential changes to the maintenance schedule is expected shortly after."
+            "id": "20261005003",
+            "title": "Will the Department for Transport today confirm revised cost estimates for the Northern leg of HS2 Phase 2b?",
+            "payout": 1.46,
+            "desc": "Amid persistent rumours of ballooning expenses for the HS2 project's northern sections, an unnamed source within the DfT reportedly told a national broadsheet this morning that new figures are 'imminent'. A parliamentary written statement is anticipated today, potentially revealing updated financial projections."
         },
         {
-            "id": "20261004004",
-            "title": "Will the G7 nations today issue a joint statement condemning 'Country Y's' recent cyber-attacks targeting critical infrastructure?",
-            "payout": 1.36,
-            "desc": "G7 foreign ministers are currently holding an emergency virtual summit to discuss the escalating cyber warfare originating from 'Country Y'. A draft statement, reportedly circulated among members this morning for final approval, indicates a strong likelihood of a unified condemnation."
-        },
-        {
-            "id": "20261004005",
-            "title": "Will the International Red Cross today announce the successful negotiation of a humanitarian corridor in [Fictional Conflict Zone Gamma]?",
+            "id": "20261005004",
+            "title": "Will the European Union and Mercosur today announce a breakthrough in their long-running trade negotiations?",
             "payout": 1.9,
-            "desc": "After intensive overnight negotiations facilitated by a neutral third party, reports from aid agencies suggest an agreement on a critical humanitarian corridor is close to being finalized. A press conference is scheduled for late this afternoon by the ICRC's lead negotiator, raising hopes for a breakthrough."
+            "desc": "After intense negotiations over the weekend in Brussels, lead negotiators from both the EU and Mercosur bloc have reportedly signalled that a provisional agreement is 'within reach'. A joint press conference is scheduled for late this afternoon, fueling speculation of a significant advancement in the stalled talks."
+        },
+        {
+            "id": "20261005005",
+            "title": "Will the UN Special Envoy for [Fictional Region Zeta] today confirm a 48-hour ceasefire agreement between warring factions?",
+            "payout": 2.38,
+            "desc": "Following several days of shuttle diplomacy, the UN Special Envoy has called an urgent press briefing for midday today, stating there have been 'positive developments' overnight. This has led to widespread anticipation of a temporary truce in the ongoing conflict in [Fictional Region Zeta]."
         }
     ],
     "history": [
@@ -6161,7 +6161,47 @@
             "desc": "An emergency UNSC session was convened overnight following a dramatic surge in civilian casualties, with several key member states expressing strong support for a decisive humanitarian resolution to be adopted today amidst growing international pressure.",
             "result": "WON",
             "settled_at": "2026-10-04"
+        },
+        {
+            "id": "20261004001",
+            "title": "Will a prominent government minister resign today following ongoing revelations regarding a fictional political scandal?",
+            "payout": 3.17,
+            "desc": "Pressure has been mounting on a key cabinet member, with media speculation rife after new evidence emerged over the weekend. A major Sunday newspaper expos\u00e9 is expected to land later today, forcing an immediate reaction from Downing Street.",
+            "result": "LOST",
+            "settled_at": "2026-10-05"
+        },
+        {
+            "id": "20261004002",
+            "title": "Will the Scottish Green Party today threaten to withdraw from the Bute House Agreement following disagreements over a new climate policy proposal?",
+            "payout": 2.38,
+            "desc": "Tensions between the SNP and Scottish Greens have been running high over an ambitious new climate policy. A joint cabinet meeting is scheduled for this afternoon, where the contentious proposal is the main agenda item, and speculation of a significant rift is widespread.",
+            "result": "LOST",
+            "settled_at": "2026-10-05"
+        },
+        {
+            "id": "20261004003",
+            "title": "Will Transport Secretary Mark Harper today confirm the immediate suspension of all planned maintenance work on the M1 motorway over the upcoming bank holiday weekend?",
+            "payout": 1.58,
+            "desc": "Heavy criticism regarding planned disruptions on the M1, coupled with new adverse weather warnings, has led to an emergency meeting with Highways England scheduled for this morning. An announcement addressing potential changes to the maintenance schedule is expected shortly after.",
+            "result": "WON",
+            "settled_at": "2026-10-05"
+        },
+        {
+            "id": "20261004004",
+            "title": "Will the G7 nations today issue a joint statement condemning 'Country Y's' recent cyber-attacks targeting critical infrastructure?",
+            "payout": 1.36,
+            "desc": "G7 foreign ministers are currently holding an emergency virtual summit to discuss the escalating cyber warfare originating from 'Country Y'. A draft statement, reportedly circulated among members this morning for final approval, indicates a strong likelihood of a unified condemnation.",
+            "result": "WON",
+            "settled_at": "2026-10-05"
+        },
+        {
+            "id": "20261004005",
+            "title": "Will the International Red Cross today announce the successful negotiation of a humanitarian corridor in [Fictional Conflict Zone Gamma]?",
+            "payout": 1.9,
+            "desc": "After intensive overnight negotiations facilitated by a neutral third party, reports from aid agencies suggest an agreement on a critical humanitarian corridor is close to being finalized. A press conference is scheduled for late this afternoon by the ICRC's lead negotiator, raising hopes for a breakthrough.",
+            "result": "WON",
+            "settled_at": "2026-10-05"
         }
     ],
-    "last_update": "2026-10-04 03:34"
+    "last_update": "2026-10-05 03:15"
 }
