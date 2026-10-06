@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261005001",
-            "title": "Will a prominent Conservative backbench MP publicly call for a delay to the 'Digital Services Oversight Bill' by the end of today?",
-            "payout": 2.01,
-            "desc": "With the second reading of the controversial 'Digital Services Oversight Bill' scheduled for later this week, reports suggest growing unease among Tory backbenchers. A key committee meeting this morning could see dissenting voices emerge publicly, potentially seeking to halt its progress."
+            "id": "20261006001",
+            "title": "Will Prime Minister Rishi Sunak today announce new measures to address the rising cost of living?",
+            "payout": 1.58,
+            "desc": "With inflation figures remaining stubbornly high and public pressure mounting ahead of the winter months, political analysts suggest Downing Street is preparing a major intervention. A special morning cabinet meeting has fuelled speculation that new support packages or policies could be unveiled by the end of the day."
         },
         {
-            "id": "20261005002",
-            "title": "Will the Scottish Government today announce a formal inquiry into the delayed rollout of the new social care IT system?",
+            "id": "20261006002",
+            "title": "Will the Scottish Government today confirm its commitment to funding a new ferry for the Western Isles after recent breakdowns?",
             "payout": 1.73,
-            "desc": "Following a damning provisional audit report leaked yesterday regarding significant delays and cost overruns in the new social care IT system, opposition parties are demanding immediate action. The First Minister is expected to make a statement to Holyrood this afternoon, where an inquiry could be announced to quell growing public anger."
+            "desc": "Following a series of highly publicised breakdowns and cancellations affecting lifeline ferry services to the Western Isles, local politicians and community groups are demanding immediate action. The Minister for Transport is scheduled to face questions in Holyrood today, where a funding pledge could be made to alleviate public anger."
         },
         {
-            "id": "20261005003",
-            "title": "Will the Department for Transport today confirm revised cost estimates for the Northern leg of HS2 Phase 2b?",
+            "id": "20261006003",
+            "title": "Will the Department for Transport (DfT) today officially deny reports of further delays to HS2 Phase 2a (Birmingham to Crewe)?",
+            "payout": 1.36,
+            "desc": "Renewed media speculation, citing unnamed contractor sources, has emerged this morning regarding potential new delays to the HS2 Phase 2a section. The DfT often issues swift rebuttals or clarifications to such reports, especially concerning high-profile infrastructure projects, and a statement could be anticipated today."
+        },
+        {
+            "id": "20261006004",
+            "title": "Will a senior EU official today publicly state that Brexit trade deal renegotiations are 'off the table' for this year?",
             "payout": 1.46,
-            "desc": "Amid persistent rumours of ballooning expenses for the HS2 project's northern sections, an unnamed source within the DfT reportedly told a national broadsheet this morning that new figures are 'imminent'. A parliamentary written statement is anticipated today, potentially revealing updated financial projections."
+            "desc": "Recent calls from UK politicians for a more comprehensive renegotiation of the post-Brexit trade agreement have garnered significant attention. With a high-level EU-UK committee meeting planned for later this week, a senior EU figure might pre-emptively dismiss any immediate renegotiation prospects in a public statement today."
         },
         {
-            "id": "20261005004",
-            "title": "Will the European Union and Mercosur today announce a breakthrough in their long-running trade negotiations?",
+            "id": "20261006005",
+            "title": "Will the UN Special Envoy for [Fictional Region Zeta] today confirm a *breakdown* of recent ceasefire talks?",
             "payout": 1.9,
-            "desc": "After intense negotiations over the weekend in Brussels, lead negotiators from both the EU and Mercosur bloc have reportedly signalled that a provisional agreement is 'within reach'. A joint press conference is scheduled for late this afternoon, fueling speculation of a significant advancement in the stalled talks."
-        },
-        {
-            "id": "20261005005",
-            "title": "Will the UN Special Envoy for [Fictional Region Zeta] today confirm a 48-hour ceasefire agreement between warring factions?",
-            "payout": 2.38,
-            "desc": "Following several days of shuttle diplomacy, the UN Special Envoy has called an urgent press briefing for midday today, stating there have been 'positive developments' overnight. This has led to widespread anticipation of a temporary truce in the ongoing conflict in [Fictional Region Zeta]."
+            "desc": "Despite yesterday's reported 'positive developments', no 48-hour ceasefire agreement was announced for [Fictional Region Zeta]. With ongoing shuttle diplomacy under pressure, the UN Special Envoy may be forced to acknowledge the failure of recent efforts in a press briefing or statement expected today, shifting from optimism to a more sombre assessment."
         }
     ],
     "history": [
@@ -6201,7 +6201,47 @@
             "desc": "After intensive overnight negotiations facilitated by a neutral third party, reports from aid agencies suggest an agreement on a critical humanitarian corridor is close to being finalized. A press conference is scheduled for late this afternoon by the ICRC's lead negotiator, raising hopes for a breakthrough.",
             "result": "WON",
             "settled_at": "2026-10-05"
+        },
+        {
+            "id": "20261005001",
+            "title": "Will a prominent Conservative backbench MP publicly call for a delay to the 'Digital Services Oversight Bill' by the end of today?",
+            "payout": 2.01,
+            "desc": "With the second reading of the controversial 'Digital Services Oversight Bill' scheduled for later this week, reports suggest growing unease among Tory backbenchers. A key committee meeting this morning could see dissenting voices emerge publicly, potentially seeking to halt its progress.",
+            "result": "LOST",
+            "settled_at": "2026-10-06"
+        },
+        {
+            "id": "20261005002",
+            "title": "Will the Scottish Government today announce a formal inquiry into the delayed rollout of the new social care IT system?",
+            "payout": 1.73,
+            "desc": "Following a damning provisional audit report leaked yesterday regarding significant delays and cost overruns in the new social care IT system, opposition parties are demanding immediate action. The First Minister is expected to make a statement to Holyrood this afternoon, where an inquiry could be announced to quell growing public anger.",
+            "result": "LOST",
+            "settled_at": "2026-10-06"
+        },
+        {
+            "id": "20261005003",
+            "title": "Will the Department for Transport today confirm revised cost estimates for the Northern leg of HS2 Phase 2b?",
+            "payout": 1.46,
+            "desc": "Amid persistent rumours of ballooning expenses for the HS2 project's northern sections, an unnamed source within the DfT reportedly told a national broadsheet this morning that new figures are 'imminent'. A parliamentary written statement is anticipated today, potentially revealing updated financial projections.",
+            "result": "LOST",
+            "settled_at": "2026-10-06"
+        },
+        {
+            "id": "20261005004",
+            "title": "Will the European Union and Mercosur today announce a breakthrough in their long-running trade negotiations?",
+            "payout": 1.9,
+            "desc": "After intense negotiations over the weekend in Brussels, lead negotiators from both the EU and Mercosur bloc have reportedly signalled that a provisional agreement is 'within reach'. A joint press conference is scheduled for late this afternoon, fueling speculation of a significant advancement in the stalled talks.",
+            "result": "LOST",
+            "settled_at": "2026-10-06"
+        },
+        {
+            "id": "20261005005",
+            "title": "Will the UN Special Envoy for [Fictional Region Zeta] today confirm a 48-hour ceasefire agreement between warring factions?",
+            "payout": 2.38,
+            "desc": "Following several days of shuttle diplomacy, the UN Special Envoy has called an urgent press briefing for midday today, stating there have been 'positive developments' overnight. This has led to widespread anticipation of a temporary truce in the ongoing conflict in [Fictional Region Zeta].",
+            "result": "LOST",
+            "settled_at": "2026-10-06"
         }
     ],
-    "last_update": "2026-10-05 03:15"
+    "last_update": "2026-10-06 04:03"
 }
