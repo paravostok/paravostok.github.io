@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261006001",
-            "title": "Will Prime Minister Rishi Sunak today announce new measures to address the rising cost of living?",
-            "payout": 1.58,
-            "desc": "With inflation figures remaining stubbornly high and public pressure mounting ahead of the winter months, political analysts suggest Downing Street is preparing a major intervention. A special morning cabinet meeting has fuelled speculation that new support packages or policies could be unveiled by the end of the day."
+            "id": "20261008001",
+            "title": "Will the Home Office today officially withdraw the controversial 'digital border' pilot scheme?",
+            "payout": 2.71,
+            "desc": "Following significant technical glitches and privacy concerns highlighted by a morning newspaper exclusive, the Home Office is facing increasing calls to scrap its pilot digital border program. A ministerial statement or press release could be issued today to address the backlash."
         },
         {
-            "id": "20261006002",
-            "title": "Will the Scottish Government today confirm its commitment to funding a new ferry for the Western Isles after recent breakdowns?",
-            "payout": 1.73,
-            "desc": "Following a series of highly publicised breakdowns and cancellations affecting lifeline ferry services to the Western Isles, local politicians and community groups are demanding immediate action. The Minister for Transport is scheduled to face questions in Holyrood today, where a funding pledge could be made to alleviate public anger."
+            "id": "20261008002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its next leadership election?",
+            "payout": 2.11,
+            "desc": "Following intense media speculation and reports of internal pressure, the SNP's National Executive Committee (NEC) is understood to be meeting today. Sources suggest a key outcome could be the formal announcement of a timetable for the next leadership contest, possibly to quell disquiet."
         },
         {
-            "id": "20261006003",
-            "title": "Will the Department for Transport (DfT) today officially deny reports of further delays to HS2 Phase 2a (Birmingham to Crewe)?",
-            "payout": 1.36,
-            "desc": "Renewed media speculation, citing unnamed contractor sources, has emerged this morning regarding potential new delays to the HS2 Phase 2a section. The DfT often issues swift rebuttals or clarifications to such reports, especially concerning high-profile infrastructure projects, and a statement could be anticipated today."
-        },
-        {
-            "id": "20261006004",
-            "title": "Will a senior EU official today publicly state that Brexit trade deal renegotiations are 'off the table' for this year?",
-            "payout": 1.46,
-            "desc": "Recent calls from UK politicians for a more comprehensive renegotiation of the post-Brexit trade agreement have garnered significant attention. With a high-level EU-UK committee meeting planned for later this week, a senior EU figure might pre-emptively dismiss any immediate renegotiation prospects in a public statement today."
-        },
-        {
-            "id": "20261006005",
-            "title": "Will the UN Special Envoy for [Fictional Region Zeta] today confirm a *breakdown* of recent ceasefire talks?",
+            "id": "20261008003",
+            "title": "Will the Mayor of London today formally reject the proposed expansion of the Ultra Low Emission Zone (ULEZ) to cover the entire M25 orbital?",
             "payout": 1.9,
-            "desc": "Despite yesterday's reported 'positive developments', no 48-hour ceasefire agreement was announced for [Fictional Region Zeta]. With ongoing shuttle diplomacy under pressure, the UN Special Envoy may be forced to acknowledge the failure of recent efforts in a press briefing or statement expected today, shifting from optimism to a more sombre assessment."
+            "desc": "A final decision on the highly contentious ULEZ expansion proposal has been anticipated after the public consultation officially closed yesterday. The Mayor's office is under immense pressure from various groups, and a definitive statement or press conference is expected today."
+        },
+        {
+            "id": "20261008004",
+            "title": "Will the G7 nations today issue a joint statement condemning the recent cyber-attacks attributed to [Fictional State X]?",
+            "payout": 1.58,
+            "desc": "Following a series of disruptive cyber-attacks targeting critical infrastructure across several member states, G7 foreign ministers held an emergency virtual meeting last night. A unified and strongly worded condemnation against the suspected state actor is widely anticipated to be released today."
+        },
+        {
+            "id": "20261008005",
+            "title": "Will the International Red Cross today announce the opening of a new humanitarian corridor in [Fictional Conflict Zone Y]?",
+            "payout": 1.73,
+            "desc": "With the humanitarian situation in [Fictional Conflict Zone Y] deteriorating rapidly, aid agencies have been in continuous negotiation for safe passage. Sources close to the talks suggest a breakthrough on a new corridor is imminent, with the International Red Cross potentially confirming details in a statement today."
         }
     ],
     "history": [
@@ -6241,7 +6241,47 @@
             "desc": "Following several days of shuttle diplomacy, the UN Special Envoy has called an urgent press briefing for midday today, stating there have been 'positive developments' overnight. This has led to widespread anticipation of a temporary truce in the ongoing conflict in [Fictional Region Zeta].",
             "result": "LOST",
             "settled_at": "2026-10-06"
+        },
+        {
+            "id": "20261006001",
+            "title": "Will Prime Minister Rishi Sunak today announce new measures to address the rising cost of living?",
+            "payout": 1.58,
+            "desc": "With inflation figures remaining stubbornly high and public pressure mounting ahead of the winter months, political analysts suggest Downing Street is preparing a major intervention. A special morning cabinet meeting has fuelled speculation that new support packages or policies could be unveiled by the end of the day.",
+            "result": "LOST",
+            "settled_at": "2026-10-08"
+        },
+        {
+            "id": "20261006002",
+            "title": "Will the Scottish Government today confirm its commitment to funding a new ferry for the Western Isles after recent breakdowns?",
+            "payout": 1.73,
+            "desc": "Following a series of highly publicised breakdowns and cancellations affecting lifeline ferry services to the Western Isles, local politicians and community groups are demanding immediate action. The Minister for Transport is scheduled to face questions in Holyrood today, where a funding pledge could be made to alleviate public anger.",
+            "result": "WON",
+            "settled_at": "2026-10-08"
+        },
+        {
+            "id": "20261006003",
+            "title": "Will the Department for Transport (DfT) today officially deny reports of further delays to HS2 Phase 2a (Birmingham to Crewe)?",
+            "payout": 1.36,
+            "desc": "Renewed media speculation, citing unnamed contractor sources, has emerged this morning regarding potential new delays to the HS2 Phase 2a section. The DfT often issues swift rebuttals or clarifications to such reports, especially concerning high-profile infrastructure projects, and a statement could be anticipated today.",
+            "result": "WON",
+            "settled_at": "2026-10-08"
+        },
+        {
+            "id": "20261006004",
+            "title": "Will a senior EU official today publicly state that Brexit trade deal renegotiations are 'off the table' for this year?",
+            "payout": 1.46,
+            "desc": "Recent calls from UK politicians for a more comprehensive renegotiation of the post-Brexit trade agreement have garnered significant attention. With a high-level EU-UK committee meeting planned for later this week, a senior EU figure might pre-emptively dismiss any immediate renegotiation prospects in a public statement today.",
+            "result": "WON",
+            "settled_at": "2026-10-08"
+        },
+        {
+            "id": "20261006005",
+            "title": "Will the UN Special Envoy for [Fictional Region Zeta] today confirm a *breakdown* of recent ceasefire talks?",
+            "payout": 1.9,
+            "desc": "Despite yesterday's reported 'positive developments', no 48-hour ceasefire agreement was announced for [Fictional Region Zeta]. With ongoing shuttle diplomacy under pressure, the UN Special Envoy may be forced to acknowledge the failure of recent efforts in a press briefing or statement expected today, shifting from optimism to a more sombre assessment.",
+            "result": "WON",
+            "settled_at": "2026-10-08"
         }
     ],
-    "last_update": "2026-10-06 04:03"
+    "last_update": "2026-10-08 03:45"
 }
