@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261008001",
-            "title": "Will the Home Office today officially withdraw the controversial 'digital border' pilot scheme?",
-            "payout": 2.71,
-            "desc": "Following significant technical glitches and privacy concerns highlighted by a morning newspaper exclusive, the Home Office is facing increasing calls to scrap its pilot digital border program. A ministerial statement or press release could be issued today to address the backlash."
-        },
-        {
-            "id": "20261008002",
-            "title": "Will the Scottish National Party (SNP) today confirm the date for its next leadership election?",
-            "payout": 2.11,
-            "desc": "Following intense media speculation and reports of internal pressure, the SNP's National Executive Committee (NEC) is understood to be meeting today. Sources suggest a key outcome could be the formal announcement of a timetable for the next leadership contest, possibly to quell disquiet."
-        },
-        {
-            "id": "20261008003",
-            "title": "Will the Mayor of London today formally reject the proposed expansion of the Ultra Low Emission Zone (ULEZ) to cover the entire M25 orbital?",
-            "payout": 1.9,
-            "desc": "A final decision on the highly contentious ULEZ expansion proposal has been anticipated after the public consultation officially closed yesterday. The Mayor's office is under immense pressure from various groups, and a definitive statement or press conference is expected today."
-        },
-        {
-            "id": "20261008004",
-            "title": "Will the G7 nations today issue a joint statement condemning the recent cyber-attacks attributed to [Fictional State X]?",
+            "id": "20261009001",
+            "title": "Will the Chancellor of the Exchequer today explicitly rule out an autumn general election in an official statement or speech?",
             "payout": 1.58,
-            "desc": "Following a series of disruptive cyber-attacks targeting critical infrastructure across several member states, G7 foreign ministers held an emergency virtual meeting last night. A unified and strongly worded condemnation against the suspected state actor is widely anticipated to be released today."
+            "desc": "Amidst ongoing media speculation regarding an early general election, and following a recent round of challenging economic data, the Chancellor is due to give a major speech this afternoon. There is high anticipation that he may use this platform to either calm nerves or signal intentions regarding an election timeline."
         },
         {
-            "id": "20261008005",
-            "title": "Will the International Red Cross today announce the opening of a new humanitarian corridor in [Fictional Conflict Zone Y]?",
+            "id": "20261009002",
+            "title": "Will the Scottish Government today formally publish its long-awaited white paper on independent currency options?",
+            "payout": 2.38,
+            "desc": "Following renewed calls from pro-independence factions and recent internal party discussions, sources within the Scottish Government suggest the long-anticipated white paper outlining potential currency options for an independent Scotland could finally be released today, providing clarity on a key policy area."
+        },
+        {
+            "id": "20261009003",
+            "title": "Will Transport for London (TfL) today announce a fare freeze for 2027 on all bus and tube services?",
+            "payout": 2.71,
+            "desc": "With the Mayor of London facing pressure over living costs and recent transport disruption, there is growing speculation that TfL might announce a fare freeze for the upcoming year. A scheduled press briefing regarding TfL's financial outlook could be the platform for such a politically significant decision today."
+        },
+        {
+            "id": "20261009004",
+            "title": "Will the European Union today formally announce new sanctions against [Fictional Nation Z] in response to recent trade disputes?",
             "payout": 1.73,
-            "desc": "With the humanitarian situation in [Fictional Conflict Zone Y] deteriorating rapidly, aid agencies have been in continuous negotiation for safe passage. Sources close to the talks suggest a breakthrough on a new corridor is imminent, with the International Red Cross potentially confirming details in a statement today."
+            "desc": "Following a series of emergency meetings earlier this week concerning escalating trade disputes and alleged protectionist measures by [Fictional Nation Z], EU foreign ministers are expected to reconvene virtually today. A formal statement detailing new punitive sanctions is widely anticipated as a consequence."
+        },
+        {
+            "id": "20261009005",
+            "title": "Will the United Nations Security Council today pass a resolution calling for an immediate and unconditional ceasefire in [Fictional Conflict Zone W]?",
+            "payout": 3.8,
+            "desc": "After a critical overnight emergency session and a deteriorating humanitarian situation, diplomatic sources indicate intense negotiations are underway within the UN Security Council. Pressure is mounting to pass a binding resolution for an immediate cessation of hostilities in [Fictional Conflict Zone W], with a vote potentially taking place today."
         }
     ],
     "history": [
@@ -6281,7 +6281,47 @@
             "desc": "Despite yesterday's reported 'positive developments', no 48-hour ceasefire agreement was announced for [Fictional Region Zeta]. With ongoing shuttle diplomacy under pressure, the UN Special Envoy may be forced to acknowledge the failure of recent efforts in a press briefing or statement expected today, shifting from optimism to a more sombre assessment.",
             "result": "WON",
             "settled_at": "2026-10-08"
+        },
+        {
+            "id": "20261008001",
+            "title": "Will the Home Office today officially withdraw the controversial 'digital border' pilot scheme?",
+            "payout": 2.71,
+            "desc": "Following significant technical glitches and privacy concerns highlighted by a morning newspaper exclusive, the Home Office is facing increasing calls to scrap its pilot digital border program. A ministerial statement or press release could be issued today to address the backlash.",
+            "result": "WON",
+            "settled_at": "2026-10-09"
+        },
+        {
+            "id": "20261008002",
+            "title": "Will the Scottish National Party (SNP) today confirm the date for its next leadership election?",
+            "payout": 2.11,
+            "desc": "Following intense media speculation and reports of internal pressure, the SNP's National Executive Committee (NEC) is understood to be meeting today. Sources suggest a key outcome could be the formal announcement of a timetable for the next leadership contest, possibly to quell disquiet.",
+            "result": "WON",
+            "settled_at": "2026-10-09"
+        },
+        {
+            "id": "20261008003",
+            "title": "Will the Mayor of London today formally reject the proposed expansion of the Ultra Low Emission Zone (ULEZ) to cover the entire M25 orbital?",
+            "payout": 1.9,
+            "desc": "A final decision on the highly contentious ULEZ expansion proposal has been anticipated after the public consultation officially closed yesterday. The Mayor's office is under immense pressure from various groups, and a definitive statement or press conference is expected today.",
+            "result": "LOST",
+            "settled_at": "2026-10-09"
+        },
+        {
+            "id": "20261008004",
+            "title": "Will the G7 nations today issue a joint statement condemning the recent cyber-attacks attributed to [Fictional State X]?",
+            "payout": 1.58,
+            "desc": "Following a series of disruptive cyber-attacks targeting critical infrastructure across several member states, G7 foreign ministers held an emergency virtual meeting last night. A unified and strongly worded condemnation against the suspected state actor is widely anticipated to be released today.",
+            "result": "WON",
+            "settled_at": "2026-10-09"
+        },
+        {
+            "id": "20261008005",
+            "title": "Will the International Red Cross today announce the opening of a new humanitarian corridor in [Fictional Conflict Zone Y]?",
+            "payout": 1.73,
+            "desc": "With the humanitarian situation in [Fictional Conflict Zone Y] deteriorating rapidly, aid agencies have been in continuous negotiation for safe passage. Sources close to the talks suggest a breakthrough on a new corridor is imminent, with the International Red Cross potentially confirming details in a statement today.",
+            "result": "WON",
+            "settled_at": "2026-10-09"
         }
     ],
-    "last_update": "2026-10-08 03:45"
+    "last_update": "2026-10-09 03:50"
 }
