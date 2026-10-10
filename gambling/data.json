@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261009001",
-            "title": "Will the Chancellor of the Exchequer today explicitly rule out an autumn general election in an official statement or speech?",
-            "payout": 1.58,
-            "desc": "Amidst ongoing media speculation regarding an early general election, and following a recent round of challenging economic data, the Chancellor is due to give a major speech this afternoon. There is high anticipation that he may use this platform to either calm nerves or signal intentions regarding an election timeline."
-        },
-        {
-            "id": "20261009002",
-            "title": "Will the Scottish Government today formally publish its long-awaited white paper on independent currency options?",
-            "payout": 2.38,
-            "desc": "Following renewed calls from pro-independence factions and recent internal party discussions, sources within the Scottish Government suggest the long-anticipated white paper outlining potential currency options for an independent Scotland could finally be released today, providing clarity on a key policy area."
-        },
-        {
-            "id": "20261009003",
-            "title": "Will Transport for London (TfL) today announce a fare freeze for 2027 on all bus and tube services?",
-            "payout": 2.71,
-            "desc": "With the Mayor of London facing pressure over living costs and recent transport disruption, there is growing speculation that TfL might announce a fare freeze for the upcoming year. A scheduled press briefing regarding TfL's financial outlook could be the platform for such a politically significant decision today."
-        },
-        {
-            "id": "20261009004",
-            "title": "Will the European Union today formally announce new sanctions against [Fictional Nation Z] in response to recent trade disputes?",
-            "payout": 1.73,
-            "desc": "Following a series of emergency meetings earlier this week concerning escalating trade disputes and alleged protectionist measures by [Fictional Nation Z], EU foreign ministers are expected to reconvene virtually today. A formal statement detailing new punitive sanctions is widely anticipated as a consequence."
-        },
-        {
-            "id": "20261009005",
-            "title": "Will the United Nations Security Council today pass a resolution calling for an immediate and unconditional ceasefire in [Fictional Conflict Zone W]?",
+            "id": "20261010001",
+            "title": "Will a Conservative MP today announce their resignation, triggering a by-election?",
             "payout": 3.8,
-            "desc": "After a critical overnight emergency session and a deteriorating humanitarian situation, diplomatic sources indicate intense negotiations are underway within the UN Security Council. Pressure is mounting to pass a binding resolution for an immediate cessation of hostilities in [Fictional Conflict Zone W], with a vote potentially taking place today."
+            "desc": "Following recent challenging economic data and intensified political speculation around the government's stability, rumours are circulating that a disgruntled or under-pressure Conservative backbench MP might choose today to announce their immediate resignation, prompting an unexpected by-election."
+        },
+        {
+            "id": "20261010002",
+            "title": "Will the Scottish Government today confirm the full timeline for its new 'National Parks Expansion' initiative?",
+            "payout": 2.38,
+            "desc": "Following recent environmental pledges and public criticism over perceived slow progress, the Scottish Minister for Environment is scheduled to address a committee this afternoon. There is an expectation they might use this platform to formally outline the complete timeline for the highly anticipated National Parks Expansion initiative, demonstrating tangible commitment."
+        },
+        {
+            "id": "20261010003",
+            "title": "Will the Department for Transport today issue a statement confirming a further delay to Phase 2b of HS2?",
+            "payout": 1.58,
+            "desc": "Persistent media reports, citing anonymous civil service sources, indicate that ongoing budgetary pressures and complex land acquisition issues are making the original timelines for HS2's Phase 2b unfeasible. A formal announcement regarding revised schedules or an official acknowledgement of a delay is anticipated today in response to mounting parliamentary and journalistic inquiries."
+        },
+        {
+            "id": "20261010004",
+            "title": "Will the US State Department today issue a formal advisory cautioning against non-essential travel to [Fictional Nation Y]?",
+            "payout": 1.9,
+            "desc": "Following increased security concerns and recent verified reports of escalating civil unrest in [Fictional Nation Y], the US Embassy there has been in heightened communication with Washington. An official update to the existing travel advisory is widely anticipated today, potentially raising the warning level to advise against all non-essential travel."
+        },
+        {
+            "id": "20261010005",
+            "title": "Will a major international aid organization today announce the successful delivery of a significant humanitarian convoy into [Fictional Conflict Zone W]?",
+            "payout": 3.17,
+            "desc": "Despite the diplomatic deadlock at the UN Security Council, humanitarian agencies have been working intensely to negotiate passage for vital supplies into the besieged [Fictional Conflict Zone W]. Reports from local contacts suggest a critical window of opportunity for a large convoy opened overnight, with an official announcement on its success or failure expected by the close of day."
         }
     ],
     "history": [
@@ -6321,7 +6321,47 @@
             "desc": "With the humanitarian situation in [Fictional Conflict Zone Y] deteriorating rapidly, aid agencies have been in continuous negotiation for safe passage. Sources close to the talks suggest a breakthrough on a new corridor is imminent, with the International Red Cross potentially confirming details in a statement today.",
             "result": "WON",
             "settled_at": "2026-10-09"
+        },
+        {
+            "id": "20261009001",
+            "title": "Will the Chancellor of the Exchequer today explicitly rule out an autumn general election in an official statement or speech?",
+            "payout": 1.58,
+            "desc": "Amidst ongoing media speculation regarding an early general election, and following a recent round of challenging economic data, the Chancellor is due to give a major speech this afternoon. There is high anticipation that he may use this platform to either calm nerves or signal intentions regarding an election timeline.",
+            "result": "LOST",
+            "settled_at": "2026-10-10"
+        },
+        {
+            "id": "20261009002",
+            "title": "Will the Scottish Government today formally publish its long-awaited white paper on independent currency options?",
+            "payout": 2.38,
+            "desc": "Following renewed calls from pro-independence factions and recent internal party discussions, sources within the Scottish Government suggest the long-anticipated white paper outlining potential currency options for an independent Scotland could finally be released today, providing clarity on a key policy area.",
+            "result": "LOST",
+            "settled_at": "2026-10-10"
+        },
+        {
+            "id": "20261009003",
+            "title": "Will Transport for London (TfL) today announce a fare freeze for 2027 on all bus and tube services?",
+            "payout": 2.71,
+            "desc": "With the Mayor of London facing pressure over living costs and recent transport disruption, there is growing speculation that TfL might announce a fare freeze for the upcoming year. A scheduled press briefing regarding TfL's financial outlook could be the platform for such a politically significant decision today.",
+            "result": "WON",
+            "settled_at": "2026-10-10"
+        },
+        {
+            "id": "20261009004",
+            "title": "Will the European Union today formally announce new sanctions against [Fictional Nation Z] in response to recent trade disputes?",
+            "payout": 1.73,
+            "desc": "Following a series of emergency meetings earlier this week concerning escalating trade disputes and alleged protectionist measures by [Fictional Nation Z], EU foreign ministers are expected to reconvene virtually today. A formal statement detailing new punitive sanctions is widely anticipated as a consequence.",
+            "result": "LOST",
+            "settled_at": "2026-10-10"
+        },
+        {
+            "id": "20261009005",
+            "title": "Will the United Nations Security Council today pass a resolution calling for an immediate and unconditional ceasefire in [Fictional Conflict Zone W]?",
+            "payout": 3.8,
+            "desc": "After a critical overnight emergency session and a deteriorating humanitarian situation, diplomatic sources indicate intense negotiations are underway within the UN Security Council. Pressure is mounting to pass a binding resolution for an immediate cessation of hostilities in [Fictional Conflict Zone W], with a vote potentially taking place today.",
+            "result": "LOST",
+            "settled_at": "2026-10-10"
         }
     ],
-    "last_update": "2026-10-09 03:50"
+    "last_update": "2026-10-10 03:34"
 }
