@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261010001",
-            "title": "Will a Conservative MP today announce their resignation, triggering a by-election?",
-            "payout": 3.8,
-            "desc": "Following recent challenging economic data and intensified political speculation around the government's stability, rumours are circulating that a disgruntled or under-pressure Conservative backbench MP might choose today to announce their immediate resignation, prompting an unexpected by-election."
-        },
-        {
-            "id": "20261010002",
-            "title": "Will the Scottish Government today confirm the full timeline for its new 'National Parks Expansion' initiative?",
+            "id": "20261011001",
+            "title": "Will the Chancellor of the Exchequer today issue an unscheduled statement responding to the latest ONS inflation figures?",
             "payout": 2.38,
-            "desc": "Following recent environmental pledges and public criticism over perceived slow progress, the Scottish Minister for Environment is scheduled to address a committee this afternoon. There is an expectation they might use this platform to formally outline the complete timeline for the highly anticipated National Parks Expansion initiative, demonstrating tangible commitment."
+            "desc": "Following the release of unexpectedly high inflation data this morning, there is growing parliamentary pressure on the Chancellor to outline immediate government measures. An unscheduled statement later today is being heavily debated within Downing Street circles amidst calls for a robust response."
         },
         {
-            "id": "20261010003",
-            "title": "Will the Department for Transport today issue a statement confirming a further delay to Phase 2b of HS2?",
+            "id": "20261011002",
+            "title": "Will a new opinion poll on Scottish independence, commissioned by a major media outlet, be published today?",
+            "payout": 2.71,
+            "desc": "With recent shifts in political dynamics and ongoing constitutional debates, a major Scottish newspaper or broadcaster is rumoured to be preparing to release new polling data on independence support. The timing would be opportune to influence the Holyrood agenda this week."
+        },
+        {
+            "id": "20261011003",
+            "title": "Will Network Rail today announce the start date for major engineering works affecting the West Coast Main Line over the Christmas period?",
             "payout": 1.58,
-            "desc": "Persistent media reports, citing anonymous civil service sources, indicate that ongoing budgetary pressures and complex land acquisition issues are making the original timelines for HS2's Phase 2b unfeasible. A formal announcement regarding revised schedules or an official acknowledgement of a delay is anticipated today in response to mounting parliamentary and journalistic inquiries."
+            "desc": "Following internal consultations and resource allocation, Network Rail is expected to formally confirm the detailed schedule for its crucial festive engineering works. Industry insiders suggest an official announcement, providing essential travel advice for passengers, is imminent today."
         },
         {
-            "id": "20261010004",
-            "title": "Will the US State Department today issue a formal advisory cautioning against non-essential travel to [Fictional Nation Y]?",
+            "id": "20261011004",
+            "title": "Will the UN Security Council today vote on a new resolution concerning humanitarian access in [Fictional Conflict Zone X]?",
             "payout": 1.9,
-            "desc": "Following increased security concerns and recent verified reports of escalating civil unrest in [Fictional Nation Y], the US Embassy there has been in heightened communication with Washington. An official update to the existing travel advisory is widely anticipated today, potentially raising the warning level to advise against all non-essential travel."
+            "desc": "Diplomatic sources at the UN indicate that discussions have concluded on a draft resolution regarding humanitarian corridors and aid delivery. A vote, potentially facing vetoes from permanent members, is widely anticipated to be called by a prominent member state today to press for action."
         },
         {
-            "id": "20261010005",
-            "title": "Will a major international aid organization today announce the successful delivery of a significant humanitarian convoy into [Fictional Conflict Zone W]?",
-            "payout": 3.17,
-            "desc": "Despite the diplomatic deadlock at the UN Security Council, humanitarian agencies have been working intensely to negotiate passage for vital supplies into the besieged [Fictional Conflict Zone W]. Reports from local contacts suggest a critical window of opportunity for a large convoy opened overnight, with an official announcement on its success or failure expected by the close of day."
+            "id": "20261011005",
+            "title": "Will the International Red Cross today confirm the safe passage of a medical aid convoy into the besieged city of [Fictional City Z]?",
+            "payout": 2.11,
+            "desc": "After days of intense negotiations with all parties to the conflict, the ICRC has reportedly secured assurances for a critical medical convoy. An official confirmation of its successful entry into [Fictional City Z], delivering vital supplies, is expected by evening if the operation proceeds without incident."
         }
     ],
     "history": [
@@ -6361,7 +6361,47 @@
             "desc": "After a critical overnight emergency session and a deteriorating humanitarian situation, diplomatic sources indicate intense negotiations are underway within the UN Security Council. Pressure is mounting to pass a binding resolution for an immediate cessation of hostilities in [Fictional Conflict Zone W], with a vote potentially taking place today.",
             "result": "LOST",
             "settled_at": "2026-10-10"
+        },
+        {
+            "id": "20261010001",
+            "title": "Will a Conservative MP today announce their resignation, triggering a by-election?",
+            "payout": 3.8,
+            "desc": "Following recent challenging economic data and intensified political speculation around the government's stability, rumours are circulating that a disgruntled or under-pressure Conservative backbench MP might choose today to announce their immediate resignation, prompting an unexpected by-election.",
+            "result": "LOST",
+            "settled_at": "2026-10-11"
+        },
+        {
+            "id": "20261010002",
+            "title": "Will the Scottish Government today confirm the full timeline for its new 'National Parks Expansion' initiative?",
+            "payout": 2.38,
+            "desc": "Following recent environmental pledges and public criticism over perceived slow progress, the Scottish Minister for Environment is scheduled to address a committee this afternoon. There is an expectation they might use this platform to formally outline the complete timeline for the highly anticipated National Parks Expansion initiative, demonstrating tangible commitment.",
+            "result": "LOST",
+            "settled_at": "2026-10-11"
+        },
+        {
+            "id": "20261010003",
+            "title": "Will the Department for Transport today issue a statement confirming a further delay to Phase 2b of HS2?",
+            "payout": 1.58,
+            "desc": "Persistent media reports, citing anonymous civil service sources, indicate that ongoing budgetary pressures and complex land acquisition issues are making the original timelines for HS2's Phase 2b unfeasible. A formal announcement regarding revised schedules or an official acknowledgement of a delay is anticipated today in response to mounting parliamentary and journalistic inquiries.",
+            "result": "LOST",
+            "settled_at": "2026-10-11"
+        },
+        {
+            "id": "20261010004",
+            "title": "Will the US State Department today issue a formal advisory cautioning against non-essential travel to [Fictional Nation Y]?",
+            "payout": 1.9,
+            "desc": "Following increased security concerns and recent verified reports of escalating civil unrest in [Fictional Nation Y], the US Embassy there has been in heightened communication with Washington. An official update to the existing travel advisory is widely anticipated today, potentially raising the warning level to advise against all non-essential travel.",
+            "result": "LOST",
+            "settled_at": "2026-10-11"
+        },
+        {
+            "id": "20261010005",
+            "title": "Will a major international aid organization today announce the successful delivery of a significant humanitarian convoy into [Fictional Conflict Zone W]?",
+            "payout": 3.17,
+            "desc": "Despite the diplomatic deadlock at the UN Security Council, humanitarian agencies have been working intensely to negotiate passage for vital supplies into the besieged [Fictional Conflict Zone W]. Reports from local contacts suggest a critical window of opportunity for a large convoy opened overnight, with an official announcement on its success or failure expected by the close of day.",
+            "result": "LOST",
+            "settled_at": "2026-10-11"
         }
     ],
-    "last_update": "2026-10-10 03:34"
+    "last_update": "2026-10-11 03:07"
 }
