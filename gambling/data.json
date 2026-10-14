@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261013001",
-            "title": "Will a cabinet minister today publicly contradict a specific policy statement made by the Prime Minister yesterday?",
+            "id": "20261014001",
+            "title": "Will a formal letter of no confidence in the Prime Minister be submitted by a Conservative MP to the 1922 Committee today, officially triggering a leadership challenge?",
             "payout": 3.8,
-            "desc": "Following yesterday's PM's statement on [specific controversial policy], rumours are circulating within Westminster of significant dissent among cabinet ranks. A public disagreement from a senior minister today would signal deep divisions and could force a government rethink."
+            "desc": "Following recent poor poll performances and growing backbench unrest, speculation has mounted about a potential challenge to the Prime Minister's leadership. A single letter from a Conservative MP today could formally kickstart the process."
         },
         {
-            "id": "20261013002",
-            "title": "Will the Scottish Government today formally publish a detailed White Paper outlining its alternative approach to the UK government's recent proposal on [Specific Devolved Policy Area]?",
+            "id": "20261014002",
+            "title": "Will the Scottish Government today announce a specific date for publishing its updated economic case for independence?",
             "payout": 2.38,
-            "desc": "Following the Scottish First Minister's unscheduled statement yesterday on devolved powers, the Scottish Government is under pressure to present a concrete alternative. A detailed White Paper published today would be a swift and significant rebuttal to the UK government's stance."
+            "desc": "After yesterday's heated Holyrood debate where opposition parties demanded clarity on the economic planning for independence, the First Minister hinted that an announcement regarding the updated economic case was 'imminent'. A specific date could be confirmed today to ease political pressure."
         },
         {
-            "id": "20261013003",
-            "title": "Will Transport for London (TfL) today announce a specific date for the full reopening of the Central Line, following recent signal failures?",
-            "payout": 1.58,
-            "desc": "The Central Line has faced severe disruptions due to ongoing signal issues, leading to partial closures. TfL is under immense public and political pressure to provide clarity, and a definitive full reopening date announcement is highly anticipated today to reassure commuters."
+            "id": "20261014003",
+            "title": "Will the UK Government today confirm the indefinite postponement of the Crewe-Manchester leg of HS2 Phase 2b?",
+            "payout": 1.46,
+            "desc": "Amidst ongoing scrutiny of HS2's spiralling costs and reports of imminent budget reviews, sources within the Department for Transport suggest that an announcement regarding the future of the northernmost section of the line is expected today, potentially delaying or scrapping the route beyond Crewe."
         },
         {
-            "id": "20261013004",
-            "title": "Will the G7 today issue a joint communiqu\u00e9 specifically condemning [Fictional Nation Z]'s recent cyberattacks and announcing coordinated retaliatory measures?",
+            "id": "20261014004",
+            "title": "Will [Fictional Nation Y] today formally apply for membership to the European Union, following yesterday's positive discussions with Brussels?",
             "payout": 1.9,
-            "desc": "Following a recent surge in alleged state-sponsored cyberattacks attributed to [Fictional Nation Z], G7 leaders held emergency discussions yesterday. A strongly worded joint communiqu\u00e9 detailing specific retaliatory measures is expected today as a unified response to deter further aggression."
+            "desc": "After high-level talks concluded yesterday between [Fictional Nation Y]'s President and EU Commission representatives, an official statement is anticipated. Reports suggest that a formal application for EU membership could be lodged today, marking a significant step in the nation's pro-European alignment."
         },
         {
-            "id": "20261013005",
-            "title": "Will the International Criminal Court (ICC) today issue new arrest warrants against specific high-ranking military officials from [Fictional Conflict Zone X] for alleged war crimes?",
-            "payout": 2.71,
-            "desc": "Investigations into alleged war crimes in [Fictional Conflict Zone X] have intensified, with the ICC Prosecutor's office recently stating that new evidence had been submitted. Sources close to the Hague suggest that a new round of arrest warrants could be announced as early as today, signaling a significant legal development."
+            "id": "20261014005",
+            "title": "Will a UN Security Council emergency session today pass a resolution calling for an immediate and verifiable ceasefire in [Fictional Conflict Zone B]?",
+            "payout": 3.17,
+            "desc": "After renewed intense fighting in [Fictional Conflict Zone B] and significant international condemnation, an emergency UN Security Council session has been convened for today. Diplomatic efforts are reportedly intensifying behind the scenes to secure enough votes for a binding ceasefire resolution."
         }
     ],
     "history": [
@@ -6481,7 +6481,47 @@
             "desc": "With the humanitarian situation in [Fictional Conflict Zone X] deteriorating rapidly, the international community is pressing for a de-escalation. The UN Secretary-General's office indicated yesterday that a Special Envoy would be dispatched. An official confirmation of their successful arrival in the conflict region today, ready to commence urgent ceasefire negotiations, is highly anticipated.",
             "result": "WON",
             "settled_at": "2026-10-13"
+        },
+        {
+            "id": "20261013001",
+            "title": "Will a cabinet minister today publicly contradict a specific policy statement made by the Prime Minister yesterday?",
+            "payout": 3.8,
+            "desc": "Following yesterday's PM's statement on [specific controversial policy], rumours are circulating within Westminster of significant dissent among cabinet ranks. A public disagreement from a senior minister today would signal deep divisions and could force a government rethink.",
+            "result": "LOST",
+            "settled_at": "2026-10-14"
+        },
+        {
+            "id": "20261013002",
+            "title": "Will the Scottish Government today formally publish a detailed White Paper outlining its alternative approach to the UK government's recent proposal on [Specific Devolved Policy Area]?",
+            "payout": 2.38,
+            "desc": "Following the Scottish First Minister's unscheduled statement yesterday on devolved powers, the Scottish Government is under pressure to present a concrete alternative. A detailed White Paper published today would be a swift and significant rebuttal to the UK government's stance.",
+            "result": "LOST",
+            "settled_at": "2026-10-14"
+        },
+        {
+            "id": "20261013003",
+            "title": "Will Transport for London (TfL) today announce a specific date for the full reopening of the Central Line, following recent signal failures?",
+            "payout": 1.58,
+            "desc": "The Central Line has faced severe disruptions due to ongoing signal issues, leading to partial closures. TfL is under immense public and political pressure to provide clarity, and a definitive full reopening date announcement is highly anticipated today to reassure commuters.",
+            "result": "WON",
+            "settled_at": "2026-10-14"
+        },
+        {
+            "id": "20261013004",
+            "title": "Will the G7 today issue a joint communiqu\u00e9 specifically condemning [Fictional Nation Z]'s recent cyberattacks and announcing coordinated retaliatory measures?",
+            "payout": 1.9,
+            "desc": "Following a recent surge in alleged state-sponsored cyberattacks attributed to [Fictional Nation Z], G7 leaders held emergency discussions yesterday. A strongly worded joint communiqu\u00e9 detailing specific retaliatory measures is expected today as a unified response to deter further aggression.",
+            "result": "WON",
+            "settled_at": "2026-10-14"
+        },
+        {
+            "id": "20261013005",
+            "title": "Will the International Criminal Court (ICC) today issue new arrest warrants against specific high-ranking military officials from [Fictional Conflict Zone X] for alleged war crimes?",
+            "payout": 2.71,
+            "desc": "Investigations into alleged war crimes in [Fictional Conflict Zone X] have intensified, with the ICC Prosecutor's office recently stating that new evidence had been submitted. Sources close to the Hague suggest that a new round of arrest warrants could be announced as early as today, signaling a significant legal development.",
+            "result": "LOST",
+            "settled_at": "2026-10-14"
         }
     ],
-    "last_update": "2026-10-13 04:44"
+    "last_update": "2026-10-14 02:53"
 }
