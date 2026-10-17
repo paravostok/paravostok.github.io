@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261016001",
-            "title": "Will a backbench Conservative MP publicly submit a letter of no confidence in the Prime Minister to the 1922 Committee today?",
-            "payout": 3.17,
-            "desc": "Following a challenging week for the government and persistent rumours regarding the Prime Minister's position (as indicated yesterday), the lack of a prominent cabinet minister expressing 'full confidence' might embolden critics. A formal challenge could emerge today if dissent reaches a tipping point."
+            "id": "20261017001",
+            "title": "Will a UK Cabinet Minister today publicly express 'full confidence' in the Prime Minister, beyond standard government lines?",
+            "payout": 1.58,
+            "desc": "Following persistent rumours of dissent and a challenging week for the government, a prominent show of support from a Cabinet Minister could be strategically deployed today to bolster the Prime Minister's position and calm speculation."
         },
         {
-            "id": "20261016002",
-            "title": "Will the Scottish Government today release the full, updated economic case for Scottish independence, as pledged yesterday?",
+            "id": "20261017002",
+            "title": "Will a senior Scottish National Party (SNP) figure today publicly criticise the UK government's proposed 'National Parks Bill' as an encroachment on devolved powers?",
             "payout": 1.36,
-            "desc": "Having committed to producing an updated economic case for independence yesterday, the Scottish Government will face immediate pressure to deliver on this pledge. Releasing the document today would demonstrate swift action and build momentum, especially if they are considering future strategic moves."
+            "desc": "With the UK government's 'National Parks Bill' due for its second reading, and specific clauses relating to land management potentially intersecting with devolved competencies, a swift and critical reaction from the SNP is anticipated today to reassert Scottish autonomy."
         },
         {
-            "id": "20261016003",
-            "title": "Will a major northern city council leader today publicly criticise the details of the new rail electrification funding package for the North of England?",
-            "payout": 1.46,
-            "desc": "Following yesterday's announced funding package for northern rail electrification projects, local leaders will be scrutinising the details closely. It is common for initial reactions to include criticism if specific cities or regions feel overlooked or that the allocated funds are insufficient, leading to swift public statements."
+            "id": "20261017003",
+            "title": "Will the Secretary of State for Transport today explicitly confirm a new target completion date for the Birmingham to Manchester leg of HS2?",
+            "payout": 2.38,
+            "desc": "Amid ongoing speculation and reports of potential further delays for the northern sections of HS2, pressure is mounting on the government to provide clarity. A definitive statement on the Birmingham to Manchester leg's timeline could be issued today to address concerns and reassure stakeholders."
         },
         {
-            "id": "20261016004",
-            "title": "Will the President of [Fictional Nation Y] today issue a public statement expressing gratitude for the EU Commission's preliminary accession timeline and reiterating commitment to reforms?",
-            "payout": 1.12,
-            "desc": "After yesterday's formal statement from the European Commission President outlining a preliminary timeline for [Fictional Nation Y]'s EU accession negotiations, the applicant nation is highly likely to respond immediately with a positive diplomatic statement. This would serve to thank the EU and reaffirm their commitment to the accession process and necessary reforms."
+            "id": "20261017004",
+            "title": "Will a UN Security Council permanent member today veto a draft resolution calling for an immediate ceasefire in [Fictional Conflict Zone C]?",
+            "payout": 1.58,
+            "desc": "Following escalating violence in [Fictional Conflict Zone C] and intense diplomatic efforts, a draft resolution for a ceasefire has been circulated. Given the complex geopolitical interests involved, a veto from one of the permanent members is a distinct possibility during today's anticipated vote."
         },
         {
-            "id": "20261016005",
-            "title": "Will a spokesperson for [Fictional Conflict Zone B]'s dominant non-state armed group today formally reject the deployment of additional peacekeeping forces by [Fictional Regional Power A]?",
+            "id": "20261017005",
+            "title": "Will the military command of [Fictional Regional Power A] today confirm the successful establishment of the new buffer zone in [Fictional Conflict Zone B]?",
             "payout": 1.27,
-            "desc": "Following yesterday's announcement by [Fictional Regional Power A] regarding the deployment of additional peacekeeping forces to a new buffer zone in [Fictional Conflict Zone B], non-state actors often swiftly reject such interventions. This is typically done to assert their authority, question the impartiality of the forces, or signal continued defiance in the conflict."
+            "desc": "Following yesterday's announcement of additional peacekeeping forces and a subsequent rejection by non-state actors, [Fictional Regional Power A] will be keen to demonstrate control and progress. A formal confirmation of the buffer zone's establishment could be issued today to assert their authority and show initial success."
         }
     ],
     "history": [
@@ -6601,7 +6601,47 @@
             "desc": "With the UN Security Council failing to pass a ceasefire resolution yesterday for [Fictional Conflict Zone B], regional actors may feel compelled to take unilateral action to de-escalate the conflict. Reports indicate [Fictional Regional Power A] has been preparing contingency plans for such a scenario, and an announcement could come today.",
             "result": "WON",
             "settled_at": "2026-10-16"
+        },
+        {
+            "id": "20261016001",
+            "title": "Will a backbench Conservative MP publicly submit a letter of no confidence in the Prime Minister to the 1922 Committee today?",
+            "payout": 3.17,
+            "desc": "Following a challenging week for the government and persistent rumours regarding the Prime Minister's position (as indicated yesterday), the lack of a prominent cabinet minister expressing 'full confidence' might embolden critics. A formal challenge could emerge today if dissent reaches a tipping point.",
+            "result": "LOST",
+            "settled_at": "2026-10-17"
+        },
+        {
+            "id": "20261016002",
+            "title": "Will the Scottish Government today release the full, updated economic case for Scottish independence, as pledged yesterday?",
+            "payout": 1.36,
+            "desc": "Having committed to producing an updated economic case for independence yesterday, the Scottish Government will face immediate pressure to deliver on this pledge. Releasing the document today would demonstrate swift action and build momentum, especially if they are considering future strategic moves.",
+            "result": "LOST",
+            "settled_at": "2026-10-17"
+        },
+        {
+            "id": "20261016003",
+            "title": "Will a major northern city council leader today publicly criticise the details of the new rail electrification funding package for the North of England?",
+            "payout": 1.46,
+            "desc": "Following yesterday's announced funding package for northern rail electrification projects, local leaders will be scrutinising the details closely. It is common for initial reactions to include criticism if specific cities or regions feel overlooked or that the allocated funds are insufficient, leading to swift public statements.",
+            "result": "WON",
+            "settled_at": "2026-10-17"
+        },
+        {
+            "id": "20261016004",
+            "title": "Will the President of [Fictional Nation Y] today issue a public statement expressing gratitude for the EU Commission's preliminary accession timeline and reiterating commitment to reforms?",
+            "payout": 1.12,
+            "desc": "After yesterday's formal statement from the European Commission President outlining a preliminary timeline for [Fictional Nation Y]'s EU accession negotiations, the applicant nation is highly likely to respond immediately with a positive diplomatic statement. This would serve to thank the EU and reaffirm their commitment to the accession process and necessary reforms.",
+            "result": "WON",
+            "settled_at": "2026-10-17"
+        },
+        {
+            "id": "20261016005",
+            "title": "Will a spokesperson for [Fictional Conflict Zone B]'s dominant non-state armed group today formally reject the deployment of additional peacekeeping forces by [Fictional Regional Power A]?",
+            "payout": 1.27,
+            "desc": "Following yesterday's announcement by [Fictional Regional Power A] regarding the deployment of additional peacekeeping forces to a new buffer zone in [Fictional Conflict Zone B], non-state actors often swiftly reject such interventions. This is typically done to assert their authority, question the impartiality of the forces, or signal continued defiance in the conflict.",
+            "result": "WON",
+            "settled_at": "2026-10-17"
         }
     ],
-    "last_update": "2026-10-16 02:27"
+    "last_update": "2026-10-17 02:19"
 }
