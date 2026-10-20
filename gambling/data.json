@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261019001",
-            "title": "Will the Prime Minister's official spokesperson today publicly confirm that the government will hold a vote on the proposed 'Online Safety Amendment' bill before the end of this week?",
-            "payout": 1.73,
-            "desc": "Following ongoing parliamentary debate and pressure from backbenchers, a clear statement regarding the timing of a key vote, possibly in response to PMQs or a press briefing, could be made today."
+            "id": "20261020001",
+            "title": "Will a government minister today publicly resign or be dismissed from a front-bench position in the UK government?",
+            "payout": 3.8,
+            "desc": "Following recent media speculation regarding cabinet stability and potential policy disagreements, a high-profile departure or dismissal could be announced today, possibly pre-empting a wider reshuffle or responding to political pressure."
         },
         {
-            "id": "20261019002",
-            "title": "Will the Scottish Government today publicly release its updated annual report on NHS waiting times, following recent speculation?",
-            "payout": 1.9,
-            "desc": "With ongoing scrutiny on public services and recent media speculation, the Scottish Government might choose today to release sensitive data on NHS performance, aiming to get ahead of the story or respond to calls for transparency."
-        },
-        {
-            "id": "20261019003",
-            "title": "Will the Department for Transport (DfT) today officially announce a public consultation period for the proposed expansion of a regional airport (e.g., Leeds Bradford or Bristol)?",
+            "id": "20261020002",
+            "title": "Will the First Minister of Scotland today publicly commit to a specific date for a by-election in a currently vacant Holyrood constituency?",
             "payout": 2.38,
-            "desc": "Following internal reviews and environmental assessments for potential airport expansions, the DfT often launches public consultations as a next step, and an announcement could be made today to gauge public opinion."
+            "desc": "With a Holyrood seat potentially vacant following a recent resignation or disqualification, the Scottish Parliament will be under pressure to set a by-election date, and an announcement from the First Minister could come today to clarify the electoral timetable."
         },
         {
-            "id": "20261019004",
-            "title": "Will the German government today publicly confirm its commitment to an increased defence spending target beyond 2% of GDP by 2030?",
-            "payout": 1.73,
-            "desc": "Amid ongoing geopolitical tensions and pressures from NATO allies, Germany has been reviewing its defence posture, and a formal statement on long-term spending targets could emerge today after recent cabinet discussions."
+            "id": "20261020003",
+            "title": "Will High Speed 2 (HS2) Ltd. today officially confirm a new, revised completion timeline for the Birmingham-Crewe leg of the project?",
+            "payout": 3.17,
+            "desc": "Following persistent reports of cost overruns and construction challenges, HS2 Ltd. has been under pressure to provide updated timelines. An official announcement clarifying the schedule for the next phase of the project could be made today to manage expectations or address stakeholder concerns."
         },
         {
-            "id": "20261019005",
-            "title": "Will a major international news agency (e.g., Reuters, AP) today report an official statement from a named government or rebel group confirming the start of new peace talks in [Fictional Conflict Zone E]?",
-            "payout": 3.16,
-            "desc": "After prolonged conflict, secret negotiations often reach a point where public confirmation is made to build confidence or announce a breakthrough, and major news agencies would be quick to report such official statements today."
+            "id": "20261020004",
+            "title": "Will the European Union today formally announce new economic sanctions against a specific non-member state?",
+            "payout": 4.75,
+            "desc": "Following recent geopolitical tensions and a meeting of EU foreign ministers or a core committee, the bloc might announce new restrictive measures today, possibly in response to perceived threats or human rights concerns."
+        },
+        {
+            "id": "20261020005",
+            "title": "Will the United Nations Security Council today issue a new, jointly agreed resolution specifically calling for a temporary humanitarian ceasefire in [Fictional Conflict Zone F]?",
+            "payout": 6.33,
+            "desc": "Amid ongoing international concern and reports of escalating humanitarian crisis in [Fictional Conflict Zone F], the UN Security Council could be pushed to agree on a resolution today, aiming to facilitate aid delivery and de-escalate hostilities."
         }
     ],
     "history": [
@@ -6721,7 +6721,47 @@
             "desc": "After weeks of negotiations and reports of severe humanitarian needs, a UN-backed aid convoy has been attempting to reach a cut-off area. A successful delivery would be a significant development, and the UN would likely confirm it publicly today to highlight progress and call for further access.",
             "result": "WON",
             "settled_at": "2026-10-19"
+        },
+        {
+            "id": "20261019001",
+            "title": "Will the Prime Minister's official spokesperson today publicly confirm that the government will hold a vote on the proposed 'Online Safety Amendment' bill before the end of this week?",
+            "payout": 1.73,
+            "desc": "Following ongoing parliamentary debate and pressure from backbenchers, a clear statement regarding the timing of a key vote, possibly in response to PMQs or a press briefing, could be made today.",
+            "result": "LOST",
+            "settled_at": "2026-10-20"
+        },
+        {
+            "id": "20261019002",
+            "title": "Will the Scottish Government today publicly release its updated annual report on NHS waiting times, following recent speculation?",
+            "payout": 1.9,
+            "desc": "With ongoing scrutiny on public services and recent media speculation, the Scottish Government might choose today to release sensitive data on NHS performance, aiming to get ahead of the story or respond to calls for transparency.",
+            "result": "WON",
+            "settled_at": "2026-10-20"
+        },
+        {
+            "id": "20261019003",
+            "title": "Will the Department for Transport (DfT) today officially announce a public consultation period for the proposed expansion of a regional airport (e.g., Leeds Bradford or Bristol)?",
+            "payout": 2.38,
+            "desc": "Following internal reviews and environmental assessments for potential airport expansions, the DfT often launches public consultations as a next step, and an announcement could be made today to gauge public opinion.",
+            "result": "LOST",
+            "settled_at": "2026-10-20"
+        },
+        {
+            "id": "20261019004",
+            "title": "Will the German government today publicly confirm its commitment to an increased defence spending target beyond 2% of GDP by 2030?",
+            "payout": 1.73,
+            "desc": "Amid ongoing geopolitical tensions and pressures from NATO allies, Germany has been reviewing its defence posture, and a formal statement on long-term spending targets could emerge today after recent cabinet discussions.",
+            "result": "WON",
+            "settled_at": "2026-10-20"
+        },
+        {
+            "id": "20261019005",
+            "title": "Will a major international news agency (e.g., Reuters, AP) today report an official statement from a named government or rebel group confirming the start of new peace talks in [Fictional Conflict Zone E]?",
+            "payout": 3.16,
+            "desc": "After prolonged conflict, secret negotiations often reach a point where public confirmation is made to build confidence or announce a breakthrough, and major news agencies would be quick to report such official statements today.",
+            "result": "LOST",
+            "settled_at": "2026-10-20"
         }
     ],
-    "last_update": "2026-10-19 02:34"
+    "last_update": "2026-10-20 02:47"
 }
