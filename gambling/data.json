@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261020001",
-            "title": "Will a government minister today publicly resign or be dismissed from a front-bench position in the UK government?",
+            "id": "20261021001",
+            "title": "Will the UK Home Secretary today announce new emergency legislation aimed at tackling rising levels of cyber fraud?",
+            "payout": 2.71,
+            "desc": "Amid persistent reports of increasing online financial crimes and pressure from opposition parties, the Home Office might unveil a legislative response today, possibly during a scheduled parliamentary statement or a press conference."
+        },
+        {
+            "id": "20261021002",
+            "title": "Will the Scottish Government today publish its response to the recent independent review of police complaints procedures?",
+            "payout": 2.11,
+            "desc": "Following weeks of anticipation after the submission of a critical review, the Scottish Government is under pressure to outline its next steps. A response could be published today, potentially alongside a ministerial statement in Holyrood."
+        },
+        {
+            "id": "20261021003",
+            "title": "Will TransPennine Express (TPE) today officially announce a further reduction in its scheduled services for November due to ongoing staff shortages?",
             "payout": 3.8,
-            "desc": "Following recent media speculation regarding cabinet stability and potential policy disagreements, a high-profile departure or dismissal could be announced today, possibly pre-empting a wider reshuffle or responding to political pressure."
+            "desc": "Following months of disruption and recent internal meetings, industry insiders suggest TPE may be forced to scale back its winter timetable further. An announcement to manage passenger expectations could come today."
         },
         {
-            "id": "20261020002",
-            "title": "Will the First Minister of Scotland today publicly commit to a specific date for a by-election in a currently vacant Holyrood constituency?",
-            "payout": 2.38,
-            "desc": "With a Holyrood seat potentially vacant following a recent resignation or disqualification, the Scottish Parliament will be under pressure to set a by-election date, and an announcement from the First Minister could come today to clarify the electoral timetable."
+            "id": "20261021004",
+            "title": "Will the German Chancellor and the French President today issue a joint statement outlining a new 'roadmap' for EU energy independence by 2030?",
+            "payout": 1.9,
+            "desc": "With a scheduled bilateral meeting taking place today, and continued geopolitical concerns impacting energy markets, a strong, unified Franco-German position on future energy strategy is anticipated, possibly in a joint press conference."
         },
         {
-            "id": "20261020003",
-            "title": "Will High Speed 2 (HS2) Ltd. today officially confirm a new, revised completion timeline for the Birmingham-Crewe leg of the project?",
-            "payout": 3.17,
-            "desc": "Following persistent reports of cost overruns and construction challenges, HS2 Ltd. has been under pressure to provide updated timelines. An official announcement clarifying the schedule for the next phase of the project could be made today to manage expectations or address stakeholder concerns."
-        },
-        {
-            "id": "20261020004",
-            "title": "Will the European Union today formally announce new economic sanctions against a specific non-member state?",
-            "payout": 4.75,
-            "desc": "Following recent geopolitical tensions and a meeting of EU foreign ministers or a core committee, the bloc might announce new restrictive measures today, possibly in response to perceived threats or human rights concerns."
-        },
-        {
-            "id": "20261020005",
-            "title": "Will the United Nations Security Council today issue a new, jointly agreed resolution specifically calling for a temporary humanitarian ceasefire in [Fictional Conflict Zone F]?",
-            "payout": 6.33,
-            "desc": "Amid ongoing international concern and reports of escalating humanitarian crisis in [Fictional Conflict Zone F], the UN Security Council could be pushed to agree on a resolution today, aiming to facilitate aid delivery and de-escalate hostilities."
+            "id": "20261021005",
+            "title": "Will the International Criminal Court (ICC) today issue new arrest warrants related to alleged war crimes in [Fictional Conflict Zone G]?",
+            "payout": 5.28,
+            "desc": "Following recent investigations and a surge in reports from human rights observers, there is growing pressure on the ICC to act. A high-profile announcement regarding new warrants could be made today to demonstrate international commitment to justice."
         }
     ],
     "history": [
@@ -6761,7 +6761,47 @@
             "desc": "After prolonged conflict, secret negotiations often reach a point where public confirmation is made to build confidence or announce a breakthrough, and major news agencies would be quick to report such official statements today.",
             "result": "LOST",
             "settled_at": "2026-10-20"
+        },
+        {
+            "id": "20261020001",
+            "title": "Will a government minister today publicly resign or be dismissed from a front-bench position in the UK government?",
+            "payout": 3.8,
+            "desc": "Following recent media speculation regarding cabinet stability and potential policy disagreements, a high-profile departure or dismissal could be announced today, possibly pre-empting a wider reshuffle or responding to political pressure.",
+            "result": "LOST",
+            "settled_at": "2026-10-21"
+        },
+        {
+            "id": "20261020002",
+            "title": "Will the First Minister of Scotland today publicly commit to a specific date for a by-election in a currently vacant Holyrood constituency?",
+            "payout": 2.38,
+            "desc": "With a Holyrood seat potentially vacant following a recent resignation or disqualification, the Scottish Parliament will be under pressure to set a by-election date, and an announcement from the First Minister could come today to clarify the electoral timetable.",
+            "result": "LOST",
+            "settled_at": "2026-10-21"
+        },
+        {
+            "id": "20261020003",
+            "title": "Will High Speed 2 (HS2) Ltd. today officially confirm a new, revised completion timeline for the Birmingham-Crewe leg of the project?",
+            "payout": 3.17,
+            "desc": "Following persistent reports of cost overruns and construction challenges, HS2 Ltd. has been under pressure to provide updated timelines. An official announcement clarifying the schedule for the next phase of the project could be made today to manage expectations or address stakeholder concerns.",
+            "result": "LOST",
+            "settled_at": "2026-10-21"
+        },
+        {
+            "id": "20261020004",
+            "title": "Will the European Union today formally announce new economic sanctions against a specific non-member state?",
+            "payout": 4.75,
+            "desc": "Following recent geopolitical tensions and a meeting of EU foreign ministers or a core committee, the bloc might announce new restrictive measures today, possibly in response to perceived threats or human rights concerns.",
+            "result": "LOST",
+            "settled_at": "2026-10-21"
+        },
+        {
+            "id": "20261020005",
+            "title": "Will the United Nations Security Council today issue a new, jointly agreed resolution specifically calling for a temporary humanitarian ceasefire in [Fictional Conflict Zone F]?",
+            "payout": 6.33,
+            "desc": "Amid ongoing international concern and reports of escalating humanitarian crisis in [Fictional Conflict Zone F], the UN Security Council could be pushed to agree on a resolution today, aiming to facilitate aid delivery and de-escalate hostilities.",
+            "result": "LOST",
+            "settled_at": "2026-10-21"
         }
     ],
-    "last_update": "2026-10-20 02:47"
+    "last_update": "2026-10-21 02:41"
 }
