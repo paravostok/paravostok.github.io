@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261021001",
-            "title": "Will the UK Home Secretary today announce new emergency legislation aimed at tackling rising levels of cyber fraud?",
-            "payout": 2.71,
-            "desc": "Amid persistent reports of increasing online financial crimes and pressure from opposition parties, the Home Office might unveil a legislative response today, possibly during a scheduled parliamentary statement or a press conference."
+            "id": "20261022001",
+            "title": "Will the Chancellor of the Exchequer today hint at future tax cuts during his keynote speech at the CBI annual conference?",
+            "payout": 1.58,
+            "desc": "The Chancellor is scheduled to deliver a major address to business leaders today. With ongoing speculation about the government's economic strategy and an eye towards an upcoming election, a subtle or direct hint at future fiscal easing could be made during his remarks."
         },
         {
-            "id": "20261021002",
-            "title": "Will the Scottish Government today publish its response to the recent independent review of police complaints procedures?",
+            "id": "20261022002",
+            "title": "Will the Scottish Government today confirm its intention to introduce a new tourist levy by Spring 2027?",
             "payout": 2.11,
-            "desc": "Following weeks of anticipation after the submission of a critical review, the Scottish Government is under pressure to outline its next steps. A response could be published today, potentially alongside a ministerial statement in Holyrood."
+            "desc": "Following recent local authority consultations and persistent calls for new revenue streams for councils, the Scottish Government is under pressure to clarify its timeline for a tourist tax. A statement or announcement today could set a definitive path forward."
         },
         {
-            "id": "20261021003",
-            "title": "Will TransPennine Express (TPE) today officially announce a further reduction in its scheduled services for November due to ongoing staff shortages?",
-            "payout": 3.8,
-            "desc": "Following months of disruption and recent internal meetings, industry insiders suggest TPE may be forced to scale back its winter timetable further. An announcement to manage passenger expectations could come today."
+            "id": "20261022003",
+            "title": "Will HS2 Ltd today issue a new statement detailing further delays to the Birmingham-Crewe leg of the project?",
+            "payout": 1.73,
+            "desc": "Persistent reports of escalating costs and engineering challenges have plagued the HS2 project. With increased scrutiny from the National Audit Office and a new review expected, HS2 Ltd might pre-empt further criticism by acknowledging revised timelines for this section today."
         },
         {
-            "id": "20261021004",
-            "title": "Will the German Chancellor and the French President today issue a joint statement outlining a new 'roadmap' for EU energy independence by 2030?",
-            "payout": 1.9,
-            "desc": "With a scheduled bilateral meeting taking place today, and continued geopolitical concerns impacting energy markets, a strong, unified Franco-German position on future energy strategy is anticipated, possibly in a joint press conference."
+            "id": "20261022004",
+            "title": "Will the UN Security Council today pass a new resolution imposing sanctions on [Fictional Rogue Nation X] for its recent nuclear proliferation activities?",
+            "payout": 3.17,
+            "desc": "Following emergency meetings and escalating rhetoric regarding recent tests by [Fictional Rogue Nation X], there is significant international pressure on the UNSC to take decisive action. A vote on a new sanctions resolution could occur today after last-minute negotiations."
         },
         {
-            "id": "20261021005",
-            "title": "Will the International Criminal Court (ICC) today issue new arrest warrants related to alleged war crimes in [Fictional Conflict Zone G]?",
-            "payout": 5.28,
-            "desc": "Following recent investigations and a surge in reports from human rights observers, there is growing pressure on the ICC to act. A high-profile announcement regarding new warrants could be made today to demonstrate international commitment to justice."
+            "id": "20261022005",
+            "title": "Will the European Union today announce an urgent humanitarian aid package specifically for regions affected by the [Fictional Border Conflict Y]?",
+            "payout": 1.36,
+            "desc": "With reports of worsening conditions for civilians in the [Fictional Border Conflict Y] zone, and a scheduled meeting of EU foreign ministers, a rapid response to the humanitarian crisis is highly probable. An announcement detailing aid provisions could be made today."
         }
     ],
     "history": [
@@ -6801,7 +6801,47 @@
             "desc": "Amid ongoing international concern and reports of escalating humanitarian crisis in [Fictional Conflict Zone F], the UN Security Council could be pushed to agree on a resolution today, aiming to facilitate aid delivery and de-escalate hostilities.",
             "result": "LOST",
             "settled_at": "2026-10-21"
+        },
+        {
+            "id": "20261021001",
+            "title": "Will the UK Home Secretary today announce new emergency legislation aimed at tackling rising levels of cyber fraud?",
+            "payout": 2.71,
+            "desc": "Amid persistent reports of increasing online financial crimes and pressure from opposition parties, the Home Office might unveil a legislative response today, possibly during a scheduled parliamentary statement or a press conference.",
+            "result": "LOST",
+            "settled_at": "2026-10-22"
+        },
+        {
+            "id": "20261021002",
+            "title": "Will the Scottish Government today publish its response to the recent independent review of police complaints procedures?",
+            "payout": 2.11,
+            "desc": "Following weeks of anticipation after the submission of a critical review, the Scottish Government is under pressure to outline its next steps. A response could be published today, potentially alongside a ministerial statement in Holyrood.",
+            "result": "LOST",
+            "settled_at": "2026-10-22"
+        },
+        {
+            "id": "20261021003",
+            "title": "Will TransPennine Express (TPE) today officially announce a further reduction in its scheduled services for November due to ongoing staff shortages?",
+            "payout": 3.8,
+            "desc": "Following months of disruption and recent internal meetings, industry insiders suggest TPE may be forced to scale back its winter timetable further. An announcement to manage passenger expectations could come today.",
+            "result": "WON",
+            "settled_at": "2026-10-22"
+        },
+        {
+            "id": "20261021004",
+            "title": "Will the German Chancellor and the French President today issue a joint statement outlining a new 'roadmap' for EU energy independence by 2030?",
+            "payout": 1.9,
+            "desc": "With a scheduled bilateral meeting taking place today, and continued geopolitical concerns impacting energy markets, a strong, unified Franco-German position on future energy strategy is anticipated, possibly in a joint press conference.",
+            "result": "WON",
+            "settled_at": "2026-10-22"
+        },
+        {
+            "id": "20261021005",
+            "title": "Will the International Criminal Court (ICC) today issue new arrest warrants related to alleged war crimes in [Fictional Conflict Zone G]?",
+            "payout": 5.28,
+            "desc": "Following recent investigations and a surge in reports from human rights observers, there is growing pressure on the ICC to act. A high-profile announcement regarding new warrants could be made today to demonstrate international commitment to justice.",
+            "result": "LOST",
+            "settled_at": "2026-10-22"
         }
     ],
-    "last_update": "2026-10-21 02:41"
+    "last_update": "2026-10-22 02:39"
 }
