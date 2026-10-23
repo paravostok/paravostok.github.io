@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261022001",
-            "title": "Will the Chancellor of the Exchequer today hint at future tax cuts during his keynote speech at the CBI annual conference?",
+            "id": "20261023001",
+            "title": "Will a significant Cabinet reshuffle be announced by Downing Street today, following recent poor poll numbers and internal dissent reports?",
+            "payout": 2.71,
+            "desc": "Speculation regarding changes in the Prime Minister's top team has intensified, with multiple media outlets reporting on ministerial dissatisfaction and the government's declining approval ratings. An announcement could be made today to reset the political agenda."
+        },
+        {
+            "id": "20261023002",
+            "title": "Will the Scottish Government today publish its detailed economic assessment of a potential future independence, as promised earlier this week?",
             "payout": 1.58,
-            "desc": "The Chancellor is scheduled to deliver a major address to business leaders today. With ongoing speculation about the government's economic strategy and an eye towards an upcoming election, a subtle or direct hint at future fiscal easing could be made during his remarks."
+            "desc": "The First Minister committed to releasing the comprehensive economic paper 'by the end of the week' during a parliamentary debate on Monday. As today is Friday, its publication is highly anticipated by both supporters and critics of independence."
         },
         {
-            "id": "20261022002",
-            "title": "Will the Scottish Government today confirm its intention to introduce a new tourist levy by Spring 2027?",
-            "payout": 2.11,
-            "desc": "Following recent local authority consultations and persistent calls for new revenue streams for councils, the Scottish Government is under pressure to clarify its timeline for a tourist tax. A statement or announcement today could set a definitive path forward."
+            "id": "20261023003",
+            "title": "Will the Department for Transport today announce a new preferred route for the Northern Powerhouse Rail link between Manchester and Leeds?",
+            "payout": 1.9,
+            "desc": "Following months of public consultation and internal reviews, a decision on the contentious route for the high-speed rail link is expected. A ministerial statement or press release could be issued today to outline the chosen option and its implications."
         },
         {
-            "id": "20261022003",
-            "title": "Will HS2 Ltd today issue a new statement detailing further delays to the Birmingham-Crewe leg of the project?",
-            "payout": 1.73,
-            "desc": "Persistent reports of escalating costs and engineering challenges have plagued the HS2 project. With increased scrutiny from the National Audit Office and a new review expected, HS2 Ltd might pre-empt further criticism by acknowledging revised timelines for this section today."
-        },
-        {
-            "id": "20261022004",
-            "title": "Will the UN Security Council today pass a new resolution imposing sanctions on [Fictional Rogue Nation X] for its recent nuclear proliferation activities?",
-            "payout": 3.17,
-            "desc": "Following emergency meetings and escalating rhetoric regarding recent tests by [Fictional Rogue Nation X], there is significant international pressure on the UNSC to take decisive action. A vote on a new sanctions resolution could occur today after last-minute negotiations."
-        },
-        {
-            "id": "20261022005",
-            "title": "Will the European Union today announce an urgent humanitarian aid package specifically for regions affected by the [Fictional Border Conflict Y]?",
+            "id": "20261023004",
+            "title": "Will the G7 leaders, meeting in an emergency session today, issue a joint statement condemning the recent cyberattacks attributed to [Fictional State A]?",
             "payout": 1.36,
-            "desc": "With reports of worsening conditions for civilians in the [Fictional Border Conflict Y] zone, and a scheduled meeting of EU foreign ministers, a rapid response to the humanitarian crisis is highly probable. An announcement detailing aid provisions could be made today."
+            "desc": "An emergency virtual summit of G7 leaders was convened this morning to address the escalating wave of cyberattacks targeting critical infrastructure across several member states. A strong, unified condemnation is widely expected to be released following their discussions."
+        },
+        {
+            "id": "20261023005",
+            "title": "Will reports surface today of a provisional agreement on a humanitarian ceasefire in the [Fictional Region Z] conflict zone, brokered by UN envoys?",
+            "payout": 2.11,
+            "desc": "Sources close to the ongoing UN-led negotiations suggest that significant progress has been made in the last 24 hours. With humanitarian conditions rapidly deteriorating, pressure is mounting for a temporary cessation of hostilities, potentially leading to an announcement today."
         }
     ],
     "history": [
@@ -6841,7 +6841,47 @@
             "desc": "Following recent investigations and a surge in reports from human rights observers, there is growing pressure on the ICC to act. A high-profile announcement regarding new warrants could be made today to demonstrate international commitment to justice.",
             "result": "LOST",
             "settled_at": "2026-10-22"
+        },
+        {
+            "id": "20261022001",
+            "title": "Will the Chancellor of the Exchequer today hint at future tax cuts during his keynote speech at the CBI annual conference?",
+            "payout": 1.58,
+            "desc": "The Chancellor is scheduled to deliver a major address to business leaders today. With ongoing speculation about the government's economic strategy and an eye towards an upcoming election, a subtle or direct hint at future fiscal easing could be made during his remarks.",
+            "result": "WON",
+            "settled_at": "2026-10-23"
+        },
+        {
+            "id": "20261022002",
+            "title": "Will the Scottish Government today confirm its intention to introduce a new tourist levy by Spring 2027?",
+            "payout": 2.11,
+            "desc": "Following recent local authority consultations and persistent calls for new revenue streams for councils, the Scottish Government is under pressure to clarify its timeline for a tourist tax. A statement or announcement today could set a definitive path forward.",
+            "result": "WON",
+            "settled_at": "2026-10-23"
+        },
+        {
+            "id": "20261022003",
+            "title": "Will HS2 Ltd today issue a new statement detailing further delays to the Birmingham-Crewe leg of the project?",
+            "payout": 1.73,
+            "desc": "Persistent reports of escalating costs and engineering challenges have plagued the HS2 project. With increased scrutiny from the National Audit Office and a new review expected, HS2 Ltd might pre-empt further criticism by acknowledging revised timelines for this section today.",
+            "result": "WON",
+            "settled_at": "2026-10-23"
+        },
+        {
+            "id": "20261022004",
+            "title": "Will the UN Security Council today pass a new resolution imposing sanctions on [Fictional Rogue Nation X] for its recent nuclear proliferation activities?",
+            "payout": 3.17,
+            "desc": "Following emergency meetings and escalating rhetoric regarding recent tests by [Fictional Rogue Nation X], there is significant international pressure on the UNSC to take decisive action. A vote on a new sanctions resolution could occur today after last-minute negotiations.",
+            "result": "LOST",
+            "settled_at": "2026-10-23"
+        },
+        {
+            "id": "20261022005",
+            "title": "Will the European Union today announce an urgent humanitarian aid package specifically for regions affected by the [Fictional Border Conflict Y]?",
+            "payout": 1.36,
+            "desc": "With reports of worsening conditions for civilians in the [Fictional Border Conflict Y] zone, and a scheduled meeting of EU foreign ministers, a rapid response to the humanitarian crisis is highly probable. An announcement detailing aid provisions could be made today.",
+            "result": "WON",
+            "settled_at": "2026-10-23"
         }
     ],
-    "last_update": "2026-10-22 02:39"
+    "last_update": "2026-10-23 02:43"
 }
