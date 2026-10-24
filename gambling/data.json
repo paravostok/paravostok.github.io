@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261023001",
-            "title": "Will a significant Cabinet reshuffle be announced by Downing Street today, following recent poor poll numbers and internal dissent reports?",
+            "id": "20261024001",
+            "title": "Will a major UK newspaper today publish an exclusive report detailing further internal dissent within the governing Conservative Party?",
+            "payout": 2.0,
+            "desc": "Following days of speculation regarding cabinet stability and leadership challenges, sources indicate that prominent newspapers are vying to publish leaked information. An exclusive report could emerge today, potentially setting the agenda for tomorrow's Sunday papers."
+        },
+        {
+            "id": "20261024002",
+            "title": "Will a new opinion poll specifically addressing Scottish independence or the Scottish Government's approval ratings be published today?",
             "payout": 2.71,
-            "desc": "Speculation regarding changes in the Prime Minister's top team has intensified, with multiple media outlets reporting on ministerial dissatisfaction and the government's declining approval ratings. An announcement could be made today to reset the political agenda."
+            "desc": "With the Scottish Government having just released its independence economic assessment yesterday, political commentators anticipate a rapid gauging of public reaction. Polling organizations often release timely data, and a new survey could emerge today reflecting the immediate aftermath."
         },
         {
-            "id": "20261023002",
-            "title": "Will the Scottish Government today publish its detailed economic assessment of a potential future independence, as promised earlier this week?",
+            "id": "20261024003",
+            "title": "Will local community or environmental groups today organize an immediate protest action in response to the newly announced Northern Powerhouse Rail route?",
+            "payout": 1.73,
+            "desc": "Following the anticipated announcement of the preferred route for the Northern Powerhouse Rail link yesterday, strong local opposition is expected. Activist groups often mobilize quickly, and a demonstration or public gathering could be called for or initiated today."
+        },
+        {
+            "id": "20261024004",
+            "title": "Will at least one G7 member state today announce the expulsion of diplomats from [Fictional State A] in direct response to the recent cyberattacks?",
+            "payout": 2.38,
+            "desc": "After the G7 leaders' joint condemnation of the cyberattacks yesterday, individual member states may consider further punitive measures. A diplomatic expulsion is a strong, immediate response often used in such circumstances, and an announcement could be made today."
+        },
+        {
+            "id": "20261024005",
+            "title": "Will a major international aid organization today issue an urgent public appeal or warning regarding a worsening humanitarian crisis in the [Fictional Region Z] conflict zone?",
             "payout": 1.58,
-            "desc": "The First Minister committed to releasing the comprehensive economic paper 'by the end of the week' during a parliamentary debate on Monday. As today is Friday, its publication is highly anticipated by both supporters and critics of independence."
-        },
-        {
-            "id": "20261023003",
-            "title": "Will the Department for Transport today announce a new preferred route for the Northern Powerhouse Rail link between Manchester and Leeds?",
-            "payout": 1.9,
-            "desc": "Following months of public consultation and internal reviews, a decision on the contentious route for the high-speed rail link is expected. A ministerial statement or press release could be issued today to outline the chosen option and its implications."
-        },
-        {
-            "id": "20261023004",
-            "title": "Will the G7 leaders, meeting in an emergency session today, issue a joint statement condemning the recent cyberattacks attributed to [Fictional State A]?",
-            "payout": 1.36,
-            "desc": "An emergency virtual summit of G7 leaders was convened this morning to address the escalating wave of cyberattacks targeting critical infrastructure across several member states. A strong, unified condemnation is widely expected to be released following their discussions."
-        },
-        {
-            "id": "20261023005",
-            "title": "Will reports surface today of a provisional agreement on a humanitarian ceasefire in the [Fictional Region Z] conflict zone, brokered by UN envoys?",
-            "payout": 2.11,
-            "desc": "Sources close to the ongoing UN-led negotiations suggest that significant progress has been made in the last 24 hours. With humanitarian conditions rapidly deteriorating, pressure is mounting for a temporary cessation of hostilities, potentially leading to an announcement today."
+            "desc": "With ceasefire negotiations reportedly stalled or failed yesterday, the humanitarian situation in the [Fictional Region Z] conflict zone is critical. Aid agencies often use weekends to draw attention to deteriorating conditions, and a stark warning or appeal could be released today."
         }
     ],
     "history": [
@@ -6881,7 +6881,47 @@
             "desc": "With reports of worsening conditions for civilians in the [Fictional Border Conflict Y] zone, and a scheduled meeting of EU foreign ministers, a rapid response to the humanitarian crisis is highly probable. An announcement detailing aid provisions could be made today.",
             "result": "WON",
             "settled_at": "2026-10-23"
+        },
+        {
+            "id": "20261023001",
+            "title": "Will a significant Cabinet reshuffle be announced by Downing Street today, following recent poor poll numbers and internal dissent reports?",
+            "payout": 2.71,
+            "desc": "Speculation regarding changes in the Prime Minister's top team has intensified, with multiple media outlets reporting on ministerial dissatisfaction and the government's declining approval ratings. An announcement could be made today to reset the political agenda.",
+            "result": "LOST",
+            "settled_at": "2026-10-24"
+        },
+        {
+            "id": "20261023002",
+            "title": "Will the Scottish Government today publish its detailed economic assessment of a potential future independence, as promised earlier this week?",
+            "payout": 1.58,
+            "desc": "The First Minister committed to releasing the comprehensive economic paper 'by the end of the week' during a parliamentary debate on Monday. As today is Friday, its publication is highly anticipated by both supporters and critics of independence.",
+            "result": "WON",
+            "settled_at": "2026-10-24"
+        },
+        {
+            "id": "20261023003",
+            "title": "Will the Department for Transport today announce a new preferred route for the Northern Powerhouse Rail link between Manchester and Leeds?",
+            "payout": 1.9,
+            "desc": "Following months of public consultation and internal reviews, a decision on the contentious route for the high-speed rail link is expected. A ministerial statement or press release could be issued today to outline the chosen option and its implications.",
+            "result": "WON",
+            "settled_at": "2026-10-24"
+        },
+        {
+            "id": "20261023004",
+            "title": "Will the G7 leaders, meeting in an emergency session today, issue a joint statement condemning the recent cyberattacks attributed to [Fictional State A]?",
+            "payout": 1.36,
+            "desc": "An emergency virtual summit of G7 leaders was convened this morning to address the escalating wave of cyberattacks targeting critical infrastructure across several member states. A strong, unified condemnation is widely expected to be released following their discussions.",
+            "result": "WON",
+            "settled_at": "2026-10-24"
+        },
+        {
+            "id": "20261023005",
+            "title": "Will reports surface today of a provisional agreement on a humanitarian ceasefire in the [Fictional Region Z] conflict zone, brokered by UN envoys?",
+            "payout": 2.11,
+            "desc": "Sources close to the ongoing UN-led negotiations suggest that significant progress has been made in the last 24 hours. With humanitarian conditions rapidly deteriorating, pressure is mounting for a temporary cessation of hostilities, potentially leading to an announcement today.",
+            "result": "LOST",
+            "settled_at": "2026-10-24"
         }
     ],
-    "last_update": "2026-10-23 02:43"
+    "last_update": "2026-10-24 02:40"
 }
