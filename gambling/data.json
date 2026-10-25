@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261024001",
-            "title": "Will a major UK newspaper today publish an exclusive report detailing further internal dissent within the governing Conservative Party?",
-            "payout": 2.0,
-            "desc": "Following days of speculation regarding cabinet stability and leadership challenges, sources indicate that prominent newspapers are vying to publish leaked information. An exclusive report could emerge today, potentially setting the agenda for tomorrow's Sunday papers."
+            "id": "20261025001",
+            "title": "Will a prominent Conservative MP publicly call for a leadership confidence vote by the end of today?",
+            "payout": 3.01,
+            "desc": "Following yesterday's newspaper exclusives detailing deep internal party dissent, pressure is mounting on the Prime Minister. A Sunday media appearance or an urgent statement from a senior backbencher could signal an immediate challenge."
         },
         {
-            "id": "20261024002",
-            "title": "Will a new opinion poll specifically addressing Scottish independence or the Scottish Government's approval ratings be published today?",
-            "payout": 2.71,
-            "desc": "With the Scottish Government having just released its independence economic assessment yesterday, political commentators anticipate a rapid gauging of public reaction. Polling organizations often release timely data, and a new survey could emerge today reflecting the immediate aftermath."
-        },
-        {
-            "id": "20261024003",
-            "title": "Will local community or environmental groups today organize an immediate protest action in response to the newly announced Northern Powerhouse Rail route?",
-            "payout": 1.73,
-            "desc": "Following the anticipated announcement of the preferred route for the Northern Powerhouse Rail link yesterday, strong local opposition is expected. Activist groups often mobilize quickly, and a demonstration or public gathering could be called for or initiated today."
-        },
-        {
-            "id": "20261024004",
-            "title": "Will at least one G7 member state today announce the expulsion of diplomats from [Fictional State A] in direct response to the recent cyberattacks?",
+            "id": "20261025002",
+            "title": "Will the Scottish First Minister hold an unscheduled press conference today to address the findings of yesterday's independence poll?",
             "payout": 2.38,
-            "desc": "After the G7 leaders' joint condemnation of the cyberattacks yesterday, individual member states may consider further punitive measures. A diplomatic expulsion is a strong, immediate response often used in such circumstances, and an announcement could be made today."
+            "desc": "After the release of a new opinion poll yesterday, widely reported as unfavorable to the Scottish Government's independence push or approval ratings, the First Minister may feel compelled to offer an immediate public response, even on a Sunday."
         },
         {
-            "id": "20261024005",
-            "title": "Will a major international aid organization today issue an urgent public appeal or warning regarding a worsening humanitarian crisis in the [Fictional Region Z] conflict zone?",
+            "id": "20261025003",
+            "title": "Will at least one local council affected by the new Northern Powerhouse Rail route announce today their intention to seek a judicial review or launch a formal legal challenge?",
             "payout": 1.58,
-            "desc": "With ceasefire negotiations reportedly stalled or failed yesterday, the humanitarian situation in the [Fictional Region Z] conflict zone is critical. Aid agencies often use weekends to draw attention to deteriorating conditions, and a stark warning or appeal could be released today."
+            "desc": "With widespread protests having erupted yesterday in response to the newly announced Northern Powerhouse Rail route, local councils under pressure from residents may swiftly announce legal recourse. Such announcements can be prepared quickly and released at any time."
+        },
+        {
+            "id": "20261025004",
+            "title": "Will [Fictional State A] today announce a retaliatory expulsion of diplomats from the G7 member state that took action yesterday?",
+            "payout": 1.36,
+            "desc": "After a G7 member state yesterday announced the expulsion of diplomats from [Fictional State A] in response to cyberattacks, a swift, tit-for-tat diplomatic retaliation is a common and expected response, often made within 24 hours."
+        },
+        {
+            "id": "20261025005",
+            "title": "Will the UN Security Council today call an emergency session to discuss the escalating humanitarian crisis in the [Fictional Region Z] conflict zone?",
+            "payout": 1.9,
+            "desc": "Following yesterday's urgent appeals from major aid organizations regarding the critical humanitarian situation in [Fictional Region Z], the UN Security Council may be pressured to convene an immediate emergency session, even on a weekend, to address the crisis."
         }
     ],
     "history": [
@@ -6921,7 +6921,47 @@
             "desc": "Sources close to the ongoing UN-led negotiations suggest that significant progress has been made in the last 24 hours. With humanitarian conditions rapidly deteriorating, pressure is mounting for a temporary cessation of hostilities, potentially leading to an announcement today.",
             "result": "LOST",
             "settled_at": "2026-10-24"
+        },
+        {
+            "id": "20261024001",
+            "title": "Will a major UK newspaper today publish an exclusive report detailing further internal dissent within the governing Conservative Party?",
+            "payout": 2.0,
+            "desc": "Following days of speculation regarding cabinet stability and leadership challenges, sources indicate that prominent newspapers are vying to publish leaked information. An exclusive report could emerge today, potentially setting the agenda for tomorrow's Sunday papers.",
+            "result": "WON",
+            "settled_at": "2026-10-25"
+        },
+        {
+            "id": "20261024002",
+            "title": "Will a new opinion poll specifically addressing Scottish independence or the Scottish Government's approval ratings be published today?",
+            "payout": 2.71,
+            "desc": "With the Scottish Government having just released its independence economic assessment yesterday, political commentators anticipate a rapid gauging of public reaction. Polling organizations often release timely data, and a new survey could emerge today reflecting the immediate aftermath.",
+            "result": "WON",
+            "settled_at": "2026-10-25"
+        },
+        {
+            "id": "20261024003",
+            "title": "Will local community or environmental groups today organize an immediate protest action in response to the newly announced Northern Powerhouse Rail route?",
+            "payout": 1.73,
+            "desc": "Following the anticipated announcement of the preferred route for the Northern Powerhouse Rail link yesterday, strong local opposition is expected. Activist groups often mobilize quickly, and a demonstration or public gathering could be called for or initiated today.",
+            "result": "WON",
+            "settled_at": "2026-10-25"
+        },
+        {
+            "id": "20261024004",
+            "title": "Will at least one G7 member state today announce the expulsion of diplomats from [Fictional State A] in direct response to the recent cyberattacks?",
+            "payout": 2.38,
+            "desc": "After the G7 leaders' joint condemnation of the cyberattacks yesterday, individual member states may consider further punitive measures. A diplomatic expulsion is a strong, immediate response often used in such circumstances, and an announcement could be made today.",
+            "result": "WON",
+            "settled_at": "2026-10-25"
+        },
+        {
+            "id": "20261024005",
+            "title": "Will a major international aid organization today issue an urgent public appeal or warning regarding a worsening humanitarian crisis in the [Fictional Region Z] conflict zone?",
+            "payout": 1.58,
+            "desc": "With ceasefire negotiations reportedly stalled or failed yesterday, the humanitarian situation in the [Fictional Region Z] conflict zone is critical. Aid agencies often use weekends to draw attention to deteriorating conditions, and a stark warning or appeal could be released today.",
+            "result": "WON",
+            "settled_at": "2026-10-25"
         }
     ],
-    "last_update": "2026-10-24 02:40"
+    "last_update": "2026-10-25 02:30"
 }
