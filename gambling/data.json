@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261025001",
-            "title": "Will a prominent Conservative MP publicly call for a leadership confidence vote by the end of today?",
-            "payout": 3.01,
-            "desc": "Following yesterday's newspaper exclusives detailing deep internal party dissent, pressure is mounting on the Prime Minister. A Sunday media appearance or an urgent statement from a senior backbencher could signal an immediate challenge."
+            "id": "20261026100001",
+            "title": "Will the Prime Minister's Official Spokesperson (PMOS) hold an unscheduled lobby briefing today to directly address leadership speculation?",
+            "payout": 1.46,
+            "desc": "Following yesterday's public call for a leadership confidence vote, pressure on the Prime Minister is at an all-time high. The PMOS often provides immediate government responses to urgent political crises via unscheduled briefings to journalists."
         },
         {
-            "id": "20261025002",
-            "title": "Will the Scottish First Minister hold an unscheduled press conference today to address the findings of yesterday's independence poll?",
-            "payout": 2.38,
-            "desc": "After the release of a new opinion poll yesterday, widely reported as unfavorable to the Scottish Government's independence push or approval ratings, the First Minister may feel compelled to offer an immediate public response, even on a Sunday."
+            "id": "20261026100002",
+            "title": "Will a Scottish Government Minister today confirm that the planned Scottish Independence Referendum Bill will be formally delayed beyond its initial target date?",
+            "payout": 1.73,
+            "desc": "After yesterday's widely reported unfavourable independence poll, the Scottish Government may feel compelled to reassess its strategy. A Minister could use a Monday statement or media appearance to signal a delay to allow for re-strategising."
         },
         {
-            "id": "20261025003",
-            "title": "Will at least one local council affected by the new Northern Powerhouse Rail route announce today their intention to seek a judicial review or launch a formal legal challenge?",
-            "payout": 1.58,
-            "desc": "With widespread protests having erupted yesterday in response to the newly announced Northern Powerhouse Rail route, local councils under pressure from residents may swiftly announce legal recourse. Such announcements can be prepared quickly and released at any time."
-        },
-        {
-            "id": "20261025004",
-            "title": "Will [Fictional State A] today announce a retaliatory expulsion of diplomats from the G7 member state that took action yesterday?",
+            "id": "20261026100003",
+            "title": "Will the Department for Transport (DfT) today release a public statement defending the newly announced Northern Powerhouse Rail route against yesterday's protests?",
             "payout": 1.36,
-            "desc": "After a G7 member state yesterday announced the expulsion of diplomats from [Fictional State A] in response to cyberattacks, a swift, tit-for-tat diplomatic retaliation is a common and expected response, often made within 24 hours."
+            "desc": "With widespread protests erupting yesterday in response to the new rail route, the DfT is likely to swiftly issue a statement on Monday to counter negative public sentiment, reinforce project benefits, and control the ongoing narrative."
         },
         {
-            "id": "20261025005",
-            "title": "Will the UN Security Council today call an emergency session to discuss the escalating humanitarian crisis in the [Fictional Region Z] conflict zone?",
-            "payout": 1.9,
-            "desc": "Following yesterday's urgent appeals from major aid organizations regarding the critical humanitarian situation in [Fictional Region Z], the UN Security Council may be pressured to convene an immediate emergency session, even on a weekend, to address the crisis."
+            "id": "20261026100004",
+            "title": "Will the UN Secretary-General's office today issue a statement explicitly calling for de-escalation between [Fictional State A] and the G7 member state?",
+            "payout": 1.58,
+            "desc": "After the tit-for-tat diplomatic expulsions yesterday, the UN Secretary-General commonly intervenes in such international incidents by issuing a statement urging restraint and dialogue to prevent further escalation between nations."
+        },
+        {
+            "id": "20261026100005",
+            "title": "Will a major international aid agency (e.g., Doctors Without Borders, Red Cross) today announce an immediate, significant new emergency funding appeal for the [Fictional Region Z] humanitarian crisis?",
+            "payout": 1.19,
+            "desc": "With the UN Security Council having called an emergency session yesterday due to urgent appeals and an escalating humanitarian crisis, major aid agencies will likely leverage this heightened international attention to launch new or expanded funding appeals today."
         }
     ],
     "history": [
@@ -6961,7 +6961,47 @@
             "desc": "With ceasefire negotiations reportedly stalled or failed yesterday, the humanitarian situation in the [Fictional Region Z] conflict zone is critical. Aid agencies often use weekends to draw attention to deteriorating conditions, and a stark warning or appeal could be released today.",
             "result": "WON",
             "settled_at": "2026-10-25"
+        },
+        {
+            "id": "20261025001",
+            "title": "Will a prominent Conservative MP publicly call for a leadership confidence vote by the end of today?",
+            "payout": 3.01,
+            "desc": "Following yesterday's newspaper exclusives detailing deep internal party dissent, pressure is mounting on the Prime Minister. A Sunday media appearance or an urgent statement from a senior backbencher could signal an immediate challenge.",
+            "result": "WON",
+            "settled_at": "2026-10-26"
+        },
+        {
+            "id": "20261025002",
+            "title": "Will the Scottish First Minister hold an unscheduled press conference today to address the findings of yesterday's independence poll?",
+            "payout": 2.38,
+            "desc": "After the release of a new opinion poll yesterday, widely reported as unfavorable to the Scottish Government's independence push or approval ratings, the First Minister may feel compelled to offer an immediate public response, even on a Sunday.",
+            "result": "LOST",
+            "settled_at": "2026-10-26"
+        },
+        {
+            "id": "20261025003",
+            "title": "Will at least one local council affected by the new Northern Powerhouse Rail route announce today their intention to seek a judicial review or launch a formal legal challenge?",
+            "payout": 1.58,
+            "desc": "With widespread protests having erupted yesterday in response to the newly announced Northern Powerhouse Rail route, local councils under pressure from residents may swiftly announce legal recourse. Such announcements can be prepared quickly and released at any time.",
+            "result": "LOST",
+            "settled_at": "2026-10-26"
+        },
+        {
+            "id": "20261025004",
+            "title": "Will [Fictional State A] today announce a retaliatory expulsion of diplomats from the G7 member state that took action yesterday?",
+            "payout": 1.36,
+            "desc": "After a G7 member state yesterday announced the expulsion of diplomats from [Fictional State A] in response to cyberattacks, a swift, tit-for-tat diplomatic retaliation is a common and expected response, often made within 24 hours.",
+            "result": "WON",
+            "settled_at": "2026-10-26"
+        },
+        {
+            "id": "20261025005",
+            "title": "Will the UN Security Council today call an emergency session to discuss the escalating humanitarian crisis in the [Fictional Region Z] conflict zone?",
+            "payout": 1.9,
+            "desc": "Following yesterday's urgent appeals from major aid organizations regarding the critical humanitarian situation in [Fictional Region Z], the UN Security Council may be pressured to convene an immediate emergency session, even on a weekend, to address the crisis.",
+            "result": "WON",
+            "settled_at": "2026-10-26"
         }
     ],
-    "last_update": "2026-10-25 02:30"
+    "last_update": "2026-10-26 02:29"
 }
