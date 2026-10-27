@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261026100001",
-            "title": "Will the Prime Minister's Official Spokesperson (PMOS) hold an unscheduled lobby briefing today to directly address leadership speculation?",
+            "id": "20261027100001",
+            "title": "Will a senior Cabinet Minister today publicly call for the Prime Minister's resignation?",
             "payout": 1.46,
-            "desc": "Following yesterday's public call for a leadership confidence vote, pressure on the Prime Minister is at an all-time high. The PMOS often provides immediate government responses to urgent political crises via unscheduled briefings to journalists."
+            "desc": "Following yesterday's public call for a leadership confidence vote and mounting pressure on the Prime Minister, a senior Cabinet member might today break ranks to publicly urge the Prime Minister to step down, intensifying the political crisis."
         },
         {
-            "id": "20261026100002",
-            "title": "Will a Scottish Government Minister today confirm that the planned Scottish Independence Referendum Bill will be formally delayed beyond its initial target date?",
-            "payout": 1.73,
-            "desc": "After yesterday's widely reported unfavourable independence poll, the Scottish Government may feel compelled to reassess its strategy. A Minister could use a Monday statement or media appearance to signal a delay to allow for re-strategising."
-        },
-        {
-            "id": "20261026100003",
-            "title": "Will the Department for Transport (DfT) today release a public statement defending the newly announced Northern Powerhouse Rail route against yesterday's protests?",
+            "id": "20261027100002",
+            "title": "Will the Scottish First Minister hold an unscheduled press conference today to address the delay of the Scottish Independence Referendum Bill?",
             "payout": 1.36,
-            "desc": "With widespread protests erupting yesterday in response to the new rail route, the DfT is likely to swiftly issue a statement on Monday to counter negative public sentiment, reinforce project benefits, and control the ongoing narrative."
+            "desc": "After yesterday's reported delay of the Scottish Independence Referendum Bill, the First Minister is expected to swiftly address the decision, potentially via an unscheduled press conference, to explain the revised strategy and reassure supporters."
         },
         {
-            "id": "20261026100004",
-            "title": "Will the UN Secretary-General's office today issue a statement explicitly calling for de-escalation between [Fictional State A] and the G7 member state?",
+            "id": "20261027100003",
+            "title": "Will the opposition party's Shadow Transport Secretary today visit one of the Northern Powerhouse Rail protest sites?",
             "payout": 1.58,
-            "desc": "After the tit-for-tat diplomatic expulsions yesterday, the UN Secretary-General commonly intervenes in such international incidents by issuing a statement urging restraint and dialogue to prevent further escalation between nations."
+            "desc": "With yesterday's widespread protests against the new Northern Powerhouse Rail route and the DfT's subsequent defence, the Shadow Transport Secretary may today visit a protest site to demonstrate solidarity with objectors and leverage public dissatisfaction."
         },
         {
-            "id": "20261026100005",
-            "title": "Will a major international aid agency (e.g., Doctors Without Borders, Red Cross) today announce an immediate, significant new emergency funding appeal for the [Fictional Region Z] humanitarian crisis?",
-            "payout": 1.19,
-            "desc": "With the UN Security Council having called an emergency session yesterday due to urgent appeals and an escalating humanitarian crisis, major aid agencies will likely leverage this heightened international attention to launch new or expanded funding appeals today."
+            "id": "20261027100004",
+            "title": "Will a G7 member state (other than the directly involved one) today issue a formal statement of concern regarding the escalating diplomatic tensions between [Fictional State A] and the involved G7 member?",
+            "payout": 1.73,
+            "desc": "Following yesterday's UN Secretary-General's explicit call for de-escalation between [Fictional State A] and a G7 member state, another G7 nation might today issue a formal statement to express collective concern and reinforce diplomatic efforts."
+        },
+        {
+            "id": "20261027100005",
+            "title": "Will the military of [Fictional State A] today announce a temporary ceasefire or 'humanitarian pause' in an ongoing conflict zone?",
+            "payout": 2.11,
+            "desc": "Amidst heightened international diplomatic tensions involving [Fictional State A] (following yesterday's expulsions) and urgent humanitarian concerns, [Fictional State A]'s military might today declare a temporary ceasefire or humanitarian pause as a diplomatic gesture or under international pressure."
         }
     ],
     "history": [
@@ -7001,7 +7001,47 @@
             "desc": "Following yesterday's urgent appeals from major aid organizations regarding the critical humanitarian situation in [Fictional Region Z], the UN Security Council may be pressured to convene an immediate emergency session, even on a weekend, to address the crisis.",
             "result": "WON",
             "settled_at": "2026-10-26"
+        },
+        {
+            "id": "20261026100001",
+            "title": "Will the Prime Minister's Official Spokesperson (PMOS) hold an unscheduled lobby briefing today to directly address leadership speculation?",
+            "payout": 1.46,
+            "desc": "Following yesterday's public call for a leadership confidence vote, pressure on the Prime Minister is at an all-time high. The PMOS often provides immediate government responses to urgent political crises via unscheduled briefings to journalists.",
+            "result": "WON",
+            "settled_at": "2026-10-27"
+        },
+        {
+            "id": "20261026100002",
+            "title": "Will a Scottish Government Minister today confirm that the planned Scottish Independence Referendum Bill will be formally delayed beyond its initial target date?",
+            "payout": 1.73,
+            "desc": "After yesterday's widely reported unfavourable independence poll, the Scottish Government may feel compelled to reassess its strategy. A Minister could use a Monday statement or media appearance to signal a delay to allow for re-strategising.",
+            "result": "WON",
+            "settled_at": "2026-10-27"
+        },
+        {
+            "id": "20261026100003",
+            "title": "Will the Department for Transport (DfT) today release a public statement defending the newly announced Northern Powerhouse Rail route against yesterday's protests?",
+            "payout": 1.36,
+            "desc": "With widespread protests erupting yesterday in response to the new rail route, the DfT is likely to swiftly issue a statement on Monday to counter negative public sentiment, reinforce project benefits, and control the ongoing narrative.",
+            "result": "WON",
+            "settled_at": "2026-10-27"
+        },
+        {
+            "id": "20261026100004",
+            "title": "Will the UN Secretary-General's office today issue a statement explicitly calling for de-escalation between [Fictional State A] and the G7 member state?",
+            "payout": 1.58,
+            "desc": "After the tit-for-tat diplomatic expulsions yesterday, the UN Secretary-General commonly intervenes in such international incidents by issuing a statement urging restraint and dialogue to prevent further escalation between nations.",
+            "result": "WON",
+            "settled_at": "2026-10-27"
+        },
+        {
+            "id": "20261026100005",
+            "title": "Will a major international aid agency (e.g., Doctors Without Borders, Red Cross) today announce an immediate, significant new emergency funding appeal for the [Fictional Region Z] humanitarian crisis?",
+            "payout": 1.19,
+            "desc": "With the UN Security Council having called an emergency session yesterday due to urgent appeals and an escalating humanitarian crisis, major aid agencies will likely leverage this heightened international attention to launch new or expanded funding appeals today.",
+            "result": "WON",
+            "settled_at": "2026-10-27"
         }
     ],
-    "last_update": "2026-10-26 02:29"
+    "last_update": "2026-10-27 03:04"
 }
