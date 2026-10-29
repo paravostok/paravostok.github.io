@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261028090001",
-            "title": "Will a UK Cabinet Minister resign by the end of today?",
-            "payout": 2.71,
-            "desc": "Following intense speculation and yesterday's reported calls for leadership change or a confidence vote, a senior Cabinet Minister might today resign to either support or challenge the Prime Minister, intensifying the political crisis."
-        },
-        {
-            "id": "20261028090002",
-            "title": "Will the Scottish Government today issue a formal written statement clarifying the new timeline for the Scottish Independence Referendum Bill?",
+            "id": "20261029100001",
+            "title": "Will the Prime Minister today make a public statement addressing recent calls for a confidence vote or leadership change?",
             "payout": 1.58,
-            "desc": "After yesterday's reported delay of the Scottish Independence Referendum Bill and the absence of an immediate press conference from the First Minister, the Scottish Government is under pressure to provide a formal update today, potentially via a written statement, to clarify the revised strategy and timeline."
+            "desc": "Following yesterday's reported calls for a confidence vote or leadership change within the UK government, and the non-resignation of a Cabinet Minister, the Prime Minister is under increased pressure to assert authority or reassure their party, potentially through a public statement today."
         },
         {
-            "id": "20261028090003",
-            "title": "Will the Department for Transport (DfT) today announce any new consultation period regarding the Northern Powerhouse Rail route?",
-            "payout": 3.8,
-            "desc": "Amidst widespread protests yesterday against the new Northern Powerhouse Rail route, and following the DfT's initial defence of the project, the government might today attempt to de-escalate tensions by announcing a new or extended public consultation period for the contentious project."
-        },
-        {
-            "id": "20261028090004",
-            "title": "Will the UN Secretary-General's office today announce a confirmed date for direct talks between [Fictional State A] and the involved G7 member?",
+            "id": "20261029100002",
+            "title": "Will the Scottish National Party (SNP) today confirm a new date for their annual party conference?",
             "payout": 2.38,
-            "desc": "Following yesterday's explicit call for de-escalation by the UN Secretary-General and mounting diplomatic tensions between [Fictional State A] and a G7 member state, the UN's office may today announce a breakthrough in negotiations, confirming a date for direct talks to ease the crisis."
+            "desc": "Amidst yesterday's clarification from the Scottish Government on the Independence Referendum Bill timeline and ongoing internal party discussions, there is speculation that the SNP leadership might today announce a revised date for their annual conference, possibly to address strategy or internal dissent."
         },
         {
-            "id": "20261028090005",
-            "title": "Will a major international aid organization today publicly condemn the humanitarian situation in [Fictional State A]'s ongoing conflict zone?",
+            "id": "20261029100003",
+            "title": "Will a major union representing UK rail workers today announce a new strike ballot in protest against the Northern Powerhouse Rail route?",
+            "payout": 1.9,
+            "desc": "Following yesterday's DfT announcement of a new consultation for the Northern Powerhouse Rail route, and widespread protests, major rail unions may today escalate their opposition by announcing a new strike ballot, signalling their dissatisfaction with the government's response or the consultation terms."
+        },
+        {
+            "id": "20261029100004",
+            "title": "Will [Fictional State A]'s foreign ministry today issue a formal written protest against a major international aid organization's condemnation?",
             "payout": 1.36,
-            "desc": "Amidst heightened international diplomatic tensions involving [Fictional State A] (following yesterday's expulsions) and urgent humanitarian concerns within the conflict zone, a prominent international aid organization might today issue a public condemnation, highlighting the deteriorating situation and urging immediate action."
+            "desc": "After yesterday's public condemnation by a major international aid organization regarding the humanitarian situation in [Fictional State A]'s conflict zone, and given ongoing diplomatic tensions, [Fictional State A]'s foreign ministry is likely to issue a formal protest today to counter perceived interference or criticism."
+        },
+        {
+            "id": "20261029100005",
+            "title": "Will the G7 member state involved in tensions with [Fictional State A] today issue new or updated travel advisories for its citizens?",
+            "payout": 1.46,
+            "desc": "With yesterday's failure to announce direct talks between [Fictional State A] and the involved G7 member, and 'mounting diplomatic tensions,' the G7 nation may today issue updated travel advisories for its citizens, reflecting the heightened security and political risks in the region."
         }
     ],
     "history": [
@@ -7081,7 +7081,47 @@
             "desc": "Amidst heightened international diplomatic tensions involving [Fictional State A] (following yesterday's expulsions) and urgent humanitarian concerns, [Fictional State A]'s military might today declare a temporary ceasefire or humanitarian pause as a diplomatic gesture or under international pressure.",
             "result": "LOST",
             "settled_at": "2026-10-28"
+        },
+        {
+            "id": "20261028090001",
+            "title": "Will a UK Cabinet Minister resign by the end of today?",
+            "payout": 2.71,
+            "desc": "Following intense speculation and yesterday's reported calls for leadership change or a confidence vote, a senior Cabinet Minister might today resign to either support or challenge the Prime Minister, intensifying the political crisis.",
+            "result": "LOST",
+            "settled_at": "2026-10-29"
+        },
+        {
+            "id": "20261028090002",
+            "title": "Will the Scottish Government today issue a formal written statement clarifying the new timeline for the Scottish Independence Referendum Bill?",
+            "payout": 1.58,
+            "desc": "After yesterday's reported delay of the Scottish Independence Referendum Bill and the absence of an immediate press conference from the First Minister, the Scottish Government is under pressure to provide a formal update today, potentially via a written statement, to clarify the revised strategy and timeline.",
+            "result": "WON",
+            "settled_at": "2026-10-29"
+        },
+        {
+            "id": "20261028090003",
+            "title": "Will the Department for Transport (DfT) today announce any new consultation period regarding the Northern Powerhouse Rail route?",
+            "payout": 3.8,
+            "desc": "Amidst widespread protests yesterday against the new Northern Powerhouse Rail route, and following the DfT's initial defence of the project, the government might today attempt to de-escalate tensions by announcing a new or extended public consultation period for the contentious project.",
+            "result": "WON",
+            "settled_at": "2026-10-29"
+        },
+        {
+            "id": "20261028090004",
+            "title": "Will the UN Secretary-General's office today announce a confirmed date for direct talks between [Fictional State A] and the involved G7 member?",
+            "payout": 2.38,
+            "desc": "Following yesterday's explicit call for de-escalation by the UN Secretary-General and mounting diplomatic tensions between [Fictional State A] and a G7 member state, the UN's office may today announce a breakthrough in negotiations, confirming a date for direct talks to ease the crisis.",
+            "result": "LOST",
+            "settled_at": "2026-10-29"
+        },
+        {
+            "id": "20261028090005",
+            "title": "Will a major international aid organization today publicly condemn the humanitarian situation in [Fictional State A]'s ongoing conflict zone?",
+            "payout": 1.36,
+            "desc": "Amidst heightened international diplomatic tensions involving [Fictional State A] (following yesterday's expulsions) and urgent humanitarian concerns within the conflict zone, a prominent international aid organization might today issue a public condemnation, highlighting the deteriorating situation and urging immediate action.",
+            "result": "WON",
+            "settled_at": "2026-10-29"
         }
     ],
-    "last_update": "2026-10-28 03:16"
+    "last_update": "2026-10-29 03:41"
 }
