@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261030000001",
-            "title": "Will the Secretary of State for Education today announce a specific new policy initiative related to school funding?",
-            "payout": 1.58,
-            "desc": "Following yesterday's calls for a confidence vote and general governmental pressure, the administration might seek to generate positive headlines or deflect criticism by announcing a pre-prepared policy, potentially from a key department like Education, today."
-        },
-        {
-            "id": "20261030000002",
-            "title": "Will a prominent Scottish National Party (SNP) MP publicly call for an extraordinary general meeting of the party today?",
+            "id": "20261031000001",
+            "title": "Will a senior Cabinet minister publicly announce their resignation from the UK government today?",
             "payout": 2.71,
-            "desc": "Amidst ongoing internal party discussions and the failure to announce a new annual conference date yesterday, disgruntled factions within the SNP might seek to force the leadership's hand by publicly demanding an extraordinary general meeting today."
+            "desc": "Following yesterday's reports of governmental pressure and calls for a confidence vote, a high-profile resignation could be imminent as a minister seeks to distance themselves or pre-empt a reshuffle today."
         },
         {
-            "id": "20261030000003",
-            "title": "Will the Department for Transport (DfT) today issue an official statement addressing the newly announced rail union strike ballot?",
+            "id": "20261031000002",
+            "title": "Will the Scottish First Minister hold an unscheduled press conference today to address internal party dissent within the SNP?",
+            "payout": 1.58,
+            "desc": "Given yesterday's reported calls for an Extraordinary General Meeting and ongoing internal party discussions, the First Minister might feel compelled to directly address the growing unrest and leadership challenges today."
+        },
+        {
+            "id": "20261031000003",
+            "title": "Will the Department for Transport (DfT) confirm today that it has scheduled an urgent meeting with rail union leaders for next week?",
             "payout": 1.36,
-            "desc": "Following the reported announcement of a new strike ballot by a major rail union (in protest against the Northern Powerhouse Rail route), the DfT is under pressure to respond swiftly to this escalation of industrial action, possibly to reassure the public or offer further talks."
+            "desc": "Following yesterday's DfT statement addressing the new rail union strike ballot, and public pressure to de-escalate industrial action, confirming an urgent meeting would be a logical and swift next step to signal willingness to negotiate today."
         },
         {
-            "id": "20261030000004",
-            "title": "Will the UN Security Council today hold an emergency closed-door meeting to discuss the escalating situation involving [Fictional State A]?",
-            "payout": 1.9,
-            "desc": "With mounting diplomatic tensions surrounding [Fictional State A], and a G7 member state having issued new travel advisories yesterday, the international community, particularly the UN, may perceive the situation as critical enough to warrant immediate, high-level consultations today."
+            "id": "20261031000004",
+            "title": "Will a G7 nation today announce new targeted sanctions against individuals or entities associated with the conflict in [Fictional State B]?",
+            "payout": 2.38,
+            "desc": "With ongoing international efforts to address burgeoning conflicts and new intelligence frequently emerging, a G7 nation might leverage its economic power to exert immediate pressure following recent escalations in [Fictional State B]."
         },
         {
-            "id": "20261030000005",
-            "title": "Will a major international news agency today report a confirmed ceasefire violation in [Fictional State A]'s conflict zone?",
-            "payout": 1.27,
-            "desc": "Amidst ongoing conflict and heightened international scrutiny following recent condemnations and diplomatic tensions in [Fictional State A]'s conflict zone, any perceived breaches of existing agreements or de-escalation efforts are likely to be immediately reported by major news agencies today."
+            "id": "20261031000005",
+            "title": "Will the European Central Bank (ECB) President today make a public statement indicating a potential shift in interest rate policy before the next scheduled meeting?",
+            "payout": 3.8,
+            "desc": "Amidst global economic uncertainty and potential market jitters, the ECB President might choose to provide immediate guidance or signal an upcoming policy adjustment outside of a formal meeting to manage expectations or respond to critical economic data today."
         }
     ],
     "history": [
@@ -7161,7 +7161,47 @@
             "desc": "With yesterday's failure to announce direct talks between [Fictional State A] and the involved G7 member, and 'mounting diplomatic tensions,' the G7 nation may today issue updated travel advisories for its citizens, reflecting the heightened security and political risks in the region.",
             "result": "WON",
             "settled_at": "2026-10-30"
+        },
+        {
+            "id": "20261030000001",
+            "title": "Will the Secretary of State for Education today announce a specific new policy initiative related to school funding?",
+            "payout": 1.58,
+            "desc": "Following yesterday's calls for a confidence vote and general governmental pressure, the administration might seek to generate positive headlines or deflect criticism by announcing a pre-prepared policy, potentially from a key department like Education, today.",
+            "result": "WON",
+            "settled_at": "2026-10-31"
+        },
+        {
+            "id": "20261030000002",
+            "title": "Will a prominent Scottish National Party (SNP) MP publicly call for an extraordinary general meeting of the party today?",
+            "payout": 2.71,
+            "desc": "Amidst ongoing internal party discussions and the failure to announce a new annual conference date yesterday, disgruntled factions within the SNP might seek to force the leadership's hand by publicly demanding an extraordinary general meeting today.",
+            "result": "WON",
+            "settled_at": "2026-10-31"
+        },
+        {
+            "id": "20261030000003",
+            "title": "Will the Department for Transport (DfT) today issue an official statement addressing the newly announced rail union strike ballot?",
+            "payout": 1.36,
+            "desc": "Following the reported announcement of a new strike ballot by a major rail union (in protest against the Northern Powerhouse Rail route), the DfT is under pressure to respond swiftly to this escalation of industrial action, possibly to reassure the public or offer further talks.",
+            "result": "WON",
+            "settled_at": "2026-10-31"
+        },
+        {
+            "id": "20261030000004",
+            "title": "Will the UN Security Council today hold an emergency closed-door meeting to discuss the escalating situation involving [Fictional State A]?",
+            "payout": 1.9,
+            "desc": "With mounting diplomatic tensions surrounding [Fictional State A], and a G7 member state having issued new travel advisories yesterday, the international community, particularly the UN, may perceive the situation as critical enough to warrant immediate, high-level consultations today.",
+            "result": "WON",
+            "settled_at": "2026-10-31"
+        },
+        {
+            "id": "20261030000005",
+            "title": "Will a major international news agency today report a confirmed ceasefire violation in [Fictional State A]'s conflict zone?",
+            "payout": 1.27,
+            "desc": "Amidst ongoing conflict and heightened international scrutiny following recent condemnations and diplomatic tensions in [Fictional State A]'s conflict zone, any perceived breaches of existing agreements or de-escalation efforts are likely to be immediately reported by major news agencies today.",
+            "result": "WON",
+            "settled_at": "2026-10-31"
         }
     ],
-    "last_update": "2026-10-30 03:43"
+    "last_update": "2026-10-31 03:28"
 }
