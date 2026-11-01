@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261031000001",
-            "title": "Will a senior Cabinet minister publicly announce their resignation from the UK government today?",
-            "payout": 2.71,
-            "desc": "Following yesterday's reports of governmental pressure and calls for a confidence vote, a high-profile resignation could be imminent as a minister seeks to distance themselves or pre-empt a reshuffle today."
-        },
-        {
-            "id": "20261031000002",
-            "title": "Will the Scottish First Minister hold an unscheduled press conference today to address internal party dissent within the SNP?",
-            "payout": 1.58,
-            "desc": "Given yesterday's reported calls for an Extraordinary General Meeting and ongoing internal party discussions, the First Minister might feel compelled to directly address the growing unrest and leadership challenges today."
-        },
-        {
-            "id": "20261031000003",
-            "title": "Will the Department for Transport (DfT) confirm today that it has scheduled an urgent meeting with rail union leaders for next week?",
-            "payout": 1.36,
-            "desc": "Following yesterday's DfT statement addressing the new rail union strike ballot, and public pressure to de-escalate industrial action, confirming an urgent meeting would be a logical and swift next step to signal willingness to negotiate today."
-        },
-        {
-            "id": "20261031000004",
-            "title": "Will a G7 nation today announce new targeted sanctions against individuals or entities associated with the conflict in [Fictional State B]?",
+            "id": "20261101000001",
+            "title": "Will the Shadow Chancellor publicly call for an immediate general election during today's morning media rounds?",
             "payout": 2.38,
-            "desc": "With ongoing international efforts to address burgeoning conflicts and new intelligence frequently emerging, a G7 nation might leverage its economic power to exert immediate pressure following recent escalations in [Fictional State B]."
+            "desc": "Following recent poor government polling and economic indicators, the opposition might seize the opportunity to demand an election today, with the Shadow Chancellor a likely figure to make such a public call."
         },
         {
-            "id": "20261031000005",
-            "title": "Will the European Central Bank (ECB) President today make a public statement indicating a potential shift in interest rate policy before the next scheduled meeting?",
+            "id": "20261101000002",
+            "title": "Will the Scottish Government today release a new white paper outlining detailed proposals for a second independence referendum?",
             "payout": 3.8,
-            "desc": "Amidst global economic uncertainty and potential market jitters, the ECB President might choose to provide immediate guidance or signal an upcoming policy adjustment outside of a formal meeting to manage expectations or respond to critical economic data today."
+            "desc": "Amidst ongoing debate about Scotland's future and recent calls for clarity from within the SNP, the Scottish Government might choose today to publish a substantive policy document to re-energize its independence campaign."
+        },
+        {
+            "id": "20261101000003",
+            "title": "Will the Department for Transport (DfT) confirm today that the next phase of HS2 (Crewe to Manchester) will face a further delay beyond its current projected timeline?",
+            "payout": 1.58,
+            "desc": "Following persistent speculation about rising costs and logistical challenges, and recent parliamentary scrutiny, the DfT may be forced to officially acknowledge further delays to a key HS2 phase today."
+        },
+        {
+            "id": "20261101000004",
+            "title": "Will the President of France today issue a formal invitation for a European Union leaders' emergency summit to discuss energy security?",
+            "payout": 2.71,
+            "desc": "With winter approaching and ongoing global energy supply concerns, France, a key EU player, might call for an urgent meeting today to coordinate a bloc-wide response to ensure energy stability."
+        },
+        {
+            "id": "20261101000005",
+            "title": "Will the United Nations Security Council (UNSC) today issue a unanimous resolution calling for an immediate and unconditional humanitarian ceasefire in [Fictional State C]?",
+            "payout": 6.33,
+            "desc": "Given escalating humanitarian concerns and international pressure, a renewed diplomatic push might lead to a rare unanimous agreement within the UNSC today, particularly for a humanitarian-focused resolution."
         }
     ],
     "history": [
@@ -7201,7 +7201,47 @@
             "desc": "Amidst ongoing conflict and heightened international scrutiny following recent condemnations and diplomatic tensions in [Fictional State A]'s conflict zone, any perceived breaches of existing agreements or de-escalation efforts are likely to be immediately reported by major news agencies today.",
             "result": "WON",
             "settled_at": "2026-10-31"
+        },
+        {
+            "id": "20261031000001",
+            "title": "Will a senior Cabinet minister publicly announce their resignation from the UK government today?",
+            "payout": 2.71,
+            "desc": "Following yesterday's reports of governmental pressure and calls for a confidence vote, a high-profile resignation could be imminent as a minister seeks to distance themselves or pre-empt a reshuffle today.",
+            "result": "LOST",
+            "settled_at": "2026-11-01"
+        },
+        {
+            "id": "20261031000002",
+            "title": "Will the Scottish First Minister hold an unscheduled press conference today to address internal party dissent within the SNP?",
+            "payout": 1.58,
+            "desc": "Given yesterday's reported calls for an Extraordinary General Meeting and ongoing internal party discussions, the First Minister might feel compelled to directly address the growing unrest and leadership challenges today.",
+            "result": "LOST",
+            "settled_at": "2026-11-01"
+        },
+        {
+            "id": "20261031000003",
+            "title": "Will the Department for Transport (DfT) confirm today that it has scheduled an urgent meeting with rail union leaders for next week?",
+            "payout": 1.36,
+            "desc": "Following yesterday's DfT statement addressing the new rail union strike ballot, and public pressure to de-escalate industrial action, confirming an urgent meeting would be a logical and swift next step to signal willingness to negotiate today.",
+            "result": "WON",
+            "settled_at": "2026-11-01"
+        },
+        {
+            "id": "20261031000004",
+            "title": "Will a G7 nation today announce new targeted sanctions against individuals or entities associated with the conflict in [Fictional State B]?",
+            "payout": 2.38,
+            "desc": "With ongoing international efforts to address burgeoning conflicts and new intelligence frequently emerging, a G7 nation might leverage its economic power to exert immediate pressure following recent escalations in [Fictional State B].",
+            "result": "WON",
+            "settled_at": "2026-11-01"
+        },
+        {
+            "id": "20261031000005",
+            "title": "Will the European Central Bank (ECB) President today make a public statement indicating a potential shift in interest rate policy before the next scheduled meeting?",
+            "payout": 3.8,
+            "desc": "Amidst global economic uncertainty and potential market jitters, the ECB President might choose to provide immediate guidance or signal an upcoming policy adjustment outside of a formal meeting to manage expectations or respond to critical economic data today.",
+            "result": "LOST",
+            "settled_at": "2026-11-01"
         }
     ],
-    "last_update": "2026-10-31 03:28"
+    "last_update": "2026-11-01 03:31"
 }
