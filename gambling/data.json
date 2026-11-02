@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261101000001",
-            "title": "Will the Shadow Chancellor publicly call for an immediate general election during today's morning media rounds?",
+            "id": "20261102000001",
+            "title": "Will the UK Prime Minister today announce a cabinet reshuffle, specifically confirming the departure of at least two current ministers?",
+            "payout": 3.16,
+            "desc": "Persistent speculation regarding government stability and the need to refresh the front bench following recent poor polling makes a reshuffle a strong possibility today, as announcements often follow a weekend of deliberation."
+        },
+        {
+            "id": "20261102000002",
+            "title": "Will the Scottish National Party (SNP) today issue a formal party statement confirming its intention to hold an emergency conference before the end of the year to discuss a new independence strategy?",
+            "payout": 2.11,
+            "desc": "Following renewed debate about the path to independence, internal pressure might lead the SNP leadership to signal a clear plan today, with an emergency conference being a likely next step to address party concerns."
+        },
+        {
+            "id": "20261102000003",
+            "title": "Will Transport for London (TfL) today announce a temporary closure of a significant portion of the Northern Line for emergency engineering works to begin before next week?",
+            "payout": 1.73,
+            "desc": "Unforeseen infrastructure issues, possibly related to recent reports of signal failures or structural concerns, could compel TfL to make an urgent announcement today regarding essential maintenance to mitigate future disruption."
+        },
+        {
+            "id": "20261102000004",
+            "title": "Will the European Commission today release a new draft proposal for an EU-wide carbon border adjustment mechanism (CBAM) expansion?",
             "payout": 2.38,
-            "desc": "Following recent poor government polling and economic indicators, the opposition might seize the opportunity to demand an election today, with the Shadow Chancellor a likely figure to make such a public call."
+            "desc": "With global climate discussions ongoing and renewed political impetus for environmental action, the European Commission might choose today to push forward with an updated or expanded regulatory proposal to deepen its climate commitments."
         },
         {
-            "id": "20261101000002",
-            "title": "Will the Scottish Government today release a new white paper outlining detailed proposals for a second independence referendum?",
-            "payout": 3.8,
-            "desc": "Amidst ongoing debate about Scotland's future and recent calls for clarity from within the SNP, the Scottish Government might choose today to publish a substantive policy document to re-energize its independence campaign."
-        },
-        {
-            "id": "20261101000003",
-            "title": "Will the Department for Transport (DfT) confirm today that the next phase of HS2 (Crewe to Manchester) will face a further delay beyond its current projected timeline?",
-            "payout": 1.58,
-            "desc": "Following persistent speculation about rising costs and logistical challenges, and recent parliamentary scrutiny, the DfT may be forced to officially acknowledge further delays to a key HS2 phase today."
-        },
-        {
-            "id": "20261101000004",
-            "title": "Will the President of France today issue a formal invitation for a European Union leaders' emergency summit to discuss energy security?",
-            "payout": 2.71,
-            "desc": "With winter approaching and ongoing global energy supply concerns, France, a key EU player, might call for an urgent meeting today to coordinate a bloc-wide response to ensure energy stability."
-        },
-        {
-            "id": "20261101000005",
-            "title": "Will the United Nations Security Council (UNSC) today issue a unanimous resolution calling for an immediate and unconditional humanitarian ceasefire in [Fictional State C]?",
-            "payout": 6.33,
-            "desc": "Given escalating humanitarian concerns and international pressure, a renewed diplomatic push might lead to a rare unanimous agreement within the UNSC today, particularly for a humanitarian-focused resolution."
+            "id": "20261102000005",
+            "title": "Will the UN Secretary-General today issue a direct public appeal to all parties in [Fictional State C] to immediately allow unhindered humanitarian access?",
+            "payout": 1.46,
+            "desc": "Given escalating humanitarian concerns in [Fictional State C] and potential stalemates in the Security Council, the UN Secretary-General may take a more direct, public diplomatic step today to advocate for urgent, unimpeded aid delivery."
         }
     ],
     "history": [
@@ -7241,7 +7241,47 @@
             "desc": "Amidst global economic uncertainty and potential market jitters, the ECB President might choose to provide immediate guidance or signal an upcoming policy adjustment outside of a formal meeting to manage expectations or respond to critical economic data today.",
             "result": "LOST",
             "settled_at": "2026-11-01"
+        },
+        {
+            "id": "20261101000001",
+            "title": "Will the Shadow Chancellor publicly call for an immediate general election during today's morning media rounds?",
+            "payout": 2.38,
+            "desc": "Following recent poor government polling and economic indicators, the opposition might seize the opportunity to demand an election today, with the Shadow Chancellor a likely figure to make such a public call.",
+            "result": "LOST",
+            "settled_at": "2026-11-02"
+        },
+        {
+            "id": "20261101000002",
+            "title": "Will the Scottish Government today release a new white paper outlining detailed proposals for a second independence referendum?",
+            "payout": 3.8,
+            "desc": "Amidst ongoing debate about Scotland's future and recent calls for clarity from within the SNP, the Scottish Government might choose today to publish a substantive policy document to re-energize its independence campaign.",
+            "result": "LOST",
+            "settled_at": "2026-11-02"
+        },
+        {
+            "id": "20261101000003",
+            "title": "Will the Department for Transport (DfT) confirm today that the next phase of HS2 (Crewe to Manchester) will face a further delay beyond its current projected timeline?",
+            "payout": 1.58,
+            "desc": "Following persistent speculation about rising costs and logistical challenges, and recent parliamentary scrutiny, the DfT may be forced to officially acknowledge further delays to a key HS2 phase today.",
+            "result": "LOST",
+            "settled_at": "2026-11-02"
+        },
+        {
+            "id": "20261101000004",
+            "title": "Will the President of France today issue a formal invitation for a European Union leaders' emergency summit to discuss energy security?",
+            "payout": 2.71,
+            "desc": "With winter approaching and ongoing global energy supply concerns, France, a key EU player, might call for an urgent meeting today to coordinate a bloc-wide response to ensure energy stability.",
+            "result": "LOST",
+            "settled_at": "2026-11-02"
+        },
+        {
+            "id": "20261101000005",
+            "title": "Will the United Nations Security Council (UNSC) today issue a unanimous resolution calling for an immediate and unconditional humanitarian ceasefire in [Fictional State C]?",
+            "payout": 6.33,
+            "desc": "Given escalating humanitarian concerns and international pressure, a renewed diplomatic push might lead to a rare unanimous agreement within the UNSC today, particularly for a humanitarian-focused resolution.",
+            "result": "LOST",
+            "settled_at": "2026-11-02"
         }
     ],
-    "last_update": "2026-11-01 03:31"
+    "last_update": "2026-11-02 03:39"
 }
