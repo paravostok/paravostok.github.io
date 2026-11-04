@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261103000001",
-            "title": "Will the UK Secretary of State for Health and Social Care today issue a public statement confirming an independent review into recent NHS waiting list data accuracy?",
-            "payout": 2.0,
-            "desc": "Growing public and media scrutiny following recent reports questioning official figures for NHS waiting lists could compel the Secretary of State to announce an independent review today to address concerns and restore public trust."
-        },
-        {
-            "id": "20261103000002",
-            "title": "Will the Scottish Government today officially reject the UK Government's proposed terms for the new Shared Prosperity Fund allocation?",
+            "id": "20261104000001",
+            "title": "Will the Chancellor of the Exchequer today publicly hint at a delay to the planned spring tax cuts amidst new inflation figures?",
             "payout": 1.73,
-            "desc": "Following reports of ongoing disagreements and recent critical comments from Scottish ministers regarding the funding terms, a formal rejection could be announced today to pressure Westminster or clearly delineate their position ahead of further negotiations."
+            "desc": "With the latest inflation figures expected to be released or widely discussed today, the Chancellor may choose to issue a carefully worded statement during a public appearance or interview, hinting at a potential delay to upcoming tax cuts to manage economic expectations."
         },
         {
-            "id": "20261103000003",
-            "title": "Will HS2 Ltd. today announce a revised completion date for the Birmingham-Crewe leg of the project, further delaying the original schedule?",
-            "payout": 1.58,
-            "desc": "Persistent reports of cost overruns and technical challenges on the HS2 project, combined with upcoming parliamentary scrutiny, could prompt an urgent update from HS2 Ltd. today to manage expectations regarding the Birmingham-Crewe leg's timeline."
-        },
-        {
-            "id": "20261103000004",
-            "title": "Will a spokesperson for the US State Department today issue a formal condemnation of recent cyberattacks attributed to [Fictional State D]?",
+            "id": "20261104000002",
+            "title": "Will the First Minister of Scotland today formally request an urgent meeting with the UK Prime Minister to discuss the Shared Prosperity Fund dispute?",
             "payout": 1.36,
-            "desc": "Following escalating international tensions and intelligence reports regarding state-sponsored cyber activity, the US State Department might choose today to publicly condemn actions attributed to [Fictional State D] to deter further aggression or signal a diplomatic response."
+            "desc": "Following yesterday's assumed rejection of the UK Government's Shared Prosperity Fund terms, the Scottish Government is likely to seek an escalation of negotiations. A formal public request for a high-level meeting is a probable next step to maintain pressure."
         },
         {
-            "id": "20261103000005",
-            "title": "Will the G7 group of nations today release a joint statement calling for an immediate and unconditional humanitarian ceasefire in [Fictional State E]?",
-            "payout": 1.9,
-            "desc": "Mounting international pressure and reports of a worsening humanitarian crisis in [Fictional State E] could prompt the G7 to act decisively today, releasing a joint statement after recent closed-door discussions to push for an urgent ceasefire."
+            "id": "20261104000003",
+            "title": "Will the Department for Transport today confirm the cancellation of at least one previously planned local rail improvement scheme as part of a review into infrastructure spending?",
+            "payout": 2.11,
+            "desc": "Ongoing pressures on the national infrastructure budget, exacerbated by major projects like HS2, often lead to 'prioritisation' reviews. The Department for Transport could today confirm a specific cut to manage expectations or reallocate funds."
+        },
+        {
+            "id": "20261104000004",
+            "title": "Will the European Commission today publicly release its highly anticipated provisional findings on the antitrust investigation into [Fictional Tech Giant X]?",
+            "payout": 1.58,
+            "desc": "Sources close to the European Commission have hinted at the imminent release of provisional findings in a high-profile antitrust case. Given the extensive preparatory work, the Commission could choose today to make this significant announcement, impacting global tech markets."
+        },
+        {
+            "id": "20261104000005",
+            "title": "Will the UN Security Council today fail to pass a resolution imposing new sanctions on [Fictional State F] due to a permanent member's veto?",
+            "payout": 1.27,
+            "desc": "A new draft resolution targeting [Fictional State F] is expected to be put to a vote in the UN Security Council today. However, diplomatic observers indicate that at least one permanent member is likely to exercise their veto power, making its passage highly improbable."
         }
     ],
     "history": [
@@ -7321,7 +7321,47 @@
             "desc": "Given escalating humanitarian concerns in [Fictional State C] and potential stalemates in the Security Council, the UN Secretary-General may take a more direct, public diplomatic step today to advocate for urgent, unimpeded aid delivery.",
             "result": "WON",
             "settled_at": "2026-11-03"
+        },
+        {
+            "id": "20261103000001",
+            "title": "Will the UK Secretary of State for Health and Social Care today issue a public statement confirming an independent review into recent NHS waiting list data accuracy?",
+            "payout": 2.0,
+            "desc": "Growing public and media scrutiny following recent reports questioning official figures for NHS waiting lists could compel the Secretary of State to announce an independent review today to address concerns and restore public trust.",
+            "result": "LOST",
+            "settled_at": "2026-11-04"
+        },
+        {
+            "id": "20261103000002",
+            "title": "Will the Scottish Government today officially reject the UK Government's proposed terms for the new Shared Prosperity Fund allocation?",
+            "payout": 1.73,
+            "desc": "Following reports of ongoing disagreements and recent critical comments from Scottish ministers regarding the funding terms, a formal rejection could be announced today to pressure Westminster or clearly delineate their position ahead of further negotiations.",
+            "result": "WON",
+            "settled_at": "2026-11-04"
+        },
+        {
+            "id": "20261103000003",
+            "title": "Will HS2 Ltd. today announce a revised completion date for the Birmingham-Crewe leg of the project, further delaying the original schedule?",
+            "payout": 1.58,
+            "desc": "Persistent reports of cost overruns and technical challenges on the HS2 project, combined with upcoming parliamentary scrutiny, could prompt an urgent update from HS2 Ltd. today to manage expectations regarding the Birmingham-Crewe leg's timeline.",
+            "result": "WON",
+            "settled_at": "2026-11-04"
+        },
+        {
+            "id": "20261103000004",
+            "title": "Will a spokesperson for the US State Department today issue a formal condemnation of recent cyberattacks attributed to [Fictional State D]?",
+            "payout": 1.36,
+            "desc": "Following escalating international tensions and intelligence reports regarding state-sponsored cyber activity, the US State Department might choose today to publicly condemn actions attributed to [Fictional State D] to deter further aggression or signal a diplomatic response.",
+            "result": "WON",
+            "settled_at": "2026-11-04"
+        },
+        {
+            "id": "20261103000005",
+            "title": "Will the G7 group of nations today release a joint statement calling for an immediate and unconditional humanitarian ceasefire in [Fictional State E]?",
+            "payout": 1.9,
+            "desc": "Mounting international pressure and reports of a worsening humanitarian crisis in [Fictional State E] could prompt the G7 to act decisively today, releasing a joint statement after recent closed-door discussions to push for an urgent ceasefire.",
+            "result": "LOST",
+            "settled_at": "2026-11-04"
         }
     ],
-    "last_update": "2026-11-03 04:43"
+    "last_update": "2026-11-04 04:06"
 }
