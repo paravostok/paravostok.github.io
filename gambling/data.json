@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261104000001",
-            "title": "Will the Chancellor of the Exchequer today publicly hint at a delay to the planned spring tax cuts amidst new inflation figures?",
-            "payout": 1.73,
-            "desc": "With the latest inflation figures expected to be released or widely discussed today, the Chancellor may choose to issue a carefully worded statement during a public appearance or interview, hinting at a potential delay to upcoming tax cuts to manage economic expectations."
+            "id": "20261105000001",
+            "title": "Will the Secretary of State for Education today announce a delay to the implementation of the new national curriculum reforms after widespread criticism?",
+            "payout": 2.0,
+            "desc": "With growing pressure from teacher unions and leaked internal reports highlighting practical difficulties, the Secretary of State for Education may choose today to announce a strategic delay to upcoming curriculum reforms to allow for further consultation and amendments."
         },
         {
-            "id": "20261104000002",
-            "title": "Will the First Minister of Scotland today formally request an urgent meeting with the UK Prime Minister to discuss the Shared Prosperity Fund dispute?",
+            "id": "20261105000002",
+            "title": "Will the Scottish Government today publish its long-awaited 'Green Paper' on future energy independence, following recent calls from opposition parties?",
+            "payout": 1.72,
+            "desc": "Following repeated demands from opposition benches for clarity on energy strategy, and with speculation circulating about its completion, the Scottish Government might choose today to officially release its 'Green Paper' detailing plans for future energy independence."
+        },
+        {
+            "id": "20261105000003",
+            "title": "Will a spokesperson for HS2 Ltd today confirm that the latest estimated completion date for Phase 1 (London to West Midlands) has been pushed back beyond 2033?",
+            "payout": 1.46,
+            "desc": "Amidst persistent rumours of further cost overruns and construction challenges, a spokesperson for HS2 Ltd could today be prompted by media inquiries or a parliamentary committee hearing to confirm an updated, later completion estimate for the initial phase of the high-speed rail project."
+        },
+        {
+            "id": "20261105000004",
+            "title": "Will the German Chancellor today publicly endorse the proposed new EU climate carbon tax mechanism during their scheduled press conference?",
             "payout": 1.36,
-            "desc": "Following yesterday's assumed rejection of the UK Government's Shared Prosperity Fund terms, the Scottish Government is likely to seek an escalation of negotiations. A formal public request for a high-level meeting is a probable next step to maintain pressure."
+            "desc": "As negotiations continue on a crucial new EU climate carbon tax mechanism, the German Chancellor, known for their commitment to European integration and climate action, has a scheduled press conference today where they might issue a clear public endorsement to bolster support for the proposal."
         },
         {
-            "id": "20261104000003",
-            "title": "Will the Department for Transport today confirm the cancellation of at least one previously planned local rail improvement scheme as part of a review into infrastructure spending?",
-            "payout": 2.11,
-            "desc": "Ongoing pressures on the national infrastructure budget, exacerbated by major projects like HS2, often lead to 'prioritisation' reviews. The Department for Transport could today confirm a specific cut to manage expectations or reallocate funds."
-        },
-        {
-            "id": "20261104000004",
-            "title": "Will the European Commission today publicly release its highly anticipated provisional findings on the antitrust investigation into [Fictional Tech Giant X]?",
-            "payout": 1.58,
-            "desc": "Sources close to the European Commission have hinted at the imminent release of provisional findings in a high-profile antitrust case. Given the extensive preparatory work, the Commission could choose today to make this significant announcement, impacting global tech markets."
-        },
-        {
-            "id": "20261104000005",
-            "title": "Will the UN Security Council today fail to pass a resolution imposing new sanctions on [Fictional State F] due to a permanent member's veto?",
-            "payout": 1.27,
-            "desc": "A new draft resolution targeting [Fictional State F] is expected to be put to a vote in the UN Security Council today. However, diplomatic observers indicate that at least one permanent member is likely to exercise their veto power, making its passage highly improbable."
+            "id": "20261105000005",
+            "title": "Will the UN Special Envoy for [Fictional Conflict Zone Y] today issue a public statement confirming a commitment from all major parties to attend peace talks next week?",
+            "payout": 2.72,
+            "desc": "After intense behind-the-scenes diplomacy and mounting international pressure, the UN Special Envoy dealing with [Fictional Conflict Zone Y] may make a public statement today to confirm a breakthrough, specifically detailing a firm commitment from all significant warring factions to participate in peace negotiations scheduled for next week."
         }
     ],
     "history": [
@@ -7361,7 +7361,47 @@
             "desc": "Mounting international pressure and reports of a worsening humanitarian crisis in [Fictional State E] could prompt the G7 to act decisively today, releasing a joint statement after recent closed-door discussions to push for an urgent ceasefire.",
             "result": "LOST",
             "settled_at": "2026-11-04"
+        },
+        {
+            "id": "20261104000001",
+            "title": "Will the Chancellor of the Exchequer today publicly hint at a delay to the planned spring tax cuts amidst new inflation figures?",
+            "payout": 1.73,
+            "desc": "With the latest inflation figures expected to be released or widely discussed today, the Chancellor may choose to issue a carefully worded statement during a public appearance or interview, hinting at a potential delay to upcoming tax cuts to manage economic expectations.",
+            "result": "LOST",
+            "settled_at": "2026-11-05"
+        },
+        {
+            "id": "20261104000002",
+            "title": "Will the First Minister of Scotland today formally request an urgent meeting with the UK Prime Minister to discuss the Shared Prosperity Fund dispute?",
+            "payout": 1.36,
+            "desc": "Following yesterday's assumed rejection of the UK Government's Shared Prosperity Fund terms, the Scottish Government is likely to seek an escalation of negotiations. A formal public request for a high-level meeting is a probable next step to maintain pressure.",
+            "result": "WON",
+            "settled_at": "2026-11-05"
+        },
+        {
+            "id": "20261104000003",
+            "title": "Will the Department for Transport today confirm the cancellation of at least one previously planned local rail improvement scheme as part of a review into infrastructure spending?",
+            "payout": 2.11,
+            "desc": "Ongoing pressures on the national infrastructure budget, exacerbated by major projects like HS2, often lead to 'prioritisation' reviews. The Department for Transport could today confirm a specific cut to manage expectations or reallocate funds.",
+            "result": "LOST",
+            "settled_at": "2026-11-05"
+        },
+        {
+            "id": "20261104000004",
+            "title": "Will the European Commission today publicly release its highly anticipated provisional findings on the antitrust investigation into [Fictional Tech Giant X]?",
+            "payout": 1.58,
+            "desc": "Sources close to the European Commission have hinted at the imminent release of provisional findings in a high-profile antitrust case. Given the extensive preparatory work, the Commission could choose today to make this significant announcement, impacting global tech markets.",
+            "result": "WON",
+            "settled_at": "2026-11-05"
+        },
+        {
+            "id": "20261104000005",
+            "title": "Will the UN Security Council today fail to pass a resolution imposing new sanctions on [Fictional State F] due to a permanent member's veto?",
+            "payout": 1.27,
+            "desc": "A new draft resolution targeting [Fictional State F] is expected to be put to a vote in the UN Security Council today. However, diplomatic observers indicate that at least one permanent member is likely to exercise their veto power, making its passage highly improbable.",
+            "result": "WON",
+            "settled_at": "2026-11-05"
         }
     ],
-    "last_update": "2026-11-04 04:06"
+    "last_update": "2026-11-05 04:28"
 }
