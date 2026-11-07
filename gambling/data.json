@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261106000001",
-            "title": "Will a prominent cabinet minister resign from the UK Government today amidst growing speculation regarding their position?",
-            "payout": 2.71,
-            "desc": "Following a week of intense media scrutiny and reports of internal dissent, a high-profile cabinet minister is under increasing pressure. Sources close to Downing Street suggest a decision regarding their future could be announced today to address the ongoing instability."
-        },
-        {
-            "id": "20261106000002",
-            "title": "Will the Scottish National Party (SNP) today formally announce a new date for a second independence referendum bill to be introduced to Holyrood?",
-            "payout": 3.8,
-            "desc": "After recent positive polling figures for independence and renewed calls from the party's grassroots, the SNP leadership has scheduled a press conference for this afternoon. Speculation is rife that they may use this platform to set a definitive timeline for new independence legislation."
-        },
-        {
-            "id": "20261106000003",
-            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed Northern Powerhouse Rail link between Manchester and Leeds, following recent leaked reports?",
-            "payout": 1.58,
-            "desc": "Persistent rumours and recently leaked internal documents have suggested that the government is poised to scrap key sections of the Northern Powerhouse Rail project due to escalating costs. A statement on future infrastructure spending is anticipated from the Department for Transport later today, potentially confirming the cancellation."
-        },
-        {
-            "id": "20261106000004",
-            "title": "Will the European Commission President today publicly announce new sanctions against [Fictional Country Z] during their visit to the European Parliament?",
+            "id": "20261107000001",
+            "title": "Will the Prime Minister's office today announce a mini-reshuffle of junior ministerial positions?",
             "payout": 2.38,
-            "desc": "With tensions escalating rapidly after [Fictional Country Z]'s latest aggressive actions, the European Commission President is scheduled to address the European Parliament this morning. There is strong speculation that she will use this high-profile opportunity to announce a new package of punitive sanctions."
+            "desc": "With recent changes in the cabinet and ongoing parliamentary business, speculation is mounting that the Prime Minister may use today to make several minor adjustments to junior ministerial roles to strengthen the government's backbench support ahead of upcoming legislative challenges."
         },
         {
-            "id": "20261106000005",
-            "title": "Will an official spokesperson for the G7 today issue a joint statement calling for an immediate and unconditional humanitarian ceasefire in [Fictional Conflict Zone W]?",
-            "payout": 1.9,
-            "desc": "Following an emergency G7 meeting held overnight to discuss the worsening humanitarian crisis in [Fictional Conflict Zone W], a joint press briefing has been scheduled for this afternoon. Diplomatic sources suggest a strong, unified call for an immediate and unconditional humanitarian ceasefire is highly probable."
+            "id": "20261107000002",
+            "title": "Will the Scottish First Minister today face a formal vote of no confidence tabled by an opposition party in Holyrood?",
+            "payout": 3.8,
+            "desc": "After yesterday's press conference regarding independence and recent criticism over public service delivery, opposition parties are reportedly holding emergency meetings. There is growing speculation that a vote of no confidence could be tabled today to challenge the First Minister's leadership."
+        },
+        {
+            "id": "20261107000003",
+            "title": "Will the Chancellor of the Exchequer today publicly commit to a new, smaller-scale infrastructure project for the North of England in response to criticism over Northern Powerhouse Rail?",
+            "payout": 1.73,
+            "desc": "In the wake of yesterday's confirmation regarding the Northern Powerhouse Rail cancellation, the government is facing significant backlash. The Chancellor is scheduled to speak at an economic forum this morning, and sources suggest he may attempt to mitigate criticism by announcing a more modest, compensatory infrastructure investment for the region."
+        },
+        {
+            "id": "20261107000004",
+            "title": "Will the spokesperson for the US State Department today issue a statement explicitly condemning [Fictional Country Z]'s recent actions and calling for international unity?",
+            "payout": 1.58,
+            "desc": "Following yesterday's European Parliament address where new sanctions were deferred, diplomatic pressure on [Fictional Country Z] remains high. The US State Department has a scheduled press briefing this afternoon, and analysts expect a strong, unambiguous statement to reinforce international condemnation and encourage a unified response."
+        },
+        {
+            "id": "20261107000005",
+            "title": "Will the UN Security Council today pass a new resolution demanding immediate unfettered humanitarian access to [Fictional Conflict Zone W]?",
+            "payout": 3.17,
+            "desc": "Despite yesterday's G7 statement, the humanitarian situation in [Fictional Conflict Zone W] continues to deteriorate. An emergency meeting of the UN Security Council is scheduled for this morning, and diplomatic efforts are intensely focused on drafting and securing consensus for a resolution demanding urgent and unhindered humanitarian aid."
         }
     ],
     "history": [
@@ -7441,7 +7441,47 @@
             "desc": "After intense behind-the-scenes diplomacy and mounting international pressure, the UN Special Envoy dealing with [Fictional Conflict Zone Y] may make a public statement today to confirm a breakthrough, specifically detailing a firm commitment from all significant warring factions to participate in peace negotiations scheduled for next week.",
             "result": "LOST",
             "settled_at": "2026-11-06"
+        },
+        {
+            "id": "20261106000001",
+            "title": "Will a prominent cabinet minister resign from the UK Government today amidst growing speculation regarding their position?",
+            "payout": 2.71,
+            "desc": "Following a week of intense media scrutiny and reports of internal dissent, a high-profile cabinet minister is under increasing pressure. Sources close to Downing Street suggest a decision regarding their future could be announced today to address the ongoing instability.",
+            "result": "WON",
+            "settled_at": "2026-11-07"
+        },
+        {
+            "id": "20261106000002",
+            "title": "Will the Scottish National Party (SNP) today formally announce a new date for a second independence referendum bill to be introduced to Holyrood?",
+            "payout": 3.8,
+            "desc": "After recent positive polling figures for independence and renewed calls from the party's grassroots, the SNP leadership has scheduled a press conference for this afternoon. Speculation is rife that they may use this platform to set a definitive timeline for new independence legislation.",
+            "result": "LOST",
+            "settled_at": "2026-11-07"
+        },
+        {
+            "id": "20261106000003",
+            "title": "Will the Department for Transport today officially confirm the cancellation of the proposed Northern Powerhouse Rail link between Manchester and Leeds, following recent leaked reports?",
+            "payout": 1.58,
+            "desc": "Persistent rumours and recently leaked internal documents have suggested that the government is poised to scrap key sections of the Northern Powerhouse Rail project due to escalating costs. A statement on future infrastructure spending is anticipated from the Department for Transport later today, potentially confirming the cancellation.",
+            "result": "WON",
+            "settled_at": "2026-11-07"
+        },
+        {
+            "id": "20261106000004",
+            "title": "Will the European Commission President today publicly announce new sanctions against [Fictional Country Z] during their visit to the European Parliament?",
+            "payout": 2.38,
+            "desc": "With tensions escalating rapidly after [Fictional Country Z]'s latest aggressive actions, the European Commission President is scheduled to address the European Parliament this morning. There is strong speculation that she will use this high-profile opportunity to announce a new package of punitive sanctions.",
+            "result": "LOST",
+            "settled_at": "2026-11-07"
+        },
+        {
+            "id": "20261106000005",
+            "title": "Will an official spokesperson for the G7 today issue a joint statement calling for an immediate and unconditional humanitarian ceasefire in [Fictional Conflict Zone W]?",
+            "payout": 1.9,
+            "desc": "Following an emergency G7 meeting held overnight to discuss the worsening humanitarian crisis in [Fictional Conflict Zone W], a joint press briefing has been scheduled for this afternoon. Diplomatic sources suggest a strong, unified call for an immediate and unconditional humanitarian ceasefire is highly probable.",
+            "result": "LOST",
+            "settled_at": "2026-11-07"
         }
     ],
-    "last_update": "2026-11-06 04:25"
+    "last_update": "2026-11-07 03:53"
 }
