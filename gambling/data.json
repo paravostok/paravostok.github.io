@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261109000001",
-            "title": "Will the Secretary of State for Health and Social Care today announce a new specific funding package for social care during their scheduled morning statement to the House of Commons?",
+            "id": "20261110000001",
+            "title": "Will the Prime Minister's official spokesperson today hold an unscheduled press briefing to address concerns over social care funding?",
+            "payout": 2.0,
+            "desc": "Following intense scrutiny and widespread criticism regarding the government's stance on social care funding (as highlighted by yesterday's failed health secretary statement), there is increasing pressure for Number 10 to issue a direct response, with an unscheduled press briefing being a likely format today."
+        },
+        {
+            "id": "20261110000002",
+            "title": "Will a senior Scottish National Party (SNP) figure today publicly call for a leadership contest within the next three months?",
+            "payout": 2.72,
+            "desc": "The political instability surrounding the First Minister continues, with yesterday's implied vote of no confidence adding significant pressure. As internal divisions deepen, a senior party figure may today break ranks and publicly demand a formal leadership challenge to clarify the party's direction."
+        },
+        {
+            "id": "20261110000003",
+            "title": "Will the Department for Transport today announce a new specific date for the publication of the revised Integrated Rail Plan for the North?",
             "payout": 2.38,
-            "desc": "Following intense scrutiny of social care funding and widespread calls for reform, the Secretary of State is scheduled to make a statement to MPs this morning, where new funding commitments could be made to preempt opposition criticism and demonstrate governmental action."
+            "desc": "Despite ongoing pressure to deliver on 'Northern Powerhouse' promises and previous commitments to smaller-scale Northern infrastructure, a wider strategic plan (the Integrated Rail Plan) remains outstanding. Following yesterday's failed consultation announcement, a new official publication date for the revised plan could be announced today to demonstrate progress."
         },
         {
-            "id": "20261109000002",
-            "title": "Will the Scottish National Party (SNP) today confirm that an emergency party conference will be called within the next two weeks to discuss leadership and strategy?",
-            "payout": 2.71,
-            "desc": "Following recent political instability and continued speculation regarding the First Minister's authority and direction (especially after yesterday's implied vote of no confidence), there is significant pressure for the SNP leadership to announce an emergency conference to address internal divisions and future strategy today."
-        },
-        {
-            "id": "20261109000003",
-            "title": "Will the Department for Transport today open a public consultation on the proposed route for the 'Northern Powerhouse Rail West' extension, following recent political pressure?",
+            "id": "20261110000004",
+            "title": "Will Germany today issue a formal travel advisory warning its citizens against non-essential travel to [Fictional Country X]?",
             "payout": 1.73,
-            "desc": "After yesterday's commitment to smaller-scale Northern infrastructure and ongoing political pressure to deliver on 'Northern Powerhouse' promises, opening a public consultation on a specific route for the NPR West extension today would demonstrate immediate progress and address local concerns about transparency and engagement."
+            "desc": "Following overnight reports of escalating military tensions and significant troop movements on the border between Fictional Country X and Fictional Country Y, several European nations are reviewing their security assessments. Germany, with significant economic ties to the region, may today update its travel advice to its citizens as a precautionary measure."
         },
         {
-            "id": "20261109000004",
-            "title": "Will the UN Secretary-General today issue a formal statement condemning the recent military buildup on the border between [Fictional Country X] and [Fictional Country Y]?",
+            "id": "20261110000005",
+            "title": "Will the UN Office for the Coordination of Humanitarian Affairs (OCHA) today confirm that new aid convoys have successfully reached the southern sector of [Fictional Conflict Zone W]?",
             "payout": 1.58,
-            "desc": "Reports of escalating tensions and significant military movements on the border between Country X and Country Y have intensified overnight, leading to international alarm. A formal condemnation from the UN Secretary-General today is highly anticipated as a critical step to de-escalate the volatile situation."
-        },
-        {
-            "id": "20261109000005",
-            "title": "Will a spokesperson for the International Committee of the Red Cross (ICRC) today confirm that a temporary humanitarian corridor has been successfully established in the northern sector of [Fictional Conflict Zone W]?",
-            "payout": 2.11,
-            "desc": "Despite yesterday's UN Security Council resolution demanding immediate humanitarian access to [Fictional Conflict Zone W], challenges persist. However, intense diplomatic efforts by international bodies have been ongoing, and a breakthrough leading to the establishment of a localized, temporary corridor in the northern sector could be confirmed by the ICRC today."
+            "desc": "Despite yesterday's challenges in establishing a northern humanitarian corridor, international diplomatic efforts to deliver aid to [Fictional Conflict Zone W] remain intense. Following the UN Security Council resolution, a breakthrough in the less volatile southern sector might be confirmed by OCHA today, signaling partial success in aid delivery."
         }
     ],
     "history": [
@@ -7561,7 +7561,47 @@
             "desc": "With yesterday's UN Security Council resolution demanding immediate unfettered humanitarian access to [Fictional Conflict Zone W], aid agencies would be primed for rapid deployment. A report of a successful initial entry by the end of today would signal the immediate impact of the resolution, though security challenges could still pose obstacles.",
             "result": "LOST",
             "settled_at": "2026-11-09"
+        },
+        {
+            "id": "20261109000001",
+            "title": "Will the Secretary of State for Health and Social Care today announce a new specific funding package for social care during their scheduled morning statement to the House of Commons?",
+            "payout": 2.38,
+            "desc": "Following intense scrutiny of social care funding and widespread calls for reform, the Secretary of State is scheduled to make a statement to MPs this morning, where new funding commitments could be made to preempt opposition criticism and demonstrate governmental action.",
+            "result": "LOST",
+            "settled_at": "2026-11-10"
+        },
+        {
+            "id": "20261109000002",
+            "title": "Will the Scottish National Party (SNP) today confirm that an emergency party conference will be called within the next two weeks to discuss leadership and strategy?",
+            "payout": 2.71,
+            "desc": "Following recent political instability and continued speculation regarding the First Minister's authority and direction (especially after yesterday's implied vote of no confidence), there is significant pressure for the SNP leadership to announce an emergency conference to address internal divisions and future strategy today.",
+            "result": "LOST",
+            "settled_at": "2026-11-10"
+        },
+        {
+            "id": "20261109000003",
+            "title": "Will the Department for Transport today open a public consultation on the proposed route for the 'Northern Powerhouse Rail West' extension, following recent political pressure?",
+            "payout": 1.73,
+            "desc": "After yesterday's commitment to smaller-scale Northern infrastructure and ongoing political pressure to deliver on 'Northern Powerhouse' promises, opening a public consultation on a specific route for the NPR West extension today would demonstrate immediate progress and address local concerns about transparency and engagement.",
+            "result": "LOST",
+            "settled_at": "2026-11-10"
+        },
+        {
+            "id": "20261109000004",
+            "title": "Will the UN Secretary-General today issue a formal statement condemning the recent military buildup on the border between [Fictional Country X] and [Fictional Country Y]?",
+            "payout": 1.58,
+            "desc": "Reports of escalating tensions and significant military movements on the border between Country X and Country Y have intensified overnight, leading to international alarm. A formal condemnation from the UN Secretary-General today is highly anticipated as a critical step to de-escalate the volatile situation.",
+            "result": "LOST",
+            "settled_at": "2026-11-10"
+        },
+        {
+            "id": "20261109000005",
+            "title": "Will a spokesperson for the International Committee of the Red Cross (ICRC) today confirm that a temporary humanitarian corridor has been successfully established in the northern sector of [Fictional Conflict Zone W]?",
+            "payout": 2.11,
+            "desc": "Despite yesterday's UN Security Council resolution demanding immediate humanitarian access to [Fictional Conflict Zone W], challenges persist. However, intense diplomatic efforts by international bodies have been ongoing, and a breakthrough leading to the establishment of a localized, temporary corridor in the northern sector could be confirmed by the ICRC today.",
+            "result": "LOST",
+            "settled_at": "2026-11-10"
         }
     ],
-    "last_update": "2026-11-09 03:50"
+    "last_update": "2026-11-10 05:25"
 }
