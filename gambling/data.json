@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261110000001",
-            "title": "Will the Prime Minister's official spokesperson today hold an unscheduled press briefing to address concerns over social care funding?",
-            "payout": 2.0,
-            "desc": "Following intense scrutiny and widespread criticism regarding the government's stance on social care funding (as highlighted by yesterday's failed health secretary statement), there is increasing pressure for Number 10 to issue a direct response, with an unscheduled press briefing being a likely format today."
+            "id": "20261111000001",
+            "title": "Will a junior minister in the Department of Health and Social Care today resign from their position following renewed scrutiny on social care funding?",
+            "payout": 2.71,
+            "desc": "Following yesterday's intense public pressure and a potential unscheduled briefing by Number 10 on social care, a junior minister involved in drafting recent controversial policies may face calls to step down, with sources close to the department suggesting internal discussions are underway."
         },
         {
-            "id": "20261110000002",
-            "title": "Will a senior Scottish National Party (SNP) figure today publicly call for a leadership contest within the next three months?",
-            "payout": 2.72,
-            "desc": "The political instability surrounding the First Minister continues, with yesterday's implied vote of no confidence adding significant pressure. As internal divisions deepen, a senior party figure may today break ranks and publicly demand a formal leadership challenge to clarify the party's direction."
-        },
-        {
-            "id": "20261110000003",
-            "title": "Will the Department for Transport today announce a new specific date for the publication of the revised Integrated Rail Plan for the North?",
+            "id": "20261111000002",
+            "title": "Will a Scottish National Party (SNP) MSP today publicly state they are considering leaving the party or becoming an independent MSP?",
             "payout": 2.38,
-            "desc": "Despite ongoing pressure to deliver on 'Northern Powerhouse' promises and previous commitments to smaller-scale Northern infrastructure, a wider strategic plan (the Integrated Rail Plan) remains outstanding. Following yesterday's failed consultation announcement, a new official publication date for the revised plan could be announced today to demonstrate progress."
+            "desc": "Despite yesterday's non-call for a leadership contest, the First Minister's position remains precarious. With deepening internal divisions, there is speculation that a frustrated backbencher or disillusioned frontbencher might today signal their withdrawal of support, potentially through a media statement or social media post."
         },
         {
-            "id": "20261110000004",
-            "title": "Will Germany today issue a formal travel advisory warning its citizens against non-essential travel to [Fictional Country X]?",
-            "payout": 1.73,
-            "desc": "Following overnight reports of escalating military tensions and significant troop movements on the border between Fictional Country X and Fictional Country Y, several European nations are reviewing their security assessments. Germany, with significant economic ties to the region, may today update its travel advice to its citizens as a precautionary measure."
+            "id": "20261111000003",
+            "title": "Will the Department for Transport today confirm the cancellation or significant downsizing of at least one previously approved Northern Powerhouse Rail link?",
+            "payout": 2.11,
+            "desc": "Following the anticipated announcement of a new publication date for the revised Integrated Rail Plan, pressure is mounting for clarity on its scope. With persistent rumours of cost-cutting measures, the government might today pre-emptively confirm difficult decisions regarding specific Northern Powerhouse Rail projects to manage expectations ahead of the full plan."
         },
         {
-            "id": "20261110000005",
-            "title": "Will the UN Office for the Coordination of Humanitarian Affairs (OCHA) today confirm that new aid convoys have successfully reached the southern sector of [Fictional Conflict Zone W]?",
+            "id": "20261111000004",
+            "title": "Will France today issue a formal travel advisory warning its citizens against non-essential travel to [Fictional Country X]?",
             "payout": 1.58,
-            "desc": "Despite yesterday's challenges in establishing a northern humanitarian corridor, international diplomatic efforts to deliver aid to [Fictional Conflict Zone W] remain intense. Following the UN Security Council resolution, a breakthrough in the less volatile southern sector might be confirmed by OCHA today, signaling partial success in aid delivery."
+            "desc": "Following overnight reports of escalating military tensions on the border of Fictional Country X and Y, and Germany's prompt issuing of a travel advisory, other European Union members, particularly those with significant economic and political interests in the region like France, are likely reviewing their own security assessments and may follow suit today."
+        },
+        {
+            "id": "20261111000005",
+            "title": "Will the UN Special Envoy for [Fictional Conflict Zone W] today make a public statement calling for an immediate, temporary humanitarian ceasefire across the entire zone?",
+            "payout": 1.9,
+            "desc": "Despite yesterday's partial success in delivering aid to the southern sector, the overall humanitarian situation in [Fictional Conflict Zone W] remains critical. With ongoing diplomatic efforts and reports of continued fighting in other areas, the UN Special Envoy may today leverage the momentum of the aid delivery to push for a broader, temporary ceasefire for urgent civilian evacuation."
         }
     ],
     "history": [
@@ -7601,7 +7601,47 @@
             "desc": "Despite yesterday's UN Security Council resolution demanding immediate humanitarian access to [Fictional Conflict Zone W], challenges persist. However, intense diplomatic efforts by international bodies have been ongoing, and a breakthrough leading to the establishment of a localized, temporary corridor in the northern sector could be confirmed by the ICRC today.",
             "result": "LOST",
             "settled_at": "2026-11-10"
+        },
+        {
+            "id": "20261110000001",
+            "title": "Will the Prime Minister's official spokesperson today hold an unscheduled press briefing to address concerns over social care funding?",
+            "payout": 2.0,
+            "desc": "Following intense scrutiny and widespread criticism regarding the government's stance on social care funding (as highlighted by yesterday's failed health secretary statement), there is increasing pressure for Number 10 to issue a direct response, with an unscheduled press briefing being a likely format today.",
+            "result": "WON",
+            "settled_at": "2026-11-11"
+        },
+        {
+            "id": "20261110000002",
+            "title": "Will a senior Scottish National Party (SNP) figure today publicly call for a leadership contest within the next three months?",
+            "payout": 2.72,
+            "desc": "The political instability surrounding the First Minister continues, with yesterday's implied vote of no confidence adding significant pressure. As internal divisions deepen, a senior party figure may today break ranks and publicly demand a formal leadership challenge to clarify the party's direction.",
+            "result": "LOST",
+            "settled_at": "2026-11-11"
+        },
+        {
+            "id": "20261110000003",
+            "title": "Will the Department for Transport today announce a new specific date for the publication of the revised Integrated Rail Plan for the North?",
+            "payout": 2.38,
+            "desc": "Despite ongoing pressure to deliver on 'Northern Powerhouse' promises and previous commitments to smaller-scale Northern infrastructure, a wider strategic plan (the Integrated Rail Plan) remains outstanding. Following yesterday's failed consultation announcement, a new official publication date for the revised plan could be announced today to demonstrate progress.",
+            "result": "WON",
+            "settled_at": "2026-11-11"
+        },
+        {
+            "id": "20261110000004",
+            "title": "Will Germany today issue a formal travel advisory warning its citizens against non-essential travel to [Fictional Country X]?",
+            "payout": 1.73,
+            "desc": "Following overnight reports of escalating military tensions and significant troop movements on the border between Fictional Country X and Fictional Country Y, several European nations are reviewing their security assessments. Germany, with significant economic ties to the region, may today update its travel advice to its citizens as a precautionary measure.",
+            "result": "WON",
+            "settled_at": "2026-11-11"
+        },
+        {
+            "id": "20261110000005",
+            "title": "Will the UN Office for the Coordination of Humanitarian Affairs (OCHA) today confirm that new aid convoys have successfully reached the southern sector of [Fictional Conflict Zone W]?",
+            "payout": 1.58,
+            "desc": "Despite yesterday's challenges in establishing a northern humanitarian corridor, international diplomatic efforts to deliver aid to [Fictional Conflict Zone W] remain intense. Following the UN Security Council resolution, a breakthrough in the less volatile southern sector might be confirmed by OCHA today, signaling partial success in aid delivery.",
+            "result": "WON",
+            "settled_at": "2026-11-11"
         }
     ],
-    "last_update": "2026-11-10 05:25"
+    "last_update": "2026-11-11 03:55"
 }
