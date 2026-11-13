@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261111000001",
-            "title": "Will a junior minister in the Department of Health and Social Care today resign from their position following renewed scrutiny on social care funding?",
-            "payout": 2.71,
-            "desc": "Following yesterday's intense public pressure and a potential unscheduled briefing by Number 10 on social care, a junior minister involved in drafting recent controversial policies may face calls to step down, with sources close to the department suggesting internal discussions are underway."
+            "id": "20261113000001",
+            "title": "Will the UK government today announce a new specific date for the next general election?",
+            "payout": 3.17,
+            "desc": "Following yesterday's widespread speculation about an early election and reports of a sudden uptick in party campaigning, Downing Street may decide to end the uncertainty by announcing the date, potentially during a scheduled morning media round or an unexpected afternoon press conference, to seize political momentum."
         },
         {
-            "id": "20261111000002",
-            "title": "Will a Scottish National Party (SNP) MSP today publicly state they are considering leaving the party or becoming an independent MSP?",
-            "payout": 2.38,
-            "desc": "Despite yesterday's non-call for a leadership contest, the First Minister's position remains precarious. With deepening internal divisions, there is speculation that a frustrated backbencher or disillusioned frontbencher might today signal their withdrawal of support, potentially through a media statement or social media post."
+            "id": "20261113000002",
+            "title": "Will the Scottish National Party (SNP) today publicly announce a formal inquiry into leaked party documents?",
+            "payout": 2.24,
+            "desc": "After a series of embarrassing leaks to the press over the past 48 hours, detailing internal party disagreements on independence strategy, the SNP leadership is under pressure to address the breach. A formal statement confirming an internal investigation may be issued today to reassure members and restore party discipline."
         },
         {
-            "id": "20261111000003",
-            "title": "Will the Department for Transport today confirm the cancellation or significant downsizing of at least one previously approved Northern Powerhouse Rail link?",
-            "payout": 2.11,
-            "desc": "Following the anticipated announcement of a new publication date for the revised Integrated Rail Plan, pressure is mounting for clarity on its scope. With persistent rumours of cost-cutting measures, the government might today pre-emptively confirm difficult decisions regarding specific Northern Powerhouse Rail projects to manage expectations ahead of the full plan."
+            "id": "20261113000003",
+            "title": "Will the Department for Transport today confirm new funding for at least two additional 'Active Travel' infrastructure projects (cycling/walking) outside London?",
+            "payout": 1.73,
+            "desc": "With the government keen to highlight its commitment to sustainable transport ahead of next week's environmental summit, and following recent criticism over perceived delays in green infrastructure spending, a quick announcement of new, tangible 'Active Travel' projects for specific regions may be made today to generate positive headlines."
         },
         {
-            "id": "20261111000004",
-            "title": "Will France today issue a formal travel advisory warning its citizens against non-essential travel to [Fictional Country X]?",
-            "payout": 1.58,
-            "desc": "Following overnight reports of escalating military tensions on the border of Fictional Country X and Y, and Germany's prompt issuing of a travel advisory, other European Union members, particularly those with significant economic and political interests in the region like France, are likely reviewing their own security assessments and may follow suit today."
+            "id": "20261113000004",
+            "title": "Will the European Union today impose new targeted sanctions against officials in [Fictional Neighbouring Country B] following reported border incursions into [Fictional EU Member A]?",
+            "payout": 2.01,
+            "desc": "After overnight reports of further incursions and a strongly worded condemnation from [Fictional EU Member A], the EU foreign policy chief is expected to convene an emergency meeting of ambassadors. A decision on new punitive measures against officials in [Fictional Neighbouring Country B] could be announced by the end of the day to demonstrate swift EU action."
         },
         {
-            "id": "20261111000005",
-            "title": "Will the UN Special Envoy for [Fictional Conflict Zone W] today make a public statement calling for an immediate, temporary humanitarian ceasefire across the entire zone?",
-            "payout": 1.9,
-            "desc": "Despite yesterday's partial success in delivering aid to the southern sector, the overall humanitarian situation in [Fictional Conflict Zone W] remains critical. With ongoing diplomatic efforts and reports of continued fighting in other areas, the UN Special Envoy may today leverage the momentum of the aid delivery to push for a broader, temporary ceasefire for urgent civilian evacuation."
+            "id": "20261113000005",
+            "title": "Will a UN Security Council member today veto a draft resolution calling for increased humanitarian aid access to [Fictional War-torn Region C]?",
+            "payout": 2.58,
+            "desc": "Despite overwhelming support from most member states for a draft resolution aimed at facilitating crucial aid to [Fictional War-torn Region C], diplomatic sources indicate that one permanent member has expressed strong reservations regarding the wording, particularly concerning monitoring mechanisms. A vote is reportedly scheduled for later today, raising the possibility of a veto."
         }
     ],
     "history": [
@@ -7641,7 +7641,47 @@
             "desc": "Despite yesterday's challenges in establishing a northern humanitarian corridor, international diplomatic efforts to deliver aid to [Fictional Conflict Zone W] remain intense. Following the UN Security Council resolution, a breakthrough in the less volatile southern sector might be confirmed by OCHA today, signaling partial success in aid delivery.",
             "result": "WON",
             "settled_at": "2026-11-11"
+        },
+        {
+            "id": "20261111000001",
+            "title": "Will a junior minister in the Department of Health and Social Care today resign from their position following renewed scrutiny on social care funding?",
+            "payout": 2.71,
+            "desc": "Following yesterday's intense public pressure and a potential unscheduled briefing by Number 10 on social care, a junior minister involved in drafting recent controversial policies may face calls to step down, with sources close to the department suggesting internal discussions are underway.",
+            "result": "LOST",
+            "settled_at": "2026-11-13"
+        },
+        {
+            "id": "20261111000002",
+            "title": "Will a Scottish National Party (SNP) MSP today publicly state they are considering leaving the party or becoming an independent MSP?",
+            "payout": 2.38,
+            "desc": "Despite yesterday's non-call for a leadership contest, the First Minister's position remains precarious. With deepening internal divisions, there is speculation that a frustrated backbencher or disillusioned frontbencher might today signal their withdrawal of support, potentially through a media statement or social media post.",
+            "result": "LOST",
+            "settled_at": "2026-11-13"
+        },
+        {
+            "id": "20261111000003",
+            "title": "Will the Department for Transport today confirm the cancellation or significant downsizing of at least one previously approved Northern Powerhouse Rail link?",
+            "payout": 2.11,
+            "desc": "Following the anticipated announcement of a new publication date for the revised Integrated Rail Plan, pressure is mounting for clarity on its scope. With persistent rumours of cost-cutting measures, the government might today pre-emptively confirm difficult decisions regarding specific Northern Powerhouse Rail projects to manage expectations ahead of the full plan.",
+            "result": "LOST",
+            "settled_at": "2026-11-13"
+        },
+        {
+            "id": "20261111000004",
+            "title": "Will France today issue a formal travel advisory warning its citizens against non-essential travel to [Fictional Country X]?",
+            "payout": 1.58,
+            "desc": "Following overnight reports of escalating military tensions on the border of Fictional Country X and Y, and Germany's prompt issuing of a travel advisory, other European Union members, particularly those with significant economic and political interests in the region like France, are likely reviewing their own security assessments and may follow suit today.",
+            "result": "LOST",
+            "settled_at": "2026-11-13"
+        },
+        {
+            "id": "20261111000005",
+            "title": "Will the UN Special Envoy for [Fictional Conflict Zone W] today make a public statement calling for an immediate, temporary humanitarian ceasefire across the entire zone?",
+            "payout": 1.9,
+            "desc": "Despite yesterday's partial success in delivering aid to the southern sector, the overall humanitarian situation in [Fictional Conflict Zone W] remains critical. With ongoing diplomatic efforts and reports of continued fighting in other areas, the UN Special Envoy may today leverage the momentum of the aid delivery to push for a broader, temporary ceasefire for urgent civilian evacuation.",
+            "result": "LOST",
+            "settled_at": "2026-11-13"
         }
     ],
-    "last_update": "2026-11-11 03:55"
+    "last_update": "2026-11-13 04:19"
 }
