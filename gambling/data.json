@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261113000001",
-            "title": "Will the UK government today announce a new specific date for the next general election?",
-            "payout": 3.17,
-            "desc": "Following yesterday's widespread speculation about an early election and reports of a sudden uptick in party campaigning, Downing Street may decide to end the uncertainty by announcing the date, potentially during a scheduled morning media round or an unexpected afternoon press conference, to seize political momentum."
+            "id": "20261114000001",
+            "title": "Will the UK Home Secretary today confirm the government's intention to introduce new legislation to tackle anti-social behaviour in today's scheduled departmental briefing?",
+            "payout": 1.58,
+            "desc": "Following recent public concern and pressure from backbench MPs, the Home Secretary is scheduled to hold a departmental briefing this morning. There is widespread speculation that this platform will be used to announce a firm legislative response to rising reports of anti-social behaviour, aiming to signal a tough stance on law and order."
         },
         {
-            "id": "20261113000002",
-            "title": "Will the Scottish National Party (SNP) today publicly announce a formal inquiry into leaked party documents?",
-            "payout": 2.24,
-            "desc": "After a series of embarrassing leaks to the press over the past 48 hours, detailing internal party disagreements on independence strategy, the SNP leadership is under pressure to address the breach. A formal statement confirming an internal investigation may be issued today to reassure members and restore party discipline."
+            "id": "20261114000002",
+            "title": "Will the Scottish Government today publish its long-anticipated response to the independent review of social care provision?",
+            "payout": 2.38,
+            "desc": "The independent review into the future of social care in Scotland was submitted last month, and the government's official response has been keenly awaited by stakeholders and opposition parties. Sources within Holyrood suggest that the finalised response, potentially outlining significant reforms, could be released today to coincide with the end of the parliamentary week."
         },
         {
-            "id": "20261113000003",
-            "title": "Will the Department for Transport today confirm new funding for at least two additional 'Active Travel' infrastructure projects (cycling/walking) outside London?",
-            "payout": 1.73,
-            "desc": "With the government keen to highlight its commitment to sustainable transport ahead of next week's environmental summit, and following recent criticism over perceived delays in green infrastructure spending, a quick announcement of new, tangible 'Active Travel' projects for specific regions may be made today to generate positive headlines."
+            "id": "20261114000003",
+            "title": "Will the Mayor of Greater Manchester today formally announce a new timetable for the expansion of the city's Metrolink tram network, following recent budget approvals?",
+            "payout": 1.9,
+            "desc": "After securing significant regional funding in last month's budget, and with detailed planning complete, the Mayor's office has hinted at an imminent update regarding the Metrolink's expansion. A press conference is scheduled for this afternoon, where the Mayor is expected to unveil concrete dates and phases for the new lines."
         },
         {
-            "id": "20261113000004",
-            "title": "Will the European Union today impose new targeted sanctions against officials in [Fictional Neighbouring Country B] following reported border incursions into [Fictional EU Member A]?",
-            "payout": 2.01,
-            "desc": "After overnight reports of further incursions and a strongly worded condemnation from [Fictional EU Member A], the EU foreign policy chief is expected to convene an emergency meeting of ambassadors. A decision on new punitive measures against officials in [Fictional Neighbouring Country B] could be announced by the end of the day to demonstrate swift EU action."
+            "id": "20261114000004",
+            "title": "Will the International Atomic Energy Agency (IAEA) today issue a new, strongly worded statement expressing 'grave concern' over recent activities at a [Fictional Country X]'s nuclear facility?",
+            "payout": 2.71,
+            "desc": "Following unconfirmed reports this morning regarding accelerated uranium enrichment at [Fictional Country X]'s main nuclear site, and in light of recent satellite imagery analysis, the IAEA Board of Governors is understood to be holding an emergency consultation. A statement expressing heightened concern and calling for immediate transparency is plausible by the end of the day to address international anxieties."
         },
         {
-            "id": "20261113000005",
-            "title": "Will a UN Security Council member today veto a draft resolution calling for increased humanitarian aid access to [Fictional War-torn Region C]?",
-            "payout": 2.58,
-            "desc": "Despite overwhelming support from most member states for a draft resolution aimed at facilitating crucial aid to [Fictional War-torn Region C], diplomatic sources indicate that one permanent member has expressed strong reservations regarding the wording, particularly concerning monitoring mechanisms. A vote is reportedly scheduled for later today, raising the possibility of a veto."
+            "id": "20261114000005",
+            "title": "Will the United Nations Special Envoy for [Fictional Conflict Zone E] today publicly announce the failure of the current round of peace talks and their immediate suspension?",
+            "payout": 2.11,
+            "desc": "After days of intense but reportedly unproductive negotiations in a neutral capital, sources close to the UN Special Envoy indicate that fundamental disagreements between the warring factions in [Fictional Conflict Zone E] remain. With a self-imposed deadline looming, the Special Envoy may make a public statement today confirming the breakdown of talks and their temporary suspension, shifting the focus to alternative diplomatic approaches."
         }
     ],
     "history": [
@@ -7681,7 +7681,47 @@
             "desc": "Despite yesterday's partial success in delivering aid to the southern sector, the overall humanitarian situation in [Fictional Conflict Zone W] remains critical. With ongoing diplomatic efforts and reports of continued fighting in other areas, the UN Special Envoy may today leverage the momentum of the aid delivery to push for a broader, temporary ceasefire for urgent civilian evacuation.",
             "result": "LOST",
             "settled_at": "2026-11-13"
+        },
+        {
+            "id": "20261113000001",
+            "title": "Will the UK government today announce a new specific date for the next general election?",
+            "payout": 3.17,
+            "desc": "Following yesterday's widespread speculation about an early election and reports of a sudden uptick in party campaigning, Downing Street may decide to end the uncertainty by announcing the date, potentially during a scheduled morning media round or an unexpected afternoon press conference, to seize political momentum.",
+            "result": "LOST",
+            "settled_at": "2026-11-14"
+        },
+        {
+            "id": "20261113000002",
+            "title": "Will the Scottish National Party (SNP) today publicly announce a formal inquiry into leaked party documents?",
+            "payout": 2.24,
+            "desc": "After a series of embarrassing leaks to the press over the past 48 hours, detailing internal party disagreements on independence strategy, the SNP leadership is under pressure to address the breach. A formal statement confirming an internal investigation may be issued today to reassure members and restore party discipline.",
+            "result": "WON",
+            "settled_at": "2026-11-14"
+        },
+        {
+            "id": "20261113000003",
+            "title": "Will the Department for Transport today confirm new funding for at least two additional 'Active Travel' infrastructure projects (cycling/walking) outside London?",
+            "payout": 1.73,
+            "desc": "With the government keen to highlight its commitment to sustainable transport ahead of next week's environmental summit, and following recent criticism over perceived delays in green infrastructure spending, a quick announcement of new, tangible 'Active Travel' projects for specific regions may be made today to generate positive headlines.",
+            "result": "WON",
+            "settled_at": "2026-11-14"
+        },
+        {
+            "id": "20261113000004",
+            "title": "Will the European Union today impose new targeted sanctions against officials in [Fictional Neighbouring Country B] following reported border incursions into [Fictional EU Member A]?",
+            "payout": 2.01,
+            "desc": "After overnight reports of further incursions and a strongly worded condemnation from [Fictional EU Member A], the EU foreign policy chief is expected to convene an emergency meeting of ambassadors. A decision on new punitive measures against officials in [Fictional Neighbouring Country B] could be announced by the end of the day to demonstrate swift EU action.",
+            "result": "LOST",
+            "settled_at": "2026-11-14"
+        },
+        {
+            "id": "20261113000005",
+            "title": "Will a UN Security Council member today veto a draft resolution calling for increased humanitarian aid access to [Fictional War-torn Region C]?",
+            "payout": 2.58,
+            "desc": "Despite overwhelming support from most member states for a draft resolution aimed at facilitating crucial aid to [Fictional War-torn Region C], diplomatic sources indicate that one permanent member has expressed strong reservations regarding the wording, particularly concerning monitoring mechanisms. A vote is reportedly scheduled for later today, raising the possibility of a veto.",
+            "result": "WON",
+            "settled_at": "2026-11-14"
         }
     ],
-    "last_update": "2026-11-13 04:19"
+    "last_update": "2026-11-14 04:15"
 }
