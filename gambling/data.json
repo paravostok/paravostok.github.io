@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261115000001",
-            "title": "Will the Secretary of State for Education today announce a delay to the planned implementation of the new national curriculum reforms?",
+            "id": "20261116000001",
+            "title": "Will the Chancellor of the Exchequer today publicly reject calls from backbench MPs to extend the temporary VAT cut beyond the new year?",
             "payout": 1.58,
-            "desc": "Following widespread reports of teacher union opposition, logistical challenges, and leaked concerns from local authorities, the Education Secretary is scheduled to make a statement in Parliament this afternoon. Speculation is mounting that this platform will be used to signal a pragmatic delay to the controversial reforms, initially slated for early next year."
+            "desc": "Following growing pressure from within the Conservative party for continued economic stimulus, the Chancellor is expected to face questions on the fiscal outlook during a Treasury Select Committee hearing this morning. A clear statement rejecting further extensions could be made to reinforce the government's commitment to fiscal discipline."
         },
         {
-            "id": "20261115000002",
-            "title": "Will the First Minister of Scotland today rule out a snap Holyrood election before the end of the year?",
+            "id": "20261116000002",
+            "title": "Will the Scottish Government today confirm a revised timeline for the introduction of the controversial National Care Service legislation?",
             "payout": 1.36,
-            "desc": "Amid recent fluctuating poll numbers and renewed calls from opposition parties for clarity on the government's mandate for key policies, the First Minister is holding a scheduled press conference this morning. Political analysts expect the First Minister to address election timings and potentially offer assurances to stabilize the political landscape."
+            "desc": "Amid continued debate and scrutiny from opposition parties and care sector representatives, the Cabinet Secretary for Health and Social Care is scheduled to appear before a Holyrood committee today. There is anticipation that a statement regarding the legislative timetable, potentially signalling further adjustments or delays, will be made to address concerns about its feasibility."
         },
         {
-            "id": "20261115000003",
-            "title": "Will HS2 Ltd. today formally confirm the award of the final major civil engineering contract for the Birmingham to Crewe leg of the project?",
+            "id": "20261116000003",
+            "title": "Will Transport for London (TfL) today announce a specific date for the full opening of the Bakerloo Line extension to Lewisham?",
             "payout": 1.73,
-            "desc": "After several months of competitive bidding processes and final negotiations, industry sources close to the High Speed 2 project suggest an announcement regarding the key remaining civil engineering contract for the Birmingham to Crewe section is imminent. This could coincide with a Transport Select Committee hearing today, where HS2 progress is a key agenda item."
+            "desc": "After months of final testing and infrastructure checks, speculation has intensified over the past week that the long-awaited Bakerloo Line extension is nearing completion. A senior TfL official is due to give an operational update at a City Hall press conference this afternoon, with many expecting a definitive opening date to be finally confirmed."
         },
         {
-            "id": "20261115000004",
-            "title": "Will the European Commission today publicly propose new sanctions against Belarus following reports of increased border provocations?",
-            "payout": 1.46,
-            "desc": "Following yesterday's emergency meeting of EU foreign ministers and persistent reports of increased migratory pressure and border provocations allegedly orchestrated by Minsk, a draft proposal for escalating EU sanctions against Belarus has reportedly been finalized. An official announcement from Brussels is anticipated today to demonstrate a firm EU response."
+            "id": "20261116000004",
+            "title": "Will the German Finance Minister today publicly signal an increase in the country's defense spending above 2% of GDP for the upcoming fiscal year?",
+            "payout": 2.38,
+            "desc": "Following ongoing discussions within the Bundestag regarding national security and commitments to NATO, the German Finance Minister is scheduled to present preliminary budget figures to a parliamentary committee this morning. Analysts are closely watching for any explicit commitment to exceed the 2% defense spending target, which would mark a significant policy shift."
         },
         {
-            "id": "20261115000005",
-            "title": "Will the UN Security Council today pass a resolution calling for an immediate and unconditional humanitarian ceasefire in [Fictional Conflict Zone F]?",
-            "payout": 2.11,
-            "desc": "After intense diplomatic efforts over the past 48 hours and growing international outcry over a recent surge in civilian casualties, a revised draft resolution incorporating amendments from several key permanent members of the Security Council is scheduled for a vote this afternoon. Despite previous stalemates, there is cautious optimism for its passage today."
+            "id": "20261116000005",
+            "title": "Will the UN Special Envoy for [Fictional Conflict Zone G] today formally announce a new round of peace talks to be held within the next two weeks?",
+            "payout": 2.71,
+            "desc": "Despite continued skirmishes, diplomatic sources indicate that the UN Special Envoy has been engaged in intensive shuttle diplomacy over the weekend, attempting to bridge divides between the warring factions in [Fictional Conflict Zone G]. The Envoy is expected to deliver a briefing to the UN Secretary-General later today, potentially followed by a public statement outlining the next steps towards de-escalation."
         }
     ],
     "history": [
@@ -7761,7 +7761,47 @@
             "desc": "After days of intense but reportedly unproductive negotiations in a neutral capital, sources close to the UN Special Envoy indicate that fundamental disagreements between the warring factions in [Fictional Conflict Zone E] remain. With a self-imposed deadline looming, the Special Envoy may make a public statement today confirming the breakdown of talks and their temporary suspension, shifting the focus to alternative diplomatic approaches.",
             "result": "LOST",
             "settled_at": "2026-11-15"
+        },
+        {
+            "id": "20261115000001",
+            "title": "Will the Secretary of State for Education today announce a delay to the planned implementation of the new national curriculum reforms?",
+            "payout": 1.58,
+            "desc": "Following widespread reports of teacher union opposition, logistical challenges, and leaked concerns from local authorities, the Education Secretary is scheduled to make a statement in Parliament this afternoon. Speculation is mounting that this platform will be used to signal a pragmatic delay to the controversial reforms, initially slated for early next year.",
+            "result": "LOST",
+            "settled_at": "2026-11-16"
+        },
+        {
+            "id": "20261115000002",
+            "title": "Will the First Minister of Scotland today rule out a snap Holyrood election before the end of the year?",
+            "payout": 1.36,
+            "desc": "Amid recent fluctuating poll numbers and renewed calls from opposition parties for clarity on the government's mandate for key policies, the First Minister is holding a scheduled press conference this morning. Political analysts expect the First Minister to address election timings and potentially offer assurances to stabilize the political landscape.",
+            "result": "WON",
+            "settled_at": "2026-11-16"
+        },
+        {
+            "id": "20261115000003",
+            "title": "Will HS2 Ltd. today formally confirm the award of the final major civil engineering contract for the Birmingham to Crewe leg of the project?",
+            "payout": 1.73,
+            "desc": "After several months of competitive bidding processes and final negotiations, industry sources close to the High Speed 2 project suggest an announcement regarding the key remaining civil engineering contract for the Birmingham to Crewe section is imminent. This could coincide with a Transport Select Committee hearing today, where HS2 progress is a key agenda item.",
+            "result": "LOST",
+            "settled_at": "2026-11-16"
+        },
+        {
+            "id": "20261115000004",
+            "title": "Will the European Commission today publicly propose new sanctions against Belarus following reports of increased border provocations?",
+            "payout": 1.46,
+            "desc": "Following yesterday's emergency meeting of EU foreign ministers and persistent reports of increased migratory pressure and border provocations allegedly orchestrated by Minsk, a draft proposal for escalating EU sanctions against Belarus has reportedly been finalized. An official announcement from Brussels is anticipated today to demonstrate a firm EU response.",
+            "result": "WON",
+            "settled_at": "2026-11-16"
+        },
+        {
+            "id": "20261115000005",
+            "title": "Will the UN Security Council today pass a resolution calling for an immediate and unconditional humanitarian ceasefire in [Fictional Conflict Zone F]?",
+            "payout": 2.11,
+            "desc": "After intense diplomatic efforts over the past 48 hours and growing international outcry over a recent surge in civilian casualties, a revised draft resolution incorporating amendments from several key permanent members of the Security Council is scheduled for a vote this afternoon. Despite previous stalemates, there is cautious optimism for its passage today.",
+            "result": "LOST",
+            "settled_at": "2026-11-16"
         }
     ],
-    "last_update": "2026-11-15 04:00"
+    "last_update": "2026-11-16 04:00"
 }
