@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261116000001",
-            "title": "Will the Chancellor of the Exchequer today publicly reject calls from backbench MPs to extend the temporary VAT cut beyond the new year?",
-            "payout": 1.58,
-            "desc": "Following growing pressure from within the Conservative party for continued economic stimulus, the Chancellor is expected to face questions on the fiscal outlook during a Treasury Select Committee hearing this morning. A clear statement rejecting further extensions could be made to reinforce the government's commitment to fiscal discipline."
-        },
-        {
-            "id": "20261116000002",
-            "title": "Will the Scottish Government today confirm a revised timeline for the introduction of the controversial National Care Service legislation?",
+            "id": "20261117000001",
+            "title": "Will the UK Home Secretary today publicly dismiss calls for their resignation amidst new allegations regarding border security failures?",
             "payout": 1.36,
-            "desc": "Amid continued debate and scrutiny from opposition parties and care sector representatives, the Cabinet Secretary for Health and Social Care is scheduled to appear before a Holyrood committee today. There is anticipation that a statement regarding the legislative timetable, potentially signalling further adjustments or delays, will be made to address concerns about its feasibility."
+            "desc": "Following a series of critical reports and renewed pressure from opposition benches, the Home Secretary is scheduled to appear in the House of Commons this afternoon. There is widespread speculation that they will use this opportunity to directly address and dismiss mounting calls for their resignation, seeking to reaffirm their position and the government's strategy."
         },
         {
-            "id": "20261116000003",
-            "title": "Will Transport for London (TfL) today announce a specific date for the full opening of the Bakerloo Line extension to Lewisham?",
-            "payout": 1.73,
-            "desc": "After months of final testing and infrastructure checks, speculation has intensified over the past week that the long-awaited Bakerloo Line extension is nearing completion. A senior TfL official is due to give an operational update at a City Hall press conference this afternoon, with many expecting a definitive opening date to be finally confirmed."
+            "id": "20261117000002",
+            "title": "Will the Scottish Government today announce additional funding for local authorities to tackle rising homelessness?",
+            "payout": 1.58,
+            "desc": "With new statistics highlighting a significant increase in homelessness applications across Scotland, and a planned statement from the Cabinet Secretary for Social Justice, Housing and Local Government, there is strong anticipation of a new funding package or policy announcement today to address the growing crisis."
         },
         {
-            "id": "20261116000004",
-            "title": "Will the German Finance Minister today publicly signal an increase in the country's defense spending above 2% of GDP for the upcoming fiscal year?",
+            "id": "20261117000003",
+            "title": "Will High Speed 2 (HS2) today announce a further delay to the opening of its first phase between London and Birmingham?",
             "payout": 2.38,
-            "desc": "Following ongoing discussions within the Bundestag regarding national security and commitments to NATO, the German Finance Minister is scheduled to present preliminary budget figures to a parliamentary committee this morning. Analysts are closely watching for any explicit commitment to exceed the 2% defense spending target, which would mark a significant policy shift."
+            "desc": "Sources close to the HS2 project have indicated that the company is grappling with unexpected engineering challenges and revised cost projections. A senior official is expected to provide an update to a parliamentary committee this morning, and many observers are bracing for an announcement regarding another adjustment to the project's timeline."
         },
         {
-            "id": "20261116000005",
-            "title": "Will the UN Special Envoy for [Fictional Conflict Zone G] today formally announce a new round of peace talks to be held within the next two weeks?",
-            "payout": 2.71,
-            "desc": "Despite continued skirmishes, diplomatic sources indicate that the UN Special Envoy has been engaged in intensive shuttle diplomacy over the weekend, attempting to bridge divides between the warring factions in [Fictional Conflict Zone G]. The Envoy is expected to deliver a briefing to the UN Secretary-General later today, potentially followed by a public statement outlining the next steps towards de-escalation."
+            "id": "20261117000004",
+            "title": "Will the President of France today publicly commit to a second term during a televised interview?",
+            "payout": 1.19,
+            "desc": "With the next presidential election cycle approaching, and after weeks of hints and speculation, the French President is set to give a major televised interview this evening. Political analysts widely expect a definitive statement regarding their intentions to seek re-election, aiming to quell internal party debates and set the stage for their campaign."
+        },
+        {
+            "id": "20261117000005",
+            "title": "Will the leaders of the two opposing factions in [Fictional Conflict Zone H] today publicly agree to a 72-hour ceasefire?",
+            "payout": 3.17,
+            "desc": "Following intensive diplomatic efforts led by the African Union and mounting international pressure over the humanitarian situation, there are unconfirmed reports of a breakthrough in negotiations. A joint statement from the AU mediator is expected later today, potentially announcing a short-term cessation of hostilities to allow for aid delivery."
         }
     ],
     "history": [
@@ -7801,7 +7801,47 @@
             "desc": "After intense diplomatic efforts over the past 48 hours and growing international outcry over a recent surge in civilian casualties, a revised draft resolution incorporating amendments from several key permanent members of the Security Council is scheduled for a vote this afternoon. Despite previous stalemates, there is cautious optimism for its passage today.",
             "result": "LOST",
             "settled_at": "2026-11-16"
+        },
+        {
+            "id": "20261116000001",
+            "title": "Will the Chancellor of the Exchequer today publicly reject calls from backbench MPs to extend the temporary VAT cut beyond the new year?",
+            "payout": 1.58,
+            "desc": "Following growing pressure from within the Conservative party for continued economic stimulus, the Chancellor is expected to face questions on the fiscal outlook during a Treasury Select Committee hearing this morning. A clear statement rejecting further extensions could be made to reinforce the government's commitment to fiscal discipline.",
+            "result": "WON",
+            "settled_at": "2026-11-17"
+        },
+        {
+            "id": "20261116000002",
+            "title": "Will the Scottish Government today confirm a revised timeline for the introduction of the controversial National Care Service legislation?",
+            "payout": 1.36,
+            "desc": "Amid continued debate and scrutiny from opposition parties and care sector representatives, the Cabinet Secretary for Health and Social Care is scheduled to appear before a Holyrood committee today. There is anticipation that a statement regarding the legislative timetable, potentially signalling further adjustments or delays, will be made to address concerns about its feasibility.",
+            "result": "WON",
+            "settled_at": "2026-11-17"
+        },
+        {
+            "id": "20261116000003",
+            "title": "Will Transport for London (TfL) today announce a specific date for the full opening of the Bakerloo Line extension to Lewisham?",
+            "payout": 1.73,
+            "desc": "After months of final testing and infrastructure checks, speculation has intensified over the past week that the long-awaited Bakerloo Line extension is nearing completion. A senior TfL official is due to give an operational update at a City Hall press conference this afternoon, with many expecting a definitive opening date to be finally confirmed.",
+            "result": "WON",
+            "settled_at": "2026-11-17"
+        },
+        {
+            "id": "20261116000004",
+            "title": "Will the German Finance Minister today publicly signal an increase in the country's defense spending above 2% of GDP for the upcoming fiscal year?",
+            "payout": 2.38,
+            "desc": "Following ongoing discussions within the Bundestag regarding national security and commitments to NATO, the German Finance Minister is scheduled to present preliminary budget figures to a parliamentary committee this morning. Analysts are closely watching for any explicit commitment to exceed the 2% defense spending target, which would mark a significant policy shift.",
+            "result": "LOST",
+            "settled_at": "2026-11-17"
+        },
+        {
+            "id": "20261116000005",
+            "title": "Will the UN Special Envoy for [Fictional Conflict Zone G] today formally announce a new round of peace talks to be held within the next two weeks?",
+            "payout": 2.71,
+            "desc": "Despite continued skirmishes, diplomatic sources indicate that the UN Special Envoy has been engaged in intensive shuttle diplomacy over the weekend, attempting to bridge divides between the warring factions in [Fictional Conflict Zone G]. The Envoy is expected to deliver a briefing to the UN Secretary-General later today, potentially followed by a public statement outlining the next steps towards de-escalation.",
+            "result": "WON",
+            "settled_at": "2026-11-17"
         }
     ],
-    "last_update": "2026-11-16 04:00"
+    "last_update": "2026-11-17 05:52"
 }
