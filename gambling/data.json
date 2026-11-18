@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261117000001",
-            "title": "Will the UK Home Secretary today publicly dismiss calls for their resignation amidst new allegations regarding border security failures?",
-            "payout": 1.36,
-            "desc": "Following a series of critical reports and renewed pressure from opposition benches, the Home Secretary is scheduled to appear in the House of Commons this afternoon. There is widespread speculation that they will use this opportunity to directly address and dismiss mounting calls for their resignation, seeking to reaffirm their position and the government's strategy."
+            "id": "20261118000001",
+            "title": "Will the UK Prime Minister today announce an immediate inquiry into the Home Office's handling of recent border security failures?",
+            "payout": 2.11,
+            "desc": "Following yesterday's dismissal of resignation calls by the Home Secretary, pressure on the Prime Minister is intensifying from opposition leaders and some backbench MPs. An inquiry into the Home Office's handling of recent border security failures is seen as a potential pre-emptive move to regain public trust. A statement or press conference from No. 10 is widely anticipated today."
         },
         {
-            "id": "20261117000002",
-            "title": "Will the Scottish Government today announce additional funding for local authorities to tackle rising homelessness?",
+            "id": "20261118000002",
+            "title": "Will the Scottish Parliament today vote to pass the contentious 'Land Reform (Scotland) Bill' at its final stage?",
             "payout": 1.58,
-            "desc": "With new statistics highlighting a significant increase in homelessness applications across Scotland, and a planned statement from the Cabinet Secretary for Social Justice, Housing and Local Government, there is strong anticipation of a new funding package or policy announcement today to address the growing crisis."
+            "desc": "The final stage debate and vote on the highly debated Land Reform (Scotland) Bill is scheduled for this afternoon in the Scottish Parliament. With slim majorities and intense lobbying from both sides, the outcome remains uncertain, but a definitive vote is expected by the end of today's proceedings."
         },
         {
-            "id": "20261117000003",
-            "title": "Will High Speed 2 (HS2) today announce a further delay to the opening of its first phase between London and Birmingham?",
-            "payout": 2.38,
-            "desc": "Sources close to the HS2 project have indicated that the company is grappling with unexpected engineering challenges and revised cost projections. A senior official is expected to provide an update to a parliamentary committee this morning, and many observers are bracing for an announcement regarding another adjustment to the project's timeline."
+            "id": "20261118000003",
+            "title": "Will Transport for London (TfL) today confirm a delay to the opening of the new Bakerloo Line extension beyond 2030?",
+            "payout": 1.73,
+            "desc": "Rumours have been circulating for weeks regarding significant funding shortfalls and engineering challenges impacting the long-awaited Bakerloo Line extension project. A scheduled update to the TfL Board is happening this morning, where an official announcement regarding the project's revised timeline and a potential further delay is widely expected."
         },
         {
-            "id": "20261117000004",
-            "title": "Will the President of France today publicly commit to a second term during a televised interview?",
-            "payout": 1.19,
-            "desc": "With the next presidential election cycle approaching, and after weeks of hints and speculation, the French President is set to give a major televised interview this evening. Political analysts widely expect a definitive statement regarding their intentions to seek re-election, aiming to quell internal party debates and set the stage for their campaign."
-        },
-        {
-            "id": "20261117000005",
-            "title": "Will the leaders of the two opposing factions in [Fictional Conflict Zone H] today publicly agree to a 72-hour ceasefire?",
+            "id": "20261118000004",
+            "title": "Will the European Central Bank (ECB) today announce an unexpected interest rate hike of at least 25 basis points?",
             "payout": 3.17,
-            "desc": "Following intensive diplomatic efforts led by the African Union and mounting international pressure over the humanitarian situation, there are unconfirmed reports of a breakthrough in negotiations. A joint statement from the AU mediator is expected later today, potentially announcing a short-term cessation of hostilities to allow for aid delivery."
+            "desc": "Despite previous indications of steady rates, unconfirmed reports from financial journalists suggest an emergency meeting of the ECB Governing Council has been called for this morning. Persistent inflation figures across the Eurozone have led to speculation that a surprise move to tighten monetary policy could be announced today."
+        },
+        {
+            "id": "20261118000005",
+            "title": "Will the United Nations Security Council today pass a new resolution calling for increased humanitarian aid access to the [Fictional Conflict Zone H]?",
+            "payout": 1.36,
+            "desc": "Following yesterday's failure to agree on a ceasefire in [Fictional Conflict Zone H], international pressure is mounting for humanitarian action. A draft resolution, backed by several permanent members, is scheduled for a vote in the UNSC this afternoon, aiming to secure unimpeded aid delivery to the affected region."
         }
     ],
     "history": [
@@ -7841,7 +7841,47 @@
             "desc": "Despite continued skirmishes, diplomatic sources indicate that the UN Special Envoy has been engaged in intensive shuttle diplomacy over the weekend, attempting to bridge divides between the warring factions in [Fictional Conflict Zone G]. The Envoy is expected to deliver a briefing to the UN Secretary-General later today, potentially followed by a public statement outlining the next steps towards de-escalation.",
             "result": "WON",
             "settled_at": "2026-11-17"
+        },
+        {
+            "id": "20261117000001",
+            "title": "Will the UK Home Secretary today publicly dismiss calls for their resignation amidst new allegations regarding border security failures?",
+            "payout": 1.36,
+            "desc": "Following a series of critical reports and renewed pressure from opposition benches, the Home Secretary is scheduled to appear in the House of Commons this afternoon. There is widespread speculation that they will use this opportunity to directly address and dismiss mounting calls for their resignation, seeking to reaffirm their position and the government's strategy.",
+            "result": "WON",
+            "settled_at": "2026-11-18"
+        },
+        {
+            "id": "20261117000002",
+            "title": "Will the Scottish Government today announce additional funding for local authorities to tackle rising homelessness?",
+            "payout": 1.58,
+            "desc": "With new statistics highlighting a significant increase in homelessness applications across Scotland, and a planned statement from the Cabinet Secretary for Social Justice, Housing and Local Government, there is strong anticipation of a new funding package or policy announcement today to address the growing crisis.",
+            "result": "WON",
+            "settled_at": "2026-11-18"
+        },
+        {
+            "id": "20261117000003",
+            "title": "Will High Speed 2 (HS2) today announce a further delay to the opening of its first phase between London and Birmingham?",
+            "payout": 2.38,
+            "desc": "Sources close to the HS2 project have indicated that the company is grappling with unexpected engineering challenges and revised cost projections. A senior official is expected to provide an update to a parliamentary committee this morning, and many observers are bracing for an announcement regarding another adjustment to the project's timeline.",
+            "result": "WON",
+            "settled_at": "2026-11-18"
+        },
+        {
+            "id": "20261117000004",
+            "title": "Will the President of France today publicly commit to a second term during a televised interview?",
+            "payout": 1.19,
+            "desc": "With the next presidential election cycle approaching, and after weeks of hints and speculation, the French President is set to give a major televised interview this evening. Political analysts widely expect a definitive statement regarding their intentions to seek re-election, aiming to quell internal party debates and set the stage for their campaign.",
+            "result": "WON",
+            "settled_at": "2026-11-18"
+        },
+        {
+            "id": "20261117000005",
+            "title": "Will the leaders of the two opposing factions in [Fictional Conflict Zone H] today publicly agree to a 72-hour ceasefire?",
+            "payout": 3.17,
+            "desc": "Following intensive diplomatic efforts led by the African Union and mounting international pressure over the humanitarian situation, there are unconfirmed reports of a breakthrough in negotiations. A joint statement from the AU mediator is expected later today, potentially announcing a short-term cessation of hostilities to allow for aid delivery.",
+            "result": "LOST",
+            "settled_at": "2026-11-18"
         }
     ],
-    "last_update": "2026-11-17 05:52"
+    "last_update": "2026-11-18 05:19"
 }
