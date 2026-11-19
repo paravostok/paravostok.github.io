@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261118000001",
-            "title": "Will the UK Prime Minister today announce an immediate inquiry into the Home Office's handling of recent border security failures?",
-            "payout": 2.11,
-            "desc": "Following yesterday's dismissal of resignation calls by the Home Secretary, pressure on the Prime Minister is intensifying from opposition leaders and some backbench MPs. An inquiry into the Home Office's handling of recent border security failures is seen as a potential pre-emptive move to regain public trust. A statement or press conference from No. 10 is widely anticipated today."
+            "id": "20261119000001",
+            "title": "Will the Home Secretary today offer their resignation following yesterday's announcement of an inquiry into border security failures?",
+            "payout": 2.38,
+            "desc": "After the Prime Minister's announcement of an immediate inquiry into Home Office border failures yesterday, speculation is rife regarding the Home Secretary's position. Political commentators are watching closely for any developments today, including potential public statements."
         },
         {
-            "id": "20261118000002",
-            "title": "Will the Scottish Parliament today vote to pass the contentious 'Land Reform (Scotland) Bill' at its final stage?",
-            "payout": 1.58,
-            "desc": "The final stage debate and vote on the highly debated Land Reform (Scotland) Bill is scheduled for this afternoon in the Scottish Parliament. With slim majorities and intense lobbying from both sides, the outcome remains uncertain, but a definitive vote is expected by the end of today's proceedings."
-        },
-        {
-            "id": "20261118000003",
-            "title": "Will Transport for London (TfL) today confirm a delay to the opening of the new Bakerloo Line extension beyond 2030?",
-            "payout": 1.73,
-            "desc": "Rumours have been circulating for weeks regarding significant funding shortfalls and engineering challenges impacting the long-awaited Bakerloo Line extension project. A scheduled update to the TfL Board is happening this morning, where an official announcement regarding the project's revised timeline and a potential further delay is widely expected."
-        },
-        {
-            "id": "20261118000004",
-            "title": "Will the European Central Bank (ECB) today announce an unexpected interest rate hike of at least 25 basis points?",
+            "id": "20261119000002",
+            "title": "Will the Scottish National Party (SNP) today face a formal challenge to its leadership following internal dissent over the recently passed Land Reform Bill?",
             "payout": 3.17,
-            "desc": "Despite previous indications of steady rates, unconfirmed reports from financial journalists suggest an emergency meeting of the ECB Governing Council has been called for this morning. Persistent inflation figures across the Eurozone have led to speculation that a surprise move to tighten monetary policy could be announced today."
+            "desc": "Following yesterday's contentious vote on the Land Reform (Scotland) Bill, reports suggest growing unease within the SNP ranks, particularly from rural constituencies. Observers are awaiting potential statements or actions today that could signal a more formal challenge to party leadership."
         },
         {
-            "id": "20261118000005",
-            "title": "Will the United Nations Security Council today pass a new resolution calling for increased humanitarian aid access to the [Fictional Conflict Zone H]?",
+            "id": "20261119000003",
+            "title": "Will the UK government today confirm that the northern leg of HS2 will be fully scrapped, rather than just paused, in a formal announcement?",
+            "payout": 2.71,
+            "desc": "Amidst ongoing scrutiny of major infrastructure spending and fresh delays to other transport projects, financial analysts are speculating on the long-term future of HS2's northern leg. A government statement or leak today regarding its definitive status is not out of the question."
+        },
+        {
+            "id": "20261119000004",
+            "title": "Will the G20 finance ministers today issue a joint statement expressing 'grave concern' over global inflation rates, following their scheduled meeting?",
             "payout": 1.36,
-            "desc": "Following yesterday's failure to agree on a ceasefire in [Fictional Conflict Zone H], international pressure is mounting for humanitarian action. A draft resolution, backed by several permanent members, is scheduled for a vote in the UNSC this afternoon, aiming to secure unimpeded aid delivery to the affected region."
+            "desc": "The G20 Finance Ministers are holding their plenary session today. With global inflation remaining stubbornly high and central banks grappling with policy, a strong collective statement reflecting their concerns and potential coordinated action is widely anticipated by market observers."
+        },
+        {
+            "id": "20261119000005",
+            "title": "Will the [Fictional Conflict Zone H] opposing military factions today agree to a 24-hour humanitarian ceasefire to allow aid delivery, following the UNSC resolution?",
+            "payout": 1.58,
+            "desc": "Following yesterday's UN Security Council resolution demanding increased humanitarian aid access in [Fictional Conflict Zone H], international mediators are reportedly intensifying efforts to broker a temporary ceasefire. Pressure is mounting on both sides to agree to a short pause in hostilities to facilitate urgent aid delivery, with an announcement potentially imminent."
         }
     ],
     "history": [
@@ -7881,7 +7881,47 @@
             "desc": "Following intensive diplomatic efforts led by the African Union and mounting international pressure over the humanitarian situation, there are unconfirmed reports of a breakthrough in negotiations. A joint statement from the AU mediator is expected later today, potentially announcing a short-term cessation of hostilities to allow for aid delivery.",
             "result": "LOST",
             "settled_at": "2026-11-18"
+        },
+        {
+            "id": "20261118000001",
+            "title": "Will the UK Prime Minister today announce an immediate inquiry into the Home Office's handling of recent border security failures?",
+            "payout": 2.11,
+            "desc": "Following yesterday's dismissal of resignation calls by the Home Secretary, pressure on the Prime Minister is intensifying from opposition leaders and some backbench MPs. An inquiry into the Home Office's handling of recent border security failures is seen as a potential pre-emptive move to regain public trust. A statement or press conference from No. 10 is widely anticipated today.",
+            "result": "WON",
+            "settled_at": "2026-11-19"
+        },
+        {
+            "id": "20261118000002",
+            "title": "Will the Scottish Parliament today vote to pass the contentious 'Land Reform (Scotland) Bill' at its final stage?",
+            "payout": 1.58,
+            "desc": "The final stage debate and vote on the highly debated Land Reform (Scotland) Bill is scheduled for this afternoon in the Scottish Parliament. With slim majorities and intense lobbying from both sides, the outcome remains uncertain, but a definitive vote is expected by the end of today's proceedings.",
+            "result": "WON",
+            "settled_at": "2026-11-19"
+        },
+        {
+            "id": "20261118000003",
+            "title": "Will Transport for London (TfL) today confirm a delay to the opening of the new Bakerloo Line extension beyond 2030?",
+            "payout": 1.73,
+            "desc": "Rumours have been circulating for weeks regarding significant funding shortfalls and engineering challenges impacting the long-awaited Bakerloo Line extension project. A scheduled update to the TfL Board is happening this morning, where an official announcement regarding the project's revised timeline and a potential further delay is widely expected.",
+            "result": "WON",
+            "settled_at": "2026-11-19"
+        },
+        {
+            "id": "20261118000004",
+            "title": "Will the European Central Bank (ECB) today announce an unexpected interest rate hike of at least 25 basis points?",
+            "payout": 3.17,
+            "desc": "Despite previous indications of steady rates, unconfirmed reports from financial journalists suggest an emergency meeting of the ECB Governing Council has been called for this morning. Persistent inflation figures across the Eurozone have led to speculation that a surprise move to tighten monetary policy could be announced today.",
+            "result": "LOST",
+            "settled_at": "2026-11-19"
+        },
+        {
+            "id": "20261118000005",
+            "title": "Will the United Nations Security Council today pass a new resolution calling for increased humanitarian aid access to the [Fictional Conflict Zone H]?",
+            "payout": 1.36,
+            "desc": "Following yesterday's failure to agree on a ceasefire in [Fictional Conflict Zone H], international pressure is mounting for humanitarian action. A draft resolution, backed by several permanent members, is scheduled for a vote in the UNSC this afternoon, aiming to secure unimpeded aid delivery to the affected region.",
+            "result": "WON",
+            "settled_at": "2026-11-19"
         }
     ],
-    "last_update": "2026-11-18 05:19"
+    "last_update": "2026-11-19 05:14"
 }
