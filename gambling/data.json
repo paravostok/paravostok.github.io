@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261119000001",
-            "title": "Will the Home Secretary today offer their resignation following yesterday's announcement of an inquiry into border security failures?",
-            "payout": 2.38,
-            "desc": "After the Prime Minister's announcement of an immediate inquiry into Home Office border failures yesterday, speculation is rife regarding the Home Secretary's position. Political commentators are watching closely for any developments today, including potential public statements."
-        },
-        {
-            "id": "20261119000002",
-            "title": "Will the Scottish National Party (SNP) today face a formal challenge to its leadership following internal dissent over the recently passed Land Reform Bill?",
-            "payout": 3.17,
-            "desc": "Following yesterday's contentious vote on the Land Reform (Scotland) Bill, reports suggest growing unease within the SNP ranks, particularly from rural constituencies. Observers are awaiting potential statements or actions today that could signal a more formal challenge to party leadership."
-        },
-        {
-            "id": "20261119000003",
-            "title": "Will the UK government today confirm that the northern leg of HS2 will be fully scrapped, rather than just paused, in a formal announcement?",
-            "payout": 2.71,
-            "desc": "Amidst ongoing scrutiny of major infrastructure spending and fresh delays to other transport projects, financial analysts are speculating on the long-term future of HS2's northern leg. A government statement or leak today regarding its definitive status is not out of the question."
-        },
-        {
-            "id": "20261119000004",
-            "title": "Will the G20 finance ministers today issue a joint statement expressing 'grave concern' over global inflation rates, following their scheduled meeting?",
-            "payout": 1.36,
-            "desc": "The G20 Finance Ministers are holding their plenary session today. With global inflation remaining stubbornly high and central banks grappling with policy, a strong collective statement reflecting their concerns and potential coordinated action is widely anticipated by market observers."
-        },
-        {
-            "id": "20261119000005",
-            "title": "Will the [Fictional Conflict Zone H] opposing military factions today agree to a 24-hour humanitarian ceasefire to allow aid delivery, following the UNSC resolution?",
+            "id": "20261120000001",
+            "title": "Will a vote of no confidence in the Home Secretary be formally tabled in Parliament today, following yesterday's inquiry announcement?",
             "payout": 1.58,
-            "desc": "Following yesterday's UN Security Council resolution demanding increased humanitarian aid access in [Fictional Conflict Zone H], international mediators are reportedly intensifying efforts to broker a temporary ceasefire. Pressure is mounting on both sides to agree to a short pause in hostilities to facilitate urgent aid delivery, with an announcement potentially imminent."
+            "desc": "Following the Prime Minister's announcement of an immediate inquiry into Home Office border failures yesterday, opposition parties and some government backbenchers are reportedly considering their next moves. A formal motion or statement demanding a vote could emerge today."
+        },
+        {
+            "id": "20261120000002",
+            "title": "Will the Scottish First Minister today address the growing internal dissent over the Land Reform Bill by announcing a cabinet reshuffle?",
+            "payout": 2.71,
+            "desc": "With internal unease in the SNP escalating after yesterday's contentious Land Reform (Scotland) Bill vote, commentators are suggesting the First Minister may seek to consolidate power or placate critics. A snap cabinet reshuffle to bring in new blood or remove dissenting voices could be announced today."
+        },
+        {
+            "id": "20261120000003",
+            "title": "Will the Department for Transport today announce a new 'Northern Connectivity Fund' specifically reallocating funds saved from the scrapped HS2 northern leg?",
+            "payout": 1.36,
+            "desc": "Following yesterday's definitive decision to scrap the northern leg of HS2, pressure will be on the government to demonstrate its commitment to northern infrastructure. An announcement today regarding the immediate reallocation of saved funds into a new initiative is anticipated."
+        },
+        {
+            "id": "20261120000004",
+            "title": "Will the European Central Bank (ECB) today call an unscheduled press conference to announce an emergency interest rate hike, following the G20's 'grave concern' statement?",
+            "payout": 3.8,
+            "desc": "After the G20 finance ministers issued a joint statement yesterday expressing 'grave concern' over global inflation, pressure is mounting on central banks. Analysts are speculating on potential immediate actions, with an unscheduled ECB announcement today not entirely ruled out."
+        },
+        {
+            "id": "20261120000005",
+            "title": "Will UN peacekeepers today report a significant breach of the 24-hour humanitarian ceasefire in [Fictional Conflict Zone H], less than 12 hours after its commencement?",
+            "payout": 1.73,
+            "desc": "While a 24-hour humanitarian ceasefire was welcomed yesterday in [Fictional Conflict Zone H], concerns remain about its longevity. Reports from the ground and UN sources are being closely watched for any indications of violations or a breakdown in the agreement today."
         }
     ],
     "history": [
@@ -7921,7 +7921,47 @@
             "desc": "Following yesterday's failure to agree on a ceasefire in [Fictional Conflict Zone H], international pressure is mounting for humanitarian action. A draft resolution, backed by several permanent members, is scheduled for a vote in the UNSC this afternoon, aiming to secure unimpeded aid delivery to the affected region.",
             "result": "WON",
             "settled_at": "2026-11-19"
+        },
+        {
+            "id": "20261119000001",
+            "title": "Will the Home Secretary today offer their resignation following yesterday's announcement of an inquiry into border security failures?",
+            "payout": 2.38,
+            "desc": "After the Prime Minister's announcement of an immediate inquiry into Home Office border failures yesterday, speculation is rife regarding the Home Secretary's position. Political commentators are watching closely for any developments today, including potential public statements.",
+            "result": "LOST",
+            "settled_at": "2026-11-20"
+        },
+        {
+            "id": "20261119000002",
+            "title": "Will the Scottish National Party (SNP) today face a formal challenge to its leadership following internal dissent over the recently passed Land Reform Bill?",
+            "payout": 3.17,
+            "desc": "Following yesterday's contentious vote on the Land Reform (Scotland) Bill, reports suggest growing unease within the SNP ranks, particularly from rural constituencies. Observers are awaiting potential statements or actions today that could signal a more formal challenge to party leadership.",
+            "result": "LOST",
+            "settled_at": "2026-11-20"
+        },
+        {
+            "id": "20261119000003",
+            "title": "Will the UK government today confirm that the northern leg of HS2 will be fully scrapped, rather than just paused, in a formal announcement?",
+            "payout": 2.71,
+            "desc": "Amidst ongoing scrutiny of major infrastructure spending and fresh delays to other transport projects, financial analysts are speculating on the long-term future of HS2's northern leg. A government statement or leak today regarding its definitive status is not out of the question.",
+            "result": "WON",
+            "settled_at": "2026-11-20"
+        },
+        {
+            "id": "20261119000004",
+            "title": "Will the G20 finance ministers today issue a joint statement expressing 'grave concern' over global inflation rates, following their scheduled meeting?",
+            "payout": 1.36,
+            "desc": "The G20 Finance Ministers are holding their plenary session today. With global inflation remaining stubbornly high and central banks grappling with policy, a strong collective statement reflecting their concerns and potential coordinated action is widely anticipated by market observers.",
+            "result": "WON",
+            "settled_at": "2026-11-20"
+        },
+        {
+            "id": "20261119000005",
+            "title": "Will the [Fictional Conflict Zone H] opposing military factions today agree to a 24-hour humanitarian ceasefire to allow aid delivery, following the UNSC resolution?",
+            "payout": 1.58,
+            "desc": "Following yesterday's UN Security Council resolution demanding increased humanitarian aid access in [Fictional Conflict Zone H], international mediators are reportedly intensifying efforts to broker a temporary ceasefire. Pressure is mounting on both sides to agree to a short pause in hostilities to facilitate urgent aid delivery, with an announcement potentially imminent.",
+            "result": "WON",
+            "settled_at": "2026-11-20"
         }
     ],
-    "last_update": "2026-11-19 05:14"
+    "last_update": "2026-11-20 05:01"
 }
