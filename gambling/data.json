@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261121000001",
-            "title": "Will the Prime Minister today issue a public statement fully reaffirming confidence in the Home Secretary?",
-            "payout": 1.58,
-            "desc": "Following yesterday's announcement of an inquiry into Home Office border failures and reports of potential no-confidence motions, pressure is mounting on the Home Secretary. The Prime Minister may seek to stabilize the situation with a clear statement of support today."
+            "id": "20261122000001",
+            "title": "Will a UK Government Minister (of any rank) today formally announce their resignation or be publicly dismissed by the Prime Minister?",
+            "payout": 2.58,
+            "desc": "Following the announcement of an inquiry into Home Office border failures yesterday and reports of mounting pressure on the Home Secretary, there is speculation that a minister might resign or be asked to step down today to manage political fallout or signal accountability."
         },
         {
-            "id": "20261121000002",
-            "title": "Will a newly appointed Scottish Cabinet Secretary today make their first formal policy announcement or outline new departmental priorities?",
+            "id": "20261122000002",
+            "title": "Will the Scottish National Party (SNP) today confirm that a specific major infrastructure project within Scotland faces new delays beyond its current projected completion date?",
+            "payout": 2.11,
+            "desc": "With a recent Scottish Cabinet reshuffle, new ministers may be conducting reviews of ongoing projects. A major infrastructure project could today be officially confirmed to face further delays as part of a transparency drive or due to unforeseen challenges being reported."
+        },
+        {
+            "id": "20261122000003",
+            "title": "Will the Department for Transport today issue a public statement clarifying the intended scope or governance structure of the new 'Northern Connectivity Fund'?",
+            "payout": 1.46,
+            "desc": "Following yesterday's announcement of the 'Northern Connectivity Fund' but without specific projects, there will be immediate questions about its mechanics. The Department for Transport may seek to provide clarity today on how funding decisions will be made or its overall strategic focus to maintain positive momentum."
+        },
+        {
+            "id": "20261122000004",
+            "title": "Will the Bank of England today release an unscheduled public statement or economic update commenting on global economic stability or inflation risks?",
             "payout": 1.9,
-            "desc": "Following yesterday's Scottish Cabinet reshuffle, new ministers will be keen to make their mark. A key new appointee may deliver an initial statement or announcement today to demonstrate immediate action and set out their agenda."
+            "desc": "After international financial institutions like the IMF and World Bank issued warnings on global economic risks yesterday, central banks globally are under pressure to react. The Bank of England may choose to issue an unscheduled statement today to address these concerns from a UK perspective."
         },
         {
-            "id": "20261121000003",
-            "title": "Will the Department for Transport today announce at least two specific infrastructure projects that will receive funding from the newly established 'Northern Connectivity Fund'?",
-            "payout": 2.38,
-            "desc": "After yesterday's announcement of the 'Northern Connectivity Fund', there will be immediate pressure for tangible details. The Department for Transport may seek to capitalize on positive momentum by identifying initial projects today."
-        },
-        {
-            "id": "20261121000004",
-            "title": "Will either the International Monetary Fund (IMF) or the World Bank today issue a new statement or report highlighting increased downside risks to the global economic outlook?",
-            "payout": 1.36,
-            "desc": "Following the G20 finance ministers' 'grave concern' statement on global inflation yesterday, international financial institutions like the IMF and World Bank are under pressure to provide their assessment. A new warning or updated outlook could be released today."
-        },
-        {
-            "id": "20261121000005",
-            "title": "Will the United Nations Security Council (UNSC) today hold or formally announce an emergency meeting to address the breach of the humanitarian ceasefire in [Fictional Conflict Zone H]?",
-            "payout": 1.19,
-            "desc": "Following reports of a significant breach of the 24-hour humanitarian ceasefire in [Fictional Conflict Zone H] yesterday, international bodies are expected to react. An emergency session of the UN Security Council could be called today to discuss next steps and condemn the violations."
+            "id": "20261122000005",
+            "title": "Will a major humanitarian aid organization operating in [Fictional Conflict Zone H] today issue a public appeal for increased international protection for civilians?",
+            "payout": 1.27,
+            "desc": "Following yesterday's significant breach of the humanitarian ceasefire in [Fictional Conflict Zone H] and subsequent UN Security Council discussions, humanitarian agencies on the ground are likely to be gravely concerned. A public appeal for stronger civilian protection is a probable immediate response today."
         }
     ],
     "history": [
@@ -8001,7 +8001,47 @@
             "desc": "While a 24-hour humanitarian ceasefire was welcomed yesterday in [Fictional Conflict Zone H], concerns remain about its longevity. Reports from the ground and UN sources are being closely watched for any indications of violations or a breakdown in the agreement today.",
             "result": "WON",
             "settled_at": "2026-11-21"
+        },
+        {
+            "id": "20261121000001",
+            "title": "Will the Prime Minister today issue a public statement fully reaffirming confidence in the Home Secretary?",
+            "payout": 1.58,
+            "desc": "Following yesterday's announcement of an inquiry into Home Office border failures and reports of potential no-confidence motions, pressure is mounting on the Home Secretary. The Prime Minister may seek to stabilize the situation with a clear statement of support today.",
+            "result": "LOST",
+            "settled_at": "2026-11-22"
+        },
+        {
+            "id": "20261121000002",
+            "title": "Will a newly appointed Scottish Cabinet Secretary today make their first formal policy announcement or outline new departmental priorities?",
+            "payout": 1.9,
+            "desc": "Following yesterday's Scottish Cabinet reshuffle, new ministers will be keen to make their mark. A key new appointee may deliver an initial statement or announcement today to demonstrate immediate action and set out their agenda.",
+            "result": "WON",
+            "settled_at": "2026-11-22"
+        },
+        {
+            "id": "20261121000003",
+            "title": "Will the Department for Transport today announce at least two specific infrastructure projects that will receive funding from the newly established 'Northern Connectivity Fund'?",
+            "payout": 2.38,
+            "desc": "After yesterday's announcement of the 'Northern Connectivity Fund', there will be immediate pressure for tangible details. The Department for Transport may seek to capitalize on positive momentum by identifying initial projects today.",
+            "result": "LOST",
+            "settled_at": "2026-11-22"
+        },
+        {
+            "id": "20261121000004",
+            "title": "Will either the International Monetary Fund (IMF) or the World Bank today issue a new statement or report highlighting increased downside risks to the global economic outlook?",
+            "payout": 1.36,
+            "desc": "Following the G20 finance ministers' 'grave concern' statement on global inflation yesterday, international financial institutions like the IMF and World Bank are under pressure to provide their assessment. A new warning or updated outlook could be released today.",
+            "result": "WON",
+            "settled_at": "2026-11-22"
+        },
+        {
+            "id": "20261121000005",
+            "title": "Will the United Nations Security Council (UNSC) today hold or formally announce an emergency meeting to address the breach of the humanitarian ceasefire in [Fictional Conflict Zone H]?",
+            "payout": 1.19,
+            "desc": "Following reports of a significant breach of the 24-hour humanitarian ceasefire in [Fictional Conflict Zone H] yesterday, international bodies are expected to react. An emergency session of the UN Security Council could be called today to discuss next steps and condemn the violations.",
+            "result": "WON",
+            "settled_at": "2026-11-22"
         }
     ],
-    "last_update": "2026-11-21 04:56"
+    "last_update": "2026-11-22 04:17"
 }
