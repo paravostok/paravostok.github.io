@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261122000001",
-            "title": "Will a UK Government Minister (of any rank) today formally announce their resignation or be publicly dismissed by the Prime Minister?",
-            "payout": 2.58,
-            "desc": "Following the announcement of an inquiry into Home Office border failures yesterday and reports of mounting pressure on the Home Secretary, there is speculation that a minister might resign or be asked to step down today to manage political fallout or signal accountability."
+            "id": "20261123000001",
+            "title": "Will the Labour Party today formally call for a vote of no confidence in the Home Secretary following recent border failures?",
+            "payout": 1.58,
+            "desc": "Following yesterday's announcement of an inquiry into Home Office border failures, and with growing opposition criticism, the Labour Party may today escalate their demands by formally calling for a vote of no confidence in the Home Secretary to maximize political pressure."
         },
         {
-            "id": "20261122000002",
-            "title": "Will the Scottish National Party (SNP) today confirm that a specific major infrastructure project within Scotland faces new delays beyond its current projected completion date?",
-            "payout": 2.11,
-            "desc": "With a recent Scottish Cabinet reshuffle, new ministers may be conducting reviews of ongoing projects. A major infrastructure project could today be officially confirmed to face further delays as part of a transparency drive or due to unforeseen challenges being reported."
-        },
-        {
-            "id": "20261122000003",
-            "title": "Will the Department for Transport today issue a public statement clarifying the intended scope or governance structure of the new 'Northern Connectivity Fund'?",
-            "payout": 1.46,
-            "desc": "Following yesterday's announcement of the 'Northern Connectivity Fund' but without specific projects, there will be immediate questions about its mechanics. The Department for Transport may seek to provide clarity today on how funding decisions will be made or its overall strategic focus to maintain positive momentum."
-        },
-        {
-            "id": "20261122000004",
-            "title": "Will the Bank of England today release an unscheduled public statement or economic update commenting on global economic stability or inflation risks?",
+            "id": "20261123000002",
+            "title": "Will the Scottish Government today announce a new independent review into the spiralling costs of a specific major infrastructure project (e.g., A9 dualling, ferries)?",
             "payout": 1.9,
-            "desc": "After international financial institutions like the IMF and World Bank issued warnings on global economic risks yesterday, central banks globally are under pressure to react. The Bank of England may choose to issue an unscheduled statement today to address these concerns from a UK perspective."
+            "desc": "Following recent media scrutiny over escalating budgets for major Scottish infrastructure projects, particularly in the wake of a Cabinet reshuffle, the Scottish Government may today announce a new independent review to reassure the public and assert control over spending."
         },
         {
-            "id": "20261122000005",
-            "title": "Will a major humanitarian aid organization operating in [Fictional Conflict Zone H] today issue a public appeal for increased international protection for civilians?",
-            "payout": 1.27,
-            "desc": "Following yesterday's significant breach of the humanitarian ceasefire in [Fictional Conflict Zone H] and subsequent UN Security Council discussions, humanitarian agencies on the ground are likely to be gravely concerned. A public appeal for stronger civilian protection is a probable immediate response today."
+            "id": "20261123000003",
+            "title": "Will the Department for Transport today confirm that a specific high-profile regional rail upgrade will be accelerated under the new 'Northern Connectivity Fund'?",
+            "payout": 2.38,
+            "desc": "Following yesterday's announcement and today's clarification of the 'Northern Connectivity Fund', the Department for Transport may seek to capitalize on positive momentum by today confirming an acceleration for a specific, high-profile regional rail upgrade project, demonstrating immediate impact."
+        },
+        {
+            "id": "20261123000004",
+            "title": "Will the President of the European Commission today issue a public statement outlining potential new emergency measures to stabilize European energy markets?",
+            "payout": 1.73,
+            "desc": "With winter approaching and concerns over energy security persisting across Europe, the President of the European Commission may today issue a public statement outlining potential new emergency measures or calling for urgent collective action to stabilize energy markets."
+        },
+        {
+            "id": "20261123000005",
+            "title": "Will the UN Secretary-General today call for an emergency meeting of the Security Council specifically to address the escalating situation in [Fictional Conflict Zone H]?",
+            "payout": 1.46,
+            "desc": "Following yesterday's significant breach of the humanitarian ceasefire in [Fictional Conflict Zone H] and the subsequent calls for civilian protection, the UN Secretary-General may today announce an urgent request for an emergency Security Council meeting to address the rapidly deteriorating situation."
         }
     ],
     "history": [
@@ -8041,7 +8041,47 @@
             "desc": "Following reports of a significant breach of the 24-hour humanitarian ceasefire in [Fictional Conflict Zone H] yesterday, international bodies are expected to react. An emergency session of the UN Security Council could be called today to discuss next steps and condemn the violations.",
             "result": "WON",
             "settled_at": "2026-11-22"
+        },
+        {
+            "id": "20261122000001",
+            "title": "Will a UK Government Minister (of any rank) today formally announce their resignation or be publicly dismissed by the Prime Minister?",
+            "payout": 2.58,
+            "desc": "Following the announcement of an inquiry into Home Office border failures yesterday and reports of mounting pressure on the Home Secretary, there is speculation that a minister might resign or be asked to step down today to manage political fallout or signal accountability.",
+            "result": "LOST",
+            "settled_at": "2026-11-23"
+        },
+        {
+            "id": "20261122000002",
+            "title": "Will the Scottish National Party (SNP) today confirm that a specific major infrastructure project within Scotland faces new delays beyond its current projected completion date?",
+            "payout": 2.11,
+            "desc": "With a recent Scottish Cabinet reshuffle, new ministers may be conducting reviews of ongoing projects. A major infrastructure project could today be officially confirmed to face further delays as part of a transparency drive or due to unforeseen challenges being reported.",
+            "result": "LOST",
+            "settled_at": "2026-11-23"
+        },
+        {
+            "id": "20261122000003",
+            "title": "Will the Department for Transport today issue a public statement clarifying the intended scope or governance structure of the new 'Northern Connectivity Fund'?",
+            "payout": 1.46,
+            "desc": "Following yesterday's announcement of the 'Northern Connectivity Fund' but without specific projects, there will be immediate questions about its mechanics. The Department for Transport may seek to provide clarity today on how funding decisions will be made or its overall strategic focus to maintain positive momentum.",
+            "result": "WON",
+            "settled_at": "2026-11-23"
+        },
+        {
+            "id": "20261122000004",
+            "title": "Will the Bank of England today release an unscheduled public statement or economic update commenting on global economic stability or inflation risks?",
+            "payout": 1.9,
+            "desc": "After international financial institutions like the IMF and World Bank issued warnings on global economic risks yesterday, central banks globally are under pressure to react. The Bank of England may choose to issue an unscheduled statement today to address these concerns from a UK perspective.",
+            "result": "LOST",
+            "settled_at": "2026-11-23"
+        },
+        {
+            "id": "20261122000005",
+            "title": "Will a major humanitarian aid organization operating in [Fictional Conflict Zone H] today issue a public appeal for increased international protection for civilians?",
+            "payout": 1.27,
+            "desc": "Following yesterday's significant breach of the humanitarian ceasefire in [Fictional Conflict Zone H] and subsequent UN Security Council discussions, humanitarian agencies on the ground are likely to be gravely concerned. A public appeal for stronger civilian protection is a probable immediate response today.",
+            "result": "WON",
+            "settled_at": "2026-11-23"
         }
     ],
-    "last_update": "2026-11-22 04:17"
+    "last_update": "2026-11-23 04:56"
 }
