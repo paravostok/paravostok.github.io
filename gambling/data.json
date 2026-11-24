@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261123000001",
-            "title": "Will the Labour Party today formally call for a vote of no confidence in the Home Secretary following recent border failures?",
-            "payout": 1.58,
-            "desc": "Following yesterday's announcement of an inquiry into Home Office border failures, and with growing opposition criticism, the Labour Party may today escalate their demands by formally calling for a vote of no confidence in the Home Secretary to maximize political pressure."
+            "id": "20261124000001",
+            "title": "Will a junior minister from the Home Office resign or be dismissed today following ongoing border failures controversy?",
+            "payout": 2.71,
+            "desc": "With the Home Secretary under increasing pressure regarding recent border failures and an inquiry announced, there is growing speculation that a junior minister might be made to take responsibility or step down today to mitigate broader political damage and attempt to draw a line under the issue."
         },
         {
-            "id": "20261123000002",
-            "title": "Will the Scottish Government today announce a new independent review into the spiralling costs of a specific major infrastructure project (e.g., A9 dualling, ferries)?",
-            "payout": 1.9,
-            "desc": "Following recent media scrutiny over escalating budgets for major Scottish infrastructure projects, particularly in the wake of a Cabinet reshuffle, the Scottish Government may today announce a new independent review to reassure the public and assert control over spending."
-        },
-        {
-            "id": "20261123000003",
-            "title": "Will the Department for Transport today confirm that a specific high-profile regional rail upgrade will be accelerated under the new 'Northern Connectivity Fund'?",
+            "id": "20261124000002",
+            "title": "Will the Scottish Labour Party today table a formal motion of no confidence against a specific Scottish Government cabinet secretary (e.g., Finance or Transport)?",
             "payout": 2.38,
-            "desc": "Following yesterday's announcement and today's clarification of the 'Northern Connectivity Fund', the Department for Transport may seek to capitalize on positive momentum by today confirming an acceleration for a specific, high-profile regional rail upgrade project, demonstrating immediate impact."
+            "desc": "After the Scottish Government's announcement yesterday of a new independent review into spiralling infrastructure costs, opposition parties, particularly Scottish Labour, may seek to capitalize on public dissatisfaction by today tabling a formal motion of no confidence against a relevant Cabinet Secretary to maximize political pressure."
         },
         {
-            "id": "20261123000004",
-            "title": "Will the President of the European Commission today issue a public statement outlining potential new emergency measures to stabilize European energy markets?",
-            "payout": 1.73,
-            "desc": "With winter approaching and concerns over energy security persisting across Europe, the President of the European Commission may today issue a public statement outlining potential new emergency measures or calling for urgent collective action to stabilize energy markets."
+            "id": "20261124000003",
+            "title": "Will the Department for Transport today announce the tender process for the first major contract under the new 'Northern Connectivity Fund'?",
+            "payout": 1.9,
+            "desc": "Following yesterday's confirmation of accelerated regional rail upgrades under the 'Northern Connectivity Fund', the Department for Transport may seek to demonstrate immediate tangible progress by today launching the tender process for a significant contract, signaling rapid implementation."
         },
         {
-            "id": "20261123000005",
-            "title": "Will the UN Secretary-General today call for an emergency meeting of the Security Council specifically to address the escalating situation in [Fictional Conflict Zone H]?",
-            "payout": 1.46,
-            "desc": "Following yesterday's significant breach of the humanitarian ceasefire in [Fictional Conflict Zone H] and the subsequent calls for civilian protection, the UN Secretary-General may today announce an urgent request for an emergency Security Council meeting to address the rapidly deteriorating situation."
+            "id": "20261124000004",
+            "title": "Will the German Chancellor today propose a new, specific bilateral energy supply agreement with a non-EU country (e.g., Norway or Canada)?",
+            "payout": 3.17,
+            "desc": "With winter approaching and European energy security a persistent concern, Germany, as a major consumer, may today seek to shore up its long-term supply by proposing a new bilateral energy agreement with a stable non-EU supplier, particularly if broader EU-wide measures remain under discussion."
+        },
+        {
+            "id": "20261124000005",
+            "title": "Will a permanent member of the UN Security Council today veto a draft resolution related to the escalating situation in [Fictional Conflict Zone H]?",
+            "payout": 2.11,
+            "desc": "Following yesterday's call by the UN Secretary-General for an emergency Security Council meeting regarding [Fictional Conflict Zone H], it is highly probable that a draft resolution will be put forward. Given historical precedents and geopolitical divisions surrounding similar conflicts, a veto from a permanent member could occur today during or immediately after such a meeting."
         }
     ],
     "history": [
@@ -8081,7 +8081,47 @@
             "desc": "Following yesterday's significant breach of the humanitarian ceasefire in [Fictional Conflict Zone H] and subsequent UN Security Council discussions, humanitarian agencies on the ground are likely to be gravely concerned. A public appeal for stronger civilian protection is a probable immediate response today.",
             "result": "WON",
             "settled_at": "2026-11-23"
+        },
+        {
+            "id": "20261123000001",
+            "title": "Will the Labour Party today formally call for a vote of no confidence in the Home Secretary following recent border failures?",
+            "payout": 1.58,
+            "desc": "Following yesterday's announcement of an inquiry into Home Office border failures, and with growing opposition criticism, the Labour Party may today escalate their demands by formally calling for a vote of no confidence in the Home Secretary to maximize political pressure.",
+            "result": "LOST",
+            "settled_at": "2026-11-24"
+        },
+        {
+            "id": "20261123000002",
+            "title": "Will the Scottish Government today announce a new independent review into the spiralling costs of a specific major infrastructure project (e.g., A9 dualling, ferries)?",
+            "payout": 1.9,
+            "desc": "Following recent media scrutiny over escalating budgets for major Scottish infrastructure projects, particularly in the wake of a Cabinet reshuffle, the Scottish Government may today announce a new independent review to reassure the public and assert control over spending.",
+            "result": "WON",
+            "settled_at": "2026-11-24"
+        },
+        {
+            "id": "20261123000003",
+            "title": "Will the Department for Transport today confirm that a specific high-profile regional rail upgrade will be accelerated under the new 'Northern Connectivity Fund'?",
+            "payout": 2.38,
+            "desc": "Following yesterday's announcement and today's clarification of the 'Northern Connectivity Fund', the Department for Transport may seek to capitalize on positive momentum by today confirming an acceleration for a specific, high-profile regional rail upgrade project, demonstrating immediate impact.",
+            "result": "WON",
+            "settled_at": "2026-11-24"
+        },
+        {
+            "id": "20261123000004",
+            "title": "Will the President of the European Commission today issue a public statement outlining potential new emergency measures to stabilize European energy markets?",
+            "payout": 1.73,
+            "desc": "With winter approaching and concerns over energy security persisting across Europe, the President of the European Commission may today issue a public statement outlining potential new emergency measures or calling for urgent collective action to stabilize energy markets.",
+            "result": "LOST",
+            "settled_at": "2026-11-24"
+        },
+        {
+            "id": "20261123000005",
+            "title": "Will the UN Secretary-General today call for an emergency meeting of the Security Council specifically to address the escalating situation in [Fictional Conflict Zone H]?",
+            "payout": 1.46,
+            "desc": "Following yesterday's significant breach of the humanitarian ceasefire in [Fictional Conflict Zone H] and the subsequent calls for civilian protection, the UN Secretary-General may today announce an urgent request for an emergency Security Council meeting to address the rapidly deteriorating situation.",
+            "result": "WON",
+            "settled_at": "2026-11-24"
         }
     ],
-    "last_update": "2026-11-23 04:56"
+    "last_update": "2026-11-24 07:44"
 }
