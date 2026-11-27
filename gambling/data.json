@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261126001",
-            "title": "Will the Prime Minister today face a direct challenge to their leadership via a formal letter of no confidence being submitted to the 1922 Committee?",
+            "id": "20261127001",
+            "title": "Will a cabinet minister resign from the UK Government today following yesterday's contentious vote on the Online Safety Bill?",
             "payout": 3.8,
-            "desc": "Following yesterday's contentious vote on the Online Safety Bill and increasing backbench discontent, speculation is rife that a disgruntled MP might today initiate a leadership challenge, potentially to gauge support or escalate pressure on the PM."
+            "desc": "Following yesterday's fraught parliamentary session and widespread backbench criticism over the Online Safety Bill, speculation is mounting that a minister, perhaps in a department directly impacted or seen as disloyal, might step down to preempt a sacking or signal their discontent. An announcement could come before the end of the working day."
         },
         {
-            "id": "20261126002",
-            "title": "Will the Scottish Government today publish its long-awaited white paper on future environmental regulations for the North Sea oil and gas industry?",
+            "id": "20261127002",
+            "title": "Will the Scottish National Party (SNP) today officially announce the date for its spring party conference?",
             "payout": 1.58,
-            "desc": "With COP31 preparations ramping up and environmental groups demanding action, the Scottish Government has been under pressure to outline its post-transition plans. There are whispers of a possible release today to preempt further criticism at the upcoming weekly briefing."
+            "desc": "With the political calendar firming up and major policy discussions underway, the SNP is expected to set its internal agenda. An announcement regarding the date and venue for their crucial spring conference is often made at the end of the week, with party sources hinting at a possible release today."
         },
         {
-            "id": "20261126003",
-            "title": "Will the Department for Transport today confirm the allocation of additional emergency funding to address the ongoing disruption on the Northern Rail network?",
-            "payout": 1.36,
-            "desc": "Severe infrastructure failures and persistent delays have plagued Northern Rail for weeks, leading to public outcry. Sources suggest a high-level meeting is scheduled for today, with an announcement on immediate financial support expected to mitigate the crisis."
+            "id": "20261127003",
+            "title": "Will the Department for Transport today formally announce a further delay to Phase 2b of the HS2 project?",
+            "payout": 1.27,
+            "desc": "Ongoing reports of budgetary overruns and logistical challenges have plagued the HS2 project. With a scheduled update to select MPs today and increasing pressure from the Treasury, sources suggest the Department for Transport might confirm further delays to the eastern leg of Phase 2b by close of play."
         },
         {
-            "id": "20261126004",
-            "title": "Will the G7 nations today issue a joint statement condemning the recent military actions by [Fictional Rogue State] in the South China Sea?",
-            "payout": 1.19,
-            "desc": "Following yesterday's emergency virtual meeting called by the US, G7 leaders are reportedly close to agreeing on a unified response to escalating tensions. A joint statement, possibly including new sanctions warnings, is anticipated by the end of the day."
+            "id": "20261127004",
+            "title": "Will the United Nations Security Council today vote on a resolution proposed by the US regarding military actions in the South China Sea?",
+            "payout": 1.73,
+            "desc": "Following the G7's joint statement yesterday condemning [Fictional Rogue State]'s actions, the US has reportedly fast-tracked a draft resolution to the UNSC. Diplomatic sources indicate intense negotiations overnight, and a vote is considered plausible today to maintain international pressure."
         },
         {
-            "id": "20261126005",
-            "title": "Will the warring factions in [Fictional Conflict Zone II] today agree to a temporary localized ceasefire in the city of [Fictional City Name] to allow humanitarian aid?",
-            "payout": 2.38,
-            "desc": "Following intense diplomatic efforts and the collapse of a previous ceasefire, international mediators are making a renewed push for a limited cessation of hostilities in a besieged urban area. Reports indicate that local commanders are under pressure to accept a deal today to alleviate a critical food shortage."
+            "id": "20261127005",
+            "title": "Will the International Red Cross today confirm the successful evacuation of civilians from a designated humanitarian corridor in [Fictional Conflict Zone II]?",
+            "payout": 2.71,
+            "desc": "Despite the failure of a broader ceasefire, negotiations for localized humanitarian corridors have continued. Aid agencies, including the IRC, have been making preparations for a limited window today to move civilians out of [Fictional City Name], with a confirmation expected if the operation proceeds as planned."
         }
     ],
     "history": [
@@ -8201,7 +8201,47 @@
             "desc": "Amid reports of a worsening humanitarian crisis and blocked aid convoys in [Fictional Conflict Zone I], the UN Special Envoy, who arrived in the region yesterday, is under immense pressure to facilitate aid access and is expected to make a significant statement today, likely calling for a temporary cessation of fighting to allow for critical supplies.",
             "result": "WON",
             "settled_at": "2026-11-26"
+        },
+        {
+            "id": "20261126001",
+            "title": "Will the Prime Minister today face a direct challenge to their leadership via a formal letter of no confidence being submitted to the 1922 Committee?",
+            "payout": 3.8,
+            "desc": "Following yesterday's contentious vote on the Online Safety Bill and increasing backbench discontent, speculation is rife that a disgruntled MP might today initiate a leadership challenge, potentially to gauge support or escalate pressure on the PM.",
+            "result": "LOST",
+            "settled_at": "2026-11-27"
+        },
+        {
+            "id": "20261126002",
+            "title": "Will the Scottish Government today publish its long-awaited white paper on future environmental regulations for the North Sea oil and gas industry?",
+            "payout": 1.58,
+            "desc": "With COP31 preparations ramping up and environmental groups demanding action, the Scottish Government has been under pressure to outline its post-transition plans. There are whispers of a possible release today to preempt further criticism at the upcoming weekly briefing.",
+            "result": "WON",
+            "settled_at": "2026-11-27"
+        },
+        {
+            "id": "20261126003",
+            "title": "Will the Department for Transport today confirm the allocation of additional emergency funding to address the ongoing disruption on the Northern Rail network?",
+            "payout": 1.36,
+            "desc": "Severe infrastructure failures and persistent delays have plagued Northern Rail for weeks, leading to public outcry. Sources suggest a high-level meeting is scheduled for today, with an announcement on immediate financial support expected to mitigate the crisis.",
+            "result": "WON",
+            "settled_at": "2026-11-27"
+        },
+        {
+            "id": "20261126004",
+            "title": "Will the G7 nations today issue a joint statement condemning the recent military actions by [Fictional Rogue State] in the South China Sea?",
+            "payout": 1.19,
+            "desc": "Following yesterday's emergency virtual meeting called by the US, G7 leaders are reportedly close to agreeing on a unified response to escalating tensions. A joint statement, possibly including new sanctions warnings, is anticipated by the end of the day.",
+            "result": "WON",
+            "settled_at": "2026-11-27"
+        },
+        {
+            "id": "20261126005",
+            "title": "Will the warring factions in [Fictional Conflict Zone II] today agree to a temporary localized ceasefire in the city of [Fictional City Name] to allow humanitarian aid?",
+            "payout": 2.38,
+            "desc": "Following intense diplomatic efforts and the collapse of a previous ceasefire, international mediators are making a renewed push for a limited cessation of hostilities in a besieged urban area. Reports indicate that local commanders are under pressure to accept a deal today to alleviate a critical food shortage.",
+            "result": "LOST",
+            "settled_at": "2026-11-27"
         }
     ],
-    "last_update": "2026-11-26 06:08"
+    "last_update": "2026-11-27 05:58"
 }
