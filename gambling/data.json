@@ -1,34 +1,34 @@
 {
     "current_events": [
         {
-            "id": "20261127001",
-            "title": "Will a cabinet minister resign from the UK Government today following yesterday's contentious vote on the Online Safety Bill?",
-            "payout": 3.8,
-            "desc": "Following yesterday's fraught parliamentary session and widespread backbench criticism over the Online Safety Bill, speculation is mounting that a minister, perhaps in a department directly impacted or seen as disloyal, might step down to preempt a sacking or signal their discontent. An announcement could come before the end of the working day."
+            "id": "20261128001",
+            "title": "Will the Labour Party today officially call for an emergency debate in Parliament next week regarding the Online Safety Bill?",
+            "payout": 1.46,
+            "desc": "Following yesterday's contentious vote and internal government strife over the Online Safety Bill, the opposition Labour Party is under pressure to capitalize. An announcement demanding an emergency debate could be made today to maintain political pressure over the weekend."
         },
         {
-            "id": "20261127002",
-            "title": "Will the Scottish National Party (SNP) today officially announce the date for its spring party conference?",
-            "payout": 1.58,
-            "desc": "With the political calendar firming up and major policy discussions underway, the SNP is expected to set its internal agenda. An announcement regarding the date and venue for their crucial spring conference is often made at the end of the week, with party sources hinting at a possible release today."
-        },
-        {
-            "id": "20261127003",
-            "title": "Will the Department for Transport today formally announce a further delay to Phase 2b of the HS2 project?",
+            "id": "20261128002",
+            "title": "Will the First Minister of Scotland today release a public statement criticizing the UK Government's handling of yesterday's Online Safety Bill vote?",
             "payout": 1.27,
-            "desc": "Ongoing reports of budgetary overruns and logistical challenges have plagued the HS2 project. With a scheduled update to select MPs today and increasing pressure from the Treasury, sources suggest the Department for Transport might confirm further delays to the eastern leg of Phase 2b by close of play."
+            "desc": "With the UK Online Safety Bill having faced significant controversy, the Scottish Government, often keen to highlight divergence from Westminster, may issue a statement today, a Saturday, to assert its position and appeal to its base."
         },
         {
-            "id": "20261127004",
-            "title": "Will the United Nations Security Council today vote on a resolution proposed by the US regarding military actions in the South China Sea?",
-            "payout": 1.73,
-            "desc": "Following the G7's joint statement yesterday condemning [Fictional Rogue State]'s actions, the US has reportedly fast-tracked a draft resolution to the UNSC. Diplomatic sources indicate intense negotiations overnight, and a vote is considered plausible today to maintain international pressure."
+            "id": "20261128003",
+            "title": "Will a major UK newspaper today publish an exclusive leak detailing the new revised timeline for HS2 Phase 2b following yesterday's internal briefing?",
+            "payout": 1.36,
+            "desc": "After yesterday's anticipated internal update to MPs on HS2 Phase 2b delays, it's highly plausible that details, including a new timeline, could be leaked to a prominent newspaper over the weekend, aiming to be published in tomorrow's Sunday editions or as a breaking online story today."
         },
         {
-            "id": "20261127005",
-            "title": "Will the International Red Cross today confirm the successful evacuation of civilians from a designated humanitarian corridor in [Fictional Conflict Zone II]?",
-            "payout": 2.71,
-            "desc": "Despite the failure of a broader ceasefire, negotiations for localized humanitarian corridors have continued. Aid agencies, including the IRC, have been making preparations for a limited window today to move civilians out of [Fictional City Name], with a confirmation expected if the operation proceeds as planned."
+            "id": "20261128004",
+            "title": "Will the US State Department today issue a formal condemnation of the UN Security Council's failure to vote on its South China Sea resolution?",
+            "payout": 1.19,
+            "desc": "Following the UN Security Council's failure to vote on the US-proposed resolution yesterday, Washington will be keen to project strength and dissatisfaction. A formal condemnation or a statement expressing regret and vowing continued action is highly likely to be issued today."
+        },
+        {
+            "id": "20261128005",
+            "title": "Will the UN Office for the Coordination of Humanitarian Affairs (OCHA) today release an updated humanitarian appeal for [Fictional Conflict Zone II]?",
+            "payout": 1.58,
+            "desc": "Given the ongoing conflict and yesterday's reported failure of an evacuation effort, international bodies like OCHA are often quick to highlight escalating needs. An updated humanitarian appeal, possibly increasing funding targets or detailing new challenges, could be issued today to draw urgent attention to the crisis."
         }
     ],
     "history": [
@@ -8241,7 +8241,47 @@
             "desc": "Following intense diplomatic efforts and the collapse of a previous ceasefire, international mediators are making a renewed push for a limited cessation of hostilities in a besieged urban area. Reports indicate that local commanders are under pressure to accept a deal today to alleviate a critical food shortage.",
             "result": "LOST",
             "settled_at": "2026-11-27"
+        },
+        {
+            "id": "20261127001",
+            "title": "Will a cabinet minister resign from the UK Government today following yesterday's contentious vote on the Online Safety Bill?",
+            "payout": 3.8,
+            "desc": "Following yesterday's fraught parliamentary session and widespread backbench criticism over the Online Safety Bill, speculation is mounting that a minister, perhaps in a department directly impacted or seen as disloyal, might step down to preempt a sacking or signal their discontent. An announcement could come before the end of the working day.",
+            "result": "LOST",
+            "settled_at": "2026-11-28"
+        },
+        {
+            "id": "20261127002",
+            "title": "Will the Scottish National Party (SNP) today officially announce the date for its spring party conference?",
+            "payout": 1.58,
+            "desc": "With the political calendar firming up and major policy discussions underway, the SNP is expected to set its internal agenda. An announcement regarding the date and venue for their crucial spring conference is often made at the end of the week, with party sources hinting at a possible release today.",
+            "result": "WON",
+            "settled_at": "2026-11-28"
+        },
+        {
+            "id": "20261127003",
+            "title": "Will the Department for Transport today formally announce a further delay to Phase 2b of the HS2 project?",
+            "payout": 1.27,
+            "desc": "Ongoing reports of budgetary overruns and logistical challenges have plagued the HS2 project. With a scheduled update to select MPs today and increasing pressure from the Treasury, sources suggest the Department for Transport might confirm further delays to the eastern leg of Phase 2b by close of play.",
+            "result": "WON",
+            "settled_at": "2026-11-28"
+        },
+        {
+            "id": "20261127004",
+            "title": "Will the United Nations Security Council today vote on a resolution proposed by the US regarding military actions in the South China Sea?",
+            "payout": 1.73,
+            "desc": "Following the G7's joint statement yesterday condemning [Fictional Rogue State]'s actions, the US has reportedly fast-tracked a draft resolution to the UNSC. Diplomatic sources indicate intense negotiations overnight, and a vote is considered plausible today to maintain international pressure.",
+            "result": "LOST",
+            "settled_at": "2026-11-28"
+        },
+        {
+            "id": "20261127005",
+            "title": "Will the International Red Cross today confirm the successful evacuation of civilians from a designated humanitarian corridor in [Fictional Conflict Zone II]?",
+            "payout": 2.71,
+            "desc": "Despite the failure of a broader ceasefire, negotiations for localized humanitarian corridors have continued. Aid agencies, including the IRC, have been making preparations for a limited window today to move civilians out of [Fictional City Name], with a confirmation expected if the operation proceeds as planned.",
+            "result": "LOST",
+            "settled_at": "2026-11-28"
         }
     ],
-    "last_update": "2026-11-27 05:58"
+    "last_update": "2026-11-28 05:40"
 }
